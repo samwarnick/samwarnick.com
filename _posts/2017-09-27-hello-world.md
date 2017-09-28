@@ -69,7 +69,7 @@ override var isHighlighted: Bool {
 }
 ~~~
 
-~~~ sass
+~~~ scss
 body {
   margin: 0;
   padding: 0;
