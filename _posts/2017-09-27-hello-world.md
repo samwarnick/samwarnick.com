@@ -17,7 +17,7 @@ Hello, world!
 </div>
 ~~~
 
-~~~ javascript linenos
+~~~ javascript
 /**
  * Does a thing
  */
