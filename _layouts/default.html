@@ -6,6 +6,21 @@
   <link rel="stylesheet" href="/css/main.css" />
 </head>
 <body>
-  {{ content }}
+  <div class="container">
+    <header class="site-header">
+      <h1>Sam Warnick</h1>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">Me</a></li>
+          <li><a href="/projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    {{ content }}
+    <footer class="site-footer">
+      Copyright 2017 Sam Warnick
+    </footer>
+  </div>
 </body>
 </html>
