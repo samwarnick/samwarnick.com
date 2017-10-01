@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/samwarnick
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://samwarnick.com
+  * I am samwarnick (https://keybase.io/samwarnick) on keybase.
+  * I have a public key with fingerprint 832B 1123 1466 F2AF 09CC  2BA1 C976 F5BC F57A 5870
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101708aaa6196570f094c94419829b0f4df96d95ffe8a1897acce01119bbf9b55600a",
+      "fingerprint": "832b11231466f2af09cc2ba1c976f5bcf57a5870",
+      "host": "keybase.io",
+      "key_id": "c976f5bcf57a5870",
+      "kid": "0101708aaa6196570f094c94419829b0f4df96d95ffe8a1897acce01119bbf9b55600a",
+      "uid": "d435e48f99ba692adca71b70fa2a5c19",
+      "username": "samwarnick"
+    },
+    "service": {
+      "hostname": "samwarnick.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1506867383,
+  "expire_in": 157680000,
+  "prev": "9daf69a854dc65c429dd0f2010133e97bac5a34832461bcacab0e2c2dd17da38",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.74
+Comment: https://keybase.io/crypto
+
+yMNAAnicrZJtUFRVGMd3RaAQhTCYiQLr7qLgINz3lwWNGJEUyWFiTEjbOffce5fr
+wu6ye3dBVkpzLMfGCZmMmqQARyJDpwIG1JWESZe0qIbJWcSXeJkM5S0DkiGse5n6
+VB87X86c5/z/v/M8z3m+Wh6kC9N/7ZnxzVTscOivdn3g1hV8/6Ddi/B2YQ9i8iJW
+cXETiwXRpZitsoCYEBRDMQZlAQA0xtEUg0ooR0KOJDGOxTkelUhB4miBoyRJZAHG
+cgyAUEQxDON4XuJ4iqJRFCDJiCTbLKLT4ZRtioplCZzHMJzASJqWcKBCIcR5gEGO
+oSWKhxLFAIplUNVYZHdpDjU5HrjEFNmuxtSDeTG9/9D/z3m7F3ECSVAiyUocxwOa
+w4EAAYPxKhXggIIYpwldotMGSkRV7QIlZcBpk6EVqUxG1LhHhqLWWq2Wf2lSoL1E
+9TucdsUO7cXqXZGiOEyaVdnj0LRlIm/+m2LmZZugtlI1eESnS7bbEBOmKqEia1iM
+QmmWZgiWSEbEcofsFM2ypqAYmkXVpT0jelQkJwCJ5gBLkQKkKUjinCCgEq61jSBE
+juEBpABBqv9E0hgPAQQ8KuIQFwSMEQDBIlpdpTa7yibVPIFFK0m22IDidopIZXfX
+zqU6fZguJHiJNmO6sEcj/5m8luFI3VubK7aOD71+jXv7zyuNSYP8g6YnGn5adubc
+JSUtYvWOhJDpWnLoj6Tf4oOSb9Shcf4TnbuzDCmjVemR8X2m2TeaF2KWmgV/a17u
+3ZFN45vY6BT3QHFloqFHr7u6fmNTAfW7D9sWMx2U5yxvvTCXkbt9W3YZv//uqdwM
+9zMB/UjUdNqq0ciJEy95UnOsisV/3rr/HTg635FBD6zUDbT0L7wQHNrfPpO/4eWT
+1wOppRf3MT833lr74pu76PvHrIdqApNxiY9UP0bMtcqHC08u6c05mzXa85qz++hK
+b6Zvurxv77PGwX6fbOpOuz1MTL3XdfYCOjY11v/hRPPt6Kct3ssbYp7annnqVqVu
+7s6yYccvgcGRXcZv6MLxKJ/yaaxuZHkBGvdu3Sd9k+liWsWW51Y8nt5ifPLc4dDj
+2Z7eG2s6G/QbqYsH56uDjVXNpir/OkNpdoTh2lrvTv+CSCbQPx7deizcu8USElGT
+PFnuvhIQ6vpPe49P1Rau6TszVYNTgY70O/Pv198cez6t/vTY9fybNU1O9HJtb0Pn
+kXWh1SGeYt/kCn9sVFFpHlW/avaV4s9ycizw0qvx5EPm47ap+/mprqGsiGj2/L0D
+g0nfFmFRbbtHZ42fJ2Su/iL8ow7sSHj3r4lfxv6wmepZWNhX7zrQaBwjcifaxIdy
+e+t399aXGkL2ph5snv0LhlzHaw==
+=DFVg
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/samwarnick
+
+==================================================================
