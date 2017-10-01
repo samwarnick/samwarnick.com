@@ -6,9 +6,15 @@ title: Sam Warnick
   {% for post in site.posts %}
     <div class="post">
       <h2 class="post-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-      <p class="post-date">{{ post.date | date_to_string }}</p>
+      <time class="post-date">{{ post.date | date_to_string }}</time>
       <div class="post-excerpt">
-        {{ post.excerpt | strip_html | truncatewords:75 }}
+        <p>
+          {% if post.description %}
+            {{ post.description }}
+          {% else %}
+            {{ post.excerpt | strip_html | truncatewords:75 }}
+          {% endif %}
+        </p>
       </div>
     </div>
   {% endfor %}
