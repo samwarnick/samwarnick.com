@@ -4,9 +4,32 @@ title: Sam Warnick
 ---
 <div class="posts-container">
   {% for post in site.posts %}
-    <div>
-      <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-      <span>{{ post.date | date_to_string }}</span>
+    <div class="post">
+      <h2 class="post-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+      <p class="post-date">{{ post.date | date_to_string }}</p>
+      <div class="post-excerpt">
+        {{ post.excerpt | strip_html | truncatewords:75 }}
+      </div>
     </div>
   {% endfor %}
+</div>
+
+<div class="about-me-container">
+  <section class="about-me">
+    <picture class="picture">
+      <source 
+        media="(min-width: 768px)" 
+        srcset="{{ "/assets/img/profile_full.png"}} 1x, 
+        {{ "assets/img/profile_full@2x.png" | relative_url }} 2x, 
+        {{"/assets/img/profile_full@3x.png" | relative_url }} 3x">
+      <img 
+        srcset="{{ "/assets/img/profile_inset.png" | relative_url }} 1x, 
+        {{ "/assets/img/profile_inset@2x.png" | relative_url }} 2x, 
+        {{ "/assets/img/profile_inset@3x.png" | relative_url }} 3x" 
+        src="{{ "/assets/img/profile_inset.png"}}" alt="Sam Warnick">
+    </picture>
+    <p class="text">
+      Howdy! I'm <strong>Sam Warnick</strong>. I'm a recent graduate in computer science working as a software developer in Utah. I like LEGO, I <i class="far fa-heart"></i> my family, and of course programming.
+    </p>
+  </section>
 </div>

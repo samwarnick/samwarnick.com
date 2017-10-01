@@ -1,11 +1,21 @@
 name: Sam Warnick
+author: Sam Warnick
+title: Sam Warnick
+description: The personal blog of Sam Warnick
+url: samwarnick.github.io
+logo: /assets/img/profile_inset@3x.png
+twitter:
+  username: samwarnick
+social:
+  name: Sam Warnick
+  links:
+    - https://twitter.com/samwarnick
+    - https://www.linkedin.com/in/samwarnick
+    - https://github.com/samwarnick
+    - https://keybase.io/samwarnick
 markdown: kramdown
-
-kramdown:
-  syntax_highlighter_opts:
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+permalink: /:year/:month/:title
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-gist

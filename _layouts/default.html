@@ -2,26 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}" />
-  <link rel="stylesheet" href="{{ "/css/syntax.css" | relative_url }}" />
+  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400|Open+Sans:400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+  <script src="{{ "/assets/js/brands.min.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/regular.min.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/fontawesome.min.js" | relative_url }}"></script>
 </head>
 <body>
   <div class="container">
-    <header class="site-header">
-      <div class="logo-container">
-        <a href="/">{% include logo.html %}</a>
-      </div>
-      
-      <nav class="site-nav">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">Me</a></li>
-          <li><a href="/projects">Projects</a></li>
-        </ul>
-      </nav>
-    </header>
-    {{ content }}
+    <div class="header-container">
+        <header class="site-header">
+          <div class="logo-container">
+            <a href="/">{% include logo.html %}</a>
+          </div>
+          
+          <nav class="site-nav">
+            <ul>
+              <li class="navigation-item"><a href="/">Home</a></li>
+              <!-- <li class="navigation-item"><a href="/about">Me</a></li> -->
+              <!-- <li class="navigation-item"><a href="/projects">Projects</a></li> -->
+              <li class="social-item">
+                <a href="https://twitter.com/samwarnick" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="https://codepen.io/samwarnick/" target="_blank">
+                  <i class="fab fa-codepen"></i>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="https://github.com/samwarnick" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+    </div>
+    <div class="main-content">
+      {{ content }}
+    </div>
     <footer class="site-footer">
       Copyright 2017 Sam Warnick
     </footer>

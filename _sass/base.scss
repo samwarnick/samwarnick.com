@@ -1,11 +1,93 @@
+@import "mixins";
+@import "colors";
+
+$sans-serif-stack: 'Open Sans', sans-serif;
+$mono-stack: 'Anonymous Pro', monospace;
+
 html {
-  font-size: 62.5%;
+  font: {
+    size: 62.5%;
+  }
+  font-family: $sans-serif-stack;
 }
 
+html, body {
+  background: #ffffff;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $mono-stack;
+  line-height: 1.1em;
+
+  a {
+    @include underline($primary-gradient);
+    color: #000000;
+    text-decoration: none;
+  }
+}
+
+p, pre, code {
+  line-height: 1.4em;
+}
+
+h1 {
+  font-size: 4.78rem;
+
+  @media (max-width: 600px) {
+    font-size: 3.58rem;
+  }
+}
+
+h2 {
+  font-size: 3.98rem;
+
+  @media (max-width: 600px) {
+    font-size: 2.99rem;
+  }
+}
+
+h3 {
+  font-size: 3.32rem;
+
+  @media (max-width: 600px) {
+    font-size: 2.49rem;
+  }
+}
+
+h4 {
+  font-size: 2.76rem;
+
+  @media (max-width: 600px) {
+    font-size: 2.07rem;
+  }
+}
+
+h5 {
+  font-size: 2.3rem;
+
+  @media (max-width: 600px) {
+    font-size: 1.73rem;
+  }
+}
+
+h6 {
+  font-size: 1.92rem;
+
+  @media (max-width: 600px) {
+    font-size: 1.44rem;
+  }
+}
 
 p {
   font-size: 1.6rem;
+
+  @media (max-width: 600px) {
+    font-size: 1.4rem;
+  }
+}
+
+pre, code {
+  font-family: $mono-stack;
 }
 
 body {
@@ -15,8 +97,63 @@ body {
 
 .container {
   height: 100%;
-  width: 100%; 
+  min-height: 100vh;
   display: grid;
-  grid-template-rows: 10rem 1fr 2.4rem;
-  justify-items: center;
+  grid-template-rows: 10rem 1fr 3.6rem;
+  padding: 0 20px;
+
+  @media (max-width: 600px) {
+    // padding: 0;
+  }
+}
+
+.main-content {
+  width: 100%;
+}
+
+.site-footer {
+  border-top: 1px solid #000000;
+  font-family: $mono-stack;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.about-me-container {
+  display: flex;
+  margin-top: 4.8rem;
+  justify-content: center;
+  border-top: 1px solid black;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  padding: 2.4rem 0;
+  max-width: 600px;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+
+  .picture {
+    height: 150px;
+    width: 150px;
+    margin-right: 24px;
+
+    img {
+      border-radius: 50%;
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  .text {
+    flex-grow: 1;
+
+    strong {
+      font-family: $mono-stack;
+    }
+  }
 }
