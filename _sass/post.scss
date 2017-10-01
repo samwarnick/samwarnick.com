@@ -1,0 +1,62 @@
+$mono-stack: 'Anonymous Pro', monospace;
+
+.post {
+  width: 100%;
+  max-width: 750px;
+  margin-left: 4rem;
+  margin-bottom: 3.6rem;
+
+  li {
+    font-size: 1.6rem;
+    line-height: 1.4em;
+  }
+
+  a {
+    @include underline($primary-gradient);
+    color: #000000;
+    text-decoration: none;
+  }
+
+  @media (max-width: 600px) {
+    margin-left: 0;
+    .gist {
+      max-width: 340px;
+      margin: 0 auto;
+      overflow: auto;
+    }
+  }
+}
+
+.post-title {
+  margin-bottom: .1em;
+}
+
+.post-date {
+  font-family: $mono-stack;
+  font-size: 2rem;
+  margin: 0 0 .5em 0;
+}
+
+.post-excerpt {
+  margin: 0 1.2rem;
+  padding: 0 1.2rem;
+  border-left: 1px solid #000000;
+
+  font-size: 1.6rem;
+  
+  @media (max-width: 600px) {
+    font-size: 1.4rem;
+  }
+}
+
+.posts-container {
+  .post {
+    // margin-bottom: 3.6rem;
+  }
+}
+
+.post-page {
+  .post-title {
+    // padding: 0 .2rem;
+  }
+}
