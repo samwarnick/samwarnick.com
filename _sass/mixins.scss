@@ -48,10 +48,10 @@
    background-repeat: no-repeat;
    background-size: 100% 0.2em;
    background-position: 0 88%;
-   transition: background-size 0.25s ease-in;
-  //  padding: 0 .2rem;
+   transition: background-size 0.125s ease-in;
  
    &:hover {
+    transition: background-size 0.125s ease-out;
      background-size: 100% 100%;
    }
  }

@@ -2,9 +2,13 @@ $mono-stack: 'Anonymous Pro', monospace;
 
 .post {
   width: 100%;
-  max-width: 750px;
-  margin-left: 4rem;
-  margin-bottom: 3.6rem;
+  max-width: 700px;
+  padding: {
+    left: 4rem;
+    right: 4rem;
+    bottom: 3.6rem;
+  }
+  display: inline-block;
 
   li {
     font-size: 1.6rem;
@@ -18,11 +22,9 @@ $mono-stack: 'Anonymous Pro', monospace;
   }
 
   @media (max-width: 600px) {
-    margin-left: 0;
-    .gist {
-      max-width: 340px;
-      margin: 0 auto;
-      overflow: auto;
+    padding: {
+      left: 0;
+      right: 0;
     }
   }
 }
