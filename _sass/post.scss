@@ -26,6 +26,12 @@ $mono-stack: 'Anonymous Pro', monospace;
       right: 0;
     }
   }
+  
+  blockquote {
+    margin: 0 2.4rem;
+    padding: 0 1.2rem;
+    border-left: 1px solid #000000; 
+  }
 }
 
 .post-title {
