@@ -1,0 +1,15 @@
+@import "mixins";
+@import "colors";
+
+.contact-container {
+  .contact-list {
+    list-style: none;
+  }
+  
+  .contact-item {
+    
+    a {
+      @include underline($primary-gradient);
+    }
+  }
+}
