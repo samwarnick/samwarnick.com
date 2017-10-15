@@ -9,6 +9,8 @@
   .contact-item {
     
     a {
+      color: #000000;
+      text-decoration: none;
       @include underline($primary-gradient);
     }
   }
