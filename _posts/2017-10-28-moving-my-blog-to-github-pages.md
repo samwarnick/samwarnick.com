@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Moving My Blog To Github Pages"
+title: "Moving My Blog To GitHub Pages"
 date: 2017-10-28
 ---
 
