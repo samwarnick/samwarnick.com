@@ -22,6 +22,7 @@ Here are a few pros and cons for me:
 * Easy to setup
 * Dead simple and doesn't come with a ton of bloat
 * Built in version control, because, you know...GitHub
+
 ### Cons
 * Can't preview drafts
 * Doesn't support SSL and HTTPS with custom domains (you can use [Cloudflare](https://www.cloudflare.com) as a workaround)
