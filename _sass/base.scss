@@ -90,6 +90,10 @@ pre, code {
   font-family: $mono-stack;
 }
 
+hr {
+ border-top: 1px solid black;
+}
+
 body {
   min-height: 100vh;
 }
