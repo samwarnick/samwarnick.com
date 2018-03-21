@@ -1,7 +1,7 @@
 ---
+title: CSS Variables?
+date: 2016-07-28 00:00:00 Z
 layout: post
-title: "CSS Variables?"
-date: 2016-07-28
 ---
 
 I just found out, I think two days ago, that CSS has native variables. I discovered this while looking through some generated code from [Zeplin](https://zeplin.io/). CSS preprocessors like LESS and Sass give us this ability, and probably do it pretty well. I don’t really know. I haven’t sued them much. For whatever reasons, I like writing plain CSS. So, without further ado, here’s an example of CSS variables:

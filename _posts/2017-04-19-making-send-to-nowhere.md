@@ -1,9 +1,8 @@
 ---
-layout: post
 title: Making Send to Nowhere
-date: 2017-04-19
+date: 2017-04-19 00:00:00 Z
+layout: post
 ---
-
 
 For me, making [Send To Nowhere](https://appsto.re/us/8ebbjb.i) was a fun process. I like making things. Send To Nowhere was a dumb and simple enough idea to experiment with some things. I’ll try to write a little bit about why and how I made this app. The entire project is up on [GitHub](https://github.com/samwarnick/Send-To-Nowhere).
 
