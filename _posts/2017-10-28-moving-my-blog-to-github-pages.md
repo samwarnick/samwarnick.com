@@ -1,7 +1,7 @@
 ---
+title: Moving My Blog To GitHub Pages
+date: 2017-10-28 00:00:00 Z
 layout: post
-title: "Moving My Blog To GitHub Pages"
-date: 2017-10-28
 ---
 
 ## TL;DR
