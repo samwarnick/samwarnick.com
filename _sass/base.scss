@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, pre, code {
-  line-height: 1.4em;
+  line-height: 1.6em;
 }
 
 h1 {
@@ -157,4 +157,8 @@ body {
       font-family: $mono-stack;
     }
   }
+}
+
+.hidden {
+  display: none;
 }
