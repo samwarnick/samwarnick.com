@@ -80,10 +80,6 @@ h6 {
 
 p {
   font-size: 1.6rem;
-
-  @media (max-width: 600px) {
-    font-size: 1.4rem;
-  }
 }
 
 pre, code {
@@ -157,8 +153,4 @@ body {
       font-family: $mono-stack;
     }
   }
-}
-
-.hidden {
-  display: none;
 }
