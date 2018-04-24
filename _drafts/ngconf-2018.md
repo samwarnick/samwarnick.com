@@ -1,8 +1,9 @@
 ---
-layout: post
-date: 2018-04-24
 title: ngConf 2018
+date: 2018-04-24 00:00:00 Z
+layout: post
 ---
+
 ## TL;DR
 Angular is a frontend JS framework and I went to a conference about it. Expect some short write ups of some of the things I learned. 
 ----
