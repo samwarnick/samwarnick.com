@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{ page.title }}</title>
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400|Open+Sans:400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
   <script src="{{ "/assets/js/brands.min.js" | relative_url }}"></script>
   <script src="{{ "/assets/js/regular.min.js" | relative_url }}"></script>
@@ -22,25 +22,25 @@
     <div class="header-container">
         <header class="site-header">
           <div class="logo-container">
-            <a href="/">{% include logo.html %}</a>
+            <a href="/" title="Home">{% include logo.html %}</a>
           </div>
           
           <nav class="site-nav">
             <ul>
-              <li class="navigation-item"><a href="/">Home</a></li>
-              <li class="navigation-item"><a href="/contact">Contact</a></li>
+              <li class="navigation-item"><a href="/" title="Home">Home</a></li>
+              <li class="navigation-item"><a href="/contact" title="Contact">Contact</a></li>
               <li class="social-item">
-                <a href="https://twitter.com/samwarnick" target="_blank">
+                <a href="https://twitter.com/samwarnick" target="_blank" rel="noopener" title="Twitter">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
               <li class="social-item">
-                <a href="https://codepen.io/samwarnick/" target="_blank">
+                <a href="https://codepen.io/samwarnick/" target="_blank" rel="noopener" title="CodePen">
                   <i class="fab fa-codepen"></i>
                 </a>
               </li>
               <li class="social-item">
-                <a href="https://github.com/samwarnick" target="_blank">
+                <a href="https://github.com/samwarnick" target="_blank" rel="noopener" title="GitHub">
                   <i class="fab fa-github"></i>
                 </a>
               </li>
@@ -54,7 +54,7 @@
     </div>
 
     <footer class="site-footer">
-      Copyright 2017 Sam Warnick
+      Copyright 2017 &ndash; 2018 Sam Warnick
     </footer>
   </div>
 </body>
