@@ -6,7 +6,9 @@ date: 2018-05-24
 
 ## TL;DR
 Slow down when writing code.
+
 ----
+
 At ng-conf, John Papa gave a talk on writing readable code. You can watch the video [here](https://youtu.be/56mETnrByBM). I recommend it.
 
 Writing clean, readable code seems like an obvious and simple thing to do, but this talk made me realize that I have been ignoring it. For whatever reasons (I'm guessing the thrill of increasing my throughput 🤓), I've been focusing more on closing tickets than writing good code. Recently, I have really been trying to focus on writing quality, readable code. I've come up with two general steps to help me when I'm working on an issue:
