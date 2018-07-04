@@ -32,6 +32,12 @@ $mono-stack: 'Anonymous Pro', monospace;
     padding: 0 1.2rem;
     border-left: 1px solid #000000; 
   }
+  
+  img {
+    max-width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+  }
 }
 
 .post-title {
