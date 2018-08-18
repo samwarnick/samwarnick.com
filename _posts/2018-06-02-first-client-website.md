@@ -14,7 +14,7 @@ A little bit ago, I finished my first project for a client, [totalpowerandfoam.c
 
 Here's what it looks like:
 
-![totalpowerandfoam.com screenshot](https://averageofaverages.nyc3.digitaloceanspaces.com/samwarnick.com/totalpowerandfoam_screenshot.png)
+![totalpowerandfoam.com screenshot]({{ "/assets/img/totalpowerandfoam_screenshot.png" | absolute_url }})
 
 I really tried to give it a clean professional look without being too boring. Early drafts of the site were way too boring. But by adding shadows and a hero image, I think it came out looking real nice.
 
