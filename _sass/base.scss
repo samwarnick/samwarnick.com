@@ -9,6 +9,7 @@ html {
     size: 62.5%;
   }
   font-family: $sans-serif-stack;
+  color: $black;
 }
 
 html, body {
@@ -19,10 +20,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $mono-stack;
   line-height: 1.1em;
 
-  a {
-    @include underline($primary-gradient);
-    color: #000000;
-    text-decoration: none;
+  &:not(.subtitle) {
+    a:not(.subtitle) {
+      @include underline($primary-gradient);
+      color: $black;
+      text-decoration: none;
+    }
   }
 }
 
@@ -109,7 +112,7 @@ body {
 }
 
 .site-footer {
-  border-top: 1px solid #000000;
+  border-top: 1px solid $black;
   font-family: $mono-stack;
   font-size: 1.2rem;
   display: flex;

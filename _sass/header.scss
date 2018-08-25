@@ -3,7 +3,7 @@
 
 .header-container {
   height: 100%;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid $black;
 }
 
 .site-header {
@@ -26,6 +26,7 @@
     @include gradient-hover($primary-gradient, $secondary-gradient);
     height: 4rem;
     margin: 1.2rem 0;
+    fill: $black;
 
     @media (max-width: 600px) {
       height: 2.4rem;
@@ -37,12 +38,26 @@
   }
 }
 
+.subtitle {
+  margin: 0 0 .5em 0;
+  font-size: 2.5rem;
+  position: relative;
+
+  .footnote {
+    color: $rich-electric-blue;
+    font-size: .8em;
+    position: absolute;
+    top: -5px;
+    text-decoration: none;
+  }
+}
+
 .site-nav {
 
   font-size: 2rem;
 
   a {
-    color: #000000;
+    color: $black;
     text-decoration: none;
   }
 
