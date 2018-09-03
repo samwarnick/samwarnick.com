@@ -41,7 +41,10 @@
 .subtitle {
   margin: 0 0 .5em 0;
   font-size: 2.5rem;
-  position: relative;
+
+  .footnote-wrapper {
+    position: relative;
+  }
 
   .footnote {
     color: $rich-electric-blue;
