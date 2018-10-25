@@ -10,10 +10,16 @@ html {
   }
   font-family: $sans-serif-stack;
   color: $black;
+  @media (prefers-color-scheme: dark) {
+    color: #ffffff;
+  }
 }
 
 html, body {
   background: #ffffff;
+  @media (prefers-color-scheme: dark) {
+    background: $black;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
       @include underline($primary-gradient);
       color: $black;
       text-decoration: none;
+      @media (prefers-color-scheme: dark) {
+        color: #ffffff;
+        @include underline($secondary-gradient);
+      }
     }
   }
 }

@@ -1,11 +1,17 @@
 $mono-stack: 'Anonymous Pro', monospace;
 
 .post {
-  max-width: 700px;;
+  max-width: 700px;
   padding: {
     left: 4rem;
     right: 4rem;
     bottom: 3.6rem;
+  }
+
+  hr {
+    @media (prefers-color-scheme: dark) {
+      border-color: #ffffff;
+    }
   }
 
   li {
@@ -17,6 +23,10 @@ $mono-stack: 'Anonymous Pro', monospace;
     @include underline($primary-gradient);
     color: $black;
     text-decoration: none;
+    @media (prefers-color-scheme: dark) {
+      color: #ffffff;
+      @include underline($secondary-gradient);
+    }
   }
 
   @media (max-width: 700px) {
@@ -30,13 +40,19 @@ $mono-stack: 'Anonymous Pro', monospace;
   blockquote {
     margin: 0 2.4rem;
     padding: 0 1.2rem;
-    border-left: 1px solid $black; 
+    border-left: 1px solid $black;
+    @media (prefers-color-scheme: dark) {
+      border-color: #ffffff;
+    }
   }
   
   img {
     max-width: 100%;
     padding: 8px;
     border: 1px solid black;
+    @media (prefers-color-scheme: dark) {
+      border-color: #ffffff;
+    }
   }
 }
 
@@ -54,4 +70,7 @@ $mono-stack: 'Anonymous Pro', monospace;
   margin: 0 1.2rem;
   padding: 0 1.2rem;
   border-left: 1px solid $black;
+  @media (prefers-color-scheme: dark) {
+    border-color: #ffffff;
+  }
 }

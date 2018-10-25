@@ -27,6 +27,9 @@
     height: 4rem;
     margin: 1.2rem 0;
     fill: $black;
+    @media (prefers-color-scheme: dark) {
+      fill: #ffffff;
+    }
 
     @media (max-width: 600px) {
       height: 2.4rem;
@@ -64,6 +67,9 @@
   a {
     color: $black;
     text-decoration: none;
+    @media (prefers-color-scheme: dark) {
+      color: #ffffff;
+    }
   }
 
   ul {
@@ -80,11 +86,17 @@
     .navigation-item {
       a {
         @include underline($primary-gradient);
+        @media (prefers-color-scheme: dark) {
+          @include underline($secondary-gradient);
+        }
       }
     }
 
     .social-item {
-      @include gradient-hover($primary-gradient, $secondary-gradient);
+      // @include gradient-hover($primary-gradient, $secondary-gradient);
+      @media (prefers-color-scheme: dark) {
+        @include underline($secondary-gradient);
+      }
     }
   }
 }
