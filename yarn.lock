@@ -834,6 +834,11 @@
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-blog/-/plugin-blog-1.0.0-alpha.29.tgz#3683e968378d1f073726de7998bbb67eaa1c1872"
   integrity sha512-qYjOnzPJ2lZHlCtiBEhK+ByKlFgN9FXwbs9NH/49acR7zimKreocaB95ziuVU3z5PG/BTIxLdcOf//9cB1dGVw==
 
+"@vuepress/plugin-google-analytics@^1.0.0-alpha.29":
+  version "1.0.0-alpha.29"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.0.0-alpha.29.tgz#8b5faa4c5704c01c46d1043cc752f99e4784879e"
+  integrity sha512-4VfBZmE8ybiPsxa75O1AJSc9eDPvnG8GiAtETP51EJDduC4aqDh+HIvd0TgqSfGmiZWB4+BKyk2E0xSnfD/0AQ==
+
 "@vuepress/plugin-last-updated@^1.0.0-alpha.29":
   version "1.0.0-alpha.29"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-last-updated/-/plugin-last-updated-1.0.0-alpha.29.tgz#98b25e0eb48d251bc393748c5f2150224ad9091c"
@@ -853,7 +858,7 @@
   dependencies:
     "@vuepress/shared-utils" "^1.0.0-alpha.29"
 
-"@vuepress/plugin-search@^1.0.0-alpha.27", "@vuepress/plugin-search@^1.0.0-alpha.29":
+"@vuepress/plugin-search@^1.0.0-alpha.29":
   version "1.0.0-alpha.29"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.0.0-alpha.29.tgz#869cf1962e9d637610a941bc5ca47cedf3b1b32d"
   integrity sha512-vGhtWkEuJg/Jsg9qxs48qjIyA7MmFpoCGZE7+eRJp74QA+i9KzFsPeqrjXrHZnzqa33siWeYWQYS14EbJcspKQ==

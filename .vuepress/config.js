@@ -23,10 +23,16 @@ module.exports = {
       }
     ],
     [
-      "sitemap",
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-131092224-1"
+      }
+    ],
+    [
+      ("sitemap",
       {
         hostname: "https://samwarnick.com"
-      }
+      })
     ]
   ],
   dest: "dist",
