@@ -1,13 +1,12 @@
 ---
 title: prefers-color-scheme Media Query
-date: 2018-10-25 00:00:00 Z
-layout: post
+date: 2018-10-25
+layout: Post
+description: '"Automatic" theme switching coming to Safari.'
+categories: [programming]
+tags: [css, macos]
+extraSpecial: true
 ---
-
-## TL;DR
-"Automatic" theme switching coming to Safari.
-
-----
 
 With [Safari Technology Preview 68](https://developer.apple.com/safari/technology-preview/), there is a new media query, `prefers-color-scheme`. I've used it on this site like the following:
 

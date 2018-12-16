@@ -1,8 +1,13 @@
 ---
 title: Hello, world!
-date: 2016-07-23 00:00:00 Z
+date: 2016-07-23
 layout: post
-description: This is my first post on this blog
+description: "This is my first post on this blog"
+categories: [programming]
 ---
 
-{% gist samwarnick/0eb4cd128c676b870577ba4870d4b4af %}
+```swift
+var 😀 = "Hello, World!"
+
+print(😀)
+```

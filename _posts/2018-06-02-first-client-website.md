@@ -2,19 +2,15 @@
 layout: post
 title: "First Client Website"
 date: 2018-06-02
+description: "I finished a client project, and got paid."
+categories: [business]
 ---
-
-
-## TL;DR
-I finished a client project, and got paid. 
-
-----
 
 A little bit ago, I finished my first project for a client, [totalpowerandfoam.com](https://totalpowerandfoam.com). It’s a simple single page landing page.
 
 Here's what it looks like:
 
-![totalpowerandfoam.com screenshot]({{ "/assets/img/totalpowerandfoam_screenshot.png" | absolute_url }})
+![totalpowerandfoam.com screenshot](../assets/img/totalpowerandfoam_screenshot.png)
 
 I really tried to give it a clean professional look without being too boring. Early drafts of the site were way too boring. But by adding shadows and a hero image, I think it came out looking real nice.
 
