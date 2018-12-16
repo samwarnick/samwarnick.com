@@ -24,6 +24,7 @@
     "@vuepress/plugin-search": "^1.0.0-alpha.27",
     "date-fns": "^1.29.0",
     "vue-recaptcha": "^1.1.1",
-    "vue-tweet-embed": "^2.1.2"
+    "vue-tweet-embed": "^2.1.2",
+    "vuepress-plugin-sitemap": "^2.1.0"
   }
 }

@@ -6368,6 +6368,15 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
+sitemap@^2.0.1:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/sitemap/-/sitemap-2.1.0.tgz#1633cb88c196d755ad94becfb1c1bcacc6d3425a"
+  integrity sha512-AkfA7RDVCITQo+j5CpXsMJlZ/8ENO2NtgMHYIh+YMvex2Hao/oe3MQgNa03p0aWY6srCfUA1Q02OgiWCAiuccA==
+  dependencies:
+    lodash "^4.17.10"
+    url-join "^4.0.0"
+    xmlbuilder "^10.0.0"
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
@@ -7124,6 +7133,11 @@ url-join@3.0.0:
   resolved "https://registry.yarnpkg.com/url-join/-/url-join-3.0.0.tgz#26e8113ace195ea30d0fc38186e45400f9cea672"
   integrity sha1-JugROs4ZXqMND8OBhuRUAPnOpnI=
 
+url-join@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/url-join/-/url-join-4.0.0.tgz#4d3340e807d3773bda9991f8305acdcc2a665d2a"
+  integrity sha1-TTNA6AfTdzvamZH4MFrNzCpmXSo=
+
 url-loader@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/url-loader/-/url-loader-1.1.2.tgz#b971d191b83af693c5e3fea4064be9e1f2d7f8d8"
@@ -7319,6 +7333,13 @@ vuepress-html-webpack-plugin@^3.2.0:
     tapable "^1.0.0"
     toposort "^1.0.0"
     util.promisify "1.0.0"
+
+vuepress-plugin-sitemap@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-sitemap/-/vuepress-plugin-sitemap-2.1.0.tgz#7434750462936f8abf12269228157897f5fe52e4"
+  integrity sha512-zTQJR7OukeCuFLPRFMpMhBLNv0FNwesDbEzCUnq2thIsE/1TupxmbpZNfIsKTWgm8YvsgO7Jj9oib1zMjT79CA==
+  dependencies:
+    sitemap "^2.0.1"
 
 vuepress@^1.0.0-alpha.27:
   version "1.0.0-alpha.29"
@@ -7566,6 +7587,11 @@ xdg-basedir@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
   integrity sha1-SWsswQnsqNus/i3HK2A8F8WHCtQ=
+
+xmlbuilder@^10.0.0:
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-10.1.1.tgz#8cae6688cc9b38d850b7c8d3c0a4161dcaf475b0"
+  integrity sha512-OyzrcFLL/nb6fMGHbiRDuPup9ljBycsdCypwuyg5AAHvyWzGfChJpCXMG88AGTIMFhGZ9RccFN1e6lhg3hkwKg==
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.1"

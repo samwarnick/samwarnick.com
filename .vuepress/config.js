@@ -21,6 +21,12 @@ module.exports = {
       {
         componentsDir: [path.resolve(__dirname, "theme/components")]
       }
+    ],
+    [
+      "sitemap",
+      {
+        hostname: "https://samwarnick.com"
+      }
     ]
   ],
   dest: "dist",
