@@ -23,6 +23,16 @@
         </li>
       </ul>
     </nav>
-    <p class="mt-2 text-grey-darker text-center">copyright 2016 – 2019 sam warnick</p>
+    <p class="mt-2 text-grey-darker text-center">copyright 2016 – {{currentYear}} sam warnick</p>
   </footer>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      currentYear: new Date().getFullYear()
+    };
+  }
+};
+</script>
