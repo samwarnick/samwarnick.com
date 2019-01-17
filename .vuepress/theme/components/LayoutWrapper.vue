@@ -23,8 +23,8 @@ export default {
 
 <style>
 #siteFooter {
-  border-top-left-radius: 50% 10%;
-  border-top-right-radius: 50% 10%;
+  border-top-left-radius: 50% 8vmin;
+  border-top-right-radius: 50% 8vmin;
   box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.12),
     inset 0 2px 4px 0 rgba(0, 0, 0, 0.08);
 }
