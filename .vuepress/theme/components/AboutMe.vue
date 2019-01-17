@@ -1,5 +1,5 @@
 <template>
-  <div class="shadow-md rounded-lg p-2 mt-12 bg-gradient-texture">
+  <div class="shadow-md rounded-lg p-2 mt-24 bg-gradient-texture">
     <div class="flex flex-col sm:flex-row items-center bg-white rounded-md p-4 shadow">
       <img
         src="https://res.cloudinary.com/dwbleg7g0/image/upload/c_fill,f_auto,g_face,h_600,w_600/v1544745118/sam_profile.jpg"
