@@ -1,6 +1,7 @@
 <template>
   <header
-    class="p-8 mb-12 flex flex-col items-center justify-between w-full shadow-md bg-gradient-texture"
+    id="siteHeader"
+    class="p-8 pb-12 mb-12 flex flex-col items-center justify-between w-full bg-gradient-texture"
   >
     <RouterLink to="/">
       <Logo class="h-8 fill-current text-white"/>
@@ -28,4 +29,14 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+#siteHeader {
+  border-bottom-left-radius: 50% 30%;
+  border-bottom-right-radius: 50% 30%;
+  box-shadow: inset 0 -4px 8px 0 rgba(0, 0, 0, 0.12),
+    inset 0 -2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+</style>
+
 
