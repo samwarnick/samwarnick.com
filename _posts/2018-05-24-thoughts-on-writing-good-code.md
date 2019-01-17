@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: Post
 title: "Thoughts On Writing Good Code"
 date: 2018-05-24
 description: "Slow down when writing code."

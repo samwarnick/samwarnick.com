@@ -1,7 +1,7 @@
 ---
 title: Moving My Blog To GitHub Pages
 date: 2017-10-28
-layout: post
+layout: Post
 description: "I moved my blog to GitHub Pages!"
 categories: [programming]
 ---

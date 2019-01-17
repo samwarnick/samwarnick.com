@@ -1,7 +1,7 @@
 ---
 title: CSS Variables?
 date: 2016-07-28
-layout: post
+layout: Post
 type: post
 description: 'I just found out, I think two days ago, that CSS has native "variables."'
 categories: [programming]

@@ -1,7 +1,7 @@
 ---
 title: Hello, world!
 date: 2016-07-23
-layout: post
+layout: Post
 description: "This is my first post on this blog"
 categories: [programming]
 ---

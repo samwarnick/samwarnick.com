@@ -1,7 +1,7 @@
 ---
 title: Very Good Websites & Such
 date: 2018-04-22
-layout: post
+layout: Post
 description: "I started a little business called Very Good Websites & Such."
 categories: [business]
 ---
