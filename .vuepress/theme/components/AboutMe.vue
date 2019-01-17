@@ -18,7 +18,7 @@
               target="_blank"
               rel="noopener"
               title="Twitter"
-              class="text-blue-dark hover:text-teal"
+              class="text-blue-dark hover:text-green"
             >
               <FontAwesomeIcon :icon="['fab', 'twitter']"></FontAwesomeIcon>
             </a>
@@ -29,7 +29,7 @@
               target="_blank"
               rel="noopener"
               title="CodePen"
-              class="text-blue-dark hover:text-teal"
+              class="text-blue-dark hover:text-orange"
             >
               <FontAwesomeIcon :icon="['fab', 'codepen']"></FontAwesomeIcon>
             </a>
@@ -40,7 +40,7 @@
               target="_blank"
               rel="noopener"
               title="GitHub"
-              class="text-blue-dark hover:text-teal"
+              class="text-blue-dark hover:text-purple"
             >
               <FontAwesomeIcon :icon="['fab', 'github']"></FontAwesomeIcon>
             </a>
