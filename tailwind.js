@@ -846,7 +846,7 @@ module.exports = {
     borderRadius: ["responsive"],
     borderStyle: ["responsive"],
     borderWidths: ["responsive", "hover"],
-    cursor: ["responsive"],
+    cursor: ["responsive", "disabled"],
     display: ["responsive"],
     flexbox: ["responsive"],
     float: ["responsive"],
@@ -863,7 +863,7 @@ module.exports = {
     negativeMargin: ["responsive"],
     objectFit: false,
     objectPosition: false,
-    opacity: ["responsive", "hover"],
+    opacity: ["responsive", "hover", "disabled"],
     outline: ["focus"],
     overflow: ["responsive"],
     padding: ["responsive"],
@@ -905,7 +905,14 @@ module.exports = {
     require("tailwindcss/plugins/container")({
       // center: true,
       // padding: '1rem',
-    })
+    }),
+    function({ addVariant }) {
+      addVariant("disabled", ({ modifySelectors, separator }) => {
+        modifySelectors(({ className }) => {
+          return `.disabled${separator}${className}:disabled`;
+        });
+      });
+    }
   ],
 
   /*

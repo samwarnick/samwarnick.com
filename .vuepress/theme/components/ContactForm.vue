@@ -82,9 +82,8 @@
       </p>
       <button
         type="submit"
-        class="text-lg font-bold no-underline font-serif text-black"
+        class="text-lg font-bold no-underline font-serif text-black disabled:opacity-50 disabled:cursor-not-allowed"
         :disabled="submitDisabled"
-        :class="{'opacity-50': submitDisabled, 'cursor-not-allowed': submitDisabled}"
       >
         <GradientBorder :class="{'hover:underline': !submitDisabled}">Send</GradientBorder>
       </button>
