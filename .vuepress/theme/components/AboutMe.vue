@@ -1,5 +1,5 @@
 <template>
-  <div class="shadow-md rounded-lg p-2 mt-12 bg-gradient-texture">
+  <div class="shadow-md rounded-lg p-2 mt-24 bg-gradient-texture">
     <div class="flex flex-col sm:flex-row items-center bg-white rounded-md p-4 shadow">
       <img
         src="https://res.cloudinary.com/dwbleg7g0/image/upload/c_fill,f_auto,g_face,h_600,w_600/v1544745118/sam_profile.jpg"
@@ -18,7 +18,7 @@
               target="_blank"
               rel="noopener"
               title="Twitter"
-              class="text-blue-dark hover:text-teal"
+              class="text-blue-dark hover:text-green"
             >
               <FontAwesomeIcon :icon="['fab', 'twitter']"></FontAwesomeIcon>
             </a>
@@ -29,7 +29,7 @@
               target="_blank"
               rel="noopener"
               title="CodePen"
-              class="text-blue-dark hover:text-teal"
+              class="text-blue-dark hover:text-orange"
             >
               <FontAwesomeIcon :icon="['fab', 'codepen']"></FontAwesomeIcon>
             </a>
@@ -40,7 +40,7 @@
               target="_blank"
               rel="noopener"
               title="GitHub"
-              class="text-blue-dark hover:text-teal"
+              class="text-blue-dark hover:text-purple"
             >
               <FontAwesomeIcon :icon="['fab', 'github']"></FontAwesomeIcon>
             </a>

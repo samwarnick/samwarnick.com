@@ -4,8 +4,10 @@
     <div class="p-4 flex-grow w-full max-w-lg">
       <slot/>
     </div>
-    <AboutMe class="max-w-lg mx-4"/>
-    <Footer/>
+    <div id="siteFooter" class="w-full flex flex-col items-center mt-12">
+      <AboutMe class="max-w-lg mx-4"/>
+      <Footer/>
+    </div>
   </div>
 </template>
 
@@ -18,3 +20,12 @@ export default {
   components: { Header, Footer }
 };
 </script>
+
+<style>
+#siteFooter {
+  border-top-left-radius: 50% 8vmin;
+  border-top-right-radius: 50% 8vmin;
+  box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.12),
+    inset 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+</style>

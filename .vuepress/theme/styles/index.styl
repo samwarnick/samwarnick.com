@@ -11,8 +11,9 @@ gradientUnderline()
   transition: background-size 0.125s ease-in
  
   &:hover
-    transition: background-size 0.125s ease-out
-    background-size: 100% 100%
+    @media (hover: hover)
+      transition: background-size 0.125s ease-out
+      background-size: 100% 100%
 
 .gradient-underline
 .content a:not(.header-anchor)
@@ -50,7 +51,6 @@ gradientUnderline()
   }
   .content p {
     @apply mb-4;
-    text-indent: .8em;
   }
   .content img {
     @apply shadow-md;
@@ -95,6 +95,7 @@ gradientUnderline()
     z-index: -1;
     opacity: .1;
     transition: opacity .3s ease;
+    transform: translate3d(0px,0px,0px);
   }
   .nav-link:hover {
     @apply shadow-md;

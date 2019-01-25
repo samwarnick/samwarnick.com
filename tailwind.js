@@ -1,3 +1,4 @@
+const postcss = require("postcss");
 /*
 
 Tailwind - The Utility-First CSS Framework
@@ -837,7 +838,7 @@ module.exports = {
   modules: {
     appearance: ["responsive"],
     backgroundAttachment: ["responsive"],
-    backgroundColors: ["responsive", "hover", "focus"],
+    backgroundColors: ["responsive", "hover", "focus", "dark"],
     backgroundPosition: ["responsive"],
     backgroundRepeat: ["responsive"],
     backgroundSize: ["responsive"],
@@ -846,7 +847,7 @@ module.exports = {
     borderRadius: ["responsive"],
     borderStyle: ["responsive"],
     borderWidths: ["responsive", "hover"],
-    cursor: ["responsive"],
+    cursor: ["responsive", "disabled"],
     display: ["responsive"],
     flexbox: ["responsive"],
     float: ["responsive"],
@@ -863,7 +864,7 @@ module.exports = {
     negativeMargin: ["responsive"],
     objectFit: false,
     objectPosition: false,
-    opacity: ["responsive", "hover"],
+    opacity: ["responsive", "hover", "disabled"],
     outline: ["focus"],
     overflow: ["responsive"],
     padding: ["responsive"],
@@ -902,10 +903,24 @@ module.exports = {
   */
 
   plugins: [
-    require("tailwindcss/plugins/container")({
-      // center: true,
-      // padding: '1rem',
-    })
+    ({ addVariant }) => {
+      addVariant("disabled", ({ modifySelectors, separator }) => {
+        modifySelectors(({ className }) => {
+          return `.disabled${separator}${className}:disabled`;
+        });
+      });
+      addVariant("dark", ({ container, separator }) => {
+        const mediaRule = postcss.atRule({
+          name: "media",
+          params: "(prefers-color-scheme: dark)"
+        });
+        mediaRule.nodes = container.nodes;
+        container.nodes = [mediaRule];
+        mediaRule.walkRules(rule => {
+          rule.selector = `.dark${separator}${rule.selector.slice(1)}`;
+        });
+      });
+    }
   ],
 
   /*

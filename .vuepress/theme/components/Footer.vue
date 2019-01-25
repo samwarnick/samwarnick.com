@@ -1,5 +1,5 @@
 <template>
-  <footer class="p-12 font-serif text-grey-darker">
+  <footer class="p-12 mt-12 font-serif text-grey-darker flex flex-col items-center">
     <nav>
       <ul class="list-reset flex flex-col sm:flex-row">
         <li class="flex mb-2">
@@ -23,6 +23,16 @@
         </li>
       </ul>
     </nav>
-    <p class="mt-2 text-grey-darker text-center">copyright 2016 – 2019 sam warnick</p>
+    <p class="mt-2 text-grey-darker text-center">copyright 2016 – {{currentYear}} sam warnick</p>
   </footer>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      currentYear: new Date().getFullYear()
+    };
+  }
+};
+</script>

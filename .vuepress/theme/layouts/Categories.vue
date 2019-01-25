@@ -1,11 +1,6 @@
 <template>
   <LayoutWrapper>
-    <header class="mb-8 pb-8 border-b">
-      <h1>
-        <FontAwesomeIcon :icon="['fal', 'archive']" class="mr-2"/>
-        <span>Categories</span>
-      </h1>
-    </header>
+    <SubsetHeader title="Categories" :icon="['fal', 'archive']"/>
     <ul class="list-reset flex flex-col">
       <li v-for="category in $categories.list" class="mb-4">
         <RouterLink
