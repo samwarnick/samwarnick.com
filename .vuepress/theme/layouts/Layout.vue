@@ -1,6 +1,5 @@
 <template>
   <LayoutWrapper>
-    <Content/>
     <PostList :posts="$pagination.posts"/>
     <div v-if="$pagination" class="flex flex-col items-center sm:flex-row px-8">
       <div class="flex-grow flex mb-4">
