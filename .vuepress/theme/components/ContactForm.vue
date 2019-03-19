@@ -67,15 +67,6 @@
         required
       ></textarea>
     </InputWrapper>
-    <vue-recaptcha
-      class="my-4"
-      ref="recaptcha"
-      @verify="onCaptchaVerified"
-      @expired="onCaptchaExpired"
-      size="invisible"
-      sitekey="6Le0DYIUAAAAAKULQ1ziSlheR0CCbUlP8W0BlKZr"
-      badge="inline"
-    ></vue-recaptcha>
     <footer>
       <p>
         <span class="text-red">*</span>Required
@@ -117,15 +108,9 @@ export default {
   },
   methods: {
     handleSubmit() {
-      this.$refs.recaptcha.execute();
+      this.processForm();
     },
-    onCaptchaVerified(token) {
-      this.processForm(token);
-    },
-    onCaptchaExpired() {
-      this.$refs.recaptcha.reset();
-    },
-    async processForm(token) {
+    async processForm() {
       this.sending = true;
       try {
         await fetch("/contact", {
@@ -135,8 +120,7 @@ export default {
             "form-name": "contact",
             name: this.name,
             email: this.email,
-            message: this.message,
-            "g-recaptcha-response": token
+            message: this.message
           })
         });
         this.message = "";

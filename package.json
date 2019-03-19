@@ -10,12 +10,12 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.1.0",
-    "@vuepress/plugin-blog": "^1.0.0-alpha.27",
-    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.29",
-    "@vuepress/plugin-pagination": "^1.0.0-alpha.27",
-    "@vuepress/plugin-register-components": "^1.0.0-alpha.27",
+    "@vuepress/plugin-blog": "1.0.0-alpha.36",
+    "@vuepress/plugin-google-analytics": "1.0.0-alpha.36",
+    "@vuepress/plugin-pagination": "1.0.0-alpha.36",
+    "@vuepress/plugin-register-components": "1.0.0-alpha.36",
     "tailwindcss": "^0.7.2",
-    "vuepress": "^1.0.0-alpha.27"
+    "vuepress": "1.0.0-alpha.36"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
@@ -23,7 +23,6 @@
     "@fortawesome/pro-light-svg-icons": "^5.6.3",
     "@fortawesome/vue-fontawesome": "^0.1.5",
     "date-fns": "^1.29.0",
-    "vue-recaptcha": "^1.1.1",
     "vue-tweet-embed": "^2.2.1",
     "vuepress-plugin-sitemap": "^2.1.1"
   }

@@ -4,7 +4,6 @@ const postcss = require("../postcss.config");
 module.exports = {
   title: "Sam Warnick",
   description: "The personal website and blog of Sam Warnick",
-  head: [["script", { src: "https://www.google.com/recaptcha/api.js" }]],
   markdown: {
     anchor: { permalink: false, permalinkBefore: false, permalinkSymbol: "#" }
   },

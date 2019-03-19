@@ -15,7 +15,6 @@ import {
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
 import { Tweet } from "vue-tweet-embed";
-import VueRecaptcha from "vue-recaptcha";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { format } from "date-fns";
 
@@ -40,7 +39,6 @@ export default ({
 }) => {
   Vue.component("FontAwesomeIcon", FontAwesomeIcon);
   Vue.component("Tweet", Tweet);
-  Vue.component("VueRecaptcha", VueRecaptcha);
   Vue.filter("formatDate", date => {
     return format(date.substr(0, 10), "D MMM YYYY");
   });

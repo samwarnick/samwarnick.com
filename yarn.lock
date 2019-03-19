@@ -891,12 +891,12 @@
   dependencies:
     lodash.throttle "^4.1.1"
 
-"@vuepress/plugin-blog@^1.0.0-alpha.27":
+"@vuepress/plugin-blog@1.0.0-alpha.36":
   version "1.0.0-alpha.36"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-blog/-/plugin-blog-1.0.0-alpha.36.tgz#cdb265f0bfb38d16d1014a89622c17c88aa17e2c"
   integrity sha512-T2Tl5iL+By9zH1XpRAwcrNKlKo9MNWIwtyLO3HL747kFgu1Dh9yVdttpdTkvIgkd2cpgRzulg/xsJL1z4G2XqQ==
 
-"@vuepress/plugin-google-analytics@^1.0.0-alpha.29":
+"@vuepress/plugin-google-analytics@1.0.0-alpha.36":
   version "1.0.0-alpha.36"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.0.0-alpha.36.tgz#8580d1ad17cda0ddab565346945120a357229c6c"
   integrity sha512-o00Rjy+XpiGTaP/lI9DZKqq8oPMBnJ8XE5QmAtLbe48Y+mWzDt8VLNbC80I+ZznilvF0NV/CArFeFmMNdCFZXw==
@@ -915,12 +915,12 @@
   dependencies:
     nprogress "^0.2.0"
 
-"@vuepress/plugin-pagination@^1.0.0-alpha.27":
+"@vuepress/plugin-pagination@1.0.0-alpha.36":
   version "1.0.0-alpha.36"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-pagination/-/plugin-pagination-1.0.0-alpha.36.tgz#32757dd694bca5a710af221fed06426daba9ec57"
   integrity sha512-nLtVjwyCTv6c4+TzA37UUIcsHFab1BmUhR1Y26dVoWCPPzbsmxiRw9zZ6qSspm23K9od8WcYZYfZI2qLarW/4A==
 
-"@vuepress/plugin-register-components@^1.0.0-alpha.27", "@vuepress/plugin-register-components@^1.0.0-alpha.36":
+"@vuepress/plugin-register-components@1.0.0-alpha.36", "@vuepress/plugin-register-components@^1.0.0-alpha.36":
   version "1.0.0-alpha.36"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-register-components/-/plugin-register-components-1.0.0-alpha.36.tgz#365111e9947802878412b024cc4af084b982fdb8"
   integrity sha512-WEVcQvcNQHwPw3TQLr6eGK2A2p/D2tlLv6SkPh8jJTNit8fydOw1uZGJL6sRvHjqmHqnuYt9/omYsMwDgTKcMw==
@@ -7151,11 +7151,6 @@ vue-loader@^15.2.4:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
-
-vue-recaptcha@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/vue-recaptcha/-/vue-recaptcha-1.1.1.tgz#be38f4ffab500e7f4775f149a279bb962cf91f07"
-  integrity sha512-ThjujwmoLrDS6EeE7AGHmeGfWDhFOFUAyfPfSCXojYMoSwFOJv0LL0/86PqHwjHM69HIq0kBI9ps+JeIQa5V/A==
 
 vue-router@^3.0.2:
   version "3.0.2"
