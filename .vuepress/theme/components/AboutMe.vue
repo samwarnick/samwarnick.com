@@ -4,7 +4,7 @@
       <img
         src="https://res.cloudinary.com/verygoodfm/image/upload/c_fill,f_auto,g_face,h_600,w_600/v1544745118/sam_profile.jpg"
         alt="Image of Sam Warnick"
-        class="rounded-lg shadow-md mb-4 profile-image sm:mb-0"
+        class="rounded-lg shadow-md mb-4 profile-image sm:mb-0 flex-shrink-0"
       >
       <div class="ml-4">
         <p>
