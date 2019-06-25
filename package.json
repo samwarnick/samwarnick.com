@@ -10,12 +10,12 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.1.0",
-    "@vuepress/plugin-blog": "1.0.0-alpha.36",
-    "@vuepress/plugin-google-analytics": "1.0.0-alpha.36",
-    "@vuepress/plugin-pagination": "1.0.0-alpha.36",
-    "@vuepress/plugin-register-components": "1.0.0-alpha.36",
+    "@vuepress/plugin-blog": "1.0.0-alpha.48",
+    "@vuepress/plugin-google-analytics": "1.0.0-alpha.48",
+    "@vuepress/plugin-pagination": "1.0.0-alpha.48",
+    "@vuepress/plugin-register-components": "1.0.0-alpha.48",
     "tailwindcss": "^0.7.2",
-    "vuepress": "1.0.0-alpha.36"
+    "vuepress": "1.0.0-alpha.48"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
