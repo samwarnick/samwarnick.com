@@ -1,6 +1,6 @@
 <template>
   <ul
-    class="flex flex-wrap justify-center font-serif tracking-wide max-w-3xl mx-auto"
+    class="flex flex-wrap justify-center font-serif tracking-wide max-w-7xl mx-auto"
   >
     <LogoCard v-for="technology in technologies" :key="technology.name" :name="technology.name" :image="technology.image"/>
   </ul>

@@ -26,17 +26,15 @@
       <h2 class="font-serif text-2xl my-4 text-center mb-12 tracking-wide">
         Latest Post
       </h2>
-      <ul>
+      <ul class="mb-12">
         <PostCard :post="$page.latestPost.edges[0].node" />
       </ul>
-      <GradientButton class="mt-12">
-        <g-link
-          to="/posts"
-          class="font-serif font-bold tracking-wide hover:underline"
-          style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9"
-          >See More Posts<i class="fad fa-chevron-right ml-2"></i
-        ></g-link>
-      </GradientButton>
+      <g-link
+        to="/posts"
+        class="text-base font-serif font-bold tracking-wide"
+        style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9">
+        <GradientButton class="hover:underline">See More Posts<i class="fad fa-chevron-right ml-2"></i></GradientButton>
+      </g-link>
     </div>
   </Hero>
 </template>
