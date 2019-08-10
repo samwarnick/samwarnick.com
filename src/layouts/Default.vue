@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="min-h-screen flex flex-col">
     <header>
       <SiteNavigation />
     </header>
     <transition name="fade" appear>
-      <Main>
+      <Main class="flex-grow">
         <slot />
       </Main>
     </transition>

@@ -1,3 +1,5 @@
+const postcss = require("postcss");
+
 module.exports = {
   theme: {
     fontFamily: {
@@ -21,9 +23,14 @@ module.exports = {
       }
     }
   },
-  variants: {
-    backgroundColor: ['responsive', 'first', 'last', 'even', 'odd', 'hover', 'focus'],
-    textDecoration: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
-  },
-  plugins: []
+  variants: ['responsive', 'group-hover', 'focus-within', 'hover', 'focus', 'active', 'disabled'],
+  plugins: [
+    function({ addVariant, e }) {
+      addVariant('disabled', ({ modifySelectors, separator }) => {
+        modifySelectors(({ className }) => {
+          return `.${e(`disabled${separator}${className}`)}:disabled`
+        })
+      })
+    }
+  ]
 };
