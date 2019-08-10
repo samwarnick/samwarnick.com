@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>angular</title>
+    <desc>Created with Sketch.</desc>
+    <g id="angular" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(48.000000, 35.000000)">
+            <g>
+                <polygon id="Path" fill="#DD0031" fill-rule="nonzero" points="202 0 202 0 202 0 1.93404255 71.38 32.4489362 336.045 202 430 202 430 202 430 371.551064 336.045 402.065957 71.38"></polygon>
+                <polygon id="Path" fill="#C3002F" fill-rule="nonzero" points="202 0 202 47.73 202 47.515 202 265.31 202 265.31 202 430 202 430 371.551064 336.045 402.065957 71.38"></polygon>
+                <path d="M202,47.515 L76.9319149,328.09 L76.9319149,328.09 L123.56383,328.09 L123.56383,328.09 L148.706383,265.31 L254.86383,265.31 L280.006383,328.09 L280.006383,328.09 L326.638298,328.09 L326.638298,328.09 L202,47.515 L202,47.515 L202,47.515 L202,47.515 L202,47.515 Z M238.531915,226.61 L165.468085,226.61 L202,138.675 L238.531915,226.61 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

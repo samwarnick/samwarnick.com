@@ -1,137 +1,102 @@
 <template>
   <Hero>
-    <g-image
-            alt="Image of Sam Warnick"
-            src="~/assets/images/profile.jpg"
-            width="250"
-            quality="100"
-            class="rounded-lg shadow-lg m-4"
-    />
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi,
-      cumque dicta distinctio ea explicabo illum laborum nihil pariatur, quas
-      quasi quidem quo rem sint tenetur ullam vitae voluptatum.
-    </p>
-    <p>
-      Ad adipisci, dicta dolorem ea eaque eligendi facere facilis hic illum,
-      iusto labore laboriosam libero minus natus praesentium qui quibusdam
-      ratione rem repellendus reprehenderit sint temporibus vitae? Dolore, odit,
-      repellat?
-    </p>
-    <p>
-      Aliquam animi, at cum debitis deleniti distinctio et exercitationem facere
-      ipsum labore laboriosam, libero magni maxime molestias necessitatibus
-      numquam obcaecati odio perspiciatis sapiente totam ullam veritatis
-      voluptatem! Adipisci, autem id.
-    </p>
-    <p>
-      Architecto, at consequatur cupiditate esse explicabo fuga hic laborum
-      maiores necessitatibus neque obcaecati officiis pariatur quaerat,
-      reprehenderit similique tempora totam, ullam! Amet beatae consectetur,
-      explicabo minima officia perferendis tempora veniam?
-    </p>
-    <p>
-      Doloremque esse illo, ipsam nihil qui quisquam quo veritatis! Assumenda
-      dicta illo iste, minima mollitia non optio pariatur sint veniam? At
-      exercitationem explicabo molestiae quasi quibusdam quo, saepe ut. Tempora!
-    </p>
-    <p>
-      Amet esse nostrum quod sequi? Accusamus alias aliquam amet, aperiam beatae
-      culpa dicta dolor doloremque, eaque eos est excepturi perspiciatis
-      possimus quae quisquam reprehenderit, soluta veritatis voluptatibus.
-      Aliquam nihil, repudiandae.
-    </p>
-    <p>
-      Laborum perspiciatis, soluta. Aliquid atque deleniti sit voluptate.
-      Commodi cupiditate deserunt dignissimos doloribus eos fugiat incidunt
-      itaque nam nostrum odio possimus quaerat, qui quia quidem quos repellendus
-      tempore ut voluptas?
-    </p>
-    <p>
-      Quia, veniam, voluptas. Accusamus accusantium architecto autem beatae
-      debitis dicta, eaque est eum ex excepturi fugiat fugit in minima molestiae
-      necessitatibus neque nostrum omnis quaerat quam qui recusandae sint
-      voluptatibus.
-    </p>
-    <p>
-      Accusantium, alias aliquid at dolorem dolores enim, ex, impedit numquam
-      quas quasi quis ut? Cum eius enim, impedit magnam natus non quaerat quasi
-      quia quidem reiciendis sequi tempora velit voluptate.
-    </p>
-    <p>
-      Adipisci assumenda ducimus, eaque fuga iure, neque odit porro tempora, ut
-      velit voluptas voluptatibus. Ad autem consectetur ex fugiat inventore
-      ipsum iste quia totam! Eaque eveniet magni ut velit voluptatem!
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi,
-      cumque dicta distinctio ea explicabo illum laborum nihil pariatur, quas
-      quasi quidem quo rem sint tenetur ullam vitae voluptatum.
-    </p>
-    <p>
-      Ad adipisci, dicta dolorem ea eaque eligendi facere facilis hic illum,
-      iusto labore laboriosam libero minus natus praesentium qui quibusdam
-      ratione rem repellendus reprehenderit sint temporibus vitae? Dolore, odit,
-      repellat?
-    </p>
-    <p>
-      Aliquam animi, at cum debitis deleniti distinctio et exercitationem facere
-      ipsum labore laboriosam, libero magni maxime molestias necessitatibus
-      numquam obcaecati odio perspiciatis sapiente totam ullam veritatis
-      voluptatem! Adipisci, autem id.
-    </p>
-    <p>
-      Architecto, at consequatur cupiditate esse explicabo fuga hic laborum
-      maiores necessitatibus neque obcaecati officiis pariatur quaerat,
-      reprehenderit similique tempora totam, ullam! Amet beatae consectetur,
-      explicabo minima officia perferendis tempora veniam?
-    </p>
-    <p>
-      Doloremque esse illo, ipsam nihil qui quisquam quo veritatis! Assumenda
-      dicta illo iste, minima mollitia non optio pariatur sint veniam? At
-      exercitationem explicabo molestiae quasi quibusdam quo, saepe ut. Tempora!
-    </p>
-    <p>
-      Amet esse nostrum quod sequi? Accusamus alias aliquam amet, aperiam beatae
-      culpa dicta dolor doloremque, eaque eos est excepturi perspiciatis
-      possimus quae quisquam reprehenderit, soluta veritatis voluptatibus.
-      Aliquam nihil, repudiandae.
-    </p>
-    <p>
-      Laborum perspiciatis, soluta. Aliquid atque deleniti sit voluptate.
-      Commodi cupiditate deserunt dignissimos doloribus eos fugiat incidunt
-      itaque nam nostrum odio possimus quaerat, qui quia quidem quos repellendus
-      tempore ut voluptas?
-    </p>
-    <p>
-      Quia, veniam, voluptas. Accusamus accusantium architecto autem beatae
-      debitis dicta, eaque est eum ex excepturi fugiat fugit in minima molestiae
-      necessitatibus neque nostrum omnis quaerat quam qui recusandae sint
-      voluptatibus.
-    </p>
-    <p>
-      Accusantium, alias aliquid at dolorem dolores enim, ex, impedit numquam
-      quas quasi quis ut? Cum eius enim, impedit magnam natus non quaerat quasi
-      quia quidem reiciendis sequi tempora velit voluptate.
-    </p>
-    <p>
-      Adipisci assumenda ducimus, eaque fuga iure, neque odit porro tempora, ut
-      velit voluptas voluptatibus. Ad autem consectetur ex fugiat inventore
-      ipsum iste quia totam! Eaque eveniet magni ut velit voluptatem!
-    </p>
+    <AboutCard />
+
+    <div class="bg-gray-100 p-6 shadow-lg mb-24">
+      <h2 class="font-serif text-2xl text-center mb-12 tracking-wide">
+        What I Build With
+      </h2>
+      <LogoCards />
+    </div>
+
+    <div class="max-w-3xl mx-auto px-8">
+      <h2 class="font-serif text-2xl my-4 text-center mb-12 tracking-wide">
+        Some Of My Work
+      </h2>
+      <ul>
+        <ProjectCard
+          v-for="project in $page.projects.edges"
+          :key="project.node.id"
+          :project="project.node"
+        />
+      </ul>
+    </div>
+
+    <div class="max-w-3xl mx-auto mt-24 px-8">
+      <h2 class="font-serif text-2xl my-4 text-center mb-12 tracking-wide">
+        Latest Post
+      </h2>
+      <ul>
+        <PostCard :post="$page.latestPost.edges[0].node" />
+      </ul>
+      <GradientButton class="mt-12">
+        <g-link
+          to="/posts"
+          class="font-serif font-bold tracking-wide hover:underline"
+          style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9"
+          >See More Posts<i class="fad fa-chevron-right ml-2"></i
+        ></g-link>
+      </GradientButton>
+    </div>
   </Hero>
 </template>
 
+<page-query>
+  query {
+    projects: allProject(sortBy: "name", order: ASC) {
+      edges {
+        node {
+          id
+          name
+          description
+          technologies
+          link
+          path
+          image (height: 200 width: 300 quality: 100 fit: outside)
+        }
+      }
+    }
+    latestPost: allBlogPost(limit: 1) {
+      edges {
+        node {
+          title
+          date
+          description
+          path
+          tags {
+            id
+            title
+            path
+          }
+          categories {
+            id
+            title
+            path
+          }
+        }
+      }
+    }
+  }
+</page-query>
+
 <script>
 import Hero from "../layouts/Hero";
+import LogoCards from "../components/LogoCards";
+import ProjectCard from "../components/ProjectCard";
+import PostCard from "../components/PostCard";
+import GradientButton from "../components/GradientButton";
+import AboutCard from "../components/AboutCard";
 
 export default {
   components: {
-    Hero
+    Hero,
+    AboutCard,
+    LogoCards,
+    ProjectCard,
+    PostCard,
+    GradientButton
   }
 };
 </script>
 
-<style>
-
-</style>
+<style></style>

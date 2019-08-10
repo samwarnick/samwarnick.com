@@ -3,7 +3,11 @@
     <header>
       <SiteNavigation />
     </header>
-    <slot />
+    <transition name="fade" appear>
+      <Main>
+        <slot />
+      </Main>
+    </transition>
   </div>
 </template>
 
@@ -17,11 +21,13 @@ query {
 
 <script>
 import SiteNavigation from "../components/SiteNavigation";
+import Main from "./Main";
 
 export default {
   name: "DefaultLayout",
   components: {
-    SiteNavigation
+    SiteNavigation,
+    Main
   }
 };
 </script>

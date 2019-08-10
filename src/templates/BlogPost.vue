@@ -2,7 +2,7 @@
   <Layout>
     <header>
       <h2>{{$page.post.title}}</h2>
-      <div v-html="$page.post.content" />
+      <div v-html="$page.post.content"></div>
     </header>
   </Layout>
 </template>
@@ -13,7 +13,6 @@ query Post ($path: String!) {
     title
     date (format: "D MMMM Y")
     content
-    tags
   }
 }
 </page-query>
@@ -22,5 +21,5 @@ query Post ($path: String!) {
 export default {};
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 </style>

@@ -17,11 +17,11 @@
       :class="{ show: navigationIsOpen }"
       style="--fa-secondary-opacity: 0.60"
     >
-      <li class="nav-link">
-        <g-link to="/work">
-          <i class="fad fa-browser fa-fw fa-lg mr-2"></i>Work
-        </g-link>
-      </li>
+<!--      <li class="nav-link">-->
+<!--        <g-link to="/work">-->
+<!--          <i class="fad fa-browser fa-fw fa-lg mr-2"></i>Work-->
+<!--        </g-link>-->
+<!--      </li>-->
       <li class="nav-link">
         <g-link to="/blog">
           <i class="fad fa-newspaper fa-fw fa-lg fa-swap-opacity mr-2"></i>Blog
@@ -46,8 +46,8 @@
 
     <button
       id="sideNavToggle"
-      class="h-12 w-12 flex items-center justify-center font-serif text-white lg:hidden fixed rounded-full shadow-lg focus:outline-none overflow-hidden"
-      :class="{'bg-white': navigationIsOpen, 'text-blue-600': navigationIsOpen, 'bg-gradient-texture': !navigationIsOpen}"
+      class="h-12 w-12 flex items-center justify-center font-serif text-white lg:hidden rounded-full focus:outline-none overflow-hidden"
+      :class="{'bg-white': navigationIsOpen, 'text-blue-600': navigationIsOpen, 'shadow-lg': navigationIsOpen}"
       @click="toggleNavigation()"
     >
       <transition name="fade">
@@ -109,8 +109,6 @@ export default {
   z-index: 500;
 }
 #sideNavToggle {
-  bottom: 16px;
-  right: 12px;
   z-index: 1500;
   transition: all .3s ease;
 }
