@@ -23,7 +23,7 @@
 <!--        </g-link>-->
 <!--      </li>-->
       <li class="nav-link">
-        <g-link to="/blog">
+        <g-link to="/posts">
           <i class="fad fa-newspaper fa-fw fa-lg fa-swap-opacity mr-2"></i>Blog
         </g-link>
       </li>
@@ -33,14 +33,14 @@
         </g-link>
       </li>
       <li class="nav-link">
-        <a href="https://lilyandsam.show" target="_blank">
-          <i class="fad fa-podcast fa-fw fa-lg mr-2"></i>Podcast
-        </a>
-      </li>
-      <li class="nav-link">
         <g-link to="/contact">
           <i class="fad fa-paper-plane fa-fw fa-lg mr-2"></i>Contact
         </g-link>
+      </li>
+      <li class="nav-link">
+        <a href="https://lilyandsam.show" target="_blank">
+          <i class="fad fa-podcast fa-fw fa-lg mr-2"></i>Podcast <i class="fad fa-external-link-alt fa-xs ml-2"></i>
+        </a>
       </li>
     </ul>
 

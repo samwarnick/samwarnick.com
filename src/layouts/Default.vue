@@ -8,6 +8,7 @@
         <slot />
       </Main>
     </transition>
+    <SiteFooter/>
   </div>
 </template>
 
@@ -22,10 +23,12 @@ query {
 <script>
 import SiteNavigation from "../components/SiteNavigation";
 import Main from "./Main";
+import SiteFooter from "../components/SiteFooter";
 
 export default {
   name: "DefaultLayout",
   components: {
+      SiteFooter,
     SiteNavigation,
     Main
   }

@@ -9,7 +9,7 @@
         <i class="fad fa-calendar mr-2 text-gray-600"></i
         ><time :datetime="post.date">{{ post.date | formatDate }}</time>
       </span>
-        <span class="mr-2">
+        <span class="mr-2" v-if="post.categories.length > 0">
         <i class="fad fa-archive mr-2 text-gray-600"></i
         ><g-link
                 v-for="category in post.categories"
@@ -19,7 +19,7 @@
         >{{ category.title }}</g-link
         >
       </span>
-        <span>
+        <span v-if="post.tags.length > 0">
         <i class="fad fa-hashtag mr-2 text-gray-600"></i
         ><g-link
                 v-for="tag in post.tags"
