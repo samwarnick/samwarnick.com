@@ -122,7 +122,7 @@ export default {
   },
   computed: {
     submitDisabled() {
-      return !this.name || !this.email || !this.message || this.sending;
+      return !this.name || !this.email || !this.validEmail || !this.message || this.sending;
     }
   },
   methods: {
