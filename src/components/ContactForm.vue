@@ -87,7 +87,7 @@
         class="text-lg font-bold no-underline font-serif text-black disabled:opacity-50 disabled:cursor-not-allowed mt-4"
         :disabled="submitDisabled"
       >
-        <GradientButton :class="{ 'hover:underline': !submitDisabled }"
+        <GradientButton :class="{ 'hover:underline': !submitDisabled,  'cursor-not-allowed': submitDisabled}"
           >Send</GradientButton
         >
       </button>
