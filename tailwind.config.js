@@ -32,7 +32,11 @@ module.exports = {
       }
     }
   },
-  variants: ['responsive', 'group-hover', 'focus-within', 'hover', 'focus', 'active', 'disabled'],
+  variants: {
+    backgroundColor: ['responsive', 'first', 'last', 'even', 'odd', 'hover', 'focus'],
+    textDecoration: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
+    opacity: ['responsive', 'hover', 'focus', 'active', 'group-hover', 'disabled']
+  },
   plugins: [
     function({ addVariant, e }) {
       addVariant('disabled', ({ modifySelectors, separator }) => {
