@@ -51,14 +51,10 @@ If I select "Tickets" "1 Column" and "2 Rows", then click the button, `a`, `span
 
 You might be asking yourself right about now, "Can I only put template refs on regular ol' HTML elements?" Even if you aren't asking, the answer is no! You can put template refs on components too and access their properties! For example, if we have a `hello` component that has a property that tells us how many times a hello world has been done, you can access it in your template with a template ref.
 
-::: v-pre
-
 ```html
 <hello #hello></hello>
 <p>{{hello.howManyTimesHasHelloWorldBeenDoneBefore}}</p>
 ```
-
-:::
 
 So there's probably some cool things you can do with that. I haven't messed with it much.
 
@@ -109,25 +105,17 @@ are equivalent.
 
 I've tried doing something like
 
-::: v-pre
-
 ```html
 <input type="text" #input />
 <p>{{input.value}}</p>
 ```
 
-:::
-
 In hopes of it printing out the value of the input as you type. It doesn't seem to work. You can add `change` to the input and that will show the value, not as you type, but on blur.
-
-::: v-pre
 
 ```html
 <input type="text" (change)="true" #input />
 <p>{{input.value}}</p>
 ```
-
-:::
 
 Won't lie, don't really understand what's going on here. But adding `(change)="true"` triggers change detection.
 

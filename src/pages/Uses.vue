@@ -1,13 +1,25 @@
 <template>
-    <Layout></Layout>
+  <ContentPage :content="$page.uses.content" />
 </template>
 
-<script>
-    export default {
-        name: "Uses"
+<page-query>
+query {
+    uses(path: "/uses") {
+        id
+        content
     }
+}
+</page-query>
+
+<script>
+import ContentPage from "../layouts/ContentPage";
+
+export default {
+  name: "Uses",
+  components: {
+    ContentPage
+  }
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

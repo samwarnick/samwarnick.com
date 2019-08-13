@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col">
-    <header>
+    <header class="fixed w-full z-50">
       <SiteNavigation />
     </header>
     <transition name="fade" appear>

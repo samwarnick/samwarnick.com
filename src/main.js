@@ -4,6 +4,7 @@
 import DefaultLayout from "~/layouts/Default.vue";
 import VueObserveVisibility from "vue-observe-visibility";
 import format from "date-fns/format";
+import 'prismjs/themes/prism-tomorrow.css';
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component

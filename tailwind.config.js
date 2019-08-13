@@ -15,6 +15,15 @@ module.exports = {
         "Liberation\\ Serif",
         "Georgia",
         "serif"
+      ],
+      mono: [
+        "Fira\\ Mono",
+        "Menlo",
+        "Monaco",
+        "Consolas",
+        "Liberation\\ Mono",
+        "Courier\\ New",
+        "monospace"
       ]
     },
     extend: {

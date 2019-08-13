@@ -10,7 +10,7 @@ A little bit ago, I finished my first project for a client, [totalpowerandfoam.c
 
 Here's what it looks like:
 
-![totalpowerandfoam.com screenshot](images/totalpowerandfoam_screenshot.png)
+![totalpowerandfoam.com screenshot](./images/totalpowerandfoam_screenshot.png)
 
 I really tried to give it a clean professional look without being too boring. Early drafts of the site were way too boring. But by adding shadows and a hero image, I think it came out looking real nice.
 

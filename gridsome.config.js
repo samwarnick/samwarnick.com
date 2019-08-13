@@ -19,20 +19,26 @@ module.exports = {
       use: "@gridsome/source-filesystem",
       options: {
         path: "_content/posts/**/*.md",
-        typeName: "BlogPost",
+        typeName: "Post",
         route: "/posts/:slug",
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
-            typeName: 'Tag',
-            route: '/tag/:id',
+            typeName: "Tag",
+            route: "posts/tag/:id",
             create: true
           },
           categories: {
-            typeName: 'Category',
-            route: '/category/:id',
+            typeName: "Category",
+            route: "posts/category/:id",
             create: true
           }
+        },
+        remark: {
+          plugins: [
+            "@gridsome/remark-prismjs",
+            ["remark-behead", { after: 0, depth: 1 }]
+          ]
         }
       }
     },
@@ -42,6 +48,22 @@ module.exports = {
         baseDir: "_content/projects",
         path: "*.md",
         typeName: "Project"
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        baseDir: "_content/",
+        path: "uses.md",
+        typeName: "Uses"
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        baseDir: "_content/",
+        path: "resume.md",
+        typeName: "Resume"
       }
     }
   ],

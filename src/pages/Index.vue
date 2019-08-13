@@ -54,7 +54,7 @@
         }
       }
     }
-    latestPost: allBlogPost(limit: 1) {
+    latestPost: allPost(limit: 1) {
       edges {
         node {
           title

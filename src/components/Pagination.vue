@@ -29,15 +29,19 @@ export default {
     totalPages: {
       required: true,
       type: Number
-    }
+    },
+      base: {
+        type: String,
+          default: '/posts'
+      }
   },
   computed: {
     nextPage() {
-        return `/posts/${this.currentPage + 1}`
+        return `${this.base}/${this.currentPage + 1}`
     },
     previousPage() {
         const suffix = this.currentPage > 2 ? `/${this.currentPage - 1}` : '';
-        return `/posts${suffix}`
+        return `${this.base}${suffix}`
     }
   },
     components: {
