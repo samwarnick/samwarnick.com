@@ -4,7 +4,7 @@
       <SiteNavigation />
     </header>
     <transition name="fade" appear>
-      <Main class="flex-grow">
+      <Main class="flex-grow mt-32">
         <slot />
       </Main>
     </transition>

@@ -1,7 +1,7 @@
 <template>
   <Layout>
-    <div class="mt-24 mb-24">
-      <h2 class="text-3xl mb-12">Posts</h2>
+    <div class="mb-24">
+      <h2 class="text-3xl mb-12 font-bold">Posts</h2>
       <ul>
         <PostCard v-for="post in $page.posts.edges" :key="post.id" :post="post.node" class="mb-12 odd:bg-gray-100 p-4 rounded-lg shadow-md"/>
       </ul>

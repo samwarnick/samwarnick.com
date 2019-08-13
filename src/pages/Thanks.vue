@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="flex flex-col items-center mt-24">
+    <div class="flex flex-col items-center">
       <h2 class="font-serif text-2xl tracking-wide mb-12">
         I'll get back to you as soon as I can!
       </h2>

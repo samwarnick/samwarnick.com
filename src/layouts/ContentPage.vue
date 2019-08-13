@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="mt-32">
+    <div>
       <slot />
       <div v-html="content" class="content"></div>
     </div>

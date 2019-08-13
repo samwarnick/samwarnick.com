@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="mt-24 mb-24">
-      <h2 class="text-3xl mb-12"><i class="fad fa-archive mr-2"></i>Category: {{$page.category.title}}</h2>
+      <h2 class="text-3xl mb-12 font-bold"><i class="fad fa-archive mr-2"></i>Category: {{$page.category.title}}</h2>
       <ul>
         <PostCard v-for="post in $page.category.belongsTo.edges" :key="post.id" :post="post.node" class="mb-12 odd:bg-gray-100 p-4 rounded-lg shadow-md"/>
       </ul>

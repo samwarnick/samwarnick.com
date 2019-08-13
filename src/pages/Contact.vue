@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <AboutCard class="mt-12"/>
+    <AboutCard/>
     <ContactForm />
   </Layout>
 </template>
