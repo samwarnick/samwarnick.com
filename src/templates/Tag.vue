@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="mt-24 mb-24">
+    <div class="mb-24">
       <h2 class="text-3xl mb-12 font-bold"><i class="fad fa-hashtag mr-2"></i>Tag: {{$page.tag.title}}</h2>
       <ul>
         <PostCard v-for="post in $page.tag.belongsTo.edges" :key="post.id" :post="post.node" class="mb-12 odd:bg-gray-100 p-4 rounded-lg shadow-md"/>
