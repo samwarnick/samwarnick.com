@@ -1,6 +1,8 @@
 <template>
-  <main class="max-w-3xl mx-auto px-8">
-    <slot />
+  <main class="w-full max-w-3xl mx-auto px-8">
+    <div class="w-3xl">
+      <slot />
+    </div>
   </main>
 </template>
 

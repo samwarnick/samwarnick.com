@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex flex-col">
+  <div class="min-h-screen flex flex-col items-stretch">
     <header class="fixed w-full z-50">
       <SiteNavigation />
     </header>
