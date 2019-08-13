@@ -50,13 +50,8 @@
   transform: translateX(0);
 }
 
-@screen lg {
-  .nav-links {
-    @apply shadow-none p-0 relative flex-row items-center;
-    background: none;
-    transition: none;
-    transform: translateY(0);
-  }
+.nav-link {
+  @apply mb-2;
 }
 
 .nav-link a {
@@ -75,6 +70,19 @@
   transition: all 0.5s ease;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   background: rgba(255, 255, 255, 0.2);
+}
+
+@screen lg {
+  .nav-links {
+    @apply shadow-none p-0 relative flex-row items-center;
+    background: none;
+    transition: none;
+    transform: translateY(0);
+  }
+
+  .nav-link {
+    @apply mb-0;
+  }
 }
 
 .transition {
