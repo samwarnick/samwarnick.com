@@ -170,7 +170,7 @@ html {
   @apply shadow;
 }
 .content ol, .content ul {
-  @apply my-4 ml-4 pl-4;
+  @apply my-4 ml-4 pl-2;
 }
 .content ol {
   @apply list-decimal;
@@ -178,8 +178,8 @@ html {
 .content ul {
   @apply  list-disc;
 }
-.content li {
-  @apply mb-2;
+.content li, .content li > ul, .content li > ol, .content li > p {
+  @apply my-1;
 }
 .content h2 {
   @apply mt-6 mb-4 text-3xl font-bold;
