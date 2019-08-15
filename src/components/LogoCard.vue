@@ -1,6 +1,6 @@
 <template>
   <li
-    class="flex flex-col items-center m-4 bg-white shadow rounded p-2 self-start fade-in"
+    class="flex flex-col items-center m-2 sm:m-4 bg-white shadow rounded p-2 self-start fade-in"
     :class="{ show: isVisible }"
     v-observe-visibility="{
       callback: visibilityChanged,

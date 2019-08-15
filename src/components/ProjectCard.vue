@@ -12,7 +12,7 @@
       :alt="`Screenshot of ${project.name}`"
       v-if="project.image"
       :src="project.image"
-      class="shadow hidden md:block"
+      class="shadow hidden sm:block"
     />
     <div class="p-4 flex flex-col justify-between">
       <header>
