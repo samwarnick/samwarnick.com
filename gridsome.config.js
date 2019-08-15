@@ -47,7 +47,8 @@ module.exports = {
       options: {
         baseDir: "_content/projects",
         path: "*.md",
-        typeName: "Project"
+        typeName: "Project",
+        route: "projects/:name"
       }
     },
     {
