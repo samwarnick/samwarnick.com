@@ -36,7 +36,7 @@
       <ul
         class="list-reset flex flex-wrap items-center justify-center sm:justify-start text-4xl"
       >
-        <li class="mr-4 my-4 fade-in delay-1" :class="{ show: isVisible }">
+        <li class="mx-2 my-4 fade-in delay-1" :class="{ show: isVisible }">
           <a
             href="https://twitter.com/samwarnick"
             target="_blank"
@@ -47,7 +47,7 @@
             <i class="fab fa-twitter"></i>
           </a>
         </li>
-        <li class="mr-4 my-4 fade-in delay-2" :class="{ show: isVisible }">
+        <li class="mx-2 my-4 fade-in delay-2" :class="{ show: isVisible }">
           <a
             href="https://codepen.io/samwarnick/"
             target="_blank"
@@ -58,7 +58,7 @@
             <i class="fab fa-codepen"></i>
           </a>
         </li>
-        <li class="mr-4 my-4 fade-in delay-3" :class="{ show: isVisible }">
+        <li class="mx-2 my-4 fade-in delay-3" :class="{ show: isVisible }">
           <a
             href="https://github.com/samwarnick"
             target="_blank"
@@ -70,7 +70,7 @@
           </a>
         </li>
         <li
-          class="ml-4 my-4 text-lg fade-in delay-4"
+          class="mx-2 my-4 text-lg fade-in delay-4"
           :class="{ show: isVisible }"
         >
           <g-link
