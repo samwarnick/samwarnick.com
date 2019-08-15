@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout :show-breadcrumbs="true">
     <h2 class="text-3xl mb-12 font-bold"><i class="fad fa-hashtag mr-2"></i>Tags</h2>
     <ul>
       <li v-for="tag in $page.tags.edges" :key="tag.node.id" class="text-xl mb-2">

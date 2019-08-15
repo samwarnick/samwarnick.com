@@ -1,12 +1,8 @@
 <template>
   <Layout>
-    <div class="mb-24">
+    <PostList :posts="$page.posts.edges" :page-info="$page.posts.pageInfo" >
       <h2 class="text-3xl mb-12 font-bold">Posts</h2>
-      <ul>
-        <PostCard v-for="post in $page.posts.edges" :key="post.id" :post="post.node" class="mb-12 odd:bg-gray-100 p-4 rounded-lg shadow-md"/>
-      </ul>
-    </div>
-    <Pagination :current-page="$page.posts.pageInfo.currentPage" :total-pages="$page.posts.pageInfo.totalPages"/>
+    </PostList>
   </Layout>
 </template>
 
@@ -42,13 +38,11 @@ query Posts ($page: Int) {
 </page-query>
 
 <script>
-import PostCard from "../../components/PostCard";
-import Pagination from "../../components/Pagination";
+import PostList from "../../components/PostList";
 
 export default {
     components: {
-        Pagination,
-        PostCard
+        PostList
     }
 };
 </script>

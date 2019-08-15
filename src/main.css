@@ -192,6 +192,9 @@ html {
 .content h2 {
   @apply mt-6 mb-4 text-3xl font-bold;
 }
+.content h2:first-child {
+  @apply mt-0;
+}
 .content h3 {
   @apply mt-6 mb-2 text-xl font-bold;
 }

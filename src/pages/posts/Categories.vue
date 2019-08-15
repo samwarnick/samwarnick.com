@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout :show-breadcrumbs="true">
     <h2 class="text-3xl mb-12 font-bold"><i class="fad fa-archive mr-2"></i>Categories</h2>
     <ul>
       <li v-for="category in $page.categories.edges" :key="category.node.id" class="text-xl mb-2">

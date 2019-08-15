@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <header class="mt-32">
+    <header>
       <h2 class="text-3xl font-bold">{{$page.post.title}}</h2>
       <div class="text-gray-500">
         <span class="mr-4">
@@ -28,9 +28,9 @@
         >
         </span>
       </div>
-      <div v-if="$page.post.description" class="border-b border-b-gray-200 my-8">
+      <div v-if="$page.post.description" class="border-b border-b-gray-100 my-12">
         <h3 class="text-xl font-bold">TL;DR</h3>
-        <p class="pt-2 pb-4">{{$page.post.description}}</p>
+        <p class="pt-2 pb-12">{{$page.post.description}}</p>
       </div>
       <div v-html="$page.post.content" class="content"></div>
     </header>

@@ -34,8 +34,9 @@ module.exports = {
   },
   variants: {
     backgroundColor: ['responsive', 'first', 'last', 'even', 'odd', 'hover', 'focus'],
-    textDecoration: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
-    opacity: ['responsive', 'hover', 'focus', 'active', 'group-hover', 'disabled']
+    borderWidth: ['responsive', 'last', 'hover', 'focus'],
+    opacity: ['responsive', 'hover', 'focus', 'active', 'group-hover', 'disabled'],
+    textDecoration: ['responsive', 'hover', 'focus', 'active', 'group-hover']
   },
   plugins: [
     function({ addVariant, e }) {
