@@ -1,7 +1,7 @@
 <template>
   <Layout :show-breadcrumbs="true">
     <PostList :posts="$page.tag.belongsTo.edges" :page-info="$page.tag.belongsTo.pageInfo" :base="`/posts/category/${$page.tag.title}`">
-      <h2 class="text-3xl mb-12 font-bold"><i class="fad fa-hashtag mr-2"></i>Tag: {{$page.tag.title}}</h2>
+      <h2 class="text-4xl mb-12 flex items-center"><i class="fad fa-hashtag fa-sm mr-2"></i>Tag:<span class="font-normal ml-4">{{$page.tag.title}}</span></h2>
     </PostList>
   </Layout>
 </template>
@@ -53,5 +53,4 @@
 </script>
 
 <style scoped>
-
 </style>

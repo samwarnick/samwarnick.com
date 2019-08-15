@@ -19,7 +19,7 @@
     />
     <div class="md:ml-6">
       <h2
-        class="text-2xl my-4 text-center md:text-left fade-in"
+        class="text-4xl my-4 text-center md:text-left fade-in"
         :class="{ show: isVisible }"
       >
         Hi There!
@@ -75,9 +75,9 @@
         >
           <g-link
             to="/resume"
-            class="text-base font-bold tracking-wide"
+            class="text-base font-bold"
             style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9">
-            <GradientButton class="hover:underline">Résumé<i class="fad fa-chevron-right ml-2"></i></GradientButton>
+            <GradientButton class="group"><span class="group-hover:underline">Résumé</span><i class="fad fa-chevron-right ml-2"></i></GradientButton>
           </g-link>
         </li>
       </ul>

@@ -3,14 +3,14 @@
     <AboutCard />
 
     <div class="bg-gray-100 p-6 shadow-lg mb-24">
-      <h2 class="text-2xl text-center mb-12 tracking-wide">
+      <h2 class="text-4xl font-bold text-center mb-12">
         What I Build With
       </h2>
       <LogoCards />
     </div>
 
     <div class="max-w-3xl mx-auto px-8">
-      <h2 class="text-2xl my-4 text-center mb-12 tracking-wide">
+      <h2 class="text-4xl font-bold my-4 text-center mb-12">
         Some Of My Work
       </h2>
       <ul>
@@ -23,7 +23,7 @@
     </div>
 
     <div class="max-w-3xl mx-auto mt-24 px-8">
-      <h2 class="text-2xl my-4 text-center mb-12 tracking-wide">
+      <h2 class="text-4xl font-bold my-4 text-center mb-12">
         Latest Post
       </h2>
       <ul class="mb-12">
@@ -31,9 +31,9 @@
       </ul>
       <g-link
         to="/posts"
-        class="text-base font-bold tracking-wide"
+        class="text-base font-bold"
         style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9">
-        <GradientButton class="hover:underline">See More Posts<i class="fad fa-chevron-right ml-2"></i></GradientButton>
+        <GradientButton class="group"><span class="group-hover:underline">See More Posts</span><i class="fad fa-chevron-right ml-2"></i></GradientButton>
       </g-link>
     </div>
   </Hero>

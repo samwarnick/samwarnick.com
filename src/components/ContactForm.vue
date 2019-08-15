@@ -14,7 +14,7 @@
         <input name="bot-field" />
       </label>
     </div>
-    <label for="nameInput" class="text-lg font-bold tracking-wide">
+    <label for="nameInput" class="text-lg font-bold">
       Name
       <span class="text-red-500">*</span>
     </label>
@@ -36,7 +36,7 @@
     <div class="flex items-center">
       <label
         for="emailInput"
-        class="text-lg font-bold tracking-wide"
+        class="text-lg font-bold"
       >
         Email
         <span class="text-red-500">*</span>
@@ -63,7 +63,7 @@
     </InputWrapper>
     <label
       for="messageInput"
-      class="text-lg font-bold tracking-wide"
+      class="text-lg font-bold"
     >
       Message
       <span class="text-red-500">*</span>

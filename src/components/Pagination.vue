@@ -1,18 +1,24 @@
 <template>
-  <div class="flex items-center relative" :class="[currentPage > 1 ? 'justify-between' : 'justify-end']" style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9">
-    <g-link
-      :to="previousPage"
-      v-if="currentPage > 1"
-      class="text-base font-bold tracking-wide">
-      <GradientButton class="hover:underline"><i class="fad fa-chevron-left mr-2"></i>Previous</GradientButton>
-    </g-link>
-    <span class="absolute flex justify-center w-full pointer-events-none">{{ currentPage }} of {{ totalPages }}</span>
-    <g-link
-      :to="nextPage"
-      v-if="currentPage < totalPages"
-      class="text-base font-bold tracking-wide">
-      <GradientButton class="hover:underline">Next<i class="fad fa-chevron-right ml-2"></i></GradientButton>
-    </g-link>
+  <div class="flex flex-col md:flex-row items-center relative bg-gray-100 p-4 rounded" :class="[currentPage > 1 ? 'justify-between' : 'justify-end']" style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9">
+    <span class="md:absolute left-0 flex justify-center w-full pointer-events-none" style="order: -1">{{ currentPage }} of {{ totalPages }}</span>
+    <div class="w-full mt-4 md:mt-0 buttons">
+      <g-link
+              :to="previousPage"
+              v-if="currentPage > 1"
+              class="text-base font-bold flex-grow pagination-button">
+        <GradientButton class="group block w-full">
+          <i class="fad fa-chevron-left mr-2"></i><span class="group-hover:underline">Previous</span>
+        </GradientButton>
+      </g-link>
+      <g-link
+              :to="nextPage"
+              v-if="currentPage < totalPages"
+              class="text-base font-bold flex-grow pagination-button">
+        <GradientButton class="group block w-full">
+          <span class="group-hover:underline">Next</span><i class="fad fa-chevron-right ml-2"></i>
+        </GradientButton>
+      </g-link>
+    </div>
   </div>
 </template>
 
@@ -50,4 +56,13 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+  .buttons {
+    display: grid;
+    grid-template-columns: minmax(110px, 120px) 1fr minmax(110px, 120px);
+    grid-column-gap: 2em;
+  }
+  .pagination-button:last-child {
+    grid-column-start: 3;
+  }
+</style>

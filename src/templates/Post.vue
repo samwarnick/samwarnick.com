@@ -1,8 +1,8 @@
 <template>
-  <Layout>
+  <Layout :show-breadcrumbs="true">
     <header>
-      <h2 class="text-3xl font-bold">{{$page.post.title}}</h2>
-      <div class="text-gray-500">
+      <h2 class="text-3xl md:text-5xl font-extrabold leading-none mb-4">{{$page.post.title}}</h2>
+      <div class="text-gray-500 flex flex-col md:flex-row">
         <span class="mr-4">
           <i class="fad fa-calendar mr-2 text-gray-600"></i
           ><time :datetime="$page.post.date">{{ $page.post.date | formatDate }}</time>
@@ -29,7 +29,7 @@
         </span>
       </div>
       <div v-if="$page.post.description" class="border-b border-b-gray-100 my-12">
-        <h3 class="text-xl font-bold">TL;DR</h3>
+        <h3 class="text-xl font-normal">TL;DR</h3>
         <p class="pt-2 pb-12">{{$page.post.description}}</p>
       </div>
       <div v-html="$page.post.content" class="content"></div>

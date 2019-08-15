@@ -6,7 +6,7 @@
   >
     <g-link to="/" class="flex-shrink-0">
       <slot>
-        <h1 class="text-white text-xl sm:text-2xl lowercase">
+        <h1 class="text-white text-xl sm:text-2xl lowercase font-thin">
           Sam Warnick
         </h1>
       </slot>
@@ -39,7 +39,7 @@
       </li>
       <li class="nav-link">
         <a href="https://lilyandsam.show" target="_blank">
-          <i class="fad fa-podcast fa-fw fa-lg mr-2"></i>Podcast <i class="fad fa-external-link-alt fa-xs ml-2"></i>
+          <i class="fad fa-podcast fa-fw fa-lg mr-2"></i>Podcast
         </a>
       </li>
     </ul>
