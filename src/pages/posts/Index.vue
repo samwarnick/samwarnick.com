@@ -3,6 +3,24 @@
     <PostList :posts="$page.posts.edges" :page-info="$page.posts.pageInfo" >
       <h2 class="text-3xl mb-12 font-bold">Posts</h2>
     </PostList>
+    <div class="flex mt-32">
+      <div class="mr-8">
+        <h2 class="text-xl mb-4 font-bold"><i class="fad fa-archive mr-2"></i>Categories</h2>
+        <ul>
+          <li v-for="category in $page.categories.edges" :key="category.node.id" class="mb-2">
+            <g-link class="group gradient-underline" :to="category.node.path">{{category.node.title}} <span class="text-gray-600 group-hover:text-black transition">({{category.node.belongsTo.totalCount}})</span></g-link>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-xl mb-4 font-bold"><i class="fad fa-hashtag mr-2"></i>Tags</h2>
+        <ul>
+          <li v-for="tag in $page.tags.edges" :key="tag.node.id" class="mb-2">
+            <g-link class="group gradient-underline" :to="tag.node.path">{{tag.node.title}} <span class="text-gray-600 group-hover:text-black transition">({{tag.node.belongsTo.totalCount}})</span></g-link>
+          </li>
+        </ul>
+      </div>
+    </div>
   </Layout>
 </template>
 
@@ -30,6 +48,30 @@ query Posts ($page: Int) {
           id
           title
           path
+        }
+      }
+    }
+  }
+  categories: allCategory {
+    edges {
+      node {
+        id
+        title
+        path
+        belongsTo {
+          totalCount
+        }
+      }
+    }
+  }
+  tags: allTag {
+    edges {
+      node {
+        id
+        title
+        path
+        belongsTo {
+          totalCount
         }
       }
     }
