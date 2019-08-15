@@ -17,7 +17,7 @@
     <div class="p-4 flex flex-col justify-between">
       <header>
         <a :href="project.link" class="group" target="_blank">
-          <h3 class="text-2xl font-serif mb-2 flex items-center">
+          <h3 class="text-2xl mb-2 flex items-center">
             <span class="gradient-underline">{{ project.name }}</span
             ><i class="fad fa-external-link-alt fa-xs ml-2"></i>
           </h3>

@@ -14,7 +14,7 @@
         <input name="bot-field" />
       </label>
     </div>
-    <label for="nameInput" class="text-lg font-serif font-bold tracking-wide">
+    <label for="nameInput" class="text-lg font-bold tracking-wide">
       Name
       <span class="text-red-500">*</span>
     </label>
@@ -36,7 +36,7 @@
     <div class="flex items-center">
       <label
         for="emailInput"
-        class="text-lg font-serif font-bold tracking-wide"
+        class="text-lg font-bold tracking-wide"
       >
         Email
         <span class="text-red-500">*</span>
@@ -63,7 +63,7 @@
     </InputWrapper>
     <label
       for="messageInput"
-      class="text-lg font-serif font-bold tracking-wide"
+      class="text-lg font-bold tracking-wide"
     >
       Message
       <span class="text-red-500">*</span>
@@ -84,7 +84,7 @@
       <p><span class="text-red-500">*</span>Required</p>
       <button
         type="submit"
-        class="text-lg font-bold no-underline font-serif text-black disabled:opacity-50 disabled:cursor-not-allowed mt-4"
+        class="text-lg font-bold no-underline text-black disabled:opacity-50 disabled:cursor-not-allowed mt-4"
         :disabled="submitDisabled"
       >
         <GradientButton :class="{ 'hover:underline': !submitDisabled,  'cursor-not-allowed': submitDisabled}"

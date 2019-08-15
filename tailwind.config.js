@@ -3,19 +3,6 @@ const postcss = require("postcss");
 module.exports = {
   theme: {
     fontFamily: {
-      serif: [
-        "Roboto\\ Slab",
-        "Constantia",
-        "Lucida\\ Bright",
-        "Lucidabright",
-        "Lucida\\ Serif",
-        "Lucida",
-        "DejaVu\\ Serif",
-        "Bitstream\\ Vera\\ Serif",
-        "Liberation\\ Serif",
-        "Georgia",
-        "serif"
-      ],
       mono: [
         "Fira\\ Mono",
         "Menlo",

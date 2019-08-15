@@ -2,10 +2,10 @@
   <Layout>
     <div class="flex flex-col items-center mt-24">
       <span class="text-6xl">404</span>
-      <h2 class="font-serif text-2xl tracking-wide mb-12">
+      <h2 class="text-2xl tracking-wide mb-12">
         Shoot. I can't find that page. 😞
       </h2>
-      <g-link to="/" class="font-serif font-bold text-lg tracking-wide">
+      <g-link to="/" class="font-bold text-lg tracking-wide">
         <GradientButton class="hover:underline">
           Back Home
         </GradientButton>

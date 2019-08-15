@@ -1,7 +1,7 @@
 <template>
   <li>
     <header class="mb-4">
-      <h3 class="text-2xl font-serif font-bold">
+      <h3 class="text-2xl font-bold">
         <g-link :to="post.path" class="gradient-underline">{{ post.title }}</g-link>
       </h3>
       <div class="text-gray-500">

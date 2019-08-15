@@ -3,14 +3,14 @@
     <g-link
       :to="previousPage"
       v-if="currentPage > 1"
-      class="text-base font-serif font-bold tracking-wide">
+      class="text-base font-bold tracking-wide">
       <GradientButton class="hover:underline"><i class="fad fa-chevron-left mr-2"></i>Previous</GradientButton>
     </g-link>
     <span class="absolute flex justify-center w-full pointer-events-none">{{ currentPage }} of {{ totalPages }}</span>
     <g-link
       :to="nextPage"
       v-if="currentPage < totalPages"
-      class="text-base font-serif font-bold tracking-wide">
+      class="text-base font-bold tracking-wide">
       <GradientButton class="hover:underline">Next<i class="fad fa-chevron-right ml-2"></i></GradientButton>
     </g-link>
   </div>

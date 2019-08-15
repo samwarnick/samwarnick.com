@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Fira+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono&display=swap");
 @import url("https://rsms.me/inter/inter.css");
 
 @tailwind base;
@@ -55,7 +55,7 @@
 }
 
 .nav-link a {
-  @apply flex items-center mx-2 px-3 py-2 font-serif tracking-wide rounded-lg border-2 border-transparent;
+  @apply flex items-center mx-2 px-3 py-2 tracking-wide rounded-lg border-2 border-transparent;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
@@ -153,7 +153,6 @@ html {
 }
 
 .content h1, h2, h3, h4, h5, h6 {
-  @apply font-serif;
   font-feature-settings: "calt" 1, "liga" 1, "frac" 0, "case" 1, "ss01" 1,
   "ss03" 1;
 }

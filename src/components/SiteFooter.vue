@@ -1,5 +1,5 @@
 <template>
-  <footer class="p-12 mt-12 font-serif text-sm text-gray-800 flex flex-col items-center">
+  <footer class="p-12 mt-12 text-sm text-gray-800 flex flex-col items-center">
 <!--    <nav>-->
 <!--      <ul class="list-reset flex flex-col sm:flex-row">-->
 <!--        <li class="flex mb-2">-->

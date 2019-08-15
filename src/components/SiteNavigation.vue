@@ -6,7 +6,7 @@
   >
     <g-link to="/" class="flex-shrink-0">
       <slot>
-        <h1 class="text-white text-xl sm:text-2xl lowercase font-serif">
+        <h1 class="text-white text-xl sm:text-2xl lowercase">
           Sam Warnick
         </h1>
       </slot>
@@ -46,7 +46,7 @@
 
     <button
       id="sideNavToggle"
-      class="h-12 w-12 flex items-center justify-center font-serif text-white lg:hidden rounded-full focus:outline-none overflow-hidden"
+      class="h-12 w-12 flex items-center justify-center text-white lg:hidden rounded-full focus:outline-none overflow-hidden"
       :class="{'bg-white': navigationIsOpen, 'text-blue-600': navigationIsOpen, 'shadow-lg': navigationIsOpen}"
       @click="toggleNavigation()"
     >
