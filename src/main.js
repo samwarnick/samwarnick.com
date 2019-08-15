@@ -17,4 +17,17 @@ export default function(Vue, { router, head, isClient }) {
   head.script.push({
     src: "https://kit.fontawesome.com/c748538aff.js"
   });
+
+  head.link.push({
+    href: "https://fonts.googleapis.com/css?family=Fira+Code&display=swap",
+    rel: "preload",
+    as: "style"
+  });
+
+  head.link.push({
+    href: "https://rsms.me/inter/inter.css",
+    rel: "preload",
+    as: "style"
+  });
+
 }
