@@ -1,6 +1,6 @@
 <template>
   <ContentPage :content="$page.resume.content">
-    <AboutCard/>
+    <AboutCard :show-resume-link="false"/>
   </ContentPage>
 </template>
 

@@ -31,9 +31,9 @@
       </ul>
       <g-link
         to="/posts"
-        class="text-base font-bold"
+        class="text-base font-bold group"
         style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9">
-        <GradientButton class="group"><span class="group-hover:underline">See More Posts</span><i class="fad fa-chevron-right ml-2"></i></GradientButton>
+        <span class="group-hover:underline">See More Posts</span><i class="fad fa-chevron-right ml-2"></i>
       </g-link>
     </div>
   </Hero>
@@ -82,7 +82,6 @@ import Hero from "../layouts/Hero";
 import LogoCards from "../components/LogoCards";
 import ProjectCard from "../components/ProjectCard";
 import PostCard from "../components/PostCard";
-import GradientButton from "../components/GradientButton";
 import AboutCard from "../components/AboutCard";
 
 export default {
@@ -91,8 +90,7 @@ export default {
     AboutCard,
     LogoCards,
     ProjectCard,
-    PostCard,
-    GradientButton
+    PostCard
   }
 };
 </script>

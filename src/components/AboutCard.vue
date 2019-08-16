@@ -70,14 +70,15 @@
           </a>
         </li>
         <li
+          v-if="showResumeLink"
           class="mx-2 my-4 text-lg fade-in delay-4"
           :class="{ show: isVisible }"
         >
           <g-link
             to="/resume"
-            class="text-base font-bold"
+            class="text-base font-bold group"
             style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9">
-            <GradientButton class="group"><span class="group-hover:underline">Résumé</span><i class="fad fa-chevron-right ml-2"></i></GradientButton>
+            <span class="group-hover:underline">Résumé</span><i class="fad fa-chevron-right ml-2"></i>
           </g-link>
         </li>
       </ul>
@@ -86,10 +87,14 @@
 </template>
 
 <script>
-import GradientButton from "./GradientButton";
 
 export default {
   name: "AboutCard",
+    props: {
+      showResumeLink: {
+          default: true
+      }
+    },
   data() {
     return {
       isVisible: false
@@ -99,9 +104,6 @@ export default {
     visibilityChanged(isVisible) {
       this.isVisible = isVisible;
     }
-  },
-  components: {
-    GradientButton
   }
 };
 </script>
