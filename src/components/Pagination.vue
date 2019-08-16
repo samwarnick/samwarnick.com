@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col md:flex-row items-center relative bg-gray-100 p-4 rounded" :class="[currentPage > 1 ? 'justify-between' : 'justify-end']" style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9">
-    <span class="md:absolute left-0 flex justify-center w-full pointer-events-none text-gray-700" style="order: -1">{{ currentPage }} of {{ totalPages }}</span>
+    <span class="border-b border-gray-200 pb-2 md:absolute md:border-none md:pb-0 left-0 flex justify-center w-full pointer-events-none text-gray-700" style="order: -1">{{ currentPage }} of {{ totalPages }}</span>
     <div class="w-full mt-4 md:mt-0 buttons">
       <g-link
               :to="previousPage"
