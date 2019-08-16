@@ -19,6 +19,9 @@ import GradientButton from "../components/GradientButton";
 
 export default {
   name: "404",
+  metaInfo: {
+    title: "404 - Not Found"
+  },
   components: {
     GradientButton
   }

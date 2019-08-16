@@ -1,6 +1,6 @@
 <template>
   <ContentPage :content="$page.resume.content">
-    <AboutCard :show-resume-link="false"/>
+    <AboutCard :show-resume-link="false" />
   </ContentPage>
 </template>
 
@@ -19,6 +19,9 @@ import AboutCard from "../components/AboutCard";
 
 export default {
   name: "Resume",
+  metaInfo: {
+    title: "Résumé"
+  },
   components: {
     AboutCard,
     ContentPage

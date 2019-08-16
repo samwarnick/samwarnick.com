@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <AboutCard/>
+    <AboutCard />
     <ContactForm />
   </Layout>
 </template>
@@ -11,11 +11,11 @@ import AboutCard from "../components/AboutCard";
 
 export default {
   metaInfo: {
-    title: 'Contact Me'
+    title: "Contact"
   },
-    components: {
-      AboutCard,
-      ContactForm
-    }
-}
+  components: {
+    AboutCard,
+    ContactForm
+  }
+};
 </script>

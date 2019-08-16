@@ -16,6 +16,9 @@ import ContentPage from "../layouts/ContentPage";
 
 export default {
   name: "Uses",
+  metaInfo: {
+    title: "Gear"
+  },
   components: {
     ContentPage
   }

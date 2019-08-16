@@ -32,8 +32,10 @@
       <g-link
         to="/posts"
         class="text-base font-bold group"
-        style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9">
-        <span class="group-hover:underline">See More Posts</span><i class="fad fa-chevron-right ml-2"></i>
+        style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9"
+      >
+        <span class="group-hover:underline">See More Posts</span
+        ><i class="fad fa-chevron-right ml-2"></i>
       </g-link>
     </div>
   </Hero>
@@ -85,6 +87,9 @@ import PostCard from "../components/PostCard";
 import AboutCard from "../components/AboutCard";
 
 export default {
+  metaInfo: {
+    title: "Home"
+  },
   components: {
     Hero,
     AboutCard,
