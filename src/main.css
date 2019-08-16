@@ -155,6 +155,7 @@ h1, h2, h3, h4 {
 }
 
 /* CONTENT */
+/* purgecss start ignore */
 .content h1, h2, h3, h4, h5, h6 {
   font-feature-settings: "calt" 1, "liga" 1, "frac" 0, "case" 1, "ss01" 1,
   "ss03" 1;
@@ -220,6 +221,7 @@ h1, h2, h3, h4 {
   @apply bg-purple-100 text-purple-900;
   padding: .1em .5em;
 }
+/* purgecss end ignore */
 
 @tailwind utilities;
 
