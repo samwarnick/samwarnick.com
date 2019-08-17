@@ -5,9 +5,9 @@
       :page-info="$page.category.belongsTo.pageInfo"
       :base="`/posts/categories/${$page.category.title}`"
     >
-      <h2 class="text-4xl mb-12">
-        <i class="fad fa-archive fa-sm mr-2"></i>Category:<span
-          class="font-normal ml-4"
+      <h2 class="text-4xl mb-12 flex items-center flex-wrap">
+        <i class="fad fa-archive fa-sm mr-2"></i><span class="mr-4">Category:</span><span
+          class="font-normal"
           >{{ $page.category.title }}</span
         >
       </h2>
