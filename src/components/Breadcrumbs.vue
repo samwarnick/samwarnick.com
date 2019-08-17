@@ -18,13 +18,16 @@
                 let pathArray = this.$route.path.split("/")
                 pathArray.shift()
                 return pathArray.reduce((breadcrumbArray, path, idx) => {
-                    breadcrumbArray.push({
+                    const breadcrumb = {
                         path: path,
                         to: breadcrumbArray[idx - 1]
                             ? "/" + breadcrumbArray[idx - 1].path + "/" + path
                             : "/" + path,
                         text: path,
-                    });
+                    };
+                    if (isNaN(breadcrumb.path)) {
+                        breadcrumbArray.push(breadcrumb);
+                    }
                     return breadcrumbArray;
                 }, [])
             }
