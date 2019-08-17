@@ -7,6 +7,7 @@
 const tailwind = require("tailwindcss");
 const autoprefixer = require("autoprefixer");
 const purgecss = require("@fullhuman/postcss-purgecss");
+const marked = require("marked");
 
 const postcssPlugins = [tailwind(), autoprefixer()];
 
@@ -74,7 +75,36 @@ module.exports = {
         cacheTime: 600000, // default
         exclude: ['/thanks']
       }
-    }
+    },
+    {
+      use: 'gridsome-plugin-feed',
+      options: {
+        contentTypes: ['Post'],
+        feedOptions: {
+          title: 'Sam Warnick Blog Feed',
+          description: 'A blog about things a stuff. Often related to programming.',
+          copyright: `Copyright 2016–${new Date().getFullYear()} Sam Warnick`,
+          image: "https://res.cloudinary.com/verygoodfm/image/upload/c_fill,f_auto,g_face,h_600,w_600/v1544745118/sam_profile.jp",
+          favicon: "https://samwarnick.com/favicon.png",
+          author: {
+            name: "Sam Warnick",
+            email: "sam@verygoodwebsites.io",
+            link: "https://samwarnick.com"
+          }
+        },
+        rss: {
+          enabled: true,
+          output: '/feed.xml'
+        },
+        htmlFields: ['description', 'content'],
+        nodeToFeedItem: (node) => ({
+          title: node.title,
+          date: node.date,
+          content: marked(node.content),
+          description: node.description
+        })
+      }
+    },
   ],
   css: {
     loaderOptions: {
