@@ -7,7 +7,7 @@
         ref="nav"
       >
         <h1
-          class="text-white text-xl sm:text-2xl lowercase font-thin"
+          class="text-black text-xl sm:text-2xl lowercase font-thin"
           :style="headerTitleStyles"
         >
           Sam Warnick
@@ -21,7 +21,7 @@
     >
       <h2
         id="heroTitle"
-        class="text-white text-3xl sm:text-4xl md:text-6xl lowercase font-thin"
+        class="text-black text-3xl sm:text-4xl md:text-6xl lowercase font-thin"
         ref="heroTitle"
         :style="heroTitleStyles"
       >

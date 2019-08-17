@@ -6,7 +6,7 @@
   >
     <g-link to="/" class="flex-shrink-0">
       <slot>
-        <h1 class="text-white text-xl sm:text-2xl lowercase font-thin">
+        <h1 class="text-black text-xl sm:text-2xl lowercase font-thin">
           Sam Warnick
         </h1>
       </slot>
@@ -15,7 +15,7 @@
     <ul
       class="nav-links"
       :class="{ show: navigationIsOpen }"
-      style="--fa-secondary-opacity: 0.60"
+      style="--fa-primary-color: #13293D; --fa-secondary-color: #006494; --fa-secondary-opacity: 0.80"
     >
       <li class="nav-link">
         <g-link to="/projects">
@@ -24,17 +24,17 @@
       </li>
       <li class="nav-link">
         <g-link to="/posts">
-          <i class="fad fa-newspaper fa-fw fa-lg fa-swap-opacity mr-2"></i>Blog
+          <i class="fad fa-newspaper fa-fw fa-lg mr-2"></i>Blog
         </g-link>
       </li>
       <li class="nav-link">
-        <g-link to="/uses">
-          <i class="fad fa-backpack fa-fw fa-lg mr-2"></i>Gear
+        <g-link to="/uses" style="--fa-primary-color: #006494; --fa-secondary-color: #13293D">
+          <i class="fad fa-backpack fa-fw fa-lg fa-swap-opacity mr-2"></i>Gear
         </g-link>
       </li>
       <li class="nav-link">
-        <g-link to="/contact">
-          <i class="fad fa-paper-plane fa-fw fa-lg mr-2"></i>Contact
+        <g-link to="/contact" style="--fa-primary-color: #006494; --fa-secondary-color: #13293D" >
+          <i class="fad fa-paper-plane fa-fw fa-lg fa-swap fa-swap-opacity mr-2"></i>Contact
         </g-link>
       </li>
       <li class="nav-link">
@@ -47,7 +47,7 @@
     <button
       :title="navigationIsOpen ? 'Close navigation' : 'Open navigation'"
       id="sideNavToggle"
-      class="h-12 w-12 flex items-center justify-center text-white lg:hidden rounded-full focus:outline-none overflow-hidden"
+      class="h-12 w-12 flex items-center justify-center text-black lg:hidden rounded-full focus:outline-none overflow-hidden"
       :class="{'bg-white': navigationIsOpen, 'text-blue-600': navigationIsOpen, 'shadow-lg': navigationIsOpen}"
       @click="toggleNavigation()"
     >
