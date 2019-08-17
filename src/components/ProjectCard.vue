@@ -24,14 +24,15 @@
         <p>{{ project.description }}</p>
         <a
           :href="project.link"
-          class="group flex items-center text-gray-600 mt-4"
+          class="group flex items-center text-gray-700 mt-4"
           target="_blank"
+          rel="noopener"
         >
           <span class="group-hover:underline">See it in action</span
           ><i class="fad fa-external-link-alt fa-xs ml-2"></i>
         </a>
       </header>
-      <footer class="flex items-center text-gray-600 text-sm mt-4 ml-2">
+      <footer class="flex items-center text-gray-700 text-sm mt-4 ml-2">
         <i class="fad fa-code mr-2"></i>
         <span>Built with {{ project.technologies | commaJoin }}</span>
       </footer>

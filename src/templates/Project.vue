@@ -22,7 +22,7 @@
           <p class="m-4 text-lg">{{$page.project.description}}</p>
         </div>
         <div class="pb-8 my-8 border-b text-gray-700" style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9">
-          <a :href="$page.project.link" target="_blank" class="gradient-underline text-xl">See it in action<i class="fad fa-external-link-alt fa-xs ml-2"></i></a>
+          <a :href="$page.project.link" target="_blank" rel="noopener" class="gradient-underline text-xl">See it in action<i class="fad fa-external-link-alt fa-xs ml-2"></i></a>
         </div>
       </header>
       <div v-html="$page.project.content" class="content"></div>
