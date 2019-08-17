@@ -23,13 +23,11 @@ export default function(Vue, { router, head, isClient }) {
 
   head.link.push({
     href: "https://fonts.googleapis.com/css?family=Fira+Code&display=swap",
-    rel: "preload",
-    as: "style"
+    rel: "preload"
   });
 
   head.link.push({
     href: "https://rsms.me/inter/inter.css",
-    rel: "preload",
-    as: "style"
+    rel: "preload"
   });
 }
