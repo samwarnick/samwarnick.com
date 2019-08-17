@@ -1,7 +1,6 @@
 ---
 title: Making Send to Nowhere
 date: 2017-04-19
-layout: Post
 description: "Send To Nowhere was a dumb and simple enough idea to experiment with some things."
 categories: [programming]
 ---

@@ -1,7 +1,6 @@
 ---
 title: prefers-color-scheme Media Query
 date: 2018-10-25
-layout: Post
 description: '"Automatic" theme switching coming to Safari.'
 categories: [programming]
 tags: [css, tailwind, macos]

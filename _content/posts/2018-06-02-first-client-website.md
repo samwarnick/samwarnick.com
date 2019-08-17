@@ -1,5 +1,4 @@
 ---
-layout: Post
 title: "First Client Website"
 date: 2018-06-02
 description: "I finished a client project, and got paid."

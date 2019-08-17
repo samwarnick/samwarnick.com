@@ -1,5 +1,4 @@
 ---
-layout: Post
 title: "Am I Becoming A Better Developer?"
 date: 2019-01-17
 description: "I feel like I'm becoming a better developer. But is feeling better enough?

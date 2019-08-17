@@ -1,7 +1,6 @@
 ---
 title: Angular Template References
 date: 2018-05-03
-layout: Post
 description: "Template references let you use and access elements in your template to do cool things."
 categories: [programming]
 ---
