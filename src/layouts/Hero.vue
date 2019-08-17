@@ -16,7 +16,7 @@
     </header>
 
     <div
-      class="h-screen-85 bg-gradient-texture flex flex-col items-center justify-center shadow"
+      class="h-screen-70 sm:h-screen-85 bg-gradient-texture flex flex-col items-center justify-center shadow"
       ref="hero"
     >
       <h2
