@@ -14,6 +14,7 @@ if (process.env.NODE_ENV === "production") postcssPlugins.push(purgecss());
 
 module.exports = {
   siteName: "Sam Warnick",
+  siteUrl: "https://samwarnick.com",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
@@ -65,6 +66,13 @@ module.exports = {
         baseDir: "_content/",
         path: "resume.md",
         typeName: "Resume"
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+        exclude: ['/thanks']
       }
     }
   ],
