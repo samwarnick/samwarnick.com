@@ -6,3 +6,5 @@ link: https://apps.apple.com/us/app/send-to-nowhere/id1225003324
 type: personal
 image: ./images/send_to_nowhere.png
 ---
+
+<h2 class="font-mono">// TODO: Write more about this</h2>

@@ -17,11 +17,11 @@
       :class="{ show: navigationIsOpen }"
       style="--fa-secondary-opacity: 0.60"
     >
-<!--      <li class="nav-link">-->
-<!--        <g-link to="/work">-->
-<!--          <i class="fad fa-browser fa-fw fa-lg mr-2"></i>Work-->
-<!--        </g-link>-->
-<!--      </li>-->
+      <li class="nav-link">
+        <g-link to="/projects">
+          <i class="fad fa-browser fa-fw fa-lg mr-2"></i>Projects
+        </g-link>
+      </li>
       <li class="nav-link">
         <g-link to="/posts">
           <i class="fad fa-newspaper fa-fw fa-lg fa-swap-opacity mr-2"></i>Blog

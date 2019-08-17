@@ -6,3 +6,5 @@ link: https://totalpowerandfoam.com
 type: client
 image: ./images/total_power_and_foam.png
 ---
+
+<h2 class="font-mono">// TODO: Write more about this</h2>

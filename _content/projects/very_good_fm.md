@@ -6,3 +6,5 @@ link: https://verygood.fm
 type: personal
 image: ./images/very_good_fm.png
 ---
+
+<h2 class="font-mono">// TODO: Write more about this</h2>

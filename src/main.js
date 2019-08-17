@@ -4,7 +4,7 @@
 import DefaultLayout from "~/layouts/Default.vue";
 import VueObserveVisibility from "vue-observe-visibility";
 import format from "date-fns/format";
-import './assets/prism-tomorrow.css';
+import "./assets/prism-tomorrow.css";
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
@@ -12,6 +12,9 @@ export default function(Vue, { router, head, isClient }) {
   Vue.use(VueObserveVisibility);
   Vue.filter("formatDate", date => {
     return format(date.substr(0, 10), "D MMM YYYY");
+  });
+  Vue.filter("commaJoin", values => {
+    return values.join(", ");
   });
 
   head.script.push({
@@ -29,5 +32,4 @@ export default function(Vue, { router, head, isClient }) {
     rel: "preload",
     as: "style"
   });
-
 }

@@ -6,3 +6,5 @@ link: https://lilyandsam.show
 image: ./images/lily_and_sam.png
 type: personal
 ---
+
+<h2 class="font-mono">// TODO: Write more about this</h2>

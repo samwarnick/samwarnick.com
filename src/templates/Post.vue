@@ -35,10 +35,10 @@
         </div>
         <div
                 v-if="$page.post.description"
-                class="border-b border-b-gray-100 my-12"
+                class="border-b my-12"
         >
           <h3 class="text-xl font-normal">TL;DR</h3>
-          <p class="pt-2 pb-12">{{ $page.post.description }}</p>
+          <p class="pt-2 pb-12 text-lg">{{ $page.post.description }}</p>
         </div>
       </header>
       <div v-html="$page.post.content" class="content"></div>

@@ -16,20 +16,20 @@
     />
     <div class="p-4 flex flex-col justify-between">
       <header>
-        <a :href="project.link" class="group" target="_blank">
+        <g-link :to="project.path">
           <h3 class="text-2xl mb-2 flex items-center font-normal">
-            <span class="gradient-underline">{{ project.name }}</span
-            ><i class="fad fa-external-link-alt fa-xs ml-2"></i>
+            <span class="gradient-underline">{{ project.name }}</span>
           </h3>
-        </a>
-        <p>{{ project.description }}</p>
-        <g-link
-          :to="project.path"
-          class="group flex items-center text-gray-600 mt-4"
-        >
-          <span class="group-hover:underline">See More</span
-          ><i class="far fa-chevron-right fa-xs ml-2"></i>
         </g-link>
+        <p>{{ project.description }}</p>
+        <a
+          :href="project.link"
+          class="group flex items-center text-gray-600 mt-4"
+          target="_blank"
+        >
+          <span class="group-hover:underline">See it in action</span
+          ><i class="fad fa-external-link-alt fa-xs ml-2"></i>
+        </a>
       </header>
       <footer class="flex items-center text-gray-600 text-sm mt-4 ml-2">
         <i class="fad fa-code mr-2"></i>
@@ -53,11 +53,6 @@ export default {
       isVisible: false
     };
   },
-  filters: {
-    commaJoin(values) {
-      return values.join(", ");
-    }
-  },
   methods: {
     visibilityChanged(isVisible) {
       this.isVisible = isVisible;
@@ -66,6 +61,4 @@ export default {
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
