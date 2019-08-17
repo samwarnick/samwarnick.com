@@ -83,6 +83,7 @@
     <footer>
       <p><span class="text-red-500">*</span>Required</p>
       <button
+        title="Send"
         type="submit"
         class="text-lg font-bold no-underline text-black disabled:opacity-50 disabled:cursor-not-allowed mt-4"
         :disabled="submitDisabled"
