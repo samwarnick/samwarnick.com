@@ -85,8 +85,8 @@ export default {
       this.heroTitleStyles = {
         ...this.heroTitleStyles,
         "--y-offset": `${e.target.documentElement.scrollTop / 2}px`,
-        "--translate-x": `${e.target.documentElement.scrollTop / 20}px`,
-        "--translate-y": `${e.target.documentElement.scrollTop / 40}px`
+        "--translate-x": `${Math.min(e.target.documentElement.scrollTop / 20, 50)}px`,
+        "--translate-y": `${Math.min(e.target.documentElement.scrollTop / 40, 50)}px`
       };
     });
   },
