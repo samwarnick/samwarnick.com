@@ -5,7 +5,7 @@
         <h2 class="text-4xl md:text-5xl font-extrabold leading-none mb-4">
           {{ $page.post.title }}
         </h2>
-        <div class="text-gray-500 flex flex-col md:flex-row">
+        <div class="text-gray-700 flex flex-col md:flex-row">
         <span class="mr-4">
           <i class="fad fa-calendar mr-2 text-gray-600"></i
           ><time :datetime="$page.post.date">{{
@@ -18,7 +18,7 @@
                   v-for="category in $page.post.categories"
                   :to="category.path"
                   :key="category.id"
-                  class="mr-2 hover:underline"
+                  class="mr-2 hover:underline hover:text-purple-700"
           >{{ category.title }}</g-link
           >
         </span>
@@ -28,7 +28,7 @@
                   v-for="tag in $page.post.tags"
                   :to="tag.path"
                   :key="tag.id"
-                  class="mr-2 hover:underline"
+                  class="mr-2 hover:underline hover:text-purple-700"
           >{{ tag.title }}</g-link
           >
         </span>

@@ -6,7 +6,7 @@
           post.title
         }}</g-link>
       </h3>
-      <div class="text-gray-500 flex flex-wrap">
+      <div class="text-gray-700 flex flex-wrap">
         <span class="mr-4">
           <i class="fad fa-calendar mr-2 text-gray-600"></i
           ><time :datetime="post.date">{{ post.date | formatDate }}</time>
@@ -17,7 +17,7 @@
             v-for="category in post.categories"
             :to="category.path"
             :key="category.id"
-            class="mr-2 hover:underline"
+            class="mr-2 hover:underline hover:text-purple-700"
             >{{ category.title }}</g-link
           >
         </span>
@@ -27,7 +27,7 @@
             v-for="tag in post.tags"
             :to="tag.path"
             :key="tag.id"
-            class="mr-2 hover:underline"
+            class="mr-2 hover:underline hover:text-purple-700"
             >{{ tag.title }}</g-link
           >
         </span>

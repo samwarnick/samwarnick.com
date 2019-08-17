@@ -28,7 +28,7 @@
           target="_blank"
           rel="noopener"
         >
-          <span class="group-hover:underline">See it in action</span
+          <span class="group-hover:underline group-hover:text-purple-700">See it in action</span
           ><i class="fad fa-external-link-alt fa-xs ml-2"></i>
         </a>
       </header>

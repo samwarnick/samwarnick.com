@@ -26,7 +26,8 @@ module.exports = {
     opacity: ['responsive', 'hover', 'focus', 'active', 'group-hover', 'disabled'],
     textDecoration: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
     margin: ['responsive', 'first', 'last', 'even', 'odd'],
-    padding: ['responsive', 'first', 'last', 'even', 'odd']
+    padding: ['responsive', 'first', 'last', 'even', 'odd'],
+    textColor: ['responsive', 'hover', 'focus', 'active', 'group-hover', 'disabled']
   },
   plugins: [
     function({ addVariant, e }) {
