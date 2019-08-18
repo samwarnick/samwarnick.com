@@ -7,7 +7,7 @@
         ref="nav"
       >
         <h1
-          class="text-black text-xl sm:text-2xl lowercase font-thin"
+          class="text-gray-900 px-2 bg-white text-xl sm:text-2xl lowercase font-thin shadow"
           :style="headerTitleStyles"
         >
           Sam Warnick
@@ -21,7 +21,7 @@
     >
       <h2
         id="heroTitle"
-        class="text-black text-3xl sm:text-4xl md:text-6xl lowercase font-thin"
+        class="text-gray-900 px-3 bg-white text-3xl sm:text-4xl md:text-6xl lowercase font-thin"
         ref="heroTitle"
         :style="heroTitleStyles"
       >
@@ -86,7 +86,8 @@ export default {
         ...this.heroTitleStyles,
         "--y-offset": `${e.target.documentElement.scrollTop / 2}px`,
         "--translate-x": `${Math.min(e.target.documentElement.scrollTop / 20, 50)}px`,
-        "--translate-y": `${Math.min(e.target.documentElement.scrollTop / 40, 50)}px`
+        "--translate-y": `${Math.min(e.target.documentElement.scrollTop / 40, 50)}px`,
+        "--blur": `${Math.max(8, e.target.documentElement.scrollTop / 20)}px`
       };
     });
   },
@@ -119,8 +120,9 @@ h2 {
 }
 #heroTitle {
   --y-offset: 0px;
-  --translate-x: 0px;
+  --translate-x: 1px;
   --translate-y: 0px;
+  --blur: 8px;
   transform: translateY(var(--y-offset));
 }
 #heroTitle::before {
@@ -129,8 +131,9 @@ h2 {
   z-index: -1;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   color: transparent;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-  transform: translate(var(--translate-x), var(--translate-y));
+  box-shadow: var(--translate-x) var(--translate-y) var(--blur) rgba(0, 0, 0, 0.2);
 }
 </style>

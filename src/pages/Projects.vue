@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h2 class="text-4xl font-bold mb-12">
+    <h2 class="text-4xl font-bold mb-12 leading-none">
       Some Of My Work
     </h2>
     <ul>

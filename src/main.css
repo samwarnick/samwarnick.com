@@ -60,7 +60,7 @@ h1, h2, h3, h4 {
 }
 
 .nav-links {
-  @apply shadow-xl fixed h-full bottom-0 right-0 px-12 pt-4 pb-20 bg-gradient-texture-rotate flex flex-col items-start justify-center lowercase text-black text-xl font-light;
+  @apply shadow-xl fixed h-full bottom-0 right-0 px-12 pt-4 pb-20 bg-gradient-texture-rotate flex flex-col items-start justify-center lowercase;
   transform: translateX(110%);
   transition: transform 0.2s ease;
   z-index: 1000;
@@ -75,21 +75,21 @@ h1, h2, h3, h4 {
 }
 
 .nav-link a {
-  @apply flex items-center mx-2 px-3 py-2 rounded-lg border-2 border-transparent;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
+  @apply flex items-center mx-2 px-2 py-2 text-gray-900 bg-white font-normal border-2 border-transparent shadow;
+  transition: all 0.2s ease;
 }
 
 .nav-link .active {
-  @apply border-blue-200;
+  border-color: var(--border-color);
 }
 
 .nav-link a:hover,
 .nav-link a:focus {
-  @apply border-white text-gray-900 outline-none border-blue-100;
-  transition: all 0.5s ease;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-  background: rgba(255, 255, 255, 0.2);
+  @apply border-gray-900 outline-none;
+}
+
+.nav-link .active:hover, .nav-link .active:focus {
+  @apply border-gray-900;
 }
 
 @screen lg {

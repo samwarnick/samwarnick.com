@@ -5,12 +5,12 @@
         <h2 class="text-4xl md:text-5xl font-extrabold leading-none mb-4">
           {{ $page.project.name }}
         </h2>
-        <div class="flex items-center pb-8 mb-8 border-b">
+        <div class="flex flex-col sm:flex-row items-start sm:items-center pb-8 mb-8 border-b">
           <div class="flex items-center text-gray-600 mr-4">
             <i class="fad fa-code mr-2"></i>
             <span>Built with {{ $page.project.technologies | commaJoin }}</span>
           </div>
-          <span class="bg-blue-200 text-blue-800 px-2 rounded-lg">{{$page.project.type}}</span>
+          <span class="bg-blue-200 text-blue-800 px-2 rounded-lg mt-2 sm:mt-0">{{$page.project.type}}</span>
         </div>
         <div class="flex flex-col items-center md:flex-row ">
           <g-image

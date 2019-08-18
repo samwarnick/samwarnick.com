@@ -4,42 +4,42 @@
     class="flex items-center justify-between h-16 px-8 w-full"
     :class="{ 'shadow-md': hasShadow, 'bg-gradient-texture': hasBackground }"
   >
-    <g-link to="/" class="flex-shrink-0">
-      <slot>
-        <h1 class="text-black text-xl sm:text-2xl lowercase font-thin">
+    <slot>
+      <h1 class="flex-shrink-0">
+        <g-link to="/" class="text-gray-900 px-2 bg-white text-xl sm:text-2xl lowercase font-thin hover:border-gray-900 transition border-2 border-transparent focus:outline-none focus:border-white shadow">
           Sam Warnick
-        </h1>
-      </slot>
-    </g-link>
+        </g-link>
+      </h1>
+    </slot>
 
     <ul
       class="nav-links"
       :class="{ show: navigationIsOpen }"
-      style="--fa-primary-color: #13293D; --fa-secondary-color: #006494; --fa-secondary-opacity: 0.80"
+      style="--fa-secondary-opacity: 1"
     >
       <li class="nav-link">
-        <g-link to="/projects">
+        <g-link to="/projects" style="--fa-primary-color: #FFBE0B; --fa-secondary-color: #CBD5E0; --border-color: #FFBE0B">
           <i class="fad fa-browser fa-fw fa-lg mr-2"></i>Projects
         </g-link>
       </li>
       <li class="nav-link">
-        <g-link to="/posts">
+        <g-link to="/posts" style="--fa-primary-color: #FF006E; --fa-secondary-color: #CBD5E0; --border-color: #FF006E">
           <i class="fad fa-newspaper fa-fw fa-lg mr-2"></i>Blog
         </g-link>
       </li>
       <li class="nav-link">
-        <g-link to="/uses" style="--fa-primary-color: #006494; --fa-secondary-color: #13293D">
-          <i class="fad fa-backpack fa-fw fa-lg fa-swap-opacity mr-2"></i>Gear
+        <g-link to="/uses" style="--fa-primary-color: #CBD5E0; --fa-secondary-color: #3A86FF; --border-color: #3A86FF">
+          <i class="fad fa-backpack fa-fw fa-lg mr-2"></i>Gear
         </g-link>
       </li>
       <li class="nav-link">
-        <g-link to="/contact" style="--fa-primary-color: #006494; --fa-secondary-color: #13293D" >
-          <i class="fad fa-paper-plane fa-fw fa-lg fa-swap fa-swap-opacity mr-2"></i>Contact
+        <g-link to="/contact" style="--fa-primary-color: #CBD5E0; --fa-secondary-color: #52C461; --border-color: #52C461" >
+          <i class="fad fa-paper-plane fa-fw fa-lg fa-swap mr-2"></i>Contact
         </g-link>
       </li>
-      <li class="nav-link">
+      <li class="nav-link" style="--fa-primary-color: #9F7AEA; --fa-secondary-color: #CBD5E0; --border-color: #9F7AEA">
         <a href="https://lilyandsam.show" target="_blank" rel="noopener">
-          <i class="fad fa-podcast fa-fw fa-lg mr-2"></i>Podcast
+          <i class="fad fa-podcast fa-fw fa-lg mr-2"></i>Podcast ->
         </a>
       </li>
     </ul>
@@ -47,7 +47,7 @@
     <button
       :title="navigationIsOpen ? 'Close navigation' : 'Open navigation'"
       id="sideNavToggle"
-      class="h-12 w-12 flex items-center justify-center text-black lg:hidden rounded-full focus:outline-none overflow-hidden"
+      class="h-12 w-12 flex items-center justify-center text-white lg:hidden rounded-full focus:outline-none overflow-hidden"
       :class="{'bg-white': navigationIsOpen, 'text-blue-600': navigationIsOpen, 'shadow-lg': navigationIsOpen}"
       @click="toggleNavigation()"
     >

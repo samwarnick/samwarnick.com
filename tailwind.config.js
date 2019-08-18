@@ -21,13 +21,14 @@ module.exports = {
     }
   },
   variants: {
-    backgroundColor: ['responsive', 'first', 'last', 'even', 'odd', 'hover', 'focus'],
+    backgroundColor: ['responsive', 'first', 'last', 'even', 'odd', 'hover', 'focus', 'active'],
     borderWidth: ['responsive', 'last', 'hover', 'focus'],
     opacity: ['responsive', 'hover', 'focus', 'active', 'group-hover', 'disabled'],
     textDecoration: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
     margin: ['responsive', 'first', 'last', 'even', 'odd'],
     padding: ['responsive', 'first', 'last', 'even', 'odd'],
-    textColor: ['responsive', 'hover', 'focus', 'active', 'group-hover', 'disabled']
+    textColor: ['responsive', 'hover', 'focus', 'active', 'group-hover', 'disabled'],
+    outline: ['responsive', 'hover', 'focus', 'active', 'group-hover', 'disabled']
   },
   plugins: [
     function({ addVariant, e }) {
