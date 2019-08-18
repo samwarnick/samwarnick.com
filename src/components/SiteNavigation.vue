@@ -38,7 +38,7 @@
         </g-link>
       </li>
       <li class="nav-link">
-        <a href="https://lilyandsam.show" target="_blank">
+        <a href="https://lilyandsam.show" target="_blank" rel="noopener">
           <i class="fad fa-podcast fa-fw fa-lg mr-2"></i>Podcast
         </a>
       </li>
