@@ -15,31 +15,30 @@
     <ul
       class="nav-links"
       :class="{ show: navigationIsOpen }"
-      style="--fa-secondary-opacity: 1"
     >
       <li class="nav-link">
-        <g-link to="/projects" style="--fa-primary-color: #FFBE0B; --fa-secondary-color: #CBD5E0; --border-color: #FFBE0B">
-          <i class="fad fa-browser fa-fw fa-lg mr-2"></i>Projects
+        <g-link to="/projects">
+          <i class="fad fa-browser fa-fw fa-lg mr-2 text-teal-500"></i>Projects
         </g-link>
       </li>
       <li class="nav-link">
-        <g-link to="/posts" style="--fa-primary-color: #FF006E; --fa-secondary-color: #CBD5E0; --border-color: #FF006E">
-          <i class="fad fa-newspaper fa-fw fa-lg mr-2"></i>Blog
+        <g-link to="/posts">
+          <i class="fad fa-newspaper fa-fw fa-lg mr-2 text-red-500"></i>Blog
         </g-link>
       </li>
       <li class="nav-link">
-        <g-link to="/uses" style="--fa-primary-color: #CBD5E0; --fa-secondary-color: #3A86FF; --border-color: #3A86FF">
-          <i class="fad fa-backpack fa-fw fa-lg mr-2"></i>Gear
+        <g-link to="/uses">
+          <i class="fad fa-backpack fa-fw fa-lg fa-swap-opacity mr-2 text-blue-500"></i>Gear
         </g-link>
       </li>
       <li class="nav-link">
-        <g-link to="/contact" style="--fa-primary-color: #CBD5E0; --fa-secondary-color: #52C461; --border-color: #52C461" >
-          <i class="fad fa-paper-plane fa-fw fa-lg fa-swap mr-2"></i>Contact
+        <g-link to="/contact">
+          <i class="fad fa-paper-plane fa-fw fa-lg fa-swap-opacity mr-2 text-green-500"></i>Contact
         </g-link>
       </li>
-      <li class="nav-link" style="--fa-primary-color: #9F7AEA; --fa-secondary-color: #CBD5E0; --border-color: #9F7AEA">
+      <li class="nav-link">
         <a href="https://lilyandsam.show" target="_blank" rel="noopener">
-          <i class="fad fa-podcast fa-fw fa-lg mr-2"></i>Podcast ->
+          <i class="fad fa-podcast fa-fw fa-lg mr-2 text-purple-500"></i>Podcast ->
         </a>
       </li>
     </ul>
