@@ -1,0 +1,234 @@
+@tailwind base;
+
+@tailwind components;
+
+/* purgecss start ignore */
+html {
+   @apply text-gray-800;
+   font-family: "Inter", sans-serif;
+   font-feature-settings: "calt" 1, "liga" 1, "frac" 1, "case" 1, "ss01" 1,
+   "ss03" 1;
+ }
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+::selection {
+  background: #9BF3F0; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #9BF3F0; /* Gecko Browsers */
+}
+
+.bg-gradient-texture {
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%23013E77' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E"),
+    linear-gradient(90deg, #0290c9 0%, #4ac6f7 100%);
+  background-attachment: local;
+}
+
+.bg-gradient-texture-rotate {
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%23013E77' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E"),
+    linear-gradient(40deg, #0290c9 0%, #4ac6f7 100%);
+  background-attachment: local;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(40deg, #0290c9 0%, #4ac6f7 100%);
+}
+
+.bg-gradient-alt {
+  background-image: linear-gradient(40deg, #f25f5c, #f96900);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.no-scroll {
+  overflow: hidden;
+  touch-action: none;
+}
+
+h1, h2, h3, h4 {
+  @apply font-light;
+}
+
+.nav-links {
+  @apply shadow-xl fixed h-full bottom-0 right-0 px-12 pt-4 pb-20 bg-gradient-texture-rotate flex flex-col items-start justify-center lowercase;
+  transform: translateX(110%);
+  transition: transform 0.2s ease;
+  z-index: 1000;
+}
+
+.nav-links.show {
+  transform: translateX(0);
+}
+
+.nav-link {
+  @apply mb-2;
+}
+
+.nav-link a {
+  @apply flex items-center mx-2 px-2 py-2 text-gray-900 bg-white font-normal border-2 border-transparent shadow;
+  transition: all 0.2s ease;
+}
+
+.nav-link .active {
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23EDF2F7' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.nav-link .active .label {
+  @apply underline;
+}
+
+.nav-link a:hover,
+.nav-link a:focus {
+  @apply border-gray-900 outline-none;
+}
+
+.nav-link .active:hover, .nav-link .active:focus {
+  @apply border-gray-900 border-solid;
+}
+
+@screen lg {
+  .nav-links {
+    @apply shadow-none p-0 relative flex-row items-center;
+    background: none;
+    transition: none;
+    transform: translateY(0);
+  }
+
+  .nav-link {
+    @apply mb-0;
+  }
+}
+
+.transition {
+  transition: all 0.3s ease;
+}
+
+.fade-in {
+  transform: scale(0.8);
+  transition: opacity 0.5s ease, transform 0.3s ease;
+  opacity: 0;
+}
+.fade-in.show {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.fade-and-slide-up {
+  transition: opacity 1s ease, transform 0.75s ease;
+  transform: translateY(25%) scale(0.8);
+  opacity: 0;
+}
+.fade-and-slide-up.show {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+.fade-and-slide-left {
+  transition: opacity 1s ease, transform 0.75s ease;
+  transform: translateX(-25%) scale(0.8);
+  opacity: 0;
+}
+.fade-and-slide-left.show {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+.gradient-underline, .content a {
+  background-image: linear-gradient(120deg, #4ac6f7 0%, #9bf3f0 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 85%;
+  transition: background-size 0.125s ease-in;
+}
+
+@media (hover: hover) {
+  .gradient-underline:hover, .content a:hover {
+    transition: background-size 0.125s ease-out;
+    background-size: 100% 100%;
+  }
+}
+
+/* CONTENT */
+.content h1, h2, h3, h4, h5, h6 {
+  font-feature-settings: "calt" 1, "liga" 1, "frac" 0, "case" 1, "ss01" 1,
+  "ss03" 1;
+}
+.content pre, code {
+  @apply font-mono mb-4;
+  font-feature-settings: "calt" 1, "liga" 1, "frac" 0, "case" 1, "ss01" 1,
+  "ss03" 1;
+}
+.content pre {
+  @apply rounded-lg;
+}
+.content a {
+  @apply text-black no-underline;
+}
+.content p {
+  @apply mb-4;
+}
+.content img {
+  @apply shadow;
+}
+.content ol, .content ul {
+  @apply my-4 ml-4 pl-2;
+}
+.content ol {
+  @apply list-decimal;
+}
+.content ul {
+  @apply  list-disc;
+}
+.content li, .content li > ul, .content li > ol, .content li > p {
+  @apply my-1;
+}
+.content h2 {
+  @apply mt-6 mb-4 text-4xl font-bold;
+}
+.content h2:first-child {
+  @apply mt-0;
+}
+.content h3, .content h4 {
+  @apply mt-8 mb-3 font-light text-blue-600 leading-tight;
+}
+.content h3 {
+  @apply text-2xl;
+}
+.content h4 {
+  @apply text-lg;
+}
+.content blockquote {
+  @apply bg-gray-100 px-4 py-2 rounded mb-4;
+}
+.content blockquote p {
+  @apply m-0 text-gray-800;
+}
+.content .header-anchor {
+  @apply opacity-50 text-gray-800;
+  transition: opacity .3s ease;
+}
+.content .header-anchor:hover {
+  @apply opacity-100;
+}
+.content .language-text {
+  @apply bg-purple-100 text-purple-900;
+  padding: .1em .5em;
+}
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+.font-bold, .font-medium {
+  @apply text-gray-700;
+}
