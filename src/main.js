@@ -30,4 +30,10 @@ export default function(Vue, { router, head, isClient }) {
     href: "https://rsms.me/inter/inter.css",
     rel: "stylesheet"
   });
+
+  head.meta.push({
+    name: "Description",
+    content:
+      "The personal website and blog of Sam Warnick. Just talking about things and stuff."
+  });
 }
