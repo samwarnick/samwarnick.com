@@ -16,8 +16,15 @@ import {
   faHome,
   faComments
 } from "@fortawesome/pro-duotone-svg-icons";
-import { faCheckCircle, faArrowLeft } from "@fortawesome/pro-light-svg-icons";
-import { FontAwesomeIcon, FontAwesomeLayers } from "@fortawesome/vue-fontawesome";
+import {
+  faCheckCircle,
+  faArrowLeft,
+  faArrowUp
+} from "@fortawesome/pro-light-svg-icons";
+import {
+  FontAwesomeIcon,
+  FontAwesomeLayers
+} from "@fortawesome/vue-fontawesome";
 import "./assets/prism-tomorrow.css";
 
 library.add(
@@ -31,7 +38,8 @@ library.add(
   faHome,
   faCheckCircle,
   faArrowLeft,
-  faComments
+  faComments,
+  faArrowUp
 );
 
 export default function(Vue, { router, head, isClient }) {

@@ -25,10 +25,14 @@
           class="fad fa-fw fa-2x mr-4"
           :class="[step.current ? 'text-blue-600': 'text-gray-500']"
         />
-        {{step.title}}
-        <span v-if="step.current" class="text-blue-500 text-base">
-          <FaIcon :icon="['fal', 'arrow-left']" class="ml-4 mr-2" />We are here
-        </span>
+        <div class="flex flex-col sm:flex-row sm:items-center">
+          {{step.title}}
+          <span v-if="step.current" class="text-blue-500 text-base">
+            <FaIcon :icon="['fal', 'arrow-left']" class="ml-4 mr-2 hidden sm:inline-block" />
+            <FaIcon :icon="['fal', 'arrow-up']" transform="flip-h" class="sm:hidden mr-2" />
+            <span>We are here</span>
+          </span>
+        </div>
       </li>
     </transition-group>
   </Layout>
