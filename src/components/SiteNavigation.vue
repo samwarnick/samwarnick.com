@@ -6,34 +6,42 @@
   >
     <slot>
       <h1 class="flex-shrink-0">
-        <g-link to="/" class="text-gray-900 px-2 bg-white text-xl sm:text-2xl lowercase font-thin hover:border-gray-900 transition border-2 border-transparent focus:outline-none focus:border-white shadow">
-          Sam Warnick
-        </g-link>
+        <g-link
+          to="/"
+          class="text-gray-900 px-2 bg-white text-xl sm:text-2xl lowercase font-thin hover:border-gray-900 transition border-2 border-transparent focus:outline-none focus:border-white shadow"
+        >Sam Warnick</g-link>
       </h1>
     </slot>
 
-    <ul
-      class="nav-links"
-      :class="{ show: navigationIsOpen }"
-    >
+    <ul class="nav-links" :class="{ show: navigationIsOpen }">
       <li class="nav-link">
         <g-link to="/projects">
-          <i class="fad fa-browser fa-fw fa-lg mr-2 text-teal-500"></i><span class="label">Projects</span>
+          <i class="fad fa-browser fa-fw fa-lg mr-2 text-teal-500"></i>
+          <span class="label">Projects</span>
         </g-link>
       </li>
       <li class="nav-link">
         <g-link to="/posts">
-          <i class="fad fa-newspaper fa-fw fa-lg mr-2 text-red-500"></i><span class="label">Blog</span>
+          <i class="fad fa-newspaper fa-fw fa-lg mr-2 text-red-500"></i>
+          <span class="label">Blog</span>
         </g-link>
       </li>
       <li class="nav-link">
         <g-link to="/uses">
-          <i class="fad fa-backpack fa-fw fa-lg fa-swap-opacity mr-2 text-blue-500"></i><span class="label">Gear</span>
+          <i class="fad fa-backpack fa-fw fa-lg fa-swap-opacity mr-2 text-blue-500"></i>
+          <span class="label">Gear</span>
         </g-link>
       </li>
       <li class="nav-link">
         <g-link to="/contact">
-          <i class="fad fa-paper-plane fa-fw fa-lg fa-swap-opacity mr-2 text-green-500"></i><span class="label">Contact</span>
+          <i class="fad fa-paper-plane fa-fw fa-lg fa-swap-opacity mr-2 text-green-500"></i>
+          <span class="label">Contact</span>
+        </g-link>
+      </li>
+      <li class="nav-link">
+        <g-link to="/move">
+          <i class="fad fa-truck fa-fw fa-lg fa-swap-opacity mr-2 text-gray-800"></i>
+          <span class="label">Move</span>
         </g-link>
       </li>
       <li class="nav-link">
@@ -51,7 +59,10 @@
       @click="toggleNavigation()"
     >
       <transition name="fade">
-        <i v-if="navigationIsOpen" class="fad fa-times fa-fw fa-lg flex items-center justify-center"></i>
+        <i
+          v-if="navigationIsOpen"
+          class="fad fa-times fa-fw fa-lg flex items-center justify-center"
+        ></i>
         <i v-else class="far fa-bars fa-fw fa-lg flex items-center justify-center"></i>
       </transition>
     </button>
@@ -110,6 +121,6 @@ export default {
 }
 #sideNavToggle {
   z-index: 1500;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 </style>

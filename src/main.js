@@ -4,12 +4,42 @@
 import DefaultLayout from "~/layouts/Default.vue";
 import VueObserveVisibility from "vue-observe-visibility";
 import format from "date-fns/format";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faClipboardListCheck,
+  faTrash,
+  faBoxOpen,
+  faTruckCouch,
+  faTruckLoading,
+  faPlane,
+  faHammer,
+  faHome,
+  faComments
+} from "@fortawesome/pro-duotone-svg-icons";
+import { faCheckCircle, faArrowLeft } from "@fortawesome/pro-light-svg-icons";
+import { FontAwesomeIcon, FontAwesomeLayers } from "@fortawesome/vue-fontawesome";
 import "./assets/prism-tomorrow.css";
+
+library.add(
+  faClipboardListCheck,
+  faTrash,
+  faBoxOpen,
+  faTruckCouch,
+  faTruckLoading,
+  faPlane,
+  faHammer,
+  faHome,
+  faCheckCircle,
+  faArrowLeft,
+  faComments
+);
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
   Vue.use(VueObserveVisibility);
+  Vue.component("FaIcon", FontAwesomeIcon);
+  Vue.component("FaLayers", FontAwesomeLayers);
   Vue.filter("formatDate", date => {
     return format(date.substr(0, 10), "D MMM YYYY");
   });
