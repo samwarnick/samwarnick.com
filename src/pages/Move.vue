@@ -48,7 +48,7 @@ export default {
       daysToMove: distanceInWordsToNow(new Date(2019, 10, 9)),
       steps: [
         {
-          title: "Deciding Whether to Move",
+          title: "Deciding to Move",
           icon: ["fad", "comments"],
           complete: true
         },
@@ -58,7 +58,7 @@ export default {
           complete: true
         },
         {
-          title: "De-cluttering",
+          title: "Spring Cleaning",
           icon: ["fad", "trash"],
           current: true
         },
@@ -71,7 +71,7 @@ export default {
           icon: ["fad", "truck-couch"]
         },
         {
-          title: "Travelling to South Carolina",
+          title: "Traveling to South Carolina",
           icon: ["fad", "plane"]
         },
         {
