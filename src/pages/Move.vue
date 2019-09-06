@@ -55,7 +55,7 @@ export default {
         {
           title: "Planning",
           icon: ["fad", "clipboard-list-check"],
-          current: true
+          complete: true
         },
         {
           title: "De-cluttering",
