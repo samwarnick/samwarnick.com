@@ -42,6 +42,9 @@
 import { distanceInWordsToNow } from "date-fns";
 
 export default {
+  metaInfo: {
+    title: "The Big Move"
+  },
   data() {
     return {
       haveIMovedYet: false,
