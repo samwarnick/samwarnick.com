@@ -42,23 +42,26 @@
 import { distanceInWordsToNow } from "date-fns";
 
 export default {
+  metaInfo: {
+    title: "The Big Move"
+  },
   data() {
     return {
       haveIMovedYet: false,
       daysToMove: distanceInWordsToNow(new Date(2019, 10, 9)),
       steps: [
         {
-          title: "Deciding Whether to Move",
+          title: "Deciding to Move",
           icon: ["fad", "comments"],
           complete: true
         },
         {
           title: "Planning",
           icon: ["fad", "clipboard-list-check"],
-          current: true
+          complete: true
         },
         {
-          title: "De-cluttering",
+          title: "Spring Cleaning",
           icon: ["fad", "trash"],
           current: true
         },
@@ -71,7 +74,7 @@ export default {
           icon: ["fad", "truck-couch"]
         },
         {
-          title: "Travelling to South Carolina",
+          title: "Traveling to South Carolina",
           icon: ["fad", "plane"]
         },
         {

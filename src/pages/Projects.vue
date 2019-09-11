@@ -35,6 +35,9 @@ import ProjectCard from "../components/ProjectCard";
 
 export default {
   name: "Projects",
+  metaInfo: {
+    title: "Projects"
+  },
   components: {
     ProjectCard
   }
