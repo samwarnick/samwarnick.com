@@ -28,12 +28,12 @@
           target="_blank"
           rel="noopener"
         >
-          <span class="group-hover:underline group-hover:text-purple-700">See it in action</span
-          ><i class="fad fa-external-link-alt fa-xs ml-2"></i>
+          <span class="group-hover:underline group-hover:text-purple-700">See it in action</span>
+          <FaIcon :icon="['fad', 'external-link-alt']" size="xs" class="ml-2" />
         </a>
       </header>
       <footer class="flex items-center text-gray-700 text-sm mt-4 ml-2">
-        <i class="fad fa-code mr-2"></i>
+        <FaIcon :icon="['fad', 'code']" class="mr-2" />
         <span>Built with {{ project.technologies | commaJoin }}</span>
       </footer>
     </div>

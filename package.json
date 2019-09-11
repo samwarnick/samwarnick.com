@@ -8,8 +8,10 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-brands-svg-icons": "^5.10.2",
     "@fortawesome/pro-duotone-svg-icons": "^5.10.2",
     "@fortawesome/pro-light-svg-icons": "^5.10.2",
+    "@fortawesome/pro-regular-svg-icons": "^5.10.2",
     "@fortawesome/vue-fontawesome": "^0.1.7",
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "@gridsome/plugin-sitemap": "^0.2.1",

@@ -2,41 +2,36 @@
   <Layout :show-breadcrumbs="true">
     <article>
       <header>
-        <h2 class="text-4xl md:text-5xl font-extrabold leading-none mb-4">
-          {{ $page.post.title }}
-        </h2>
+        <h2 class="text-4xl md:text-5xl font-extrabold leading-none mb-4">{{ $page.post.title }}</h2>
         <div class="text-gray-700 flex flex-col md:flex-row">
-        <span class="mr-4">
-          <i class="fad fa-calendar mr-2 text-gray-600"></i
-          ><time :datetime="$page.post.date">{{
-            $page.post.date | formatDate
-          }}</time>
-        </span>
+          <span class="mr-4">
+            <FaIcon :icon="['fad', 'calendar']" class="mr-2 text-gray-600" />
+            <time :datetime="$page.post.date">
+              {{
+              $page.post.date | formatDate
+              }}
+            </time>
+          </span>
           <span class="mr-2" v-if="$page.post.categories.length > 0">
-          <i class="fad fa-archive mr-2 text-gray-600"></i
-          ><g-link
-                  v-for="category in $page.post.categories"
-                  :to="category.path"
-                  :key="category.id"
-                  class="mr-2 hover:underline hover:text-purple-700"
-          >{{ category.title }}</g-link
-          >
-        </span>
+            <FaIcon :icon="['fad', 'archive']" class="mr-2 text-gray-600" />
+            <g-link
+              v-for="category in $page.post.categories"
+              :to="category.path"
+              :key="category.id"
+              class="mr-2 hover:underline hover:text-purple-700"
+            >{{ category.title }}</g-link>
+          </span>
           <span v-if="$page.post.tags.length > 0">
-          <i class="fad fa-hashtag mr-2 text-gray-600"></i
-          ><g-link
-                  v-for="tag in $page.post.tags"
-                  :to="tag.path"
-                  :key="tag.id"
-                  class="mr-2 hover:underline hover:text-purple-700"
-          >{{ tag.title }}</g-link
-          >
-        </span>
+            <FaIcon :icon="['fad', 'hashtag']" class="mr-2 text-gray-600" />
+            <g-link
+              v-for="tag in $page.post.tags"
+              :to="tag.path"
+              :key="tag.id"
+              class="mr-2 hover:underline hover:text-purple-700"
+            >{{ tag.title }}</g-link>
+          </span>
         </div>
-        <div
-                v-if="$page.post.description"
-                class="border-b my-12"
-        >
+        <div v-if="$page.post.description" class="border-b my-12">
           <h3 class="text-xl font-normal">TL;DR</h3>
           <p class="pt-2 pb-12 text-lg">{{ $page.post.description }}</p>
         </div>

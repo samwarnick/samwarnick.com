@@ -16,37 +16,55 @@
     <ul class="nav-links" :class="{ show: navigationIsOpen }">
       <li class="nav-link">
         <g-link to="/projects">
-          <i class="fad fa-browser fa-fw fa-lg mr-2 text-teal-500"></i>
+          <FaIcon :icon="['fad', 'browser']" fixed-width size="lg" class="mr-2 text-teal-500" />
           <span class="label">Projects</span>
         </g-link>
       </li>
       <li class="nav-link">
         <g-link to="/posts">
-          <i class="fad fa-newspaper fa-fw fa-lg mr-2 text-red-500"></i>
+          <FaIcon :icon="['fad', 'newspaper']" fixed-width size="lg" class="mr-2 text-red-500" />
           <span class="label">Blog</span>
         </g-link>
       </li>
       <li class="nav-link">
         <g-link to="/uses">
-          <i class="fad fa-backpack fa-fw fa-lg fa-swap-opacity mr-2 text-blue-500"></i>
+          <FaIcon
+            :icon="['fad', 'backpack']"
+            fixed-width
+            swap-opacity
+            size="lg"
+            class="mr-2 text-blue-500"
+          />
           <span class="label">Gear</span>
         </g-link>
       </li>
       <li class="nav-link">
         <g-link to="/contact">
-          <i class="fad fa-paper-plane fa-fw fa-lg fa-swap-opacity mr-2 text-green-500"></i>
+          <FaIcon
+            :icon="['fad', 'paper-plane']"
+            fixed-width
+            swap-opacity
+            size="lg"
+            class="mr-2 text-green-500"
+          />
           <span class="label">Contact</span>
         </g-link>
       </li>
       <li class="nav-link">
         <g-link to="/move">
-          <i class="fad fa-truck fa-fw fa-lg fa-swap-opacity mr-2 text-gray-800"></i>
+          <FaIcon
+            :icon="['fad', 'truck']"
+            fixed-width
+            swap-opacity
+            size="lg"
+            class="mr-2 text-gray-800"
+          />
           <span class="label">Move</span>
         </g-link>
       </li>
       <li class="nav-link">
         <a href="https://lilyandsam.show" target="_blank" rel="noopener">
-          <i class="fad fa-podcast fa-fw fa-lg mr-2 text-purple-500"></i>Podcast ->
+          <FaIcon :icon="['fad', 'podcast']" fixed-width size="lg" class="mr-2 text-purple-500" />Podcast ->
         </a>
       </li>
     </ul>
@@ -59,11 +77,20 @@
       @click="toggleNavigation()"
     >
       <transition name="fade">
-        <i
+        <FaIcon
           v-if="navigationIsOpen"
-          class="fad fa-times fa-fw fa-lg flex items-center justify-center"
-        ></i>
-        <i v-else class="far fa-bars fa-fw fa-lg flex items-center justify-center"></i>
+          :icon="['fad', 'times']"
+          fixed-width
+          size="lg"
+          class="flex items-center justify-center"
+        />
+        <FaIcon
+          v-else
+          :icon="['far', 'bars']"
+          fixed-width
+          size="lg"
+          class="flex items-center justify-center"
+        />
       </transition>
     </button>
 

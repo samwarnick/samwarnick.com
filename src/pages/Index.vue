@@ -3,16 +3,12 @@
     <AboutCard />
 
     <div class="bg-gray-100 p-6 shadow-lg mb-24">
-      <h2 class="text-4xl font-bold text-center mb-12">
-        What I Build With
-      </h2>
+      <h2 class="text-4xl font-bold text-center mb-12">What I Build With</h2>
       <LogoCards />
     </div>
 
     <div class="max-w-3xl mx-auto px-8">
-      <h2 class="text-4xl font-bold my-4 text-center mb-12">
-        Some Of My Work
-      </h2>
+      <h2 class="text-4xl font-bold my-4 text-center mb-12">Some Of My Work</h2>
       <ul>
         <ProjectCard
           v-for="project in $page.projects.edges"
@@ -23,9 +19,7 @@
     </div>
 
     <div class="max-w-3xl mx-auto mt-24 px-8">
-      <h2 class="text-4xl font-bold my-4 text-center mb-12">
-        Latest Post
-      </h2>
+      <h2 class="text-4xl font-bold my-4 text-center mb-12">Latest Post</h2>
       <ul class="mb-12">
         <PostCard :post="$page.latestPost.edges[0].node" />
       </ul>
@@ -34,8 +28,8 @@
         class="text-base font-bold group"
         style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9"
       >
-        <span class="group-hover:underline">See More Posts</span
-        ><i class="fad fa-chevron-right ml-2"></i>
+        <span class="group-hover:underline">See More Posts</span>
+        <FaIcon :icon="['fad', 'chevron-right']" class="ml-2" />
       </g-link>
     </div>
   </Hero>

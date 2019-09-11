@@ -1,45 +1,83 @@
 // This is the main.js file. Import global CSS and scripts here.
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
-import DefaultLayout from "~/layouts/Default.vue";
-import VueObserveVisibility from "vue-observe-visibility";
-import format from "date-fns/format";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
-  faClipboardListCheck,
-  faTrash,
+  faCodepen,
+  faGithub,
+  faTwitter
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faArchive,
+  faBackpack,
   faBoxOpen,
-  faTruckCouch,
-  faTruckLoading,
-  faPlane,
+  faBrowser,
+  faCalendar,
+  faChevronLeft,
+  faChevronRight,
+  faClipboardListCheck,
+  faCode,
+  faComments,
+  faExternalLinkAlt,
   faHammer,
+  faHashtag,
   faHome,
-  faComments
+  faNewspaper,
+  faPaperPlane,
+  faPlane,
+  faPodcast,
+  faTimes,
+  faTrash,
+  faTruck,
+  faTruckCouch,
+  faTruckLoading
 } from "@fortawesome/pro-duotone-svg-icons";
 import {
-  faCheckCircle,
   faArrowLeft,
-  faArrowUp
+  faArrowUp,
+  faCheckCircle
 } from "@fortawesome/pro-light-svg-icons";
+import { faBars } from "@fortawesome/pro-regular-svg-icons";
 import {
   FontAwesomeIcon,
   FontAwesomeLayers
 } from "@fortawesome/vue-fontawesome";
+import format from "date-fns/format";
+import VueObserveVisibility from "vue-observe-visibility";
+import DefaultLayout from "~/layouts/Default.vue";
 import "./assets/prism-tomorrow.css";
 
 library.add(
-  faClipboardListCheck,
-  faTrash,
+  faArchive,
+  faArrowLeft,
+  faArrowUp,
+  faBackpack,
+  faBars,
   faBoxOpen,
+  faBrowser,
+  faCalendar,
+  faCheckCircle,
+  faChevronLeft,
+  faChevronRight,
+  faClipboardListCheck,
+  faCode,
+  faCodepen,
+  faComments,
+  faExternalLinkAlt,
+  faGithub,
+  faHammer,
+  faHashtag,
+  faHome,
+  faNewspaper,
+  faPaperPlane,
+  faPlane,
+  faPodcast,
+  faTimes,
+  faTrash,
+  faTruck,
   faTruckCouch,
   faTruckLoading,
-  faPlane,
-  faHammer,
-  faHome,
-  faCheckCircle,
-  faArrowLeft,
-  faComments,
-  faArrowUp
+  faTwitter
 );
 
 export default function(Vue, { router, head, isClient }) {
