@@ -93,10 +93,6 @@ export default function(Vue, { router, head, isClient }) {
     return values.join(", ");
   });
 
-  head.script.push({
-    src: "https://kit.fontawesome.com/c748538aff.js"
-  });
-
   head.link.push({
     href: "https://fonts.googleapis.com/css?family=Fira+Code&display=swap",
     rel: "stylesheet"
