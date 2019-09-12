@@ -28,7 +28,7 @@ After about a year and a half and a couple dozen episodes, I feel like we're fin
 
 ### Starting with One Microphone
 
-We started recording with a single microphone, the [Audio-Technical ATR2100-USB](https://www.amazon.com/dp/B004QJOZS4/ref=cm_sw_em_r_mt_dp_U_LvyEDb06RZWGX). I chose this microphone because it was recommended both by [Jason Snell](https://sixcolors.com/post/2016/11/a-podcast-studio-for-under-100/) and [Marco Arment](https://marco.org/podcasting-microphones)(#4 on Marco's mega review). It’s a great USB mic. My daughter would sit in my lap and I’d move the mic up and down depending on who was talking. I quickly realized this was not going to be a great long term solution. She kept wanting to turn around and look at me and moving the mic between us often missed what she or I would say. Not great.
+We started recording with a single microphone, the [Audio-Technica ATR2100-USB](https://www.amazon.com/dp/B004QJOZS4/ref=cm_sw_em_r_mt_dp_U_LvyEDb06RZWGX). I chose this microphone because it was recommended both by [Jason Snell](https://sixcolors.com/post/2016/11/a-podcast-studio-for-under-100/) and [Marco Arment](https://marco.org/podcasting-microphones) (#4 on Marco's mega review). It’s a great USB mic. My daughter would sit in my lap and I’d move the mic up and down depending on who was talking. I quickly realized this was not going to be a great long term solution. She kept wanting to turn around and look at me and moving the mic between us often missed what she or I would say. Not great.
 
 ### Upgrading to Two Microphones
 
