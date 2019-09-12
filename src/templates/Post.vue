@@ -60,6 +60,8 @@ query Post ($path: String!) {
       path
     }
     content
+    image
+    imageAlt
   }
 }
 </page-query>
@@ -85,6 +87,8 @@ export default {
         {
           name: "og:image",
           content: this.$page.post.image
+            ? `https://samwarnick.com${this.$page.post.image.src}`
+            : undefined
         },
         {
           name: "og:url",
