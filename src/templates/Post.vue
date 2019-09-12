@@ -62,6 +62,7 @@ query Post ($path: String!) {
     content
     image
     imageAlt
+    shortDescription
   }
 }
 </page-query>
@@ -69,35 +70,43 @@ query Post ($path: String!) {
 <script>
 export default {
   metaInfo() {
-    return {
-      title: this.$page.post.title,
-      meta: [
-        {
-          key: "description",
-          name: "description",
-          content: this.$page.post.description
-        },
-        {
-          key: "og:title",
-          name: "og:title",
-          content: this.$page.post.title
-        },
-        {
-          key: "og:description",
-          name: "og:description",
-          content: this.$page.post.description
-        },
+    const meta = [
+      {
+        key: "description",
+        name: "description",
+        content: this.$page.post.description
+      },
+      {
+        key: "og:title",
+        name: "og:title",
+        content: this.$page.post.title
+      },
+      {
+        key: "og:description",
+        name: "og:description",
+        content: this.$page.post.description || null
+      },
+      {
+        key: "og:url",
+        name: "og:url",
+        content: `https://samwarnick.com${this.$page.post.path}`
+      }
+    ];
+
+    if (this.$page.post.image) {
+      meta.push(
         {
           key: "og:image",
           name: "og:image",
-          content: this.$page.post.image
-            ? `https://samwarnick.com${this.$page.post.image.src}`
-            : undefined
+          content: `https://samwarnick.com${this.$page.post.image.src}`
         },
         {
-          key: "og:url",
-          name: "og:url",
-          content: `https://samwarnick.com${this.$page.post.path}`
+          name: "og:height",
+          content: "628"
+        },
+        {
+          name: "og:width",
+          content: "1200"
         },
         {
           key: "twitter:image:alt",
@@ -107,9 +116,21 @@ export default {
         {
           key: "twitter:card",
           name: "twitter:card",
-          content: this.$page.post.image ? "summary_large_image" : "summary"
+          content: "summary_large_image"
         }
-      ]
+      );
+    }
+
+    if (this.$page.post.shortDescription) {
+      meta.push({
+        name: "twitter:description",
+        content: this.$page.post.shortDescription
+      });
+    }
+
+    return {
+      title: this.$page.post.title,
+      meta
     };
   }
 };

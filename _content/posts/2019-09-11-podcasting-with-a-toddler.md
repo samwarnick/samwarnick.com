@@ -2,6 +2,7 @@
 title: "Podcasting With A Toddler"
 date: 2019-09-11
 description: "For about the last year and a half, my daughter and I have made a podcast. My daughter is currently a toddler. It's not always easy to produce a podcast with a toddler, but I have found the end product to be priceless."
+shortDescription: For about the last year and a half, my daughter and I have made a podcast.
 categories: [podcasting]
 tags: [family, equipment, recording, editing]
 image: ./images/social/podcasting_with_a_toddler.jpg
