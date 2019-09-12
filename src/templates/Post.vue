@@ -73,32 +73,39 @@ export default {
       title: this.$page.post.title,
       meta: [
         {
+          key: "description",
           name: "description",
           content: this.$page.post.description
         },
         {
+          key: "og:title",
           name: "og:title",
           content: this.$page.post.title
         },
         {
+          key: "og:description",
           name: "og:description",
           content: this.$page.post.description
         },
         {
+          key: "og:image",
           name: "og:image",
           content: this.$page.post.image
             ? `https://samwarnick.com${this.$page.post.image.src}`
             : undefined
         },
         {
+          key: "og:url",
           name: "og:url",
           content: `https://samwarnick.com${this.$page.post.path}`
         },
         {
+          key: "twitter:image:alt",
           name: "twitter:image:alt",
           content: this.$page.post.imageAlt
         },
         {
+          key: "twitter:card",
           name: "twitter:card",
           content: this.$page.post.image ? "summary_large_image" : "summary"
         }
