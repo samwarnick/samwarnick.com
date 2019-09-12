@@ -121,7 +121,7 @@ export default function(Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: "og:image",
-    content: "https://samwarnick.com/images/social.jpg"
+    content: "https://samwarnick.com/images/profile.jpg"
   });
 
   head.meta.push({

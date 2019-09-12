@@ -97,6 +97,10 @@ export default {
         {
           name: "twitter:image:alt",
           content: this.$page.post.imageAlt
+        },
+        {
+          name: "twitter:card",
+          content: this.$page.post.image ? "summary_large_image" : "summary"
         }
       ]
     };
