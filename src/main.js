@@ -104,8 +104,44 @@ export default function(Vue, { router, head, isClient }) {
   });
 
   head.meta.push({
-    name: "Description",
+    name: "description",
     content:
       "The personal website and blog of Sam Warnick. Just talking about things and stuff."
+  });
+
+  head.meta.push({
+    name: "og:url",
+    content: "https://samwarnick.com"
+  });
+
+  head.meta.push({
+    name: "og:site_name",
+    content: "Sam Warnick"
+  });
+
+  head.meta.push({
+    name: "og:image",
+    content: "https://samwarnick.com/images/social.jpg"
+  });
+
+  head.meta.push({
+    name: "twitter:image:alt",
+    content:
+      "Sam Warnick standing in the outdoors to show he's not a complete nerd."
+  });
+
+  head.meta.push({
+    name: "twitter:card",
+    content: "summary"
+  });
+
+  head.meta.push({
+    name: "twitter:site",
+    content: "@samwarnick"
+  });
+
+  head.meta.push({
+    name: "twitter:creator",
+    content: "@samwarnick"
   });
 }

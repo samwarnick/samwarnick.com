@@ -44,6 +44,7 @@
 <page-query>
 query Post ($path: String!) {
   post: post (path: $path) {
+    path
     id
     title
     date
@@ -72,6 +73,26 @@ export default {
         {
           name: "description",
           content: this.$page.post.description
+        },
+        {
+          name: "og:title",
+          content: this.$page.post.title
+        },
+        {
+          name: "og:description",
+          content: this.$page.post.description
+        },
+        {
+          name: "og:image",
+          content: this.$page.post.image
+        },
+        {
+          name: "og:url",
+          content: `https://samwarnick.com${this.$page.post.path}`
+        },
+        {
+          name: "twitter:image:alt",
+          content: this.$page.post.imageAlt
         }
       ]
     };
