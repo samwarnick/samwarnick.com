@@ -63,11 +63,12 @@ export default {
         {
           title: "Spring Cleaning",
           icon: ["fad", "trash"],
-          current: true
+          complete: true
         },
         {
           title: "Packing",
-          icon: ["fad", "box-open"]
+          icon: ["fad", "box-open"],
+          current: true
         },
         {
           title: "Loading Truck",
