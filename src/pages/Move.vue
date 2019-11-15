@@ -68,19 +68,22 @@ export default {
         {
           title: "Packing",
           icon: ["fad", "box-open"],
-          current: true
+          complete: true
         },
         {
           title: "Loading Truck",
-          icon: ["fad", "truck-couch"]
+          icon: ["fad", "truck-couch"],
+          complete: true
         },
         {
           title: "Traveling to South Carolina",
-          icon: ["fad", "plane"]
+          icon: ["fad", "plane"],
+          complete: true
         },
         {
           title: "Unpacking",
-          icon: ["fad", "truck-loading"]
+          icon: ["fad", "truck-loading"],
+          current: true
         },
         {
           title: "Building House",
