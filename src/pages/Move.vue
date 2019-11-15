@@ -5,8 +5,6 @@
       <span class="font-light ml-4">{{haveIMovedYet ? 'Yes' : 'No'}}</span>
     </h2>
 
-    <p class="mb-8">I will move in about {{daysToMove}}, ± a few hours.</p>
-
     <h3 class="text-2xl font-bold leading-none mb-8">How's the Move Going?</h3>
     <transition-group name="fade" tag="ul" class="text-gray-900" appear>
       <li
@@ -47,7 +45,7 @@ export default {
   },
   data() {
     return {
-      haveIMovedYet: false,
+      haveIMovedYet: true,
       daysToMove: distanceInWordsToNow(new Date(2019, 10, 9)),
       steps: [
         {
