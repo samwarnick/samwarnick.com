@@ -81,7 +81,7 @@ export default {
         {
           title: "Unpacking",
           icon: ["fad", "truck-loading"],
-          current: true
+          complete: true
         },
         {
           title: "Building House",
