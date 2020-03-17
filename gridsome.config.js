@@ -11,7 +11,25 @@ const marked = require("marked");
 
 const postcssPlugins = [tailwind(), autoprefixer()];
 
-if (process.env.NODE_ENV === "production") postcssPlugins.push(purgecss());
+if (process.env.NODE_ENV === "production") postcssPlugins.push(purgecss({
+  content: ["./src/**/*.vue", "./_content/**/*.md"],
+  whitelist: [
+    "body",
+    "html",
+    "img",
+    "a",
+    "p",
+    "g-image",
+    "g-image--lazy",
+    "g-image--loaded"
+  ],
+  extractors: [
+    {
+      extractor: content => content.match(/[A-Za-z0-9-_:#/]+/g) || [],
+      extensions: ["vue", "md"]
+    }
+  ]
+}));
 
 module.exports = {
   siteName: "Sam Warnick",
