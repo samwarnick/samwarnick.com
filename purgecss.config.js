@@ -1,9 +1,3 @@
-class TailwindExtractor {
-  static extract(content) {
-    return content.match(/[A-Za-z0-9-_:#/]+/g) || [];
-  }
-}
-
 module.exports = {
   content: ["./src/**/*.vue", "./_content/**/*.md"],
   whitelist: [
@@ -18,7 +12,7 @@ module.exports = {
   ],
   extractors: [
     {
-      extractor: TailwindExtractor,
+      extractor: content => content.match(/[A-Za-z0-9-_:#/]+/g) || [],
       extensions: ["vue", "md"]
     }
   ]
