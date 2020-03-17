@@ -15,7 +15,7 @@
 </template>
 
 <page-query>
-  query Category ($id: String! $page: Int) {
+  query Category ($id: ID! $page: Int) {
     category (id: $id) {
       title
       belongsTo(sortBy: "date", order: DESC, perPage: 5, page: $page) @paginate {

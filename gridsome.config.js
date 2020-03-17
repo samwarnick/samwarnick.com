@@ -16,6 +16,12 @@ if (process.env.NODE_ENV === "production") postcssPlugins.push(purgecss());
 module.exports = {
   siteName: "Sam Warnick",
   siteUrl: "https://samwarnick.com",
+  templates: {
+    Post: "/posts/:title",
+    Tag: "/posts/tags/:id",
+    Category: "/posts/categories/:id",
+    Project: "/projects/:name"
+  },
   plugins: [
     {
       use: "@gridsome/plugin-google-analytics",
@@ -28,17 +34,14 @@ module.exports = {
       options: {
         path: "_content/posts/**/*.md",
         typeName: "Post",
-        route: "/posts/:slug",
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: "Tag",
-            route: "posts/tags/:id",
             create: true
           },
           categories: {
             typeName: "Category",
-            route: "posts/categories/:id",
             create: true
           }
         },
@@ -55,8 +58,7 @@ module.exports = {
       options: {
         baseDir: "_content/projects",
         path: "*.md",
-        typeName: "Project",
-        route: "projects/:name"
+        typeName: "Project"
       }
     },
     {

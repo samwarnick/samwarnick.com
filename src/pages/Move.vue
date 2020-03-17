@@ -37,8 +37,6 @@
 </template>
 
 <script>
-import { distanceInWordsToNow } from "date-fns";
-
 export default {
   metaInfo: {
     title: "The Big Move"
@@ -46,7 +44,6 @@ export default {
   data() {
     return {
       haveIMovedYet: true,
-      daysToMove: distanceInWordsToNow(new Date(2019, 10, 9)),
       steps: [
         {
           title: "Deciding to Move",
@@ -85,7 +82,8 @@ export default {
         },
         {
           title: "Building House",
-          icon: ["fad", "hammer"]
+          icon: ["fad", "hammer"],
+          current: true
         },
         {
           title: "Moving Into New House",

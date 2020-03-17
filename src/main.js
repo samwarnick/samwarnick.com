@@ -87,7 +87,7 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component("FaIcon", FontAwesomeIcon);
   Vue.component("FaLayers", FontAwesomeLayers);
   Vue.filter("formatDate", date => {
-    return format(date.substr(0, 10), "D MMM YYYY");
+    return format(new Date(date.substr(0, 10)), "d MMM yyyy");
   });
   Vue.filter("commaJoin", values => {
     return values.join(", ");
