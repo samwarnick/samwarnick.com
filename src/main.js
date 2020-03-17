@@ -42,7 +42,7 @@ import {
   FontAwesomeIcon,
   FontAwesomeLayers
 } from "@fortawesome/vue-fontawesome";
-import format from "date-fns/format";
+import { formatToTimeZone } from "date-fns-timezone";
 import VueObserveVisibility from "vue-observe-visibility";
 import DefaultLayout from "~/layouts/Default.vue";
 import "./assets/prism-tomorrow.css";
@@ -87,7 +87,22 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component("FaIcon", FontAwesomeIcon);
   Vue.component("FaLayers", FontAwesomeLayers);
   Vue.filter("formatDate", date => {
-    return format(new Date(date.substr(0, 10)), "d MMM yyyy");
+    const months = [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ];
+    const d = new Date(date);
+    return `${d.getUTCDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
   });
   Vue.filter("commaJoin", values => {
     return values.join(", ");
