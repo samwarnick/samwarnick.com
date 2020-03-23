@@ -112,7 +112,7 @@ module.exports = {
             "A blog about things a stuff. Often related to programming.",
           copyright: `Copyright 2016–${new Date().getFullYear()} Sam Warnick`,
           image:
-            "https://res.cloudinary.com/verygoodfm/image/upload/c_fill,f_auto,g_face,h_600,w_600/v1544745118/sam_profile.jpg",
+            "https://res.cloudinary.com/verygoodfm/image/upload/c_fill,f_auto,g_face,h_600,w_600/v1544745118/samwarnick.com/profile.jpg",
           favicon: "https://samwarnick.com/favicon.png",
           author: {
             name: "Sam Warnick",

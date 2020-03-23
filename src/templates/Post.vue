@@ -36,7 +36,7 @@
           <p class="pt-2 pb-12 text-lg">{{ $page.post.description }}</p>
         </div>
       </header>
-      <div v-html="$page.post.content" class="content"></div>
+      <div v-html="$page.post.content" class="content" :class="{'no-img-shadows': !!$page.post.noImgShadows}"></div>
     </article>
   </Layout>
 </template>
@@ -63,6 +63,7 @@ query Post ($path: String!) {
     image
     imageAlt
     shortDescription
+    noImgShadows
   }
 }
 </page-query>

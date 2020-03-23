@@ -192,7 +192,10 @@ code {
   @apply mb-4;
 }
 .content img {
-  @apply shadow;
+  @apply mx-auto shadow;
+}
+.content.no-img-shadows img {
+  @apply shadow-none;
 }
 .content ol,
 .content ul {
