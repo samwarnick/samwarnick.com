@@ -23,4 +23,4 @@ A commit is every time I make a change to the code and save it to version contro
 ## 19 minutes spent in "In Review"
 This surprised me. I submitted it for review about 7 am on March 9. About 6 hours later it moved from "Waiting for Review" to "In Review". Then about 19 minutes later it moved into "Pending Developer Release".
 
-Let me know if there are any other numbers you're curious about on [Twitter](https://twitter.com/samwarnick], or use the [contact form](https://samwarnick.com/contact).
+Let me know if there are any other numbers you're curious about on [Twitter](https://twitter.com/samwarnick), or use the [contact form](https://samwarnick.com/contact).
