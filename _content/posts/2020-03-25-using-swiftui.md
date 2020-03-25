@@ -56,4 +56,4 @@ If I were starting a new app today, I think I would still start with SwiftUI. I 
 
 I'm excited for the future of SwiftUI. I feel like it allows me to create things I would've dreaded to try a year ago.
 
-If you're curious about how I did anything in Focuses, let me know on [Twitter](https://twitter.com/samwarnick], or use the [contact form](https://samwarnick.com/contact). I can dig into the nitty-gritty specifics.
+If you're curious about how I did anything in Focuses, let me know on [Twitter](https://twitter.com/samwarnick), or use the [contact form](https://samwarnick.com/contact). I can dig into the nitty-gritty specifics.
