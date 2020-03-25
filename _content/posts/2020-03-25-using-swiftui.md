@@ -34,6 +34,7 @@ The main issue with CoreData and SwiftUI, in my opinion, is previews. I could no
 SwiftUI is great at hiding complexity and implementation details, like when using `@FetchRequest`. However, once you want to do something that is more complex, like pass in params to your fetch request, things can get messy.
 
 Here's a couple things I needed to use UIKit for:
+
 1. Text fields that I wanted to become the first responder (i.e., receive focus when the view appears and show the keyboard).
 2. `UITextView`. There doesn't appear to be a SwiftUI equivalent of this. I needed a multi-line text input for notes. I also wanted an input accessory view, and I believe this can still only be done using UIKit.
 3. I wanted to set the scroll position of the calendar view so you would start at the bottom. The only way I could find to do this is by using a `UITableView`. I was still able to use my SwiftUI view for the cells.
