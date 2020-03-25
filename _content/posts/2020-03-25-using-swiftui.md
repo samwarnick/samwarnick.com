@@ -1,5 +1,5 @@
 ---
-title: "Using SwiftUI"
+title: "Using SwiftUI for Focuses"
 date: 2020-03-25
 description: "I used SwiftUI to make Focuses. It went suprisingly well."
 categories: [projects]
@@ -8,8 +8,6 @@ image: ./images/social/focuses.jpg
 imageAlt: Focuses iOS app.
 noImgShadows: true
 ---
-
-# Using SwiftUI for Focuses
 
 I think I mentioned it briefly, but Focuses is built mostly with SwiftUI. Overall, I'm very impressed with SwiftUI. I don't think I would've been able to build the first version of Focuses as quickly as I did had I not used SwiftUI.
 
