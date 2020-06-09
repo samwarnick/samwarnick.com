@@ -21,8 +21,10 @@ if (process.env.NODE_ENV === "production") postcssPlugins.push(purgecss({
     "p",
     "g-image",
     "g-image--lazy",
-    "g-image--loaded"
+    "g-image--loaded",
+    "svg-inline--fa"
   ],
+  whitelistPatterns: [/fa-$/],
   extractors: [
     {
       extractor: content => content.match(/[A-Za-z0-9-_:#/]+/g) || [],
