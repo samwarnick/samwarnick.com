@@ -1,7 +1,7 @@
 // This is the main.js file. Import global CSS and scripts here.
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
-import { library } from "@fortawesome/fontawesome-svg-core";
+import { library, config } from "@fortawesome/fontawesome-svg-core";
 import {
   faCodepen,
   faGithub,
@@ -46,6 +46,9 @@ import { formatToTimeZone } from "date-fns-timezone";
 import VueObserveVisibility from "vue-observe-visibility";
 import DefaultLayout from "~/layouts/Default.vue";
 import "./assets/prism-tomorrow.css";
+import '@fortawesome/fontawesome-svg-core/styles.css'
+
+config.autoAddCss = false;
 
 library.add(
   faArchive,
