@@ -1,6 +1,7 @@
 const postcss = require("postcss");
 
 module.exports = {
+  purge: false,
   theme: {
     fontFamily: {
       mono: [
