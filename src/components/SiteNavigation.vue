@@ -51,18 +51,6 @@
         </g-link>
       </li>
       <li class="nav-link">
-        <g-link to="/move">
-          <FaIcon
-            :icon="['fad', 'truck']"
-            fixed-width
-            swap-opacity
-            size="lg"
-            class="mr-2 text-gray-800"
-          />
-          <span class="label">Move</span>
-        </g-link>
-      </li>
-      <li class="nav-link">
         <a href="https://lilyandsam.show" target="_blank" rel="noopener">
           <FaIcon :icon="['fad', 'podcast']" fixed-width size="lg" class="mr-2 text-purple-500" />Podcast ->
         </a>

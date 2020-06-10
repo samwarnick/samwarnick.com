@@ -23,13 +23,12 @@
         :class="{ show: isVisible }"
       >Hi There!</h2>
       <p class="mb-2 fade-in delay-1" :class="{ show: isVisible }">
-        I'm Sam Warnick. I'm a software engineer based in Utah. I love
+        I'm Sam Warnick. I'm a software engineer based in South Carolina. I love
         collecting Lego sets, eating sesame chicken, and spending time with my
         family.
       </p>
       <p class="fade-in delay-2" :class="{ show: isVisible }">
-        I mainly build and work on web apps, but I dabble in iOS development as
-        well.
+        I mainly build and work on web apps, but I am also developing <a href="https://apps.apple.com/us/app/focuses/id1492385864?ls=1">Focuses</a>, an iOS app.
       </p>
       <ul class="list-reset flex flex-wrap items-center justify-center sm:justify-start text-4xl">
         <li class="mx-2 my-4 fade-in delay-1" :class="{ show: isVisible }">
