@@ -10,7 +10,7 @@ May 2016 – present
 
 ### Focuses iOS App
 December 2019 – present
-- Idependently designed, developed, and released Focuses, and iOS app written in SwiftUI
+- Idependently designed, developed, and released Focuses, an iOS app written in SwiftUI
 - Literally, _dozens_ of sales on the Apple App Store
 
 ### **Teaching Assistant**, _Brigham Young University_
