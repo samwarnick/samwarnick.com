@@ -8,7 +8,7 @@ May 2016 – present
 - Created automated end-to-end tests using CodeceptJS an helped create best-practices for other developers to follow
 - Started as an intern and was hired full-time
 
-### Focuses iOS App
+### **Focuses iOS App**
 December 2019 – present
 - Idependently designed, developed, and released Focuses, an iOS app written in SwiftUI
 - Literally, _dozens_ of sales on the Apple App Store
@@ -18,11 +18,11 @@ August 2015 – April 2016
 - Helped hundreds of students learn and apply advanced programming concepts, helping them develop good coding practices, such as refactoring and debugging
 
 ## Education
-### BS in Computer Science with a minor in Management, _Brigham Young University_
+### **BS in Computer Science** with a minor in Management, _Brigham Young University_
 Graduated April 2017
 
 ## Awards
-### Eagle Scout Award
+### **Eagle Scout Award**
 June 2009
 - Designed and headed a group in constructing ski racks for a local nature center to allow more access to the trails in winter
 
