@@ -31,7 +31,7 @@
     <div class="flex justify-center p-8 h-32">
       <i
         class="fad fa-chevron-down fa-3x"
-        style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9"
+        style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9;"
       ></i>
     </div>
     <transition name="fade" appear>
@@ -57,11 +57,11 @@ export default {
         opacity: 0,
         "--y-offset": "0px",
         "--translate-x": "0px",
-        "--translate-y": "0px"
+        "--translate-y": "0px",
       },
       headerTitleStyles: {
-        opacity: 0
-      }
+        opacity: 0,
+      },
     };
   },
   mounted() {
@@ -69,25 +69,31 @@ export default {
       this.titleVisibilityChanged,
       {
         threshold: [0, 0.2, 0.4, 0.6, 0.8, 1],
-        rootMargin: "-200px 0px 0px 0px"
+        rootMargin: "-200px 0px 0px 0px",
       }
     );
 
     this.titleObserver_.observe(this.$refs.heroTitle);
 
     this.heroObserver_ = new IntersectionObserver(this.heroVisibilityChanged, {
-      rootMargin: `-${this.$refs.nav.$el.clientHeight + 2}px 0px 0px 0px`
+      rootMargin: `-${this.$refs.nav.$el.clientHeight + 2}px 0px 0px 0px`,
     });
 
     this.heroObserver_.observe(this.$refs.hero);
 
-    this.scrollListener_ = document.addEventListener("scroll", e => {
+    this.scrollListener_ = document.addEventListener("scroll", (e) => {
       this.heroTitleStyles = {
         ...this.heroTitleStyles,
-        "--y-offset": `${e.target.documentElement.scrollTop / 2}px`,
-        "--translate-x": `${Math.min(e.target.documentElement.scrollTop / 20, 50)}px`,
-        "--translate-y": `${Math.min(e.target.documentElement.scrollTop / 40, 50)}px`,
-        "--blur": `${Math.max(8, e.target.documentElement.scrollTop / 20)}px`
+        "--y-offset": `${-(e.target.documentElement.scrollTop / 2)}px`,
+        "--translate-x": `${Math.min(
+          e.target.documentElement.scrollTop / 20,
+          50
+        )}px`,
+        "--translate-y": `${Math.min(
+          e.target.documentElement.scrollTop / 40,
+          50
+        )}px`,
+        "--blur": `${Math.max(8, e.target.documentElement.scrollTop / 20)}px`,
       };
     });
   },
@@ -103,13 +109,13 @@ export default {
     },
     heroVisibilityChanged(entry) {
       this.heroVisible = entry[0].isIntersecting;
-    }
+    },
   },
   components: {
     SiteNavigation,
     Main,
-    SiteFooter
-  }
+    SiteFooter,
+  },
 };
 </script>
 
@@ -123,7 +129,8 @@ h2 {
   --translate-x: 1px;
   --translate-y: 0px;
   --blur: 8px;
-  transform: translateY(var(--y-offset));
+  position: fixed;
+  transform: translate3d(0, var(--y-offset), 0);
 }
 #heroTitle::before {
   content: "Sam Warnick";
@@ -134,6 +141,7 @@ h2 {
   right: 0;
   bottom: 0;
   color: transparent;
-  box-shadow: var(--translate-x) var(--translate-y) var(--blur) rgba(0, 0, 0, 0.2);
+  box-shadow: var(--translate-x) var(--translate-y) var(--blur)
+    rgba(0, 0, 0, 0.2);
 }
 </style>
