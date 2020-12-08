@@ -1,7 +1,7 @@
 <template>
   <Layout :show-breadcrumbs="true">
     <h2 class="text-4xl mb-12 flex items-center">
-      <FaIcon :icon="['fad', 'hashtag']" size="sm" class="mr-2" />Tags
+      <FaIcon :icon="['fas', 'hashtag']" size="sm" class="mr-2" />Tags
     </h2>
     <ul>
       <li v-for="tag in $page.tags.edges" :key="tag.node.id" class="text-xl mb-2">

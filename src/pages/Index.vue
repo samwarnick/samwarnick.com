@@ -29,7 +29,7 @@
         style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9"
       >
         <span class="group-hover:underline">See More Posts</span>
-        <FaIcon :icon="['fad', 'chevron-right']" class="ml-2" />
+        <FaIcon :icon="['fas', 'chevron-right']" class="ml-2" />
       </g-link>
     </div>
   </Hero>

@@ -6,7 +6,7 @@
     <div class="flex mt-32">
       <div class="mr-8">
         <h2 class="text-xl mb-4 font-bold text-gray-500 flex items-center">
-          <FaIcon :icon="['fad', 'archive']" size="sm" class="mr-2" />Categories
+          <FaIcon :icon="['fas', 'archive']" size="sm" class="mr-2" />Categories
         </h2>
         <ul>
           <li v-for="category in $page.categories.edges" :key="category.node.id" class="mb-2">
@@ -21,7 +21,7 @@
       </div>
       <div>
         <h2 class="text-xl mb-4 font-bold text-gray-500 flex items-center">
-          <FaIcon :icon="['fad', 'hashtag']" size="sm" class="mr-2" />Tags
+          <FaIcon :icon="['fas', 'hashtag']" size="sm" class="mr-2" />Tags
         </h2>
         <ul>
           <li v-for="tag in $page.tags.edges" :key="tag.node.id" class="mb-2">

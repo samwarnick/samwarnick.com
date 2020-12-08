@@ -1,35 +1,33 @@
 {
-  "name": "samwarnick.com",
-  "private": true,
-  "scripts": {
-    "build": "gridsome build",
-    "dev": "gridsome develop",
-    "explore": "gridsome explore"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.22",
-    "@fortawesome/free-brands-svg-icons": "^5.10.2",
-    "@fortawesome/pro-duotone-svg-icons": "^5.10.2",
-    "@fortawesome/pro-light-svg-icons": "^5.10.2",
-    "@fortawesome/pro-regular-svg-icons": "^5.10.2",
-    "@fortawesome/vue-fontawesome": "^0.1.7",
-    "@fullhuman/postcss-purgecss": "^2.1.0",
-    "@gridsome/plugin-google-analytics": "^0.1.0",
-    "@gridsome/plugin-sitemap": "^0.2.1",
-    "@gridsome/remark-prismjs": "^0.3.0",
-    "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-json": "^0.2.1",
-    "@gridsome/transformer-remark": "^0.5.0",
-    "date-fns": "^2.11.0",
-    "date-fns-timezone": "^0.1.4",
-    "gridsome": "^0.7.13",
-    "gridsome-plugin-feed": "^1.0.0",
-    "gridsome-plugin-rss": "^1.2.0",
-    "marked": "^0.8.0",
-    "node-fetch": "^2.6.0",
-    "remark-behead": "^2.2.1",
-    "tailwindcss": "^1.0.5",
-    "vue-observe-visibility": "^0.4.4",
-    "xml-js": "^1.6.11"
-  }
+    "name": "samwarnick.com",
+    "private": true,
+    "scripts": {
+        "build": "gridsome build",
+        "dev": "gridsome develop",
+        "explore": "gridsome explore"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.22",
+        "@fortawesome/free-brands-svg-icons": "^5.10.2",
+        "@fortawesome/free-solid-svg-icons": "^5.10.2",
+        "@fortawesome/vue-fontawesome": "^0.1.7",
+        "@fullhuman/postcss-purgecss": "^2.1.0",
+        "@gridsome/plugin-google-analytics": "^0.1.0",
+        "@gridsome/plugin-sitemap": "^0.2.1",
+        "@gridsome/remark-prismjs": "^0.3.0",
+        "@gridsome/source-filesystem": "^0.6.2",
+        "@gridsome/transformer-json": "^0.2.1",
+        "@gridsome/transformer-remark": "^0.5.0",
+        "date-fns": "^2.11.0",
+        "date-fns-timezone": "^0.1.4",
+        "gridsome": "^0.7.13",
+        "gridsome-plugin-feed": "^1.0.0",
+        "gridsome-plugin-rss": "^1.2.0",
+        "marked": "^0.8.0",
+        "node-fetch": "^2.6.0",
+        "remark-behead": "^2.2.1",
+        "tailwindcss": "^1.0.5",
+        "vue-observe-visibility": "^0.4.4",
+        "xml-js": "^1.6.11"
+    }
 }

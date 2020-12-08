@@ -29,11 +29,11 @@
           rel="noopener"
         >
           <span class="group-hover:underline group-hover:text-purple-700">See it in action</span>
-          <FaIcon :icon="['fad', 'external-link-alt']" size="xs" class="ml-2" />
+          <FaIcon :icon="['fas', 'external-link-alt']" size="xs" class="ml-2" />
         </a>
       </header>
       <footer class="flex items-center text-gray-700 text-sm mt-4 ml-2">
-        <FaIcon :icon="['fad', 'code']" class="mr-2" />
+        <FaIcon :icon="['fas', 'code']" class="mr-2" />
         <span>Built with {{ project.technologies | commaJoin }}</span>
       </footer>
     </div>

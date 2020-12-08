@@ -6,7 +6,7 @@
       :base="`/posts/tags/${$page.tag.title}`"
     >
       <h2 class="text-4xl mb-12 flex items-center flex-wrap">
-        <FaIcon :icon="['fad', 'archive']" size="sm" class="mr-2" />
+        <FaIcon :icon="['fas', 'archive']" size="sm" class="mr-2" />
         <span class="mr-4">Tag:</span>
         <span class="font-normal">{{ $page.tag.title }}</span>
       </h2>

@@ -1,7 +1,7 @@
 <template>
   <Layout :show-breadcrumbs="true">
     <h2 class="text-4xl mb-12 flex items-center">
-      <FaIcon :icon="['fad', 'archive']" size="sm" class="mr-2" />Categories
+      <FaIcon :icon="['fas', 'archive']" size="sm" class="mr-2" />Categories
     </h2>
     <ul>
       <li v-for="category in $page.categories.edges" :key="category.node.id" class="text-xl mb-2">

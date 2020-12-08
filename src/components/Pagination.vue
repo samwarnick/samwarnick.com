@@ -14,7 +14,7 @@
         v-if="currentPage > 1"
         class="text-base font-bold flex-grow pagination-button group"
       >
-        <FaIcon :icon="['fad', 'chevron-left']" class="mr-2" />
+        <FaIcon :icon="['fas', 'chevron-left']" class="mr-2" />
         <span class="group-hover:underline">Previous</span>
       </g-link>
       <g-link
@@ -24,7 +24,7 @@
         class="text-base font-bold flex-grow group"
       >
         <span class="group-hover:underline">Next</span>
-        <FaIcon :icon="['fad', 'chevron-right']" class="ml-2" />
+        <FaIcon :icon="['fas', 'chevron-right']" class="ml-2" />
       </g-link>
     </div>
   </div>

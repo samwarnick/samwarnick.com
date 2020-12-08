@@ -5,7 +5,7 @@
         <h2 class="text-4xl md:text-5xl font-extrabold leading-none mb-4">{{ $page.project.name }}</h2>
         <div class="flex flex-col sm:flex-row items-start sm:items-center pb-8 mb-8 border-b">
           <div class="flex items-center text-gray-600 mr-4">
-            <FaIcon :icon="['fad', 'code']" class="mr-2" />
+            <FaIcon :icon="['fas', 'code']" class="mr-2" />
             <span>Built with {{ $page.project.technologies | commaJoin }}</span>
           </div>
           <span
@@ -32,7 +32,7 @@
             class="gradient-underline text-xl"
           >
             See it in action
-            <FaIcon :icon="['fad', 'external-link-alt']" size="xs" class="ml-2" />
+            <FaIcon :icon="['fas', 'external-link-alt']" size="xs" class="ml-2" />
           </a>
         </div>
       </header>

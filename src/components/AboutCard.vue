@@ -75,7 +75,7 @@
             style="--fa-primary-color: #0290c9; --fa-secondary-color: #0290c9"
           >
             <span class="group-hover:underline">Résumé</span>
-            <FaIcon :icon="['fad', 'chevron-right']" class="ml-2" />
+            <FaIcon :icon="['fas', 'chevron-right']" class="ml-2" />
           </g-link>
         </li>
       </ul>
