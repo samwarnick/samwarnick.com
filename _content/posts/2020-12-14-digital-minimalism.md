@@ -1,7 +1,7 @@
 ---
 title: "Digital Minimalism, by Cal Newport"
 date: 2020-12-14
-description: "I read Digital Minimalism, by Cal Newport."
+description: "I read Digital Minimalism, by Cal Newport. Using your phone less seems like a good idea."
 categories: [books]
 ---
 
