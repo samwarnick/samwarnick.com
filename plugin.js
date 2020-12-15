@@ -50,8 +50,8 @@ class MyPlugin {
             feedItems.forEach((post) => {
                 feed.item({
                     title: post.title,
-                    url: `https://samwarnick.com/${post.path}`,
-                    guid: `https://samwarnick.com/${post.path}`,
+                    url: `https://samwarnick.com${post.path}`,
+                    guid: `https://samwarnick.com${post.path}`,
                     date: post.date,
                     description: post.description,
                     custom_elements: [
