@@ -21,11 +21,10 @@
         "date-fns": "^2.11.0",
         "date-fns-timezone": "^0.1.4",
         "gridsome": "^0.7.21",
-        "gridsome-plugin-feed": "^1.0.0",
-        "gridsome-plugin-rss": "^1.2.0",
         "marked": "^0.8.0",
         "node-fetch": "^2.6.0",
         "remark-behead": "^2.2.1",
+        "rss": "^1.2.2",
         "tailwindcss": "^1.0.5",
         "vue-observe-visibility": "^0.4.4",
         "xml-js": "^1.6.11"
