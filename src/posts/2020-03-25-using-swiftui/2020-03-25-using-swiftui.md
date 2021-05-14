@@ -3,7 +3,7 @@ title: "Using SwiftUI for Focuses"
 date: 2020-03-25
 description: "I used SwiftUI to make Focuses. It went suprisingly well."
 categories: [projects]
-image: ../2020-03-04-introducing-focuses/focuses.jpg
+image: ../../posts/introducing-focuses/focuses.jpg
 imageAlt: Focuses iOS app.
 ---
 

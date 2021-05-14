@@ -3,7 +3,7 @@ title: "Focuses Roadmap"
 date: 2020-03-26
 description: "I've got plans for Focuses. Some are big, some are small, and some are medium."
 categories: [projects]
-image: ../2020-03-04-introducing-focuses/focuses.jpg
+image: ../../posts/introducing-focuses/focuses.jpg
 imageAlt: Focuses iOS app.
 ---
 

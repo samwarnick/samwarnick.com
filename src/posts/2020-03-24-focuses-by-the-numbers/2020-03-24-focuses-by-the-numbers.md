@@ -3,7 +3,7 @@ title: "Focuses by the Numbers"
 date: 2020-03-24
 description: "A few semi-interesting numbers related to my app."
 categories: [projects]
-image: ../2020-03-04-introducing-focuses/focuses.jpg
+image: ../../posts/introducing-focuses/focuses.jpg
 imageAlt: Focuses iOS app.
 ---
 

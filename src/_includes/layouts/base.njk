@@ -1,21 +1,21 @@
 ---
-description: This is a description
+title: Sam Warnick's Blog
+description: Just trying to write about the things I care about.
+image: /assets/images/social.png
+imageAlt: Sam Warnick's Blog
 ---
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <title>{% if title.length %}{{ title }} | {% endif %}Sam Warnick</title>
     <meta charset="UTF-8"/>
-    {% if description %}
-      <meta name="description" content="{{description}}"/>
-    {% endif %}
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="{{ description }}"/>
     <meta name="og:title" content="{{ title }}"/>
     <meta name="og:description" content="{{ description }}"/>
-    <meta name="og:url" content="{{ url | url | absoluteUrl('https://samwarnick.com') }}"/>
-    <meta name="og:image" content="{{ image | url | absoluteUrl('https://samwarnick.com') }}"/>
+    <meta name="og:url" content="{{ page.url | url | absoluteUrl('https://samwarnick.com') }}"/>
+    <meta name="og:image" content="{{ image | lessRelativeUrl(page.url) | url | absoluteUrl('https://samwarnick.com') }}"/>
     <meta name="og:height" content="628"/>
     <meta name="og:width" content="1200"/>
     <meta name="twitter:image:alt" content="{{ imageAlt }}"/>
