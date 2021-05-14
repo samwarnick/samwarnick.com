@@ -1,78 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>My Blog about Boats</title>
-  <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
-  <link href="https://example.com/feed.xml" rel="self" />
-  <link href="https://example.com/" />
-  <updated>2021-05-12T01:45:16Z</updated>
-  <id>https://example.com/</id>
+  <title>Sam Warnick&#39;s Blog</title>
+  <subtitle>Just trying to write about the things I care about.</subtitle>
+  <link href="https://samwarnick.com/feed.xml" rel="self" />
+  <link href="https://samwarnick.com/" />
+  <updated>2021-05-14T19:55:08Z</updated>
+  <id>https://samwarnick.com/</id>
   <author>
-    <name>Boaty McBoatFace</name>
-    <email>me@example.com</email>
+    <name>Sam Warnick</name>
+    <email>sam@lemonpoint.dev</email>
   </author>
 
   <entry>
-    <title>Improving Focus by Having More</title>
-    <link href="https://example.com/posts/improving-focus-by-having-more/" />
-    <updated>2021-05-12T01:45:16Z</updated>
-    <id>https://example.com/posts/improving-focus-by-having-more/</id>
-    <content type="html"
-      ><p>
-        I get distracted. Easily. I'm the kind of person that gets a message and
-        somehow ends up reading about the KGB stealing plans for the space
-        shuttle to build Buran in between the time of looking at the
-        notification and the phone unlocking.
-      </p>
-      <p>
-        My first attempt at focusing more and being less distracted was to just
-        have less stuff. My dream was to be able to use an iPad for everything.
-        In college, I tried using my iPad Mini for notes, textbooks, and other
-        reading. Later, when I got the iPad Pro 10.5&quot;, I tried using it for
-        drawing, reading, writing, gaming, and even programming. It was more
-        successful at all these than the Mini, but with programming being my job
-        and my hobby, it wasn't a great experience overall.<sup
-          class="footnote-ref"
-          ><a
-            href="https://example.com/posts/improving-focus-by-having-more/#fn1"
-            id="fnref1"
-            >1</a
-          ></sup
-        >
-        I <em>really</em> wanted to be an iPad guy, and it took me a long time
-        to figure out that it's not for me.
-      </p>
-      <p>
-        My life changed (when <em>doesn't</em> your life change?) when my wife
-        got me a Kindle for my birthday. The Kindle is for reading books and
-        that's pretty much it.
-      </p>
-      <hr class="footnotes-sep" />
-      <section class="footnotes text-sm mb-12">
-        <ol class="footnotes-list">
-          <li id="fn1" class="footnote-item">
-            <p>
-              Will WWDC21 have good news? 🤞🏻
-              <a
-                href="https://example.com/posts/improving-focus-by-having-more/#fnref1"
-                class="footnote-backref"
-                >↩︎</a
-              >
-            </p>
-          </li>
-        </ol>
-      </section>
-    </content>
-  </entry>
-
-  <entry>
     <title>Thoughts on Steal Like an Artist</title>
-    <link href="https://example.com/posts/thoughts-on-steal-like-an-artist/" />
-    <updated>2021-05-07T01:20:57Z</updated>
-    <id>https://example.com/posts/thoughts-on-steal-like-an-artist/</id>
+    <link
+      href="https://samwarnick.com/posts/thoughts-on-steal-like-an-artist/"
+    />
+    <updated>2021-05-14T19:55:08Z</updated>
+    <id>https://samwarnick.com/posts/thoughts-on-steal-like-an-artist/</id>
     <content type="html"
       ><p>
         <img
-          src="https://example.com/posts/thoughts-on-steal-like-an-artist/steal-like-an-artist.png"
+          src="https://samwarnick.com/posts/thoughts-on-steal-like-an-artist/steal-like-an-artist.png"
           alt="Drawing of Steal Like an Artist"
           width="200"
         />
@@ -84,7 +33,7 @@
         not been had before. Nothing is original. By stealing from one
         another<sup class="footnote-ref"
           ><a
-            href="https://example.com/posts/thoughts-on-steal-like-an-artist/#fn1"
+            href="https://samwarnick.com/posts/thoughts-on-steal-like-an-artist/#fn1"
             id="fnref1"
             >1</a
           ></sup
@@ -146,7 +95,60 @@
               Obviously, never copy someone else's work and try to pass it off
               as yours.
               <a
-                href="https://example.com/posts/thoughts-on-steal-like-an-artist/#fnref1"
+                href="https://samwarnick.com/posts/thoughts-on-steal-like-an-artist/#fnref1"
+                class="footnote-backref"
+                >↩︎</a
+              >
+            </p>
+          </li>
+        </ol>
+      </section>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Improving Focus by Having More</title>
+    <link href="https://samwarnick.com/posts/improving-focus-by-having-more/" />
+    <updated>2021-05-14T19:55:08Z</updated>
+    <id>https://samwarnick.com/posts/improving-focus-by-having-more/</id>
+    <content type="html"
+      ><p>
+        I get distracted. Easily. I'm the kind of person that gets a message and
+        somehow ends up reading about the KGB stealing plans for the space
+        shuttle to build Buran in between the time of looking at the
+        notification and the phone unlocking.
+      </p>
+      <p>
+        My first attempt at focusing more and being less distracted was to just
+        have less stuff. My dream was to be able to use an iPad for everything.
+        In college, I tried using my iPad Mini for notes, textbooks, and other
+        reading. Later, when I got the iPad Pro 10.5&quot;, I tried using it for
+        drawing, reading, writing, gaming, and even programming. It was more
+        successful at all these than the Mini, but with programming being my job
+        and my hobby, it wasn't a great experience overall.<sup
+          class="footnote-ref"
+          ><a
+            href="https://samwarnick.com/posts/improving-focus-by-having-more/#fn1"
+            id="fnref1"
+            >1</a
+          ></sup
+        >
+        I <em>really</em> wanted to be an iPad guy, and it took me a long time
+        to figure out that it's not for me.
+      </p>
+      <p>
+        My life changed (when <em>doesn't</em> your life change?) when my wife
+        got me a Kindle for my birthday. The Kindle is for reading books and
+        that's pretty much it.
+      </p>
+      <hr class="footnotes-sep" />
+      <section class="footnotes text-sm mb-12">
+        <ol class="footnotes-list">
+          <li id="fn1" class="footnote-item">
+            <p>
+              Will WWDC21 have good news? 🤞🏻
+              <a
+                href="https://samwarnick.com/posts/improving-focus-by-having-more/#fnref1"
                 class="footnote-backref"
                 >↩︎</a
               >
@@ -159,9 +161,9 @@
 
   <entry>
     <title>The Grid</title>
-    <link href="https://example.com/posts/the-grid/" />
+    <link href="https://samwarnick.com/posts/the-grid/" />
     <updated>2021-02-09T21:45:00Z</updated>
-    <id>https://example.com/posts/the-grid/</id>
+    <id>https://samwarnick.com/posts/the-grid/</id>
     <content type="html"
       ><p>
         When I need to get down to business and get some serious programming
@@ -179,17 +181,17 @@
   <entry>
     <title>The Year of Momentum and the Season of Survival</title>
     <link
-      href="https://example.com/posts/the-year-of-momentum-and-the-season-of-survival/"
+      href="https://samwarnick.com/posts/the-year-of-momentum-and-the-season-of-survival/"
     />
     <updated>2021-01-04T12:40:00Z</updated>
     <id
-      >https://example.com/posts/the-year-of-momentum-and-the-season-of-survival/</id
+      >https://samwarnick.com/posts/the-year-of-momentum-and-the-season-of-survival/</id
     >
     <content type="html"
       ><p>
         Like I said in
         <a
-          href="https://example.com/posts/wrapping-up-the-year-of-groundwork"
+          href="https://samwarnick.com/posts/wrapping-up-the-year-of-groundwork"
           class="internal-link"
           >Wrapping Up the Year of Groundwork</a
         >, after 2020, I don't feel like I have much gas left in the tank.
@@ -231,10 +233,10 @@
   <entry>
     <title>Wrapping Up the Year of Groundwork</title>
     <link
-      href="https://example.com/posts/wrapping-up-the-year-of-groundwork/"
+      href="https://samwarnick.com/posts/wrapping-up-the-year-of-groundwork/"
     />
     <updated>2021-01-04T12:40:00Z</updated>
-    <id>https://example.com/posts/wrapping-up-the-year-of-groundwork/</id>
+    <id>https://samwarnick.com/posts/wrapping-up-the-year-of-groundwork/</id>
     <content type="html"
       ><p>
         2020 has been a hard year for everyone. But I have been very fortunate.
@@ -307,9 +309,11 @@
 
   <entry>
     <title>Digital Minimalism, by Cal Newport</title>
-    <link href="https://example.com/posts/digital-minimalism-by-cal-newport/" />
+    <link
+      href="https://samwarnick.com/posts/digital-minimalism-by-cal-newport/"
+    />
     <updated>2020-12-14T00:00:00Z</updated>
-    <id>https://example.com/posts/digital-minimalism-by-cal-newport/</id>
+    <id>https://samwarnick.com/posts/digital-minimalism-by-cal-newport/</id>
     <content type="html"
       ><p>
         Using my phone less has been on my mind for quite a while now. For no
@@ -403,9 +407,9 @@
 
   <entry>
     <title>Farewell, Mornings</title>
-    <link href="https://example.com/posts/farewell-mornings/" />
+    <link href="https://samwarnick.com/posts/farewell-mornings/" />
     <updated>2020-12-08T00:00:00Z</updated>
-    <id>https://example.com/posts/farewell-mornings/</id>
+    <id>https://samwarnick.com/posts/farewell-mornings/</id>
     <content type="html"
       ><p>
         I like routines and planning. Routines is one of my ways of managing
@@ -467,9 +471,9 @@
 
   <entry>
     <title>Steve Jobs, by Walter Issacson</title>
-    <link href="https://example.com/posts/steve-jobs-by-walter-issacson/" />
+    <link href="https://samwarnick.com/posts/steve-jobs-by-walter-issacson/" />
     <updated>2020-07-04T00:00:00Z</updated>
-    <id>https://example.com/posts/steve-jobs-by-walter-issacson/</id>
+    <id>https://samwarnick.com/posts/steve-jobs-by-walter-issacson/</id>
     <content type="html"
       ><p>Overall, I liked this book. I give it a thumbs up 👍🏻.</p>
       <p>
@@ -511,9 +515,9 @@
 
   <entry>
     <title>Focuses Roadmap</title>
-    <link href="https://example.com/posts/focuses-roadmap/" />
+    <link href="https://samwarnick.com/posts/focuses-roadmap/" />
     <updated>2020-03-26T00:00:00Z</updated>
-    <id>https://example.com/posts/focuses-roadmap/</id>
+    <id>https://samwarnick.com/posts/focuses-roadmap/</id>
     <content type="html"
       ><p>
         I had to cut myself off on adding new features to Focuses pretty early
@@ -576,9 +580,9 @@
 
   <entry>
     <title>Using SwiftUI for Focuses</title>
-    <link href="https://example.com/posts/using-swiftui-for-focuses/" />
+    <link href="https://samwarnick.com/posts/using-swiftui-for-focuses/" />
     <updated>2020-03-25T00:00:00Z</updated>
-    <id>https://example.com/posts/using-swiftui-for-focuses/</id>
+    <id>https://samwarnick.com/posts/using-swiftui-for-focuses/</id>
     <content type="html"
       ><p>
         I think I mentioned it briefly, but Focuses is built mostly with
@@ -734,9 +738,9 @@
 
   <entry>
     <title>Focuses by the Numbers</title>
-    <link href="https://example.com/posts/focuses-by-the-numbers/" />
+    <link href="https://samwarnick.com/posts/focuses-by-the-numbers/" />
     <updated>2020-03-24T00:00:00Z</updated>
-    <id>https://example.com/posts/focuses-by-the-numbers/</id>
+    <id>https://samwarnick.com/posts/focuses-by-the-numbers/</id>
     <content type="html"
       ><p>
         Here are a few numbers related to making Focuses that may or may not be
@@ -790,9 +794,9 @@
 
   <entry>
     <title>Introducing Focuses</title>
-    <link href="https://example.com/posts/introducing-focuses/" />
+    <link href="https://samwarnick.com/posts/introducing-focuses/" />
     <updated>2020-03-23T00:00:00Z</updated>
-    <id>https://example.com/posts/introducing-focuses/</id>
+    <id>https://samwarnick.com/posts/introducing-focuses/</id>
     <content type="html"
       ><p>
         <img
@@ -847,9 +851,9 @@
 
   <entry>
     <title>Podcasting With A Toddler</title>
-    <link href="https://example.com/posts/podcasting-with-a-toddler/" />
+    <link href="https://samwarnick.com/posts/podcasting-with-a-toddler/" />
     <updated>2019-09-11T00:00:00Z</updated>
-    <id>https://example.com/posts/podcasting-with-a-toddler/</id>
+    <id>https://samwarnick.com/posts/podcasting-with-a-toddler/</id>
     <content type="html"
       ><p>
         For about the last year and a half, my daughter and I have made a
@@ -1015,7 +1019,7 @@
       </p>
       <p>
         <img
-          src="https://example.com/posts/podcasting-with-a-toddler/garageband_levels.png"
+          src="https://samwarnick.com/posts/podcasting-with-a-toddler/garageband_levels.png"
           alt="Screenshot of audio levels in GarageBand"
         />
       </p>
@@ -1066,9 +1070,11 @@
 
   <entry>
     <title>Am I Becoming A Better Developer?</title>
-    <link href="https://example.com/posts/am-i-becoming-a-better-developer/" />
+    <link
+      href="https://samwarnick.com/posts/am-i-becoming-a-better-developer/"
+    />
     <updated>2019-01-17T00:00:00Z</updated>
-    <id>https://example.com/posts/am-i-becoming-a-better-developer/</id>
+    <id>https://samwarnick.com/posts/am-i-becoming-a-better-developer/</id>
     <content type="html"
       ><p>
         I've been working full-time as a software developer for almost 2 years
@@ -1163,9 +1169,11 @@
 
   <entry>
     <title>prefers-color-scheme Media Query</title>
-    <link href="https://example.com/posts/prefers-color-scheme-media-query/" />
+    <link
+      href="https://samwarnick.com/posts/prefers-color-scheme-media-query/"
+    />
     <updated>2018-10-25T00:00:00Z</updated>
-    <id>https://example.com/posts/prefers-color-scheme-media-query/</id>
+    <id>https://samwarnick.com/posts/prefers-color-scheme-media-query/</id>
     <content type="html"
       ><p>
         With
@@ -1243,9 +1251,9 @@
 
   <entry>
     <title>First Client Website</title>
-    <link href="https://example.com/posts/first-client-website/" />
+    <link href="https://samwarnick.com/posts/first-client-website/" />
     <updated>2018-06-02T00:00:00Z</updated>
-    <id>https://example.com/posts/first-client-website/</id>
+    <id>https://samwarnick.com/posts/first-client-website/</id>
     <content type="html"
       ><p>
         A little bit ago, I finished my first project for a client,
@@ -1256,7 +1264,7 @@
       <p>Here's what it looks like:</p>
       <p>
         <img
-          src="https://example.com/posts/first-client-website/totalpowerandfoam_screenshot.png"
+          src="https://samwarnick.com/posts/first-client-website/totalpowerandfoam_screenshot.png"
           alt="totalpowerandfoam.com screenshot"
         />
       </p>
@@ -1274,9 +1282,9 @@
 
   <entry>
     <title>Thoughts On Writing Good Code</title>
-    <link href="https://example.com/posts/thoughts-on-writing-good-code/" />
+    <link href="https://samwarnick.com/posts/thoughts-on-writing-good-code/" />
     <updated>2018-05-24T00:00:00Z</updated>
-    <id>https://example.com/posts/thoughts-on-writing-good-code/</id>
+    <id>https://samwarnick.com/posts/thoughts-on-writing-good-code/</id>
     <content type="html"
       ><p>
         At ng-conf, John Papa gave a talk on writing readable code. You can
@@ -1346,9 +1354,9 @@
 
   <entry>
     <title>Angular Template References</title>
-    <link href="https://example.com/posts/angular-template-references/" />
+    <link href="https://samwarnick.com/posts/angular-template-references/" />
     <updated>2018-05-03T00:00:00Z</updated>
-    <id>https://example.com/posts/angular-template-references/</id>
+    <id>https://samwarnick.com/posts/angular-template-references/</id>
     <content type="html"
       ><h3>What is a Template Reference?</h3>
       <p>
@@ -1521,9 +1529,9 @@
 
   <entry>
     <title>ng-conf 2018</title>
-    <link href="https://example.com/posts/ng-conf-2018/" />
+    <link href="https://samwarnick.com/posts/ng-conf-2018/" />
     <updated>2018-04-24T00:00:00Z</updated>
-    <id>https://example.com/posts/ng-conf-2018/</id>
+    <id>https://samwarnick.com/posts/ng-conf-2018/</id>
     <content type="html"
       ><p>
         Last week, I was able to attend ng-conf in Salt Lake City, UT. ng-conf
@@ -1569,9 +1577,9 @@
 
   <entry>
     <title>Very Good Websites &amp; Such</title>
-    <link href="https://example.com/posts/very-good-websites-and-such/" />
+    <link href="https://samwarnick.com/posts/very-good-websites-and-such/" />
     <updated>2018-04-22T00:00:00Z</updated>
-    <id>https://example.com/posts/very-good-websites-and-such/</id>
+    <id>https://samwarnick.com/posts/very-good-websites-and-such/</id>
     <content type="html"
       ><p>
         I setup a little business. A couple people wanted me to make websites
@@ -1602,9 +1610,9 @@
 
   <entry>
     <title>Moving My Blog To GitHub Pages</title>
-    <link href="https://example.com/posts/moving-my-blog-to-github-pages/" />
+    <link href="https://samwarnick.com/posts/moving-my-blog-to-github-pages/" />
     <updated>2017-10-28T00:00:00Z</updated>
-    <id>https://example.com/posts/moving-my-blog-to-github-pages/</id>
+    <id>https://samwarnick.com/posts/moving-my-blog-to-github-pages/</id>
     <content type="html"
       ><p>
         My blog has moved around a lot. Most recently (and only for a couple
@@ -1757,9 +1765,9 @@
 
   <entry>
     <title>Making Send to Nowhere</title>
-    <link href="https://example.com/posts/making-send-to-nowhere/" />
+    <link href="https://samwarnick.com/posts/making-send-to-nowhere/" />
     <updated>2017-04-19T00:00:00Z</updated>
-    <id>https://example.com/posts/making-send-to-nowhere/</id>
+    <id>https://samwarnick.com/posts/making-send-to-nowhere/</id>
     <content type="html"
       ><p>
         For me, making
@@ -1979,9 +1987,9 @@ nextViewController<span class="token punctuation">.</span>modalTransitionStyle <
 
   <entry>
     <title>CSS Variables?</title>
-    <link href="https://example.com/posts/css-variables/" />
+    <link href="https://samwarnick.com/posts/css-variables/" />
     <updated>2016-07-28T00:00:00Z</updated>
-    <id>https://example.com/posts/css-variables/</id>
+    <id>https://samwarnick.com/posts/css-variables/</id>
     <content type="html"
       ><p>
         I just found out, I think two days ago, that CSS has native
@@ -2046,9 +2054,9 @@ nextViewController<span class="token punctuation">.</span>modalTransitionStyle <
 
   <entry>
     <title>Hello world</title>
-    <link href="https://example.com/posts/hello-world/" />
+    <link href="https://samwarnick.com/posts/hello-world/" />
     <updated>2016-07-23T00:00:00Z</updated>
-    <id>https://example.com/posts/hello-world/</id>
+    <id>https://samwarnick.com/posts/hello-world/</id>
     <content type="html">
       <pre
         class="language-swift"
