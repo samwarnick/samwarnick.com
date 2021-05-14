@@ -1,43 +1,77 @@
-const postcss = require("postcss");
+const colors = require("tailwindcss/colors");
 
 module.exports = {
-  purge: false,
-  theme: {
-    fontFamily: {
-      mono: [
-        "Fira\\ Mono",
-        "Menlo",
-        "Monaco",
-        "Consolas",
-        "Liberation\\ Mono",
-        "Courier\\ New",
-        "monospace"
-      ]
+    mode: "jit",
+    purge: ["./src/**/*.njk", "./src/**/*md", ".eleventy.js"],
+    darkMode: false, // or 'media' or 'class'
+    theme: {
+        fontFamily: {
+            sans: ["'Merriweather Sans'", "sans-serif"],
+        },
+        extend: {
+            colors: {
+                rainstorm: {
+                    100: "hsl(197, 39%, 93%)",
+                    200: "hsl(197, 39%, 73%)",
+                    300: "hsl(197, 39%, 53%)",
+                    400: "hsl(197, 39%, 33%)",
+                    500: "hsl(197, 39%, 23%)",
+                    600: "hsl(197, 39%, 18%)",
+                    700: "hsl(197, 39%, 13%)",
+                    800: "hsl(197, 39%, 8%)",
+                    900: "hsl(197, 39%, 3%)",
+                },
+                gray: colors.blueGray,
+                orange: colors.orange,
+            },
+            typography: (theme) => ({
+                DEFAULT: {
+                    css: {
+                        color: theme("colors.gray.700"),
+                        fontWeight: theme("fontWeight.light"),
+                        a: {
+                            textDecoration: "none",
+                        },
+                        blockquote: {
+                            fontWeight: theme("fontWeight.light"),
+
+                            backgroundColor: theme("colors.gray.100"),
+                            padding: theme("padding.1"),
+                            border: "none",
+                            p: {
+                                paddingLeft: theme("padding.2"),
+                                fontStyle: "normal",
+                                "&::before": {
+                                    color: theme("colors.rainstorm.500"),
+                                    fontWeight: theme("fontWeight.bold"),
+                                },
+                                "&::after": {
+                                    color: theme("colors.rainstorm.500"),
+                                    fontWeight: theme("fontWeight.bold"),
+                                },
+                            },
+                        },
+                        h2: {
+                            fontWeight: theme("fontWeight.black"),
+                            marginTop: 0,
+                            marginBottom: 0,
+                            fontSize: theme("fontSize.5xl"),
+                        },
+                        img: {
+                            marginLeft: "auto",
+                            marginRight: "auto",
+                        },
+                    },
+                },
+            }),
+        },
     },
-    extend: {
-      height: {
-        "screen-85": "85vh",
-        "screen-70": "70vh"
-      }
-    }
-  },
-  variants: {
-    backgroundColor: ['responsive', 'first', 'last', 'even', 'odd', 'hover', 'focus', 'active'],
-    borderWidth: ['responsive', 'last', 'hover', 'focus'],
-    opacity: ['responsive', 'hover', 'focus', 'active', 'group-hover', 'disabled'],
-    textDecoration: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
-    margin: ['responsive', 'first', 'last', 'even', 'odd'],
-    padding: ['responsive', 'first', 'last', 'even', 'odd'],
-    textColor: ['responsive', 'hover', 'focus', 'active', 'group-hover', 'disabled'],
-    outline: ['responsive', 'hover', 'focus', 'active', 'group-hover', 'disabled']
-  },
-  plugins: [
-    function({ addVariant, e }) {
-      addVariant('disabled', ({ modifySelectors, separator }) => {
-        modifySelectors(({ className }) => {
-          return `.${e(`disabled${separator}${className}`)}:disabled`
-        })
-      })
-    }
-  ]
+    variants: {
+        extend: {},
+    },
+    plugins: [
+        require("@tailwindcss/typography")({
+            modifiers: [],
+        }),
+    ],
 };

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Introducing Focuses | Sam Warnick</title>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="description"
+      content="Today I&#39;m launching a new app that I&#39;ve been working on for the last few months. It&#39;s called Focuses."
+    />
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" />
+    <!-- 32×32 -->
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- 180×180 -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/assets/styles/main.css?v=1621011241244" />
+    <link
+      rel="stylesheet"
+      href="/assets/styles/prism-tomorrow.css?v=1621011241244"
+    />
+  </head>
+  <body
+    class="bg-rainstorm-500 wiggles grid grid-cols-[1fr,auto,1fr] grid-rows-[max-content,1fr,max-content] gap-x-2 md:gap-x-5 min-h-screen"
+  >
+    <header
+      class="text-gray-50 font-sans m-8 flex flex-col sm:flex-row justify-between items-center col-span-3"
+    >
+      <a href="/"
+        ><h1
+          class="text-xl sm:text-3xl font-black hover:text-pink-500 transition bg-rainstorm-500 p-2 mb-2 sm:mb-0"
+        >
+          Sam Warnick
+        </h1></a
+      >
+      <ol class="flex items-center">
+        <li><a href="/about" class="button mr-2">About</a></li>
+        <li>
+          <a href="https://lilyandsam.show" class="button"
+            >Podcast<svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 text-gray-300 ml-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              /></svg
+          ></a>
+        </li>
+      </ol>
+    </header>
+    <main class="col-start-2">
+      <article
+        class="prose w-full max-w-2xl bg-gray-50 shadow-lg p-4 md:p-8 my-8"
+      >
+        <header>
+          <h2>Introducing Focuses</h2>
+          <h3 class="mt-0 !text-gray-500 text-xl md:text-2xl"></h3>
+          <div class="mt-2 flex text-gray-400 items-center">
+            <time
+              class="text-sm text-gray-600"
+              datetime="2020-03-23T00:00:00.000Z"
+              >March 22, 2020</time
+            >
+          </div>
+        </header>
+
+        <p>
+          <img
+            src="https://res.cloudinary.com/verygoodfm/image/upload/v1584789837/samwarnick.com/main.png"
+            alt="Screenshot of the Focuses app"
+          />
+        </p>
+        <p>
+          Focuses is my take on goal and habit tracking. It is inspired by Myke
+          Hurley's daily themes and Marshall Goldsmith's daily active questions.
+          The idea is to have a simple and flexible system for scoring yourself
+          on how you do towards your goals each day. There are 3 options, an
+          empty circle, and half-filled circle, and a filled circle. What these
+          mean is up to you.
+        </p>
+        <p>
+          When SwiftUI was announced at WWDC 2019, I began thinking of projects
+          I could try it out on. An idea for a daily questions app kept coming
+          back to me. It would be an app that asked you the questions you wanted
+          each day. Stuff like &quot;How did you do towards eating healthy
+          today?&quot; You would respond with some like &quot;Bad&quot; or
+          &quot;Good&quot;. I started a version of this app, but abandoned it. I
+          didn't like that approach. It felt too constrained.
+        </p>
+        <p>
+          While listening to
+          <a href="https://relay.fm/cortex" class="external-link">Cortex</a>, I
+          heard Myke talking about his system of rating himself on a scale of 0,
+          1, or 2. Those scores would add up to a daily score. I really liked
+          that approach. It felt flexible and easy to track. I tried it on
+          paper, but it didn't stick. So with the New Year fast approaching, I
+          thought why not try to make a simple app to do it for me? I'm a novice
+          iOS developer at best, so what I thought would be simple was not so
+          simple for me. But after about 3 months of slow and steady work, I'm
+          excited to release the first version of Focuses!
+        </p>
+        <p>
+          I made the app for myself. I use it everyday. Tracking my effort
+          towards my goals has had a tangible effect on my life. It's helped me
+          and I hope it can help others.
+        </p>
+        <p>
+          You can find Focuses on the
+          <a
+            href="https://apps.apple.com/us/app/focuses/id1492385864?ls=1"
+            class="external-link"
+            >App Store</a
+          >.
+        </p>
+
+        <footer class="text-rainstorm-500">
+          <div class="w-[80px]">
+            <svg
+              viewBox="0 0 100 100"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                id="s"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <path
+                  d="M44.6077669,30.9307137 C42.2529168,37.893324 35.9248744,27.6931476 38.3754917,24.2275391 C34.1271672,20.2539942 21.6395129,7.67051974 17.6556857,17.1722305 C17.8919115,36.2809783 34.9839573,49.577451 41.8846628,66.1954404 C47.177079,81.5691617 28.6395129,96.3367102 14.9060914,87.3485268 C-0.769284293,69.044294 34.7564441,50.0714545 50.4816646,47.6349466 C55.5047686,52.395264 47.1141161,52.7698672 53.6474494,48.501966 C59.9262854,50.1300083 59.9925993,53.3275391 64.9322818,47.312548 C70.0373965,51.4130771 70.8012413,51.1682799 76.2936575,47.4312428 C79.9537986,54.0677508 85.2386311,48.0479977 89.4672025,51.1956167 C91.9201125,55.8825656 83.3119997,57.8509959 80.459266,56.3021423 C74.675139,52.4554051 78.1172907,50.9589324 72.5232871,55.6785092 C71.2144688,56.2099025 69.7033577,56.2301846 68.3694952,55.7749818 C66.5652624,54.9592852 64.8776081,53.3090206 64.3308709,51.3927949 C72.1567968,55.9584033 49.1195834,56.9875039 56.4867792,52.6982622 C49.8144688,63.847645 40.1881901,45.52313 52.5354564,46.2367102 C53.6423348,47.2546996 55.1149979,48.6848584 54.6925993,50.346234 C40.7991249,56.9139589 20.7042395,62.2196026 15.0173436,79.2712781 C18.6735517,88.4539942 35.2885429,85.0580506 36.7814882,75.4278919 C38.389072,52.4395321 2.05907373,34.2534651 15.7144864,10.407257 C27.713587,4.52545802 45.0042395,18.1862693 44.6077669,30.9307137"
+                  id="path"
+                  fill="currentColor"
+                  fill-rule="nonzero"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </footer>
+      </article>
+    </main>
+    <footer
+      class="font-light text-sm text-gray-300 flex flex-col p-8 items-center col-span-3"
+    >
+      <nav class="mb-4">
+        <ul class="list-reset flex flex-col sm:flex-row">
+          <li class="flex mb-2">
+            <a href="/feed.xml" class="hover:underline hover:text-pink-500"
+              >RSS</a
+            >
+            <span class="mx-2 hidden sm:inline-block">•</span>
+          </li>
+          <li class="flex mb-2">
+            <a href="/sitemap.xml" class="hover:underline hover:text-pink-500"
+              >Sitemap</a
+            >
+            <span class="mx-2 hidden sm:inline-block">•</span>
+          </li>
+          <li class="flex mb-2">
+            <a
+              href="https://twitter.com/samwarnick"
+              class="flex items-center hover:underline hover:text-pink-500"
+              >Twitter<svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-1"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
+                />
+                <path
+                  d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <p class="">Copyright 2016 – 2021 Sam Warnick</p>
+    </footer>
+  </body>
+</html>

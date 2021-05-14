@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Making Send to Nowhere | Sam Warnick</title>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="description"
+      content="Send To Nowhere was a dumb and simple enough idea to experiment with some things."
+    />
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" />
+    <!-- 32×32 -->
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- 180×180 -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/assets/styles/main.css?v=1621011241244" />
+    <link
+      rel="stylesheet"
+      href="/assets/styles/prism-tomorrow.css?v=1621011241244"
+    />
+  </head>
+  <body
+    class="bg-rainstorm-500 wiggles grid grid-cols-[1fr,auto,1fr] grid-rows-[max-content,1fr,max-content] gap-x-2 md:gap-x-5 min-h-screen"
+  >
+    <header
+      class="text-gray-50 font-sans m-8 flex flex-col sm:flex-row justify-between items-center col-span-3"
+    >
+      <a href="/"
+        ><h1
+          class="text-xl sm:text-3xl font-black hover:text-pink-500 transition bg-rainstorm-500 p-2 mb-2 sm:mb-0"
+        >
+          Sam Warnick
+        </h1></a
+      >
+      <ol class="flex items-center">
+        <li><a href="/about" class="button mr-2">About</a></li>
+        <li>
+          <a href="https://lilyandsam.show" class="button"
+            >Podcast<svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 text-gray-300 ml-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              /></svg
+          ></a>
+        </li>
+      </ol>
+    </header>
+    <main class="col-start-2">
+      <article
+        class="prose w-full max-w-2xl bg-gray-50 shadow-lg p-4 md:p-8 my-8"
+      >
+        <header>
+          <h2>Making Send to Nowhere</h2>
+          <h3 class="mt-0 !text-gray-500 text-xl md:text-2xl"></h3>
+          <div class="mt-2 flex text-gray-400 items-center">
+            <time
+              class="text-sm text-gray-600"
+              datetime="2017-04-19T00:00:00.000Z"
+              >April 18, 2017</time
+            >
+          </div>
+        </header>
+
+        <p>
+          For me, making
+          <a href="https://appsto.re/us/8ebbjb.i" class="external-link"
+            >Send To Nowhere</a
+          >
+          was a fun process. I like making things. Send To Nowhere was a dumb
+          and simple enough idea to experiment with some things. I’ll try to
+          write a little bit about why and how I made this app. The entire
+          project is up on
+          <a
+            href="https://github.com/samwarnick/Send-To-Nowhere"
+            class="external-link"
+            >GitHub</a
+          >.
+        </p>
+        <h3>Motivation</h3>
+        <ul>
+          <li>
+            I had been reading a little bit about
+            <a
+              href="https://blog.zeplin.io/life-without-interface-builder-adbb009d2068"
+              class="external-link"
+              >making iOS apps without using any storyboards or the interface
+              builder</a
+            >. I liked this idea. I did a group project where we made an iOS
+            app, and storyboards caused a bunch of problems when using git. Send
+            To Nowhere seemed like a simple enough idea to try this out on.
+          </li>
+          <li>
+            I also wanted to put an app on the App Store. I wanted to get more
+            familiar with the whole ecosystem.
+          </li>
+        </ul>
+        <h3>Life without the Interface Builder</h3>
+        <p>
+          Honestly, I didn’t miss the interface builder (IB) that much. The
+          times I’ve used it, I feel like I was spending most of my time
+          wrangling with constraints, and doing a lot of stuff that couldn’t be
+          done in the IB programmatically anyways. This may be due to my
+          inexperience with the IB. So, for me, it wasn’t a huge leap to doing
+          everything programmatically. One of my CS classes had us doing a Java
+          Swing interface without any IB, giving me a little experience using an
+          UI framework programmatically. Needless to say, using Swift and UIKit
+          is magnitudes better than using Java Swing.
+        </p>
+        <p>
+          Getting started with doing everything programmatically was fairly
+          easy. I just had to delete <code>Main.storyboard</code>, add a couple
+          lines to <code>AppDelegate.swift</code>, and change one project
+          setting. The following code shows the necessary changes to
+          <code>AppDelegate.swift</code>. Basically, you have to grab the
+          window, instantiate your own view controller, and set it as the root.
+        </p>
+        <pre
+          class="language-swift"
+        ><code class="language-swift"><span class="token keyword">import</span> <span class="token builtin">UIKit</span>
+
+<span class="token atrule">@UIApplicationMain</span>
+<span class="token keyword">class</span> <span class="token class-name">AppDelegate</span><span class="token punctuation">:</span> <span class="token builtin">UIResponder</span><span class="token punctuation">,</span> <span class="token builtin">UIApplicationDelegate</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">var</span> window<span class="token punctuation">:</span> <span class="token builtin">UIWindow</span><span class="token operator">?</span>
+
+    <span class="token keyword">func</span> <span class="token function">application</span><span class="token punctuation">(</span><span class="token number">_</span> application<span class="token punctuation">:</span> <span class="token builtin">UIApplication</span><span class="token punctuation">,</span> didFinishLaunchingWithOptions launchOptions<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token builtin">UIApplicationLaunchOptionsKey</span><span class="token punctuation">:</span> <span class="token builtin">Any</span><span class="token punctuation">]</span><span class="token operator">?</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">Bool</span> <span class="token punctuation">{</span>
+        window <span class="token operator">=</span> <span class="token function">UIWindow</span><span class="token punctuation">(</span>frame<span class="token punctuation">:</span> <span class="token builtin">UIScreen</span><span class="token punctuation">.</span>main<span class="token punctuation">.</span>bounds<span class="token punctuation">)</span>
+        window<span class="token operator">?</span><span class="token punctuation">.</span>rootViewController <span class="token operator">=</span> <span class="token function">YourFirstViewController</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        window<span class="token operator">?</span><span class="token punctuation">.</span><span class="token function">makeKeyAndVisible</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// The rest of AppDelage.swift</span>
+<span class="token punctuation">}</span>
+</code></pre>
+        <p>
+          In the project settings, you have to make sure that the project is not
+          looking for any storyboards. Make sure that this setting is blank so
+          that the app will not try to load a storyboard that does not exist.
+          The app will crash if you don’t.
+        </p>
+        <p>That was pretty much it to get going.</p>
+        <p>
+          Actually building the interface programmatically wasn’t too difficult
+          either. There are many ways to do this, but for me, I had a
+          <code>configureViews</code> function that was called in the
+          <code>viewDidLoad</code> function of my view controllers. In there, I
+          would create all of the UI elements and constrain them to be in the
+          right place.
+        </p>
+        <pre
+          class="language-swift"
+        ><code class="language-swift"><span class="token keyword">func</span> <span class="token function">configureViews</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> authorLabel <span class="token operator">=</span> <span class="token function">UILabel</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    authorLabel<span class="token punctuation">.</span><span class="token function">defaultStlye</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    authorLabel<span class="token punctuation">.</span>text <span class="token operator">=</span> <span class="token string">"Created by Sam Warnick"</span>
+
+    <span class="token keyword">let</span> websiteButton <span class="token operator">=</span> <span class="token function">UIButton</span><span class="token punctuation">(</span>type<span class="token punctuation">:</span> <span class="token punctuation">.</span>system<span class="token punctuation">)</span>
+    websiteButton<span class="token punctuation">.</span><span class="token function">defaultStlye</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    websiteButton<span class="token punctuation">.</span><span class="token function">setTitle</span><span class="token punctuation">(</span><span class="token string">"samwarnick.com"</span><span class="token punctuation">,</span> <span class="token keyword">for</span><span class="token punctuation">:</span> <span class="token punctuation">.</span>normal<span class="token punctuation">)</span>
+    websiteButton<span class="token punctuation">.</span><span class="token function">addTarget</span><span class="token punctuation">(</span><span class="token keyword">self</span><span class="token punctuation">,</span> action<span class="token punctuation">:</span> #<span class="token function">selector</span><span class="token punctuation">(</span><span class="token builtin">STNCreditsViewController</span><span class="token punctuation">.</span>didPressWebisteButton<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">for</span><span class="token punctuation">:</span> <span class="token punctuation">.</span>touchUpInside<span class="token punctuation">)</span>
+    websiteButton<span class="token punctuation">.</span><span class="token function">sizeToFit</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">let</span> twitterButton <span class="token operator">=</span> <span class="token function">UIButton</span><span class="token punctuation">(</span>type<span class="token punctuation">:</span> <span class="token punctuation">.</span>system<span class="token punctuation">)</span>
+    twitterButton<span class="token punctuation">.</span><span class="token function">defaultStlye</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    twitterButton<span class="token punctuation">.</span><span class="token function">setTitle</span><span class="token punctuation">(</span><span class="token string">"@samwarnick"</span><span class="token punctuation">,</span> <span class="token keyword">for</span><span class="token punctuation">:</span> <span class="token punctuation">.</span>normal<span class="token punctuation">)</span>
+    twitterButton<span class="token punctuation">.</span><span class="token function">addTarget</span><span class="token punctuation">(</span><span class="token keyword">self</span><span class="token punctuation">,</span> action<span class="token punctuation">:</span> #<span class="token function">selector</span><span class="token punctuation">(</span><span class="token builtin">STNCreditsViewController</span><span class="token punctuation">.</span>didPressTwitterButton<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">for</span><span class="token punctuation">:</span> <span class="token punctuation">.</span>touchUpInside<span class="token punctuation">)</span>
+    twitterButton<span class="token punctuation">.</span><span class="token function">sizeToFit</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">let</span> contactLabel <span class="token operator">=</span> <span class="token function">UILabel</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    contactLabel<span class="token punctuation">.</span><span class="token function">defaultStlye</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    contactLabel<span class="token punctuation">.</span>font <span class="token operator">=</span> <span class="token builtin">UIFont</span><span class="token punctuation">.</span><span class="token function">systemFont</span><span class="token punctuation">(</span>ofSize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span> weight<span class="token punctuation">:</span> <span class="token builtin">UIFontWeightThin</span><span class="token punctuation">)</span>
+    contactLabel<span class="token punctuation">.</span>text <span class="token operator">=</span> <span class="token string">"Please get in touch on Twitter or my website with any feedback"</span>
+
+    <span class="token keyword">let</span> myDetailsStackView <span class="token operator">=</span> <span class="token function">UIStackView</span><span class="token punctuation">(</span>arrangedSubviews<span class="token punctuation">:</span> <span class="token punctuation">[</span>authorLabel<span class="token punctuation">,</span> websiteButton<span class="token punctuation">,</span> twitterButton<span class="token punctuation">,</span> contactLabel<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    myDetailsStackView<span class="token punctuation">.</span>axis <span class="token operator">=</span> <span class="token punctuation">.</span>vertical
+    myDetailsStackView<span class="token punctuation">.</span>alignment <span class="token operator">=</span> <span class="token punctuation">.</span>center
+    myDetailsStackView<span class="token punctuation">.</span>distribution <span class="token operator">=</span> <span class="token punctuation">.</span>equalSpacing
+    myDetailsStackView<span class="token punctuation">.</span>spacing <span class="token operator">=</span> <span class="token number">8</span>
+    myDetailsStackView<span class="token punctuation">.</span><span class="token function">sizeToFit</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    view<span class="token punctuation">.</span><span class="token function">addSubview</span><span class="token punctuation">(</span>myDetailsStackView<span class="token punctuation">)</span>
+
+    myDetailsStackView<span class="token punctuation">.</span>snp<span class="token punctuation">.</span>makeConstraints <span class="token punctuation">{</span> <span class="token punctuation">(</span>make<span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">Void</span> <span class="token keyword">in</span>
+        make<span class="token punctuation">.</span>centerY<span class="token punctuation">.</span><span class="token function">equalTo</span><span class="token punctuation">(</span>view<span class="token punctuation">)</span>
+        make<span class="token punctuation">.</span><span class="token keyword">left</span><span class="token punctuation">.</span><span class="token function">equalTo</span><span class="token punctuation">(</span>view<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">offset</span><span class="token punctuation">(</span><span class="token number">40</span><span class="token punctuation">)</span>
+        make<span class="token punctuation">.</span><span class="token keyword">right</span><span class="token punctuation">.</span><span class="token function">equalTo</span><span class="token punctuation">(</span>view<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">offset</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">40</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    view<span class="token punctuation">.</span>backgroundColor <span class="token operator">=</span> <span class="token builtin">UIColor</span><span class="token punctuation">.</span>white
+<span class="token punctuation">}</span>
+</code></pre>
+        <p>
+          The process was simple—make an UI element and add it as a subview.
+          After that, you have to put it where you want using constraints. I
+          used <a href="http://snapkit.io" class="external-link">SnapKit</a> for
+          setting my constraints. It was pretty straightforward and it was easy
+          enough to do everything I wanted. The only tricky thing was
+          remembering to use negative numbers for the right and bottom
+          constraints. For example, in the code above, I wanted the stack view
+          to be 40 pts from the right edge of the view, so I had to give it an
+          offset of -40.
+        </p>
+        <p>
+          I was initially a little worried about doing segues programmatically,
+          but again, I found it to be simple enough.
+        </p>
+        <pre
+          class="language-swift"
+        ><code class="language-swift"><span class="token keyword">let</span> nextViewController <span class="token operator">=</span> <span class="token function">NextViewController</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+nextViewController<span class="token punctuation">.</span>modalPresentationStyle <span class="token operator">=</span> <span class="token punctuation">.</span>custom
+nextViewController<span class="token punctuation">.</span>modalTransitionStyle <span class="token operator">=</span> <span class="token punctuation">.</span>crossDissolve
+<span class="token function">present</span><span class="token punctuation">(</span>nextViewController<span class="token punctuation">,</span> animated<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> completion<span class="token punctuation">:</span> <span class="token constant">nil</span><span class="token punctuation">)</span>
+</code></pre>
+        <p>
+          You create an instance of the view controller you want to go to, set
+          it up as needed (in my case I was setting the modal presentation and
+          transition styles), and call <code>present</code>. These were simple
+          segues that would present the view on top of my main view. I would
+          just call <code>dismiss</code> to get rid of it. This project didn’t
+          get me into using any navigation controllers. That’s something I want
+          to try in the future.
+        </p>
+        <p>
+          I liked doing everything programmatically. Even with the IB, I was
+          spending so much time in the code, so it makes sense to me to do
+          everything in the code. It takes the mystery out of everything. I
+          learned a lot about the UI elements I was using because it required
+          spending a lot more time in the documentation. I built this app on my
+          own, so I didn’t get the advantages of avoiding merge conflicts and
+          such, but I can imagine how it’d be a blessing. I’d recommend giving
+          it a try and see if it fits how you work.
+        </p>
+        <h3>Submitting to the App store</h3>
+        <p>
+          I won’t get into the details of actually submitting to the App Store
+          (there are plenty of good tutorials), but I’ll say that I did have
+          some trouble because I started the project before I had a real
+          developer account. It caused some weird issues with the bundle
+          identifier. It just took some time to work out, but I got it in the
+          end, obviously.
+        </p>
+        <p>
+          I was about 80% sure my app would be rejected. One of the App Store’s
+          criteria is:
+        </p>
+        <blockquote>
+          <p>
+            If your app doesn’t offer much functionality or content, or only
+            applies to a small niche market, it may not be approved.
+          </p>
+        </blockquote>
+        <p>
+          So, I was worried that Send To Nowhere was too simple. It would have
+          been fine if it had been rejected. I originally set out to just learn
+          more about the whole process. But it was approved! After submitting,
+          it took about a day and a half waiting to be reviewed and it took
+          about 30 mins to be reviewed. It was very exciting. After that, it
+          took about 6 hours to propagate to the App Store.
+        </p>
+        <p>
+          To date (about 6 days after it’s been released), Send To Nowhere has
+          been downloaded an entire 18 times!
+        </p>
+        <h3>The Future</h3>
+        <p>
+          Luckily, Send To Nowhere is simple enough that bugs shouldn’t come up.
+          I had a few people beta test it to get the kinks out. But we’ll see if
+          anything pops up. It’s always possible. I have a few ideas for
+          possible updates. So there will most likely be version 1.1. After
+          that, who knows!
+        </p>
+        <p>
+          If you have any feedback, leave a comment or hit me up on
+          <a href="https://twitter.com/samwarnick" class="external-link"
+            >Twitter</a
+          >.
+        </p>
+
+        <footer class="text-rainstorm-500">
+          <div class="w-[80px]">
+            <svg
+              viewBox="0 0 100 100"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                id="s"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <path
+                  d="M44.6077669,30.9307137 C42.2529168,37.893324 35.9248744,27.6931476 38.3754917,24.2275391 C34.1271672,20.2539942 21.6395129,7.67051974 17.6556857,17.1722305 C17.8919115,36.2809783 34.9839573,49.577451 41.8846628,66.1954404 C47.177079,81.5691617 28.6395129,96.3367102 14.9060914,87.3485268 C-0.769284293,69.044294 34.7564441,50.0714545 50.4816646,47.6349466 C55.5047686,52.395264 47.1141161,52.7698672 53.6474494,48.501966 C59.9262854,50.1300083 59.9925993,53.3275391 64.9322818,47.312548 C70.0373965,51.4130771 70.8012413,51.1682799 76.2936575,47.4312428 C79.9537986,54.0677508 85.2386311,48.0479977 89.4672025,51.1956167 C91.9201125,55.8825656 83.3119997,57.8509959 80.459266,56.3021423 C74.675139,52.4554051 78.1172907,50.9589324 72.5232871,55.6785092 C71.2144688,56.2099025 69.7033577,56.2301846 68.3694952,55.7749818 C66.5652624,54.9592852 64.8776081,53.3090206 64.3308709,51.3927949 C72.1567968,55.9584033 49.1195834,56.9875039 56.4867792,52.6982622 C49.8144688,63.847645 40.1881901,45.52313 52.5354564,46.2367102 C53.6423348,47.2546996 55.1149979,48.6848584 54.6925993,50.346234 C40.7991249,56.9139589 20.7042395,62.2196026 15.0173436,79.2712781 C18.6735517,88.4539942 35.2885429,85.0580506 36.7814882,75.4278919 C38.389072,52.4395321 2.05907373,34.2534651 15.7144864,10.407257 C27.713587,4.52545802 45.0042395,18.1862693 44.6077669,30.9307137"
+                  id="path"
+                  fill="currentColor"
+                  fill-rule="nonzero"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </footer>
+      </article>
+    </main>
+    <footer
+      class="font-light text-sm text-gray-300 flex flex-col p-8 items-center col-span-3"
+    >
+      <nav class="mb-4">
+        <ul class="list-reset flex flex-col sm:flex-row">
+          <li class="flex mb-2">
+            <a href="/feed.xml" class="hover:underline hover:text-pink-500"
+              >RSS</a
+            >
+            <span class="mx-2 hidden sm:inline-block">•</span>
+          </li>
+          <li class="flex mb-2">
+            <a href="/sitemap.xml" class="hover:underline hover:text-pink-500"
+              >Sitemap</a
+            >
+            <span class="mx-2 hidden sm:inline-block">•</span>
+          </li>
+          <li class="flex mb-2">
+            <a
+              href="https://twitter.com/samwarnick"
+              class="flex items-center hover:underline hover:text-pink-500"
+              >Twitter<svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-1"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
+                />
+                <path
+                  d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <p class="">Copyright 2016 – 2021 Sam Warnick</p>
+    </footer>
+  </body>
+</html>

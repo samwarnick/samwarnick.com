@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Moving My Blog To GitHub Pages | Sam Warnick</title>
+    <meta charset="UTF-8" />
+
+    <meta name="description" content="I moved my blog to GitHub Pages!" />
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" />
+    <!-- 32×32 -->
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- 180×180 -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/assets/styles/main.css?v=1621011241244" />
+    <link
+      rel="stylesheet"
+      href="/assets/styles/prism-tomorrow.css?v=1621011241244"
+    />
+  </head>
+  <body
+    class="bg-rainstorm-500 wiggles grid grid-cols-[1fr,auto,1fr] grid-rows-[max-content,1fr,max-content] gap-x-2 md:gap-x-5 min-h-screen"
+  >
+    <header
+      class="text-gray-50 font-sans m-8 flex flex-col sm:flex-row justify-between items-center col-span-3"
+    >
+      <a href="/"
+        ><h1
+          class="text-xl sm:text-3xl font-black hover:text-pink-500 transition bg-rainstorm-500 p-2 mb-2 sm:mb-0"
+        >
+          Sam Warnick
+        </h1></a
+      >
+      <ol class="flex items-center">
+        <li><a href="/about" class="button mr-2">About</a></li>
+        <li>
+          <a href="https://lilyandsam.show" class="button"
+            >Podcast<svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 text-gray-300 ml-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              /></svg
+          ></a>
+        </li>
+      </ol>
+    </header>
+    <main class="col-start-2">
+      <article
+        class="prose w-full max-w-2xl bg-gray-50 shadow-lg p-4 md:p-8 my-8"
+      >
+        <header>
+          <h2>Moving My Blog To GitHub Pages</h2>
+          <h3 class="mt-0 !text-gray-500 text-xl md:text-2xl"></h3>
+          <div class="mt-2 flex text-gray-400 items-center">
+            <time
+              class="text-sm text-gray-600"
+              datetime="2017-10-28T00:00:00.000Z"
+              >October 27, 2017</time
+            >
+          </div>
+        </header>
+
+        <p>
+          My blog has moved around a lot. Most recently (and only for a couple
+          months), I was using a self-hosted
+          <a href="https://ghost.org/developers/" class="external-link"
+            >Ghost</a
+          >
+          instance on DigitalOcean. As much as I liked Ghost, I was looking for
+          something a little more hands off—I didn't love being greeted with a
+          new update notification nearly every time I logged in, requiring me to
+          SSH in and upgrade. I also wanted something I could manage a little
+          more easily from my iPad. Not for any good reason; just for fun. A
+          friend of mine has always suggested I try out GitHub Pages and Jekyll,
+          so I decided to try it out. Now, I haven't been on GitHub pages for
+          very long, so these are just my initial thoughts.
+        </p>
+        <h3>GitHub Pages and Jekyll</h3>
+        <p>
+          GitHub pages is a simple way to host a personal site. It just uses a
+          repo on GitHub and
+          <a href="https://jekyllrb.com/" class="external-link">Jekyll</a> to
+          build a static site. Basically, all you have to do is provide the
+          files for Jekyll to build. At it's simplest, all you need is an
+          <code>index.html</code>. Like they say on the
+          <a href="https://pages.github.com" class="external-link"
+            >GitHub Pages</a
+          >
+          site:
+        </p>
+        <blockquote>
+          <p>Just edit, push, and your changes are live.</p>
+        </blockquote>
+        <p>Here are a few pros and cons for me:</p>
+        <h4>Pros</h4>
+        <ul>
+          <li>Free</li>
+          <li>Easy to setup</li>
+          <li>Dead simple and doesn't come with a ton of bloat</li>
+          <li>Built in version control, because, you know...GitHub</li>
+        </ul>
+        <h4>Cons</h4>
+        <ul>
+          <li>Can't preview drafts</li>
+          <li>
+            Doesn't support SSL and HTTPS with custom domains (you can use
+            <a href="https://www.cloudflare.com" class="external-link"
+              >Cloudflare</a
+            >
+            as a workaround)
+          </li>
+        </ul>
+        <p>
+          I enjoy being able to just push changes to my repo and not having to
+          deal with SSH or Mosh or FTP or whatever. For me, it's by far the
+          simplest solution I've come across. GitHub even emails you if there's
+          a problem build the files you've just pushed.
+        </p>
+        <p>
+          Since Jekyll is a static site generator, it's obviously not going to
+          be the right solution for every project, but for a simple blog, it's
+          pretty perfect. I'm able to make page templates in HTML and the
+          <a href="https://shopify.github.io/liquid/" class="external-link"
+            >Liquid</a
+          >
+          templating language, all my styling in SCSS, and write my posts in
+          Markdown. Mostly, I followed the
+          <a href="https://jekyllrb.com/docs/" class="external-link"
+            >Jekyll docs</a
+          >
+          to build my own theme. Since Jekyll sites don't come with a ton of
+          bloat, it was quite easy to make a theme. Not a whole lot to worry
+          about. I made a <code>default</code> layout and a
+          <code>post</code> layout which extends the <code>default</code>. The
+          <code>default</code> has all the <code>&lt;head&gt;</code> stuff, the
+          header and footer, and a place to put the body content, so the other
+          layouts I make don't have to worry about that stuff because they just
+          extend it.
+        </p>
+        <p>
+          Jekyll can also have plugins. GitHub has several useful plugins
+          whitelisted. They have some by default plugins like
+          <code>jekyll-optional-front-matter</code> and
+          <code>jekyll-paginate</code> in addition to some optional ones like
+          <code>jekyll-seo-tag</code> and <code>jekyll-sitemap</code>. You just
+          configure them in your <code>_config.yml</code>. Pretty cool. If you
+          are developing locally, you need to make sure that you install them
+          using <code>gem install</code> in addition to adding them to your
+          <code>_config.yml</code>.
+        </p>
+        <p>
+          Long story short, I have found GitHub pages and Jekyll to be a simple
+          way to make and manage my site. Win!
+        </p>
+        <h3>iPadability</h3>
+        <p>
+          I recently got an iPad Pro. Since I got it, it's been a mission of
+          mine to figure out how to do more dev work. I'll write more about what
+          I've found in another post, but let's just say, the iPad won't be
+          replacing my laptop anytime soon. Despite this, GitHub Pages fits
+          really well into an iPad workflow. iPads obviously can't run any fancy
+          command line tools, but luckily GitHub Pages builds the Jekyll page
+          for you! So, using the fantastic
+          <a
+            href="https://itunes.apple.com/us/app/working-copy/id896694807?mt=8"
+            class="external-link"
+            >Working Copy</a
+          >, I can keep a local version of my repo on my iPad. For code changes,
+          I can make small changes (usually in
+          <a
+            href="https://itunes.apple.com/us/app/textastic-code-editor-6/id1049254261?mt=8"
+            class="external-link"
+            >Textastic</a
+          >, push them, and boom—GitHub builds it for me and my changes are
+          there. Yes, it's not as good as a feedback loop as running a local
+          Jekyll server and making changes, but hey, its an iPad.
+        </p>
+        <p>
+          Writing posts on the iPad is even better. Jekyll has some rules for a
+          post to be valid: the file needs to be in the format
+          <code>YYYY-MM-DD-post-title.md</code> and the post needs valid
+          frontmatter. I thought to myself, hey, that's something a computer
+          should be able to do for me. Luckily
+          <a
+            href="https://itunes.apple.com/us/app/workflow/id915249334?mt=8"
+            class="external-link"
+            >Workflow</a
+          >
+          on iOS has some pretty great automation tools. I was able to make a
+          workflow that will take a markdown file, format it correctly for
+          Jekyll, save it in Working Copy, commit it, and finally push it to
+          GitHub. With a single tap, I can now do what would normally take
+          several minutes and who knows how many taps. I don't know about you,
+          but I think that's pretty cool. You can find it
+          <a
+            href="https://workflow.is/workflows/6094b228a4ae499b884634152cd3ab48"
+            class="external-link"
+            >here</a
+          >.
+        </p>
+        <p>
+          So it's much easier to manage on my iPad than having to SSH into my
+          DigitalOcean droplet to update things. Still not perfect, but with the
+          current state of iOS, it's not too shabby.
+        </p>
+        <hr />
+        <p>
+          There you have it—more than you'd ever want to know about me moving my
+          blog to GitHub Pages! I recommend giving it a try sometime.
+        </p>
+
+        <footer class="text-rainstorm-500">
+          <div class="w-[80px]">
+            <svg
+              viewBox="0 0 100 100"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                id="s"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <path
+                  d="M44.6077669,30.9307137 C42.2529168,37.893324 35.9248744,27.6931476 38.3754917,24.2275391 C34.1271672,20.2539942 21.6395129,7.67051974 17.6556857,17.1722305 C17.8919115,36.2809783 34.9839573,49.577451 41.8846628,66.1954404 C47.177079,81.5691617 28.6395129,96.3367102 14.9060914,87.3485268 C-0.769284293,69.044294 34.7564441,50.0714545 50.4816646,47.6349466 C55.5047686,52.395264 47.1141161,52.7698672 53.6474494,48.501966 C59.9262854,50.1300083 59.9925993,53.3275391 64.9322818,47.312548 C70.0373965,51.4130771 70.8012413,51.1682799 76.2936575,47.4312428 C79.9537986,54.0677508 85.2386311,48.0479977 89.4672025,51.1956167 C91.9201125,55.8825656 83.3119997,57.8509959 80.459266,56.3021423 C74.675139,52.4554051 78.1172907,50.9589324 72.5232871,55.6785092 C71.2144688,56.2099025 69.7033577,56.2301846 68.3694952,55.7749818 C66.5652624,54.9592852 64.8776081,53.3090206 64.3308709,51.3927949 C72.1567968,55.9584033 49.1195834,56.9875039 56.4867792,52.6982622 C49.8144688,63.847645 40.1881901,45.52313 52.5354564,46.2367102 C53.6423348,47.2546996 55.1149979,48.6848584 54.6925993,50.346234 C40.7991249,56.9139589 20.7042395,62.2196026 15.0173436,79.2712781 C18.6735517,88.4539942 35.2885429,85.0580506 36.7814882,75.4278919 C38.389072,52.4395321 2.05907373,34.2534651 15.7144864,10.407257 C27.713587,4.52545802 45.0042395,18.1862693 44.6077669,30.9307137"
+                  id="path"
+                  fill="currentColor"
+                  fill-rule="nonzero"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </footer>
+      </article>
+    </main>
+    <footer
+      class="font-light text-sm text-gray-300 flex flex-col p-8 items-center col-span-3"
+    >
+      <nav class="mb-4">
+        <ul class="list-reset flex flex-col sm:flex-row">
+          <li class="flex mb-2">
+            <a href="/feed.xml" class="hover:underline hover:text-pink-500"
+              >RSS</a
+            >
+            <span class="mx-2 hidden sm:inline-block">•</span>
+          </li>
+          <li class="flex mb-2">
+            <a href="/sitemap.xml" class="hover:underline hover:text-pink-500"
+              >Sitemap</a
+            >
+            <span class="mx-2 hidden sm:inline-block">•</span>
+          </li>
+          <li class="flex mb-2">
+            <a
+              href="https://twitter.com/samwarnick"
+              class="flex items-center hover:underline hover:text-pink-500"
+              >Twitter<svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-1"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
+                />
+                <path
+                  d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <p class="">Copyright 2016 – 2021 Sam Warnick</p>
+    </footer>
+  </body>
+</html>

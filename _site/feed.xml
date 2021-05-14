@@ -1,0 +1,2061 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>My Blog about Boats</title>
+  <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+  <link href="https://example.com/feed.xml" rel="self" />
+  <link href="https://example.com/" />
+  <updated>2021-05-12T01:45:16Z</updated>
+  <id>https://example.com/</id>
+  <author>
+    <name>Boaty McBoatFace</name>
+    <email>me@example.com</email>
+  </author>
+
+  <entry>
+    <title>Improving Focus by Having More</title>
+    <link href="https://example.com/posts/improving-focus-by-having-more/" />
+    <updated>2021-05-12T01:45:16Z</updated>
+    <id>https://example.com/posts/improving-focus-by-having-more/</id>
+    <content type="html"
+      ><p>
+        I get distracted. Easily. I'm the kind of person that gets a message and
+        somehow ends up reading about the KGB stealing plans for the space
+        shuttle to build Buran in between the time of looking at the
+        notification and the phone unlocking.
+      </p>
+      <p>
+        My first attempt at focusing more and being less distracted was to just
+        have less stuff. My dream was to be able to use an iPad for everything.
+        In college, I tried using my iPad Mini for notes, textbooks, and other
+        reading. Later, when I got the iPad Pro 10.5&quot;, I tried using it for
+        drawing, reading, writing, gaming, and even programming. It was more
+        successful at all these than the Mini, but with programming being my job
+        and my hobby, it wasn't a great experience overall.<sup
+          class="footnote-ref"
+          ><a
+            href="https://example.com/posts/improving-focus-by-having-more/#fn1"
+            id="fnref1"
+            >1</a
+          ></sup
+        >
+        I <em>really</em> wanted to be an iPad guy, and it took me a long time
+        to figure out that it's not for me.
+      </p>
+      <p>
+        My life changed (when <em>doesn't</em> your life change?) when my wife
+        got me a Kindle for my birthday. The Kindle is for reading books and
+        that's pretty much it.
+      </p>
+      <hr class="footnotes-sep" />
+      <section class="footnotes text-sm mb-12">
+        <ol class="footnotes-list">
+          <li id="fn1" class="footnote-item">
+            <p>
+              Will WWDC21 have good news? 🤞🏻
+              <a
+                href="https://example.com/posts/improving-focus-by-having-more/#fnref1"
+                class="footnote-backref"
+                >↩︎</a
+              >
+            </p>
+          </li>
+        </ol>
+      </section>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Thoughts on Steal Like an Artist</title>
+    <link href="https://example.com/posts/thoughts-on-steal-like-an-artist/" />
+    <updated>2021-05-07T01:20:57Z</updated>
+    <id>https://example.com/posts/thoughts-on-steal-like-an-artist/</id>
+    <content type="html"
+      ><p>
+        <img
+          src="https://example.com/posts/thoughts-on-steal-like-an-artist/steal-like-an-artist.png"
+          alt="Drawing of Steal Like an Artist"
+          width="200"
+        />
+      </p>
+      <p>
+        <em>Steal Like an Artist</em> by Austin Klein was able to clearly
+        articulate a lot of ideas that I have not been able to fully form
+        myself. I have long believed that there really isn't any idea that has
+        not been had before. Nothing is original. By stealing from one
+        another<sup class="footnote-ref"
+          ><a
+            href="https://example.com/posts/thoughts-on-steal-like-an-artist/#fn1"
+            id="fnref1"
+            >1</a
+          ></sup
+        >, we learn. If we steal many good things from a variety of people, we
+        are able to combine them into something worthy of being stolen by
+        someone else; We create our own voice.
+      </p>
+      <p>
+        The part I had not fully come to grips with is if nothing is original,
+        what's the point? Klein included a quote from André Gide:
+      </p>
+      <blockquote>
+        <p>
+          Everything that needs to be said has already been said.
+          <strong
+            >But, since no one was listening, everything must be said
+            again.</strong
+          >
+        </p>
+      </blockquote>
+      <p>
+        I love this perspective. As the father of a four year-old, this hit
+        close to home. So, what's the point? There is someone who has not heard
+        what you have to say. If they are going to hear it, why not let it be
+        from you? I probably knew this already, but I couldn't articulate it
+        before reading this book.
+      </p>
+      <p>
+        While I agree with most things in the book, I had a major disagreement
+        with one point he makes. While talking about how we are able to learn by
+        surrounding ourselves with people more talent, he said &quot;if you ever
+        find that you're the most talented person in the room, you need to find
+        another room.&quot; While I get what he's getting at, it's too selfish
+        of an attitude for me. A better question than which room can I move to,
+        is how can help those in <em>this</em> room become more talented. I
+        think a lot can be gained from changing your perspective from &quot;what
+        can I take?&quot; to &quot;what can I give?&quot;
+      </p>
+      <p>
+        I'll end with my favorite quote included in the book from Jessica
+        Hische, a very talented designer:
+      </p>
+      <blockquote>
+        <p>
+          The work you do while you procrastinate is probably the work you
+          should be doing for the rest of your life.
+        </p>
+      </blockquote>
+      <p>
+        <em>Steal Like an Artist</em> is a quick, worthwhile read. I give it a
+        thumbs up. Thanks for reading, and as Klein recommends, I'm going to go
+        and enjoy and use my obscurity.
+      </p>
+      <hr class="footnotes-sep" />
+      <section class="footnotes text-sm mb-12">
+        <ol class="footnotes-list">
+          <li id="fn1" class="footnote-item">
+            <p>
+              Obviously, never copy someone else's work and try to pass it off
+              as yours.
+              <a
+                href="https://example.com/posts/thoughts-on-steal-like-an-artist/#fnref1"
+                class="footnote-backref"
+                >↩︎</a
+              >
+            </p>
+          </li>
+        </ol>
+      </section>
+    </content>
+  </entry>
+
+  <entry>
+    <title>The Grid</title>
+    <link href="https://example.com/posts/the-grid/" />
+    <updated>2021-02-09T21:45:00Z</updated>
+    <id>https://example.com/posts/the-grid/</id>
+    <content type="html"
+      ><p>
+        When I need to get down to business and get some serious programming
+        done, I put on the
+        <a
+          href="https://music.apple.com/us/album/tron-legacy-complete-edition-original-motion-picture/1543824814"
+          class="external-link"
+          >TRON: Legacy soundtrack</a
+        >.
+      </p>
+      <p>That is all. Thank you for coming to my TED talk.</p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>The Year of Momentum and the Season of Survival</title>
+    <link
+      href="https://example.com/posts/the-year-of-momentum-and-the-season-of-survival/"
+    />
+    <updated>2021-01-04T12:40:00Z</updated>
+    <id
+      >https://example.com/posts/the-year-of-momentum-and-the-season-of-survival/</id
+    >
+    <content type="html"
+      ><p>
+        Like I said in
+        <a
+          href="https://example.com/posts/wrapping-up-the-year-of-groundwork"
+          class="internal-link"
+          >Wrapping Up the Year of Groundwork</a
+        >, after 2020, I don't feel like I have much gas left in the tank.
+        That's why I've decided to make 2021 the Year of Momentum. I want to
+        keep going on the good things I started in 2020. I'm still figuring out
+        what that means exactly, but here’s where I’m currently at:
+      </p>
+      <ul>
+        <li>
+          My wife and I are trying to finish our house in the next few weeks. We
+          have been living with my in-laws for over a year now. Much longer than
+          planned.
+        </li>
+        <li>
+          A few weeks after we’re planning on moving into our house, we are
+          expecting a new baby.
+        </li>
+      </ul>
+      <p>
+        In short, it’s going to take a lot for me to barely make it through this
+        winter, hence the Season of Survival. The next few months are going to
+        be about managing stress and anxiety. So unless I think it will be
+        helpful, I’m not going to start anything new.
+        <a
+          href="https://apps.apple.com/us/app/focuses/id1492385864#?platform=iphone"
+          class="external-link"
+          >Focuses</a
+        >
+        will probably be on the back burner until Spring (though there are a
+        couple bug fixes I should probably get out soon 🤔.) I might even need
+        to pull back on the amount of time I’ve been freelancing. There's a lot
+        that needs to be done, and I need to figure out how to get it all done
+        without collapsing on myself like a dying star.
+      </p>
+      <p>So 2021, keep going and try not to crash.</p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Wrapping Up the Year of Groundwork</title>
+    <link
+      href="https://example.com/posts/wrapping-up-the-year-of-groundwork/"
+    />
+    <updated>2021-01-04T12:40:00Z</updated>
+    <id>https://example.com/posts/wrapping-up-the-year-of-groundwork/</id>
+    <content type="html"
+      ><p>
+        2020 has been a hard year for everyone. But I have been very fortunate.
+        I was already working from home, my company does well in good and bad
+        economic times, my D&amp;D group was online already, and my daughter is
+        not in school yet. So I know I have had it a whole lot easier than most
+        people. In all honesty, I feel like 2020 has been one of my better
+        years. If it wasn’t for the stress of building a house during a pandemic
+        and living with my in-laws, I would feel pretty great right now. Not
+        having to go to places like church or work events has reduced my
+        base-level of anxiety quite a bit.
+      </p>
+      <p>
+        My theme for 20202 was the year of groundwork. I wanted to do things
+        that would help me open doors in the future. A couple things I had in
+        mind were release an iOS app and start freelancing a bit.
+      </p>
+      <p>
+        I think I did well in both of those areas. Though, at times I did feel
+        like I was overextending myself at times.
+      </p>
+      <h3>Freelancing</h3>
+      <p>
+        My plan had been to release Focuses and then start doing some freelance
+        work. Focuses took more of my energy than I was expecting. But in the
+        late Summer, I set up an LLC as a first step. Right after I did that, a
+        former coworker called me up and asked if I was interested in taking
+        over some side-work of his. I was very lucky.
+      </p>
+      <ul>
+        <li>Started some ongoing freelance work in September.</li>
+        <li>
+          Have made enough money to do things like max out my HSA to help pay
+          for a new baby next year.
+        </li>
+      </ul>
+      <h3>Focuses</h3>
+      <p>
+        <a
+          href="https://apps.apple.com/us/app/focuses/id1492385864#?platform=iphone"
+          class="external-link"
+          >Focuses</a
+        >
+        is probably my biggest personal success of 2020. It made me stretch and
+        I learned a lot doing it. I'm proud of it. I feel like it was worth the
+        effort I put into it, which was a lot—nearly 200 hours in 2020.
+      </p>
+      <ul>
+        <li>Released in March 2020.</li>
+        <li>
+          Released 11 additional updates throughout the year. Only a couple were
+          to fix pretty egregious oversights of a previous release 😃.
+        </li>
+        <li>
+          It made some money. Not much at all, but enough to pay for my
+          developer account and domain name.
+        </li>
+        <li>It was written about on a couple websites.</li>
+      </ul>
+      <p>
+        In addition to freelancing and Focuses, I also did a decent job of
+        waking up early to work on side-projects, I read a lot of books (for
+        me), and I exercised a few times a week. So in 2021, I’d like to keep
+        going on the good habits I developed during 2020. But honestly, I don’t
+        feel like I have much gas left in the tank. I need to be careful in 2021
+        to not completely burn myself out.
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Digital Minimalism, by Cal Newport</title>
+    <link href="https://example.com/posts/digital-minimalism-by-cal-newport/" />
+    <updated>2020-12-14T00:00:00Z</updated>
+    <id>https://example.com/posts/digital-minimalism-by-cal-newport/</id>
+    <content type="html"
+      ><p>
+        Using my phone less has been on my mind for quite a while now. For no
+        good reason, I’m 100% addicted to Twitter. I always have my phone on me,
+        just in case there’s a text I need to reply to immediately, or some fact
+        needs to be Googled, or to waste time when I'm bored. I enjoyed
+        <em>Deep Work</em> by Cal Newport, so I thought I would give
+        <em>Digital Minimalism</em> a shot.
+      </p>
+      <p>
+        My summary is this: make it easier for yourself to make deliberate
+        choices about how and when to use your phone and other technology. So
+        much of my current phone use is just a reflex, and I want to change
+        that.
+      </p>
+      <p>
+        I don’t think there is anything revolutionary in this book. But it was
+        full of good, timeless advice and ideas, sort of like talking to your
+        friend who listens to a lot of podcasts. It made me think and reflect.
+        Who knew books could do that.
+      </p>
+      <h3>My Digital Minimalism Strategy</h3>
+      <p>
+        I didn’t feel like going through the 30 day purge like Newport suggests.
+        But I took some time to evaluate what I could do anyway. Here’s what I
+        came up with:
+      </p>
+      <ul>
+        <li>
+          I deleted Twitter, Reddit, and Hulu from my phone. These are my
+          biggest time-wasters. I also blocked Twitter through Screen Time on
+          iOS. I still have these on my iPad so that I can use them when I make
+          a deliberate decision to.
+        </li>
+        <li>
+          I only watch whatever I’m binging at the moment while I’m riding the
+          exercise bike.
+        </li>
+        <li>
+          I removed high volume RSS feeds like The Verge. Now I don’t feel the
+          need to open my RSS reader often to check the latest news.
+        </li>
+        <li>
+          I cut down the number of podcasts I’m subscribed to—admittedly, I have
+          more work to do here since I’m still subscribed to 25…
+        </li>
+        <li>
+          When I move into my new house, I would like to have a local newspaper
+          delivered.
+        </li>
+        <li>
+          Switch to the iPhone 12 Mini. I was planning on upgrading to the Max,
+          but I thought that maybe having a smaller screen would make me less
+          likely to use my phone for things like watching videos and reading.
+          I’m not certain this is <em>actually</em> the case, but I do love the
+          size of the Mini.
+        </li>
+      </ul>
+      <p>
+        I’m also experimenting with a pocket notebook. So far I’ve been using it
+        to plan my weeks and sometimes days. I also use it to record ideas and
+        other thoughts. I’m still figuring out how exactly I want to use this,
+        but it has already reduced my dependence on my phone.
+      </p>
+      <p>
+        There are two main things that cause me to pickup my phone
+        often—podcasts and time tracking. I suppose I could use the Toggl
+        website instead of using
+        <a href="https://timeryapp.com/" class="external-link">Timery</a>, but
+        the Timery widget just makes it so easy. I've also experimented with
+        listening to podcasts on my Apple Watch. I actually like using my watch
+        quite a bit—I don’t need to pick up my phone when I go somewhere else in
+        the house. But it is not always reliable. The podcast I want to listen
+        to is not always on my watch when I want to listen, so I often still use
+        my phone. I use
+        <a href="https://overcast.fm/" class="external-link">Overcast</a
+        >—because of it’s superior Smart Speed® and Voice Boost®—but maybe I
+        should look into other options.
+      </p>
+      <p>
+        Anyway, I feel like all this is making a difference. I don’t feel the
+        need to always have my phone on me. I feel more engaged when I’m just
+        hanging out with the family. Overall, I’m on board with the idea of
+        using your phone less. I’ll take another look in a couple months and see
+        what I need to adjust and tweak, maybe to do the whole 30 day purge that
+        he suggests. Perhaps, Phase 2 will be when I switch to a rotary landline
+        for all communication—buttons would make it too easy to call people.
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Farewell, Mornings</title>
+    <link href="https://example.com/posts/farewell-mornings/" />
+    <updated>2020-12-08T00:00:00Z</updated>
+    <id>https://example.com/posts/farewell-mornings/</id>
+    <content type="html"
+      ><p>
+        I like routines and planning. Routines is one of my ways of managing
+        anxiety and stress. I like to feel like I know what’s going on and
+        what’s coming up. But I have a 4 year-old. So I have to be somewhat
+        flexible, and I’m always tinkering with my routines.
+      </p>
+      <p>
+        Over the last year and a half or so, I’ve been able to take advantage of
+        my mornings more. Minus getting-ready-in-the-morning-time, I typically
+        have between an hour and an hour and a half to myself while no one else
+        is awake. I have loved this time. It’s when I’ve worked on my app
+        <a
+          href="https://apps.apple.com/us/app/focuses/id1492385864#?platform=iphone"
+          class="external-link"
+          >Focuses</a
+        >
+        and other side projects. Sometimes I take that time to read in the
+        mornings or play a game. It’s when I’m writing this. It’s just some
+        great quiet time that I get all to myself.
+      </p>
+      <p>
+        I’m not naturally a morning person. I’m more productive in the evenings.
+        But mornings still work better for me. I work full-time and I also do
+        some part-time contract work. After a full day of work, I’m dead and
+        don’t feel like doing anything besides relaxing with my family. It never
+        seems to work out well the occasional times that I trick myself into
+        playing with a side project in the evening. I’m pretty obsessive, so
+        often, programming gets my mind whirring and I can’t sleep, so I stay up
+        far too late working on something. With a child in the house who
+        consistently wakes up early, and my needing 8 hours of sleep to feel
+        barely functional, staying up late is not a great option.
+      </p>
+      <p>So that’s why I’ve landed on mornings. And it was great.</p>
+      <p>Wait, was?</p>
+      <p>
+        Yup. Was. Well, maybe I'm being a <em>little</em> premature. My wife and
+        I are expecting another baby in a couple months. We are, of course,
+        incredibly excited, and it brings a smile to my face just to write it.
+        But a new baby is going to change everything. If this baby is anything
+        like our first, I won’t consistently have my mornings again for about 2
+        years. But that’s fine. Sure, I’m going to miss the regularity of have
+        the mornings to myself, but sharing early mornings with a baby is much
+        better.
+      </p>
+      <p>
+        I won’t get as much side-project type stuff done. That’s a given. And
+        I’ll have to give up my oh-so-comforting routines in favor of the
+        beckoning cry of a newborn. It will be a fun puzzle each day fitting in
+        the baby’s needs and my wants.
+      </p>
+      <p>
+        So thanks, mornings. You’ve been great. And we still have a couple
+        months, so let’s get some updates to Focuses out or something while we
+        can.
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Steve Jobs, by Walter Issacson</title>
+    <link href="https://example.com/posts/steve-jobs-by-walter-issacson/" />
+    <updated>2020-07-04T00:00:00Z</updated>
+    <id>https://example.com/posts/steve-jobs-by-walter-issacson/</id>
+    <content type="html"
+      ><p>Overall, I liked this book. I give it a thumbs up 👍🏻.</p>
+      <p>
+        I can't remember when I really became aware of Steve Jobs. I was aware
+        of Apple growing up, and was envious of friends who had iPod Minis in
+        iPod Socks. But Steve Jobs was never really on my radar. I didn't grow
+        up idolizing him. Years later, I have learned more about him and grown
+        to respect him and the company he built. Reading
+        <em>Steve Jobs</em> gave me a much better understanding of who he was.
+      </p>
+      <p>
+        I'm a software developer. I write code. Some days, I like to pretend
+        that I'm a designer too. I value well thought out details in the
+        products I use and strive to put the same care into detail into what I
+        build. I wish I had the time a resources available to get things just
+        right every time, but that's just not realistic. The whole point of
+        design is working within constraints. And eventually you have to ship.
+      </p>
+      <p>
+        One story that really resonated with me was how distraught Jobs was when
+        he discovered the CD drive in the new iMac was a tray and not a slot. So
+        close to release, there was nothing to be done expect to delay the
+        release. Those around him convinced him that it wasn't worth delaying
+        the release over. My wife and I are building a house right now. It seems
+        like every day the builders do something that in my mind is incorrect,
+        but it is too late or too expensive to change. It drives me crazy, and I
+        know years from now I'll look back and think &quot;I could've gotten
+        this right.&quot; But ultimately, I would rather have a finished house
+        than a perpetually incomplete house that will never meet my standards.
+      </p>
+      <p>
+        I doubt anyone else could've done what Steve Jobs did. But, of course,
+        he didn't do it alone. He surrounded himself with people who could
+        execute his vision. No one gets everything right the first time every
+        time, not even Jobs. Hopefully we get a chance to try again and improve.
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Focuses Roadmap</title>
+    <link href="https://example.com/posts/focuses-roadmap/" />
+    <updated>2020-03-26T00:00:00Z</updated>
+    <id>https://example.com/posts/focuses-roadmap/</id>
+    <content type="html"
+      ><p>
+        I had to cut myself off on adding new features to Focuses pretty early
+        on. If I let myself keep going, I probably never would've released.
+      </p>
+      <p>Here's a few things on my roadmap that I would like to work on.</p>
+      <ul>
+        <li>
+          Better iPad support. This might be my biggest priority. Current iPad
+          support is basic at best. I wanted to launch with multiple device
+          support using CloudKit. I had never used CloudKit before, so I'm glad
+          I went ahead, because I quickly found I did things wrong. A lot of
+          people's data would not have synced if I added it later. Anyway, my
+          focus was on getting Focuses onto iPad, not making a good iPad app.
+          There's a lot about making good iPad apps that I just don't know, so
+          I'm excited to learn.
+        </li>
+        <li>
+          Data import/export. I think it would be nice to be able to export all
+          the data as a CSV or something. Importing will be a little tricky
+          because I will have to think about how to handle existing data. I
+          could always start with just export.
+        </li>
+        <li>
+          Shortcuts support. There's a few shortcuts that I think might be
+          useful.
+        </li>
+        <li>
+          Watch app. I've never built a watch app before, so that would be kind
+          of fun.
+        </li>
+        <li>
+          Graphs and trends. Some beta testers said that having graphs might be
+          nice. While I think the calendar view does a pretty good job, I'm
+          going to explore this. Perhaps a way to view week by week or month by
+          month instead of day by day. Or a way to see at a glance if you're
+          doing better or worse on a particular focus.
+        </li>
+        <li>
+          Widget. I've also never made a widget, so again, lots to figure out.
+        </li>
+        <li>
+          Smarter and richer notifications. Right now, notifications are pretty
+          basic, once a day at the same time, regardless of if you've entered
+          scores or not. There's a lot of opportunity here to do more.
+        </li>
+      </ul>
+      <p>
+        There's more on my list, but these are probably the biggest. If you have
+        any ideas, or your favorite feature is missing, let me know on
+        <a href="https://twitter.com/samwarnick" class="external-link"
+          >Twitter</a
+        >, or use the
+        <a href="https://samwarnick.com/contact" class="external-link"
+          >contact form</a
+        >.
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Using SwiftUI for Focuses</title>
+    <link href="https://example.com/posts/using-swiftui-for-focuses/" />
+    <updated>2020-03-25T00:00:00Z</updated>
+    <id>https://example.com/posts/using-swiftui-for-focuses/</id>
+    <content type="html"
+      ><p>
+        I think I mentioned it briefly, but Focuses is built mostly with
+        SwiftUI. Overall, I'm very impressed with SwiftUI. I don't think I
+        would've been able to build the first version of Focuses as quickly as I
+        did had I not used SwiftUI.
+      </p>
+      <p>
+        Focuses is my first &quot;real&quot; iOS app. My first app,
+        <a
+          href="https://samwarnick.com/projects/send-to-nowhere"
+          class="external-link"
+          >Send To Nowhere</a
+        >, is a simple app using UIKit, Swift, and no storyboard. I'm still a
+        novice when it comes to the iOS ecosystem. I'm a full-time web developer
+        by day, so using SwiftUI felt familiar in ways. However, the declarative
+        nature of it still feels quite foreign from time to time.
+      </p>
+      <h3>SwiftUI: The Good</h3>
+      <p>
+        I was worried that SwiftUI wasn't going to be mature enough to complete
+        my app. I was surprised at how capable it currently is—despite it's many
+        shortcomings—and I'm very excited to see it develop. It's not perfect,
+        but I was able to use it for about 95% of my views. Even in the short
+        time I have been building Focuses, I've seen great bug fixes and
+        improvements come to SwiftUI. I'm very optimistic for it's future.
+      </p>
+      <p>
+        SwiftUI made some things in Focuses a breeze to implement. Take the
+        animation when filling up the circle. That whole view, including the
+        animation, took me about 10 minutes to make. Again, I'm not a UIKit
+        expert, but I have no idea where to start if I had to make that same
+        view without using SwiftUI.
+      </p>
+      <p>
+        <img
+          src="https://res.cloudinary.com/verygoodfm/video/upload/c_fill,g_north,h_500,w_500,e_loop/v1584789978/samwarnick.com/score_indicator.gif"
+          alt="Animation of score indicator filling up"
+        />
+      </p>
+      <p>
+        Creating complex layouts like the calendar was relatively straight
+        forward as well. I think my first implementation had too many nested
+        views, which were being rendered too often, so it took a long time to
+        load. But it was easy to go from idea to implementation quickly. I was
+        able to iterate and make a much more performant version fairly quickly.
+      </p>
+      <p>
+        <img
+          src="https://res.cloudinary.com/verygoodfm/image/upload/v1584789837/samwarnick.com/calendar.png"
+          alt="Sreenshot of Focuses calendar with boxes around elements"
+        />
+      </p>
+      <p>
+        I also like how easy it is to use CoreData with SwiftUI. There were
+        times that things weren't updating when I thought they should've, but I
+        found ways around it. This was my first time using CoreData, so for all
+        I know, I could be doing everything wrong and that's the source of my
+        problems. Hopefully not though.
+      </p>
+      <p>
+        The main issue with CoreData and SwiftUI, in my opinion, is previews. I
+        could not find a way to adequately seed that database for previews. So
+        for much of the project, I did not use previews. Maybe I need to take
+        another look at this.
+      </p>
+      <h3>SwiftUI: The Bad</h3>
+      <p>
+        SwiftUI is great at hiding complexity and implementation details, like
+        when using <code>@FetchRequest</code>. However, once you want to do
+        something that is more complex, like pass in params to your fetch
+        request, things can get messy.
+      </p>
+      <p>Here's a couple things I needed to use UIKit for:</p>
+      <ol>
+        <li>
+          Text fields that I wanted to become the first responder (i.e., receive
+          focus when the view appears and show the keyboard).
+        </li>
+        <li>
+          <code>UITextView</code>. There doesn't appear to be a SwiftUI
+          equivalent of this. I needed a multi-line text input for notes. I also
+          wanted an input accessory view, and I believe this can still only be
+          done using UIKit.
+        </li>
+        <li>
+          I wanted to set the scroll position of the calendar view so you would
+          start at the bottom. The only way I could find to do this is by using
+          a <code>UITableView</code>. I was still able to use my SwiftUI view
+          for the cells.
+        </li>
+      </ol>
+      <p>
+        There's also some things that just don't make a lot of sense. Action
+        sheets do not work on iPad. You have to use a
+        <a
+          href="https://stackoverflow.com/questions/56910941/present-actionsheet-in-swiftui-on-ipad"
+          class="external-link"
+          >work around</a
+        >. iPad support in general seems kinda weak. I’ve found it tough to make
+        layouts for iPad, part of the reason the first version of Focuses
+        doesn’t have great iPad support. I need to spend more time figuring it
+        out.
+      </p>
+      <p>
+        I also had a lot of trouble embedding forms <em>inside</em> other views,
+        like on the privacy and about views. My solution is hacky and doesn't
+        respond well to changing the system font size, but it works for now.
+        Essentially, I have to give the form a set height based on my best guess
+        using the font size. Additionally, I have to use
+        <code>.fixedSize(horizontal: false, vertical: true)</code> on all the
+        text so it would wrap properly.
+      </p>
+      <p>
+        I also wish there was a way to customize the navigation bar. As far as I
+        can tell, you're stuck with it's color and font.
+      </p>
+      <p>
+        I'm hoping all these things will be addressed in iOS 14, or possibly
+        even point updates of iOS 13.
+      </p>
+      <h3>Conclusion</h3>
+      <p>
+        The best resource I've found for SwiftUI is
+        <a
+          href="https://www.hackingwithswift.com/quick-start/swiftui"
+          class="external-link"
+          >Hacking with Swift</a
+        >. The examples are fantastic.
+      </p>
+      <p>
+        If I were starting a new app today, I think I would still start with
+        SwiftUI. I feel like I'm faster when I use it, and it's pretty simple to
+        use a UIKit view if you need to. I think I've only scratched the surface
+        of what SwiftUI is capable of. I need to delve deeper into animations
+        and transitions.
+      </p>
+      <p>
+        I'm excited for the future of SwiftUI. I feel like it allows me to
+        create things I would've dreaded to try a year ago.
+      </p>
+      <p>
+        If you're curious about how I did anything in Focuses, let me know on
+        <a href="https://twitter.com/samwarnick" class="external-link"
+          >Twitter</a
+        >, or use the
+        <a href="https://samwarnick.com/contact" class="external-link"
+          >contact form</a
+        >. I can dig into the nitty-gritty specifics.
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Focuses by the Numbers</title>
+    <link href="https://example.com/posts/focuses-by-the-numbers/" />
+    <updated>2020-03-24T00:00:00Z</updated>
+    <id>https://example.com/posts/focuses-by-the-numbers/</id>
+    <content type="html"
+      ><p>
+        Here are a few numbers related to making Focuses that may or may not be
+        interesting.
+      </p>
+      <h3>130 hours</h3>
+      <p>
+        This is the first project I have time tracked. The first commit for
+        Focuses was on December 13, 2019. About 13 weeks later I submitted it
+        for review. So that's about 10 hours a week. Some weeks were much less
+        and some were much more. This also doesn't include times when I was
+        thinking about the app when I couldn't sleep or showering and stuff like
+        that. A lot of the work on Focuses was done early in the morning before
+        I started work for my full-time job. 130 hours seems like a lot to me,
+        but it's about 3 weeks of full time work.
+      </p>
+      <h3>147 tasks complete</h3>
+      <p>
+        I'm using Things to keep track of everything I'm working on for this
+        app. This probably isn't <em>that</em> useful of a number since my tasks
+        ranged from &quot;iPad&quot; to &quot;Fix accent color on focus edit
+        sheet&quot;. But 147 sounds kind of impressive.
+      </p>
+      <h3>183 commits</h3>
+      <p>
+        A commit is every time I make a change to the code and save it to
+        version control. Only about a dozen of these were of the &quot;Uncomment
+        code I commented out&quot; variety. My build number is based on the
+        number of commits on the master branch. Again, this number doesn't mean
+        a whole lot because some commits were changing a single color and some
+        were adding multiple views and data models at the same time.
+      </p>
+      <h3>19 minutes spent in &quot;In Review&quot;</h3>
+      <p>
+        This surprised me. I submitted it for review about 7 am on March 9.
+        About 6 hours later it moved from &quot;Waiting for Review&quot; to
+        &quot;In Review&quot;. Then about 19 minutes later it moved into
+        &quot;Pending Developer Release&quot;.
+      </p>
+      <p>
+        Let me know if there are any other numbers you're curious about on
+        <a href="https://twitter.com/samwarnick" class="external-link"
+          >Twitter</a
+        >, or use the
+        <a href="https://samwarnick.com/contact" class="external-link"
+          >contact form</a
+        >.
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Introducing Focuses</title>
+    <link href="https://example.com/posts/introducing-focuses/" />
+    <updated>2020-03-23T00:00:00Z</updated>
+    <id>https://example.com/posts/introducing-focuses/</id>
+    <content type="html"
+      ><p>
+        <img
+          src="https://res.cloudinary.com/verygoodfm/image/upload/v1584789837/samwarnick.com/main.png"
+          alt="Screenshot of the Focuses app"
+        />
+      </p>
+      <p>
+        Focuses is my take on goal and habit tracking. It is inspired by Myke
+        Hurley's daily themes and Marshall Goldsmith's daily active questions.
+        The idea is to have a simple and flexible system for scoring yourself on
+        how you do towards your goals each day. There are 3 options, an empty
+        circle, and half-filled circle, and a filled circle. What these mean is
+        up to you.
+      </p>
+      <p>
+        When SwiftUI was announced at WWDC 2019, I began thinking of projects I
+        could try it out on. An idea for a daily questions app kept coming back
+        to me. It would be an app that asked you the questions you wanted each
+        day. Stuff like &quot;How did you do towards eating healthy today?&quot;
+        You would respond with some like &quot;Bad&quot; or &quot;Good&quot;. I
+        started a version of this app, but abandoned it. I didn't like that
+        approach. It felt too constrained.
+      </p>
+      <p>
+        While listening to
+        <a href="https://relay.fm/cortex" class="external-link">Cortex</a>, I
+        heard Myke talking about his system of rating himself on a scale of 0,
+        1, or 2. Those scores would add up to a daily score. I really liked that
+        approach. It felt flexible and easy to track. I tried it on paper, but
+        it didn't stick. So with the New Year fast approaching, I thought why
+        not try to make a simple app to do it for me? I'm a novice iOS developer
+        at best, so what I thought would be simple was not so simple for me. But
+        after about 3 months of slow and steady work, I'm excited to release the
+        first version of Focuses!
+      </p>
+      <p>
+        I made the app for myself. I use it everyday. Tracking my effort towards
+        my goals has had a tangible effect on my life. It's helped me and I hope
+        it can help others.
+      </p>
+      <p>
+        You can find Focuses on the
+        <a
+          href="https://apps.apple.com/us/app/focuses/id1492385864?ls=1"
+          class="external-link"
+          >App Store</a
+        >.
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Podcasting With A Toddler</title>
+    <link href="https://example.com/posts/podcasting-with-a-toddler/" />
+    <updated>2019-09-11T00:00:00Z</updated>
+    <id>https://example.com/posts/podcasting-with-a-toddler/</id>
+    <content type="html"
+      ><p>
+        For about the last year and a half, my daughter and I have made a
+        podcast. My daughter is currently a toddler. It's not always easy to
+        produce a podcast with a toddler, but I have found the end product to be
+        priceless.
+      </p>
+      <p>
+        <strong>Disclaimer:</strong> Because every child is different, this is
+        going to be less of a how to and more of a &quot;my experience with
+        podcasting with a toddler.&quot;
+      </p>
+      <h3>Motivation</h3>
+      <p>
+        Toddler's are not always the easiest to work with. So why would I bring
+        it upon myself to try to make a podcast with one?
+      </p>
+      <p>
+        Like many of my cohorts in the millennial generation, I’m really into
+        podcasts. Like many podcasts listeners, I’ve thought “I should make a
+        podcast.” <em>Should</em> might be a stretch. But I definitely
+        <em>could</em> record audio and post it on the internet.
+      </p>
+      <p>
+        A couple buddies and I tried starting a podcast called
+        <a href="https://averageofaverages.com/" class="external-link"
+          >Average of Averages</a
+        >. Being the tech nerd I am, I loved doing all the technical stuff of a
+        podcast—recording, making a website, generating a feed, etc.—but I had
+        trouble figuring out what could make out show different and engaging.
+        Three white guys talking about nothing? How original. We never did
+        figure out our niche. Finding time for three people to record also
+        wasn’t easy. It fizzled out after two episodes.
+      </p>
+      <p>I still wanted to make a podcast though.</p>
+      <p>
+        Around this time, my daughter started putting multiple words together in
+        cute little 18-month old sentences. I’m terrible at writing a journal.
+        I’m also terrified that I’ll forget all the adorable things my daughter
+        says. Then it hit me! Here’s a tiny human being, in my own house, whose
+        schedule I have small amount of control over (more on this later),
+        <em>and</em> I want some way to record her so I can remember how cute
+        and little she was. There’s the podcast.
+        <a href="https://lilyandsam.show/" class="external-link"
+          >The Lily &amp; Sam Show</a
+        >
+        was born.
+      </p>
+      <h3>Making the Podcast</h3>
+      <p>
+        After about a year and a half and a couple dozen episodes, I feel like
+        we're finally at a place where recording and editing is a smooth
+        process. It's taken a lot of trial and error to get to this point
+        though.
+      </p>
+      <h4>Starting with One Microphone</h4>
+      <p>
+        We started recording with a single microphone, the
+        <a
+          href="https://www.amazon.com/dp/B004QJOZS4/ref=cm_sw_em_r_mt_dp_U_LvyEDb06RZWGX"
+          class="external-link"
+          >Audio-Technica ATR2100-USB</a
+        >. I chose this microphone because it was recommended both by
+        <a
+          href="https://sixcolors.com/post/2016/11/a-podcast-studio-for-under-100/"
+          class="external-link"
+          >Jason Snell</a
+        >
+        and
+        <a href="https://marco.org/podcasting-microphones" class="external-link"
+          >Marco Arment</a
+        >
+        (#4 on Marco's mega review). It’s a great USB mic. My daughter would sit
+        in my lap and I’d move the mic up and down depending on who was talking.
+        I quickly realized this was not going to be a great long term solution.
+        She kept wanting to turn around and look at me and moving the mic
+        between us often missed what she or I would say. Not great.
+      </p>
+      <h4>Upgrading to Two Microphones</h4>
+      <p>
+        I later purchased a second mic, the
+        <a
+          href="https://www.amazon.com/dp/B003GEBGA0/ref=cm_sw_em_r_mt_dp_U_vAyEDb4D095HJ"
+          class="external-link"
+          >Pyle PDMIC58</a
+        >, a cheap XLR mic also recommended by Marco Arment (#5 on Marco's mega
+        review). Since this was XLR only, I needed an USB audio interface.
+      </p>
+      <p>
+        I was able to borrow a
+        <a
+          href="https://www.amazon.com/dp/B003GEBGA0/ref=cm_sw_em_r_mt_dp_U_vAyEDb4D095HJ"
+          class="external-link"
+          >Zoom H6</a
+        >
+        from a coworker. I was considering buying one because it would double as
+        a recorder and an interface. I thought we might have an easier time
+        recording if I could follow her around and record her in a less
+        controlled environment. My microphones weren’t suited for that at all.
+        So we tried the Zoom H6 as an audio interface. Turns out she loved
+        having her own chair and microphone.
+      </p>
+      <p>
+        So I knew that was the direction we needed to head. My wife bought
+        surprised me with a
+        <a
+          href="https://www.amazon.com/dp/B00QHURLHM/ref=cm_sw_em_r_mt_dp_U_pCyEDbK0FVNH2"
+          class="external-link"
+          >Behringer UMC404HD</a
+        >
+        audio interface after I had to return the Zoom H6 to my friend. The
+        Behringer was the most affordable decent audio interface that had more
+        than 2 XLR inputs I could find. (I wanted to be able to have at least 3
+        inputs because my wife occasionally joins us on the podcast.)
+      </p>
+      <p>
+        I don’t know if you know this about toddlers or not, but they don’t stop
+        moving. The problem with my daughter sitting in her own chair and having
+        her own microphone, is she kept moving and touching the mic! So. Much.
+        Noise. My daughter also liked switching seats with me for a while. That
+        made editing a pain.
+      </p>
+      <p>
+        I also got a couple heavy mic stands to set on my desk (<a
+          href="https://www.amazon.com/dp/B00BPELU68/ref=cm_sw_em_r_mt_dp_U_IbzEDbF9KXAZW"
+          class="external-link"
+          >these ones</a
+        >). This lets us sit on opposite ends of the desk and face each other.
+        In addition to being able to put the mics in the right place for both of
+        us, this reduces the amount of noise bleed there is.
+      </p>
+      <h4>Editing</h4>
+      <p>
+        I edit in GarageBand. I don't love it, but it's free! I've gotten faster
+        at editing over the months, but it's still a chore.
+      </p>
+      <p>
+        If you've listened to any of our episodes you know they are short, like
+        2–3 minutes. In order to get 2–3 of content, we now typically record for
+        about 10+ minutes. At the beginning it sometimes took 20+ minutes to get
+        2 minutes of material. Most editing is cutting out the parts where it's
+        quiet, she's running off to play with her LEGOs, or she is being too
+        grumpy. Occasionally I move stuff around to make the conversation more
+        coherent. It used to take me about an hour to cut 17 minutes of
+        recordings down to 2 minutes. Now I can edit an episode in about 20
+        minutes. With 2 mics you get 2 tracks, which makes it easier to see
+        who's talking where and what can be cut out. I always listen through
+        once or twice with my eyes closed to make sure it all sounds decently
+        coherent.
+      </p>
+      <p>
+        I tried so hard at the beginning to remove all of my daughter's mic
+        bumps and the noise of her moving in her chair. Eventually I kinda gave
+        up on that mission. I began to see it as the charm of recording with a
+        podcast; hearing how lively she is while we record. I personally think
+        it gives the podcast a bit of character.
+      </p>
+      <p>
+        One of the hardest parts of editing has been adjusting levels. Because
+        my daughter moves around so much, sometimes she's too quiet and
+        sometimes she's too loud. So I have to go through and a bunch of volume
+        automation points all over to help it sound a bit better.
+      </p>
+      <p>
+        <img
+          src="https://example.com/posts/podcasting-with-a-toddler/garageband_levels.png"
+          alt="Screenshot of audio levels in GarageBand"
+        />
+      </p>
+      <p>
+        As she has gotten older and her language skills have improved, the
+        editing process as gotten easier and easier. So the future is bright.
+      </p>
+      <h3>The Website</h3>
+      <p>
+        I will write more about the technical aspects of the website in another
+        post, but
+        <a href="https://lilyandsam.show/" class="external-link"
+          >lilyandsam.show</a
+        >
+        pulls in data from my custom CMS at
+        <a href="https://verygood.fm/" class="external-link">verygood.fm</a> and
+        generates the RSS feed. It's built with NuxtJS and is hosted on Netlify.
+        Netlify made it simple to add a form for people to ask questions for the
+        show. Those questions are emailed to me.
+      </p>
+      <h3>The Future</h3>
+      <p>
+        We're now recording the podcast about every other week, sometimes once a
+        month. I love having these recordings. I love when my daughter runs up
+        to me and asks if we can record the podcast. I love seeing her grin when
+        she listens back to it.
+      </p>
+      <p>
+        Sometimes it's real tough to make. My daughter gets grumpy and hungry
+        and doesn't want to record. Or she'll say she wants to record just get
+        into my office and play. But on average, I'd say it's worth it.
+      </p>
+      <p>I'll keep making it as long as she wants to.</p>
+      <h3>A Message From My Daughter</h3>
+      <p>
+        My daughter wanted to help me type this. So the following is typed by
+        her:
+      </p>
+      <blockquote>
+        <p>/.l  l., ÷¬;l¬…÷ln,no.,,;/,jllj</p>
+      </blockquote>
+      <blockquote>
+        <p>,g.,/on/j</p>
+      </blockquote>
+      <p>Thanks for reading!</p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Am I Becoming A Better Developer?</title>
+    <link href="https://example.com/posts/am-i-becoming-a-better-developer/" />
+    <updated>2019-01-17T00:00:00Z</updated>
+    <id>https://example.com/posts/am-i-becoming-a-better-developer/</id>
+    <content type="html"
+      ><p>
+        I've been working full-time as a software developer for almost 2 years
+        now. I’ve learned a lot. I’ve messed a bunch of stuff up too. The
+        question I’ve been struggling with is
+        <strong
+          >how do I know I’m <em>actually</em> becoming a better
+          developer?</strong
+        >
+        Over the last couple of years, I feel like I'm becoming a better
+        developer. But is feeling better enough?
+      </p>
+      <h3>What makes a good developer, IMO?</h3>
+      <p>
+        I haven't worked with or known a <em>ton</em> of developers, but I've
+        worked with some great ones. Besides the actual code a developer
+        produces, there is lots that makes a developer great. There is lots that
+        make a developer great, but here are a few things that I think make a
+        developer (and people in general) great:
+      </p>
+      <ol>
+        <li>
+          They are approachable. They always have time to help the junior dev
+          like me and give helpful feedback.
+        </li>
+        <li>
+          They know how to find answers. Because of this, they seem to have a
+          super-human ability to know everything.
+        </li>
+        <li>
+          They volunteer to work on the hard stuff. This leads to them learning
+          more because they stretch themselves.
+        </li>
+        <li>They admit when they don't know something.</li>
+        <li>They are not afraid to admit they were wrong.</li>
+      </ol>
+      <p>
+        Unfortunately, all these things are hard to measure. I think most people
+        can agree that the easy things to measure (number of lines written,
+        number of tickets closed, etc.) have little bearing on whether a
+        developer is great. So that's where I get stuck. I want to get better, I
+        know what I think a good developer looks like, but how do I know I am
+        better than I was a week, a month, a year ago?
+      </p>
+      <h3>Can getting better be measured?</h3>
+      <p>
+        I like numbers. They are easy to compare. But how do I compare something
+        like being approachable? I could maybe find a number to represent it,
+        like number of questions I get a day. I could ask people to give me a
+        rating on how approachable they think I am, but I'm guessing the people
+        who like me would rate me highly and the people who don't would rate me
+        poorly, and that it wouldn't change much over time.
+      </p>
+      <p>
+        Let's assume I do find a number or a couple numbers to represent
+        approachability. Over time, I think I would subconsciously, or maybe
+        even consciously, find a way to game that number. I'd want to chase that
+        good feeling that comes from seeing a number improve. My point is,
+        numbers probably won't work very well. Are all metrics bad? No. Are
+        most? Maybe. It's hard to find the useful metrics. But they do exist, I
+        think. But I also know from personal experience that it is incredibly
+        easy to focus too much on the number and not on the end result the
+        number is supposed to measure.
+      </p>
+      <h3>So, is feeling better enough?</h3>
+      <p>
+        I'm now thinking yes, just feeling like you're a better developer is
+        probably enough.
+      </p>
+      <p>
+        The hosts of one of my favorite podcasts,
+        <a href="https://relay.fm/cortex" class="external-link">Cortex</a>, talk
+        about yearly themes. Instead of making yearly goals or resolutions, they
+        have a theme. Whenever a decision or opportunity comes up, you can just
+        look at your theme determine if the decision is on or off theme. I think
+        a similar tactic can be taken with becoming a better developer. Instead
+        of creating specific goals or measuring (pointless) metrics, just keep
+        what you think makes a developer great in mind, and when situations
+        arise, just ask, &quot;How would a great developer act in this
+        situation?&quot;. Sounds cheesy, I know. But that's the best I can come
+        up with right now. It's not just wanting to be a better developer that
+        makes someone better. It is knowing what you want to be like and acting
+        more and more like that until you become that.
+      </p>
+      <p>
+        If you have any ideas or thoughts, let me know. I’d appreciate it. This
+        is all still forming in my mind. What do you think makes a developer
+        great? How do you know that you're getting better?
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>prefers-color-scheme Media Query</title>
+    <link href="https://example.com/posts/prefers-color-scheme-media-query/" />
+    <updated>2018-10-25T00:00:00Z</updated>
+    <id>https://example.com/posts/prefers-color-scheme-media-query/</id>
+    <content type="html"
+      ><p>
+        With
+        <a
+          href="https://developer.apple.com/safari/technology-preview/"
+          class="external-link"
+          >Safari Technology Preview 68</a
+        >, there is a new media query, <code>prefers-color-scheme</code>. I've
+        used it on this site like the following:
+      </p>
+      <pre
+        class="language-css"
+      ><code class="language-css"><span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span><span class="token property">prefers-color-scheme</span><span class="token punctuation">:</span> dark<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #000000<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      <p>
+        Digging around in the
+        <a
+          href="https://webkit.org/blog/8475/release-notes-for-safari-technology-preview-68/"
+          class="external-link"
+          >WebKit release notes</a
+        >, it looks like it supports <code>dark</code> and <code>light</code> at
+        the moment. I tested both, and the do appear to work.
+      </p>
+      <p>
+        Anyways, kind of cool! I'm sure my dark mode looks bad, so I'll work on
+        it. But I hope other browsers implement this media query soon as well.
+      </p>
+      <h3>Update 24 Jan 2019</h3>
+      <p>
+        Here is a Tailwind CSS plugin to add a dark and light variants. Just add
+        this to the <code>plugins</code> array in your Tailwind config file.
+      </p>
+      <pre
+        class="language-js"
+      ><code class="language-js"><span class="token comment">// You need to make sure you have postcss imported in your config file:</span>
+<span class="token comment">// const postcss = require("postcss");</span>
+
+<span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> addVariant <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token function">addVariant</span><span class="token punctuation">(</span><span class="token string">"dark"</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> container<span class="token punctuation">,</span> separator <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> mediaRule <span class="token operator">=</span> postcss<span class="token punctuation">.</span><span class="token function">atRule</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            name<span class="token operator">:</span> <span class="token string">"media"</span><span class="token punctuation">,</span>
+            params<span class="token operator">:</span> <span class="token string">"(prefers-color-scheme: dark)"</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        mediaRule<span class="token punctuation">.</span>nodes <span class="token operator">=</span> container<span class="token punctuation">.</span>nodes<span class="token punctuation">;</span>
+        container<span class="token punctuation">.</span>nodes <span class="token operator">=</span> <span class="token punctuation">[</span>mediaRule<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        mediaRule<span class="token punctuation">.</span><span class="token function">walkRules</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">rule</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+            rule<span class="token punctuation">.</span>selector <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">.dark</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>separator<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>rule<span class="token punctuation">.</span>selector<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">addVariant</span><span class="token punctuation">(</span><span class="token string">"light"</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> container<span class="token punctuation">,</span> separator <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> mediaRule <span class="token operator">=</span> postcss<span class="token punctuation">.</span><span class="token function">atRule</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            name<span class="token operator">:</span> <span class="token string">"media"</span><span class="token punctuation">,</span>
+            params<span class="token operator">:</span> <span class="token string">"(prefers-color-scheme: light)"</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        mediaRule<span class="token punctuation">.</span>nodes <span class="token operator">=</span> container<span class="token punctuation">.</span>nodes<span class="token punctuation">;</span>
+        container<span class="token punctuation">.</span>nodes <span class="token operator">=</span> <span class="token punctuation">[</span>mediaRule<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        mediaRule<span class="token punctuation">.</span><span class="token function">walkRules</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">rule</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+            rule<span class="token punctuation">.</span>selector <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">.light</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>separator<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>rule<span class="token punctuation">.</span>selector<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+      <p>
+        More information on adding Tailwind variants can be found
+        <a
+          href="https://tailwindcss.com/docs/plugins/#adding-variants"
+          class="external-link"
+          >here</a
+        >.
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>First Client Website</title>
+    <link href="https://example.com/posts/first-client-website/" />
+    <updated>2018-06-02T00:00:00Z</updated>
+    <id>https://example.com/posts/first-client-website/</id>
+    <content type="html"
+      ><p>
+        A little bit ago, I finished my first project for a client,
+        <a href="https://totalpowerandfoam.com/" class="external-link"
+          >totalpowerandfoam.com</a
+        >. It’s a simple single page landing page.
+      </p>
+      <p>Here's what it looks like:</p>
+      <p>
+        <img
+          src="https://example.com/posts/first-client-website/totalpowerandfoam_screenshot.png"
+          alt="totalpowerandfoam.com screenshot"
+        />
+      </p>
+      <p>
+        I really tried to give it a clean professional look without being too
+        boring. Early drafts of the site were way too boring. But by adding
+        shadows and a hero image, I think it came out looking real nice.
+      </p>
+      <p>
+        As always, hit me up on Twitter if you have any feedback. I'm definitely
+        learning as I go.
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Thoughts On Writing Good Code</title>
+    <link href="https://example.com/posts/thoughts-on-writing-good-code/" />
+    <updated>2018-05-24T00:00:00Z</updated>
+    <id>https://example.com/posts/thoughts-on-writing-good-code/</id>
+    <content type="html"
+      ><p>
+        At ng-conf, John Papa gave a talk on writing readable code. You can
+        watch the video
+        <a href="https://youtu.be/56mETnrByBM" class="external-link">here</a>. I
+        recommend it.
+      </p>
+      <p>
+        Writing clean, readable code seems like an obvious and simple thing to
+        do, but this talk made me realize that I have been ignoring it. For
+        whatever reasons (I'm guessing the thrill of increasing my throughput
+        🤓), I've been focusing more on closing tickets than writing good code.
+        Recently, I have really been trying to focus on writing quality,
+        readable code. I've come up with two general steps to help me when I'm
+        working on an issue:
+      </p>
+      <ol>
+        <li>Just fix the issue or get the feature working.</li>
+        <li>Go back and clean it up.</li>
+      </ol>
+      <p>
+        I've been stopping after step 1. This has produced some code that I
+        definitely don't want to go back to. Ever. Now, I've been trying to slow
+        down and worry less about getting lots of bugs fixed. Instead I'm trying
+        to figure out what it takes for me to not only complete a ticket, but
+        complete it in a way that I'm proud of the code I'm producing. Luckily I
+        work at a company that doesn't pressure me to get more and more tickets
+        done all the time, so I'm able to actually slow down.
+      </p>
+      <p>
+        Recently, a couple of my coworkers and I have been pushing for more code
+        reviews on our team. I've found this a very effective way to help me
+        write better code. When I know for sure that someone else is going to
+        look at my code, I put more effort into making it readable as I'm
+        working on it. So, code reviews. Do them. Even if it's just with
+        yourself.
+      </p>
+      <p>
+        For me, focusing on readable code is like switching keyboards: my
+        &quot;productivity&quot; has dropped, but I'm sure it'll pick back up as
+        I get used to it.
+      </p>
+      <h3>Conclusion</h3>
+      <p>
+        I have found that it is okay to slow down, and that I need to. I have
+        felt that focusing on writing readable code has been helping me become a
+        better developer. Next step, make git commits more often.
+      </p>
+      <p>
+        Hit me up on
+        <a href="https://twitter/com/samwarnick" class="external-link"
+          >Twitter</a
+        >
+        if you have and comments or good tips on writing readable code.
+      </p>
+      <h3>The Video</h3>
+      <iframe
+        height="350"
+        src="https://www.youtube-nocookie.com/embed/56mETnrByBM"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen=""
+        class="w-full"
+      ></iframe>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Angular Template References</title>
+    <link href="https://example.com/posts/angular-template-references/" />
+    <updated>2018-05-03T00:00:00Z</updated>
+    <id>https://example.com/posts/angular-template-references/</id>
+    <content type="html"
+      ><h3>What is a Template Reference?</h3>
+      <p>
+        A template reference (I'll call it a template ref) is basically a tag
+        you put on an element in your <em>template</em> so that you can easily
+        <em>reference</em> that element later. Can you see why they named it
+        like they did? The syntax is <code>#</code> and then the
+        <code>name</code>. For example, if I want to add a template ref to an
+        email input and call it <code>email</code>, then I would add
+        <code>#email</code> to the input, like the following:
+      </p>
+      <pre
+        class="language-html"
+      ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">#email</span> <span class="token punctuation">/></span></span>
+</code></pre>
+      <p>
+        So how is this useful. Well, elements with a template ref can be used in
+        a template just like a public variable on a component can be.
+      </p>
+      <p>
+        So if I want a button to validate the email entered, I can do something
+        like:
+      </p>
+      <pre
+        class="language-html"
+      ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">#email</span> <span class="token punctuation">/></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">(click)</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>validateEmail(email.value)<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Validate!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span>
+</code></pre>
+      <p>
+        The value of the email input will be passed into the function. Cool!
+      </p>
+      <p>
+        In a little project I was working on, I had a widget selector and a
+        button to add that widget to the page. The button called a function on
+        the component and needed the selected value from the selector. I could
+        add a variable to the component and change that every time an option was
+        selected, but nothing else needs to know about that selected option,
+        just the function the button calls.
+      </p>
+      <pre
+        class="language-html"
+      ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">#widget</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>a<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Dashboard Title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>b<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Tickets<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">#width</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>span-col-1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>1 Column<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>span-col-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2 Columns<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">#height</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>span-row-1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>1 Row<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>span-row-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2 Rows<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">(click)</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>addWidget(widget.value, width.value, height.value)<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  Add
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span>
+</code></pre>
+      <p>
+        If I select &quot;Tickets&quot; &quot;1 Column&quot; and &quot;2
+        Rows&quot;, then click the button, <code>a</code>,
+        <code>span-col-1</code>, and <code>span-col-2</code> will be passed into
+        <code>addWidget</code>! I like that a lot. It keeps my component cleaner
+        because I don't need to define a bunch of variables to keep state that I
+        don't really need.
+      </p>
+      <h3>Template Refs and Components</h3>
+      <p>
+        You might be asking yourself right about now, &quot;Can I only put
+        template refs on regular ol' HTML elements?&quot; Even if you aren't
+        asking, the answer is no! You can put template refs on components too
+        and access their properties! For example, if we have a
+        <code>hello</code> component that has a property that tells us how many
+        times a hello world has been done, you can access it in your template
+        with a template ref.
+      </p>
+      <pre
+        class="language-html"
+      ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hello</span> <span class="token attr-name">#hello</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>hello</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+</code></pre>
+      <p>
+        So there's probably some cool things you can do with that. I haven't
+        messed with it much.
+      </p>
+      <h3>Template Refs <em>in</em> components</h3>
+      <p>
+        The other powerful way you can use template refs, is grabbing template
+        elements inside of your component. Using
+        <a href="https://angular.io/api/core/ViewChild" class="external-link"
+          ><code>ViewChild</code></a
+        >
+        you can grab an
+        <a href="https://angular.io/api/core/ElementRef" class="external-link"
+          ><code>ElementRef</code></a
+        >
+        using your template ref. This lets you do some cool things.
+      </p>
+      <pre
+        class="language-js"
+      ><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> Component<span class="token punctuation">,</span> ViewChild<span class="token punctuation">,</span> ElementRef <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"@angular/core"</span><span class="token punctuation">;</span>
+
+@<span class="token function">Component</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  selector<span class="token operator">:</span> <span class="token string">"my-app"</span><span class="token punctuation">,</span>
+  template<span class="token operator">:</span>
+    <span class="token string">'&lt;input type="email" #email>&lt;button (click)="clickButton()">Click&lt;/button>'</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">AppComponent</span> <span class="token punctuation">{</span>
+  @<span class="token function">ViewChild</span><span class="token punctuation">(</span><span class="token string">"email"</span><span class="token punctuation">)</span> emailInput<span class="token operator">:</span> ElementRef<span class="token punctuation">;</span>
+
+  <span class="token function">clickButton</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>emailInput<span class="token punctuation">.</span>nativeElement<span class="token punctuation">.</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      <p>
+        I'll write about this more when I write about
+        <code>ng-template</code> and <code>ng-container</code>. Stay tuned!
+      </p>
+      <h3>A Couple More Things About Template Refs</h3>
+      <p>
+        Template refs need to be unique. You can't have two inputs with the ref
+        <code>#email</code> in the same template.
+      </p>
+      <hr />
+      <p>
+        <code>ref-input</code> is a alternate way of doing <code>#input</code>.
+      </p>
+      <pre
+        class="language-html"
+      ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">#email</span> <span class="token punctuation">/></span></span>
+</code></pre>
+      <p>and</p>
+      <pre
+        class="language-html"
+      ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">ref-email</span> <span class="token punctuation">/></span></span>
+</code></pre>
+      <p>are equivalent.</p>
+      <hr />
+      <p>I've tried doing something like</p>
+      <pre
+        class="language-html"
+      ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">#input</span> <span class="token punctuation">/></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+</code></pre>
+      <p>
+        In hopes of it printing out the value of the input as you type. It
+        doesn't seem to work. You can add <code>change</code> to the input and
+        that will show the value, not as you type, but on blur.
+      </p>
+      <pre
+        class="language-html"
+      ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">(change)</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">#input</span> <span class="token punctuation">/></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+</code></pre>
+      <p>
+        Won't lie, don't really understand what's going on here. But adding
+        <code>(change)=&quot;true&quot;</code> triggers change detection.
+      </p>
+      <hr />
+      <h3>Conclusion</h3>
+      <p>
+        This is the conclusion of this article. Hit me up on
+        <a href="https://twitter.com/samwarnick" class="external-link"
+          >Twitter</a
+        >
+        if you have any questions or comments.
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>ng-conf 2018</title>
+    <link href="https://example.com/posts/ng-conf-2018/" />
+    <updated>2018-04-24T00:00:00Z</updated>
+    <id>https://example.com/posts/ng-conf-2018/</id>
+    <content type="html"
+      ><p>
+        Last week, I was able to attend ng-conf in Salt Lake City, UT. ng-conf
+        is a conference dedicated to Angular, and this was their fifth year.
+        I've had never been to a conference before, and the prospect of going to
+        such a large one (around 1400 people!) was a little unnerving. But I was
+        excited to learn stuff about things! I'm not big on
+        &quot;networking&quot; or &quot;talking to people&quot;, so I was
+        fortunate to be able to go with a group of about a dozen coworkers. Most
+        of us are Angular noobs. At work, we are on AngularJS 1.6, but we are
+        getting on the current version of Angular soon (&quot;soon&quot; being
+        only a couple months away, for the last year and a half). I have limited
+        experience with Angular. Every time I try learning about it, I feel like
+        I get bogged down by TypeScript. For whatever reason, TypeScript just
+        wrinkles my brain whenever I see it. But, after this conference, I think
+        I have a much stronger grasp on Angular and TypeScript. Well, maybe
+        <em>slightly</em> stronger. Still good!
+      </p>
+      <p>
+        There were a lot of great talks and workshops about a myriad of topics.
+        But at times, being a noob, it felt like getting firehosed—I left with a
+        long list of things to look up and learn about later. So for the next
+        few weeks, I'm going to take some of those topics on my list, and
+        research, practice, and write about them here.
+      </p>
+      <p>A few topics I've got in mind to write about so far are:</p>
+      <ul>
+        <li>Template References</li>
+        <li><code>ng-container</code> and <code>ng-template</code></li>
+        <li>Writing clean code</li>
+        <li>Reactive forms</li>
+        <li>
+          NgRx (I didn't go to any sessions about this, but it was all anyone
+          was talking about, so I figure I should learn about it)
+        </li>
+      </ul>
+      <p>
+        At the very least, this will help solidify some of the things I learned
+        at ng-conf. If it helps someone else, even better!
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Very Good Websites &amp; Such</title>
+    <link href="https://example.com/posts/very-good-websites-and-such/" />
+    <updated>2018-04-22T00:00:00Z</updated>
+    <id>https://example.com/posts/very-good-websites-and-such/</id>
+    <content type="html"
+      ><p>
+        I setup a little business. A couple people wanted me to make websites
+        for them. I’ve never built a website for someone else before before, and
+        definitely not for money. While I’m proficient in HTML, CSS, and JS, I
+        still feel like there is a steep learning curve for me. The first site
+        is basically just a landing page, but there are things I haven’t had to
+        worry so much about before, like SEO. There is definitely a lot I need
+        to learn and understand.
+      </p>
+      <p>
+        Building sites for clients is definitely a new experience and challenge
+        for me, but it’s been exciting! I’m by no means doing it full time
+        (hardly part time at that) since I already have a great full time job.
+        But the idea of working for myself has always appealed to me. So we’ll
+        see what happens. So
+        <a href="https://verygoodwebsites.io/" class="external-link"
+          >Very Good Websites &amp; Such</a
+        >
+        has been born and it’s been fun.
+      </p>
+      <p>
+        If you have good tips or resources on being a freelance web developer,
+        especially part time, let me know!
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Moving My Blog To GitHub Pages</title>
+    <link href="https://example.com/posts/moving-my-blog-to-github-pages/" />
+    <updated>2017-10-28T00:00:00Z</updated>
+    <id>https://example.com/posts/moving-my-blog-to-github-pages/</id>
+    <content type="html"
+      ><p>
+        My blog has moved around a lot. Most recently (and only for a couple
+        months), I was using a self-hosted
+        <a href="https://ghost.org/developers/" class="external-link">Ghost</a>
+        instance on DigitalOcean. As much as I liked Ghost, I was looking for
+        something a little more hands off—I didn't love being greeted with a new
+        update notification nearly every time I logged in, requiring me to SSH
+        in and upgrade. I also wanted something I could manage a little more
+        easily from my iPad. Not for any good reason; just for fun. A friend of
+        mine has always suggested I try out GitHub Pages and Jekyll, so I
+        decided to try it out. Now, I haven't been on GitHub pages for very
+        long, so these are just my initial thoughts.
+      </p>
+      <h3>GitHub Pages and Jekyll</h3>
+      <p>
+        GitHub pages is a simple way to host a personal site. It just uses a
+        repo on GitHub and
+        <a href="https://jekyllrb.com/" class="external-link">Jekyll</a> to
+        build a static site. Basically, all you have to do is provide the files
+        for Jekyll to build. At it's simplest, all you need is an
+        <code>index.html</code>. Like they say on the
+        <a href="https://pages.github.com/" class="external-link"
+          >GitHub Pages</a
+        >
+        site:
+      </p>
+      <blockquote>
+        <p>Just edit, push, and your changes are live.</p>
+      </blockquote>
+      <p>Here are a few pros and cons for me:</p>
+      <h4>Pros</h4>
+      <ul>
+        <li>Free</li>
+        <li>Easy to setup</li>
+        <li>Dead simple and doesn't come with a ton of bloat</li>
+        <li>Built in version control, because, you know...GitHub</li>
+      </ul>
+      <h4>Cons</h4>
+      <ul>
+        <li>Can't preview drafts</li>
+        <li>
+          Doesn't support SSL and HTTPS with custom domains (you can use
+          <a href="https://www.cloudflare.com/" class="external-link"
+            >Cloudflare</a
+          >
+          as a workaround)
+        </li>
+      </ul>
+      <p>
+        I enjoy being able to just push changes to my repo and not having to
+        deal with SSH or Mosh or FTP or whatever. For me, it's by far the
+        simplest solution I've come across. GitHub even emails you if there's a
+        problem build the files you've just pushed.
+      </p>
+      <p>
+        Since Jekyll is a static site generator, it's obviously not going to be
+        the right solution for every project, but for a simple blog, it's pretty
+        perfect. I'm able to make page templates in HTML and the
+        <a href="https://shopify.github.io/liquid/" class="external-link"
+          >Liquid</a
+        >
+        templating language, all my styling in SCSS, and write my posts in
+        Markdown. Mostly, I followed the
+        <a href="https://jekyllrb.com/docs/" class="external-link"
+          >Jekyll docs</a
+        >
+        to build my own theme. Since Jekyll sites don't come with a ton of
+        bloat, it was quite easy to make a theme. Not a whole lot to worry
+        about. I made a <code>default</code> layout and a
+        <code>post</code> layout which extends the <code>default</code>. The
+        <code>default</code> has all the <code>&lt;head&gt;</code> stuff, the
+        header and footer, and a place to put the body content, so the other
+        layouts I make don't have to worry about that stuff because they just
+        extend it.
+      </p>
+      <p>
+        Jekyll can also have plugins. GitHub has several useful plugins
+        whitelisted. They have some by default plugins like
+        <code>jekyll-optional-front-matter</code> and
+        <code>jekyll-paginate</code> in addition to some optional ones like
+        <code>jekyll-seo-tag</code> and <code>jekyll-sitemap</code>. You just
+        configure them in your <code>_config.yml</code>. Pretty cool. If you are
+        developing locally, you need to make sure that you install them using
+        <code>gem install</code> in addition to adding them to your
+        <code>_config.yml</code>.
+      </p>
+      <p>
+        Long story short, I have found GitHub pages and Jekyll to be a simple
+        way to make and manage my site. Win!
+      </p>
+      <h3>iPadability</h3>
+      <p>
+        I recently got an iPad Pro. Since I got it, it's been a mission of mine
+        to figure out how to do more dev work. I'll write more about what I've
+        found in another post, but let's just say, the iPad won't be replacing
+        my laptop anytime soon. Despite this, GitHub Pages fits really well into
+        an iPad workflow. iPads obviously can't run any fancy command line
+        tools, but luckily GitHub Pages builds the Jekyll page for you! So,
+        using the fantastic
+        <a
+          href="https://itunes.apple.com/us/app/working-copy/id896694807?mt=8"
+          class="external-link"
+          >Working Copy</a
+        >, I can keep a local version of my repo on my iPad. For code changes, I
+        can make small changes (usually in
+        <a
+          href="https://itunes.apple.com/us/app/textastic-code-editor-6/id1049254261?mt=8"
+          class="external-link"
+          >Textastic</a
+        >, push them, and boom—GitHub builds it for me and my changes are there.
+        Yes, it's not as good as a feedback loop as running a local Jekyll
+        server and making changes, but hey, its an iPad.
+      </p>
+      <p>
+        Writing posts on the iPad is even better. Jekyll has some rules for a
+        post to be valid: the file needs to be in the format
+        <code>YYYY-MM-DD-post-title.md</code> and the post needs valid
+        frontmatter. I thought to myself, hey, that's something a computer
+        should be able to do for me. Luckily
+        <a
+          href="https://itunes.apple.com/us/app/workflow/id915249334?mt=8"
+          class="external-link"
+          >Workflow</a
+        >
+        on iOS has some pretty great automation tools. I was able to make a
+        workflow that will take a markdown file, format it correctly for Jekyll,
+        save it in Working Copy, commit it, and finally push it to GitHub. With
+        a single tap, I can now do what would normally take several minutes and
+        who knows how many taps. I don't know about you, but I think that's
+        pretty cool. You can find it
+        <a
+          href="https://workflow.is/workflows/6094b228a4ae499b884634152cd3ab48"
+          class="external-link"
+          >here</a
+        >.
+      </p>
+      <p>
+        So it's much easier to manage on my iPad than having to SSH into my
+        DigitalOcean droplet to update things. Still not perfect, but with the
+        current state of iOS, it's not too shabby.
+      </p>
+      <hr />
+      <p>
+        There you have it—more than you'd ever want to know about me moving my
+        blog to GitHub Pages! I recommend giving it a try sometime.
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Making Send to Nowhere</title>
+    <link href="https://example.com/posts/making-send-to-nowhere/" />
+    <updated>2017-04-19T00:00:00Z</updated>
+    <id>https://example.com/posts/making-send-to-nowhere/</id>
+    <content type="html"
+      ><p>
+        For me, making
+        <a href="https://appsto.re/us/8ebbjb.i" class="external-link"
+          >Send To Nowhere</a
+        >
+        was a fun process. I like making things. Send To Nowhere was a dumb and
+        simple enough idea to experiment with some things. I’ll try to write a
+        little bit about why and how I made this app. The entire project is up
+        on
+        <a
+          href="https://github.com/samwarnick/Send-To-Nowhere"
+          class="external-link"
+          >GitHub</a
+        >.
+      </p>
+      <h3>Motivation</h3>
+      <ul>
+        <li>
+          I had been reading a little bit about
+          <a
+            href="https://blog.zeplin.io/life-without-interface-builder-adbb009d2068"
+            class="external-link"
+            >making iOS apps without using any storyboards or the interface
+            builder</a
+          >. I liked this idea. I did a group project where we made an iOS app,
+          and storyboards caused a bunch of problems when using git. Send To
+          Nowhere seemed like a simple enough idea to try this out on.
+        </li>
+        <li>
+          I also wanted to put an app on the App Store. I wanted to get more
+          familiar with the whole ecosystem.
+        </li>
+      </ul>
+      <h3>Life without the Interface Builder</h3>
+      <p>
+        Honestly, I didn’t miss the interface builder (IB) that much. The times
+        I’ve used it, I feel like I was spending most of my time wrangling with
+        constraints, and doing a lot of stuff that couldn’t be done in the IB
+        programmatically anyways. This may be due to my inexperience with the
+        IB. So, for me, it wasn’t a huge leap to doing everything
+        programmatically. One of my CS classes had us doing a Java Swing
+        interface without any IB, giving me a little experience using an UI
+        framework programmatically. Needless to say, using Swift and UIKit is
+        magnitudes better than using Java Swing.
+      </p>
+      <p>
+        Getting started with doing everything programmatically was fairly easy.
+        I just had to delete <code>Main.storyboard</code>, add a couple lines to
+        <code>AppDelegate.swift</code>, and change one project setting. The
+        following code shows the necessary changes to
+        <code>AppDelegate.swift</code>. Basically, you have to grab the window,
+        instantiate your own view controller, and set it as the root.
+      </p>
+      <pre
+        class="language-swift"
+      ><code class="language-swift"><span class="token keyword">import</span> <span class="token builtin">UIKit</span>
+
+<span class="token atrule">@UIApplicationMain</span>
+<span class="token keyword">class</span> <span class="token class-name">AppDelegate</span><span class="token punctuation">:</span> <span class="token builtin">UIResponder</span><span class="token punctuation">,</span> <span class="token builtin">UIApplicationDelegate</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">var</span> window<span class="token punctuation">:</span> <span class="token builtin">UIWindow</span><span class="token operator">?</span>
+
+    <span class="token keyword">func</span> <span class="token function">application</span><span class="token punctuation">(</span><span class="token number">_</span> application<span class="token punctuation">:</span> <span class="token builtin">UIApplication</span><span class="token punctuation">,</span> didFinishLaunchingWithOptions launchOptions<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token builtin">UIApplicationLaunchOptionsKey</span><span class="token punctuation">:</span> <span class="token builtin">Any</span><span class="token punctuation">]</span><span class="token operator">?</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">Bool</span> <span class="token punctuation">{</span>
+        window <span class="token operator">=</span> <span class="token function">UIWindow</span><span class="token punctuation">(</span>frame<span class="token punctuation">:</span> <span class="token builtin">UIScreen</span><span class="token punctuation">.</span>main<span class="token punctuation">.</span>bounds<span class="token punctuation">)</span>
+        window<span class="token operator">?</span><span class="token punctuation">.</span>rootViewController <span class="token operator">=</span> <span class="token function">YourFirstViewController</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        window<span class="token operator">?</span><span class="token punctuation">.</span><span class="token function">makeKeyAndVisible</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// The rest of AppDelage.swift</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      <p>
+        In the project settings, you have to make sure that the project is not
+        looking for any storyboards. Make sure that this setting is blank so
+        that the app will not try to load a storyboard that does not exist. The
+        app will crash if you don’t.
+      </p>
+      <p>That was pretty much it to get going.</p>
+      <p>
+        Actually building the interface programmatically wasn’t too difficult
+        either. There are many ways to do this, but for me, I had a
+        <code>configureViews</code> function that was called in the
+        <code>viewDidLoad</code> function of my view controllers. In there, I
+        would create all of the UI elements and constrain them to be in the
+        right place.
+      </p>
+      <pre
+        class="language-swift"
+      ><code class="language-swift"><span class="token keyword">func</span> <span class="token function">configureViews</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> authorLabel <span class="token operator">=</span> <span class="token function">UILabel</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    authorLabel<span class="token punctuation">.</span><span class="token function">defaultStlye</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    authorLabel<span class="token punctuation">.</span>text <span class="token operator">=</span> <span class="token string">"Created by Sam Warnick"</span>
+
+    <span class="token keyword">let</span> websiteButton <span class="token operator">=</span> <span class="token function">UIButton</span><span class="token punctuation">(</span>type<span class="token punctuation">:</span> <span class="token punctuation">.</span>system<span class="token punctuation">)</span>
+    websiteButton<span class="token punctuation">.</span><span class="token function">defaultStlye</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    websiteButton<span class="token punctuation">.</span><span class="token function">setTitle</span><span class="token punctuation">(</span><span class="token string">"samwarnick.com"</span><span class="token punctuation">,</span> <span class="token keyword">for</span><span class="token punctuation">:</span> <span class="token punctuation">.</span>normal<span class="token punctuation">)</span>
+    websiteButton<span class="token punctuation">.</span><span class="token function">addTarget</span><span class="token punctuation">(</span><span class="token keyword">self</span><span class="token punctuation">,</span> action<span class="token punctuation">:</span> #<span class="token function">selector</span><span class="token punctuation">(</span><span class="token builtin">STNCreditsViewController</span><span class="token punctuation">.</span>didPressWebisteButton<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">for</span><span class="token punctuation">:</span> <span class="token punctuation">.</span>touchUpInside<span class="token punctuation">)</span>
+    websiteButton<span class="token punctuation">.</span><span class="token function">sizeToFit</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">let</span> twitterButton <span class="token operator">=</span> <span class="token function">UIButton</span><span class="token punctuation">(</span>type<span class="token punctuation">:</span> <span class="token punctuation">.</span>system<span class="token punctuation">)</span>
+    twitterButton<span class="token punctuation">.</span><span class="token function">defaultStlye</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    twitterButton<span class="token punctuation">.</span><span class="token function">setTitle</span><span class="token punctuation">(</span><span class="token string">"@samwarnick"</span><span class="token punctuation">,</span> <span class="token keyword">for</span><span class="token punctuation">:</span> <span class="token punctuation">.</span>normal<span class="token punctuation">)</span>
+    twitterButton<span class="token punctuation">.</span><span class="token function">addTarget</span><span class="token punctuation">(</span><span class="token keyword">self</span><span class="token punctuation">,</span> action<span class="token punctuation">:</span> #<span class="token function">selector</span><span class="token punctuation">(</span><span class="token builtin">STNCreditsViewController</span><span class="token punctuation">.</span>didPressTwitterButton<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">for</span><span class="token punctuation">:</span> <span class="token punctuation">.</span>touchUpInside<span class="token punctuation">)</span>
+    twitterButton<span class="token punctuation">.</span><span class="token function">sizeToFit</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">let</span> contactLabel <span class="token operator">=</span> <span class="token function">UILabel</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    contactLabel<span class="token punctuation">.</span><span class="token function">defaultStlye</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    contactLabel<span class="token punctuation">.</span>font <span class="token operator">=</span> <span class="token builtin">UIFont</span><span class="token punctuation">.</span><span class="token function">systemFont</span><span class="token punctuation">(</span>ofSize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span> weight<span class="token punctuation">:</span> <span class="token builtin">UIFontWeightThin</span><span class="token punctuation">)</span>
+    contactLabel<span class="token punctuation">.</span>text <span class="token operator">=</span> <span class="token string">"Please get in touch on Twitter or my website with any feedback"</span>
+
+    <span class="token keyword">let</span> myDetailsStackView <span class="token operator">=</span> <span class="token function">UIStackView</span><span class="token punctuation">(</span>arrangedSubviews<span class="token punctuation">:</span> <span class="token punctuation">[</span>authorLabel<span class="token punctuation">,</span> websiteButton<span class="token punctuation">,</span> twitterButton<span class="token punctuation">,</span> contactLabel<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    myDetailsStackView<span class="token punctuation">.</span>axis <span class="token operator">=</span> <span class="token punctuation">.</span>vertical
+    myDetailsStackView<span class="token punctuation">.</span>alignment <span class="token operator">=</span> <span class="token punctuation">.</span>center
+    myDetailsStackView<span class="token punctuation">.</span>distribution <span class="token operator">=</span> <span class="token punctuation">.</span>equalSpacing
+    myDetailsStackView<span class="token punctuation">.</span>spacing <span class="token operator">=</span> <span class="token number">8</span>
+    myDetailsStackView<span class="token punctuation">.</span><span class="token function">sizeToFit</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    view<span class="token punctuation">.</span><span class="token function">addSubview</span><span class="token punctuation">(</span>myDetailsStackView<span class="token punctuation">)</span>
+
+    myDetailsStackView<span class="token punctuation">.</span>snp<span class="token punctuation">.</span>makeConstraints <span class="token punctuation">{</span> <span class="token punctuation">(</span>make<span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">Void</span> <span class="token keyword">in</span>
+        make<span class="token punctuation">.</span>centerY<span class="token punctuation">.</span><span class="token function">equalTo</span><span class="token punctuation">(</span>view<span class="token punctuation">)</span>
+        make<span class="token punctuation">.</span><span class="token keyword">left</span><span class="token punctuation">.</span><span class="token function">equalTo</span><span class="token punctuation">(</span>view<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">offset</span><span class="token punctuation">(</span><span class="token number">40</span><span class="token punctuation">)</span>
+        make<span class="token punctuation">.</span><span class="token keyword">right</span><span class="token punctuation">.</span><span class="token function">equalTo</span><span class="token punctuation">(</span>view<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">offset</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">40</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    view<span class="token punctuation">.</span>backgroundColor <span class="token operator">=</span> <span class="token builtin">UIColor</span><span class="token punctuation">.</span>white
+<span class="token punctuation">}</span>
+</code></pre>
+      <p>
+        The process was simple—make an UI element and add it as a subview. After
+        that, you have to put it where you want using constraints. I used
+        <a href="http://snapkit.io/" class="external-link">SnapKit</a> for
+        setting my constraints. It was pretty straightforward and it was easy
+        enough to do everything I wanted. The only tricky thing was remembering
+        to use negative numbers for the right and bottom constraints. For
+        example, in the code above, I wanted the stack view to be 40 pts from
+        the right edge of the view, so I had to give it an offset of -40.
+      </p>
+      <p>
+        I was initially a little worried about doing segues programmatically,
+        but again, I found it to be simple enough.
+      </p>
+      <pre
+        class="language-swift"
+      ><code class="language-swift"><span class="token keyword">let</span> nextViewController <span class="token operator">=</span> <span class="token function">NextViewController</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+nextViewController<span class="token punctuation">.</span>modalPresentationStyle <span class="token operator">=</span> <span class="token punctuation">.</span>custom
+nextViewController<span class="token punctuation">.</span>modalTransitionStyle <span class="token operator">=</span> <span class="token punctuation">.</span>crossDissolve
+<span class="token function">present</span><span class="token punctuation">(</span>nextViewController<span class="token punctuation">,</span> animated<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> completion<span class="token punctuation">:</span> <span class="token constant">nil</span><span class="token punctuation">)</span>
+</code></pre>
+      <p>
+        You create an instance of the view controller you want to go to, set it
+        up as needed (in my case I was setting the modal presentation and
+        transition styles), and call <code>present</code>. These were simple
+        segues that would present the view on top of my main view. I would just
+        call <code>dismiss</code> to get rid of it. This project didn’t get me
+        into using any navigation controllers. That’s something I want to try in
+        the future.
+      </p>
+      <p>
+        I liked doing everything programmatically. Even with the IB, I was
+        spending so much time in the code, so it makes sense to me to do
+        everything in the code. It takes the mystery out of everything. I
+        learned a lot about the UI elements I was using because it required
+        spending a lot more time in the documentation. I built this app on my
+        own, so I didn’t get the advantages of avoiding merge conflicts and
+        such, but I can imagine how it’d be a blessing. I’d recommend giving it
+        a try and see if it fits how you work.
+      </p>
+      <h3>Submitting to the App store</h3>
+      <p>
+        I won’t get into the details of actually submitting to the App Store
+        (there are plenty of good tutorials), but I’ll say that I did have some
+        trouble because I started the project before I had a real developer
+        account. It caused some weird issues with the bundle identifier. It just
+        took some time to work out, but I got it in the end, obviously.
+      </p>
+      <p>
+        I was about 80% sure my app would be rejected. One of the App Store’s
+        criteria is:
+      </p>
+      <blockquote>
+        <p>
+          If your app doesn’t offer much functionality or content, or only
+          applies to a small niche market, it may not be approved.
+        </p>
+      </blockquote>
+      <p>
+        So, I was worried that Send To Nowhere was too simple. It would have
+        been fine if it had been rejected. I originally set out to just learn
+        more about the whole process. But it was approved! After submitting, it
+        took about a day and a half waiting to be reviewed and it took about 30
+        mins to be reviewed. It was very exciting. After that, it took about 6
+        hours to propagate to the App Store.
+      </p>
+      <p>
+        To date (about 6 days after it’s been released), Send To Nowhere has
+        been downloaded an entire 18 times!
+      </p>
+      <h3>The Future</h3>
+      <p>
+        Luckily, Send To Nowhere is simple enough that bugs shouldn’t come up. I
+        had a few people beta test it to get the kinks out. But we’ll see if
+        anything pops up. It’s always possible. I have a few ideas for possible
+        updates. So there will most likely be version 1.1. After that, who
+        knows!
+      </p>
+      <p>
+        If you have any feedback, leave a comment or hit me up on
+        <a href="https://twitter.com/samwarnick" class="external-link"
+          >Twitter</a
+        >.
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>CSS Variables?</title>
+    <link href="https://example.com/posts/css-variables/" />
+    <updated>2016-07-28T00:00:00Z</updated>
+    <id>https://example.com/posts/css-variables/</id>
+    <content type="html"
+      ><p>
+        I just found out, I think two days ago, that CSS has native
+        &quot;variables&quot;. I discovered this while looking through some
+        generated code from
+        <a href="https://zeplin.io/" class="external-link">Zeplin</a>. CSS
+        preprocessors like LESS and Sass give us this ability, and probably do
+        it pretty well. I don’t really know. I haven’t used them much. For
+        whatever reasons, I like writing plain CSS. So, without further ado,
+        here’s an example of CSS variables:
+      </p>
+      <pre
+        class="language-css"
+      ><code class="language-css"><span class="token selector">:root</span> <span class="token punctuation">{</span>
+  <span class="token property">--lightblue</span><span class="token punctuation">:</span> #65def1<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.nav-link</span> <span class="token punctuation">{</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #65def1<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--lighblue<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      <p>
+        Apparently this has been around since 2014-ish, as far as I can tell.
+        <code>:root</code> is a pseudo-class which, in most contexts, represents
+        the <code>&lt;html&gt;</code> tag. More on :root can be found
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS/:root"
+          class="external-link"
+          >here</a
+        >. As you can see in the snippet, the variable starts with
+        <code>--</code>. This sets it apart as a
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS/--*"
+          class="external-link"
+          >custom property</a
+        >. Custom properties can be used as variables using <code>var()</code>!
+        How cool. Because the custom properties are defined in
+        <code>:root</code>, they are global. There’s all sorts of inheritance
+        things with that, for better or worse. <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables#Browser_compatibility"
+          class="external-link"
+          >Browser support</a
+        >
+        is pretty good, with one notable exception (I’m looking at you IE…🙄).
+        That’s why line 7 exists in the snippet. It defines the color just
+        incase someone has no idea what to do with <code>var()</code>. Seems
+        kinda redundant, but it’s not the end of the world. Just a minor/mild
+        nuisance. It’s not CSS’s fault though. Maybe Edge supports it? I don’t
+        know. Maybe no one will use IE again? Hopefully. I need to do more
+        browser testing with it myself. Maybe there’s a gulp and/or webpack tool
+        that can automatically insert that fallback line for you. I should look
+        into that.
+      </p>
+      <p>
+        So that’s a brief overview of CSS variables. I think it’s pretty cool
+        because it lessens our dependency on preprocessors and such. The end.
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Hello world</title>
+    <link href="https://example.com/posts/hello-world/" />
+    <updated>2016-07-23T00:00:00Z</updated>
+    <id>https://example.com/posts/hello-world/</id>
+    <content type="html">
+      <pre
+        class="language-swift"
+      ><code class="language-swift"><span class="token keyword">var</span> 😀 <span class="token operator">=</span> <span class="token string">"Hello, World!"</span>
+
+<span class="token function">print</span><span class="token punctuation">(</span>😀<span class="token punctuation">)</span>
+</code></pre>
+    </content>
+  </entry>
+</feed>

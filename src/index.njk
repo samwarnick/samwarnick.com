@@ -1,0 +1,54 @@
+---
+layout: "layouts/base"
+pagination:
+  data: collections.posts
+  size: 5
+  reverse: true
+  alias: posts
+---
+
+{%- for post in posts %}
+{% set postUrl %}{{ post.url | url }}{% endset %}
+<article class="prose w-full max-w-2xl bg-gray-50 shadow-lg p-4 md:p-8 my-8">
+  <header>
+    <a href="{{ postUrl }}">
+      <h2>{% if post.data.htmlTitle %}{{ post.data.htmlTitle | safe }}{% else %}{{ post.data.title }}{% endif %}</h2>
+    </a>
+    <h3 class="!mt-0 !text-gray-500 text-xl md:text-2xl">{{ post.data.subtitle }}</h3>
+    <div class="mt-2 flex text-gray-400 items-center">
+      <!-- {% include '_calendar.njk' %} -->
+      {% if post.data.date %}
+      <time class="text-sm text-gray-600" datetime="{{ post.data.date.toISOString() }}">{{ post.data.date.toLocaleDateString(undefined, {year: 'numeric', month: 'long', day: 'numeric'}) }}</time>
+      {% else %}
+      <span class="text-sm text-gray-600">DRAFT</span>
+      {% endif %}
+    </div>
+  </header>
+  {{ post.templateContent | htmlToLessRelativeUrls(postUrl) | safe }}
+  <footer class="text-rainstorm-500">
+    <div class="w-[80px]">
+      {% include '_signature.njk' %}
+    </div>
+  </footer>
+</article>
+{%- endfor %}
+
+<nav class="my-8 text-gray-200 tabular-nums w-full max-w-2xl">
+  <ol class="hidden md:grid grid-cols-3">
+    {% if pagination.href.previous %}
+    <li class="justify-self-start"><a href="{{ pagination.href.previous }}" class="button">Previous</a></li>
+    {% endif %}
+    <ol class="col-start-2 flex justify-center">
+      {%- for pageEntry in pagination.pages %}
+      <li class="mx-2"><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %} class="button h-8 w-8">{{ loop.index }}</a></li>
+      {%- endfor %}
+    </ol>
+    {% if pagination.href.next %}
+    <li class="justify-self-end"><a href="{{ pagination.href.next }}" class="button">Next</a></li>
+    {% endif %}
+  </ol>
+  {% if pagination.href.next %}
+  <a href="{{ pagination.href.next }}" class="button md:hidden">Older Posts</a>
+  {% endif %}
+</nav>
+

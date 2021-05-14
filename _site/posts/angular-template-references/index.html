@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Angular Template References | Sam Warnick</title>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="description"
+      content="Template references let you use and access elements in your template to do cool things."
+    />
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" />
+    <!-- 32×32 -->
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- 180×180 -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/assets/styles/main.css?v=1621011241244" />
+    <link
+      rel="stylesheet"
+      href="/assets/styles/prism-tomorrow.css?v=1621011241244"
+    />
+  </head>
+  <body
+    class="bg-rainstorm-500 wiggles grid grid-cols-[1fr,auto,1fr] grid-rows-[max-content,1fr,max-content] gap-x-2 md:gap-x-5 min-h-screen"
+  >
+    <header
+      class="text-gray-50 font-sans m-8 flex flex-col sm:flex-row justify-between items-center col-span-3"
+    >
+      <a href="/"
+        ><h1
+          class="text-xl sm:text-3xl font-black hover:text-pink-500 transition bg-rainstorm-500 p-2 mb-2 sm:mb-0"
+        >
+          Sam Warnick
+        </h1></a
+      >
+      <ol class="flex items-center">
+        <li><a href="/about" class="button mr-2">About</a></li>
+        <li>
+          <a href="https://lilyandsam.show" class="button"
+            >Podcast<svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 text-gray-300 ml-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              /></svg
+          ></a>
+        </li>
+      </ol>
+    </header>
+    <main class="col-start-2">
+      <article
+        class="prose w-full max-w-2xl bg-gray-50 shadow-lg p-4 md:p-8 my-8"
+      >
+        <header>
+          <h2>Angular Template References</h2>
+          <h3 class="mt-0 !text-gray-500 text-xl md:text-2xl"></h3>
+          <div class="mt-2 flex text-gray-400 items-center">
+            <time
+              class="text-sm text-gray-600"
+              datetime="2018-05-03T00:00:00.000Z"
+              >May 2, 2018</time
+            >
+          </div>
+        </header>
+
+        <h3>What is a Template Reference?</h3>
+        <p>
+          A template reference (I'll call it a template ref) is basically a tag
+          you put on an element in your <em>template</em> so that you can easily
+          <em>reference</em> that element later. Can you see why they named it
+          like they did? The syntax is <code>#</code> and then the
+          <code>name</code>. For example, if I want to add a template ref to an
+          email input and call it <code>email</code>, then I would add
+          <code>#email</code> to the input, like the following:
+        </p>
+        <pre
+          class="language-html"
+        ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">#email</span> <span class="token punctuation">/></span></span>
+</code></pre>
+        <p>
+          So how is this useful. Well, elements with a template ref can be used
+          in a template just like a public variable on a component can be.
+        </p>
+        <p>
+          So if I want a button to validate the email entered, I can do
+          something like:
+        </p>
+        <pre
+          class="language-html"
+        ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">#email</span> <span class="token punctuation">/></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">(click)</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>validateEmail(email.value)<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Validate!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span>
+</code></pre>
+        <p>
+          The value of the email input will be passed into the function. Cool!
+        </p>
+        <p>
+          In a little project I was working on, I had a widget selector and a
+          button to add that widget to the page. The button called a function on
+          the component and needed the selected value from the selector. I could
+          add a variable to the component and change that every time an option
+          was selected, but nothing else needs to know about that selected
+          option, just the function the button calls.
+        </p>
+        <pre
+          class="language-html"
+        ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">#widget</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>a<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Dashboard Title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>b<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Tickets<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">#width</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>span-col-1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>1 Column<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>span-col-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2 Columns<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">#height</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>span-row-1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>1 Row<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>span-row-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2 Rows<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">(click)</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>addWidget(widget.value, width.value, height.value)<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  Add
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span>
+</code></pre>
+        <p>
+          If I select &quot;Tickets&quot; &quot;1 Column&quot; and &quot;2
+          Rows&quot;, then click the button, <code>a</code>,
+          <code>span-col-1</code>, and <code>span-col-2</code> will be passed
+          into <code>addWidget</code>! I like that a lot. It keeps my component
+          cleaner because I don't need to define a bunch of variables to keep
+          state that I don't really need.
+        </p>
+        <h3>Template Refs and Components</h3>
+        <p>
+          You might be asking yourself right about now, &quot;Can I only put
+          template refs on regular ol' HTML elements?&quot; Even if you aren't
+          asking, the answer is no! You can put template refs on components too
+          and access their properties! For example, if we have a
+          <code>hello</code> component that has a property that tells us how
+          many times a hello world has been done, you can access it in your
+          template with a template ref.
+        </p>
+        <pre
+          class="language-html"
+        ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hello</span> <span class="token attr-name">#hello</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>hello</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+</code></pre>
+        <p>
+          So there's probably some cool things you can do with that. I haven't
+          messed with it much.
+        </p>
+        <h3>Template Refs <em>in</em> components</h3>
+        <p>
+          The other powerful way you can use template refs, is grabbing template
+          elements inside of your component. Using
+          <a href="https://angular.io/api/core/ViewChild" class="external-link"
+            ><code>ViewChild</code></a
+          >
+          you can grab an
+          <a href="https://angular.io/api/core/ElementRef" class="external-link"
+            ><code>ElementRef</code></a
+          >
+          using your template ref. This lets you do some cool things.
+        </p>
+        <pre
+          class="language-js"
+        ><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> Component<span class="token punctuation">,</span> ViewChild<span class="token punctuation">,</span> ElementRef <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"@angular/core"</span><span class="token punctuation">;</span>
+
+@<span class="token function">Component</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  selector<span class="token operator">:</span> <span class="token string">"my-app"</span><span class="token punctuation">,</span>
+  template<span class="token operator">:</span>
+    <span class="token string">'&lt;input type="email" #email>&lt;button (click)="clickButton()">Click&lt;/button>'</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">AppComponent</span> <span class="token punctuation">{</span>
+  @<span class="token function">ViewChild</span><span class="token punctuation">(</span><span class="token string">"email"</span><span class="token punctuation">)</span> emailInput<span class="token operator">:</span> ElementRef<span class="token punctuation">;</span>
+
+  <span class="token function">clickButton</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>emailInput<span class="token punctuation">.</span>nativeElement<span class="token punctuation">.</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+        <p>
+          I'll write about this more when I write about
+          <code>ng-template</code> and <code>ng-container</code>. Stay tuned!
+        </p>
+        <h3>A Couple More Things About Template Refs</h3>
+        <p>
+          Template refs need to be unique. You can't have two inputs with the
+          ref <code>#email</code> in the same template.
+        </p>
+        <hr />
+        <p>
+          <code>ref-input</code> is a alternate way of doing
+          <code>#input</code>.
+        </p>
+        <pre
+          class="language-html"
+        ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">#email</span> <span class="token punctuation">/></span></span>
+</code></pre>
+        <p>and</p>
+        <pre
+          class="language-html"
+        ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">ref-email</span> <span class="token punctuation">/></span></span>
+</code></pre>
+        <p>are equivalent.</p>
+        <hr />
+        <p>I've tried doing something like</p>
+        <pre
+          class="language-html"
+        ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">#input</span> <span class="token punctuation">/></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+</code></pre>
+        <p>
+          In hopes of it printing out the value of the input as you type. It
+          doesn't seem to work. You can add <code>change</code> to the input and
+          that will show the value, not as you type, but on blur.
+        </p>
+        <pre
+          class="language-html"
+        ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">(change)</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">#input</span> <span class="token punctuation">/></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+</code></pre>
+        <p>
+          Won't lie, don't really understand what's going on here. But adding
+          <code>(change)=&quot;true&quot;</code> triggers change detection.
+        </p>
+        <hr />
+        <h3>Conclusion</h3>
+        <p>
+          This is the conclusion of this article. Hit me up on
+          <a href="https://twitter.com/samwarnick" class="external-link"
+            >Twitter</a
+          >
+          if you have any questions or comments.
+        </p>
+
+        <footer class="text-rainstorm-500">
+          <div class="w-[80px]">
+            <svg
+              viewBox="0 0 100 100"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                id="s"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <path
+                  d="M44.6077669,30.9307137 C42.2529168,37.893324 35.9248744,27.6931476 38.3754917,24.2275391 C34.1271672,20.2539942 21.6395129,7.67051974 17.6556857,17.1722305 C17.8919115,36.2809783 34.9839573,49.577451 41.8846628,66.1954404 C47.177079,81.5691617 28.6395129,96.3367102 14.9060914,87.3485268 C-0.769284293,69.044294 34.7564441,50.0714545 50.4816646,47.6349466 C55.5047686,52.395264 47.1141161,52.7698672 53.6474494,48.501966 C59.9262854,50.1300083 59.9925993,53.3275391 64.9322818,47.312548 C70.0373965,51.4130771 70.8012413,51.1682799 76.2936575,47.4312428 C79.9537986,54.0677508 85.2386311,48.0479977 89.4672025,51.1956167 C91.9201125,55.8825656 83.3119997,57.8509959 80.459266,56.3021423 C74.675139,52.4554051 78.1172907,50.9589324 72.5232871,55.6785092 C71.2144688,56.2099025 69.7033577,56.2301846 68.3694952,55.7749818 C66.5652624,54.9592852 64.8776081,53.3090206 64.3308709,51.3927949 C72.1567968,55.9584033 49.1195834,56.9875039 56.4867792,52.6982622 C49.8144688,63.847645 40.1881901,45.52313 52.5354564,46.2367102 C53.6423348,47.2546996 55.1149979,48.6848584 54.6925993,50.346234 C40.7991249,56.9139589 20.7042395,62.2196026 15.0173436,79.2712781 C18.6735517,88.4539942 35.2885429,85.0580506 36.7814882,75.4278919 C38.389072,52.4395321 2.05907373,34.2534651 15.7144864,10.407257 C27.713587,4.52545802 45.0042395,18.1862693 44.6077669,30.9307137"
+                  id="path"
+                  fill="currentColor"
+                  fill-rule="nonzero"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </footer>
+      </article>
+    </main>
+    <footer
+      class="font-light text-sm text-gray-300 flex flex-col p-8 items-center col-span-3"
+    >
+      <nav class="mb-4">
+        <ul class="list-reset flex flex-col sm:flex-row">
+          <li class="flex mb-2">
+            <a href="/feed.xml" class="hover:underline hover:text-pink-500"
+              >RSS</a
+            >
+            <span class="mx-2 hidden sm:inline-block">•</span>
+          </li>
+          <li class="flex mb-2">
+            <a href="/sitemap.xml" class="hover:underline hover:text-pink-500"
+              >Sitemap</a
+            >
+            <span class="mx-2 hidden sm:inline-block">•</span>
+          </li>
+          <li class="flex mb-2">
+            <a
+              href="https://twitter.com/samwarnick"
+              class="flex items-center hover:underline hover:text-pink-500"
+              >Twitter<svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-1"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
+                />
+                <path
+                  d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <p class="">Copyright 2016 – 2021 Sam Warnick</p>
+    </footer>
+  </body>
+</html>

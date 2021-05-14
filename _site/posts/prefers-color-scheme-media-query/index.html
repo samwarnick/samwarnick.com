@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>prefers-color-scheme Media Query | Sam Warnick</title>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="description"
+      content='"Automatic" theme switching coming to Safari.'
+    />
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" />
+    <!-- 32×32 -->
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- 180×180 -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/assets/styles/main.css?v=1621011241244" />
+    <link
+      rel="stylesheet"
+      href="/assets/styles/prism-tomorrow.css?v=1621011241244"
+    />
+  </head>
+  <body
+    class="bg-rainstorm-500 wiggles grid grid-cols-[1fr,auto,1fr] grid-rows-[max-content,1fr,max-content] gap-x-2 md:gap-x-5 min-h-screen"
+  >
+    <header
+      class="text-gray-50 font-sans m-8 flex flex-col sm:flex-row justify-between items-center col-span-3"
+    >
+      <a href="/"
+        ><h1
+          class="text-xl sm:text-3xl font-black hover:text-pink-500 transition bg-rainstorm-500 p-2 mb-2 sm:mb-0"
+        >
+          Sam Warnick
+        </h1></a
+      >
+      <ol class="flex items-center">
+        <li><a href="/about" class="button mr-2">About</a></li>
+        <li>
+          <a href="https://lilyandsam.show" class="button"
+            >Podcast<svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 text-gray-300 ml-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              /></svg
+          ></a>
+        </li>
+      </ol>
+    </header>
+    <main class="col-start-2">
+      <article
+        class="prose w-full max-w-2xl bg-gray-50 shadow-lg p-4 md:p-8 my-8"
+      >
+        <header>
+          <h2>prefers-color-scheme Media Query</h2>
+          <h3 class="mt-0 !text-gray-500 text-xl md:text-2xl"></h3>
+          <div class="mt-2 flex text-gray-400 items-center">
+            <time
+              class="text-sm text-gray-600"
+              datetime="2018-10-25T00:00:00.000Z"
+              >October 24, 2018</time
+            >
+          </div>
+        </header>
+
+        <p>
+          With
+          <a
+            href="https://developer.apple.com/safari/technology-preview/"
+            class="external-link"
+            >Safari Technology Preview 68</a
+          >, there is a new media query, <code>prefers-color-scheme</code>. I've
+          used it on this site like the following:
+        </p>
+        <pre
+          class="language-css"
+        ><code class="language-css"><span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span><span class="token property">prefers-color-scheme</span><span class="token punctuation">:</span> dark<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #000000<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+        <p>
+          Digging around in the
+          <a
+            href="https://webkit.org/blog/8475/release-notes-for-safari-technology-preview-68/"
+            class="external-link"
+            >WebKit release notes</a
+          >, it looks like it supports <code>dark</code> and
+          <code>light</code> at the moment. I tested both, and the do appear to
+          work.
+        </p>
+        <p>
+          Anyways, kind of cool! I'm sure my dark mode looks bad, so I'll work
+          on it. But I hope other browsers implement this media query soon as
+          well.
+        </p>
+        <h3>Update 24 Jan 2019</h3>
+        <p>
+          Here is a Tailwind CSS plugin to add a dark and light variants. Just
+          add this to the <code>plugins</code> array in your Tailwind config
+          file.
+        </p>
+        <pre
+          class="language-js"
+        ><code class="language-js"><span class="token comment">// You need to make sure you have postcss imported in your config file:</span>
+<span class="token comment">// const postcss = require("postcss");</span>
+
+<span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> addVariant <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token function">addVariant</span><span class="token punctuation">(</span><span class="token string">"dark"</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> container<span class="token punctuation">,</span> separator <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> mediaRule <span class="token operator">=</span> postcss<span class="token punctuation">.</span><span class="token function">atRule</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            name<span class="token operator">:</span> <span class="token string">"media"</span><span class="token punctuation">,</span>
+            params<span class="token operator">:</span> <span class="token string">"(prefers-color-scheme: dark)"</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        mediaRule<span class="token punctuation">.</span>nodes <span class="token operator">=</span> container<span class="token punctuation">.</span>nodes<span class="token punctuation">;</span>
+        container<span class="token punctuation">.</span>nodes <span class="token operator">=</span> <span class="token punctuation">[</span>mediaRule<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        mediaRule<span class="token punctuation">.</span><span class="token function">walkRules</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">rule</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+            rule<span class="token punctuation">.</span>selector <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">.dark</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>separator<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>rule<span class="token punctuation">.</span>selector<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">addVariant</span><span class="token punctuation">(</span><span class="token string">"light"</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> container<span class="token punctuation">,</span> separator <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> mediaRule <span class="token operator">=</span> postcss<span class="token punctuation">.</span><span class="token function">atRule</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            name<span class="token operator">:</span> <span class="token string">"media"</span><span class="token punctuation">,</span>
+            params<span class="token operator">:</span> <span class="token string">"(prefers-color-scheme: light)"</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        mediaRule<span class="token punctuation">.</span>nodes <span class="token operator">=</span> container<span class="token punctuation">.</span>nodes<span class="token punctuation">;</span>
+        container<span class="token punctuation">.</span>nodes <span class="token operator">=</span> <span class="token punctuation">[</span>mediaRule<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        mediaRule<span class="token punctuation">.</span><span class="token function">walkRules</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">rule</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+            rule<span class="token punctuation">.</span>selector <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">.light</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>separator<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>rule<span class="token punctuation">.</span>selector<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+        <p>
+          More information on adding Tailwind variants can be found
+          <a
+            href="https://tailwindcss.com/docs/plugins/#adding-variants"
+            class="external-link"
+            >here</a
+          >.
+        </p>
+
+        <footer class="text-rainstorm-500">
+          <div class="w-[80px]">
+            <svg
+              viewBox="0 0 100 100"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                id="s"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <path
+                  d="M44.6077669,30.9307137 C42.2529168,37.893324 35.9248744,27.6931476 38.3754917,24.2275391 C34.1271672,20.2539942 21.6395129,7.67051974 17.6556857,17.1722305 C17.8919115,36.2809783 34.9839573,49.577451 41.8846628,66.1954404 C47.177079,81.5691617 28.6395129,96.3367102 14.9060914,87.3485268 C-0.769284293,69.044294 34.7564441,50.0714545 50.4816646,47.6349466 C55.5047686,52.395264 47.1141161,52.7698672 53.6474494,48.501966 C59.9262854,50.1300083 59.9925993,53.3275391 64.9322818,47.312548 C70.0373965,51.4130771 70.8012413,51.1682799 76.2936575,47.4312428 C79.9537986,54.0677508 85.2386311,48.0479977 89.4672025,51.1956167 C91.9201125,55.8825656 83.3119997,57.8509959 80.459266,56.3021423 C74.675139,52.4554051 78.1172907,50.9589324 72.5232871,55.6785092 C71.2144688,56.2099025 69.7033577,56.2301846 68.3694952,55.7749818 C66.5652624,54.9592852 64.8776081,53.3090206 64.3308709,51.3927949 C72.1567968,55.9584033 49.1195834,56.9875039 56.4867792,52.6982622 C49.8144688,63.847645 40.1881901,45.52313 52.5354564,46.2367102 C53.6423348,47.2546996 55.1149979,48.6848584 54.6925993,50.346234 C40.7991249,56.9139589 20.7042395,62.2196026 15.0173436,79.2712781 C18.6735517,88.4539942 35.2885429,85.0580506 36.7814882,75.4278919 C38.389072,52.4395321 2.05907373,34.2534651 15.7144864,10.407257 C27.713587,4.52545802 45.0042395,18.1862693 44.6077669,30.9307137"
+                  id="path"
+                  fill="currentColor"
+                  fill-rule="nonzero"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </footer>
+      </article>
+    </main>
+    <footer
+      class="font-light text-sm text-gray-300 flex flex-col p-8 items-center col-span-3"
+    >
+      <nav class="mb-4">
+        <ul class="list-reset flex flex-col sm:flex-row">
+          <li class="flex mb-2">
+            <a href="/feed.xml" class="hover:underline hover:text-pink-500"
+              >RSS</a
+            >
+            <span class="mx-2 hidden sm:inline-block">•</span>
+          </li>
+          <li class="flex mb-2">
+            <a href="/sitemap.xml" class="hover:underline hover:text-pink-500"
+              >Sitemap</a
+            >
+            <span class="mx-2 hidden sm:inline-block">•</span>
+          </li>
+          <li class="flex mb-2">
+            <a
+              href="https://twitter.com/samwarnick"
+              class="flex items-center hover:underline hover:text-pink-500"
+              >Twitter<svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-1"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
+                />
+                <path
+                  d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <p class="">Copyright 2016 – 2021 Sam Warnick</p>
+    </footer>
+  </body>
+</html>
