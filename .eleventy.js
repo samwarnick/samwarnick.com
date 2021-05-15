@@ -1,6 +1,7 @@
 const localImageTransform = require("./transforms/local-image-transform");
 const prettierTransform = require("./transforms/prettier-transform");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const convertHtmlToAbsoluteUrls = require("@11ty/eleventy-plugin-rss/src/htmlToAbsoluteUrls");
 
 const posthtml = require("posthtml");
 const urls = require("posthtml-urls");
@@ -15,12 +16,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
     eleventyConfig.addCollection("posts", (collection) => {
-        const isDev = process.env.ELEVENTY_ENV === "development";
-        let paths = ["./src/posts/**/*.md"];
-        if (isDev) {
-            paths.push("./src/posts/_drafts/**/*.md");
-        }
-        return collection.getFilteredByGlob(paths);
+        const posts = collection.getFilteredByGlob(["./src/posts/**/*.md"]);
+        return posts;
     });
 
     eleventyConfig.addWatchTarget("./_tmp/styles.css");

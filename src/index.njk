@@ -1,5 +1,5 @@
 ---
-layout: "layouts/base"
+layout: base
 pagination:
   data: collections.posts
   size: 5
@@ -16,7 +16,6 @@ pagination:
     </a>
     <h3 class="!mt-0 !text-gray-500 text-xl md:text-2xl">{{ post.data.subtitle }}</h3>
     <div class="mt-2 flex text-gray-400 items-center">
-      <!-- {% include '_calendar.njk' %} -->
       {% if post.data.date %}
       <time class="text-sm text-gray-600" datetime="{{ post.data.date.toISOString() }}">{{ post.data.date.toLocaleDateString(undefined, {year: 'numeric', month: 'long', day: 'numeric'}) }}</time>
       {% else %}

@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "build": "eleventy",
+        "build": "ELEVENTY_ENV=production NODE_ENV=production postcss src/styles.css --o _tmp/styles.css && node hack.js && eleventy",
         "watch": "eleventy --watch",
         "serve": "ELEVENTY_ENV=development eleventy --serve & postcss src/styles.css --o _tmp/styles.css --watch",
         "start": "eleventy --serve",

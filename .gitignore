@@ -2,3 +2,5 @@ node_modules
 _site
 _tmp
 .nova
+.DS_Store
+src/.eleventyignore
