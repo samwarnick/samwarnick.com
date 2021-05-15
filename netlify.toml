@@ -4,3 +4,6 @@
   
 [build.processing.html]
   pretty_urls = true
+  
+[build.environment]
+  NODE_VERSION = "14"
