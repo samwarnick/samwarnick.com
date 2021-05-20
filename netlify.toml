@@ -7,3 +7,20 @@
   
 [build.environment]
   NODE_VERSION = "14"
+  
+[[redirects]]
+  from = "/contact"
+  to = "/"
+  status = 302
+  
+[[redirects]]
+  from = "/wp-login.php"
+  to = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  
+[[redirects]]
+  from = "/wp-admin"
+  to = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+[[redirects]]
+  from = "/.env"
+  to = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
