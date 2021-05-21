@@ -61,6 +61,14 @@ module.exports = {
                             marginLeft: "auto",
                             marginRight: "auto",
                         },
+                        code: {
+                            "&::before": {
+                                display: "none",
+                            },
+                            "&::after": {
+                                display: "none",
+                            },
+                        },
                     },
                 },
             }),

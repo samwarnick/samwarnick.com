@@ -47,7 +47,9 @@ pagination:
     {% endif %}
   </ol>
   {% if pagination.href.next %}
-  <a href="{{ pagination.href.next }}" class="button md:hidden">Older Posts</a>
+  <div class="flex justify-center">
+    <a href="{{ pagination.href.next }}" class="button md:hidden">Older Posts</a>
+  </div>
   {% endif %}
 </nav>
 
