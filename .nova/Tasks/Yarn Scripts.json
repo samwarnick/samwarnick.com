@@ -1,0 +1,12 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "yarn dev"
+    }
+  },
+  "environment" : {
+    "FONTAWESOME_TOKEN" : "7EB84675-9ED8-4729-850A-DD9550B6DBFD"
+  },
+  "identifier" : "AE2B28EE-9A33-4E34-8686-44CA84B2C7D0"
+}
