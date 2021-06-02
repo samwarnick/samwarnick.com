@@ -1,6 +1,9 @@
 ---
 title: Thoughts on Steal Like an Artist
 htmlTitle: Thoughts on <cite>Steal Like an Artist</cite>
+date: 2021-05-28T08:45:00-5:00
+description: "In a world where no idea is original, what's the point of trying to create something new?"
+categories: [books] 
 ---
 
 ![Drawing of Steal Like an Artist](./steal-like-an-artist.png){width=200}
