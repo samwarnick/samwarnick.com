@@ -4,3 +4,4 @@ _tmp
 .nova
 **/.DS_Store
 src/.eleventyignore
+*.icloud
