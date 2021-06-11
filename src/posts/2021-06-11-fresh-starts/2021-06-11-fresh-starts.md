@@ -9,7 +9,7 @@ categories: [productivity]
 
 With years, months, weeks, days, our calendar continually gives us chances to reset, restart, adjust, or whatever else we need to do. As silly as it is, even WWDC feels like a chance for me to start fresh. As WWDC comes and goes each year, I'm always left feeling excited and aspirational about building new apps. I've especially needed that feeling this year.
 
-[I was really hopeful for 2021](/posts/year-of-momentum). I was excited to build on all the good habits and routines I had developed. Well, one house construction project, a move, and a new baby later, I felt like I had hit a brick wall. For a long time, the only focus I was tracking in my [app](https://focuses.app) was "Survive." I had stopped working on my app, exercising, waking up early, and more. I felt like all I could do was not collapse on myself like a dying star.
+[I was really hopeful for 2021](/posts/the-year-of-momentum-and-the-season-of-survival/). I was excited to build on all the good habits and routines I had developed. Well, one house construction project, a move, and a new baby later, I felt like I had hit a brick wall. For a long time, the only focus I was tracking in my [app](https://focuses.app) was "Survive." I had stopped working on my app, exercising, waking up early, and more. I felt like all I could do was not collapse on myself like a dying star.
 
 Things are finally starting looking up though. Over the past couple of months, I've been able to carve out a bit of time to reintroduce "regular" "exercise" and I've also started waking up earlier again to work on my projects.
 
