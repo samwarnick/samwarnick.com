@@ -6,6 +6,7 @@ const convertHtmlToAbsoluteUrls = require("@11ty/eleventy-plugin-rss/src/htmlToA
 const posthtml = require("posthtml");
 const urls = require("posthtml-urls");
 const path = require("path");
+const slugify = require("slugify");
 
 const now = String(Date.now());
 
@@ -28,6 +29,15 @@ module.exports = function (eleventyConfig) {
         "./src/icons": "./",
     });
     eleventyConfig.addPassthroughCopy("./src/robots.txt");
+
+    eleventyConfig.addFilter("slug", (input) => {
+        const options = {
+            replacement: "-",
+            remove: /[&,+()$~%.'":*?<>{}]/g,
+            lower: true,
+        };
+        return slugify(input, options);
+    });
 
     let markdownIt = require("markdown-it");
     const markdownItFootnote = require("markdown-it-footnote");

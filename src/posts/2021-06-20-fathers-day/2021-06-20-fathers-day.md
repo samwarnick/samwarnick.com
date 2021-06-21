@@ -1,11 +1,11 @@
 ---
-title: Happy Father's Day
+title: Father's Day
 date: 2021-06-20T22:00:00-5:00
 description: Being a dad is really hard.
 categories: [personal]
 ---
 
-I love being a dad. I even like being a dad most of the time. After 4 years though, I sometimes still wonder what in the world I have gotten myself into. It's really hard. I'm tired. All the time. My 4 year-old often reminds me that I'm just a tired dad. It can even be terrifying, knowing that I'm responsible for a couple actual, real-life human beings. That's a lot of responsibility! Being a dad is very humbling. 
+I love being a dad. I even like being a dad most of the time. After 4 years though, I sometimes still wonder what in the world I have gotten myself into. It's really hard. I'm tired. All the time. My 4 year-old often reminds me that I'm just a tired dad. It can even be terrifying, knowing that I'm responsible for a couple actual, real-life human beings. That's a lot of responsibility! Being a dad is very humbling.
 
 I try my hardest to be a good dad, but some days are just not that great. Sometimes I don't want to play with my kids. Sometimes I want to go to the bathroom without anyone watching me. Sometimes I get mad and yell. I know I shouldn't, but after long days of listening to stomping, slamming doors, "No," "I won't," "I refuse," and crying about not being able to use the clear tape, the rational part of my brain shuts down. I always feel bad when I shout, but I'm also amazed at how easily my daughter forgives and forgets[^1].
 

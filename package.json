@@ -27,6 +27,7 @@
         "postcss-cli": "^8.3.1",
         "prettier": "^2.2.1",
         "remark": "^13.0.0",
+        "slugify": "^1.5.3",
         "tailwindcss": "^2.1.2"
     }
 }
