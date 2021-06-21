@@ -1,6 +1,6 @@
 ---
 title: Happy Father's Day
-date: 2021-06-20T22:00-5:00
+date: 2021-06-20T22:00:00-5:00
 description: Being a dad is really hard.
 categories: [personal]
 ---
