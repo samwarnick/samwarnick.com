@@ -10,7 +10,7 @@ permalink: "/index.html"
 As my daughter says, I'm just a tired dad, with a tired name, **Sam Warnick**. I'm a software developer in Beaufort, SC.
 </div>
 
-# Some things I do
+# **Some things I do**{.text-xl .font-semibold}
 
 -   [I have an iOS app I work on occasionally](https://apps.apple.com/us/app/focuses/id1492385864?ls=1). It's called Focuses and is meant to help you...focus.
 -   I created and maintain a plugin for [Obsidian](https://obsidian.md) called [Simple Embeds](https://github.com/samwarnick/obsidian-simple-embeds).
