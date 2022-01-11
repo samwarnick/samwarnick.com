@@ -1,9 +1,7 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-    mode: "jit",
-    purge: ["./src/**/*.njk", "./src/**/*md", ".eleventy.js"],
-    darkMode: false, // or 'media' or 'class'
+    content: ["./src/**/*.njk", "./src/**/*md", ".eleventy.js"],
     theme: {
         fontFamily: {
             sans: ["'Merriweather Sans'", "sans-serif"],
@@ -21,7 +19,7 @@ module.exports = {
                     800: "hsl(197, 39%, 8%)",
                     900: "hsl(197, 39%, 3%)",
                 },
-                gray: colors.blueGray,
+                gray: colors.slate,
                 orange: colors.orange,
             },
             typography: (theme) => ({
@@ -73,9 +71,6 @@ module.exports = {
                 },
             }),
         },
-    },
-    variants: {
-        extend: {},
     },
     plugins: [
         require("@tailwindcss/typography")({

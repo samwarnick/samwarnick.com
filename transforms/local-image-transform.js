@@ -3,17 +3,14 @@ const fs = require("fs");
 const glob = require("glob");
 
 module.exports = function (content, outputPath) {
-    const template = this;
-
     console.warn(
-        `TRANSFORM - input: ${template.inputPath}, output: ${outputPath}`,
+        `TRANSFORM - input: ${this.inputPath}, output: ${outputPath}`,
     );
 
     const outputDir = path.dirname(outputPath);
-    const templateDir = path.dirname(template.inputPath).replace(/^\.\//, "");
-    const templateFileName = path.basename(template.inputPath);
+    const templateDir = path.dirname(this.inputPath).replace(/^\.\//, "");
 
-    const extensionsRegex = template._config.templateFormats.join(",");
+    const extensionsRegex = "njk,md,html";
 
     const mdSearchPattern = path.join(templateDir, `**/*.{${extensionsRegex}}`);
     const mdIgnorePattern = path.join(
