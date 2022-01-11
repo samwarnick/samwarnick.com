@@ -53,7 +53,8 @@ module.exports = {
                             fontWeight: theme("fontWeight.black"),
                             marginTop: 0,
                             marginBottom: 0,
-                            fontSize: theme("fontSize.5xl"),
+                            // fontSize: theme("fontSize.5xl"),
+                            fontSize: '3rem',
                         },
                         img: {
                             marginLeft: "auto",
