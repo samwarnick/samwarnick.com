@@ -51,6 +51,8 @@ module.exports = function (eleventyConfig) {
         .use(markdownItFootnote)
         .use(markdownItExternalLinks, {
             internalClassName: "internal-link",
+            externalTarget: "_blank",
+            externalRel: "noopener noreferrer"
         })
         .use(markdownItAttrs)
         .use(markdownItPrism);
