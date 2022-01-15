@@ -1,6 +1,6 @@
 {
     "name": "samwarnick.com",
-    "version": "3.1.0",
+    "version": "3.2.0",
     "description": "",
     "scripts": {
         "build": "ELEVENTY_ENV=production NODE_ENV=production tailwindcss -i ./src/styles.css -o ./_tmp/styles.css && node hack.js && eleventy",
