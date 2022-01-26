@@ -6,9 +6,9 @@ export const handler: Handler = async (event, context) => {
   if (event.httpMethod !== "POST") {
     return { statusCode: 405, body: "Method Not Allowed" };
   }
-  if (!event.headers.authorization?.includes(EMAIL_TOKEN)) {
-    return { statusCode: 401, body: "Unauthorized" };
-  }
+  // if (!event.headers.authorization?.includes(EMAIL_TOKEN)) {
+  //   return { statusCode: 401, body: "Unauthorized" };
+  // }
   const body = paramsToObject(new URLSearchParams(event.body).entries());
   console.log(event);
   console.log(context);
