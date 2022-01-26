@@ -5,3 +5,5 @@ _tmp
 **/.DS_Store
 src/.eleventyignore
 *.icloud
+# Local Netlify folder
+.netlify
