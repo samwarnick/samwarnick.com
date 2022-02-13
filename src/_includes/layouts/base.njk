@@ -30,6 +30,10 @@ imageAlt: Sam Warnick's Blog
     <link rel="manifest" href="/manifest.webmanifest"/>
     <link rel="stylesheet" href="/assets/styles/main.css?v={% version %}"/>
     <link rel="stylesheet" href="/assets/styles/prism-tomorrow.css?v={% version %}"/>
+    <link href="https://indieauth.com/auth" rel="authorization_endpoint">
+		<link href="https://tokens.indieauth.com/token" rel="token_endpoint">
+		<link href="https://samwarnick.com/micropub" rel="micropub">
+		<link rel="me" href="mailto:sam.t.warnick@gmail.com">
     {% block head %}{% endblock %}
   </head>
   <body class="bg-rainstorm-500 wiggles grid grid-cols-[1fr,minmax(0,42rem),1fr] grid-rows-[max-content,1fr,max-content] gap-x-2 md:gap-x-5 min-h-screen">

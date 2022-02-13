@@ -8,3 +8,4 @@ src/.eleventyignore
 # Local Netlify folder
 .netlify
 .env
+lambda
