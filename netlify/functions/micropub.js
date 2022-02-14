@@ -82,7 +82,7 @@ const micropubFn = async (event) => {
         process.env.CONTENT_DIR,
         process.env.CONTENT_PATH
       );
-      return Response.sendLocation(`${process.env.ME}${path}`);
+      return Response.sendLocation(`${process.env.ME}/posts`);
     }
     return Response.send(204);
   }

@@ -18,7 +18,8 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addCollection("posts", (collection) => {
         const posts = collection.getFilteredByGlob(["./src/posts/**/*.md"]);
-        return posts;
+        const articles = collection.getFilteredByGlob(["./src/content/articles/**/*.md"]);
+        return [...posts, ...articles];
     });
 
     eleventyConfig.addWatchTarget("./_tmp/styles.css");
