@@ -13,7 +13,7 @@ With years, months, weeks, days, our calendar continually gives us chances to re
 
 Things are finally starting looking up though. Over the past couple of months, I've been able to carve out a bit of time to reintroduce "regular" "exercise" and I've also started waking up earlier again to work on my projects.
 
-![Liz Lemon walking slowly on treadmill](https://media.giphy.com/media/3osxYcX9aas2p81CiQ/giphy.gif){width: 300}
+![Liz Lemon walking slowly on treadmill](https://media.giphy.com/media/3osxYcX9aas2p81CiQ/giphy.gif){width=300}
 
 There's still hiccups, but each week is a chance to do better than the last. WWDC has gotten me excited about working Focuses again and a couple other app ideas I have. I'm now starting to feel like I don't have enough time to do the things I _want_ to do instead of not having enough time to do the things I _need_ to do. That's a pretty good feeling.
 
