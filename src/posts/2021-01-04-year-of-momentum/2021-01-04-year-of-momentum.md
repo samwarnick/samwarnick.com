@@ -1,6 +1,6 @@
 ---
 title: "The Year of Momentum and the Season of Survival"
-date: 2021-01-04T07:40:00-5:00
+date: 2021-01-04T07:45:00-5:00
 description: "I want to keep going on the good things I started in 2020. I'm still figuring out what that means exactly."
 categories: [personal]
 ---
