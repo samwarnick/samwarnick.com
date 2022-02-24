@@ -5,7 +5,7 @@ date: '2022-02-24T20:45:27.664Z'
 ---
 I've been experimenting more with how I can handle managing my small side projects in Obsidian. More on that another time, but one piece I wanted was the ability to quickly and easily scaffold out a new project—which for me is multiple directories with some default notes.
 
-I found that [Templater](https://silentvoid13.github.io/Templater/introduction.html) can run scripts when the file is created. I was able to make a script that will create multiple folders and notes at once. Since Templater's `move` and `create_new` functions cannot handle missing folders in a path, I needed to find a way to create folders. Luckily the Obsidian `app` is exposed and there is an API for that[^1].
+I found that [Templater](https://silentvoid13.github.io/Templater/introduction.html) can run scripts when the file is created. This [post](http://www.macdrifter.com/2021/08/obsidian-templater-fun.html) was very helpful in getting me started, and helping me understand what might be possible. I was able to make a script that will create multiple folders and notes at once. Since Templater's `move` and `create_new` functions cannot handle missing folders in a path, I needed to find a way to create folders. Luckily the Obsidian `app` is exposed and there is an API for that[^1].
 
 Here's the final script in my template file:
 
