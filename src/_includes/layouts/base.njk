@@ -7,7 +7,7 @@ imageAlt: Sam Warnick's Blog
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{% if title.length %}{{ title }} | {% endif %}Sam Warnick</title>
+    <title>{% if title.length %}{{ title }} - {% endif %}Sam Warnick</title>
     <meta charset="UTF-8"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -39,14 +39,16 @@ imageAlt: Sam Warnick's Blog
     {% block head %}{% endblock %}
   </head>
   <body class="bg-rainstorm-500 wiggles grid grid-cols-[1fr,minmax(0,42rem),1fr] grid-rows-[max-content,1fr,max-content] gap-x-2 md:gap-x-5 min-h-screen">
-    <header class="text-gray-50 font-sans m-8 flex flex-col sm:flex-row justify-between items-center col-span-3">
-      <a href="/"><h1 class="text-xl sm:text-3xl font-black hover:text-pink-500 transition bg-rainstorm-500 p-2 mb-2 sm:mb-0">Sam Warnick</h1></a>
-      <ol class="flex flex-col md:flex-row items-center">
-        <li><a href="/posts" class="button mr-2">Posts</a></li>
-        <li><a href="https://lilyandsam.show" target="_blank" rel="noopener noreferrer" class="button mt-3 md:mt-0">The Lily & Sam Show<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-300 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-        </svg></a></li>
-      </ol>
+    <header class="text-gray-50 font-sans m-8 col-span-3">
+      <nav class="flex flex-col sm:flex-row justify-between items-center" aria-label="Primary">
+        <a href="/"><h1 class="text-xl sm:text-3xl font-black hover:text-pink-500 transition bg-rainstorm-500 p-2 mb-2 sm:mb-0">Sam Warnick</h1></a>
+        <ul class="flex flex-col md:flex-row items-center">
+          <li><a href="/posts" class="button mr-2">Posts</a></li>
+          <li><a href="https://lilyandsam.show" target="_blank" rel="noopener noreferrer" class="button mt-3 md:mt-0">The Lily & Sam Show<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-300 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg></a></li>
+        </ul>
+      </nav>
     </header>
     <main class="col-start-2">
       {% block content %}
@@ -54,22 +56,22 @@ imageAlt: Sam Warnick's Blog
       {% endblock %}
     </main>
     <footer class="font-light text-sm text-gray-300 flex flex-col p-8 items-center col-span-3">
-      <nav class="mb-4">
+      <nav class="mb-4" ario-label="Site">
         <ul class="list-reset flex flex-col sm:flex-row">
           <li class="flex mb-2">
             <a href="/feed.xml" class="hover:underline hover:text-pink-500">RSS</a>
-            <span class="mx-2 hidden sm:inline-block">•</span>
+            <span class="mx-2 hidden sm:inline-block" aria-hidden="true">•</span>
           </li>
           <li class="flex mb-2">
             <a href="/sitemap.xml" class="hover:underline hover:text-pink-500">Sitemap</a>
-            <span class="mx-2 hidden sm:inline-block">•</span>
+            <span class="mx-2 hidden sm:inline-block" aria-hidden="true">•</span>
           </li>
           <li class="flex mb-2">
             <a href="https://twitter.com/samwarnick" target="_blank" rel="noopener noreferrer" class="flex items-center hover:underline hover:text-pink-500">Twitter<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
               <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
               <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
             </svg></a>
-            <span class="mx-2 hidden sm:inline-block">•</span>
+            <span class="mx-2 hidden sm:inline-block" aria-hidden="true">•</span>
           </li>
           <li class="flex mb-2">
             <a href="https://github.com/samwarnick" target="_blank" rel="noopener noreferrer" class="flex items-center hover:underline hover:text-pink-500">GitHub<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
