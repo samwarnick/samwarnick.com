@@ -5,7 +5,13 @@ permalink: "/index.html"
 ---
 
 <div class="flex flex-col sm:flex-row items-center gap-4 border-b">
-<img src="./profile.jpg" alt="Picture of Sam Warnick" height="150" width="150" class="rounded-full shadow"></img>
+<div class="flex-shrink-0 m-2 h-[130px] w-[130px] relative">
+    <img src="./profile.jpg" alt="Picture of Sam Warnick" class="m-0 rounded-full h-full w-full absolute inset-0"></img>
+    <div class="rounded-full shadow-md shadow-pink-400/60 h-full w-full absolute inset-0 rotate-[110deg] motion-safe:animate-[spin-110_10s_linear_infinite] mix-blend-multiply"></div>
+    <div class="rounded-full shadow-md shadow-orange-300/60 h-full w-full absolute inset-0 rotate-[300deg] motion-safe:animate-[spin-300_15s_ease-in-out_infinite] mix-blend-multiply"></div>
+    <div class="rounded-full shadow-md shadow-cyan-400/50 h-full w-full absolute inset-0 rotate-[0deg] motion-safe:animate-[spin_8s_linear_infinite_reverse] mix-blend-lighten"></div>
+    <div class="rounded-full shadow-md shadow-cyan-400/60 h-full w-full absolute inset-0 rotate-[180deg] motion-safe:animate-[spin-180_8s_linear_infinite_reverse] mix-blend-multiply"></div>
+</div>
 
 As my daughter says, I'm just a tired dad, with a tired name, **Sam Warnick**. I'm a software developer in Beaufort, SC.
 </div>
