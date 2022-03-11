@@ -68,6 +68,10 @@ module.exports = {
                 display: "none",
               },
             },
+            figcaption: {
+              textAlign: "center",
+              fontStyle: "italic",
+            },
           },
         },
       }),
@@ -81,9 +85,9 @@ module.exports = {
           "100%": { transform: "rotate(469deg)" },
         },
         "spin-180": {
-            "0%": { transform: "rotate(180deg)" },
-            "100%": { transform: "rotate(539deg)" },
-          },
+          "0%": { transform: "rotate(180deg)" },
+          "100%": { transform: "rotate(539deg)" },
+        },
         "spin-300": {
           "0%": { transform: "rotate(300deg)" },
           "100%": { transform: "rotate(659deg)" },
