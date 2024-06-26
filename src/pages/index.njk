@@ -1,0 +1,38 @@
+---
+layout: layouts/base
+title: Sam Warnick
+permalink: index.html
+---
+
+{% set latestPosts = collections.posts | reverse %}
+
+<div class="content-grid post-content">
+	<h1>Sam Warnick</h1>
+	<ul>
+		<li><a href="/about">/about</a></li>
+		<li><a href="/uses">/uses</a></li>
+		<li><a href="/now">/now</a></li>
+		<li><a href="/ideas">/ideas</a></li>
+		<li><a href="https://social.warnick.me/@sam" target="_blank" rel="me noopener noreferrer" class="icon-link">Mastodon<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
+                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
+                  </svg></a></li>
+	</ul>
+</div>
+
+<section class="content-grid post-content">
+	<h2>Previously on the blog</h2>
+	{% set postslist = latestPosts.slice(0, 5) | reverse %}
+	{% include "components/postlist.njk" %}
+	<div class="links">
+		<a href="/archive" class="icon-link">All Posts <span class="icon">{% include "icons/chevron-right.njk" %}</span></a>
+		<a href="/tags" class="icon-link">All Tags <span class="icon">{% include "icons/chevron-right.njk" %}</span></a>
+	</div >
+</section>
+
+<section class="content-grid post-content">
+	<h2>Projects</h2>
+	<ul>
+		<li><a href="https://screencred.app">ScreenCred</a></li>
+	</ul>
+</section>
