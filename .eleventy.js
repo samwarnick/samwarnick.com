@@ -1,5 +1,6 @@
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import eleventyPluginOgImage from "eleventy-plugin-og-image";
+import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
 import fs from "fs";
 import { DateTime } from "luxon";
 
@@ -45,6 +46,7 @@ export default async function (eleventyConfig) {
 
 	eleventyConfig.setLibrary("md", markdownLib);
 
+	eleventyConfig.addPlugin(lightningCSS);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(eleventyPluginOgImage, {
 		satoriOptions: {
@@ -87,8 +89,7 @@ export default async function (eleventyConfig) {
 	});
 
 	eleventyConfig.addPassthroughCopy("src/media");
-	eleventyConfig.addPassthroughCopy("src/assets");
-	eleventyConfig.addPassthroughCopy("src/public", "/");
+	eleventyConfig.addPassthroughCopy("src/assets/fonts");
 
 	eleventyConfig.addCollection("posts", function (collectionApi) {
 		return collectionApi.getFilteredByGlob("src/content/**/*.md");
