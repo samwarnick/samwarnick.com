@@ -13,7 +13,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@11ty/eleventy": "^1.0.0",
+        "@11ty/eleventy": "^2.0.1",
         "@11ty/eleventy-plugin-rss": "^1.1.1",
         "@middy/core": "^2.5.1",
         "@middy/http-error-handler": "^2.5.1",
