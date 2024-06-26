@@ -5,17 +5,20 @@ layout: layouts/base
 <header class="content-grid post-header">
 	<h1>{{ title }}</h1>
 	<div class="metadata">
-		<span class="icon">{% include "icons/calendar.njk" %}</span><time datetime="{{page.date}}">{{page.date | formattedDate }}</time>
+		<span class="icon">{% include "icons/calendar.njk" %}</span
+		><time datetime="{{page.date}}">{{page.date | formattedDate }}</time>
 	</div>
 	{% if tags %}
 	<div class="metadata">
-		{%- for tag in tags %}
-		{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-		<span class="icon">{% include "icons/hashtag.njk" %}</span><a href="{{tagUrl}}">{{tag}}</a>
+		{%- for tag in tags %} {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset
+		%}
+		<span class="icon">{% include "icons/hashtag.njk" %}</span
+		><a href="{{tagUrl}}">{{tag}}</a>
 		{% endfor %}
 	</div>
 	{% endif %}
-	<hr class="content-bump">
+	<hr class="content-bump" />
 </header>
 
 <article class="content-grid post-content">{{content | safe}}</article>
+<div class="content-grid">{% include "components/signature.njk" %}</div>

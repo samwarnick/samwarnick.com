@@ -340,3 +340,9 @@ a,
 	gap: 0.5em;
 	margin-bottom: 1em;
 }
+
+.signature {
+	width: 80px;
+	color: var(--accent-text);
+	margin: 1em;
+}
