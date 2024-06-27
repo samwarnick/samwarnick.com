@@ -20,7 +20,7 @@ permalink: atom.xml
 			<title>{{ post.data.title }}</title>
 			<link href="{{ absolutePostUrl }}" />
 			<updated>{{ post.date | dateToRfc3339 }}</updated>
-			<id>{{ post.data.oldUrl or absolutePostUrl }}</id>
+			<id>{{ absolutePostUrl }}</id>
 			<content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
 		</entry>
 	{%- endfor %}
