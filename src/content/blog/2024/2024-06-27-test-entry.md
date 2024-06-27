@@ -5,7 +5,7 @@ summary: This is a test
 tags:
   - Test
   - Hello
-published: false
+published: true
 ---
 Hello this is a test.
 
