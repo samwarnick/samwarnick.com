@@ -1,0 +1,40 @@
+ul.post-list[role="list"] {
+	padding: 0;
+	list-style-type: none;
+
+	a {
+		display: grid;
+		grid-template-columns: auto 1fr auto;
+		align-items: center;
+		gap: 0.3em;
+		text-decoration: none;
+		color: black;
+	}
+
+	h3 {
+		font-size: 1em;
+		font-weight: normal;
+		text-overflow: ellipsis;
+		overflow-x: hidden;
+		white-space: nowrap;
+		font-family: var(--font-sans);
+		color: var(--primary-text);
+		margin: 0;
+	}
+
+	hr {
+		border: 0;
+		border-bottom: 1px dotted var(--secondary-text);
+		height: 1px;
+		align-self: end;
+		margin-bottom: var(--spacing);
+		opacity: 0.5;
+		min-width: 20px;
+		grid-column: auto;
+	}
+
+	time {
+		font-variant-numeric: tabular-nums;
+		align-self: end;
+	}
+}
