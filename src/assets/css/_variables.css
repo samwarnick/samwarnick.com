@@ -7,8 +7,18 @@
 	--background-color: #faf4ed;
 	--primary-text: black;
 	--secondary-text: #575279;
+	--accent-color: #2d81a3;
 	--site-padding: 1em;
 	--spacing: 0.5em;
 	--spacing-more: 1em;
 	--border-radius: 0.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background-color: #152528;
+		--primary-text: #e6eaea;
+		--secondary-text: #e6eaea;
+		--accent-color: #fdb292;
+	}
 }

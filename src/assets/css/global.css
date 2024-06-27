@@ -12,7 +12,7 @@
 @import "_archive.css";
 
 *:focus-visible {
-	outline: 2px solid black;
+	outline: 2px solid var(--accent-color);
 	outline-offset: 0.25rem;
 	border-radius: 0.125rem;
 }
@@ -52,7 +52,7 @@ p {
 a,
 .link {
 	color: var(--primary-text);
-	text-decoration-color: #2d81a3;
+	text-decoration-color: var(--accent-color);
 	text-decoration-line: underline;
 	text-decoration-style: dotted;
 	text-decoration-thickness: 2px;
