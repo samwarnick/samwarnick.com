@@ -34,6 +34,7 @@ ul.post-list[role="list"] {
 	}
 
 	time {
+		color: var(--primary-text);
 		font-variant-numeric: tabular-nums;
 		align-self: end;
 	}
