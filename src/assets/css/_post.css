@@ -89,6 +89,10 @@
 			0 2px 4px -2px rgb(0 0 0 / 0.1);
 	}
 
+	.narrow .html5-video-player {
+		max-width: 350px;
+	}
+
 	.footnotes {
 		font-size: 0.8em;
 	}
