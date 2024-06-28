@@ -6,5 +6,6 @@ layout: layouts/page
 
 - og images
 - favicon
-- redirects
 - improved projects
+- move todos to GitHub issues and generate page
+- Update slash pages
