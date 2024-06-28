@@ -1,0 +1,15 @@
+---
+permalink: ../_redirects
+layout: false
+eleventyExcludeFromCollections: true
+---
+
+{%- for post in collections.posts -%}
+	{%- if post.data.oldUrl -%}
+	{%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) -%}
+		{{post.data.oldUrl | removeSite }} {{absolutePostUrl}} {{ '301' }}
+		{%- if not loop.last -%}
+		  {{ '\n' }}
+		{%- endif -%}
+	{%- endif -%}
+{%- endfor -%}
