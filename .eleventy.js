@@ -91,6 +91,9 @@ export default async function (eleventyConfig) {
 		}
 		return Array.from(tagSet);
 	});
+	eleventyConfig.addFilter("removeSite", function (url) {
+		return url.replace("https://samwarnick.com", "");
+	});
 
 	eleventyConfig.addPassthroughCopy("src/media");
 	eleventyConfig.addPassthroughCopy("src/assets/fonts");
