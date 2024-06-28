@@ -72,7 +72,6 @@ I'll keep making it as long as she wants to.
 My daughter wanted to help me type this. So the following is typed by her:
 
 > /.l  l., ÷¬;l¬…÷ln,no.,,;/,jllj
-
 > ,g.,/on/j
 
 Thanks for reading!

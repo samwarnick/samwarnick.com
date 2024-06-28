@@ -4,7 +4,7 @@ date: '2023-04-02T11:00'
 oldUrl: 'https://samwarnick.com/2023/4/re-youre-not-lazy'
 ---
 
-https://youtu.be/A2sS00egAzg
+<iframe src="https://www.youtube-nocookie.com/embed/A2sS00egAzg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Someone shared this video on Mastodon the other day. It really got me thinking. Basically, I'm trying to figure out if I'm working with or against my brain.
 

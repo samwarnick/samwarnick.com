@@ -7,6 +7,7 @@ import { DateTime } from "luxon";
 import MarkdownIt from "markdown-it";
 import MarkdownItFootnote from "markdown-it-footnote";
 import MarkdownItGitHubAlerts from "markdown-it-github-alerts";
+import MarkdownItAttrs from "markdown-it-attrs";
 import Shiki from "@shikijs/markdown-it";
 
 /** @param {import('@11ty/eleventy/src/UserConfig').default} eleventyConfig */
@@ -26,7 +27,8 @@ export default async function (eleventyConfig) {
 			}),
 		)
 		.use(MarkdownItGitHubAlerts)
-		.use(MarkdownItFootnote);
+		.use(MarkdownItFootnote)
+		.use(MarkdownItAttrs);
 
 	markdownLib.renderer.rules.footnote_anchor = (
 		tokens,

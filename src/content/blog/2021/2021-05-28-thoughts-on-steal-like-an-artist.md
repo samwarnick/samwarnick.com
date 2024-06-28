@@ -1,5 +1,5 @@
 ---
-title: Thoughts on _Steal Like an Artist_
+title: Thoughts on Steal Like an Artist
 date: '2021-05-28T10:00'
 summary: >-
   In a world where no idea is original, what's the point of trying to create
@@ -7,7 +7,7 @@ summary: >-
 oldUrl: 'https://samwarnick.com/2021/5/thoughts-on-steal-like-an-artist'
 ---
 
-![Drawing of Steal Like an Artist](/media/2021-05-28-steal-like-an-artist.png){width=200}
+![Drawing of Steal Like an Artist](/media/2021-05-28-steal-like-an-artist.png){width=200 .dark-invert}
 
 I have long believed that I have never and will never come up with an original idea. Nothing is truly original. Every ideas has been had before. In _Steal Like an Artist_, Austin Kleon talks about how everything new builds on what has come before it. New ideas take bits and pieces from other ideas and combine them into something new. If we steal many good things from a variety of people, we are able to combine them into something worthy of being stolen by someone else; We create our own voice.
 
