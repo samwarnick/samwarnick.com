@@ -20,7 +20,7 @@
 html {
 	background-color: var(--background-color);
 	font-size: clamp(1rem, 0.8696rem + 0.6522vi, 1.375rem);
-	scroll-padding-top: 5rem; /* roughly header height */
+	scroll-padding-top: 7rem; /* roughly header height */
 }
 
 body {
@@ -46,7 +46,6 @@ h4 {
 
 p {
 	margin-block: var(--spacing);
-	text-wrap: p;
 }
 
 a,

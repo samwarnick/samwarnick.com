@@ -65,10 +65,12 @@
 		}
 	}
 
-	blockquote {
+	blockquote,
+	.markdown-alert {
+		--_color: var(--secondary-text);
 		font-style: italic;
 		grid-column: bump;
-		border: 1px solid var(--secondary-text);
+		border: 1px solid var(--_color);
 		padding: 0.5em 1em;
 		border-radius: var(--border-radius);
 		border-left-width: 4px;
@@ -76,6 +78,26 @@
 		box-shadow:
 			0 4px 6px -1px rgb(0 0 0 / 0.1),
 			0 2px 4px -2px rgb(0 0 0 / 0.1);
+	}
+
+	.markdown-alert {
+		font-style: normal;
+	}
+
+	.markdown-alert-note {
+		--_color: var(--accent-color);
+	}
+
+	.markdown-alert-title {
+		display: flex;
+		color: var(--_color);
+		align-items: center;
+		gap: 0.2em;
+
+		svg {
+			fill: currentColor;
+			margin-bottom: 0.15em;
+		}
 	}
 
 	iframe {
