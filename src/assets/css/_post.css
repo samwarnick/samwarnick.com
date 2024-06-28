@@ -12,7 +12,7 @@
 
 .post-content {
 	hr {
-		grid-column: bump;
+		grid-column: wide;
 	}
 
 	img,
@@ -29,7 +29,6 @@
 		padding: var(--spacing) calc(var(--spacing) * 2);
 		border-radius: var(--border-radius);
 		overflow: scroll;
-		grid-column: bump;
 		tab-size: 2ch;
 		box-shadow:
 			0 4px 6px -1px rgb(0 0 0 / 0.1),
@@ -82,6 +81,8 @@
 
 	.markdown-alert {
 		font-style: normal;
+		margin-bottom: var(--spacing-more);
+		font-size: 0.8em;
 	}
 
 	.markdown-alert-note {
