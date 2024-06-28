@@ -6,6 +6,5 @@ layout: layouts/page
 
 - og images
 - favicon
-- find missing images
 - redirects
 - improved projects

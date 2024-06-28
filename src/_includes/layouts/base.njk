@@ -29,6 +29,10 @@
 			{{ title or metadata.title }}{% if title !== 'Sam Warnick' %} • Sam
 			Warnick{% endif %}
 		</title>
+		<link rel="preload" href="/assets/fonts/Atkinson-Hyperlegible-Regular-102.woff" as="font" crossorigin="anonymous" />
+		<link rel="preload" href="/assets/fonts/Atkinson-Hyperlegible-Italic-102.woff" as="font" crossorigin="anonymous" />
+		<link rel="preload" href="/assets/fonts/Atkinson-Hyperlegible-Bold-102.woff" as="font" crossorigin="anonymous" />
+		<link rel="preload" href="/assets/fonts/Calistoga-Regular.ttf" as="font" crossorigin="anonymous" />
 		<link
 			rel="stylesheet"
 			href="/assets/css/global.css?{% timestamp %}"
