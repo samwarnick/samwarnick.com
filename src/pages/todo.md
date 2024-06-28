@@ -5,6 +5,6 @@ layout: layouts/page
 ---
 
 - og images
-- favicon
-- move todos to GitHub issues and generate page
+	- Allow content to override
+- Move todos to GitHub issues and generate page
 - Update slash pages
