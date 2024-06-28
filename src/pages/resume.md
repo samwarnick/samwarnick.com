@@ -1,5 +1,6 @@
 ---
 title: Résumé
+permalink: resume/index.html
 layout: layouts/page
 ---
 

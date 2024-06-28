@@ -99,10 +99,13 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/assets/fonts");
 
 	eleventyConfig.addCollection("posts", function (collectionApi) {
-		return collectionApi.getFilteredByGlob("src/content/**/*.md");
+		return collectionApi.getFilteredByGlob("src/content/blog/**/*.md");
+	});
+	eleventyConfig.addCollection("currentProjects", function (collectionApi) {
+		return collectionApi.getFilteredByGlob("src/content/projects/**/*.md");
 	});
 	eleventyConfig.addCollection("postsByYear", function (collectionApi) {
-		const posts = collectionApi.getFilteredByGlob("src/content/**/*.md");
+		const posts = collectionApi.getFilteredByGlob("src/content/blog/**/*.md");
 		const years = posts.map((post) => post.date.getFullYear());
 		const uniqueYears = [...new Set(years)];
 
@@ -117,7 +120,7 @@ export default async function (eleventyConfig) {
 		return postByYear;
 	});
 	eleventyConfig.addCollection("Devlog", function (collectionApi) {
-		const posts = collectionApi.getFilteredByGlob("src/content/**/*.md");
+		const posts = collectionApi.getFilteredByGlob("src/content/blog/**/*.md");
 
 		return posts.filter((post) => post.data.tags.includes("Devlog"));
 	});

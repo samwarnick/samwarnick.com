@@ -105,3 +105,11 @@ hr {
 	margin: var(--spacing-more);
 	grid-column: bump;
 }
+
+.center {
+	margin: auto;
+}
+
+.more-margin {
+	margin-block: var(--spacing-more);
+}

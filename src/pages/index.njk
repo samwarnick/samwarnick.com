@@ -55,6 +55,8 @@ permalink: index.html
 <section class="content-grid post-content">
 	<h2>Projects</h2>
 	<ul>
-		<li><a href="https://screencred.app">ScreenCred</a></li>
+		{%- for project in collections.currentProjects -%}
+		<li><a href="{{project.url}}">{{project.data.title}}</a></li>
+		{%- endfor -%}
 	</ul>
 </section>
