@@ -3,4 +3,3 @@ _site
 .DS_Store
 .env
 .zed
-_redirects
