@@ -1,0 +1,18 @@
+---
+title: "//TODO:"
+permalink: /todo.html
+layout: layouts/page
+---
+
+<ul>
+	{%- for issue in githubIssues -%}
+	<li><a href="{{issue.html_url}}">{{issue.title}}</a></li>
+	{%- endfor -%}
+</ul>
+
+<p>
+	Got an idea or suggestion to nerd snipe me? Create a
+	<a href="https://github.com/samwarnick/samwarnick.com/issues/new"
+		>new issue on GitHub</a
+	>.
+</p>
