@@ -2,6 +2,7 @@
 title: Adventures with Templater for Obsidian
 date: '2022-02-24T10:00'
 oldUrl: 'https://samwarnick.com/2022/2/adventures-with-templater-for-obsidian'
+published: true
 ---
 
 I've been experimenting more with how I can handle managing my small side projects in Obsidian. More on that another time, but one piece I wanted was the ability to quickly and easily scaffold out a new project—which for me is multiple directories with some default notes.

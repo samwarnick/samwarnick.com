@@ -2,6 +2,7 @@
 title: How I Journal
 date: '2022-03-21T10:00'
 oldUrl: 'https://samwarnick.com/2022/3/how-i-journal'
+published: true
 ---
 
 I recently hit a 365 day streak in [Day One](https://dayoneapp.com). I've never been very good at keep a journal, so it felt pretty good! I found a couple things that helped journaling stick for me:

@@ -2,6 +2,7 @@
 title: Shut Your Brain Down
 date: '2021-06-07T10:00'
 oldUrl: 'https://samwarnick.com/2021/6/shut-your-brain-down'
+published: true
 ---
 
 ![Sleeping brain](/media/2021-06-07-brain.png){width=200 .dark-invert}

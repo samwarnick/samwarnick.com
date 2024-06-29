@@ -3,6 +3,7 @@ title: Minifigs Sell
 date_published: 2024-05-06T14:00:06.000Z
 tags:
   - BrickLink
+published: true
 ---
 
 > [!NOTE]

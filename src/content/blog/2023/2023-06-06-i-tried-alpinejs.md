@@ -2,6 +2,7 @@
 title: I tried Alpine
 date: '2023-06-06T08:00'
 oldUrl: 'https://samwarnick.com/2023/6/i-tried-alpine'
+published: true
 ---
 
 As part of my little Frosthaven calculator, I gave [Alpine.js](https://alpinejs.dev) a try. I think I like it.

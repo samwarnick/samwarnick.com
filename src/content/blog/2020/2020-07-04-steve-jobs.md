@@ -2,6 +2,7 @@
 title: 'Steve Jobs, by Walter Issacson'
 date: '2020-07-04T10:00'
 oldUrl: 'https://samwarnick.com/2020/7/steve-jobs-by-walter-issacson'
+published: true
 ---
 
 Overall, I liked this book. I give it a thumbs up 👍🏻.

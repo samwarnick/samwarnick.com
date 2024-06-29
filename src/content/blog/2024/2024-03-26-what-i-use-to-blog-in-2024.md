@@ -5,6 +5,7 @@ summary: A quick overview of what I use to blog in 2024
 tags:
   - Blog
 oldUrl: 'https://samwarnick.com/2024/3/what-i-use-to-blog-in-2024'
+published: true
 ---
 
 I have 2 blogs/sites. samwarnick.com runs on [Blot.im](https://blot.im) and lemonpointbricks.com runs on [Ghost](https://ghost.org).

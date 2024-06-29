@@ -4,6 +4,7 @@ date: '2024-04-29T17:00'
 tags:
   - Uses
 oldUrl: 'https://samwarnick.com/2024/4/uses-mini-ring-notebook'
+published: true
 ---
 
 While I've always like the idea of pocket notebooks like Field Notes, they never really clicked with me. Probably user error, but I have a hard time writing in pocket notebooks. The spines are so stiff, that it takes effort to keep them open while writing in them. As an alternative, I started using some [imported index cards](https://www.amazon.com/Exacompta-Index-Cards-Inch-100Pk/dp/B001AO138S?th=1) instead, and loved it. But then they'd get flipped upside down or shuffled and I'd get lost.

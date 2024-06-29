@@ -5,6 +5,7 @@ summary: I have finally found the perfect stack for web development. You're welc
 tags:
   - Web Development
 oldUrl: 'https://samwarnick.com/2024/4/the-perfect-stack'
+published: true
 ---
 
 Dear Dave,

@@ -6,6 +6,7 @@ tags:
   - Projects
   - Focuses
 oldUrl: 'https://samwarnick.com/2020/3/focuses-roadmap'
+published: true
 ---
 
 I had to cut myself off on adding new features to Focuses pretty early on. If I let myself keep going, I probably never would've released.

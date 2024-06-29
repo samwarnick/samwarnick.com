@@ -3,6 +3,7 @@ title: Made to Last?
 date: '2024-04-18T14:00'
 summary: 'If you say it''s made to last, back that up.'
 oldUrl: 'https://samwarnick.com/2024/4/made-to-last'
+published: true
 ---
 
 Here's a gripe of mine—companies that act as if their products are incredible, but do no have warranties or the customer service to back that up.

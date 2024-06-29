@@ -5,6 +5,7 @@ summary: 'For what I''m using it for, it''s pretty good.'
 tags:
   - Review
 oldUrl: 'https://samwarnick.com/2024/5/mini-ipad-mini-review'
+published: true
 ---
 
 Not going to lie, comparing it to an iPhone 15 Pro Max is not favorable to the iPad mini. The screen doesn't look as nice as the OLED and feels slow. And I _definitely_ notice the jelly scrolling.

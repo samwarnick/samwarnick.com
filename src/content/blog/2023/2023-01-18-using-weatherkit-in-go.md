@@ -2,6 +2,7 @@
 title: Using WeatherKit in Go
 date: '2023-01-18T17:50'
 oldUrl: 'https://samwarnick.com/2023/1/using-weatherkit-in-go'
+published: true
 ---
 
 I haven't had a chance to use WeatherKit yet, and I've barely used Go. So for some reason I decided to give both a _go_ at the same time.

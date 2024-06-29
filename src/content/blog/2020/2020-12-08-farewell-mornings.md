@@ -2,6 +2,7 @@
 title: 'Farewell, Mornings'
 date: '2020-12-08T10:00'
 oldUrl: 'https://samwarnick.com/2020/12/farewell-mornings'
+published: true
 ---
 
 I like routines and planning. Routines is one of my ways of managing anxiety and stress. I like to feel like I know what’s going on and what’s coming up. But I have a 4 year-old. So I have to be somewhat flexible, and I’m always tinkering with my routines.

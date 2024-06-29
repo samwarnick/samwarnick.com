@@ -2,6 +2,7 @@
 title: Giving up on notes apps
 date: '2022-06-30T10:00'
 oldUrl: 'https://samwarnick.com/2022/6/giving-up-on-notes-apps'
+published: true
 ---
 
 Over the years, I think I've tried pretty much every note taking app there is. I've tried using Apple Notes, Evernote, GoodNotes, Notability, Bear, Drafts, Agenda, OneNote, Notion, Nebo, Craft, Obsidian, and many others. They all have one thing in common—they don't stick with me. Putting notes into an app felt like throwing them away. The other day, it hit me why.

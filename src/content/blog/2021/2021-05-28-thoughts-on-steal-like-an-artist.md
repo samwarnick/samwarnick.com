@@ -5,6 +5,7 @@ summary: >-
   In a world where no idea is original, what's the point of trying to create
   something new?
 oldUrl: 'https://samwarnick.com/2021/5/thoughts-on-steal-like-an-artist'
+published: true
 ---
 
 ![Drawing of Steal Like an Artist](/media/2021-05-28-steal-like-an-artist.png){width=200 .dark-invert}

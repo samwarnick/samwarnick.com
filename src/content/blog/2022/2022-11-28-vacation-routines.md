@@ -2,6 +2,7 @@
 title: Vacation routines
 date: '2022-11-28T10:00'
 oldUrl: 'https://samwarnick.com/2022/11/vacation-routines'
+published: true
 ---
 
 Last week was Thanksgiving and I took some time off. My family went to a beach house for the week. I brought my journal, my laptop, and running shoes. I had good intentions. But when I'm out of my element, I have a real hard time sticking to the routines I have at home. So I mostly did nothing I intended to do—except I went running once when the tide lined up with the time I usually run at.

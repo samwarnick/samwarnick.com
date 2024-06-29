@@ -2,6 +2,7 @@
 title: Creating a file from Raycast
 date: '2023-03-03T17:15'
 oldUrl: 'https://samwarnick.com/2023/3/creating-a-file-from-raycast'
+published: true
 ---
 
 I was procrastinating today, so I made a bash script. I had been using [Espanso](https://espanso.org/) to make creating my develogs a bit easier with some text replacement. But then I thought, sure would be nice to just type `dev` into [Raycast](https://www.raycast.com/) and have it create the file, insert the template, and open it in iA Writer for me. So Googled my way through to a bash script:

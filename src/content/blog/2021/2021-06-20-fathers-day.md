@@ -2,6 +2,7 @@
 title: Father's Day
 date: '2021-06-20T10:00'
 oldUrl: 'https://samwarnick.com/2021/6/fathers-day'
+published: true
 ---
 
 I love being a dad. I even like being a dad most of the time. After 4 years though, I sometimes still wonder what in the world I have gotten myself into. It's really hard. I'm tired. All the time. My 4 year-old often reminds me that I'm just a tired dad. It can even be terrifying, knowing that I'm responsible for a couple actual, real-life human beings. That's a lot of responsibility! Being a dad is very humbling.

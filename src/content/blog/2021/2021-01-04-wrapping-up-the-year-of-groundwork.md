@@ -2,6 +2,7 @@
 title: Wrapping Up the Year of Groundwork
 date: '2021-01-04T10:00'
 oldUrl: 'https://samwarnick.com/2021/1/wrapping-up-the-year-of-groundwork'
+published: true
 ---
 
 2020 has been a hard year for everyone. But I have been very fortunate. I was already working from home, my company does well in good and bad economic times, my D&D group was online already, and my daughter is not in school yet. So I know I have had it a whole lot easier than most people. In all honesty, I feel like 2020 has been one of my better years. If it wasn’t for the stress of building a house during a pandemic and living with my in-laws, I would feel pretty great right now. Not having to go to places like church or work events has reduced my base-level of anxiety quite a bit.

@@ -2,6 +2,7 @@
 title: Why I like iOS development
 date: '2023-08-09T09:00'
 oldUrl: 'https://samwarnick.com/2023/8/why-i-like-ios-development'
+published: true
 ---
 
 I realized the other day why I think I like iOS development so much. It cuts down on the number of decisions I have to make. For me, that's huge.

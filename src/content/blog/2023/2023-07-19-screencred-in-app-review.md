@@ -5,6 +5,7 @@ tags:
   - Projects
   - ScreenCred
 oldUrl: 'https://samwarnick.com/2023/7/screencred-in-app-review'
+published: true
 ---
 
 It's been a bit of a rollercoaster of few days.

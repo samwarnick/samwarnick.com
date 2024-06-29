@@ -2,6 +2,7 @@
 title: I think I regret buying the Studio Display
 date: '2023-05-16T10:00'
 oldUrl: 'https://samwarnick.com/2023/5/i-think-i-regret-buying-the-studio-display'
+published: true
 ---
 
 When rumors of the Studio Display started coming out, I started saving money to buy one just in case. When it was announced in 2022, I immediately ordered one and got day-one delivery. I was beyond excited to replace my [Dell U3818DW](https://www.dell.com/en-hr/work/shop/cty/pdp/spd/dell-u3818dw-monitor) with a beautiful Retina display.

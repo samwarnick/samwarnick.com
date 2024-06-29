@@ -2,6 +2,7 @@
 title: Do Nothing
 date: '2023-05-21T15:00'
 oldUrl: 'https://samwarnick.com/2023/5/do-nothing'
+published: true
 ---
 
 I’m currently at the end of a break between jobs. I took one week off. I had grand schemes of working on my app, maybe starting some other new things, etc. Pretty quickly though, it was clear I needed something else. I ended up just relaxing. Read books. Visited family. Took naps. Played some games. Fiddled with my nevoid config. The usual relaxing stuff. It was nice.

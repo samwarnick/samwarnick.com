@@ -2,6 +2,7 @@
 title: Living Software
 date: '2022-03-29T10:00'
 oldUrl: 'https://samwarnick.com/2022/3/living-software'
+published: true
 ---
 
 As I've been working through my thoughts on creating apps and software, I've realized that software is pretty unique. Most software feels so fluid and flexible. It's relatively easy to make changes. For me, releasing something feels pretty anticlimactic. I put something out there, but now I need to keep taking care of it. There's new features to add, bugs to fix, compatibility issues to address when operating systems or browsers change. Software feels alive to me in a lot of ways. And I've been struggling with this feeling.

@@ -4,6 +4,7 @@ date: '2023-03-30T11:00'
 tags:
   - 2023—Year of Discipline
 oldUrl: 'https://samwarnick.com/2023/3/year-of-discipline-update—health-and-fitness'
+published: true
 ---
 
 One of the big areas I wanted to focus on in 2023 was my health and fitness. So far, I have mainly focused on running and losing some weight.

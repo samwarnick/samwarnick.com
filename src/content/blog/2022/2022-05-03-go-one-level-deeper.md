@@ -2,6 +2,7 @@
 title: Go One Level Deeper
 date: '2022-05-03T10:00'
 oldUrl: 'https://samwarnick.com/2022/5/go-one-level-deeper'
+published: true
 ---
 
 When I was in college, I was a teaching assistant in a computer science class. A lot of our job was helping students read errors. "Your program won't run for no reason? Any errors in the output? No? What about this null pointer exception here? Take a look at that line." Sometimes putting in a little bit more effort to go another level deeper is all that's needed to figure out what's going on.

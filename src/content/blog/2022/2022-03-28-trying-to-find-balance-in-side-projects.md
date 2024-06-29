@@ -2,6 +2,7 @@
 title: Trying to Find Balance in Side Projects
 date: '2022-03-28T10:00'
 oldUrl: 'https://samwarnick.com/2022/3/trying-to-find-balance-in-side-projects'
+published: true
 ---
 
 I just removed my two iOS apps from sale on the App Store. I hadn't updated either of them in over a year. It felt bad having them hanging out there, wanting to update to them, but having trouble finding the time, but more importantly, the motivation to do it. It honestly felt like a sigh of relief to remove them. But, it was a hard decision.

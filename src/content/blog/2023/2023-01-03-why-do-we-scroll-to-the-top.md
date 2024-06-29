@@ -2,6 +2,7 @@
 title: Why do we scroll to the top?
 date: '2023-01-03T09:30'
 oldUrl: 'https://samwarnick.com/2023/1/why-do-we-scroll-to-the-top'
+published: true
 ---
 
 I've been trying a lot of Mastodon apps lately and I've tried a few Twitter apps in the past. For the ones I've tried, they all have one thing in common—new posts are at the top. Why?

@@ -2,6 +2,7 @@
 title: 'Re: You''re Not Lazy'
 date: '2023-04-02T11:00'
 oldUrl: 'https://samwarnick.com/2023/4/re-youre-not-lazy'
+published: true
 ---
 
 <iframe src="https://www.youtube-nocookie.com/embed/A2sS00egAzg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

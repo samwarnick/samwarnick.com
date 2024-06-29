@@ -3,6 +3,7 @@ title: prefers-color-scheme Media Query
 htmlTitle: <code>prefers-color-scheme</code> Media Query
 date: '2018-04-22T10:00'
 oldUrl: 'https://samwarnick.com/2018/10/prefers-color-scheme-media-query'
+published: true
 ---
 
 With [Safari Technology Preview 68](https://developer.apple.com/safari/technology-preview/), there is a new media query, `prefers-color-scheme`. I've used it on this site like the following:

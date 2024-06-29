@@ -2,6 +2,7 @@
 title: Working Slowly
 date: '2023-08-19T12:00'
 oldUrl: 'https://samwarnick.com/2023/8/working-slowly'
+published: true
 ---
 
 I was watching a video from Shawn Hickman about his [first week of being full-time indie](https://youtu.be/VGsq7saOJ7M). He said that he likes to take his time and work slowly, and now that he's full-time, he can do that without feeling rushed. That really stuck out to me.

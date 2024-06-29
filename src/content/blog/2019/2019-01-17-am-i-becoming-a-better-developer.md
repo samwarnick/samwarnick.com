@@ -2,6 +2,7 @@
 title: Am I Becoming A Better Developer?
 date: '2019-01-17T10:00'
 oldUrl: 'https://samwarnick.com/2019/1/am-i-becoming-a-better-developer'
+published: true
 ---
 
 I've been working full-time as a software developer for almost 2 years now. I’ve learned a lot. I’ve messed a bunch of stuff up too. The question I’ve been struggling with is **how do I know I’m _actually_ becoming a better developer?** Over the last couple of years, I feel like I'm becoming a better developer. But is feeling better enough?

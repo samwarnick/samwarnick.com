@@ -2,6 +2,7 @@
 title: My Supposed Dream Job
 date: '2022-05-18T10:00'
 oldUrl: 'https://samwarnick.com/2022/5/my-supposed-dream-job'
+published: true
 ---
 
 I think that my dream job would be an indie developer. But I'm not sure. I wish I could try it.

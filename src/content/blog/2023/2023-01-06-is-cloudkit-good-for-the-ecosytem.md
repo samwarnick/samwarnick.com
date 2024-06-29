@@ -2,6 +2,7 @@
 title: Is CloudKit good for the ecosystem?
 date: '2023-01-06T11:00'
 oldUrl: 'https://samwarnick.com/2023/1/is-cloudkit-good-for-the-ecosystem'
+published: true
 ---
 
 I use Day One for journaling. The other day I was checking about another journaling app made by an indie dev. It looks nicer, feels faster, and has some better features, and I'm assuming uses CloudKit to sync data. But it's missing an API. I use IFTTT to automatically record some things in Day One for me. I really like that about Day One. It's more than an app and I guess more of a service. It is difficult for indie devs to make that experience. As soon as you move away from CloudKit, you're brining on a whole bunch more baggage—servers, databases, privacy policies, and who knows what else. But, using CloudKit doesn't really allow developers to create services.

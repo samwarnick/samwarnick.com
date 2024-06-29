@@ -2,6 +2,7 @@
 title: Moving My Blog To GitHub Pages
 date: '2017-10-28T10:00'
 oldUrl: 'https://samwarnick.com/2017/10/moving-my-blog-to-github-pages'
+published: true
 ---
 
 My blog has moved around a lot. Most recently (and only for a couple months), I was using a self-hosted [Ghost](https://ghost.org/developers/) instance on DigitalOcean. As much as I liked Ghost, I was looking for something a little more hands off—I didn't love being greeted with a new update notification nearly every time I logged in, requiring me to SSH in and upgrade. I also wanted something I could manage a little more easily from my iPad. Not for any good reason; just for fun. A friend of mine has always suggested I try out GitHub Pages and Jekyll, so I decided to try it out. Now, I haven't been on GitHub pages for very long, so these are just my initial thoughts.

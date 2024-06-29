@@ -2,6 +2,7 @@
 title: Bookmarks in Obsidian
 date: '2022-03-11T10:00'
 oldUrl: 'https://samwarnick.com/2022/3/bookmarks-in-obsidian'
+published: true
 ---
 
 For a while, I tried to utilize Twitter's bookmark feature to save interesting links, helpful tidbits, and whatnot. I quickly realized that it was almost impossible to go back and find what I had saved. Around the time I started looking for other options, I was also diving deeper into Obsidian. After some fights with Shortcuts on iOS, and creating my own Obsidian plugin, I now have a quick way to add tweets and other links to notes in Obsidian from the iOS share sheet.

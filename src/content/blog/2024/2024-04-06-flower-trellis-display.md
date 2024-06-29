@@ -5,6 +5,7 @@ tags:
   - Review
   - LEGO
 author: Lily Warnick
+published: true
 ---
 
 > [!NOTE]

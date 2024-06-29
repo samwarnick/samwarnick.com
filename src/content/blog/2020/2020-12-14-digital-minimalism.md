@@ -5,6 +5,7 @@ summary: >-
   I read Digital Minimalism, by Cal Newport. Using your phone less seems like a
   good idea.
 oldUrl: 'https://samwarnick.com/2020/12/digital-minimalism-by-cal-newport'
+published: true
 ---
 
 Using my phone less has been on my mind for quite a while now. For no good reason, I’m 100% addicted to Twitter. I always have my phone on me, just in case there’s a text I need to reply to immediately, or some fact needs to be Googled, or to waste time when I'm bored. I enjoyed _Deep Work_ by Cal Newport, so I thought I would give _Digital Minimalism_ a shot.

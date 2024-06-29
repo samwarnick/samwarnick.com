@@ -2,6 +2,7 @@
 title: A Disappointing Training
 date: '2023-08-02T21:00'
 oldUrl: 'https://samwarnick.com/2023/8/a-disappointing-training'
+published: true
 ---
 
 A few weeks ago, I went out of my comfort zone and volunteered to do a training at work. Historically, I don't do well talking to groups. I'm much better with one-on-one or small groups—where I can talk _with_ and not _at_ people. Adding to my nervousness, I'm new at the company. But I thought I had something worthwhile to talk about and was determined to do it. The training was today, and I don't think it went very well.

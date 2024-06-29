@@ -5,6 +5,7 @@ summary: It’s been a while. Let’s catch up.
 tags:
   - Blog
 oldUrl: 'https://samwarnick.com/2024/3/state-of-the-blogs-2024'
+published: true
 ---
 
 It’s been 215 days since my last post on here. I had been posting pretty regularly for nearly a year up until the end of August 2023. Mostly was writing dev logs for my app [ScreenCred](https://screencred.app). But other stuff too. And then, I think I just broke?

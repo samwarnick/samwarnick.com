@@ -6,6 +6,7 @@ date: '2023-08-24T13:00'
 tags:
   - Review
 oldUrl: 'https://samwarnick.com/2023/8/review-of-amazon-basics-3-hole-punch-semi-adjustable-30-sheet-capacity-black'
+published: true
 ---
 
 For reasons I don't want to get into now, I need a 3 hole punch for A5 sized paper. The [Amazon Basics 3 Hole Punch, Semi-Adjustable, 30 Sheet Capacity, Black](https://www.amazon.com/dp/B07VVB87Y1?ref=ppx_yo2ov_dt_b_product_details&th=1) seemed to fit the requirements. With the appealing advertised capacity and the amount of adjustment available for the holes and alignment guide, I thought this would be just right. But, I was wrong. It's being returned.

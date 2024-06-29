@@ -6,6 +6,7 @@ tags:
   - Projects
   - Focuses
 oldUrl: 'https://samwarnick.com/2020/3/focuses-by-the-numbers'
+published: true
 ---
 
 Here are a few numbers related to making Focuses that may or may not be interesting.

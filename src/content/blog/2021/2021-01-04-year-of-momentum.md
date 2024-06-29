@@ -2,6 +2,7 @@
 title: The Year of Momentum and the Season of Survival
 date: '2021-01-04T12:00'
 oldUrl: 'https://samwarnick.com/2021/1/the-year-of-momentum-and-the-season-of-survival'
+published: true
 ---
 
 Like I said in [Wrapping Up the Year of Groundwork](/2021/1/wrapping-up-the-year-of-groundwork), after 2020, I don't feel like I have much gas left in the tank. That's why I've decided to make 2021 the Year of Momentum. I want to keep going on the good things I started in 2020. I'm still figuring out what that means exactly, but here’s where I’m currently at:

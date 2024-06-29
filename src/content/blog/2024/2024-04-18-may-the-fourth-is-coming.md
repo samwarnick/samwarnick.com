@@ -4,6 +4,7 @@ date: 2024-04-18T19:39:00.000Z
 summary: With May the 4th coming up, I thought I take a look at the Star Wars sets that have been announced and see what I'm excited for.
 tags:
   - LEGO
+published: true
 ---
 
 > [!NOTE]

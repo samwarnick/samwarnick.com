@@ -4,6 +4,7 @@ date: '2023-01-01T12:00'
 tags:
   - 2023—Year of Discipline
 oldUrl: 'https://samwarnick.com/2023/1/2023-and-the-year-of-discipline'
+published: true
 ---
 
 I thought I knew what I was going to be writing about here, then I started looking back through my previous yearly themes and whoops, sorry 2022. Forgot about you.

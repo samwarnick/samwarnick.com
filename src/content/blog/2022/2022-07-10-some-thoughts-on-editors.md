@@ -2,6 +2,7 @@
 title: Some thoughts on editors
 date: '2022-07-10T10:00'
 oldUrl: 'https://samwarnick.com/2022/7/some-thoughts-on-editors'
+published: true
 ---
 
 I've been messing around with my workflow and trying different code editors. I know IntelliJ kinda has a bad rap  and often feels slow compared the everything else out there, but it has 2 features that I think are under appreciated.

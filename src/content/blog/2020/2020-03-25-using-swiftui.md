@@ -6,6 +6,7 @@ tags:
   - Projects
   - Focuses
 oldUrl: 'https://samwarnick.com/2020/3/using-swiftui-for-focuses'
+published: true
 ---
 
 I think I mentioned it briefly, but Focuses is built mostly with SwiftUI. Overall, I'm very impressed with SwiftUI. I don't think I would've been able to build the first version of Focuses as quickly as I did had I not used SwiftUI.

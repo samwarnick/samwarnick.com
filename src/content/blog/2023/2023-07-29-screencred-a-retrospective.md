@@ -5,6 +5,7 @@ tags:
   - Projects
   - ScreenCred
 oldUrl: 'https://samwarnick.com/2023/7/screencred-a-retrospective'
+published: true
 ---
 
 As of July 24, 2023, ScreenCred is officially launched. I announced it on my [Mastodon](https://social.warnick.me/@sam/110769797330600515), [Threads](https://www.threads.net/@samwarnick/post/CvFeOcsOwDs), and a Discord I belong to. I think at least four people have downloaded it. Don't know if anyone is using it though.

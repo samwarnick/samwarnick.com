@@ -2,6 +2,7 @@
 title: Push Notifications with Go
 date: '2023-01-18T17:55'
 oldUrl: 'https://samwarnick.com/2023/1/push-notifications-with-go'
+published: true
 ---
 
 I had never sent a push notification in my life. I wanted to try it out. Writing my server in Go, I used the [sideshow/apns2](https://github.com/sideshow/apns2) library.

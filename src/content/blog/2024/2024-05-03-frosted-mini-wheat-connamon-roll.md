@@ -5,6 +5,7 @@ summary: Not cinnamon roll flavored.
 tags:
   - Review
 oldUrl: 'https://samwarnick.com/2024/5/kelloggs-frosted-mini-wheats-cinnamon-roll'
+published: true
 ---
 
 ![The box of Kellogg's Frosted Mini Wheats Cinnamon Roll](/media/2024-05-03-fmw.webp "I'm glad the wheat is wholesome")

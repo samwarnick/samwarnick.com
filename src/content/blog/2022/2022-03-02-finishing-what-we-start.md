@@ -2,6 +2,7 @@
 title: Finishing What We Start
 date: '2022-03-02T10:00'
 oldUrl: 'https://samwarnick.com/2022/3/finishing-what-we-start'
+published: true
 ---
 
 I was listening to a podcast this morning and they talked briefly about how so many of us start way more projects than we finish. It got me thinking. How do you even know if a project is finished? And does it even matter if we don't "finish" what we start? The answer is that it depends[^1].

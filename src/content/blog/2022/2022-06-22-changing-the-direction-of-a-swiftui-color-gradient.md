@@ -2,6 +2,7 @@
 title: Changing the direction of a SwiftUI Color gradient
 date: '2022-06-22T10:00'
 oldUrl: 'https://samwarnick.com/2022/6/changing-the-direction-of-a-swiftui-color-gradient'
+published: true
 ---
 
 SwiftUI added a pretty cool new property to `Color` to easily create subtle gradients.

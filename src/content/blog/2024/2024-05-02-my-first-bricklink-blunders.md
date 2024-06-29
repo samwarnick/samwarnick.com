@@ -3,6 +3,7 @@ title: My First BrickLink Blunders
 date: 2024-05-02T14:00:36.000Z
 tags:
   - BrickLink
+published: true
 ---
 
 > [!NOTE]

@@ -2,6 +2,7 @@
 title: Is Vanilla JavaScript better?
 date: '2023-06-05T10:00'
 oldUrl: 'https://samwarnick.com/2023/6/is-vanilla-javascript-better'
+published: true
 ---
 
 The other day, I made a little [calculator](https://frosthaven-calc.netlify.app) for my brother's Frosthaven group. To make it simple, I just did an index.html with some pure, vanilla JavaScript. You can find the code on [GitHub](https://github.com/samwarnick/frosthaven-calc).

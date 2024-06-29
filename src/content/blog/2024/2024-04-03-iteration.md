@@ -1,6 +1,7 @@
 ---
 title: Iteration
 date: 2024-04-03T14:00:19.000Z
+published: true
 ---
 
 > [!NOTE]

@@ -2,6 +2,7 @@
 title: Fresh Starts
 date: '2021-06-11T10:00'
 oldUrl: 'https://samwarnick.com/2021/6/fresh-starts'
+published: true
 ---
 
 ![June calendar](/media/2021-06-11-calendar.png){width=200 .dark-invert}

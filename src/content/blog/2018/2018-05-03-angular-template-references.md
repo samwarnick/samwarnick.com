@@ -2,6 +2,7 @@
 title: Angular Template References
 date: '2018-05-03T10:00'
 oldUrl: 'https://samwarnick.com/2018/5/angular-template-references'
+published: true
 ---
 
 ## What is a Template Reference?

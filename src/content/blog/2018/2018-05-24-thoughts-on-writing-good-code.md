@@ -2,6 +2,7 @@
 title: Thoughts On Writing Good Code
 date: '2018-05-24T10:00'
 oldUrl: 'https://samwarnick.com/2018/5/thoughts-on-writing-good-code'
+published: true
 ---
 
 At ng-conf, John Papa gave a talk on writing readable code. You can watch the video [here](https://youtu.be/56mETnrByBM). I recommend it.

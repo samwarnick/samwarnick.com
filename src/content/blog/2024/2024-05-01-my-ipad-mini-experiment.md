@@ -3,6 +3,7 @@ title: My iPad mini Experiment
 date: '2024-05-01T20:00'
 summary: An iPad mini has entered my life.
 oldUrl: 'https://samwarnick.com/2024/5/my-ipad-mini-experiment'
+published: true
 ---
 
 For a few years, I worked for what I consider and overly-restrictive company. I was unable to do anything on my work computer. As a result, I ended up using my phone for everything—messaging, social media, podcasts, YouTube, etc. It was always on me and always available if I had 15 seconds to fill.

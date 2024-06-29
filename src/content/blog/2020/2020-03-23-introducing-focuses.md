@@ -6,6 +6,7 @@ tags:
   - Projects
   - Focuses
 oldUrl: 'https://samwarnick.com/2020/3/introducing-focuses'
+published: true
 ---
 
 ![Screenshot of the Focuses app](https://res.cloudinary.com/verygoodfm/image/upload/v1584789837/samwarnick.com/main.png)

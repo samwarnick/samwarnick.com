@@ -2,6 +2,7 @@
 title: My Photography Workflow
 date: '2022-02-20T10:00'
 oldUrl: 'https://samwarnick.com/2022/2/my-photography-workflow'
+published: true
 ---
 
 I'm a casual photographer; hobbyist at best. A little over a year ago, in preparation for our second daughter arriving, I got a Sony A7C. I wanted a nice camera that wasn't too big, and that I knew could take better photos than my iPhone. The A7C fits the bill perfectly in my opinion. The [lens it comes with](https://www.bhphotovideo.com/c/product/1592780-REG/sony_fe_28_60mm_f_4_5_6_lens.html) feels impossibly small, which is great when I need to save space. I have since upgraded to a [Sony FE 24–70 mm f/2.8 GM](https://www.bhphotovideo.com/c/product/1222774-REG/sony_sel2470gm_fe_24_70mm_f_2_8_gm.html?sts=pi&pim=Y). It's more than I need, and is much, _much_ larger, but I'm loving it.

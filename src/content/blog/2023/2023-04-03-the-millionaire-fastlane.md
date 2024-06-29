@@ -2,6 +2,7 @@
 title: 'The Millionaire Fastlane, by MJ DeMarco'
 date: '2023-04-03T11:00'
 oldUrl: 'https://samwarnick.com/2023/4/the-millionaire-fastlane-by-mj-demarco'
+published: true
 ---
 
 I saw this book recommended on YouTube and for whatever reason, I thought I would read it before I watched the video. While this book was rambling and repetitive, I did manage to find some interesting nuggets of knowledge.

@@ -3,6 +3,7 @@ title: Podcasting With A Toddler
 date: '2019-09-11T10:00'
 thumbnail: /media/2019-09-11-podcasting-with-a-toddler.jpg
 oldUrl: 'https://samwarnick.com/2019/9/podcasting-with-a-toddler'
+published: true
 ---
 
 For about the last year and a half, my daughter and I have made a podcast. My daughter is currently a toddler. It's not always easy to produce a podcast with a toddler, but I have found the end product to be priceless.

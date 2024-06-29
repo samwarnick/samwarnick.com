@@ -4,6 +4,7 @@ date: '2023-03-31T11:00'
 tags:
   - 2023—Year of Discipline
 oldUrl: 'https://samwarnick.com/2023/3/year-of-discipline-update—writing-and-development'
+published: true
 ---
 
 ## Writing

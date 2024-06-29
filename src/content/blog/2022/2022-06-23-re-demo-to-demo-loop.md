@@ -2,6 +2,7 @@
 title: 'Re: Demo to Demo Loop'
 date: '2022-06-23T10:00'
 oldUrl: 'https://samwarnick.com/2022/6/re-demo-to-demo-loop'
+published: true
 ---
 
 I really enjoyed [this post from Dave Rupert](https://daverupert.com/2022/06/demo-to-demo-loop/).

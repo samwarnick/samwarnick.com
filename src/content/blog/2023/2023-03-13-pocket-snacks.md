@@ -2,6 +2,7 @@
 title: Pocket Snacks
 date: '2023-03-13T17:00'
 oldUrl: 'https://samwarnick.com/2023/3/pocket-snacks'
+published: true
 ---
 
 I've been putting a [little notebook](https://www.jetpens.com/Life-Noble-Notebook-Mini-Ring-5-x-3.1-7-mm-Rule/pd/20213) in my shirt pocket lately. I like having something around that I can take notes, write out tasks, etc. without getting distracted by my phone. I also like it because it's thin. Not as thin as a Field Notes or other pocket notebook, but I like the spiral bind way better.

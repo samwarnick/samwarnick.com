@@ -2,6 +2,7 @@
 title: Finding what sticks
 date: '2022-11-02T10:00'
 oldUrl: 'https://samwarnick.com/2022/11/finding-what-sticks'
+published: true
 ---
 
 I think one of the most common posts on my blog is about switching to a new blog system. Ghost to Jekyll and GitHub pages to Nuxt on Netlify to 11ty on Netlify to adding a micropub integration to be able to post from iA Writer. I'm probably missing a few. It's kinda exhausting.
