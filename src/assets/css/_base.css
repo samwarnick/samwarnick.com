@@ -1,0 +1,80 @@
+.site-header {
+	--_mask: linear-gradient(to bottom, #000000 50%, transparent);
+	padding: var(--site-padding);
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 4em;
+
+	&::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		bottom: -50%;
+		background: var(--background-color);
+		mask-image: var(--_mask);
+		z-index: -1;
+		opacity: 0.96;
+	}
+
+	&::before {
+		content: "";
+		position: absolute;
+		inset: 0;
+		bottom: -75%;
+		backdrop-filter: blur(6px);
+		mask-image: var(--_mask);
+		z-index: -1;
+		opacity: 0.95;
+	}
+
+	ul {
+		padding: 0;
+		display: flex;
+		gap: var(--spacing-more);
+	}
+
+	a {
+		font-family: var(--font-serif);
+		color: var(--primary-text);
+		text-decoration: none;
+		font-size: 1.2rem;
+		position: relative;
+
+		&::after {
+			content: attr(data-link);
+			position: absolute;
+			inset: 0;
+			text-decoration-color: var(--accent-color);
+			text-decoration-line: underline;
+			text-decoration-style: solid;
+			text-decoration-thickness: 2px;
+			text-underline-offset: 3px;
+			color: transparent;
+			scale: 0 1;
+			opacity: 0.5;
+			transition:
+				scale 0.2s ease-in-out,
+				opacity 0.2s ease-in-out;
+			transform-origin: bottom;
+		}
+
+		&:hover::after {
+			scale: 1 1;
+			opacity: 1;
+		}
+	}
+}
+
+.site-footer {
+	margin-block: 4em;
+
+	.footer-links {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 0.8em;
+		color: var(--secondary-text);
+	}
+}

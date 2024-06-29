@@ -1,0 +1,12 @@
+---
+title: /archive
+layout: layouts/page
+---
+
+{%- for group in collections.postsByYear | reverse %}
+<div class="archive-year">
+	<h2>{{group.year}}</h2>
+	{% set postslist = group.posts %}
+	{% include "components/postlist.njk" %}
+</div>
+{% endfor %}

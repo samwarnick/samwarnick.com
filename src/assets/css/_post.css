@@ -1,0 +1,129 @@
+.post-header {
+	h1 {
+		margin-bottom: var(--spacing);
+	}
+
+	.metadata {
+		display: flex;
+		gap: 0.2em;
+		font-size: 0.8em;
+	}
+}
+
+.post-content {
+	hr {
+		grid-column: wide;
+	}
+
+	img,
+	video {
+		border-radius: var(--border-radius);
+		margin-inline: auto;
+	}
+
+	p:has(> img) {
+		grid-column: bump;
+	}
+
+	pre {
+		padding: var(--spacing) calc(var(--spacing) * 2);
+		border-radius: var(--border-radius);
+		overflow: scroll;
+		tab-size: 2ch;
+		box-shadow:
+			0 4px 6px -1px rgb(0 0 0 / 0.1),
+			0 2px 4px -2px rgb(0 0 0 / 0.1);
+	}
+
+	pre,
+	code {
+		font-family: var(--font-mono);
+		margin-block: var(--spacing-more);
+		font-size: 0.8rem;
+	}
+
+	ul,
+	ol {
+		margin-block: var(--spacing-more);
+		padding-inline: 2em;
+		list-style-type: disc;
+	}
+
+	li > ul,
+	li > ol {
+		margin-block: 0;
+	}
+
+	h2,
+	h3,
+	h4 {
+		margin-top: var(--spacing);
+
+		a {
+			color: var(--secondary-text);
+		}
+	}
+
+	blockquote,
+	.markdown-alert {
+		--_color: var(--secondary-text);
+		font-style: italic;
+		grid-column: bump;
+		border: 1px solid var(--_color);
+		padding: 0.5em 1em;
+		border-radius: var(--border-radius);
+		border-left-width: 4px;
+		border-right-width: 4px;
+		box-shadow:
+			0 4px 6px -1px rgb(0 0 0 / 0.1),
+			0 2px 4px -2px rgb(0 0 0 / 0.1);
+	}
+
+	.markdown-alert {
+		font-style: normal;
+		margin-bottom: var(--spacing-more);
+		font-size: 0.8em;
+	}
+
+	.markdown-alert-note {
+		--_color: var(--accent-color);
+	}
+
+	.markdown-alert-title {
+		display: flex;
+		color: var(--_color);
+		align-items: center;
+		gap: 0.2em;
+
+		svg {
+			fill: currentColor;
+			margin-bottom: 0.15em;
+		}
+	}
+
+	iframe {
+		width: 100%;
+		aspect-ratio: 16/9;
+		border-radius: var(--border-radius);
+		grid-column: bump;
+		margin-block: var(--spacing);
+		box-shadow:
+			0 4px 6px -1px rgb(0 0 0 / 0.1),
+			0 2px 4px -2px rgb(0 0 0 / 0.1);
+	}
+
+	.narrow .html5-video-player {
+		max-width: 350px;
+	}
+
+	.footnotes {
+		font-size: 0.8em;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.post-content img.dark-invert {
+		filter: invert();
+		opacity: 0.8;
+	}
+}

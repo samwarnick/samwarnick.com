@@ -1,0 +1,11 @@
+---
+title: /tags
+layout: layouts/page
+---
+
+<ul>
+{% for tag in collections.posts | getAllTags | sort %}
+	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a> <span class="secondary">({{ collections[tag].length }} post{% if collections[tag].length > 1 %}s{% endif %})</span></li>
+{% endfor %}
+</ul>

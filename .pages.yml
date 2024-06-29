@@ -1,0 +1,35 @@
+media:
+  input: src/media
+  output: /media
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: 'src/content/blog'
+    view:
+      fields: [ title, published, date ]
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: date
+        label: Date
+        type: date
+        options:
+          time: true
+      - name: summary
+        label: Summary
+        type: text
+        options:
+          rows: 3
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: published
+        label: Published
+        type: boolean
+        default: false
+      - name: body
+        label: Body
+        type: rich-text

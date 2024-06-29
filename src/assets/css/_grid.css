@@ -1,0 +1,35 @@
+.content-grid {
+	--_wide: 240px;
+	--_bump: 40px;
+
+	display: grid;
+	grid-template-columns:
+		[full-start] minmax(var(--site-padding), 1fr) [wide-start] minmax(
+			auto,
+			var(--_wide)
+		)
+		[main-start] minmax(auto, var(--_bump)) [bump-start] min(
+			calc(60ch - (var(--_bump) * 2)),
+			calc(100% - (var(--site-padding) * 2))
+		)
+		[bump-end] minmax(auto, var(--_bump)) [main-end] minmax(auto, var(--_wide)) [wide-end] minmax(
+			var(--site-padding),
+			1fr
+		) [full-end];
+
+	> * {
+		grid-column: main;
+	}
+
+	.content-bump {
+		grid-column: bump;
+	}
+
+	.content-wide {
+		grid-column: wide;
+	}
+
+	.content-full {
+		grid-column: full;
+	}
+}

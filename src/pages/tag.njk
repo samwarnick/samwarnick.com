@@ -1,0 +1,22 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - posts
+    - postsByYear
+    - currentProjects
+layout: layouts/page
+eleventyComputed:
+  title: "tags/#{{ tag }}"
+permalink: /tags/{{ tag | slugify }}/
+---
+
+<section>
+{% set postslist = collections[ tag ]  %}
+{% include "components/postlist.njk" %}
+</section>
+
+<a href="/tags" class="icon-link">All Tags <span class="icon">{% include "icons/chevron-right.njk" %}</span</a>

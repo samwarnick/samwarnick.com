@@ -1,0 +1,30 @@
+<style>
+	.root {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: #faf4ed;
+		padding: 20px;
+	}
+
+	.title {
+		color: black;
+		font-size: 80px;
+		margin: auto 0;
+		text-align: center;
+		font-family: "Calistoga";
+	}
+
+	.subtitle {
+		font-family: "Calistoga";
+		font-size: 48px;
+		color: #575279;
+	}
+</style>
+
+<div class="root">
+	<h1 class="title">{{ title | safe }}</h1>
+	<h2 class="subtitle">samwarnick.com</h2>
+</div>

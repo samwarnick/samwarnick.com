@@ -1,145 +1,134 @@
-const localImageTransform = require("./transforms/local-image-transform");
-const prettierTransform = require("./transforms/prettier-transform");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const convertHtmlToAbsoluteUrls = require("@11ty/eleventy-plugin-rss/src/htmlToAbsoluteUrls");
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import eleventyPluginOgImage from "eleventy-plugin-og-image";
+import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
+import fs from "fs";
+import { DateTime } from "luxon";
 
-const posthtml = require("posthtml");
-const urls = require("posthtml-urls");
-const path = require("path");
-const slugify = require("slugify");
+import MarkdownIt from "markdown-it";
+import MarkdownItFootnote from "markdown-it-footnote";
+import MarkdownItGitHubAlerts from "markdown-it-github-alerts";
+import MarkdownItAttrs from "markdown-it-attrs";
+import { html5Media } from "markdown-it-html5-media";
+import Shiki from "@shikijs/markdown-it";
 
-const now = String(Date.now());
+/** @param {import('@11ty/eleventy/src/UserConfig').default} eleventyConfig */
+export default async function (eleventyConfig) {
+	eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
-module.exports = function (eleventyConfig) {
-  eleventyConfig.setUseGitIgnore(false);
+	const options = {
+		html: true,
+		breaks: true,
+		linkify: true,
+	};
 
-  eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
-  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+	let markdownLib = MarkdownIt(options)
+		.use(
+			await Shiki({
+				theme: "rose-pine-moon",
+			}),
+		)
+		.use(MarkdownItGitHubAlerts)
+		.use(MarkdownItFootnote)
+		.use(html5Media)
+		.use(MarkdownItAttrs);
 
-  eleventyConfig.addCollection("posts", (collection) => {
-    const posts = collection.getFilteredByGlob(["./src/posts/**/*.md"]);
-    const articles = collection.getFilteredByGlob([
-      "./src/content/articles/**/*.md",
-    ]);
-    return [...posts, ...articles];
-  });
+	markdownLib.renderer.rules.footnote_anchor = (
+		tokens,
+		idx,
+		options,
+		env,
+		slf,
+	) => {
+		var id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf);
 
-  eleventyConfig.addWatchTarget("./_tmp/styles.css");
+		if (tokens[idx].meta.subId > 0) {
+			id += ":" + tokens[idx].meta.subId;
+		}
 
-  eleventyConfig.addPassthroughCopy({
-    "./_tmp/styles.css": "./assets/styles/main.css",
-    "./src/assets": "./assets",
-    "./src/icons": "./",
-  });
-  eleventyConfig.addPassthroughCopy("./src/robots.txt");
+		return ' <a href="#fnref' + id + '">&#10558;</a>';
+	};
 
-  eleventyConfig.addFilter("slug", (input) => {
-    const options = {
-      replacement: "-",
-      remove: /[&,+()$~%.'":*?<>{}]/g,
-      lower: true,
-    };
-    return slugify(input, options);
-  });
+	eleventyConfig.setLibrary("md", markdownLib);
 
-  let markdownIt = require("markdown-it");
-  const markdownItFootnote = require("markdown-it-footnote");
-  const markdownItExternalLinks = require("markdown-it-external-links");
-  const markdownItAttrs = require("markdown-it-attrs");
-  const markdownItPrism = require("markdown-it-prism");
-  const figure = require("./figure");
+	eleventyConfig.addPlugin(lightningCSS);
+	eleventyConfig.addPlugin(pluginRss);
+	eleventyConfig.addPlugin(eleventyPluginOgImage, {
+		satoriOptions: {
+			fonts: [
+				{
+					name: "Atkinson",
+					data: fs.readFileSync(
+						"./src/assets/fonts/Atkinson-Hyperlegible-Bold-102.woff",
+					),
+					weight: 700,
+					style: "normal",
+				},
+				{
+					name: "Calistoga",
+					data: fs.readFileSync("./src/assets/fonts/Calistoga-Regular.ttf"),
+					weight: 400,
+					style: "normal",
+				},
+			],
+		},
+	});
 
-  let options = {
-    html: true,
-  };
-  let markdownLib = markdownIt(options)
-    .use(markdownItFootnote)
-    .use(markdownItExternalLinks, {
-      internalClassName: "internal-link",
-      externalTarget: "_blank",
-      externalRel: "noopener noreferrer",
-    })
-    .use(markdownItAttrs)
-    .use(markdownItPrism)
-    .use(figure);
-  markdownLib.renderer.rules.heading_open = (tokens, index) => {
-    const currentLevel = parseInt(tokens[index].tag.replace("h", ""));
-    return `<h${currentLevel + 1}>`;
-  };
-  markdownLib.renderer.rules.heading_close = (tokens, index) => {
-    const currentLevel = parseInt(tokens[index].tag.replace("h", ""));
-    return `</h${currentLevel + 1}>`;
-  };
-  markdownLib.renderer.rules.footnote_caption = (tokens, index) => {
-    let n = Number(tokens[index].meta.id + 1).toString();
+	eleventyConfig.addShortcode("timestamp", function () {
+		return Date.now();
+	});
+	eleventyConfig.addShortcode("year", function () {
+		return new Date().getFullYear();
+	});
+	eleventyConfig.addFilter("formattedDate", function (date) {
+		return DateTime.fromJSDate(date, { zone: "utc" }).toLocaleString(
+			DateTime.DATE_MED,
+		);
+	});
+	eleventyConfig.addFilter("getAllTags", function (collection) {
+		let tagSet = new Set();
+		for (let item of collection) {
+			(item.data.tags || []).forEach((tag) => tagSet.add(tag));
+		}
+		return Array.from(tagSet);
+	});
+	eleventyConfig.addFilter("removeSite", function (url) {
+		return url.replace("https://samwarnick.com", "");
+	});
 
-    if (tokens[index].meta.subId > 0) {
-      n += ":" + tokens[index].meta.subId;
-    }
+	eleventyConfig.addPassthroughCopy("src/media");
+	eleventyConfig.addPassthroughCopy("src/assets/fonts");
+	eleventyConfig.addPassthroughCopy("src/assets/favicon");
 
-    return `${n}`;
-  };
-  markdownLib.renderer.rules.footnote_block_open = (tokens, idx, options) => {
-    return (
-      (options.xhtmlOut
-        ? '<hr class="footnotes-sep" />\n'
-        : '<hr class="footnotes-sep">\n') +
-      '<section class="footnotes text-sm mb-12">\n' +
-      '<ol class="footnotes-list">\n'
-    );
-  };
+	eleventyConfig.addCollection("posts", function (collectionApi) {
+		return collectionApi.getFilteredByGlob("src/content/blog/**/*.md");
+	});
+	eleventyConfig.addCollection("currentProjects", function (collectionApi) {
+		return collectionApi.getFilteredByGlob("src/content/projects/**/*.md");
+	});
+	eleventyConfig.addCollection("postsByYear", function (collectionApi) {
+		const posts = collectionApi.getFilteredByGlob("src/content/blog/**/*.md");
+		const years = posts.map((post) => post.date.getFullYear());
+		const uniqueYears = [...new Set(years)];
 
-  eleventyConfig.setLibrary("md", markdownLib);
+		const postByYear = uniqueYears.reduce((acc, year) => {
+			const filteredPosts = posts.filter(
+				(post) => post.date.getFullYear() === year,
+			);
 
-  eleventyConfig.addTransform("local-images", localImageTransform);
-  eleventyConfig.addTransform("prettier", prettierTransform);
+			return [...acc, { year, posts: filteredPosts }];
+		}, []);
 
-  eleventyConfig.addPlugin(pluginRss, {
-    posthtmlRenderOptions: {
-      closingSingleTag: "default",
-    },
-  });
+		return postByYear;
+	});
+	eleventyConfig.addCollection("Devlog", function (collectionApi) {
+		const posts = collectionApi.getFilteredByGlob("src/content/blog/**/*.md");
 
-  eleventyConfig.addFilter("lessRelativeUrl", (value, base) => {
-    return path.join(base, value.trim());
-  });
-  eleventyConfig.addNunjucksAsyncFilter(
-    "htmlToLessRelativeUrls",
-    (htmlContent, base, callback) => {
-      if (!htmlContent) {
-        callback(null, "");
-        return;
-      }
+		return posts.filter((post) => post.data.tags.includes("Devlog"));
+	});
 
-      test(htmlContent, base).then((html) => {
-        callback(null, html);
-      });
-    }
-  );
-
-  eleventyConfig.addShortcode("version", function () {
-    return now;
-  });
-
-  return {
-    dir: {
-      input: "src",
-    },
-  };
-};
-
-async function test(htmlContent, base, processOptions = {}) {
-  let options = {
-    eachURL: function (url) {
-      if (url.startsWith(".")) {
-        return path.join(base, url.trim());
-      }
-      return url;
-    },
-  };
-
-  let modifier = posthtml().use(urls(options));
-
-  let result = await modifier.process(htmlContent, processOptions);
-  return result.html;
+	return {
+		dir: {
+			input: "src",
+		},
+	};
 }

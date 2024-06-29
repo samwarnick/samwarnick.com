@@ -1,24 +1,31 @@
 ---
-layout: base
+layout: layouts/base
 ---
-<article class="prose w-full max-w-2xl bg-gray-50 shadow-lg p-4 md:p-8 my-8">
-  <header>
-    <h2 class="leading-none">{% if htmlTitle %}{{ htmlTitle | safe }}{% else %}{{ title }}{% endif %}</h2>
-    <h3 class="mt-0 !text-gray-500 text-xl md:text-2xl">{{ subtitle }}</h3>
-    <div class="mt-2 flex text-gray-400 items-center">
-      {% if date %}
-      <time class="text-sm text-gray-600" datetime="{{ date.toISOString() }}">{{ date.toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric', timeZone: 'America/New_York'}) }}</time>
-      {% else %}
-      <span class="text-sm text-gray-600">DRAFT</span>
-      {% endif %}
-    </div>
-  </header>
-  {% set postUrl %}{{ url | url }}{% endset %}
-  {{ content | htmlToLessRelativeUrls(postUrl) | safe }}
-  <footer class="text-rainstorm-500">
-    <div class="w-[80px]">
-      {% include '_signature.njk' %}
-    </div>
-  </footer>
-</article>
 
+<header class="content-grid post-header">
+	<h1>{{ title }}</h1>
+	{% if author %}
+	<div class="metadata">
+		<p>By {{author}}</p>
+	</div>
+	{% endif %}
+	<div class="metadata">
+		<span class="icon">{% include "icons/calendar.njk" %}</span
+		><time datetime="{{page.date}}">{{page.date | formattedDate }}</time>
+	</div>
+	{% if tags %}
+	<div class="metadata">
+		{%- for tag in tags %} {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset
+		%}
+		<span class="icon">{% include "icons/hashtag.njk" %}</span
+		><a href="{{tagUrl}}">{{tag}}</a>
+		{% endfor %}
+	</div>
+	{% endif %}
+	<hr class="content-wide" />
+</header>
+
+<article class="content-grid post-content">{{content | safe}}</article>
+{% if not author %}
+<div class="content-grid">{% include "components/signature.njk" %}</div>
+{% endif %}

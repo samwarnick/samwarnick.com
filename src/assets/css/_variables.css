@@ -1,0 +1,24 @@
+:root {
+	--font-sans: "Atkinson", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+		Cantarell, Noto Sans, sans-serif;
+	--font-serif: "Calistoga", ui-serif, serif;
+	--font-mono: "Comic Mono", Dank Mono, Operator Mono, Inconsolata, Fira Mono,
+		ui-monospace, SF Mono, Monaco, Droid Sans Mono, Source Code Pro, monospace;
+	--background-color: #faf4ed;
+	--primary-text: black;
+	--secondary-text: #575279;
+	--accent-color: #2d81a3;
+	--site-padding: 1em;
+	--spacing: 0.5em;
+	--spacing-more: 1em;
+	--border-radius: 0.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background-color: #152528;
+		--primary-text: #e6eaea;
+		--secondary-text: #e6eaea;
+		--accent-color: #fdb292;
+	}
+}
