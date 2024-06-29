@@ -15,7 +15,7 @@ ul.post-list[role="list"] {
 		font-size: 1em;
 		font-weight: normal;
 		text-overflow: ellipsis;
-		overflow-x: hidden;
+		overflow: hidden;
 		white-space: nowrap;
 		font-family: var(--font-sans);
 		color: var(--primary-text);
