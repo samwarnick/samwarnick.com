@@ -73,6 +73,12 @@
 		/>
 		<link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png" />
 		<link rel="manifest" href="/assets/favicon/manifest.webmanifest" />
+		{%- if site.production -%}
+		<script
+			src="https://tinylytics.app/embed/MnkDUgWxDsEzVjdiiTLL.js"
+			defer
+		></script>
+		{%- endif -%}
 	</head>
 	<body>
 		{% include "components/site-nav.njk" %}
