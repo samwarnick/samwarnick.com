@@ -8,3 +8,4 @@ layout: layouts/page
 	- Allow content to override
 - Move todos to GitHub issues and generate page
 - Update slash pages
+- 404 page
