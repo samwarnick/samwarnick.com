@@ -43,5 +43,5 @@ And since it's JS and not TS I didn't have to make a type for the response! I co
     <li><a href="{{issue.html_url}}">{{issue.title}}</a></li>
     {%- endfor -%}
 </ul>
-{%- endow %-}
+{%- endraw %-}
 ```
