@@ -22,8 +22,14 @@
 			title="Sam Warnick JSON Feed"
 			href="https://samwarnick.com/json.xml"
 		/>
+		<meta property="og:title" content="{{title}}" />
+		<meta name="description" content="{{summary or metadata.description}}" />
+		<meta
+			property="og:description"
+			content="{{summary or metadata.description}}"
+		/>
 		{% if title %} {% ogImage "/og-image.og.njk", { title: title } %} {% else %}
-		<meta property="og:image" content="" />
+		<meta property="og:image" content="/media/index.png" />
 		{% endif %}
 		<title>
 			{{ title or metadata.title }}{% if title !== 'Sam Warnick' %} • Sam

@@ -7,7 +7,7 @@ permalink: feed.json
   "language": "{{ metadata.language }}",
   "home_page_url": "{{ metadata.url }}",
   "feed_url": "{{ permalink | absoluteUrl(metadata.url) }}",
-  "description": "{{ metadata.subtitle }}",
+  "description": "{{ metadata.description }}",
   "author": {
     "name": "{{ metadata.author.name }}",
     "url": "{{ metadata.author.url }}"
