@@ -37,11 +37,11 @@ export default async function () {
 And since it's JS and not TS I didn't have to make a type for the response! I could just grab what I needed in the template! Who knew.
 
 ```jinja
-{%- raw -%}
+{% raw %}
 <ul>
     {%- for issue in githubIssues -%}
     <li><a href="{{issue.html_url}}">{{issue.title}}</a></li>
     {%- endfor -%}
 </ul>
-{%- endraw %-}
+{% endraw %}
 ```
