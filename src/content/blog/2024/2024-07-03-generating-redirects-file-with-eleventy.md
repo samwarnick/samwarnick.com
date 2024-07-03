@@ -13,13 +13,13 @@ As part of my migration, I wanted to make sure all the old urls redirected to th
 After gathering all the old URLs, it was pretty straightforward. I made `_redirects.njk` and made sure it was not using my default layout and excluded it from collections. Loop through all my posts and put the old URL, new URL, and 301 . Done.
 
 ```jinja
-{%- raw %}
 ---
 permalink: /_redirects
 layout: false
 eleventyExcludeFromCollections: true
 ---
 
+{%- raw %}
 {%- for post in collections.posts -%}
 	{%- if post.data.oldUrl -%}
 	{%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) -%}
@@ -29,7 +29,7 @@ eleventyExcludeFromCollections: true
 		{%- endif -%}
 	{%- endif -%}
 {%- endfor -%}
-{%- endraw %}
+{% endraw %}
 ```
 
 One gotcha for me was `{{ '{%' }}` vs `{{ '{%-' }}`. Adding the `-` strips whitespace which is exactly what I wanted.
