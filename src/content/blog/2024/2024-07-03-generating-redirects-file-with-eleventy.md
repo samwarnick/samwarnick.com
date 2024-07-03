@@ -1,7 +1,12 @@
 ---
 title: Generating redirects file with Eleventy
 date: 2024-07-03
-published: false
+summary: Creating a Netlify _redirects file with Eleventy.
+tags:
+  - Eleventy
+  - Netlify
+  - Blog
+published: true
 ---
 As part of my migration, I wanted to make sure all the old urls redirected to the new ones. Netlify lets you add a `_redirects` file with all your redirect rules.
 
