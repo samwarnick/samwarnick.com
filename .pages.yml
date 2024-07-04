@@ -16,8 +16,6 @@ content:
       - name: date
         label: Date
         type: date
-        options:
-          time: true
       - name: summary
         label: Summary
         type: text
