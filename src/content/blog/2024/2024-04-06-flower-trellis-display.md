@@ -1,6 +1,6 @@
 ---
 title: Flower Trellis Display
-date: 2024-04-06T17:26:56.000Z
+date: 2024-04-06T17:26
 tags:
   - Review
   - LEGO

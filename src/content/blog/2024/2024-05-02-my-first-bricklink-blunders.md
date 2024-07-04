@@ -1,6 +1,6 @@
 ---
 title: My First BrickLink Blunders
-date: 2024-05-02T14:00:36.000Z
+date: 2024-05-02T14:00
 tags:
   - BrickLink
 published: true

@@ -1,6 +1,6 @@
 ---
 title: Making LEGO more sustainable
-date: 2024-04-05T14:00:38.000Z
+date: 2024-04-05T14:00
 tags:
   - LEGO
 published: true

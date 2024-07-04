@@ -1,6 +1,6 @@
 ---
 title: Enabling and Disabling PayPal
-date_published: 2024-05-09T14:00:32.000Z
+date_published: 2024-05-09T14:00
 tags:
   - BrickLink
 published: true

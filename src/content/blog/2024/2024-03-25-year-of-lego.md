@@ -1,6 +1,6 @@
 ---
 title: The Year of LEGO
-date: 2024-03-26T00:28:40.000Z
+date: 2024-03-26T00:28
 tags:
   - LEGO
   - BrickLink
