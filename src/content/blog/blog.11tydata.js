@@ -1,16 +1,22 @@
+const now = new Date();
+
+function isScheduled(data) {
+	return data.page.date > now;
+}
+
 export default {
 	layout: "layouts/post.njk",
-	permalink: function ({ title, published }) {
-		if (published === false) {
+	permalink: function (data) {
+		if (data.published === false || isScheduled(data)) {
 			return false;
 		}
-		return `/blog/${this.slugify(title, {
+		return `/blog/${this.slugify(data.title, {
 			customReplacements: [["'", ""]],
 		})}/index.html`;
 	},
 	eleventyComputed: {
-		eleventyExcludeFromCollections: function ({ published }) {
-			return published === false;
+		eleventyExcludeFromCollections: function (data) {
+			return data.published === false || isScheduled(data);
 		},
 		tags: function ({ title, tags }) {
 			if (title.toLowerCase().includes("devlog")) {
