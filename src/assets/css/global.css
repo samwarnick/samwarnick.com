@@ -104,7 +104,6 @@ hr {
 	width: 80px;
 	color: var(--secondary-text);
 	margin: var(--spacing-more);
-	grid-column: bump;
 }
 
 .center {

@@ -94,6 +94,9 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addFilter("removeSite", function (url) {
 		return url.replace("https://samwarnick.com", "");
 	});
+	eleventyConfig.addFilter("toGitHub", function (inputPath) {
+		return `https://github.com/samwarnick/samwarnick.com/blob/main${inputPath.substring(1)}`;
+	});
 
 	eleventyConfig.addPassthroughCopy("src/media");
 	eleventyConfig.addPassthroughCopy("src/assets/fonts");

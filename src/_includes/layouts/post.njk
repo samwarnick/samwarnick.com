@@ -1,5 +1,6 @@
 ---
 layout: layouts/base
+showEdit: true
 ---
 
 <header class="content-grid post-header">
@@ -26,6 +27,6 @@ layout: layouts/base
 </header>
 
 <article class="content-grid post-content">{{content | safe}}</article>
-{% if not author %}
+{% if (not author) and (not hideSignature) %}
 <div class="content-grid">{% include "components/signature.njk" %}</div>
 {% endif %}
