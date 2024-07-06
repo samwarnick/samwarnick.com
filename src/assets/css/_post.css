@@ -19,6 +19,7 @@
 	video {
 		border-radius: var(--border-radius);
 		margin-inline: auto;
+		height: auto;
 	}
 
 	p:has(> img) {
