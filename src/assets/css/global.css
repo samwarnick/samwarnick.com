@@ -113,3 +113,11 @@ hr {
 .more-margin {
 	margin-block: var(--spacing-more);
 }
+
+.serif {
+	font-family: var(--font-serif);
+}
+
+.mono {
+	font-family: var(--font-mono);
+}
