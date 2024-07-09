@@ -5,6 +5,5 @@ Cache-Control = "public, max-age=31526000"
 
 [[plugins]]
 package = "netlify-plugin-cache"
-
 [plugins.inputs]
 paths = [".cache"]
