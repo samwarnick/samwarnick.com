@@ -9,7 +9,7 @@ I love being a dad. I even like being a dad most of the time. After 4 years thou
 
 I try my hardest to be a good dad, but some days are just not that great. Sometimes I don't want to play with my kids. Sometimes I want to go to the bathroom without anyone watching me. Sometimes I get mad and yell. I know I shouldn't, but after long days of listening to stomping, slamming doors, "No," "I won't," "I refuse," and crying about not being able to use the clear tape, the rational part of my brain shuts down. I always feel bad when I shout, but I'm also amazed at how easily my daughter forgives and forgets[^1].
 
-!["There is no quiet anymore"](media/jATjOVM.jpeg)
+!["There is no quiet anymore"](/media/jATjOVM.jpeg)
 
 As cliché as it sounds, in the quiet moments when the kids smile at me or come give me unsolicited hugs, it all seems worth it. A former coworker said that kids are 51% worth it. I think mine are at least 52% worth it. Despite the exhaustion and everything else that comes with being a parent, I love my kids. And I love my wife. Without her, I would probably spend most of my days hiding under the bed.
 
