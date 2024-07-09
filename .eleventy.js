@@ -1,5 +1,6 @@
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import eleventyPluginOgImage from "eleventy-plugin-og-image";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
 import fs from "fs";
 import { DateTime } from "luxon";
@@ -72,6 +73,14 @@ export default async function (eleventyConfig) {
 			],
 		},
 	});
+	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+		extensions: "html",
+		formats: ["auto"],
+		defaultAttributes: {
+			loading: "lazy",
+			decoding: "async",
+		},
+	});
 
 	eleventyConfig.addShortcode("timestamp", function () {
 		return Date.now();
@@ -98,7 +107,7 @@ export default async function (eleventyConfig) {
 		return `https://github.com/samwarnick/samwarnick.com/blob/main${inputPath.substring(1)}`;
 	});
 
-	eleventyConfig.addPassthroughCopy("src/media");
+	eleventyConfig.addPassthroughCopy("**/*.mp4");
 	eleventyConfig.addPassthroughCopy("src/assets/fonts");
 	eleventyConfig.addPassthroughCopy("src/assets/favicon");
 
