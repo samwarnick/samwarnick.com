@@ -80,6 +80,9 @@ export default async function (eleventyConfig) {
 			loading: "lazy",
 			decoding: "async",
 		},
+		sharpOptions: {
+			animated: true,
+		},
 	});
 
 	eleventyConfig.addShortcode("timestamp", function () {
