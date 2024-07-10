@@ -1,6 +1,6 @@
 ---
 title: Why I Started a BrickLink Store
-date: 2024-03-29T19:54:28.000Z
+date: 2024-03-29T19:54
 tags:
   - BrickLink
 published: true

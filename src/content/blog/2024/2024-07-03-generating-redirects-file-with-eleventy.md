@@ -1,6 +1,6 @@
 ---
 title: Generating redirects file with Eleventy
-date: 2024-07-03
+date: 2024-07-03T10:00
 summary: Creating a Netlify _redirects file with Eleventy.
 tags:
   - Eleventy

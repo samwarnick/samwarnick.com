@@ -16,6 +16,12 @@ import Shiki from "@shikijs/markdown-it";
 export default async function (eleventyConfig) {
 	eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
+	eleventyConfig.addDateParsing(function (dateValue) {
+		if (dateValue) {
+			return DateTime.fromISO(dateValue).setZone("America/New_York");
+		}
+	});
+
 	const options = {
 		html: true,
 		breaks: true,
@@ -109,8 +115,11 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addFilter("toGitHub", function (inputPath) {
 		return `https://github.com/samwarnick/samwarnick.com/blob/main${inputPath.substring(1)}`;
 	});
+	eleventyConfig.addFilter("dateToRfc822WithCorrectTz", function (date) {
+		return DateTime.fromJSDate(date).toRFC2822();
+	});
 
-	eleventyConfig.addPassthroughCopy("**/*.mp4");
+	eleventyConfig.addPassthroughCopy("src/media/**/*.mp4");
 	eleventyConfig.addPassthroughCopy("src/assets/fonts");
 	eleventyConfig.addPassthroughCopy("src/assets/favicon");
 
