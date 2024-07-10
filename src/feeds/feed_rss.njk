@@ -15,7 +15,7 @@ permalink: feed.rss
 	      <title>{{ post.data.title }}</title>
 	      <link>{{ absolutePostUrl }}</link>
 	      <description>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</description>
-	      <pubDate>{{ post.date | realDateToRfc822 }}</pubDate>
+	      <pubDate>{{ post.date | dateToRfc822WithCorrectTz }}</pubDate>
 	      <dc:creator>{{ metadata.author.name }}</dc:creator>
 	      <guid>{{ post.data.oldUrl or absolutePostUrl }}</guid>
 	    </item>
