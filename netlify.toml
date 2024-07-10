@@ -7,3 +7,6 @@ Cache-Control = "public, max-age=31526000"
 package = "netlify-plugin-cache"
 [plugins.inputs]
 paths = [".cache"]
+
+[images]
+remote_images = ["https://f000.backblazeb2.com/file/samwarnick/.*"]

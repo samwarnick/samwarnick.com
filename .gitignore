@@ -4,3 +4,6 @@ _site
 .env
 .zed
 .cache
+
+# Local Netlify folder
+.netlify

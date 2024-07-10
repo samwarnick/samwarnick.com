@@ -79,17 +79,14 @@ export default async function (eleventyConfig) {
 			],
 		},
 	});
-	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-		extensions: "html",
-		formats: ["auto"],
-		defaultAttributes: {
-			loading: "lazy",
-			decoding: "async",
-		},
-		sharpOptions: {
-			animated: true,
-		},
-	});
+	// eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+	// 	extensions: "html",
+	// 	formats: ["auto"],
+	// 	defaultAttributes: {
+	// 		loading: "lazy",
+	// 		decoding: "async",
+	// 	},
+	// });
 
 	eleventyConfig.addShortcode("timestamp", function () {
 		return Date.now();
@@ -119,7 +116,6 @@ export default async function (eleventyConfig) {
 		return DateTime.fromJSDate(date).toRFC2822();
 	});
 
-	eleventyConfig.addPassthroughCopy("src/media/**/*.mp4");
 	eleventyConfig.addPassthroughCopy("src/assets/fonts");
 	eleventyConfig.addPassthroughCopy("src/assets/favicon");
 

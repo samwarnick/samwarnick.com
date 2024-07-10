@@ -3,7 +3,7 @@ permalink: /_redirects
 layout: false
 eleventyExcludeFromCollections: true
 ---
-
+/media/* /.netlify/images?url=https://f000.backblazeb2.com/file/samwarnick/:splat&fm=auto&q=90 200
 {%- for post in collections.posts -%}
 	{%- if post.data.oldUrl -%}
 	{%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) -%}
