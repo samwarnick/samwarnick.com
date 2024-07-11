@@ -16,5 +16,5 @@ TZ = 'America/New_York'
 
 [[redirects]]
 from = "/media/*"
-to = "/.netlify/images?url=https://blog.warnick.me/:splat&fm=auto&q=90"
+to = "/.netlify/images?url=https://blog.warnick.me/:splat&fm=webp&q=90"
 status = 200
