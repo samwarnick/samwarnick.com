@@ -10,3 +10,6 @@ paths = [".cache"]
 
 [images]
 remote_images = ["https://blog.warnick.me/.*"]
+
+[build.environment]
+TZ = 'America/New_York'
