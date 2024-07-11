@@ -9,4 +9,4 @@ package = "netlify-plugin-cache"
 paths = [".cache"]
 
 [images]
-remote_images = ["https://f000.backblazeb2.com/file/samwarnick/.*"]
+remote_images = ["https://blog.warnick.me/.*"]
