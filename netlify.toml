@@ -13,3 +13,8 @@ remote_images = ["https://blog.warnick.me/.*"]
 
 [build.environment]
 TZ = 'America/New_York'
+
+[[redirects]]
+from = "/media/*"
+to = "/.netlify/images?url=https://blog.warnick.me/:splat&fm=auto&q=90"
+status = 200
