@@ -28,8 +28,10 @@
 			property="og:description"
 			content="{{summary or metadata.description}}"
 		/>
+		<meta property="og:type" content="website">
 		{% if ogImage %}
 		<meta property="og:image" content="/media/og-image/{{ogImage}}" />
+		<meta name="twitter:card" content="summary_large_image">
 		{% elif title %} {% ogImage "/og-image.og.njk", { title: title } %} {% else %}
 		<meta property="og:image" content="/media/index.png" />
 		{% endif %}
