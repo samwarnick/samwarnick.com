@@ -5,6 +5,7 @@ summary: The title says it all—a quick tour of my LEGO city. With images!
 tags:
   - LEGO
 published: true
+ogImage: IMG_8674.png
 ---
 ![A look down the Main Street of a LEGO city with buildings on the left. An azure bus sits at a bus stop in the right lane of the street](https://blog.warnick.me/IMG_8673.jpg)
 

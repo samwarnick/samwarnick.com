@@ -5,10 +5,10 @@ content:
   - name: posts
     label: Posts
     type: collection
-    filename: '{fields.date}-{primary}.md'
-    path: 'src/content/blog'
+    filename: "{fields.date}-{primary}.md"
+    path: "src/content/blog"
     view:
-      fields: [ title, published, date ]
+      fields: [title, published, date]
     fields:
       - name: title
         label: Title
@@ -18,6 +18,9 @@ content:
         type: date
         options:
           time: true
+      - name: ogImage
+        label: OG Image
+        type: string
       - name: summary
         label: Summary
         type: text
