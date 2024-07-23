@@ -5,6 +5,7 @@ summary: What are birds? We don't really know.
 tags:
   - Photography
 published: true
+ogImage: birds/DSC06441.jpeg
 ---
 A couple years ago, a friend came and visited to take some pictures of birds. Painted Buntings were coming through the area, so it was a good time. I rented a 200–600mm lens. I had a lot of fun—I really need to do it more often. Here's a few of my favorite shots.
 
