@@ -29,12 +29,7 @@
 			content="{{summary or metadata.description}}"
 		/>
 		<meta property="og:type" content="website">
-		{% if ogImage %}
-		<meta property="og:image" content="/media/og-image/{{ogImage}}" />
-		<meta name="twitter:card" content="summary_large_image">
-		{% elif title %} {% ogImage "/og-image.og.njk", { title: title } %} {% else %}
-		<meta property="og:image" content="/media/index.png" />
-		{% endif %}
+		{% ogImage "/og-image.og.njk", { title: title or "Sam Warnick", image: ogImage } %}
 		<title>
 			{{ title or metadata.title }}{% if title !== 'Sam Warnick' %} • Sam
 			Warnick{% endif %}

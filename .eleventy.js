@@ -1,6 +1,5 @@
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import eleventyPluginOgImage from "eleventy-plugin-og-image";
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
 import fs from "fs";
 import { DateTime } from "luxon";
@@ -79,14 +78,6 @@ export default async function (eleventyConfig) {
 			],
 		},
 	});
-	// eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-	// 	extensions: "html",
-	// 	formats: ["auto"],
-	// 	defaultAttributes: {
-	// 		loading: "lazy",
-	// 		decoding: "async",
-	// 	},
-	// });
 
 	eleventyConfig.addShortcode("timestamp", function () {
 		return Date.now();
@@ -114,6 +105,29 @@ export default async function (eleventyConfig) {
 	});
 	eleventyConfig.addFilter("dateToRfc822WithCorrectTz", function (date) {
 		return DateTime.fromJSDate(date).toRFC2822();
+	});
+	eleventyConfig.addFilter("defaultImage", function (image) {
+		const defaultImages = [
+			"og-image/1.jpg",
+			"og-image/2.jpg",
+			"og-image/3.jpg",
+			"og-image/4.jpg",
+			"og-image/5.jpg",
+			"og-image/6.jpg",
+			"og-image/7.jpg",
+			"og-image/8.jpg",
+			"og-image/9.jpg",
+			"og-image/10.jpg",
+			"og-image/11.jpg",
+			"og-image/12.jpg",
+		];
+		return (
+			image || defaultImages[Math.floor(Math.random() * defaultImages.length)]
+		);
+	});
+	eleventyConfig.addFilter("something", function (value) {
+		console.log(value);
+		return value.replace("&#39;", ",");
 	});
 
 	eleventyConfig.addPassthroughCopy("src/assets/fonts");

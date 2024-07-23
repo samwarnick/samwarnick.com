@@ -2,29 +2,83 @@
 	.root {
 		width: 100%;
 		height: 100%;
+		position: relative;
 		display: flex;
-		flex-direction: column;
-		align-items: center;
-		background: #faf4ed;
-		padding: 20px;
 	}
+
+	.background {
+		display: flex;
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+
+	.image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .color {
+  	display: flex;
+    background-color: #575279;
+    mix-blend-mode: overlay;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+  }
+
+	.gradient {
+		display: flex;
+    background-image: linear-gradient(transparent, transparent, black);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .content {
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    left: 80px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+  }
 
 	.title {
-		color: black;
-		font-size: 80px;
-		margin: auto 0;
-		text-align: center;
 		font-family: "Calistoga";
-	}
-
-	.subtitle {
-		font-family: "Calistoga";
-		font-size: 48px;
-		color: #575279;
+		color: #faf4ed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-shadow: 0 0 12px black;
+    margin: 0;
+		font-size: 100px;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    text-wrap: balanced;
+    line-height: 1;
+    font-family: ;
 	}
 </style>
 
 <div class="root">
-	<h1 class="title">{{ title | safe }}</h1>
-	<h2 class="subtitle">samwarnick.com</h2>
+	<div class="background">
+    <img src="https://samwarnick.com/media/og/{{image | defaultImage }}" alt="" class="image" width="1200" height="630">
+    <div class="color"></div>
+    <div class="gradient"></div>
+  </div>
+
+  <div class="content">
+    <h1 class="title">{{ title | safe }}</h1>
+  </div>
 </div>
