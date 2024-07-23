@@ -18,6 +18,9 @@ content:
         type: date
         options:
           time: true
+      - name: ogImage
+        label: OG Image
+        type: string
       - name: summary
         label: Summary
         type: text
