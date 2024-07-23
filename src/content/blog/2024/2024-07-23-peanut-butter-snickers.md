@@ -1,6 +1,7 @@
 ---
 title: Peanut Butter Snickers
 date: 2024-07-23T17:30
+ogImage: IMG_8683.jpg
 summary: The best Snickers.
 tags:
   - Uses
