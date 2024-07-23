@@ -15,6 +15,11 @@ remote_images = ["https://blog.warnick.me/.*"]
 TZ = 'America/New_York'
 
 [[redirects]]
+from = "/media/og/*"
+to = "/.netlify/images?url=https://blog.warnick.me/:splat&fm=jpg&w=1200&h=630&fit=cover"
+status = 200
+
+[[redirects]]
 from = "/media/*"
 to = "/.netlify/images?url=https://blog.warnick.me/:splat&fm=webp&q=90"
 status = 200
