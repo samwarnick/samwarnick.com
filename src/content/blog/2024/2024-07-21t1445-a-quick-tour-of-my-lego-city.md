@@ -15,7 +15,7 @@ Over the past few months, I've been putting together a LEGO city. I've made a co
 
 My city is built on [MILS plates](https://www.abellon.net/MILS/). It is currently 6x2, plus a strip along the front to create a waterfront/promenade area. The MILS plates are the more expensive option, but I appreciate the stability and flexibility they provide. It's easy to pull out a single plate or building to work on it.
 
-I'll got left to right.
+I'll go left to right.
 
 ![LEGO detective's office between a teal row home and bookshop](https://blog.warnick.me/IMG_8672.jpg)
 
@@ -31,6 +31,6 @@ The botanical garden is mostly my own creation made of 2 sets of the [Botanical 
 
 ![A brick-built LEGO road with exposed brick](https://blog.warnick.me/IMG_8676.jpg)
 
-I recently added some exposed brick to a couple spots in the streets. I love this detail. I think it really adds character to the city. I would've been easier to put the brick pieces the same direction as the road bricks, but then the bricks would be going to wrong direction. I really wanted them to align perpendicularly to the road as you'd see IRL. I think it was worth the effort.
+I recently added some exposed brick to a couple spots in the streets. I love this detail. I think it really adds character to the city. It would've been easier to put the brick pieces the same direction as the road bricks, but then the bricks would be going to wrong direction. I really wanted them to align perpendicularly to the road as you'd see IRL. I think it was worth the effort.
 
 I'm running out of space. So not sure where to go from here. Maybe lighting? Let me know if you have ideas of what I should do next!
