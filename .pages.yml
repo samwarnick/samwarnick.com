@@ -38,7 +38,7 @@ content:
         label: Body
         type: rich-text
   - name: projects
-    label: project
+    label: Projects
     type: collection
     filename: "{primary}.md"
     path: "src/content/projects"
