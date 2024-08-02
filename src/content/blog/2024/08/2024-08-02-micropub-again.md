@@ -1,11 +1,11 @@
 ---
 title: Micropub Again
-date: '2024-08-02T19:45'
-summary: >-
-  I've set up a new Micropub server on my Synology to streamline my blogging
-  workflow, but I've probably made it too complicated.
-tags: []
-published: false
+date: 2024-08-02T19:45
+summary: I've set up a new Micropub server on my Synology to "streamline" my
+  blogging workflow.
+tags:
+  - Blog
+published: true
 ---
 About 2 and a half years ago, I found [a repo](https://github.com/benjifs/micropub) to add [Micropub](https://indieweb.org/Micropub) support to my blog with Netlify functions. Since then, my blogging setup has changed maybe a dozen times or so.
 
