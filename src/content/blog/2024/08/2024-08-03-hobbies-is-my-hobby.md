@@ -2,7 +2,7 @@
 title: Hobbies Is My Hobby
 date: 2024-08-03T12:51
 summary: Much like the tides, my interests and hobbies come and go. And that's okay.
-published: false
+published: true
 ---
 Not too long ago, my daughter and I played a couple of games of Pokémon. We had a couple starter decks I got off Amazon a year or 2 ago. Then, it happened. My daughter asked if we could go to Target and get some Pokémon cards. I closed my eyes, took a deep breath, and thought, here we go again.
 
