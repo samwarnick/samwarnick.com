@@ -1,0 +1,12 @@
+:root {
+	--pagefind-ui-font: var(--font-sans);
+	--pagefind-ui-text: var(--primary-text);
+	--pagefind-ui-border: color-mix(in srgb, var(--secondary-text), transparent 80%);
+	--pagefind-ui-border-width: 1px;
+	--pagefind-ui-background: color-mix(in srgb, var(--background-color),  var(--secondary-text) 5%);
+	--pagefind-ui-scale: 1.1;
+}
+
+#search {
+	z-index: -1;
+}

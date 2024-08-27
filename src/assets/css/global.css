@@ -10,6 +10,7 @@
 @import "_post.css";
 
 @import "_archive.css";
+@import "_pagefind.css";
 
 *:focus-visible {
 	outline: 2px solid var(--accent-color);

@@ -26,7 +26,7 @@ showEdit: true
 	<hr class="content-wide" />
 </header>
 
-<article class="content-grid post-content">{{content | safe}}</article>
+<article class="content-grid post-content" data-pagefind-body>{{content | safe}}</article>
 {% if (not author) and (not hideSignature) %}
 <div class="content-grid">{% include "components/signature.njk" %}</div>
 {% endif %}
