@@ -4,9 +4,5 @@ layout: layouts/page
 searchPage: true
 ---
 
-<div id="search"></div>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true, showImages: false, autofocus: true });
-    });
-</script>
+<script type="module" src="/assets/js/pagefind-search.js"></script>
+<pagefind-search _show_images="false" pagefind-autofocus></pagefind-search>
