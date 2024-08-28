@@ -6,7 +6,3 @@
 	--pagefind-ui-background: color-mix(in srgb, var(--background-color),  var(--secondary-text) 5%);
 	--pagefind-ui-scale: 1.1;
 }
-
-#search {
-	z-index: -1;
-}

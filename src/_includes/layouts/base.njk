@@ -59,7 +59,10 @@
 			as="font"
 			crossorigin="anonymous"
 		/>
+		{% if searchPage %}
 		<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+		<script src="/pagefind/pagefind-ui.js"></script>
+		{% endif %}
 		<link
 			rel="stylesheet"
 			href="/assets/css/global.css?{% timestamp %}"
