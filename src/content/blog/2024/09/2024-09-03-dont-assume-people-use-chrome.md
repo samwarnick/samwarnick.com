@@ -1,11 +1,9 @@
 ---
 title: Don't Assume People Use Chrome
-date: '2024-09-03T10:52'
-summary: >-
-  I share my frustrations with browser compatibility in 2024 and why it's
-  important to develop for multiple browsers.
-tags: []
-published: false
+date: 2024-09-03T10:52
+summary: In 2024, I'm surprised at how many sites apps there are that only work
+  in Chrome.
+published: true
 ---
 IMO, all browsers have one or more fatal flaws that make them bad. I've yet to find a browser that I'd call excellent. Safari is my browser of choice. I like that it's not owned by Google and it mostly works. Things are pretty good, but I'm still surprised at how often I come across a site that doesn't really work in Safari.
 
