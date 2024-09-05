@@ -1,0 +1,11 @@
+rss-feed {
+	margin-top: var(--spacing);
+
+	hr:last-child {
+		display: none;
+	}
+
+	small {
+		color: var(--secondary-text);
+	}
+}

@@ -11,6 +11,7 @@
 
 @import "_archive.css";
 @import "_pagefind.css";
+@import "_rss-feed.css";
 
 *:focus-visible {
 	outline: 2px solid var(--accent-color);
