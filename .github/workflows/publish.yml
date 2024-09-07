@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Curl request
-        run: curl -X POST -d {} {{ secrets.NETLIFY_HOOK }}
+        run: curl -X POST -d {} ${{ secrets.NETLIFY_HOOK }}

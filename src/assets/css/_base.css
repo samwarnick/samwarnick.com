@@ -4,8 +4,10 @@
 	position: sticky;
 	top: 0;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-bottom: 4em;
+	gap: var(--spacing);
 
 	&::after {
 		content: "";
@@ -64,6 +66,10 @@
 			scale: 1 1;
 			opacity: 1;
 		}
+	}
+
+	li a {
+		color: var(--secondary-text);
 	}
 }
 
