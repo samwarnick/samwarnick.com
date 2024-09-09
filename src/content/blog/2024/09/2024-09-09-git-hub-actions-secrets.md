@@ -1,11 +1,10 @@
 ---
 title: GitHub Actions Secrets
-date: '2024-09-09T10:10'
-summary: >-
-  I share my experience learning to use GitHub Actions secrets and variables for
-  my site's daily rebuild.
-tags: []
-published: false
+date: 2024-09-09T10:10
+summary: What even are GitHub Actions?
+tags:
+  - GitHub Actions
+published: true
 ---
 GitHub Actions Secrets
 
@@ -27,12 +26,11 @@ Turns out, there are 2 buckets of secrets or variables—Repository and Environm
 I needed to define an environment for my job:
 
 ```yml
-# [!code highlight:5]
 jobs:
   build:
     name: Request Netlify Webhook
     runs-on: ubuntu-latest
-    environment: samwarnick.com
+    environment: samwarnick.com # [!code highlight]
     steps:
       - name: Curl request
         run: curl -X POST -d {} ${{ secrets.NETLIFY_HOOK }}
