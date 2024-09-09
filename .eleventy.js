@@ -11,6 +11,10 @@ import MarkdownItGitHubAlerts from "markdown-it-github-alerts";
 import MarkdownItAttrs from "markdown-it-attrs";
 import { html5Media } from "markdown-it-html5-media";
 import Shiki from "@shikijs/markdown-it";
+import {
+	transformerNotationFocus,
+	transformerNotationHighlight,
+} from "@shikijs/transformers";
 
 /** @param {import('@11ty/eleventy/src/UserConfig').default} eleventyConfig */
 export default async function (eleventyConfig) {
@@ -32,6 +36,7 @@ export default async function (eleventyConfig) {
 		.use(
 			await Shiki({
 				theme: "rose-pine-moon",
+				transformers: [transformerNotationFocus()],
 			}),
 		)
 		.use(MarkdownItGitHubAlerts)

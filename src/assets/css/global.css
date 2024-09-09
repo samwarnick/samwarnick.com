@@ -12,6 +12,7 @@
 @import "_archive.css";
 @import "_pagefind.css";
 @import "_rss-feed.css";
+@import "_shiki.css";
 
 *:focus-visible {
 	outline: 2px solid var(--accent-color);
