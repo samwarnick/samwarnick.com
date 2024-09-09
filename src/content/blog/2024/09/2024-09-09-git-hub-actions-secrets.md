@@ -32,7 +32,7 @@ jobs:
     environment: samwarnick.com // [!code focus]
     steps:
       - name: Curl request
-        run: curl -X POST -d {} ${{ secrets.NETLIFY_HOOK }}
+        run: curl -X POST -d {} ${% raw %}{{ secrets.NETLIFY_HOOK }}{% endraw %}
 ```
 
 Then it worked! Hallelujah.
