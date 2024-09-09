@@ -1,11 +1,8 @@
 ---
 title: Maybe I'm Growing As a Person
-date: '2024-09-09T16:42'
-summary: >-
-  I'm content with my current Apple devices and feel no urge to upgrade after
-  today's iPhone event.
-tags: []
-published: false
+date: 2024-09-09T16:42
+summary: I'm feeling a strange sense of contentedness.
+published: true
 ---
 The iPhone event happened today. For the first time in a long time, I feel nearly no desire to buy any of the products they announced.
 
