@@ -6,7 +6,6 @@ tags:
   - GitHub Actions
 published: true
 ---
-GitHub Actions Secrets
 
 > [!WARNING]
 > I am a GitHub Actions noob. They confuse and scare me.
@@ -30,7 +29,7 @@ jobs:
   build:
     name: Request Netlify Webhook
     runs-on: ubuntu-latest
-    environment: samwarnick.com # [!code highlight]
+    environment: samwarnick.com
     steps:
       - name: Curl request
         run: curl -X POST -d {} ${{ secrets.NETLIFY_HOOK }}
