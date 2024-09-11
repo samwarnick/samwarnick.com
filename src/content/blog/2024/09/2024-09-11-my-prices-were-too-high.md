@@ -1,11 +1,10 @@
 ---
 title: My Prices Were Too High
-date: '2024-09-11T11:10'
-summary: >-
-  I share my experience boosting sales in my small BrickLink LEGO store with a
-  30% discount strategy.
-tags: []
-published: false
+date: 2024-09-11T11:10
+summary: BrickLink orders have been pouring in. I'm not that mad about it.
+tags:
+  - BrickLink
+published: true
 ---
 I opened my BrickLink store earlier this year. Between March and September, I had 7 orders. Not that many. In the last week and a half, I've had 10 orders. The difference? A 30% sale.
 
