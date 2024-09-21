@@ -1,11 +1,11 @@
 ---
 title: How Often Is Too Often
-date: '2024-09-21T13:37'
-summary: >-
-  I'm feeling lazy, so I'm publishing a bunch of blog posts all at once instead
-  of scheduling them.
-tags: []
-published: false
+date: 2024-09-21T13:37
+summary: I'm feeling lazy, so I'm publishing a bunch of blog posts all at once
+  instead of scheduling them.
+tags:
+  - Blog
+published: true
 ---
 Sometimes I just get a lot of ideas of things I want to blog about all at the same time. That's why I built in scheduling to my Eleventy setup.
 
