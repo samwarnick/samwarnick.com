@@ -1,11 +1,11 @@
 ---
 title: Portainer on Synology Has a Bug
-date: '2024-09-21T13:31'
-summary: >-
-  I'm using Portainer on my Synology, but a bug has me questioning why I even
-  need it.
-tags: []
-published: false
+date: 2024-09-21T13:31
+summary: I'm using Portainer on my Synology, but a bug has me questioning why I
+  even need it.
+tags:
+  - Synology
+published: true
 ---
 I've been using [Portainer](https://www.portainer.io) on my Synology to handle Docker stuff. The internet said I should, so I did. It has a decent enough UI and seems easier to use than the built in container stuff on Synology. But honestly, I don't know enough to know what I'm getting.
 
