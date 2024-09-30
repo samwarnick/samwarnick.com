@@ -1,11 +1,9 @@
 ---
 title: Home Database
-date: '2024-09-30T12:34'
-summary: >-
-  I'm creating an app to generate QR codes for easy access to manuals and notes
-  for household items.
-tags: []
-published: false
+date: 2024-09-30T12:34
+summary: I'm creating an app to generate QR codes for easy access to manuals and
+  notes for household items.
+published: true
 ---
 I was reading [Dave's post on index card journaling](https://catskull.net/index-card-journaling.html)  the other day. In it is a YouTube video.
 
