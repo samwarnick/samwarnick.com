@@ -1,11 +1,9 @@
 ---
 title: Perfect Stack Projects
-date: '2024-10-06T16:24'
-summary: >-
-  I've been using my "perfect stack" for real projects and loving how it
+date: 2024-10-06T16:24
+summary: I've been using my "perfect stack" for real projects and loving how it
   simplifies my development process.
-tags: []
-published: false
+published: true
 ---
 About 6 months ago, I wrote about [The Perfect Stack](https://samwarnick.com/blog/the-perfect-stack/). It's my unoriginal, facetious take on a stack for web apps. The TL;DR is to use Bun, Hono (with TSX), HTMX, and SQLite.
 
