@@ -1,0 +1,32 @@
+---
+title: "/pokemon"
+permalink: /pokemon.html
+layout: layouts/page
+---
+
+<h2>My Collection</h2>
+<p>Here's some cards from my collection. They are all cards where the market price is at least $1—otherwise there would be too many.</p>
+<p><small>Last updated {{ pokemon.lastUpdated.date | toDate | formattedDate }}</small></p>
+{%- for set in pokemon.myCollection -%}
+<section class="set">
+	<h3><img src="{{set.images.logo}}" alt="{{set.name}}"></h3>
+	<div class="cards">
+		{%- for card in set.cards -%}
+		<a href="{{card.tcgplayer.url}}"><img src="{{card.images.small}}" alt="{{card.name}}"></a>
+		{%- endfor -%}
+	</div>
+</section>
+{%- endfor -%}
+
+<h2>Wishlist</h2>
+<p>Some cards I want.</p>
+{%- for set in pokemon.wishlist -%}
+<section class="set">
+	<h3><img src="{{set.images.logo}}" alt="{{set.name}}"></h3>
+	<div class="cards">
+		{%- for card in set.cards -%}
+		<a href="{{card.tcgplayer.url}}"><img src="{{card.images.small}}" alt="{{card.name}}"></a>
+		{%- endfor -%}
+	</div>
+</section>
+{%- endfor -%}

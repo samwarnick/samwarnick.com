@@ -1,0 +1,23 @@
+section.set {
+	margin-bottom: calc(var(--spacing-more) * 2);
+
+	h3 {
+		margin-bottom: var(--spacing);
+
+		img {
+			height: 60px;
+		}
+	}
+
+	.cards {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 245px));
+		gap: 1em;
+		justify-content: center;
+
+		img {
+			filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1))
+				drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+		}
+	}
+}

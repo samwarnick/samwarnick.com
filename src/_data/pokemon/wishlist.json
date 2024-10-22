@@ -1,0 +1,2831 @@
+[
+  {
+    "id": "svp",
+    "name": "Scarlet & Violet Black Star Promos",
+    "series": "Scarlet & Violet",
+    "printedTotal": 148,
+    "total": 129,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SV",
+    "releaseDate": "2023/01/01",
+    "updatedAt": "2023/12/11 23:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+      "logo": "https://images.pokemontcg.io/svp/logo.png"
+    },
+    "cards": [
+      {
+        "id": "svp-46",
+        "name": "Bulbasaur",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "70",
+        "types": [
+          "Grass"
+        ],
+        "attacks": [
+          {
+            "name": "Vine Whip",
+            "cost": [
+              "Grass",
+              "Colorless",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 3,
+            "damage": "50",
+            "text": ""
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "set": {
+          "id": "svp",
+          "name": "Scarlet & Violet Black Star Promos",
+          "series": "Scarlet & Violet",
+          "printedTotal": 148,
+          "total": 129,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "ptcgoCode": "PR-SV",
+          "releaseDate": "2023/01/01",
+          "updatedAt": "2023/12/11 23:15:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+            "logo": "https://images.pokemontcg.io/svp/logo.png"
+          }
+        },
+        "number": "46",
+        "artist": "OKACHEKE",
+        "rarity": "Promo",
+        "flavorText": "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
+        "nationalPokedexNumbers": [
+          1
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/svp/46.png",
+          "large": "https://images.pokemontcg.io/svp/46_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/svp-46",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 0.13,
+              "mid": 0.48,
+              "high": 3.98,
+              "market": 0.55,
+              "directLow": 0.38
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/svp-46",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 0.3,
+            "lowPrice": 0.02,
+            "trendPrice": 0.31,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 0.02,
+            "avg1": 0.34,
+            "avg7": 0.36,
+            "avg30": 0.29,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "svp-47",
+        "name": "Charmander",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "70",
+        "types": [
+          "Fire"
+        ],
+        "attacks": [
+          {
+            "name": "Ember",
+            "cost": [
+              "Fire",
+              "Fire"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "40",
+            "text": "Discard an Energy from this Pokémon."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "svp",
+          "name": "Scarlet & Violet Black Star Promos",
+          "series": "Scarlet & Violet",
+          "printedTotal": 148,
+          "total": 129,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "ptcgoCode": "PR-SV",
+          "releaseDate": "2023/01/01",
+          "updatedAt": "2023/12/11 23:15:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+            "logo": "https://images.pokemontcg.io/svp/logo.png"
+          }
+        },
+        "number": "47",
+        "artist": "NC Empire",
+        "rarity": "Promo",
+        "flavorText": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+        "nationalPokedexNumbers": [
+          4
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/svp/47.png",
+          "large": "https://images.pokemontcg.io/svp/47_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/svp-47",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 0.2,
+              "mid": 1,
+              "high": 6.99,
+              "market": 0.77,
+              "directLow": 1
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/svp-47",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 0.34,
+            "lowPrice": 0.04,
+            "trendPrice": 0.33,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 0.04,
+            "avg1": 0.35,
+            "avg7": 0.35,
+            "avg30": 0.33,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "svp-48",
+        "name": "Squirtle",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "70",
+        "types": [
+          "Water"
+        ],
+        "attacks": [
+          {
+            "name": "Bubble",
+            "cost": [
+              "Water",
+              "Water"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "20",
+            "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "set": {
+          "id": "svp",
+          "name": "Scarlet & Violet Black Star Promos",
+          "series": "Scarlet & Violet",
+          "printedTotal": 148,
+          "total": 129,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "ptcgoCode": "PR-SV",
+          "releaseDate": "2023/01/01",
+          "updatedAt": "2023/12/11 23:15:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+            "logo": "https://images.pokemontcg.io/svp/logo.png"
+          }
+        },
+        "number": "48",
+        "artist": "Gemi",
+        "rarity": "Promo",
+        "flavorText": "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth.",
+        "nationalPokedexNumbers": [
+          7
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/svp/48.png",
+          "large": "https://images.pokemontcg.io/svp/48_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/svp-48",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 0.19,
+              "mid": 0.5,
+              "high": 4.99,
+              "market": 0.59,
+              "directLow": null
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/svp-48",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 0.33,
+            "lowPrice": 0.02,
+            "trendPrice": 0.32,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 0.04,
+            "avg1": 0.49,
+            "avg7": 0.35,
+            "avg30": 0.31,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sv1",
+    "name": "Scarlet & Violet",
+    "series": "Scarlet & Violet",
+    "printedTotal": 198,
+    "total": 258,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/03/31",
+    "updatedAt": "2023/03/31 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv1/logo.png"
+    },
+    "cards": [
+      {
+        "id": "sv1-207",
+        "name": "Dondozo",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "160",
+        "types": [
+          "Water"
+        ],
+        "attacks": [
+          {
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "name": "Release Rage",
+            "damage": "50×",
+            "text": "This attack does 50 damage for each Tatsugiri in your discard pile.",
+            "convertedEnergyCost": 2
+          },
+          {
+            "cost": [
+              "Water",
+              "Water",
+              "Colorless",
+              "Colorless"
+            ],
+            "name": "Heavy Splash",
+            "damage": "120",
+            "text": "",
+            "convertedEnergyCost": 4
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 4,
+        "set": {
+          "id": "sv1",
+          "name": "Scarlet & Violet",
+          "series": "Scarlet & Violet",
+          "printedTotal": 198,
+          "total": 258,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/03/31",
+          "updatedAt": "2023/03/31 15:45:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv1/logo.png"
+          }
+        },
+        "number": "207",
+        "artist": "AKIRA EGAWA",
+        "rarity": "Illustration Rare",
+        "flavorText": "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
+        "nationalPokedexNumbers": [
+          977
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv1/207.png",
+          "large": "https://images.pokemontcg.io/sv1/207_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv1-207",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 2.35,
+              "mid": 3.84,
+              "high": 12.49,
+              "market": 3.54,
+              "directLow": 5.51
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv1-207",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 5.82,
+            "lowPrice": 3.9,
+            "trendPrice": 5.46,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 3.9,
+            "avg1": 4.32,
+            "avg7": 5.39,
+            "avg30": 5.83,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv1-211",
+        "name": "Ralts",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "70",
+        "types": [
+          "Psychic"
+        ],
+        "attacks": [
+          {
+            "cost": [
+              "Psychic",
+              "Colorless"
+            ],
+            "name": "Psyshot",
+            "damage": "30",
+            "text": "",
+            "convertedEnergyCost": 2
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Darkness",
+            "value": "×2"
+          }
+        ],
+        "resistances": [
+          {
+            "type": "Fighting",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "sv1",
+          "name": "Scarlet & Violet",
+          "series": "Scarlet & Violet",
+          "printedTotal": 198,
+          "total": 258,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/03/31",
+          "updatedAt": "2023/03/31 15:45:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv1/logo.png"
+          }
+        },
+        "number": "211",
+        "artist": "Jiro Sasumo",
+        "rarity": "Illustration Rare",
+        "flavorText": "The horns on its head provide a strong power that enables it to sense people's emotions.",
+        "nationalPokedexNumbers": [
+          280
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv1/211.png",
+          "large": "https://images.pokemontcg.io/sv1/211_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv1-211",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 12.54,
+              "mid": 16.13,
+              "high": 54,
+              "market": 16.16,
+              "directLow": 14.46
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv1-211",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 17.01,
+            "lowPrice": 11.5,
+            "trendPrice": 17.97,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 11.5,
+            "avg1": 19.73,
+            "avg7": 18.58,
+            "avg30": 17.17,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv1-212",
+        "name": "Kirlia",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Stage 1"
+        ],
+        "hp": "90",
+        "types": [
+          "Psychic"
+        ],
+        "evolvesFrom": "Ralts",
+        "attacks": [
+          {
+            "cost": [
+              "Psychic",
+              "Colorless"
+            ],
+            "name": "Magical Shot",
+            "damage": "30",
+            "text": "",
+            "convertedEnergyCost": 2
+          },
+          {
+            "cost": [
+              "Psychic",
+              "Psychic",
+              "Colorless"
+            ],
+            "name": "Psychic",
+            "damage": "60+",
+            "text": "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
+            "convertedEnergyCost": 3
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Darkness",
+            "value": "×2"
+          }
+        ],
+        "resistances": [
+          {
+            "type": "Fighting",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "sv1",
+          "name": "Scarlet & Violet",
+          "series": "Scarlet & Violet",
+          "printedTotal": 198,
+          "total": 258,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/03/31",
+          "updatedAt": "2023/03/31 15:45:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv1/logo.png"
+          }
+        },
+        "number": "212",
+        "artist": "Jiro Sasumo",
+        "rarity": "Illustration Rare",
+        "flavorText": "It has a psychic power that enables it to distort the space around it and see into the future.",
+        "nationalPokedexNumbers": [
+          281
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv1/212.png",
+          "large": "https://images.pokemontcg.io/sv1/212_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv1-212",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 9,
+              "mid": 12.42,
+              "high": 33,
+              "market": 12.83,
+              "directLow": 14.39
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv1-212",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 15.7,
+            "lowPrice": 11,
+            "trendPrice": 15.45,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 11,
+            "avg1": 15.64,
+            "avg7": 15.59,
+            "avg30": 15.61,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv1-213",
+        "name": "Fidough",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "60",
+        "types": [
+          "Psychic"
+        ],
+        "attacks": [
+          {
+            "cost": [
+              "Psychic"
+            ],
+            "name": "Springy",
+            "damage": "",
+            "text": "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+            "convertedEnergyCost": 1
+          },
+          {
+            "cost": [
+              "Psychic",
+              "Colorless",
+              "Colorless"
+            ],
+            "name": "Flop",
+            "damage": "30",
+            "text": "",
+            "convertedEnergyCost": 3
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "set": {
+          "id": "sv1",
+          "name": "Scarlet & Violet",
+          "series": "Scarlet & Violet",
+          "printedTotal": 198,
+          "total": 258,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/03/31",
+          "updatedAt": "2023/03/31 15:45:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv1/logo.png"
+          }
+        },
+        "number": "213",
+        "artist": "Tika Matsuno",
+        "rarity": "Illustration Rare",
+        "flavorText": "This Pokémon is smooth and moist to the touch. Yeast in Fidough's breath induces fermentation in the Pokémon's vicinity.",
+        "nationalPokedexNumbers": [
+          926
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv1/213.png",
+          "large": "https://images.pokemontcg.io/sv1/213_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv1-213",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 2.25,
+              "mid": 3,
+              "high": 17.96,
+              "market": 2.81,
+              "directLow": null
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv1-213",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 3.91,
+            "lowPrice": 1.49,
+            "trendPrice": 3.89,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 2,
+            "avg1": 5.4,
+            "avg7": 3.86,
+            "avg30": 3.95,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv1-221",
+        "name": "Starly",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "60",
+        "types": [
+          "Colorless"
+        ],
+        "attacks": [
+          {
+            "cost": [
+              "Colorless"
+            ],
+            "name": "Flap",
+            "damage": "20",
+            "text": "",
+            "convertedEnergyCost": 1
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ],
+        "resistances": [
+          {
+            "type": "Fighting",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "sv1",
+          "name": "Scarlet & Violet",
+          "series": "Scarlet & Violet",
+          "printedTotal": 198,
+          "total": 258,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/03/31",
+          "updatedAt": "2023/03/31 15:45:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv1/logo.png"
+          }
+        },
+        "number": "221",
+        "artist": "saino misaki",
+        "rarity": "Illustration Rare",
+        "flavorText": "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
+        "nationalPokedexNumbers": [
+          396
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv1/221.png",
+          "large": "https://images.pokemontcg.io/sv1/221_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv1-221",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 1.81,
+              "mid": 2.5,
+              "high": 10,
+              "market": 2.45,
+              "directLow": null
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv1-221",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 5.34,
+            "lowPrice": 2.9,
+            "trendPrice": 5.32,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 2.9,
+            "avg1": 4.27,
+            "avg7": 4.85,
+            "avg30": 5.26,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sv2",
+    "name": "Paldea Evolved",
+    "series": "Scarlet & Violet",
+    "printedTotal": 193,
+    "total": 279,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/06/09",
+    "updatedAt": "2023/06/09 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv2/logo.png"
+    },
+    "cards": [
+      {
+        "id": "sv2-203",
+        "name": "Magikarp",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "30",
+        "types": [
+          "Water"
+        ],
+        "attacks": [
+          {
+            "cost": [
+              "Water"
+            ],
+            "name": "Expert Splasher",
+            "damage": "10+",
+            "text": "Flip 2 coins. If both of them are heads, this attack does 20 more damage.",
+            "convertedEnergyCost": 1
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "sv2",
+          "name": "Paldea Evolved",
+          "series": "Scarlet & Violet",
+          "printedTotal": 193,
+          "total": 279,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/06/09",
+          "updatedAt": "2023/06/09 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv2/logo.png"
+          }
+        },
+        "number": "203",
+        "artist": "Shinji Kanda",
+        "rarity": "Illustration Rare",
+        "flavorText": "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
+        "nationalPokedexNumbers": [
+          129
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv2/203.png",
+          "large": "https://images.pokemontcg.io/sv2/203_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv2-203",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 97.38,
+              "mid": 143.64,
+              "high": 329.97,
+              "market": 122.57,
+              "directLow": 109.19
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv2-203",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 100.33,
+            "lowPrice": 70,
+            "trendPrice": 101.3,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 70,
+            "avg1": 95,
+            "avg7": 99.01,
+            "avg30": 99.29,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sv3pt5",
+    "name": "151",
+    "series": "Scarlet & Violet",
+    "printedTotal": 165,
+    "total": 207,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/09/22",
+    "updatedAt": "2023/09/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+    },
+    "cards": [
+      {
+        "id": "sv3pt5-166",
+        "name": "Bulbasaur",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "70",
+        "types": [
+          "Grass"
+        ],
+        "evolvesTo": [
+          "Ivysaur"
+        ],
+        "attacks": [
+          {
+            "name": "Leech Seed",
+            "cost": [
+              "Grass",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "20",
+            "text": "Heal 20 damage from this Pokémon."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "166",
+        "artist": "Yoriyuki Ikegami",
+        "rarity": "Illustration Rare",
+        "flavorText": "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
+        "nationalPokedexNumbers": [
+          1
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/166.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/166_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-166",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 33.56,
+              "mid": 38.97,
+              "high": 150,
+              "market": 33.46,
+              "directLow": 51.29
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-166",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 31.21,
+            "lowPrice": 25,
+            "trendPrice": 33.41,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 25,
+            "avg1": 34.06,
+            "avg7": 33.89,
+            "avg30": 31.34,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-167",
+        "name": "Ivysaur",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Stage 1"
+        ],
+        "hp": "100",
+        "types": [
+          "Grass"
+        ],
+        "evolvesFrom": "Bulbasaur",
+        "evolvesTo": [
+          "Venusaur"
+        ],
+        "attacks": [
+          {
+            "name": "Leech Seed",
+            "cost": [
+              "Grass",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "30",
+            "text": "Heal 20 damage from this Pokémon."
+          },
+          {
+            "name": "Vine Whip",
+            "cost": [
+              "Grass",
+              "Grass",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 3,
+            "damage": "80",
+            "text": ""
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 3,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "167",
+        "artist": "Yoriyuki Ikegami",
+        "rarity": "Illustration Rare",
+        "flavorText": "Exposure to sunlight adds to its strength. Sunlight also makes the bud on its back grow larger.",
+        "nationalPokedexNumbers": [
+          2
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/167.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/167_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-167",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 20.68,
+              "mid": 26.92,
+              "high": 79.99,
+              "market": 25.72,
+              "directLow": 39.69
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-167",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 24.99,
+            "lowPrice": 20,
+            "trendPrice": 27.42,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 20,
+            "avg1": 27.5,
+            "avg7": 25.94,
+            "avg30": 24.98,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-170",
+        "name": "Squirtle",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "60",
+        "types": [
+          "Water"
+        ],
+        "evolvesTo": [
+          "Wartortle"
+        ],
+        "attacks": [
+          {
+            "name": "Withdraw",
+            "cost": [
+              "Water"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "",
+            "text": "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks."
+          },
+          {
+            "name": "Skull Bash",
+            "cost": [
+              "Water",
+              "Water"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "20",
+            "text": ""
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "170",
+        "artist": "Mitsuhiro Arita",
+        "rarity": "Illustration Rare",
+        "flavorText": "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth.",
+        "nationalPokedexNumbers": [
+          7
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/170.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/170_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-170",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 36.13,
+              "mid": 39.99,
+              "high": 84.06,
+              "market": 35.35,
+              "directLow": 39.44
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-170",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 34.61,
+            "lowPrice": 23,
+            "trendPrice": 35.24,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 24.95,
+            "avg1": 35.47,
+            "avg7": 36.03,
+            "avg30": 34.71,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-171",
+        "name": "Wartortle",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Stage 1"
+        ],
+        "hp": "100",
+        "types": [
+          "Water"
+        ],
+        "evolvesFrom": "Squirtle",
+        "evolvesTo": [
+          "Blastoise"
+        ],
+        "attacks": [
+          {
+            "name": "Free Diving",
+            "cost": [
+              "Water"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "",
+            "text": "Put up to 3 Basic Water Energy cards from your discard pile into your hand."
+          },
+          {
+            "name": "Spinning Attack",
+            "cost": [
+              "Water",
+              "Water"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "50",
+            "text": ""
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "171",
+        "artist": "Mitsuhiro Arita",
+        "rarity": "Illustration Rare",
+        "flavorText": "It cleverly controls its furry ears and tail to maintain its balance while swimming.",
+        "nationalPokedexNumbers": [
+          8
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/171.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/171_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-171",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 18,
+              "mid": 25,
+              "high": 100,
+              "market": 23.54,
+              "directLow": 27.84
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-171",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 28.51,
+            "lowPrice": 15.99,
+            "trendPrice": 31.33,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 19.99,
+            "avg1": 25.98,
+            "avg7": 28.89,
+            "avg30": 28.62,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-172",
+        "name": "Caterpie",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "50",
+        "types": [
+          "Grass"
+        ],
+        "evolvesTo": [
+          "Metapod"
+        ],
+        "attacks": [
+          {
+            "name": "Leaf Munch",
+            "cost": [
+              "Grass"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "10+",
+            "text": "If your opponent's Active Pokémon is a Grass Pokémon, this attack does 30 more damage."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "172",
+        "artist": "Teeziro",
+        "rarity": "Illustration Rare",
+        "flavorText": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+        "nationalPokedexNumbers": [
+          10
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/172.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/172_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-172",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 5,
+              "mid": 8.22,
+              "high": 25,
+              "market": 8.5,
+              "directLow": 11.99
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-172",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 10.83,
+            "lowPrice": 4.99,
+            "trendPrice": 11.33,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 6,
+            "avg1": 11.38,
+            "avg7": 11.14,
+            "avg30": 10.88,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-175",
+        "name": "Psyduck",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "70",
+        "types": [
+          "Water"
+        ],
+        "evolvesTo": [
+          "Golduck"
+        ],
+        "attacks": [
+          {
+            "name": "Overthink",
+            "cost": [
+              "Colorless"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "",
+            "text": "During your opponent's next turn, whenever they flip a coin, treat it as tails."
+          },
+          {
+            "name": "Water Gun",
+            "cost": [
+              "Water"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "10",
+            "text": ""
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "175",
+        "artist": "Whisker",
+        "rarity": "Illustration Rare",
+        "flavorText": "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
+        "nationalPokedexNumbers": [
+          54
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/175.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/175_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-175",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 9,
+              "mid": 13.38,
+              "high": 30.66,
+              "market": 14.02,
+              "directLow": 14.1
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-175",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 13.67,
+            "lowPrice": 9.99,
+            "trendPrice": 13.33,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 10.99,
+            "avg1": 12.85,
+            "avg7": 14,
+            "avg30": 13.67,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-180",
+        "name": "Omanyte",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Stage 1"
+        ],
+        "hp": "100",
+        "types": [
+          "Water"
+        ],
+        "evolvesFrom": "Antique Helix Fossil",
+        "evolvesTo": [
+          "Omastar"
+        ],
+        "attacks": [
+          {
+            "name": "Tentacular Return",
+            "cost": [
+              "Water",
+              "Water"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "50",
+            "text": "Put an Energy attached to your opponent's Active Pokémon into their hand."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "180",
+        "artist": "Yano Keiji",
+        "rarity": "Illustration Rare",
+        "flavorText": "This Pokémon is a member of an ancient, extinct species. Omanyte paddles through water with its 10 tentacles, looking like it's just drifting along.",
+        "nationalPokedexNumbers": [
+          138
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/180.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/180_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-180",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 4.89,
+              "mid": 6.5,
+              "high": 21,
+              "market": 6.81,
+              "directLow": 8.75
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-180",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 9.75,
+            "lowPrice": 6.5,
+            "trendPrice": 10.62,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 6.5,
+            "avg1": 11.28,
+            "avg7": 10.21,
+            "avg30": 9.74,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-181",
+        "name": "Dragonair",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Stage 1"
+        ],
+        "hp": "100",
+        "types": [
+          "Dragon"
+        ],
+        "evolvesFrom": "Dratini",
+        "evolvesTo": [
+          "Dragonite"
+        ],
+        "attacks": [
+          {
+            "name": "Beat",
+            "cost": [
+              "Water"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "20",
+            "text": ""
+          },
+          {
+            "name": "Aqua Slash",
+            "cost": [
+              "Water",
+              "Lightning"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "90",
+            "text": "During your next turn, this Pokémon can't attack."
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "181",
+        "artist": "rika",
+        "rarity": "Illustration Rare",
+        "flavorText": "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
+        "nationalPokedexNumbers": [
+          148
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/181.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/181_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-181",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 21,
+              "mid": 26.95,
+              "high": 1700,
+              "market": 25.16,
+              "directLow": 36.99
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-181",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 25.47,
+            "lowPrice": 18.99,
+            "trendPrice": 26.91,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 20,
+            "avg1": 29.72,
+            "avg7": 26.63,
+            "avg30": 25.46,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-198",
+        "name": "Venusaur ex",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Stage 2",
+          "ex"
+        ],
+        "hp": "340",
+        "types": [
+          "Grass"
+        ],
+        "evolvesFrom": "Ivysaur",
+        "rules": [
+          "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "abilities": [
+          {
+            "name": "Tranquil Flower",
+            "text": "Once during your turn, if this Pokémon is in the Active Spot, you may heal 60 damage from 1 of your Pokémon.",
+            "type": "Ability"
+          }
+        ],
+        "attacks": [
+          {
+            "name": "Dangerous Toxwhip",
+            "cost": [
+              "Grass",
+              "Grass",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 3,
+            "damage": "150",
+            "text": "Your opponent's Active Pokémon is now Confused and Poisoned."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 4,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "198",
+        "artist": "Yoriyuki Ikegami",
+        "rarity": "Special Illustration Rare",
+        "nationalPokedexNumbers": [
+          3
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/198.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/198_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-198",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 70.6,
+              "mid": 85.5,
+              "high": 209.97,
+              "market": 74.56,
+              "directLow": 71.59
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-198",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 53.07,
+            "lowPrice": 34.95,
+            "trendPrice": 56.54,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 38.5,
+            "avg1": 59.51,
+            "avg7": 58.02,
+            "avg30": 53.75,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-200",
+        "name": "Blastoise ex",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Stage 2",
+          "ex"
+        ],
+        "hp": "330",
+        "types": [
+          "Water"
+        ],
+        "evolvesFrom": "Wartortle",
+        "rules": [
+          "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "abilities": [
+          {
+            "name": "Solid Shell",
+            "text": "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+            "type": "Ability"
+          }
+        ],
+        "attacks": [
+          {
+            "name": "Twin Cannons",
+            "cost": [
+              "Water",
+              "Water"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "140×",
+            "text": "Discard up to 2 Basic Water Energy cards from your hand. This attack does 140 damage for each card you discarded in this way."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 3,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "200",
+        "artist": "Mitsuhiro Arita",
+        "rarity": "Special Illustration Rare",
+        "nationalPokedexNumbers": [
+          9
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/200.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/200_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-200",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 70.3,
+              "mid": 90.19,
+              "high": 275,
+              "market": 75.99,
+              "directLow": 94.94
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-200",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 54.7,
+            "lowPrice": 37,
+            "trendPrice": 60.05,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 37,
+            "avg1": 57.37,
+            "avg7": 58.27,
+            "avg30": 54.97,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sv4",
+    "name": "Paradox Rift",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 266,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/11/03",
+    "updatedAt": "2023/11/03 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4/logo.png"
+    },
+    "cards": [
+      {
+        "id": "sv4-193",
+        "name": "Plusle",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "70",
+        "types": [
+          "Lightning"
+        ],
+        "attacks": [
+          {
+            "name": "Plus Damage",
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "10+",
+            "text": "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "sv4",
+          "name": "Paradox Rift",
+          "series": "Scarlet & Violet",
+          "printedTotal": 182,
+          "total": 266,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/11/03",
+          "updatedAt": "2023/11/03 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv4/logo.png"
+          }
+        },
+        "number": "193",
+        "artist": "OKACHEKE",
+        "rarity": "Illustration Rare",
+        "flavorText": "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises.",
+        "nationalPokedexNumbers": [
+          311
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv4/193.png",
+          "large": "https://images.pokemontcg.io/sv4/193_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv4-193",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 8,
+              "mid": 13,
+              "high": 33,
+              "market": 13.68,
+              "directLow": null
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv4-193",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 8.62,
+            "lowPrice": 4.99,
+            "trendPrice": 9.77,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 5,
+            "avg1": 8.99,
+            "avg7": 10.4,
+            "avg30": 8.88,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv4-194",
+        "name": "Minun",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "70",
+        "types": [
+          "Lightning"
+        ],
+        "abilities": [
+          {
+            "name": "Buddy Pulse",
+            "text": "If you have Plusle in play, whenever your opponent attaches an Energy card from their hand to 1 of their Pokémon, put 2 damage counters on that Pokémon. The effect of Buddy Pulse doesn't stack.",
+            "type": "Ability"
+          }
+        ],
+        "attacks": [
+          {
+            "name": "Speed Ball",
+            "cost": [
+              "Lightning"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "20",
+            "text": ""
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "sv4",
+          "name": "Paradox Rift",
+          "series": "Scarlet & Violet",
+          "printedTotal": 182,
+          "total": 266,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/11/03",
+          "updatedAt": "2023/11/03 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv4/logo.png"
+          }
+        },
+        "number": "194",
+        "artist": "OKACHEKE",
+        "rarity": "Illustration Rare",
+        "flavorText": "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
+        "nationalPokedexNumbers": [
+          312
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv4/194.png",
+          "large": "https://images.pokemontcg.io/sv4/194_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv4-194",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 8,
+              "mid": 11,
+              "high": 34.99,
+              "market": 11.41,
+              "directLow": 19.99
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv4-194",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 9.25,
+            "lowPrice": 6.8,
+            "trendPrice": 10.41,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 6.8,
+            "avg1": 9,
+            "avg7": 10.29,
+            "avg30": 9.6,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv4-213",
+        "name": "Swablu",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "50",
+        "types": [
+          "Colorless"
+        ],
+        "evolvesTo": [
+          "Altaria"
+        ],
+        "attacks": [
+          {
+            "name": "Peck",
+            "cost": [
+              "Colorless"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "10",
+            "text": ""
+          },
+          {
+            "name": "Bind Wound",
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "",
+            "text": "Heal 30 damage from 1 of your Pokémon."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ],
+        "resistances": [
+          {
+            "type": "Fighting",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "sv4",
+          "name": "Paradox Rift",
+          "series": "Scarlet & Violet",
+          "printedTotal": 182,
+          "total": 266,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/11/03",
+          "updatedAt": "2023/11/03 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv4/logo.png"
+          }
+        },
+        "number": "213",
+        "artist": "Jiro Sasumo",
+        "rarity": "Illustration Rare",
+        "flavorText": "It can't relax if it or its surroundings are not clean. It wipes off dirt with its wings.",
+        "nationalPokedexNumbers": [
+          333
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv4/213.png",
+          "large": "https://images.pokemontcg.io/sv4/213_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv4-213",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 3.99,
+              "mid": 4.87,
+              "high": 14.98,
+              "market": 4.8,
+              "directLow": 5.06
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv4-213",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 4.71,
+            "lowPrice": 3.79,
+            "trendPrice": 4.65,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 3.79,
+            "avg1": 5.24,
+            "avg7": 4.59,
+            "avg30": 4.79,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sv5",
+    "name": "Temporal Forces",
+    "series": "Scarlet & Violet",
+    "printedTotal": 162,
+    "total": 218,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEF",
+    "releaseDate": "2024/03/22",
+    "updatedAt": "2024/03/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv5/logo.png"
+    },
+    "cards": [
+      {
+        "id": "sv5-164",
+        "name": "Grotle",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Stage 1"
+        ],
+        "hp": "120",
+        "types": [
+          "Grass"
+        ],
+        "evolvesFrom": "Turtwig",
+        "evolvesTo": [
+          "Torterra"
+        ],
+        "attacks": [
+          {
+            "name": "Cut",
+            "cost": [
+              "Grass"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "20",
+            "text": ""
+          },
+          {
+            "name": "Ramming Shell",
+            "cost": [
+              "Grass",
+              "Colorless",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 3,
+            "damage": "50",
+            "text": "During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance)."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 4,
+        "set": {
+          "id": "sv5",
+          "name": "Temporal Forces",
+          "series": "Scarlet & Violet",
+          "printedTotal": 162,
+          "total": 218,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "ptcgoCode": "TEF",
+          "releaseDate": "2024/03/22",
+          "updatedAt": "2024/03/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv5/logo.png"
+          }
+        },
+        "number": "164",
+        "artist": "Oswaldo KATO",
+        "rarity": "Illustration Rare",
+        "flavorText": "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
+        "nationalPokedexNumbers": [
+          388
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "H",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv5/164.png",
+          "large": "https://images.pokemontcg.io/sv5/164_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv5-164",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 2.2,
+              "mid": 3.75,
+              "high": 21,
+              "market": 3.87,
+              "directLow": 8.99
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv5-164",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 4.45,
+            "lowPrice": 2.73,
+            "trendPrice": 4.61,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 2.73,
+            "avg1": 4.7,
+            "avg7": 4.91,
+            "avg30": 4.44,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sv6pt5",
+    "name": "Shrouded Fable",
+    "series": "Scarlet & Violet",
+    "printedTotal": 64,
+    "total": 99,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SFA",
+    "releaseDate": "2024/08/02",
+    "updatedAt": "2024/08/02 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+    },
+    "cards": [
+      {
+        "id": "sv6pt5-67",
+        "name": "Horsea",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "60",
+        "types": [
+          "Water"
+        ],
+        "evolvesTo": [
+          "Seadra"
+        ],
+        "attacks": [
+          {
+            "name": "Hold Still",
+            "cost": [
+              "Water"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "",
+            "text": "Heal 30 damage from this Pokémon."
+          },
+          {
+            "name": "Razor Fin",
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "20",
+            "text": ""
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "sv6pt5",
+          "name": "Shrouded Fable",
+          "series": "Scarlet & Violet",
+          "printedTotal": 64,
+          "total": 99,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "ptcgoCode": "SFA",
+          "releaseDate": "2024/08/02",
+          "updatedAt": "2024/08/02 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+          }
+        },
+        "number": "67",
+        "rarity": "Illustration Rare",
+        "nationalPokedexNumbers": [
+          116
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "H",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv6pt5/67.png",
+          "large": "https://images.pokemontcg.io/sv6pt5/67_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-67",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "holofoil": {
+              "low": 9.39,
+              "mid": 11.02,
+              "high": 29.95,
+              "market": 10.51,
+              "directLow": null
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-67",
+          "updatedAt": "2024/10/22",
+          "prices": {
+            "averageSellPrice": 15.4,
+            "lowPrice": 6.99,
+            "trendPrice": 16.36,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 6.99,
+            "avg1": 15.6,
+            "avg7": 15.07,
+            "avg30": 15.46,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      }
+    ]
+  }
+]

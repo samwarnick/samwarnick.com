@@ -91,6 +91,9 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addShortcode("year", function () {
 		return new Date().getFullYear();
 	});
+	eleventyConfig.addFilter("toDate", function (value) {
+		return new Date(value);
+	});
 	eleventyConfig.addFilter("formattedDate", function (date) {
 		return DateTime.fromJSDate(date, { zone: "utc" }).toLocaleString(
 			DateTime.DATE_MED,
