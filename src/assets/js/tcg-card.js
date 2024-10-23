@@ -47,7 +47,7 @@ hsla(0, 0%, 0%, 0.5) 90%
     }
   </style>
   <div class="tcg-card-wrapper">
-    <img class="tcg-card-img" src="${this.getAttribute("src")}"/>
+    <img class="tcg-card-img" src="${this.getAttribute("src")}" alt="${this.getAttribute("alt")}"/>
     <div class="tcg-card-shine"></div>
   </div>
 `;
