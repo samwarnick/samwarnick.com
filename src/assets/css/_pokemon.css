@@ -11,13 +11,8 @@ section.set {
 
 	.cards {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(200px, 245px));
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 		gap: 1em;
 		justify-content: center;
-
-		img {
-			filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1))
-				drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
-		}
 	}
 }

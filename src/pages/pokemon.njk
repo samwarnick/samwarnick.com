@@ -13,7 +13,7 @@ ogImage: og-image/eevee.jpg
 	<h3><img src="{{set.images.logo}}" alt="{{set.name}}"></h3>
 	<div class="cards">
 		{%- for card in set.cards -%}
-		<a href="{{card.tcgplayer.url}}"><img src="{{card.images.small}}" alt="{{card.name}}"></a>
+		<tcg-card src="{{card.images.large}}"></tcg-card>
 		{%- endfor -%}
 	</div>
 </section>
@@ -26,7 +26,7 @@ ogImage: og-image/eevee.jpg
 	<h3><img src="{{set.images.logo}}" alt="{{set.name}}"></h3>
 	<div class="cards">
 		{%- for card in set.cards -%}
-		<a href="{{card.tcgplayer.url}}"><img src="{{card.images.small}}" alt="{{card.name}}"></a>
+		<tcg-card src="{{card.images.large}}"></tcg-card>
 		{%- endfor -%}
 	</div>
 </section>
