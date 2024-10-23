@@ -129,6 +129,8 @@ hsla(0, 0%, 0%, 0.5) 90%
 	startInteraction(clientX, clientY) {
 		this.isActive = true;
 		this.wrapper.style.setProperty("--shine-opacity", "0.75");
+		const r = (Math.random() * 0.5 + 0.5) * (Math.random() < 0.5 ? -1 : 1);
+		this.wrapper.style.setProperty("--rz", `${r}deg`);
 		this.updateInteractionPos(clientX, clientY);
 		this.updateTransform();
 	}
@@ -152,7 +154,6 @@ hsla(0, 0%, 0%, 0.5) 90%
 
 		this.wrapper.style.setProperty("--pointer-x", this.interactionPos.x + "%");
 		this.wrapper.style.setProperty("--pointer-y", this.interactionPos.y + "%");
-		this.wrapper.style.setProperty("--rz", "1deg");
 		this.wrapper.style.setProperty("--rx", `${this.interactionPos.tiltX}deg`);
 		this.wrapper.style.setProperty("--ry", `${this.interactionPos.tiltY}deg`);
 

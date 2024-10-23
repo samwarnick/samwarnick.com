@@ -1,8 +1,9 @@
 section.set {
 	margin-bottom: calc(var(--spacing-more) * 2);
+	margin-inline: calc(var(--spacing-more) * 3);
 
 	h3 {
-		margin-bottom: var(--spacing);
+		margin-bottom: var(--spacing-more);
 
 		img {
 			height: 60px;
