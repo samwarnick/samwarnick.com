@@ -174,6 +174,8 @@ export default async function (eleventyConfig) {
 		execSync(`npx pagefind --site _site`, { encoding: "utf-8" });
 	});
 
+	eleventyConfig.watchIgnores.add("./cli/**");
+
 	return {
 		dir: {
 			input: "src",

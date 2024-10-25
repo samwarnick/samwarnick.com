@@ -3,6 +3,10 @@ import { writeFile } from "fs/promises";
 import { parse } from "csv-parse";
 import pokemon from "pokemontcgsdk";
 
+const PROMO_SETS = {
+	svp: "2023/02/01",
+};
+
 async function parseCSV(filePath) {
 	const records = [];
 
@@ -43,7 +47,11 @@ async function getCollectionData(collection, name) {
 	const data = await chunkedMap(collection, getCardData);
 	const sets = [];
 	data.forEach((card) => {
-		const set = sets.find((s) => s.id === card.set.id);
+		let setId = card.set.id;
+		if (setId === "swsh12pt5gg") {
+			setId = "swsh12pt5";
+		}
+		const set = sets.find((s) => s.id === setId);
 		if (set) {
 			const existing = set.cards.find((c) => c.id === card.id);
 			if (!existing) {
@@ -52,13 +60,24 @@ async function getCollectionData(collection, name) {
 		} else {
 			sets.push({
 				...card.set,
+				id: setId,
+				releaseDate: PROMO_SETS[card.set.id] ?? card.set.releaseDate,
 				cards: [card],
 			});
 		}
 	});
 	sets.sort((a, b) => a.releaseDate.localeCompare(b.releaseDate));
 	sets.forEach((set) => {
-		set.cards = set.cards.sort((a, b) => a.number.localeCompare(b.number));
+		set.cards = set.cards.sort((a, b) => {
+			if (set.id === "swsh12pt5") {
+				if (a.set.id === "swsh12pt5gg" && b.set.id === "swsh12pt5") {
+					return 1;
+				} else if (b.set.id === "swsh12pt5gg" && a.set.id === "swsh12pt5") {
+					return -1;
+				}
+			}
+			return parseInt(a.number) - parseInt(b.number);
+		});
 	});
 	await writeFile(
 		`src/_data/pokemon/${name}.json`,

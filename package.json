@@ -1,11 +1,11 @@
 {
-	"name": "beta.samwarnick.com",
+	"name": "samwarnick.com",
 	"version": "1.0.0",
 	"description": "",
 	"type": "module",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"pokemon": "node --env-file .env cli/fetchPokemon.js"
 	},
 	"keywords": [],
 	"author": "",
