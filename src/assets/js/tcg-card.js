@@ -102,7 +102,7 @@ class TCGCard extends HTMLElement {
       <button class="tcg-display">
         <img class="tcg-card" src="${this.getAttribute(
 					"src",
-				)}" alt="${this.getAttribute("alt")}">
+				)}" alt="${this.getAttribute("alt")}" loading="lazy">
         <div class="tcg-shine"></div>
         <div class="tcg-glare"></div>
       </button>
@@ -120,6 +120,7 @@ class TCGCard extends HTMLElement {
 		this.handleTouchEnd = this.handleTouchEnd.bind(this);
 		this.handleClick = this.handleClick.bind(this);
 		this.handleResize = this.handleResize.bind(this);
+		this.resetCardPosition = this.resetCardPosition.bind(this);
 	}
 
 	connectedCallback() {
@@ -141,14 +142,10 @@ class TCGCard extends HTMLElement {
 
 		window.addEventListener("resize", this.handleResize);
 
-		const img = this._shadowRoot.querySelector(".tcg-card");
-		if (img.complete) {
-			this.resetCardPosition(true);
-		} else {
-			img.onload = () => {
-				this.resetCardPosition(true);
-			};
-		}
+		this.initImage();
+
+		this.resizeObserver = new ResizeObserver(this.resetCardPosition);
+		this.resizeObserver.observe(this.proxy);
 	}
 
 	disconnectedCallback() {
@@ -162,6 +159,33 @@ class TCGCard extends HTMLElement {
 		this.removeEventListener("touchcancel", this.handleTouchEnd);
 
 		this.card.removeEventListener("click", this.handleClick);
+		this.resizeObserver.disconnect();
+	}
+
+	initImage() {
+		const img = this._shadowRoot.querySelector(".tcg-card");
+		const fadeInDuration = 300;
+		img.style.opacity = 0;
+		img.style.transition = `opacity ${fadeInDuration}ms ease-out`;
+		this.ready = false;
+		if (img.complete) {
+			this.resetCardPosition(true);
+			img.style.opacity = "";
+			this.ready = true;
+			img.style.display = "block";
+			setTimeout(() => {
+				img.style.transition = "";
+			}, fadeInDuration)
+		} else {
+			img.onload = () => {
+				this.resetCardPosition(true);
+				img.style.opacity = "";
+				this.ready = true;
+				setTimeout(() => {
+					img.style.transition = "";
+				}, fadeInDuration)
+			};
+		}
 	}
 
 	// Event Handlers
@@ -225,6 +249,9 @@ class TCGCard extends HTMLElement {
 	}
 
 	startInteraction(clientX, clientY) {
+		if (!this.ready) {
+			return;
+		}
 		const transitionTime = 300;
 		this.card.style.transition = `all ${transitionTime}ms ease-out`;
 		this.style.setProperty("--z-index", "2");
