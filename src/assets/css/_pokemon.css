@@ -16,4 +16,8 @@ section.set {
 		gap: 1em;
 		justify-content: center;
 	}
+
+	tcg-card {
+		--focus-outline: var(--primary-text);
+	}
 }

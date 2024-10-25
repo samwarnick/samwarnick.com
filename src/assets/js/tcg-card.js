@@ -35,6 +35,12 @@ class TCGCard extends HTMLElement {
       align-items: center;
       perspective: 30cm;
       pointer-events: none;
+      border-radius: 4%;
+
+      &:has(:focus-visible) {
+      	outline: 3px solid var(--focus-outline, black);
+       	outline-offset: 3px;
+      }
     }
 
     .tcg-proxy {
@@ -60,6 +66,10 @@ class TCGCard extends HTMLElement {
       -webkit-tap-highlight-color: rgba(0,0,0,0);
 
       transition: scale ${EXPAND_TRANSITION_TIME}ms ease-in, translate ${EXPAND_TRANSITION_TIME}ms ease-out, rotate 250ms ease-in;
+
+      &:focus-visible {
+      	outline: none;
+      }
     }
 
     .tcg-card {
@@ -215,11 +225,16 @@ class TCGCard extends HTMLElement {
 	}
 
 	startInteraction(clientX, clientY) {
+		const transitionTime = 300;
+		this.card.style.transition = `all ${transitionTime}ms ease-out`;
 		this.style.setProperty("--z-index", "10");
 		this.style.setProperty("--glare-opacity", "0.75");
 		const r = (Math.random() * 0.5 + 0.5) * (Math.random() < 0.5 ? -1 : 1);
 		this.style.setProperty("--display-rz", `${r}deg`);
 		this.updateTransform(clientX, clientY);
+		setTimeout(() => {
+			this.card.style.transition = "";
+		}, transitionTime);
 	}
 
 	updateTransform(clientX, clientY) {
