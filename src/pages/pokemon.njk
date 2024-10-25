@@ -9,6 +9,7 @@ ogImage: og-image/eevee.jpg
 <p>Here's some cards from my collection. They are all cards where the market price is at least $1—otherwise there would be too many.</p>
 <p><small>Last updated {{ pokemon.lastUpdated.date | toDate | formattedDate }}</small></p>
 <tcg-card-wrapper>
+	{%- for set in pokemon.myCollection -%}
 	<section class="set">
 		<h3><img src="{{set.images.logo}}" alt="{{set.name}}"></h3>
 		<div class="cards">
@@ -17,6 +18,7 @@ ogImage: og-image/eevee.jpg
 			{%- endfor -%}
 		</div>
 	</section>
+	{%- endfor -%}
 
 	<h2>Wishlist</h2>
 	<p>Some cards I want.</p>
