@@ -11,7 +11,7 @@
       "expanded": "Legal"
     },
     "ptcgoCode": "PR-SV",
-    "releaseDate": "2023/01/01",
+    "releaseDate": "2023/02/01",
     "updatedAt": "2023/12/11 23:15:00",
     "images": {
       "symbol": "https://images.pokemontcg.io/svp/symbol.png",
@@ -91,32 +91,32 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/svp-46",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 0.13,
-              "mid": 0.48,
+              "mid": 0.5,
               "high": 3.98,
-              "market": 0.55,
-              "directLow": 0.38
+              "market": 0.41,
+              "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/svp-46",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 0.3,
             "lowPrice": 0.02,
-            "trendPrice": 0.31,
+            "trendPrice": 0.28,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 0.02,
-            "avg1": 0.34,
-            "avg7": 0.36,
+            "avg1": 0.16,
+            "avg7": 0.3,
             "avg30": 0.29,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
@@ -195,33 +195,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/svp-47",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 0.2,
+              "low": 0.19,
               "mid": 1,
               "high": 6.99,
-              "market": 0.77,
-              "directLow": 1
+              "market": 0.68,
+              "directLow": 0.49
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/svp-47",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 0.34,
             "lowPrice": 0.04,
-            "trendPrice": 0.33,
+            "trendPrice": 0.38,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 0.04,
-            "avg1": 0.35,
-            "avg7": 0.35,
-            "avg30": 0.33,
+            "avg1": 0.18,
+            "avg7": 0.41,
+            "avg30": 0.34,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -300,32 +300,32 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/svp-48",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 0.19,
               "mid": 0.5,
               "high": 4.99,
-              "market": 0.59,
+              "market": 0.44,
               "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/svp-48",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 0.33,
             "lowPrice": 0.02,
-            "trendPrice": 0.32,
+            "trendPrice": 0.27,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 0.04,
-            "avg1": 0.49,
-            "avg7": 0.35,
+            "lowPriceExPlus": 0.03,
+            "avg1": 0.18,
+            "avg7": 0.3,
             "avg30": 0.31,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
@@ -438,33 +438,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv1-207",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 2.35,
-              "mid": 3.84,
+              "low": 2.8,
+              "mid": 3.79,
               "high": 12.49,
-              "market": 3.54,
-              "directLow": 5.51
+              "market": 3.56,
+              "directLow": 4.44
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv1-207",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 5.82,
-            "lowPrice": 3.9,
-            "trendPrice": 5.46,
+            "lowPrice": 3.99,
+            "trendPrice": 5.54,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 3.9,
-            "avg1": 4.32,
-            "avg7": 5.39,
-            "avg30": 5.83,
+            "lowPriceExPlus": 4,
+            "avg1": 7.03,
+            "avg7": 5.57,
+            "avg30": 5.78,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -547,33 +547,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv1-211",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 12.54,
-              "mid": 16.13,
+              "low": 13.25,
+              "mid": 16.65,
               "high": 54,
-              "market": 16.16,
-              "directLow": 14.46
+              "market": 16.96,
+              "directLow": 19.98
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv1-211",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 17.01,
             "lowPrice": 11.5,
-            "trendPrice": 17.97,
+            "trendPrice": 18.36,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 11.5,
-            "avg1": 19.73,
-            "avg7": 18.58,
-            "avg30": 17.17,
+            "avg1": 18.06,
+            "avg7": 18.45,
+            "avg30": 17.29,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -668,33 +668,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv1-212",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 9,
-              "mid": 12.42,
+              "mid": 12.66,
               "high": 33,
-              "market": 12.83,
-              "directLow": 14.39
+              "market": 12.56,
+              "directLow": 17.43
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv1-212",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 15.7,
             "lowPrice": 11,
-            "trendPrice": 15.45,
+            "trendPrice": 15.54,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 11,
-            "avg1": 15.64,
-            "avg7": 15.59,
-            "avg30": 15.61,
+            "avg1": 19.99,
+            "avg7": 15.65,
+            "avg30": 15.78,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -782,33 +782,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv1-213",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 2.25,
               "mid": 3,
               "high": 17.96,
-              "market": 2.81,
+              "market": 2.73,
               "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv1-213",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 3.91,
             "lowPrice": 1.49,
-            "trendPrice": 3.89,
+            "trendPrice": 3.97,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 2,
-            "avg1": 5.4,
-            "avg7": 3.86,
-            "avg30": 3.95,
+            "avg1": 3.78,
+            "avg7": 4.06,
+            "avg30": 3.98,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -890,10 +890,10 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv1-221",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 1.81,
+              "low": 1.63,
               "mid": 2.5,
               "high": 10,
               "market": 2.45,
@@ -903,20 +903,20 @@
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv1-221",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 5.34,
-            "lowPrice": 2.9,
-            "trendPrice": 5.32,
+            "lowPrice": 3.5,
+            "trendPrice": 4.95,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 2.9,
-            "avg1": 4.27,
-            "avg7": 4.85,
-            "avg30": 5.26,
+            "lowPriceExPlus": 3.5,
+            "avg1": 3.87,
+            "avg7": 4.69,
+            "avg30": 5.23,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1012,33 +1012,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv2-203",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 97.38,
-              "mid": 143.64,
+              "low": 114.71,
+              "mid": 142.46,
               "high": 329.97,
-              "market": 122.57,
-              "directLow": 109.19
+              "market": 124.06,
+              "directLow": 116.57
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv2-203",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 100.33,
-            "lowPrice": 70,
-            "trendPrice": 101.3,
+            "lowPrice": 79,
+            "trendPrice": 100.7,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 70,
-            "avg1": 95,
-            "avg7": 99.01,
-            "avg30": 99.29,
+            "lowPriceExPlus": 79,
+            "avg1": 101.79,
+            "avg7": 99.33,
+            "avg30": 100.5,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1139,33 +1139,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-166",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 33.56,
-              "mid": 38.97,
+              "low": 29.41,
+              "mid": 39.99,
               "high": 150,
-              "market": 33.46,
-              "directLow": 51.29
+              "market": 34.3,
+              "directLow": 51.74
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-166",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 31.21,
-            "lowPrice": 25,
-            "trendPrice": 33.41,
+            "lowPrice": 22.9,
+            "trendPrice": 35.72,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 25,
-            "avg1": 34.06,
-            "avg7": 33.89,
-            "avg30": 31.34,
+            "lowPriceExPlus": 22.9,
+            "avg1": 32.86,
+            "avg7": 35.26,
+            "avg30": 32.27,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1259,33 +1259,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-167",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 20.68,
-              "mid": 26.92,
+              "low": 18.01,
+              "mid": 26.29,
               "high": 79.99,
-              "market": 25.72,
-              "directLow": 39.69
+              "market": 22.74,
+              "directLow": 39.68
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-167",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 24.99,
             "lowPrice": 20,
-            "trendPrice": 27.42,
+            "trendPrice": 27.03,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 20,
-            "avg1": 27.5,
-            "avg7": 25.94,
-            "avg30": 24.98,
+            "avg1": 25.58,
+            "avg7": 26.36,
+            "avg30": 25.25,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1374,33 +1374,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-170",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 36.13,
-              "mid": 39.99,
+              "low": 27.01,
+              "mid": 39,
               "high": 84.06,
-              "market": 35.35,
-              "directLow": 39.44
+              "market": 31.17,
+              "directLow": 39.11
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-170",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 34.61,
-            "lowPrice": 23,
-            "trendPrice": 35.24,
+            "lowPrice": 22.95,
+            "trendPrice": 35.18,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 24.95,
-            "avg1": 35.47,
-            "avg7": 36.03,
-            "avg30": 34.71,
+            "lowPriceExPlus": 22.95,
+            "avg1": 36.81,
+            "avg7": 36.54,
+            "avg30": 35,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1491,33 +1491,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-171",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 18,
               "mid": 25,
               "high": 100,
-              "market": 23.54,
-              "directLow": 27.84
+              "market": 22.7,
+              "directLow": 24.99
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-171",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 28.51,
             "lowPrice": 15.99,
-            "trendPrice": 31.33,
+            "trendPrice": 30.67,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 19.99,
-            "avg1": 25.98,
-            "avg7": 28.89,
-            "avg30": 28.62,
+            "lowPriceExPlus": 20,
+            "avg1": 25.99,
+            "avg7": 28.48,
+            "avg30": 28.7,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1596,33 +1596,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-172",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 5,
-              "mid": 8.22,
+              "mid": 8.25,
               "high": 25,
-              "market": 8.5,
+              "market": 8.76,
               "directLow": 11.99
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-172",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 10.83,
-            "lowPrice": 4.99,
-            "trendPrice": 11.33,
+            "lowPrice": 6,
+            "trendPrice": 10.99,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 6,
-            "avg1": 11.38,
-            "avg7": 11.14,
-            "avg30": 10.88,
+            "avg1": 10.2,
+            "avg7": 10.68,
+            "avg30": 10.78,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1710,33 +1710,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-175",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 9,
-              "mid": 13.38,
+              "low": 8,
+              "mid": 13.84,
               "high": 30.66,
-              "market": 14.02,
-              "directLow": 14.1
+              "market": 12.56,
+              "directLow": 13.99
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-175",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 13.67,
-            "lowPrice": 9.99,
-            "trendPrice": 13.33,
+            "lowPrice": 10.5,
+            "trendPrice": 13.46,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 10.99,
-            "avg1": 12.85,
-            "avg7": 14,
-            "avg30": 13.67,
+            "avg1": 14.94,
+            "avg7": 13.98,
+            "avg30": 13.75,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1818,33 +1818,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-180",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 4.89,
-              "mid": 6.5,
+              "low": 4.5,
+              "mid": 6.8,
               "high": 21,
-              "market": 6.81,
-              "directLow": 8.75
+              "market": 7.04,
+              "directLow": 7.99
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-180",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 9.75,
             "lowPrice": 6.5,
-            "trendPrice": 10.62,
+            "trendPrice": 10.1,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 6.5,
-            "avg1": 11.28,
-            "avg7": 10.21,
-            "avg30": 9.74,
+            "avg1": 9.77,
+            "avg7": 9.71,
+            "avg30": 9.84,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1929,33 +1929,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-181",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 21,
-              "mid": 26.95,
+              "low": 20,
+              "mid": 25.93,
               "high": 1700,
-              "market": 25.16,
-              "directLow": 36.99
+              "market": 24.8,
+              "directLow": 35.69
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-181",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 25.47,
             "lowPrice": 18.99,
-            "trendPrice": 26.91,
+            "trendPrice": 26.31,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 20,
-            "avg1": 29.72,
-            "avg7": 26.63,
-            "avg30": 25.46,
+            "avg1": 26.37,
+            "avg7": 26,
+            "avg30": 25.75,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -2047,33 +2047,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-198",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 70.6,
-              "mid": 85.5,
+              "low": 68,
+              "mid": 81.69,
               "high": 209.97,
-              "market": 74.56,
-              "directLow": 71.59
+              "market": 73.93,
+              "directLow": 77.78
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-198",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 53.07,
-            "lowPrice": 34.95,
-            "trendPrice": 56.54,
+            "lowPrice": 33.99,
+            "trendPrice": 58.07,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 38.5,
-            "avg1": 59.51,
-            "avg7": 58.02,
-            "avg30": 53.75,
+            "lowPriceExPlus": 44.99,
+            "avg1": 56.53,
+            "avg7": 58.56,
+            "avg30": 55.11,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -2163,33 +2163,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-200",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 70.3,
-              "mid": 90.19,
+              "low": 70,
+              "mid": 89.99,
               "high": 275,
-              "market": 75.99,
-              "directLow": 94.94
+              "market": 73.98,
+              "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-200",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 54.7,
             "lowPrice": 37,
-            "trendPrice": 60.05,
+            "trendPrice": 59.9,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 37,
-            "avg1": 57.37,
-            "avg7": 58.27,
-            "avg30": 54.97,
+            "avg1": 56.83,
+            "avg7": 57.04,
+            "avg30": 55.6,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -2286,33 +2286,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv4-193",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 8,
-              "mid": 13,
+              "low": 5.95,
+              "mid": 12.98,
               "high": 33,
-              "market": 13.68,
-              "directLow": null
+              "market": 11.91,
+              "directLow": 10
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv4-193",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 8.62,
             "lowPrice": 4.99,
-            "trendPrice": 9.77,
+            "trendPrice": 10.24,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 5,
-            "avg1": 8.99,
-            "avg7": 10.4,
-            "avg30": 8.88,
+            "lowPriceExPlus": 6,
+            "avg1": 9.23,
+            "avg7": 10.97,
+            "avg30": 9.08,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -2395,33 +2395,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv4-194",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 8,
-              "mid": 11,
+              "low": 6.76,
+              "mid": 11.1,
               "high": 34.99,
-              "market": 11.41,
-              "directLow": 19.99
+              "market": 11.2,
+              "directLow": 11
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv4-194",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 9.25,
             "lowPrice": 6.8,
-            "trendPrice": 10.41,
+            "trendPrice": 10.46,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 6.8,
-            "avg1": 9,
+            "avg1": 8.25,
             "avg7": 10.29,
-            "avg30": 9.6,
+            "avg30": 9.56,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -2516,33 +2516,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv4-213",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 3.99,
-              "mid": 4.87,
+              "low": 3.79,
+              "mid": 4.84,
               "high": 14.98,
-              "market": 4.8,
-              "directLow": 5.06
+              "market": 4.66,
+              "directLow": 5.7
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv4-213",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 4.71,
             "lowPrice": 3.79,
-            "trendPrice": 4.65,
+            "trendPrice": 4.78,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 3.79,
-            "avg1": 5.24,
-            "avg7": 4.59,
-            "avg30": 4.79,
+            "avg1": 4.46,
+            "avg7": 5.12,
+            "avg30": 4.82,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -2658,33 +2658,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv5-164",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 2.2,
-              "mid": 3.75,
+              "low": 1.89,
+              "mid": 3.96,
               "high": 21,
-              "market": 3.87,
-              "directLow": 8.99
+              "market": 3.91,
+              "directLow": 6.29
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv5-164",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 4.45,
             "lowPrice": 2.73,
-            "trendPrice": 4.61,
+            "trendPrice": 4.72,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 2.73,
-            "avg1": 4.7,
-            "avg7": 4.91,
-            "avg30": 4.44,
+            "avg1": 4.69,
+            "avg7": 4.75,
+            "avg30": 4.5,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -2793,33 +2793,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-67",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 9.39,
-              "mid": 11.02,
+              "low": 9.4,
+              "mid": 11.14,
               "high": 29.95,
-              "market": 10.51,
+              "market": 9.98,
               "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-67",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 15.4,
             "lowPrice": 6.99,
-            "trendPrice": 16.36,
+            "trendPrice": 15.46,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 6.99,
-            "avg1": 15.6,
-            "avg7": 15.07,
-            "avg30": 15.46,
+            "avg1": 15.22,
+            "avg7": 14.49,
+            "avg30": 15.41,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0

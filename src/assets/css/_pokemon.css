@@ -4,9 +4,13 @@ section.set {
 
 	h3 {
 		margin-bottom: var(--spacing-more);
+		display: flex;
+		justify-content: center;
+		gap: 1em;
 
 		img {
 			height: 60px;
+			margin: 0;
 		}
 	}
 

@@ -1,248 +1,6 @@
 [
   {
-    "id": "svp",
-    "name": "Scarlet & Violet Promos",
-    "series": "Scarlet & Violet",
-    "printedTotal": 150,
-    "total": 148,
-    "legalities": {
-      "unlimited": "Legal",
-      "standard": "Legal",
-      "expanded": "Legal"
-    },
-    "releaseDate": "2022/11/01",
-    "updatedAt": "2023/07/20 22:45:00",
-    "images": {
-      "symbol": "https://images.pokemontcg.io/svp/symbol.png",
-      "logo": "https://images.pokemontcg.io/svp/logo.png"
-    },
-    "cards": [
-      {
-        "id": "svp-131",
-        "name": "Kingdra ex",
-        "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 2",
-          "ex"
-        ],
-        "hp": "310",
-        "types": [
-          "Water"
-        ],
-        "evolvesFrom": "Seadra",
-        "rules": [
-          "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
-        ],
-        "attacks": [
-          {
-            "name": "King's Order",
-            "cost": [
-              "Water"
-            ],
-            "convertedEnergyCost": 1,
-            "damage": "",
-            "text": "Put up to 3 Water Pokémon from your discard pile onto your Bench."
-          },
-          {
-            "name": "Hydro Pump",
-            "cost": [
-              "Colorless",
-              "Colorless"
-            ],
-            "convertedEnergyCost": 2,
-            "damage": "50+",
-            "text": "This attack does 50 more damage for each Water Energy attached to this Pokémon."
-          }
-        ],
-        "weaknesses": [
-          {
-            "type": "Lightning",
-            "value": "×2"
-          }
-        ],
-        "retreatCost": [
-          "Colorless"
-        ],
-        "convertedRetreatCost": 1,
-        "set": {
-          "id": "svp",
-          "name": "Scarlet & Violet Promos",
-          "series": "Scarlet & Violet",
-          "printedTotal": 150,
-          "total": 148,
-          "legalities": {
-            "unlimited": "Legal",
-            "standard": "Legal",
-            "expanded": "Legal"
-          },
-          "releaseDate": "2022/11/01",
-          "updatedAt": "2023/07/20 22:45:00",
-          "images": {
-            "symbol": "https://images.pokemontcg.io/svp/symbol.png",
-            "logo": "https://images.pokemontcg.io/svp/logo.png"
-          }
-        },
-        "number": "131",
-        "artist": "akagi",
-        "rarity": "Promo",
-        "nationalPokedexNumbers": [
-          230
-        ],
-        "legalities": {
-          "unlimited": "Legal",
-          "standard": "Legal",
-          "expanded": "Legal"
-        },
-        "regulationMark": "H",
-        "images": {
-          "small": "https://images.pokemontcg.io/svp/131.png",
-          "large": "https://images.pokemontcg.io/svp/131_hires.png"
-        },
-        "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/svp-131",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "holofoil": {
-              "low": 6.53,
-              "mid": 8.52,
-              "high": 27.75,
-              "market": 8.07,
-              "directLow": null
-            }
-          }
-        },
-        "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/svp-131",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "averageSellPrice": 11.64,
-            "lowPrice": 9,
-            "trendPrice": 11.6,
-            "germanProLow": 0,
-            "suggestedPrice": 0,
-            "reverseHoloSell": 0,
-            "reverseHoloLow": 0,
-            "reverseHoloTrend": 0,
-            "lowPriceExPlus": 9,
-            "avg1": 10.63,
-            "avg7": 11.95,
-            "avg30": 11.65,
-            "reverseHoloAvg1": 0,
-            "reverseHoloAvg7": 0,
-            "reverseHoloAvg30": 0
-          }
-        }
-      },
-      {
-        "id": "svp-44",
-        "name": "Charmander",
-        "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
-        "hp": "60",
-        "types": [
-          "Fire"
-        ],
-        "evolvesTo": [
-          "Charmeleon"
-        ],
-        "attacks": [
-          {
-            "name": "Heat Tackle",
-            "cost": [
-              "Fire"
-            ],
-            "convertedEnergyCost": 1,
-            "damage": "30",
-            "text": "This Pokémon also does 10 damage to itself."
-          }
-        ],
-        "weaknesses": [
-          {
-            "type": "Water",
-            "value": "×2"
-          }
-        ],
-        "retreatCost": [
-          "Colorless"
-        ],
-        "convertedRetreatCost": 1,
-        "set": {
-          "id": "svp",
-          "name": "Scarlet & Violet Black Star Promos",
-          "series": "Scarlet & Violet",
-          "printedTotal": 148,
-          "total": 129,
-          "legalities": {
-            "unlimited": "Legal",
-            "standard": "Legal",
-            "expanded": "Legal"
-          },
-          "ptcgoCode": "PR-SV",
-          "releaseDate": "2023/01/01",
-          "updatedAt": "2023/12/11 23:15:00",
-          "images": {
-            "symbol": "https://images.pokemontcg.io/svp/symbol.png",
-            "logo": "https://images.pokemontcg.io/svp/logo.png"
-          }
-        },
-        "number": "44",
-        "artist": "MINAMINAMI Take",
-        "rarity": "Promo",
-        "flavorText": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
-        "nationalPokedexNumbers": [
-          4
-        ],
-        "legalities": {
-          "unlimited": "Legal",
-          "standard": "Legal",
-          "expanded": "Legal"
-        },
-        "regulationMark": "G",
-        "images": {
-          "small": "https://images.pokemontcg.io/svp/44.png",
-          "large": "https://images.pokemontcg.io/svp/44_hires.png"
-        },
-        "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/svp-44",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "holofoil": {
-              "low": 7,
-              "mid": 9.98,
-              "high": 29.99,
-              "market": 8.9,
-              "directLow": 8.99
-            }
-          }
-        },
-        "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/svp-44",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "averageSellPrice": 13.06,
-            "lowPrice": 9.5,
-            "trendPrice": 13.47,
-            "germanProLow": 0,
-            "suggestedPrice": 0,
-            "reverseHoloSell": 0,
-            "reverseHoloLow": 0,
-            "reverseHoloTrend": 0,
-            "lowPriceExPlus": 9.5,
-            "avg1": 12.58,
-            "avg7": 12.8,
-            "avg30": 13.22,
-            "reverseHoloAvg1": 0,
-            "reverseHoloAvg7": 0,
-            "reverseHoloAvg30": 0
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": "swsh12pt5gg",
+    "id": "swsh12pt5",
     "name": "Crown Zenith Galarian Gallery",
     "series": "Sword & Shield",
     "printedTotal": 70,
@@ -260,6 +18,368 @@
       "logo": "https://images.pokemontcg.io/swsh12pt5gg/logo.png"
     },
     "cards": [
+      {
+        "id": "swsh12pt5-18",
+        "name": "Charizard V",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic",
+          "V"
+        ],
+        "hp": "220",
+        "types": [
+          "Fire"
+        ],
+        "rules": [
+          "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "attacks": [
+          {
+            "name": "Incinerate",
+            "cost": [
+              "Fire",
+              "Fire",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 3,
+            "damage": "90",
+            "text": "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon."
+          },
+          {
+            "name": "Heat Blast",
+            "cost": [
+              "Fire",
+              "Fire",
+              "Fire",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 4,
+            "damage": "180",
+            "text": ""
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "set": {
+          "id": "swsh12pt5",
+          "name": "Crown Zenith",
+          "series": "Sword & Shield",
+          "printedTotal": 159,
+          "total": 160,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "ptcgoCode": "CRZ",
+          "releaseDate": "2023/01/20",
+          "updatedAt": "2023/01/19 15:45:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/swsh12pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh12pt5/logo.png"
+          }
+        },
+        "number": "18",
+        "artist": "N-DESIGN Inc.",
+        "rarity": "Rare Holo V",
+        "nationalPokedexNumbers": [
+          6
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "F",
+        "images": {
+          "small": "https://images.pokemontcg.io/swsh12pt5/18.png",
+          "large": "https://images.pokemontcg.io/swsh12pt5/18_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-18",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "holofoil": {
+              "low": 1.5,
+              "mid": 2.5,
+              "high": 89,
+              "market": 2.07,
+              "directLow": null
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-18",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "averageSellPrice": 2.79,
+            "lowPrice": 1,
+            "trendPrice": 2.5,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 1.2,
+            "avg1": 2.07,
+            "avg7": 2.83,
+            "avg30": 2.85,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "swsh12pt5-45",
+        "name": "Rotom V",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic",
+          "V"
+        ],
+        "hp": "190",
+        "types": [
+          "Lightning"
+        ],
+        "rules": [
+          "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "abilities": [
+          {
+            "name": "Instant Charge",
+            "text": "Once during your turn, you may draw 3 cards. If you use this Ability, your turn ends.",
+            "type": "Ability"
+          }
+        ],
+        "attacks": [
+          {
+            "name": "Scrap Short",
+            "cost": [
+              "Lightning",
+              "Lightning"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "40+",
+            "text": "Put any number of Pokémon Tool cards from your discard pile in the Lost Zone. This attack does 40 more damage for each card you put in the Lost Zone in this way."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "swsh12pt5",
+          "name": "Crown Zenith",
+          "series": "Sword & Shield",
+          "printedTotal": 159,
+          "total": 160,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "ptcgoCode": "CRZ",
+          "releaseDate": "2023/01/20",
+          "updatedAt": "2023/01/19 15:45:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/swsh12pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh12pt5/logo.png"
+          }
+        },
+        "number": "45",
+        "artist": "5ban Graphics",
+        "rarity": "Rare Holo V",
+        "nationalPokedexNumbers": [
+          479
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "F",
+        "images": {
+          "small": "https://images.pokemontcg.io/swsh12pt5/45.png",
+          "large": "https://images.pokemontcg.io/swsh12pt5/45_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-45",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "holofoil": {
+              "low": 1.43,
+              "mid": 1.89,
+              "high": 999,
+              "market": 1.84,
+              "directLow": null
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-45",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "averageSellPrice": 2.49,
+            "lowPrice": 0.75,
+            "trendPrice": 2.75,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 0.97,
+            "avg1": 2.39,
+            "avg7": 2.51,
+            "avg30": 2.51,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "swsh12pt5-108",
+        "name": "Eevee V",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic",
+          "V"
+        ],
+        "hp": "200",
+        "types": [
+          "Colorless"
+        ],
+        "evolvesTo": [
+          "Vaporeon",
+          "Jolteon",
+          "Flareon",
+          "Sylveon",
+          "Espeon",
+          "Umbreon",
+          "Leafeon",
+          "Glaceon"
+        ],
+        "rules": [
+          "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "attacks": [
+          {
+            "name": "Tackle",
+            "cost": [
+              "Colorless"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "30",
+            "text": ""
+          },
+          {
+            "name": "Vee Brave",
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 3,
+            "damage": "80+",
+            "text": "If your opponent's Active Pokémon is a Pokémon V, this attack does 80 more damage."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "swsh12pt5",
+          "name": "Crown Zenith",
+          "series": "Sword & Shield",
+          "printedTotal": 159,
+          "total": 160,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "ptcgoCode": "CRZ",
+          "releaseDate": "2023/01/20",
+          "updatedAt": "2023/01/19 15:45:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/swsh12pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh12pt5/logo.png"
+          }
+        },
+        "number": "108",
+        "artist": "You Iribi",
+        "rarity": "Rare Holo V",
+        "nationalPokedexNumbers": [
+          133
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "F",
+        "images": {
+          "small": "https://images.pokemontcg.io/swsh12pt5/108.png",
+          "large": "https://images.pokemontcg.io/swsh12pt5/108_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-108",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "holofoil": {
+              "low": 0.5,
+              "mid": 1.2,
+              "high": 999,
+              "market": 0.99,
+              "directLow": null
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-108",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "averageSellPrice": 1.79,
+            "lowPrice": 0.44,
+            "trendPrice": 1.59,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 0.45,
+            "avg1": 2.29,
+            "avg7": 1.28,
+            "avg30": 1.77,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
       {
         "id": "swsh12pt5gg-GG10",
         "name": "Mew",
@@ -344,33 +464,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5gg-GG10",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 4.95,
-              "mid": 6.36,
-              "high": 30,
-              "market": 6.41,
+              "low": 4.9,
+              "mid": 6.51,
+              "high": 999,
+              "market": 6.48,
               "directLow": 8.33
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5gg-GG10",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 7.38,
             "lowPrice": 5,
-            "trendPrice": 7.85,
+            "trendPrice": 7.83,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 5.99,
-            "avg1": 7.2,
-            "avg7": 7.73,
-            "avg30": 7.42,
+            "avg1": 8.08,
+            "avg7": 7.59,
+            "avg30": 7.43,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -464,33 +584,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5gg-GG18",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 0.66,
-              "mid": 1.07,
-              "high": 9.95,
-              "market": 1.01,
-              "directLow": 1.48
+              "low": 0.65,
+              "mid": 1.09,
+              "high": 999,
+              "market": 1.1,
+              "directLow": 0.99
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5gg-GG18",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 1.57,
             "lowPrice": 0.75,
-            "trendPrice": 1.68,
+            "trendPrice": 1.51,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 0.75,
-            "avg1": 1.25,
-            "avg7": 1.46,
-            "avg30": 1.57,
+            "avg1": 1.13,
+            "avg7": 1.35,
+            "avg30": 1.53,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -576,33 +696,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5gg-GG24",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 0.5,
-              "mid": 1.3,
-              "high": 89,
-              "market": 1.26,
+              "mid": 1.28,
+              "high": 999,
+              "market": 1.28,
               "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5gg-GG24",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 1.64,
-            "lowPrice": 0.99,
+            "lowPrice": 1,
             "trendPrice": 1.85,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 0.99,
-            "avg1": 2.47,
-            "avg7": 1.71,
-            "avg30": 1.7,
+            "lowPriceExPlus": 1,
+            "avg1": 1.77,
+            "avg7": 1.81,
+            "avg30": 1.71,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -690,32 +810,32 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5gg-GG29",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 0.99,
-              "mid": 2.5,
-              "high": 19.99,
-              "market": 2.23,
-              "directLow": 1.92
+              "low": 0.95,
+              "mid": 2.49,
+              "high": 999,
+              "market": 2.06,
+              "directLow": 3.51
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5gg-GG29",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 2.76,
-            "lowPrice": 1.7,
-            "trendPrice": 2.78,
+            "lowPrice": 0.99,
+            "trendPrice": 2.62,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 1.7,
-            "avg1": 2.57,
-            "avg7": 2.71,
+            "lowPriceExPlus": 1.75,
+            "avg1": 2.29,
+            "avg7": 2.57,
             "avg30": 2.79,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
@@ -806,33 +926,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5gg-GG36",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 15,
-              "mid": 19,
-              "high": 90,
-              "market": 19.21,
-              "directLow": 21.83
+              "low": 16.75,
+              "mid": 19.11,
+              "high": 69,
+              "market": 17.27,
+              "directLow": 18.01
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5gg-GG36",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 21.23,
             "lowPrice": 10.99,
-            "trendPrice": 23.22,
+            "trendPrice": 23.95,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 15,
-            "avg1": 21.95,
-            "avg7": 23.84,
-            "avg30": 20.81,
+            "avg1": 20.29,
+            "avg7": 24.28,
+            "avg30": 21.4,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -922,33 +1042,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5gg-GG43",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 5.3,
-              "mid": 6.89,
+              "low": 5.29,
+              "mid": 6.91,
               "high": 60,
-              "market": 6.74,
+              "market": 6.45,
               "directLow": 9.49
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5gg-GG43",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 11.39,
-            "lowPrice": 7.5,
-            "trendPrice": 11.21,
+            "lowPrice": 6.5,
+            "trendPrice": 9.86,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 7.5,
-            "avg1": 9.25,
-            "avg7": 11.28,
-            "avg30": 11.64,
+            "lowPriceExPlus": 6.5,
+            "avg1": 9.62,
+            "avg7": 10.29,
+            "avg30": 11.47,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1046,33 +1166,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5gg-GG44",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 48.79,
-              "mid": 58.98,
+              "low": 48.69,
+              "mid": 58.74,
               "high": 193.44,
-              "market": 55.58,
-              "directLow": 59.14
+              "market": 54.99,
+              "directLow": 55.04
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5gg-GG44",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 66.51,
             "lowPrice": 25,
-            "trendPrice": 75.44,
+            "trendPrice": 72.61,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 47,
-            "avg1": 57.18,
-            "avg7": 68.19,
-            "avg30": 65.56,
+            "lowPriceExPlus": 45,
+            "avg1": 87.48,
+            "avg7": 65.59,
+            "avg30": 67.28,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1169,33 +1289,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5gg-GG45",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 9.52,
-              "mid": 19,
+              "low": 14.06,
+              "mid": 18.99,
               "high": 179,
-              "market": 18.19,
-              "directLow": 21.98
+              "market": 17.35,
+              "directLow": 21.75
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5gg-GG45",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 13.59,
-            "lowPrice": 9.49,
-            "trendPrice": 15,
+            "lowPrice": 9.98,
+            "trendPrice": 13.47,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 9.49,
-            "avg1": 10.99,
-            "avg7": 13.96,
-            "avg30": 13.52,
+            "lowPriceExPlus": 9.98,
+            "avg1": 10.7,
+            "avg7": 12.31,
+            "avg30": 13.44,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1247,33 +1367,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5gg-GG59",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 2,
+              "low": 1.77,
               "mid": 3.99,
               "high": 89,
-              "market": 2.91,
-              "directLow": 3.69
+              "market": 2.93,
+              "directLow": 3
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5gg-GG59",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 5.87,
             "lowPrice": 4.15,
-            "trendPrice": 6.04,
+            "trendPrice": 5.8,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 4.15,
-            "avg1": 6,
-            "avg7": 6.27,
-            "avg30": 5.95,
+            "avg1": 4.71,
+            "avg7": 6.02,
+            "avg30": 5.81,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1325,33 +1445,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5gg-GG64",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 1.9,
-              "mid": 3.75,
+              "low": 0.99,
+              "mid": 3.65,
               "high": 29.95,
-              "market": 2.69,
+              "market": 2.99,
               "directLow": 3.83
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5gg-GG64",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 4.63,
-            "lowPrice": 2.8,
-            "trendPrice": 4.28,
+            "lowPrice": 3,
+            "trendPrice": 4.43,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 2.8,
-            "avg1": 3.49,
-            "avg7": 4.56,
-            "avg30": 4.62,
+            "lowPriceExPlus": 3,
+            "avg1": 4.9,
+            "avg7": 4.33,
+            "avg30": 4.59,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1403,33 +1523,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5gg-GG65",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 0.67,
-              "mid": 2.5,
+              "mid": 2.49,
               "high": 20,
-              "market": 2.07,
-              "directLow": 2.2
+              "market": 2.04,
+              "directLow": 3.62
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5gg-GG65",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 4.15,
-            "lowPrice": 2.9,
-            "trendPrice": 3.96,
+            "lowPrice": 2.8,
+            "trendPrice": 4.24,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 2.9,
-            "avg1": 4.18,
-            "avg7": 3.99,
-            "avg30": 4.13,
+            "lowPriceExPlus": 2.8,
+            "avg1": 6.27,
+            "avg7": 4.3,
+            "avg30": 4.22,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1516,33 +1636,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5gg-GG69",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 90.15,
+              "low": 91.28,
               "mid": 105,
               "high": 345,
-              "market": 99.09,
-              "directLow": 114.68
+              "market": 99.68,
+              "directLow": 124.62
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5gg-GG69",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 109.69,
             "lowPrice": 56.9,
-            "trendPrice": 108.62,
+            "trendPrice": 106.11,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 56.9,
-            "avg1": 129,
-            "avg7": 112.06,
-            "avg30": 105.27,
+            "avg1": 149.99,
+            "avg7": 124.64,
+            "avg30": 105.81,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1552,189 +1672,46 @@
     ]
   },
   {
-    "id": "swsh12pt5",
-    "name": "Crown Zenith",
-    "series": "Sword & Shield",
-    "printedTotal": 159,
-    "total": 160,
+    "id": "svp",
+    "name": "Scarlet & Violet Promos",
+    "series": "Scarlet & Violet",
+    "printedTotal": 150,
+    "total": 148,
     "legalities": {
       "unlimited": "Legal",
       "standard": "Legal",
       "expanded": "Legal"
     },
-    "ptcgoCode": "CRZ",
-    "releaseDate": "2023/01/20",
-    "updatedAt": "2023/01/19 15:45:00",
+    "releaseDate": "2023/02/01",
+    "updatedAt": "2023/07/20 22:45:00",
     "images": {
-      "symbol": "https://images.pokemontcg.io/swsh12pt5/symbol.png",
-      "logo": "https://images.pokemontcg.io/swsh12pt5/logo.png"
+      "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+      "logo": "https://images.pokemontcg.io/svp/logo.png"
     },
     "cards": [
       {
-        "id": "swsh12pt5-108",
-        "name": "Eevee V",
+        "id": "svp-44",
+        "name": "Charmander",
         "supertype": "Pokémon",
         "subtypes": [
-          "Basic",
-          "V"
+          "Basic"
         ],
-        "hp": "200",
-        "types": [
-          "Colorless"
-        ],
-        "evolvesTo": [
-          "Vaporeon",
-          "Jolteon",
-          "Flareon",
-          "Sylveon",
-          "Espeon",
-          "Umbreon",
-          "Leafeon",
-          "Glaceon"
-        ],
-        "rules": [
-          "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
-        ],
-        "attacks": [
-          {
-            "name": "Tackle",
-            "cost": [
-              "Colorless"
-            ],
-            "convertedEnergyCost": 1,
-            "damage": "30",
-            "text": ""
-          },
-          {
-            "name": "Vee Brave",
-            "cost": [
-              "Colorless",
-              "Colorless",
-              "Colorless"
-            ],
-            "convertedEnergyCost": 3,
-            "damage": "80+",
-            "text": "If your opponent's Active Pokémon is a Pokémon V, this attack does 80 more damage."
-          }
-        ],
-        "weaknesses": [
-          {
-            "type": "Fighting",
-            "value": "×2"
-          }
-        ],
-        "retreatCost": [
-          "Colorless"
-        ],
-        "convertedRetreatCost": 1,
-        "set": {
-          "id": "swsh12pt5",
-          "name": "Crown Zenith",
-          "series": "Sword & Shield",
-          "printedTotal": 159,
-          "total": 160,
-          "legalities": {
-            "unlimited": "Legal",
-            "standard": "Legal",
-            "expanded": "Legal"
-          },
-          "ptcgoCode": "CRZ",
-          "releaseDate": "2023/01/20",
-          "updatedAt": "2023/01/19 15:45:00",
-          "images": {
-            "symbol": "https://images.pokemontcg.io/swsh12pt5/symbol.png",
-            "logo": "https://images.pokemontcg.io/swsh12pt5/logo.png"
-          }
-        },
-        "number": "108",
-        "artist": "You Iribi",
-        "rarity": "Rare Holo V",
-        "nationalPokedexNumbers": [
-          133
-        ],
-        "legalities": {
-          "unlimited": "Legal",
-          "standard": "Legal",
-          "expanded": "Legal"
-        },
-        "regulationMark": "F",
-        "images": {
-          "small": "https://images.pokemontcg.io/swsh12pt5/108.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5/108_hires.png"
-        },
-        "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-108",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "holofoil": {
-              "low": 0.65,
-              "mid": 1.2,
-              "high": 89,
-              "market": 0.87,
-              "directLow": 1
-            }
-          }
-        },
-        "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-108",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "averageSellPrice": 1.79,
-            "lowPrice": 0.4,
-            "trendPrice": 1.64,
-            "germanProLow": 0,
-            "suggestedPrice": 0,
-            "reverseHoloSell": 0,
-            "reverseHoloLow": 0,
-            "reverseHoloTrend": 0,
-            "lowPriceExPlus": 0.4,
-            "avg1": 1.28,
-            "avg7": 1.51,
-            "avg30": 1.81,
-            "reverseHoloAvg1": 0,
-            "reverseHoloAvg7": 0,
-            "reverseHoloAvg30": 0
-          }
-        }
-      },
-      {
-        "id": "swsh12pt5-18",
-        "name": "Charizard V",
-        "supertype": "Pokémon",
-        "subtypes": [
-          "Basic",
-          "V"
-        ],
-        "hp": "220",
+        "hp": "60",
         "types": [
           "Fire"
         ],
-        "rules": [
-          "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+        "evolvesTo": [
+          "Charmeleon"
         ],
         "attacks": [
           {
-            "name": "Incinerate",
+            "name": "Heat Tackle",
             "cost": [
-              "Fire",
-              "Fire",
-              "Colorless"
+              "Fire"
             ],
-            "convertedEnergyCost": 3,
-            "damage": "90",
-            "text": "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon."
-          },
-          {
-            "name": "Heat Blast",
-            "cost": [
-              "Fire",
-              "Fire",
-              "Fire",
-              "Colorless"
-            ],
-            "convertedEnergyCost": 4,
-            "damage": "180",
-            "text": ""
+            "convertedEnergyCost": 1,
+            "damage": "30",
+            "text": "This Pokémon also does 10 damage to itself."
           }
         ],
         "weaknesses": [
@@ -1744,74 +1721,74 @@
           }
         ],
         "retreatCost": [
-          "Colorless",
           "Colorless"
         ],
-        "convertedRetreatCost": 2,
+        "convertedRetreatCost": 1,
         "set": {
-          "id": "swsh12pt5",
-          "name": "Crown Zenith",
-          "series": "Sword & Shield",
-          "printedTotal": 159,
-          "total": 160,
+          "id": "svp",
+          "name": "Scarlet & Violet Black Star Promos",
+          "series": "Scarlet & Violet",
+          "printedTotal": 148,
+          "total": 129,
           "legalities": {
             "unlimited": "Legal",
             "standard": "Legal",
             "expanded": "Legal"
           },
-          "ptcgoCode": "CRZ",
-          "releaseDate": "2023/01/20",
-          "updatedAt": "2023/01/19 15:45:00",
+          "ptcgoCode": "PR-SV",
+          "releaseDate": "2023/01/01",
+          "updatedAt": "2023/12/11 23:15:00",
           "images": {
-            "symbol": "https://images.pokemontcg.io/swsh12pt5/symbol.png",
-            "logo": "https://images.pokemontcg.io/swsh12pt5/logo.png"
+            "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+            "logo": "https://images.pokemontcg.io/svp/logo.png"
           }
         },
-        "number": "18",
-        "artist": "N-DESIGN Inc.",
-        "rarity": "Rare Holo V",
+        "number": "44",
+        "artist": "MINAMINAMI Take",
+        "rarity": "Promo",
+        "flavorText": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
         "nationalPokedexNumbers": [
-          6
+          4
         ],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
           "expanded": "Legal"
         },
-        "regulationMark": "F",
+        "regulationMark": "G",
         "images": {
-          "small": "https://images.pokemontcg.io/swsh12pt5/18.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5/18_hires.png"
+          "small": "https://images.pokemontcg.io/svp/44.png",
+          "large": "https://images.pokemontcg.io/svp/44_hires.png"
         },
         "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-18",
-          "updatedAt": "2024/10/22",
+          "url": "https://prices.pokemontcg.io/tcgplayer/svp-44",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 1.45,
-              "mid": 2.5,
-              "high": 89,
-              "market": 2.21,
-              "directLow": null
+              "low": 7,
+              "mid": 10,
+              "high": 29.99,
+              "market": 9.12,
+              "directLow": 10.99
             }
           }
         },
         "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-18",
-          "updatedAt": "2024/10/22",
+          "url": "https://prices.pokemontcg.io/cardmarket/svp-44",
+          "updatedAt": "2024/10/25",
           "prices": {
-            "averageSellPrice": 2.79,
-            "lowPrice": 1.5,
-            "trendPrice": 2.73,
+            "averageSellPrice": 13.06,
+            "lowPrice": 7,
+            "trendPrice": 13.38,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 1.5,
-            "avg1": 2.5,
-            "avg7": 2.63,
-            "avg30": 2.8,
+            "lowPriceExPlus": 9.5,
+            "avg1": 13.33,
+            "avg7": 13.06,
+            "avg30": 13.18,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1819,42 +1796,45 @@
         }
       },
       {
-        "id": "swsh12pt5-45",
-        "name": "Rotom V",
+        "id": "svp-131",
+        "name": "Kingdra ex",
         "supertype": "Pokémon",
         "subtypes": [
-          "Basic",
-          "V"
+          "Stage 2",
+          "ex"
         ],
-        "hp": "190",
+        "hp": "310",
         "types": [
-          "Lightning"
+          "Water"
         ],
+        "evolvesFrom": "Seadra",
         "rules": [
-          "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
-        ],
-        "abilities": [
-          {
-            "name": "Instant Charge",
-            "text": "Once during your turn, you may draw 3 cards. If you use this Ability, your turn ends.",
-            "type": "Ability"
-          }
+          "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
         ],
         "attacks": [
           {
-            "name": "Scrap Short",
+            "name": "King's Order",
             "cost": [
-              "Lightning",
-              "Lightning"
+              "Water"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "",
+            "text": "Put up to 3 Water Pokémon from your discard pile onto your Bench."
+          },
+          {
+            "name": "Hydro Pump",
+            "cost": [
+              "Colorless",
+              "Colorless"
             ],
             "convertedEnergyCost": 2,
-            "damage": "40+",
-            "text": "Put any number of Pokémon Tool cards from your discard pile in the Lost Zone. This attack does 40 more damage for each card you put in the Lost Zone in this way."
+            "damage": "50+",
+            "text": "This attack does 50 more damage for each Water Energy attached to this Pokémon."
           }
         ],
         "weaknesses": [
           {
-            "type": "Fighting",
+            "type": "Lightning",
             "value": "×2"
           }
         ],
@@ -1863,69 +1843,68 @@
         ],
         "convertedRetreatCost": 1,
         "set": {
-          "id": "swsh12pt5",
-          "name": "Crown Zenith",
-          "series": "Sword & Shield",
-          "printedTotal": 159,
-          "total": 160,
+          "id": "svp",
+          "name": "Scarlet & Violet Promos",
+          "series": "Scarlet & Violet",
+          "printedTotal": 150,
+          "total": 148,
           "legalities": {
             "unlimited": "Legal",
             "standard": "Legal",
             "expanded": "Legal"
           },
-          "ptcgoCode": "CRZ",
-          "releaseDate": "2023/01/20",
-          "updatedAt": "2023/01/19 15:45:00",
+          "releaseDate": "2022/11/01",
+          "updatedAt": "2023/07/20 22:45:00",
           "images": {
-            "symbol": "https://images.pokemontcg.io/swsh12pt5/symbol.png",
-            "logo": "https://images.pokemontcg.io/swsh12pt5/logo.png"
+            "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+            "logo": "https://images.pokemontcg.io/svp/logo.png"
           }
         },
-        "number": "45",
-        "artist": "5ban Graphics",
-        "rarity": "Rare Holo V",
+        "number": "131",
+        "artist": "akagi",
+        "rarity": "Promo",
         "nationalPokedexNumbers": [
-          479
+          230
         ],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
           "expanded": "Legal"
         },
-        "regulationMark": "F",
+        "regulationMark": "H",
         "images": {
-          "small": "https://images.pokemontcg.io/swsh12pt5/45.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5/45_hires.png"
+          "small": "https://images.pokemontcg.io/svp/131.png",
+          "large": "https://images.pokemontcg.io/svp/131_hires.png"
         },
         "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-45",
-          "updatedAt": "2024/10/22",
+          "url": "https://prices.pokemontcg.io/tcgplayer/svp-131",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 1,
-              "mid": 1.9,
-              "high": 89,
-              "market": 1.95,
+              "low": 6.9,
+              "mid": 8.99,
+              "high": 9999,
+              "market": 8.05,
               "directLow": null
             }
           }
         },
         "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-45",
-          "updatedAt": "2024/10/22",
+          "url": "https://prices.pokemontcg.io/cardmarket/svp-131",
+          "updatedAt": "2024/10/25",
           "prices": {
-            "averageSellPrice": 2.49,
-            "lowPrice": 0.97,
-            "trendPrice": 2.78,
+            "averageSellPrice": 11.64,
+            "lowPrice": 9,
+            "trendPrice": 11.29,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 0.97,
-            "avg1": 2.92,
-            "avg7": 2.62,
-            "avg30": 2.51,
+            "lowPriceExPlus": 9,
+            "avg1": 10.62,
+            "avg7": 10.9,
+            "avg30": 11.61,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -1996,33 +1975,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv1-251",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 15,
-              "mid": 22.99,
+              "low": 15.65,
+              "mid": 22.89,
               "high": 1500,
-              "market": 19.05,
-              "directLow": 19.1
+              "market": 18.72,
+              "directLow": 19
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv1-251",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 20.99,
             "lowPrice": 12,
-            "trendPrice": 21.24,
+            "trendPrice": 22.04,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 12,
-            "avg1": 17.5,
-            "avg7": 21.13,
-            "avg30": 20.95,
+            "avg1": 20.34,
+            "avg7": 21.75,
+            "avg30": 21.31,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -2125,33 +2104,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv2-199",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 4,
-              "mid": 5.8,
+              "mid": 5.93,
               "high": 16.53,
-              "market": 5.54,
-              "directLow": 6.88
+              "market": 5.67,
+              "directLow": 6.29
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv2-199",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 7.66,
             "lowPrice": 5,
-            "trendPrice": 7.72,
+            "trendPrice": 7.78,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 6,
-            "avg1": 7.95,
-            "avg7": 7.07,
-            "avg30": 7.59,
+            "avg1": 7.2,
+            "avg7": 7.42,
+            "avg30": 7.62,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -2244,33 +2223,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3-202",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 6,
-              "mid": 8.02,
+              "low": 5.5,
+              "mid": 8,
               "high": 22.29,
-              "market": 8.58,
-              "directLow": 8.72
+              "market": 7.69,
+              "directLow": 6.99
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3-202",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 8.15,
-            "lowPrice": 5.99,
-            "trendPrice": 8.02,
+            "lowPrice": 5.5,
+            "trendPrice": 8.13,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 6.94,
-            "avg1": 8.57,
-            "avg7": 8.13,
-            "avg30": 8.13,
+            "lowPriceExPlus": 6.79,
+            "avg1": 8.38,
+            "avg7": 8.36,
+            "avg30": 8.14,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -2298,48 +2277,54 @@
     },
     "cards": [
       {
-        "id": "sv3pt5-128",
-        "name": "Tauros",
+        "id": "sv3pt5-3",
+        "name": "Venusaur ex",
         "supertype": "Pokémon",
         "subtypes": [
-          "Basic"
+          "Stage 2",
+          "ex"
         ],
-        "hp": "120",
+        "hp": "340",
         "types": [
-          "Colorless"
+          "Grass"
+        ],
+        "evolvesFrom": "Ivysaur",
+        "rules": [
+          "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "abilities": [
+          {
+            "name": "Tranquil Flower",
+            "text": "Once during your turn, if this Pokémon is in the Active Spot, you may heal 60 damage from 1 of your Pokémon.",
+            "type": "Ability"
+          }
         ],
         "attacks": [
           {
-            "name": "Gather the Crew",
+            "name": "Dangerous Toxwhip",
             "cost": [
+              "Grass",
+              "Grass",
               "Colorless"
             ],
-            "convertedEnergyCost": 1,
-            "damage": "",
-            "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck."
-          },
-          {
-            "name": "Rage",
-            "cost": [
-              "Colorless",
-              "Colorless"
-            ],
-            "convertedEnergyCost": 2,
-            "damage": "30+",
-            "text": "This attack does 10 more damage for each damage counter on this Pokémon."
+            "convertedEnergyCost": 3,
+            "damage": "150",
+            "text": "Your opponent's Active Pokémon is now Confused and Poisoned."
           }
         ],
         "weaknesses": [
           {
-            "type": "Fighting",
+            "type": "Fire",
             "value": "×2"
           }
         ],
         "retreatCost": [
           "Colorless",
+          "Colorless",
+          "Colorless",
           "Colorless"
         ],
-        "convertedRetreatCost": 2,
+        "convertedRetreatCost": 4,
         "set": {
           "id": "sv3pt5",
           "name": "151",
@@ -2358,12 +2343,11 @@
             "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
           }
         },
-        "number": "128",
-        "artist": "Takeshi Nakamura",
-        "rarity": "Uncommon",
-        "flavorText": "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+        "number": "3",
+        "artist": "5ban Graphics",
+        "rarity": "Double Rare",
         "nationalPokedexNumbers": [
-          128
+          3
         ],
         "legalities": {
           "unlimited": "Legal",
@@ -2372,83 +2356,77 @@
         },
         "regulationMark": "G",
         "images": {
-          "small": "https://images.pokemontcg.io/sv3pt5/128.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/128_hires.png"
+          "small": "https://images.pokemontcg.io/sv3pt5/3.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/3_hires.png"
         },
         "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-128",
-          "updatedAt": "2024/10/22",
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-3",
+          "updatedAt": "2024/10/25",
           "prices": {
-            "normal": {
-              "low": 0.01,
-              "mid": 0.1,
-              "high": 2.3,
-              "market": 0.05,
-              "directLow": null
-            },
-            "reverseHolofoil": {
-              "low": 0.25,
-              "mid": 0.92,
-              "high": 4.98,
-              "market": 0.94,
-              "directLow": 2.95
+            "holofoil": {
+              "low": 0.63,
+              "mid": 1.83,
+              "high": 9.99,
+              "market": 2.05,
+              "directLow": 2.31
             }
           }
         },
         "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-128",
-          "updatedAt": "2024/10/22",
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-3",
+          "updatedAt": "2024/10/25",
           "prices": {
-            "averageSellPrice": 0.05,
-            "lowPrice": 0.01,
-            "trendPrice": 0.04,
+            "averageSellPrice": 3.21,
+            "lowPrice": 1.49,
+            "trendPrice": 3.04,
             "germanProLow": 0,
             "suggestedPrice": 0,
-            "reverseHoloSell": 1.5,
-            "reverseHoloLow": 0.05,
-            "reverseHoloTrend": 1.47,
-            "lowPriceExPlus": 0.01,
-            "avg1": 0.02,
-            "avg7": 0.04,
-            "avg30": 0.04,
-            "reverseHoloAvg1": 1.42,
-            "reverseHoloAvg7": 1.47,
-            "reverseHoloAvg30": 1.49
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 1.49,
+            "avg1": 2.8,
+            "avg7": 2.96,
+            "avg30": 3.14,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
           }
         }
       },
       {
-        "id": "sv3pt5-136",
-        "name": "Flareon",
+        "id": "sv3pt5-4",
+        "name": "Charmander",
         "supertype": "Pokémon",
         "subtypes": [
-          "Stage 1"
+          "Basic"
         ],
-        "hp": "130",
+        "hp": "70",
         "types": [
           "Fire"
         ],
-        "evolvesFrom": "Eevee",
+        "evolvesTo": [
+          "Charmeleon"
+        ],
         "attacks": [
           {
-            "name": "Destructive Flame",
+            "name": "Blazing Destruction",
             "cost": [
               "Fire"
             ],
             "convertedEnergyCost": 1,
-            "damage": "30",
-            "text": "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
+            "damage": "",
+            "text": "Discard a Stadium in play."
           },
           {
-            "name": "Fighting Blaze",
+            "name": "Steady Firebreathing",
             "cost": [
               "Fire",
-              "Colorless",
-              "Colorless"
+              "Fire"
             ],
-            "convertedEnergyCost": 3,
-            "damage": "90+",
-            "text": "If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage."
+            "convertedEnergyCost": 2,
+            "damage": "30",
+            "text": ""
           }
         ],
         "weaknesses": [
@@ -2458,10 +2436,9 @@
           }
         ],
         "retreatCost": [
-          "Colorless",
           "Colorless"
         ],
-        "convertedRetreatCost": 2,
+        "convertedRetreatCost": 1,
         "set": {
           "id": "sv3pt5",
           "name": "151",
@@ -2480,12 +2457,12 @@
             "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
           }
         },
-        "number": "136",
-        "artist": "Ryota Murayama",
-        "rarity": "Rare",
-        "flavorText": "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees Fahrenheit.",
+        "number": "4",
+        "artist": "GIDORA",
+        "rarity": "Common",
+        "flavorText": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
         "nationalPokedexNumbers": [
-          136
+          4
         ],
         "legalities": {
           "unlimited": "Legal",
@@ -2494,163 +2471,48 @@
         },
         "regulationMark": "G",
         "images": {
-          "small": "https://images.pokemontcg.io/sv3pt5/136.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/136_hires.png"
+          "small": "https://images.pokemontcg.io/sv3pt5/4.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/4_hires.png"
         },
         "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-136",
-          "updatedAt": "2024/10/22",
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-4",
+          "updatedAt": "2024/10/25",
           "prices": {
             "reverseHolofoil": {
-              "low": 0.25,
-              "mid": 1.1,
-              "high": 6.11,
-              "market": 1.79,
-              "directLow": 2.99
+              "low": 0.09,
+              "mid": 0.25,
+              "high": 25,
+              "market": 0.17,
+              "directLow": null
             },
-            "holofoil": {
-              "low": 0.03,
-              "mid": 0.22,
-              "high": 3.3,
-              "market": 0.19,
-              "directLow": 0.19
-            }
-          }
-        },
-        "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-136",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "averageSellPrice": 0.19,
-            "lowPrice": 0.02,
-            "trendPrice": 0.19,
-            "germanProLow": 0,
-            "suggestedPrice": 0,
-            "reverseHoloSell": 1.46,
-            "reverseHoloLow": 0.18,
-            "reverseHoloTrend": 1.56,
-            "lowPriceExPlus": 0.02,
-            "avg1": 0.21,
-            "avg7": 0.18,
-            "avg30": 0.19,
-            "reverseHoloAvg1": 1.27,
-            "reverseHoloAvg7": 1.59,
-            "reverseHoloAvg30": 1.44
-          }
-        }
-      },
-      {
-        "id": "sv3pt5-138",
-        "name": "Omanyte",
-        "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
-        "hp": "100",
-        "types": [
-          "Water"
-        ],
-        "evolvesFrom": "Antique Helix Fossil",
-        "evolvesTo": [
-          "Omastar"
-        ],
-        "attacks": [
-          {
-            "name": "Tentacular Return",
-            "cost": [
-              "Water",
-              "Water"
-            ],
-            "convertedEnergyCost": 2,
-            "damage": "50",
-            "text": "Put an Energy attached to your opponent's Active Pokémon into their hand."
-          }
-        ],
-        "weaknesses": [
-          {
-            "type": "Lightning",
-            "value": "×2"
-          }
-        ],
-        "retreatCost": [
-          "Colorless",
-          "Colorless"
-        ],
-        "convertedRetreatCost": 2,
-        "set": {
-          "id": "sv3pt5",
-          "name": "151",
-          "series": "Scarlet & Violet",
-          "printedTotal": 165,
-          "total": 207,
-          "legalities": {
-            "unlimited": "Legal",
-            "standard": "Legal",
-            "expanded": "Legal"
-          },
-          "releaseDate": "2023/09/22",
-          "updatedAt": "2023/09/22 15:00:00",
-          "images": {
-            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
-            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
-          }
-        },
-        "number": "138",
-        "artist": "Akira Komayama",
-        "rarity": "Uncommon",
-        "flavorText": "This Pokémon is a member of an ancient, extinct species. Omanyte paddles through water with its 10 tentacles, looking like it's just drifting along.",
-        "nationalPokedexNumbers": [
-          138
-        ],
-        "legalities": {
-          "unlimited": "Legal",
-          "standard": "Legal",
-          "expanded": "Legal"
-        },
-        "regulationMark": "G",
-        "images": {
-          "small": "https://images.pokemontcg.io/sv3pt5/138.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/138_hires.png"
-        },
-        "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-138",
-          "updatedAt": "2024/10/22",
-          "prices": {
             "normal": {
               "low": 0.01,
-              "mid": 0.1,
-              "high": 2.32,
-              "market": 0.07,
-              "directLow": 0.05
-            },
-            "reverseHolofoil": {
-              "low": 0.35,
-              "mid": 0.99,
-              "high": 4.98,
-              "market": 1.39,
-              "directLow": null
+              "mid": 0.15,
+              "high": 2.35,
+              "market": 0.1,
+              "directLow": 0.07
             }
           }
         },
         "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-138",
-          "updatedAt": "2024/10/22",
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-4",
+          "updatedAt": "2024/10/25",
           "prices": {
-            "averageSellPrice": 0.06,
-            "lowPrice": 0.02,
-            "trendPrice": 0.05,
+            "averageSellPrice": 48.09,
+            "lowPrice": 49.95,
+            "trendPrice": 41.19,
             "germanProLow": 0,
             "suggestedPrice": 0,
-            "reverseHoloSell": 1.24,
-            "reverseHoloLow": 0.06,
-            "reverseHoloTrend": 1.35,
-            "lowPriceExPlus": 0.02,
-            "avg1": 0.03,
-            "avg7": 0.05,
-            "avg30": 0.05,
-            "reverseHoloAvg1": 1.31,
-            "reverseHoloAvg7": 1.25,
-            "reverseHoloAvg30": 1.24
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 49.95,
+            "avg1": 52.5,
+            "avg7": 48.15,
+            "avg30": 45.75,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
           }
         }
       },
@@ -2737,31 +2599,31 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-14",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "normal": {
               "low": 0.02,
               "mid": 0.12,
-              "high": 2.34,
-              "market": 0.09,
-              "directLow": 0.06
+              "high": 2.32,
+              "market": 0.08,
+              "directLow": null
             },
             "reverseHolofoil": {
               "low": 0.3,
-              "mid": 1.45,
+              "mid": 1.38,
               "high": 5.99,
-              "market": 1.54,
-              "directLow": 1.89
+              "market": 1.22,
+              "directLow": 1.99
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-14",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 0.06,
             "lowPrice": 0.02,
-            "trendPrice": 0.06,
+            "trendPrice": 0.05,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 1.81,
@@ -2771,9 +2633,846 @@
             "avg1": 0.04,
             "avg7": 0.06,
             "avg30": 0.06,
-            "reverseHoloAvg1": 1.65,
-            "reverseHoloAvg7": 1.71,
+            "reverseHoloAvg1": 2.02,
+            "reverseHoloAvg7": 1.7,
             "reverseHoloAvg30": 1.81
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-24",
+        "name": "Arbok ex",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Stage 1",
+          "ex"
+        ],
+        "hp": "270",
+        "types": [
+          "Darkness"
+        ],
+        "evolvesFrom": "Ekans",
+        "rules": [
+          "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "attacks": [
+          {
+            "name": "Bind Down",
+            "cost": [
+              "Darkness",
+              "Darkness"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "70",
+            "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
+          },
+          {
+            "name": "Menacing Fangs",
+            "cost": [
+              "Darkness",
+              "Darkness",
+              "Darkness"
+            ],
+            "convertedEnergyCost": 3,
+            "damage": "150",
+            "text": "Your opponent discards 2 cards from their hand."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "24",
+        "artist": "Eske Yoshinob",
+        "rarity": "Double Rare",
+        "nationalPokedexNumbers": [
+          24
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/24.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/24_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-24",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "holofoil": {
+              "low": 0.59,
+              "mid": 1.44,
+              "high": 6.69,
+              "market": 1.34,
+              "directLow": null
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-24",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "averageSellPrice": 2.18,
+            "lowPrice": 0.9,
+            "trendPrice": 2.2,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 0.95,
+            "avg1": 1.88,
+            "avg7": 2.08,
+            "avg30": 2.15,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-29",
+        "name": "Nidoran ♀",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "60",
+        "types": [
+          "Darkness"
+        ],
+        "evolvesTo": [
+          "Nidorina"
+        ],
+        "attacks": [
+          {
+            "name": "Poison Horn",
+            "cost": [
+              "Darkness",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "20",
+            "text": "Your opponent's Active Pokémon is now Poisoned."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "29",
+        "artist": "Teeziro",
+        "rarity": "Common",
+        "flavorText": "It uses its hard incisor teeth to crush and eat berries. The tip of a female Nidoran's horn is a bit more rounded than the tip of a male's horn.",
+        "nationalPokedexNumbers": [
+          29
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/29.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/29_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-29",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "reverseHolofoil": {
+              "low": 0.73,
+              "mid": 1.5,
+              "high": 999,
+              "market": 1.39,
+              "directLow": null
+            },
+            "normal": {
+              "low": 0.01,
+              "mid": 0.15,
+              "high": 2.36,
+              "market": 0.11,
+              "directLow": null
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-29",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "averageSellPrice": 0.08,
+            "lowPrice": 0.02,
+            "trendPrice": 0.07,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 2.65,
+            "reverseHoloLow": 1.49,
+            "reverseHoloTrend": 2.57,
+            "lowPriceExPlus": 0.02,
+            "avg1": 0.05,
+            "avg7": 0.08,
+            "avg30": 0.08,
+            "reverseHoloAvg1": 2.13,
+            "reverseHoloAvg7": 2.47,
+            "reverseHoloAvg30": 2.62
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-61",
+        "name": "Poliwhirl",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Stage 1"
+        ],
+        "hp": "90",
+        "types": [
+          "Water"
+        ],
+        "evolvesFrom": "Poliwag",
+        "evolvesTo": [
+          "Poliwrath",
+          "Politoed"
+        ],
+        "attacks": [
+          {
+            "name": "Wave Splash",
+            "cost": [
+              "Water"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "20",
+            "text": ""
+          },
+          {
+            "name": "Frog Hop",
+            "cost": [
+              "Water",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "30+",
+            "text": "Flip a coin. If heads, this attack does 60 more damage."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "61",
+        "artist": "Kurata So",
+        "rarity": "Common",
+        "flavorText": "This Pokémon's sweat is a slimy mucus. When captured, Poliwhirl can slither from its enemies' grasp and escape.",
+        "nationalPokedexNumbers": [
+          61
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/61.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/61_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-61",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "reverseHolofoil": {
+              "low": 0.7,
+              "mid": 1,
+              "high": 4.98,
+              "market": 0.96,
+              "directLow": null
+            },
+            "normal": {
+              "low": 0.02,
+              "mid": 0.13,
+              "high": 2.37,
+              "market": 0.11,
+              "directLow": null
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-61",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "averageSellPrice": 0.08,
+            "lowPrice": 0.02,
+            "trendPrice": 0.08,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 1.44,
+            "reverseHoloLow": 0.5,
+            "reverseHoloTrend": 1.41,
+            "lowPriceExPlus": 0.02,
+            "avg1": 0.08,
+            "avg7": 0.07,
+            "avg30": 0.08,
+            "reverseHoloAvg1": 1.14,
+            "reverseHoloAvg7": 1.44,
+            "reverseHoloAvg30": 1.42
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-70",
+        "name": "Weepinbell",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Stage 1"
+        ],
+        "hp": "90",
+        "types": [
+          "Grass"
+        ],
+        "evolvesFrom": "Bellsprout",
+        "evolvesTo": [
+          "Victreebel"
+        ],
+        "attacks": [
+          {
+            "name": "Cut",
+            "cost": [
+              "Grass"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "30",
+            "text": ""
+          },
+          {
+            "name": "Spray Fluid",
+            "cost": [
+              "Grass",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "50",
+            "text": ""
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "70",
+        "artist": "Jerky",
+        "rarity": "Common",
+        "flavorText": "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
+        "nationalPokedexNumbers": [
+          70
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/70.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/70_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-70",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "normal": {
+              "low": 0.04,
+              "mid": 0.14,
+              "high": 2.39,
+              "market": 0.14,
+              "directLow": null
+            },
+            "reverseHolofoil": {
+              "low": 0.45,
+              "mid": 1.52,
+              "high": 9,
+              "market": 1.77,
+              "directLow": null
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-70",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "averageSellPrice": 0.08,
+            "lowPrice": 0.02,
+            "trendPrice": 0.06,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 1.68,
+            "reverseHoloLow": 0.05,
+            "reverseHoloTrend": 1.76,
+            "lowPriceExPlus": 0.02,
+            "avg1": 0.04,
+            "avg7": 0.06,
+            "avg30": 0.08,
+            "reverseHoloAvg1": 1.74,
+            "reverseHoloAvg7": 1.83,
+            "reverseHoloAvg30": 1.73
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-128",
+        "name": "Tauros",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic"
+        ],
+        "hp": "120",
+        "types": [
+          "Colorless"
+        ],
+        "attacks": [
+          {
+            "name": "Gather the Crew",
+            "cost": [
+              "Colorless"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "",
+            "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck."
+          },
+          {
+            "name": "Rage",
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "30+",
+            "text": "This attack does 10 more damage for each damage counter on this Pokémon."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "128",
+        "artist": "Takeshi Nakamura",
+        "rarity": "Uncommon",
+        "flavorText": "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+        "nationalPokedexNumbers": [
+          128
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/128.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/128_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-128",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "normal": {
+              "low": 0.01,
+              "mid": 0.1,
+              "high": 2.32,
+              "market": 0.07,
+              "directLow": 0.04
+            },
+            "reverseHolofoil": {
+              "low": 0.25,
+              "mid": 0.99,
+              "high": 999,
+              "market": 0.94,
+              "directLow": 1
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-128",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "averageSellPrice": 0.05,
+            "lowPrice": 0.01,
+            "trendPrice": 0.05,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 1.5,
+            "reverseHoloLow": 0.1,
+            "reverseHoloTrend": 1.46,
+            "lowPriceExPlus": 0.01,
+            "avg1": 0.04,
+            "avg7": 0.05,
+            "avg30": 0.05,
+            "reverseHoloAvg1": 1.29,
+            "reverseHoloAvg7": 1.45,
+            "reverseHoloAvg30": 1.49
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-136",
+        "name": "Flareon",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Stage 1"
+        ],
+        "hp": "130",
+        "types": [
+          "Fire"
+        ],
+        "evolvesFrom": "Eevee",
+        "attacks": [
+          {
+            "name": "Destructive Flame",
+            "cost": [
+              "Fire"
+            ],
+            "convertedEnergyCost": 1,
+            "damage": "30",
+            "text": "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
+          },
+          {
+            "name": "Fighting Blaze",
+            "cost": [
+              "Fire",
+              "Colorless",
+              "Colorless"
+            ],
+            "convertedEnergyCost": 3,
+            "damage": "90+",
+            "text": "If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "136",
+        "artist": "Ryota Murayama",
+        "rarity": "Rare",
+        "flavorText": "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees Fahrenheit.",
+        "nationalPokedexNumbers": [
+          136
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/136.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/136_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-136",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "reverseHolofoil": {
+              "low": 0.25,
+              "mid": 1.11,
+              "high": 4.49,
+              "market": 1.01,
+              "directLow": null
+            },
+            "holofoil": {
+              "low": 0.03,
+              "mid": 0.25,
+              "high": 3.62,
+              "market": 0.32,
+              "directLow": 0.25
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-136",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "averageSellPrice": 0.19,
+            "lowPrice": 0.02,
+            "trendPrice": 0.17,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 1.46,
+            "reverseHoloLow": 0.18,
+            "reverseHoloTrend": 1.6,
+            "lowPriceExPlus": 0.02,
+            "avg1": 0.17,
+            "avg7": 0.18,
+            "avg30": 0.2,
+            "reverseHoloAvg1": 1.66,
+            "reverseHoloAvg7": 1.63,
+            "reverseHoloAvg30": 1.47
+          }
+        }
+      },
+      {
+        "id": "sv3pt5-138",
+        "name": "Omanyte",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Stage 1"
+        ],
+        "hp": "100",
+        "types": [
+          "Water"
+        ],
+        "evolvesFrom": "Antique Helix Fossil",
+        "evolvesTo": [
+          "Omastar"
+        ],
+        "attacks": [
+          {
+            "name": "Tentacular Return",
+            "cost": [
+              "Water",
+              "Water"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "50",
+            "text": "Put an Energy attached to your opponent's Active Pokémon into their hand."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "set": {
+          "id": "sv3pt5",
+          "name": "151",
+          "series": "Scarlet & Violet",
+          "printedTotal": 165,
+          "total": 207,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "releaseDate": "2023/09/22",
+          "updatedAt": "2023/09/22 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+          }
+        },
+        "number": "138",
+        "artist": "Akira Komayama",
+        "rarity": "Uncommon",
+        "flavorText": "This Pokémon is a member of an ancient, extinct species. Omanyte paddles through water with its 10 tentacles, looking like it's just drifting along.",
+        "nationalPokedexNumbers": [
+          138
+        ],
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv3pt5/138.png",
+          "large": "https://images.pokemontcg.io/sv3pt5/138_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-138",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "normal": {
+              "low": 0.01,
+              "mid": 0.1,
+              "high": 2.32,
+              "market": 0.06,
+              "directLow": 0.04
+            },
+            "reverseHolofoil": {
+              "low": 0.35,
+              "mid": 1,
+              "high": 999,
+              "market": 1.26,
+              "directLow": 2.5
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-138",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "averageSellPrice": 0.06,
+            "lowPrice": 0.02,
+            "trendPrice": 0.05,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 1.24,
+            "reverseHoloLow": 0.06,
+            "reverseHoloTrend": 1.27,
+            "lowPriceExPlus": 0.02,
+            "avg1": 0.05,
+            "avg7": 0.05,
+            "avg30": 0.05,
+            "reverseHoloAvg1": 1.08,
+            "reverseHoloAvg7": 1.16,
+            "reverseHoloAvg30": 1.22
           }
         }
       },
@@ -2858,27 +3557,27 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-143",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "normal": {
               "low": 0.01,
               "mid": 0.1,
               "high": 2.3,
               "market": 0.05,
-              "directLow": 0.03
+              "directLow": null
             },
             "reverseHolofoil": {
               "low": 0.75,
-              "mid": 2.23,
+              "mid": 2.29,
               "high": 11.99,
-              "market": 2.86,
-              "directLow": 8.99
+              "market": 2.52,
+              "directLow": 2.5
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-143",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 0.06,
             "lowPrice": 0.02,
@@ -2887,14 +3586,14 @@
             "suggestedPrice": 0,
             "reverseHoloSell": 1.6,
             "reverseHoloLow": 1,
-            "reverseHoloTrend": 1.64,
+            "reverseHoloTrend": 1.78,
             "lowPriceExPlus": 0.02,
-            "avg1": 0.05,
-            "avg7": 0.06,
+            "avg1": 0.08,
+            "avg7": 0.05,
             "avg30": 0.06,
-            "reverseHoloAvg1": 1.9,
-            "reverseHoloAvg7": 1.76,
-            "reverseHoloAvg30": 1.59
+            "reverseHoloAvg1": 1.72,
+            "reverseHoloAvg7": 1.78,
+            "reverseHoloAvg30": 1.64
           }
         }
       },
@@ -2976,43 +3675,43 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-148",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "normal": {
               "low": 0.01,
               "mid": 0.1,
               "high": 5.99,
-              "market": 0.05,
+              "market": 0.08,
               "directLow": 0.05
             },
             "reverseHolofoil": {
               "low": 0.55,
-              "mid": 1.63,
-              "high": 9.95,
-              "market": 1.72,
-              "directLow": 2.25
+              "mid": 1.71,
+              "high": 999,
+              "market": 2,
+              "directLow": 3.99
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-148",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 0.05,
             "lowPrice": 0.02,
-            "trendPrice": 0.06,
+            "trendPrice": 0.05,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 2.38,
             "reverseHoloLow": 1,
-            "reverseHoloTrend": 2.32,
+            "reverseHoloTrend": 2.42,
             "lowPriceExPlus": 0.02,
             "avg1": 0.03,
             "avg7": 0.05,
             "avg30": 0.05,
-            "reverseHoloAvg1": 1.84,
-            "reverseHoloAvg7": 2.3,
-            "reverseHoloAvg30": 2.34
+            "reverseHoloAvg1": 2.61,
+            "reverseHoloAvg7": 2.47,
+            "reverseHoloAvg30": 2.42
           }
         }
       },
@@ -3104,43 +3803,43 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-150",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "reverseHolofoil": {
               "low": 0.64,
-              "mid": 2.1,
-              "high": 8.99,
-              "market": 2.28,
-              "directLow": null
+              "mid": 2.37,
+              "high": 999,
+              "market": 2.1,
+              "directLow": 2.48
             },
             "holofoil": {
               "low": 0.05,
-              "mid": 0.31,
+              "mid": 0.32,
               "high": 5.98,
-              "market": 0.29,
-              "directLow": 0.35
+              "market": 0.31,
+              "directLow": 0.33
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-150",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 0.29,
             "lowPrice": 0.02,
-            "trendPrice": 0.26,
+            "trendPrice": 0.21,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 1.42,
             "reverseHoloLow": 0.12,
-            "reverseHoloTrend": 1.4,
+            "reverseHoloTrend": 1.58,
             "lowPriceExPlus": 0.02,
-            "avg1": 0.13,
-            "avg7": 0.22,
+            "avg1": 0.27,
+            "avg7": 0.2,
             "avg30": 0.28,
-            "reverseHoloAvg1": 0.93,
-            "reverseHoloAvg7": 1.27,
-            "reverseHoloAvg30": 1.4
+            "reverseHoloAvg1": 1.14,
+            "reverseHoloAvg7": 1.46,
+            "reverseHoloAvg30": 1.42
           }
         }
       },
@@ -3188,43 +3887,43 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-161",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "normal": {
               "low": 0.03,
               "mid": 0.15,
               "high": 30,
-              "market": 0.1,
+              "market": 0.09,
               "directLow": null
             },
             "reverseHolofoil": {
               "low": 0.4,
-              "mid": 0.99,
+              "mid": 0.9,
               "high": 10000,
-              "market": 1.03,
+              "market": 0.79,
               "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-161",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 0.09,
             "lowPrice": 0.02,
-            "trendPrice": 0.08,
+            "trendPrice": 0.07,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 1.1,
             "reverseHoloLow": 0.05,
-            "reverseHoloTrend": 0.96,
+            "reverseHoloTrend": 1.08,
             "lowPriceExPlus": 0.02,
             "avg1": 0.03,
-            "avg7": 0.08,
+            "avg7": 0.07,
             "avg30": 0.08,
-            "reverseHoloAvg1": 1.01,
-            "reverseHoloAvg7": 1.11,
-            "reverseHoloAvg30": 1.11
+            "reverseHoloAvg1": 0.95,
+            "reverseHoloAvg7": 1.05,
+            "reverseHoloAvg30": 1.09
           }
         }
       },
@@ -3310,33 +4009,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-168",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 42.99,
-              "mid": 54,
+              "low": 32.86,
+              "mid": 54.96,
               "high": 116.97,
-              "market": 46.12,
-              "directLow": 55.69
+              "market": 43.43,
+              "directLow": 50.53
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-168",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 42.36,
             "lowPrice": 32,
-            "trendPrice": 47.83,
+            "trendPrice": 49.21,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 32,
-            "avg1": 44.13,
-            "avg7": 45.5,
-            "avg30": 42.82,
+            "avg1": 46.98,
+            "avg7": 49.61,
+            "avg30": 44.29,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -3428,33 +4127,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-169",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 25.58,
-              "mid": 32.67,
+              "low": 26.08,
+              "mid": 33,
               "high": 85,
-              "market": 31.73,
-              "directLow": 34.5
+              "market": 31.81,
+              "directLow": 39.95
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-169",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 31.46,
             "lowPrice": 20,
-            "trendPrice": 33.28,
+            "trendPrice": 32.26,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 22,
-            "avg1": 25.48,
-            "avg7": 30.97,
-            "avg30": 31.53,
+            "avg1": 28.06,
+            "avg7": 30.88,
+            "avg30": 31.82,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -3544,33 +4243,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-173",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 19.34,
-              "mid": 25.75,
+              "mid": 26.83,
               "high": 70.5,
-              "market": 25.02,
-              "directLow": 44.69
+              "market": 26.79,
+              "directLow": 36.99
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-173",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 25.93,
             "lowPrice": 19.95,
-            "trendPrice": 27.45,
+            "trendPrice": 27.31,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 19.95,
-            "avg1": 27.9,
-            "avg7": 27.68,
-            "avg30": 25.95,
+            "avg1": 24.63,
+            "avg7": 28.28,
+            "avg30": 26.17,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -3659,33 +4358,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-174",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 5,
-              "mid": 9,
+              "mid": 9.19,
               "high": 19.99,
-              "market": 8.86,
-              "directLow": 7.77
+              "market": 9.34,
+              "directLow": 10.99
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-174",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 11.47,
             "lowPrice": 7.99,
-            "trendPrice": 11.04,
+            "trendPrice": 10.83,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 7.99,
-            "avg1": 11.78,
-            "avg7": 11.39,
-            "avg30": 11.5,
+            "avg1": 12.03,
+            "avg7": 11.4,
+            "avg30": 11.52,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -3779,33 +4478,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-189",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 5.4,
-              "mid": 8.2,
+              "low": 6.94,
+              "mid": 8.08,
               "high": 33,
-              "market": 7.99,
-              "directLow": 7.2
+              "market": 8.19,
+              "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-189",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 15.47,
-            "lowPrice": 10,
-            "trendPrice": 14.71,
+            "lowPrice": 11,
+            "trendPrice": 14.53,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 10,
-            "avg1": 14.59,
-            "avg7": 12.99,
-            "avg30": 15.38,
+            "lowPriceExPlus": 11.38,
+            "avg1": 18.67,
+            "avg7": 15.06,
+            "avg30": 15.74,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -3856,33 +4555,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-194",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 3,
-              "mid": 4.99,
+              "low": 3.25,
+              "mid": 4.85,
               "high": 44.5,
-              "market": 4.42,
-              "directLow": 7.99
+              "market": 4.41,
+              "directLow": 4.98
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-194",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 7.17,
             "lowPrice": 4.89,
-            "trendPrice": 7.22,
+            "trendPrice": 7.07,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 4.89,
-            "avg1": 8.23,
-            "avg7": 7.05,
-            "avg30": 7.25,
+            "avg1": 7.67,
+            "avg7": 6.98,
+            "avg30": 7.27,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -3975,756 +4674,36 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-199",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 177.99,
-              "mid": 223.03,
+              "low": 165,
+              "mid": 219.53,
               "high": 895,
-              "market": 203.74,
+              "market": 194.24,
               "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-199",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 155.94,
             "lowPrice": 95,
-            "trendPrice": 169.29,
+            "trendPrice": 179.58,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 95,
-            "avg1": 151.1,
-            "avg7": 177.6,
-            "avg30": 155.07,
+            "avg1": 195,
+            "avg7": 188.08,
+            "avg30": 160.89,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
-          }
-        }
-      },
-      {
-        "id": "sv3pt5-24",
-        "name": "Arbok ex",
-        "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1",
-          "ex"
-        ],
-        "hp": "270",
-        "types": [
-          "Darkness"
-        ],
-        "evolvesFrom": "Ekans",
-        "rules": [
-          "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
-        ],
-        "attacks": [
-          {
-            "name": "Bind Down",
-            "cost": [
-              "Darkness",
-              "Darkness"
-            ],
-            "convertedEnergyCost": 2,
-            "damage": "70",
-            "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
-          },
-          {
-            "name": "Menacing Fangs",
-            "cost": [
-              "Darkness",
-              "Darkness",
-              "Darkness"
-            ],
-            "convertedEnergyCost": 3,
-            "damage": "150",
-            "text": "Your opponent discards 2 cards from their hand."
-          }
-        ],
-        "weaknesses": [
-          {
-            "type": "Fighting",
-            "value": "×2"
-          }
-        ],
-        "retreatCost": [
-          "Colorless",
-          "Colorless"
-        ],
-        "convertedRetreatCost": 2,
-        "set": {
-          "id": "sv3pt5",
-          "name": "151",
-          "series": "Scarlet & Violet",
-          "printedTotal": 165,
-          "total": 207,
-          "legalities": {
-            "unlimited": "Legal",
-            "standard": "Legal",
-            "expanded": "Legal"
-          },
-          "releaseDate": "2023/09/22",
-          "updatedAt": "2023/09/22 15:00:00",
-          "images": {
-            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
-            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
-          }
-        },
-        "number": "24",
-        "artist": "Eske Yoshinob",
-        "rarity": "Double Rare",
-        "nationalPokedexNumbers": [
-          24
-        ],
-        "legalities": {
-          "unlimited": "Legal",
-          "standard": "Legal",
-          "expanded": "Legal"
-        },
-        "regulationMark": "G",
-        "images": {
-          "small": "https://images.pokemontcg.io/sv3pt5/24.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/24_hires.png"
-        },
-        "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-24",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "holofoil": {
-              "low": 0.59,
-              "mid": 1.33,
-              "high": 6.69,
-              "market": 1.3,
-              "directLow": 2.16
-            }
-          }
-        },
-        "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-24",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "averageSellPrice": 2.18,
-            "lowPrice": 0.9,
-            "trendPrice": 2.29,
-            "germanProLow": 0,
-            "suggestedPrice": 0,
-            "reverseHoloSell": 0,
-            "reverseHoloLow": 0,
-            "reverseHoloTrend": 0,
-            "lowPriceExPlus": 0.99,
-            "avg1": 2.26,
-            "avg7": 2.19,
-            "avg30": 2.18,
-            "reverseHoloAvg1": 0,
-            "reverseHoloAvg7": 0,
-            "reverseHoloAvg30": 0
-          }
-        }
-      },
-      {
-        "id": "sv3pt5-29",
-        "name": "Nidoran ♀",
-        "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
-        "hp": "60",
-        "types": [
-          "Darkness"
-        ],
-        "evolvesTo": [
-          "Nidorina"
-        ],
-        "attacks": [
-          {
-            "name": "Poison Horn",
-            "cost": [
-              "Darkness",
-              "Colorless"
-            ],
-            "convertedEnergyCost": 2,
-            "damage": "20",
-            "text": "Your opponent's Active Pokémon is now Poisoned."
-          }
-        ],
-        "weaknesses": [
-          {
-            "type": "Fighting",
-            "value": "×2"
-          }
-        ],
-        "retreatCost": [
-          "Colorless"
-        ],
-        "convertedRetreatCost": 1,
-        "set": {
-          "id": "sv3pt5",
-          "name": "151",
-          "series": "Scarlet & Violet",
-          "printedTotal": 165,
-          "total": 207,
-          "legalities": {
-            "unlimited": "Legal",
-            "standard": "Legal",
-            "expanded": "Legal"
-          },
-          "releaseDate": "2023/09/22",
-          "updatedAt": "2023/09/22 15:00:00",
-          "images": {
-            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
-            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
-          }
-        },
-        "number": "29",
-        "artist": "Teeziro",
-        "rarity": "Common",
-        "flavorText": "It uses its hard incisor teeth to crush and eat berries. The tip of a female Nidoran's horn is a bit more rounded than the tip of a male's horn.",
-        "nationalPokedexNumbers": [
-          29
-        ],
-        "legalities": {
-          "unlimited": "Legal",
-          "standard": "Legal",
-          "expanded": "Legal"
-        },
-        "regulationMark": "G",
-        "images": {
-          "small": "https://images.pokemontcg.io/sv3pt5/29.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/29_hires.png"
-        },
-        "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-29",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "reverseHolofoil": {
-              "low": 0.73,
-              "mid": 1.4,
-              "high": 4.98,
-              "market": 1.35,
-              "directLow": 1.99
-            },
-            "normal": {
-              "low": 0.01,
-              "mid": 0.15,
-              "high": 2.36,
-              "market": 0.11,
-              "directLow": null
-            }
-          }
-        },
-        "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-29",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "averageSellPrice": 0.08,
-            "lowPrice": 0.02,
-            "trendPrice": 0.07,
-            "germanProLow": 0,
-            "suggestedPrice": 0,
-            "reverseHoloSell": 2.65,
-            "reverseHoloLow": 1,
-            "reverseHoloTrend": 2.57,
-            "lowPriceExPlus": 0.02,
-            "avg1": 0.04,
-            "avg7": 0.06,
-            "avg30": 0.07,
-            "reverseHoloAvg1": 2.66,
-            "reverseHoloAvg7": 2.67,
-            "reverseHoloAvg30": 2.65
-          }
-        }
-      },
-      {
-        "id": "sv3pt5-3",
-        "name": "Venusaur ex",
-        "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 2",
-          "ex"
-        ],
-        "hp": "340",
-        "types": [
-          "Grass"
-        ],
-        "evolvesFrom": "Ivysaur",
-        "rules": [
-          "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
-        ],
-        "abilities": [
-          {
-            "name": "Tranquil Flower",
-            "text": "Once during your turn, if this Pokémon is in the Active Spot, you may heal 60 damage from 1 of your Pokémon.",
-            "type": "Ability"
-          }
-        ],
-        "attacks": [
-          {
-            "name": "Dangerous Toxwhip",
-            "cost": [
-              "Grass",
-              "Grass",
-              "Colorless"
-            ],
-            "convertedEnergyCost": 3,
-            "damage": "150",
-            "text": "Your opponent's Active Pokémon is now Confused and Poisoned."
-          }
-        ],
-        "weaknesses": [
-          {
-            "type": "Fire",
-            "value": "×2"
-          }
-        ],
-        "retreatCost": [
-          "Colorless",
-          "Colorless",
-          "Colorless",
-          "Colorless"
-        ],
-        "convertedRetreatCost": 4,
-        "set": {
-          "id": "sv3pt5",
-          "name": "151",
-          "series": "Scarlet & Violet",
-          "printedTotal": 165,
-          "total": 207,
-          "legalities": {
-            "unlimited": "Legal",
-            "standard": "Legal",
-            "expanded": "Legal"
-          },
-          "releaseDate": "2023/09/22",
-          "updatedAt": "2023/09/22 15:00:00",
-          "images": {
-            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
-            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
-          }
-        },
-        "number": "3",
-        "artist": "5ban Graphics",
-        "rarity": "Double Rare",
-        "nationalPokedexNumbers": [
-          3
-        ],
-        "legalities": {
-          "unlimited": "Legal",
-          "standard": "Legal",
-          "expanded": "Legal"
-        },
-        "regulationMark": "G",
-        "images": {
-          "small": "https://images.pokemontcg.io/sv3pt5/3.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/3_hires.png"
-        },
-        "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-3",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "holofoil": {
-              "low": 0.62,
-              "mid": 1.82,
-              "high": 9.99,
-              "market": 1.56,
-              "directLow": 2
-            }
-          }
-        },
-        "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-3",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "averageSellPrice": 3.21,
-            "lowPrice": 1.5,
-            "trendPrice": 3.22,
-            "germanProLow": 0,
-            "suggestedPrice": 0,
-            "reverseHoloSell": 0,
-            "reverseHoloLow": 0,
-            "reverseHoloTrend": 0,
-            "lowPriceExPlus": 1.5,
-            "avg1": 3.2,
-            "avg7": 3.29,
-            "avg30": 3.2,
-            "reverseHoloAvg1": 0,
-            "reverseHoloAvg7": 0,
-            "reverseHoloAvg30": 0
-          }
-        }
-      },
-      {
-        "id": "sv3pt5-4",
-        "name": "Charmander",
-        "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
-        "hp": "70",
-        "types": [
-          "Fire"
-        ],
-        "evolvesTo": [
-          "Charmeleon"
-        ],
-        "attacks": [
-          {
-            "name": "Blazing Destruction",
-            "cost": [
-              "Fire"
-            ],
-            "convertedEnergyCost": 1,
-            "damage": "",
-            "text": "Discard a Stadium in play."
-          },
-          {
-            "name": "Steady Firebreathing",
-            "cost": [
-              "Fire",
-              "Fire"
-            ],
-            "convertedEnergyCost": 2,
-            "damage": "30",
-            "text": ""
-          }
-        ],
-        "weaknesses": [
-          {
-            "type": "Water",
-            "value": "×2"
-          }
-        ],
-        "retreatCost": [
-          "Colorless"
-        ],
-        "convertedRetreatCost": 1,
-        "set": {
-          "id": "sv3pt5",
-          "name": "151",
-          "series": "Scarlet & Violet",
-          "printedTotal": 165,
-          "total": 207,
-          "legalities": {
-            "unlimited": "Legal",
-            "standard": "Legal",
-            "expanded": "Legal"
-          },
-          "releaseDate": "2023/09/22",
-          "updatedAt": "2023/09/22 15:00:00",
-          "images": {
-            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
-            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
-          }
-        },
-        "number": "4",
-        "artist": "GIDORA",
-        "rarity": "Common",
-        "flavorText": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
-        "nationalPokedexNumbers": [
-          4
-        ],
-        "legalities": {
-          "unlimited": "Legal",
-          "standard": "Legal",
-          "expanded": "Legal"
-        },
-        "regulationMark": "G",
-        "images": {
-          "small": "https://images.pokemontcg.io/sv3pt5/4.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/4_hires.png"
-        },
-        "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-4",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "reverseHolofoil": {
-              "low": 0.09,
-              "mid": 0.25,
-              "high": 25,
-              "market": 0.19,
-              "directLow": 0.17
-            },
-            "normal": {
-              "low": 0.01,
-              "mid": 0.15,
-              "high": 2.32,
-              "market": 0.07,
-              "directLow": null
-            }
-          }
-        },
-        "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-4",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "averageSellPrice": 48.09,
-            "lowPrice": 49.95,
-            "trendPrice": 39.81,
-            "germanProLow": 0,
-            "suggestedPrice": 0,
-            "reverseHoloSell": 0,
-            "reverseHoloLow": 0,
-            "reverseHoloTrend": 0,
-            "lowPriceExPlus": 49.95,
-            "avg1": 57.49,
-            "avg7": 28.69,
-            "avg30": 45.62,
-            "reverseHoloAvg1": 0,
-            "reverseHoloAvg7": 0,
-            "reverseHoloAvg30": 0
-          }
-        }
-      },
-      {
-        "id": "sv3pt5-61",
-        "name": "Poliwhirl",
-        "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
-        "hp": "90",
-        "types": [
-          "Water"
-        ],
-        "evolvesFrom": "Poliwag",
-        "evolvesTo": [
-          "Poliwrath",
-          "Politoed"
-        ],
-        "attacks": [
-          {
-            "name": "Wave Splash",
-            "cost": [
-              "Water"
-            ],
-            "convertedEnergyCost": 1,
-            "damage": "20",
-            "text": ""
-          },
-          {
-            "name": "Frog Hop",
-            "cost": [
-              "Water",
-              "Colorless"
-            ],
-            "convertedEnergyCost": 2,
-            "damage": "30+",
-            "text": "Flip a coin. If heads, this attack does 60 more damage."
-          }
-        ],
-        "weaknesses": [
-          {
-            "type": "Lightning",
-            "value": "×2"
-          }
-        ],
-        "retreatCost": [
-          "Colorless"
-        ],
-        "convertedRetreatCost": 1,
-        "set": {
-          "id": "sv3pt5",
-          "name": "151",
-          "series": "Scarlet & Violet",
-          "printedTotal": 165,
-          "total": 207,
-          "legalities": {
-            "unlimited": "Legal",
-            "standard": "Legal",
-            "expanded": "Legal"
-          },
-          "releaseDate": "2023/09/22",
-          "updatedAt": "2023/09/22 15:00:00",
-          "images": {
-            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
-            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
-          }
-        },
-        "number": "61",
-        "artist": "Kurata So",
-        "rarity": "Common",
-        "flavorText": "This Pokémon's sweat is a slimy mucus. When captured, Poliwhirl can slither from its enemies' grasp and escape.",
-        "nationalPokedexNumbers": [
-          61
-        ],
-        "legalities": {
-          "unlimited": "Legal",
-          "standard": "Legal",
-          "expanded": "Legal"
-        },
-        "regulationMark": "G",
-        "images": {
-          "small": "https://images.pokemontcg.io/sv3pt5/61.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/61_hires.png"
-        },
-        "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-61",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "reverseHolofoil": {
-              "low": 0.5,
-              "mid": 1,
-              "high": 4.98,
-              "market": 1.01,
-              "directLow": null
-            },
-            "normal": {
-              "low": 0.05,
-              "mid": 0.13,
-              "high": 2.34,
-              "market": 0.09,
-              "directLow": 0.08
-            }
-          }
-        },
-        "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-61",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "averageSellPrice": 0.08,
-            "lowPrice": 0.02,
-            "trendPrice": 0.08,
-            "germanProLow": 0,
-            "suggestedPrice": 0,
-            "reverseHoloSell": 1.44,
-            "reverseHoloLow": 0.5,
-            "reverseHoloTrend": 1.39,
-            "lowPriceExPlus": 0.02,
-            "avg1": 0.04,
-            "avg7": 0.07,
-            "avg30": 0.08,
-            "reverseHoloAvg1": 2.03,
-            "reverseHoloAvg7": 1.41,
-            "reverseHoloAvg30": 1.44
-          }
-        }
-      },
-      {
-        "id": "sv3pt5-70",
-        "name": "Weepinbell",
-        "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
-        "hp": "90",
-        "types": [
-          "Grass"
-        ],
-        "evolvesFrom": "Bellsprout",
-        "evolvesTo": [
-          "Victreebel"
-        ],
-        "attacks": [
-          {
-            "name": "Cut",
-            "cost": [
-              "Grass"
-            ],
-            "convertedEnergyCost": 1,
-            "damage": "30",
-            "text": ""
-          },
-          {
-            "name": "Spray Fluid",
-            "cost": [
-              "Grass",
-              "Colorless"
-            ],
-            "convertedEnergyCost": 2,
-            "damage": "50",
-            "text": ""
-          }
-        ],
-        "weaknesses": [
-          {
-            "type": "Fire",
-            "value": "×2"
-          }
-        ],
-        "retreatCost": [
-          "Colorless",
-          "Colorless"
-        ],
-        "convertedRetreatCost": 2,
-        "set": {
-          "id": "sv3pt5",
-          "name": "151",
-          "series": "Scarlet & Violet",
-          "printedTotal": 165,
-          "total": 207,
-          "legalities": {
-            "unlimited": "Legal",
-            "standard": "Legal",
-            "expanded": "Legal"
-          },
-          "releaseDate": "2023/09/22",
-          "updatedAt": "2023/09/22 15:00:00",
-          "images": {
-            "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
-            "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
-          }
-        },
-        "number": "70",
-        "artist": "Jerky",
-        "rarity": "Common",
-        "flavorText": "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
-        "nationalPokedexNumbers": [
-          70
-        ],
-        "legalities": {
-          "unlimited": "Legal",
-          "standard": "Legal",
-          "expanded": "Legal"
-        },
-        "regulationMark": "G",
-        "images": {
-          "small": "https://images.pokemontcg.io/sv3pt5/70.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/70_hires.png"
-        },
-        "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-70",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "normal": {
-              "low": 0.04,
-              "mid": 0.12,
-              "high": 2.35,
-              "market": 0.1,
-              "directLow": null
-            },
-            "reverseHolofoil": {
-              "low": 0.45,
-              "mid": 1.51,
-              "high": 9,
-              "market": 1.73,
-              "directLow": 2.98
-            }
-          }
-        },
-        "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-70",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "averageSellPrice": 0.08,
-            "lowPrice": 0.02,
-            "trendPrice": 0.07,
-            "germanProLow": 0,
-            "suggestedPrice": 0,
-            "reverseHoloSell": 1.68,
-            "reverseHoloLow": 0.02,
-            "reverseHoloTrend": 1.71,
-            "lowPriceExPlus": 0.02,
-            "avg1": 0.04,
-            "avg7": 0.06,
-            "avg30": 0.08,
-            "reverseHoloAvg1": 1.2,
-            "reverseHoloAvg7": 1.66,
-            "reverseHoloAvg30": 1.65
           }
         }
       }
@@ -4832,33 +4811,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv5-104",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 0.74,
-              "mid": 1.64,
+              "low": 0.75,
+              "mid": 1.7,
               "high": 10,
-              "market": 1.48,
-              "directLow": 2.98
+              "market": 1.65,
+              "directLow": 2.99
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv5-104",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 1.94,
             "lowPrice": 0.5,
-            "trendPrice": 1.83,
+            "trendPrice": 1.78,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 0.99,
-            "avg1": 1.72,
-            "avg7": 1.81,
-            "avg30": 1.95,
+            "avg1": 1.97,
+            "avg7": 1.87,
+            "avg30": 1.94,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -4943,7 +4922,7 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv5-119",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "reverseHolofoil": {
               "low": 0.01,
@@ -4956,14 +4935,14 @@
               "low": 0.01,
               "mid": 0.15,
               "high": 11.5,
-              "market": 0.09,
+              "market": 0.08,
               "directLow": 0.09
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv5-119",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 0.13,
             "lowPrice": 0.02,
@@ -4974,8 +4953,8 @@
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 0.02,
-            "avg1": 0.02,
-            "avg7": 0.12,
+            "avg1": 0.26,
+            "avg7": 0.11,
             "avg30": 0.26,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
@@ -5060,7 +5039,7 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv5-121",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 0.01,
@@ -5073,27 +5052,27 @@
               "low": 0.05,
               "mid": 0.25,
               "high": 3.3,
-              "market": 0.22,
-              "directLow": 0.2
+              "market": 0.21,
+              "directLow": 0.22
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv5-121",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 3.55,
             "lowPrice": 0.2,
-            "trendPrice": 3.88,
+            "trendPrice": 3.9,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 2.89,
-            "avg1": 8.94,
-            "avg7": 4.11,
-            "avg30": 3.34,
+            "avg1": 3.85,
+            "avg7": 3.86,
+            "avg30": 3.35,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -5145,43 +5124,43 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv5-144",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "normal": {
-              "low": 1.05,
-              "mid": 2.05,
+              "low": 0.4,
+              "mid": 2,
               "high": 7.5,
-              "market": 1.72,
-              "directLow": 1.99
+              "market": 1.61,
+              "directLow": null
             },
             "reverseHolofoil": {
               "low": 1.75,
-              "mid": 3.47,
+              "mid": 3.4,
               "high": 9.99,
-              "market": 3.63,
-              "directLow": 3.59
+              "market": 3.32,
+              "directLow": 9.49
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv5-144",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 1.92,
             "lowPrice": 0.02,
-            "trendPrice": 1.86,
+            "trendPrice": 1.74,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 2.38,
             "reverseHoloLow": 0.8,
-            "reverseHoloTrend": 2.28,
-            "lowPriceExPlus": 0.2,
-            "avg1": 1.92,
-            "avg7": 1.9,
-            "avg30": 1.91,
-            "reverseHoloAvg1": 1.8,
-            "reverseHoloAvg7": 2.09,
-            "reverseHoloAvg30": 2.38
+            "reverseHoloTrend": 2.16,
+            "lowPriceExPlus": 0.1,
+            "avg1": 1.4,
+            "avg7": 1.72,
+            "avg30": 1.89,
+            "reverseHoloAvg1": 2.98,
+            "reverseHoloAvg7": 2.32,
+            "reverseHoloAvg30": 2.42
           }
         }
       },
@@ -5232,33 +5211,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv5-154",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 1.19,
-              "mid": 2.99,
+              "low": 0.75,
+              "mid": 3.09,
               "high": 27,
-              "market": 2.35,
-              "directLow": 2.35
+              "market": 2.85,
+              "directLow": 3.42
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv5-154",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 2.52,
-            "lowPrice": 1.5,
-            "trendPrice": 2.38,
+            "lowPrice": 1.4,
+            "trendPrice": 2.37,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 1.65,
-            "avg1": 2.53,
-            "avg7": 2.37,
-            "avg30": 2.54,
+            "lowPriceExPlus": 1.4,
+            "avg1": 2.33,
+            "avg7": 2.43,
+            "avg30": 2.51,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -5349,33 +5328,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv5-165",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 4.25,
-              "mid": 9.16,
+              "mid": 9,
               "high": 98,
-              "market": 9.74,
-              "directLow": null
+              "market": 9.34,
+              "directLow": 10
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv5-165",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 7.25,
-            "lowPrice": 5,
-            "trendPrice": 7.51,
+            "lowPrice": 5.5,
+            "trendPrice": 7.56,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 5.5,
-            "avg1": 8.06,
-            "avg7": 7.18,
-            "avg30": 7.26,
+            "avg1": 6.19,
+            "avg7": 7.41,
+            "avg30": 7.28,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -5463,33 +5442,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv5-166",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 6.2,
-              "mid": 9.46,
+              "low": 5.99,
+              "mid": 9.07,
               "high": 19.99,
-              "market": 9.99,
-              "directLow": 14.69
+              "market": 9.32,
+              "directLow": 14.54
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv5-166",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 9.71,
             "lowPrice": 5.3,
-            "trendPrice": 10.22,
+            "trendPrice": 10.45,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 5.3,
-            "avg1": 9.72,
-            "avg7": 9.99,
-            "avg30": 9.64,
+            "avg1": 10.62,
+            "avg7": 10.36,
+            "avg30": 9.91,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -5570,33 +5549,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv5-168",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 2,
-              "mid": 3.53,
+              "low": 1.94,
+              "mid": 3.69,
               "high": 12,
-              "market": 3.82,
-              "directLow": 9.79
+              "market": 3.87,
+              "directLow": 7.98
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv5-168",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 3.06,
             "lowPrice": 2,
-            "trendPrice": 3.13,
+            "trendPrice": 3.11,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 2.19,
-            "avg1": 3.36,
-            "avg7": 3.07,
-            "avg30": 3.07,
+            "lowPriceExPlus": 2.25,
+            "avg1": 2.97,
+            "avg7": 3.15,
+            "avg30": 3.08,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -5684,33 +5663,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv5-170",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 1,
-              "mid": 2,
+              "mid": 2.05,
               "high": 12.95,
-              "market": 1.7,
+              "market": 2.05,
               "directLow": 3.74
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv5-170",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 2.89,
-            "lowPrice": 1.49,
-            "trendPrice": 3.12,
+            "lowPrice": 1.25,
+            "trendPrice": 3.1,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 1.49,
-            "avg1": 3.32,
-            "avg7": 3.41,
-            "avg30": 2.83,
+            "lowPriceExPlus": 1.25,
+            "avg1": 2.67,
+            "avg7": 3.42,
+            "avg30": 2.96,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -5798,33 +5777,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv5-183",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 6.24,
-              "mid": 8.68,
+              "low": 6,
+              "mid": 8.55,
               "high": 75,
-              "market": 8.34,
-              "directLow": 12.99
+              "market": 8.6,
+              "directLow": 9.33
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv5-183",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 6.72,
-            "lowPrice": 5.9,
-            "trendPrice": 6.86,
+            "lowPrice": 5,
+            "trendPrice": 7,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 5.9,
-            "avg1": 6.94,
-            "avg7": 6.48,
-            "avg30": 6.79,
+            "avg1": 7.22,
+            "avg7": 7,
+            "avg30": 6.85,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -5908,33 +5887,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv5-196",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 5.75,
-              "mid": 8.49,
+              "mid": 8.21,
               "high": 42,
-              "market": 7.94,
-              "directLow": 9.94
+              "market": 7.75,
+              "directLow": 8.82
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv5-196",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 8.46,
-            "lowPrice": 6,
-            "trendPrice": 7.95,
+            "lowPrice": 6.2,
+            "trendPrice": 7.61,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 6,
-            "avg1": 8.26,
-            "avg7": 8.06,
-            "avg30": 8.49,
+            "lowPriceExPlus": 6.2,
+            "avg1": 8.32,
+            "avg7": 7.72,
+            "avg30": 8.39,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -6024,33 +6003,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv5-205",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 49.99,
-              "mid": 60.89,
+              "low": 49.71,
+              "mid": 61.26,
               "high": 174,
-              "market": 61.26,
-              "directLow": 63.99
+              "market": 60.71,
+              "directLow": 63.95
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv5-205",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 59.39,
-            "lowPrice": 30,
-            "trendPrice": 58.89,
+            "lowPrice": 34,
+            "trendPrice": 70.51,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 30,
-            "avg1": 61.5,
-            "avg7": 56.42,
-            "avg30": 57.71,
+            "lowPriceExPlus": 34,
+            "avg1": 88.66,
+            "avg7": 70.81,
+            "avg30": 61.32,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -6078,6 +6057,121 @@
       "logo": "https://images.pokemontcg.io/sv6/logo.png"
     },
     "cards": [
+      {
+        "id": "sv6-25",
+        "name": "Teal Mask Ogerpon ex",
+        "supertype": "Pokémon",
+        "subtypes": [
+          "Basic",
+          "Tera",
+          "ex"
+        ],
+        "hp": "210",
+        "types": [
+          "Grass"
+        ],
+        "rules": [
+          "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
+          "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+          "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+        ],
+        "abilities": [
+          {
+            "name": "Teal Dance",
+            "text": "Once during your turn, you may attach a Basic Grass Energy card from your hand to this Pokémon. If you attached Energy to a Pokémon in this way, draw a card.",
+            "type": "Ability"
+          }
+        ],
+        "attacks": [
+          {
+            "name": "Myriad Leaf Shower",
+            "cost": [
+              "Grass",
+              "Grass",
+              "Grass"
+            ],
+            "convertedEnergyCost": 3,
+            "damage": "30+",
+            "text": "This attack does 30 more damage for each Energy attached to both Active Pokémon."
+          }
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "set": {
+          "id": "sv6",
+          "name": "Twilight Masquerade",
+          "series": "Scarlet & Violet",
+          "printedTotal": 167,
+          "total": 226,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "ptcgoCode": "TWM",
+          "releaseDate": "2024/05/24",
+          "updatedAt": "2024/05/23 15:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+            "logo": "https://images.pokemontcg.io/sv6/logo.png"
+          }
+        },
+        "number": "25",
+        "artist": "5ban Graphics",
+        "rarity": "Double Rare",
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "regulationMark": "H",
+        "images": {
+          "small": "https://images.pokemontcg.io/sv6/25.png",
+          "large": "https://images.pokemontcg.io/sv6/25_hires.png"
+        },
+        "tcgplayer": {
+          "url": "https://prices.pokemontcg.io/tcgplayer/sv6-25",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "holofoil": {
+              "low": 7,
+              "mid": 10.24,
+              "high": 35.1,
+              "market": 9.46,
+              "directLow": 11.05
+            }
+          }
+        },
+        "cardmarket": {
+          "url": "https://prices.pokemontcg.io/cardmarket/sv6-25",
+          "updatedAt": "2024/10/25",
+          "prices": {
+            "averageSellPrice": 9.76,
+            "lowPrice": 5.49,
+            "trendPrice": 7.58,
+            "germanProLow": 0,
+            "suggestedPrice": 0,
+            "reverseHoloSell": 0,
+            "reverseHoloLow": 0,
+            "reverseHoloTrend": 0,
+            "lowPriceExPlus": 6,
+            "avg1": 6.92,
+            "avg7": 7.68,
+            "avg30": 9.36,
+            "reverseHoloAvg1": 0,
+            "reverseHoloAvg7": 0,
+            "reverseHoloAvg30": 0
+          }
+        }
+      },
       {
         "id": "sv6-169",
         "name": "Sunflora",
@@ -6159,33 +6253,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv6-169",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 1,
-              "mid": 2.11,
+              "mid": 2.1,
               "high": 11.19,
-              "market": 2.07,
+              "market": 1.97,
               "directLow": 3.74
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv6-169",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 3.18,
-            "lowPrice": 2,
-            "trendPrice": 3.14,
+            "lowPrice": 2.24,
+            "trendPrice": 3,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 2.24,
-            "avg1": 2.54,
-            "avg7": 3.05,
-            "avg30": 3.19,
+            "avg1": 2.61,
+            "avg7": 2.91,
+            "avg30": 3.12,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -6264,33 +6358,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv6-186",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 7.5,
-              "mid": 10.31,
+              "mid": 10.33,
               "high": 69.95,
-              "market": 9.38,
-              "directLow": 11.21
+              "market": 10.33,
+              "directLow": 13.98
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv6-186",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 7.85,
             "lowPrice": 6,
-            "trendPrice": 8.03,
+            "trendPrice": 8,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 6,
-            "avg1": 7.3,
-            "avg7": 7.95,
-            "avg30": 7.85,
+            "lowPriceExPlus": 6.75,
+            "avg1": 7.47,
+            "avg7": 7.7,
+            "avg30": 7.76,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -6388,33 +6482,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv6-188",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 43.46,
-              "mid": 54.38,
+              "low": 44.2,
+              "mid": 55,
               "high": 160.68,
-              "market": 51.63,
-              "directLow": 53.77
+              "market": 48.29,
+              "directLow": 58
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv6-188",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 50.82,
             "lowPrice": 25,
-            "trendPrice": 49.49,
+            "trendPrice": 49.53,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 39,
-            "avg1": 49,
-            "avg7": 48.27,
-            "avg30": 50.51,
+            "lowPriceExPlus": 35,
+            "avg1": 47.38,
+            "avg7": 49.84,
+            "avg30": 50.21,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -6503,33 +6597,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv6-199",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 1.89,
-              "mid": 3.19,
+              "low": 1.73,
+              "mid": 3,
               "high": 15,
-              "market": 2.94,
-              "directLow": 2.99
+              "market": 2.68,
+              "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv6-199",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 3.89,
             "lowPrice": 2,
-            "trendPrice": 3.62,
+            "trendPrice": 3.47,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 2,
-            "avg1": 3.29,
-            "avg7": 3.6,
-            "avg30": 3.83,
+            "avg1": 2.74,
+            "avg7": 3.38,
+            "avg30": 3.74,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -6581,33 +6675,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv6-205",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 0.48,
-              "mid": 1.26,
+              "mid": 1.25,
               "high": 125,
-              "market": 1.02,
-              "directLow": 1.47
+              "market": 0.9,
+              "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv6-205",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 1.89,
             "lowPrice": 0.99,
-            "trendPrice": 1.65,
+            "trendPrice": 1.66,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 0.99,
-            "avg1": 1.97,
+            "avg1": 1.6,
             "avg7": 1.57,
-            "avg30": 1.88,
+            "avg30": 1.8,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -6695,33 +6789,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv6-210",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 18.37,
-              "mid": 22.9,
+              "low": 17.23,
+              "mid": 21,
               "high": 77.88,
-              "market": 18.37,
+              "market": 18.18,
               "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv6-210",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 23.56,
             "lowPrice": 15,
-            "trendPrice": 20.22,
+            "trendPrice": 21.68,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 15,
-            "avg1": 21.29,
-            "avg7": 21.25,
-            "avg30": 23.71,
+            "avg1": 26.76,
+            "avg7": 23.7,
+            "avg30": 23.55,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -6773,148 +6867,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv6-224",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 5.6,
+              "low": 5.09,
               "mid": 7,
               "high": 44.98,
-              "market": 6.19,
-              "directLow": null
+              "market": 6.11,
+              "directLow": 6.07
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv6-224",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 8.7,
-            "lowPrice": 5,
-            "trendPrice": 8.82,
+            "lowPrice": 6.5,
+            "trendPrice": 8.77,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 6.99,
-            "avg1": 7.25,
-            "avg7": 8.24,
-            "avg30": 8.67,
-            "reverseHoloAvg1": 0,
-            "reverseHoloAvg7": 0,
-            "reverseHoloAvg30": 0
-          }
-        }
-      },
-      {
-        "id": "sv6-25",
-        "name": "Teal Mask Ogerpon ex",
-        "supertype": "Pokémon",
-        "subtypes": [
-          "Basic",
-          "Tera",
-          "ex"
-        ],
-        "hp": "210",
-        "types": [
-          "Grass"
-        ],
-        "rules": [
-          "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
-          "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
-          "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
-        ],
-        "abilities": [
-          {
-            "name": "Teal Dance",
-            "text": "Once during your turn, you may attach a Basic Grass Energy card from your hand to this Pokémon. If you attached Energy to a Pokémon in this way, draw a card.",
-            "type": "Ability"
-          }
-        ],
-        "attacks": [
-          {
-            "name": "Myriad Leaf Shower",
-            "cost": [
-              "Grass",
-              "Grass",
-              "Grass"
-            ],
-            "convertedEnergyCost": 3,
-            "damage": "30+",
-            "text": "This attack does 30 more damage for each Energy attached to both Active Pokémon."
-          }
-        ],
-        "weaknesses": [
-          {
-            "type": "Fire",
-            "value": "×2"
-          }
-        ],
-        "retreatCost": [
-          "Colorless"
-        ],
-        "convertedRetreatCost": 1,
-        "set": {
-          "id": "sv6",
-          "name": "Twilight Masquerade",
-          "series": "Scarlet & Violet",
-          "printedTotal": 167,
-          "total": 226,
-          "legalities": {
-            "unlimited": "Legal",
-            "standard": "Legal",
-            "expanded": "Legal"
-          },
-          "ptcgoCode": "TWM",
-          "releaseDate": "2024/05/24",
-          "updatedAt": "2024/05/23 15:00:00",
-          "images": {
-            "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
-            "logo": "https://images.pokemontcg.io/sv6/logo.png"
-          }
-        },
-        "number": "25",
-        "artist": "5ban Graphics",
-        "rarity": "Double Rare",
-        "legalities": {
-          "unlimited": "Legal",
-          "standard": "Legal",
-          "expanded": "Legal"
-        },
-        "regulationMark": "H",
-        "images": {
-          "small": "https://images.pokemontcg.io/sv6/25.png",
-          "large": "https://images.pokemontcg.io/sv6/25_hires.png"
-        },
-        "tcgplayer": {
-          "url": "https://prices.pokemontcg.io/tcgplayer/sv6-25",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "holofoil": {
-              "low": 8,
-              "mid": 10.61,
-              "high": 35.1,
-              "market": 10.16,
-              "directLow": null
-            }
-          }
-        },
-        "cardmarket": {
-          "url": "https://prices.pokemontcg.io/cardmarket/sv6-25",
-          "updatedAt": "2024/10/22",
-          "prices": {
-            "averageSellPrice": 9.76,
-            "lowPrice": 4.5,
-            "trendPrice": 8.2,
-            "germanProLow": 0,
-            "suggestedPrice": 0,
-            "reverseHoloSell": 0,
-            "reverseHoloLow": 0,
-            "reverseHoloTrend": 0,
-            "lowPriceExPlus": 5.99,
-            "avg1": 8.01,
-            "avg7": 8.32,
-            "avg30": 9.72,
+            "avg1": 6.95,
+            "avg7": 8.27,
+            "avg30": 8.69,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -7021,33 +7000,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-72",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 10,
               "mid": 13.5,
               "high": 51.75,
-              "market": 11.51,
+              "market": 11.79,
               "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-72",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 11.85,
             "lowPrice": 7,
-            "trendPrice": 11.12,
+            "trendPrice": 11.52,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 7,
-            "avg1": 10.12,
-            "avg7": 11.07,
-            "avg30": 11.77,
+            "avg1": 11.03,
+            "avg7": 11.51,
+            "avg30": 11.85,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -7136,33 +7115,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-90",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 21.5,
+              "low": 22,
               "mid": 25.05,
               "high": 91.98,
-              "market": 23.21,
+              "market": 22.46,
               "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-90",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 28.21,
             "lowPrice": 20,
-            "trendPrice": 26.94,
+            "trendPrice": 25.88,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 20,
-            "avg1": 26.99,
-            "avg7": 25.53,
-            "avg30": 28.08,
+            "avg1": 24.98,
+            "avg7": 25.05,
+            "avg30": 27.98,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -7274,33 +7253,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv7-128",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 8.25,
-              "mid": 12.55,
+              "low": 7,
+              "mid": 11.8,
               "high": 49.5,
-              "market": 11.55,
-              "directLow": 11.98
+              "market": 9.26,
+              "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv7-128",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 12.36,
-            "lowPrice": 6.5,
-            "trendPrice": 12.41,
+            "lowPrice": 6.49,
+            "trendPrice": 11.37,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 6.5,
-            "avg1": 10.01,
-            "avg7": 11.14,
-            "avg30": 12.34,
+            "avg1": 10.04,
+            "avg7": 10.32,
+            "avg30": 12.31,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -7380,33 +7359,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv7-144",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 1.3,
-              "mid": 2.66,
+              "mid": 2.6,
               "high": 9.4,
-              "market": 2.48,
-              "directLow": null
+              "market": 2.43,
+              "directLow": 3.74
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv7-144",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 4.27,
-            "lowPrice": 2.47,
-            "trendPrice": 3.28,
+            "lowPrice": 2,
+            "trendPrice": 3.29,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 2.48,
-            "avg1": 3.52,
-            "avg7": 3.49,
-            "avg30": 4.32,
+            "lowPriceExPlus": 2,
+            "avg1": 3.99,
+            "avg7": 3.53,
+            "avg30": 4.16,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -7486,33 +7465,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv7-145",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 1.23,
-              "mid": 2.03,
+              "mid": 2,
               "high": 9.95,
-              "market": 1.98,
+              "market": 1.9,
               "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv7-145",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 3.23,
-            "lowPrice": 1.94,
-            "trendPrice": 2.58,
+            "lowPrice": 1.75,
+            "trendPrice": 2.54,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 1.99,
-            "avg1": 2.78,
-            "avg7": 2.66,
-            "avg30": 3.28,
+            "lowPriceExPlus": 1.75,
+            "avg1": 3.02,
+            "avg7": 2.64,
+            "avg30": 3.21,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -7590,33 +7569,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv7-150",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 2.4,
-              "mid": 4,
+              "low": 2,
+              "mid": 4.08,
               "high": 29.99,
-              "market": 4.32,
-              "directLow": 5
+              "market": 3.87,
+              "directLow": 5.12
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv7-150",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 4.24,
             "lowPrice": 2.88,
-            "trendPrice": 3.54,
+            "trendPrice": 3.56,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 2.88,
-            "avg1": 3.55,
-            "avg7": 3.62,
-            "avg30": 4.31,
+            "avg1": 3.57,
+            "avg7": 3.64,
+            "avg30": 4.2,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -7706,20 +7685,20 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv7-154",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
               "low": 1,
               "mid": 3.18,
               "high": 29.99,
-              "market": 3.06,
+              "market": 3,
               "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv7-154",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 3.28,
             "lowPrice": 1.99,
@@ -7730,9 +7709,9 @@
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 1.99,
-            "avg1": 3.36,
-            "avg7": 2.98,
-            "avg30": 3.31,
+            "avg1": 2.94,
+            "avg7": 2.94,
+            "avg30": 3.24,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -7783,33 +7762,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv7-165",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 0.49,
-              "mid": 1.25,
+              "low": 0.59,
+              "mid": 1.2,
               "high": 10,
-              "market": 0.99,
+              "market": 0.87,
               "directLow": null
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv7-165",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 1.88,
-            "lowPrice": 0.89,
-            "trendPrice": 1.39,
+            "lowPrice": 0.88,
+            "trendPrice": 1.41,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
-            "lowPriceExPlus": 0.9,
-            "avg1": 1.54,
-            "avg7": 1.49,
-            "avg30": 1.92,
+            "lowPriceExPlus": 0.88,
+            "avg1": 1.48,
+            "avg7": 1.51,
+            "avg30": 1.8,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
@@ -7896,33 +7875,33 @@
         },
         "tcgplayer": {
           "url": "https://prices.pokemontcg.io/tcgplayer/sv7-167",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "holofoil": {
-              "low": 32,
-              "mid": 37.9,
+              "low": 29.99,
+              "mid": 35.89,
               "high": 77.73,
-              "market": 34.72,
+              "market": 36.18,
               "directLow": 46.99
             }
           }
         },
         "cardmarket": {
           "url": "https://prices.pokemontcg.io/cardmarket/sv7-167",
-          "updatedAt": "2024/10/22",
+          "updatedAt": "2024/10/25",
           "prices": {
             "averageSellPrice": 36.19,
             "lowPrice": 23,
-            "trendPrice": 33.37,
+            "trendPrice": 31.22,
             "germanProLow": 0,
             "suggestedPrice": 0,
             "reverseHoloSell": 0,
             "reverseHoloLow": 0,
             "reverseHoloTrend": 0,
             "lowPriceExPlus": 23,
-            "avg1": 35,
-            "avg7": 32.11,
-            "avg30": 36.37,
+            "avg1": 30.09,
+            "avg7": 30.55,
+            "avg30": 35.74,
             "reverseHoloAvg1": 0,
             "reverseHoloAvg7": 0,
             "reverseHoloAvg30": 0
