@@ -270,7 +270,9 @@ class TCGCard extends HTMLElement {
 		}
 		const transitionTime = 300;
 		this.card.style.transition = `all ${transitionTime}ms ease-out`;
-		this.style.setProperty("--z-index", "2");
+		if (!this.expanded) {
+			this.style.setProperty("--z-index", "2");
+		}
 		this.style.setProperty("--glare-opacity", "0.75");
 		const r = (Math.random() * 0.5 + 0.5) * (Math.random() < 0.5 ? -1 : 1);
 		this.style.setProperty("--display-rz", `${r}deg`);
