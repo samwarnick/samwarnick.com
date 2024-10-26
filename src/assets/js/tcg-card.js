@@ -179,9 +179,9 @@ class TCGCard extends HTMLElement {
 
 	initImage() {
 		const img = this._shadowRoot.querySelector(".tcg-card");
-		const fadeInDuration = 300;
+		const fadeInDuration = 500;
 		img.style.opacity = 0;
-		img.style.transition = `opacity ${fadeInDuration}ms ease-out`;
+		img.style.transition = `opacity ${fadeInDuration}ms ease-in`;
 		this.ready = false;
 		if (img.complete) {
 			this.resetCardPosition(true);
@@ -195,9 +195,9 @@ class TCGCard extends HTMLElement {
 			this.wrapper.style.overflow = "hidden";
 			img.onload = () => {
 				this.resetCardPosition(true);
+				this.wrapper.style.overflow = "";
 				img.style.opacity = "";
 				this.ready = true;
-				this.wrapper.style.overflow = "";
 				setTimeout(() => {
 					img.style.transition = "";
 				}, fadeInDuration)
