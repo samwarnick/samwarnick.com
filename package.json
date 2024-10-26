@@ -14,9 +14,7 @@
 	"devDependencies": {
 		"@11ty/eleventy": "^3.0.0",
 		"@11ty/eleventy-fetch": "^4.0.1",
-		"@11ty/eleventy-img": "^5.0.0",
 		"@11ty/eleventy-plugin-rss": "^1.2.0",
-		"@11ty/eleventy-plugin-vite": "^5.0.0",
 		"@11tyrocks/eleventy-plugin-lightningcss": "^1.4.0",
 		"@octokit/core": "^6.1.2",
 		"@shikijs/markdown-it": "^1.9.1",
