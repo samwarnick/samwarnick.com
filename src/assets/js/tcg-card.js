@@ -47,6 +47,20 @@ class TCGCard extends HTMLElement {
       width: 100%;
       aspect-ratio: 733/1024;
       pointer-events: none;
+      
+      &:after {
+		  content: "";
+		  position: absolute;
+		  inset: 10px;
+		  border-radius: 4%;
+		  background-color: rgba(0,0,0,0.4);
+		  border: 2px solid rgba(0,0,0,0.5) ;
+		  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Pokéball' x='0px' y='0px' viewBox='0 0 595.3 594.1' style='enable-background:new 0 0 595.3 594.1;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23FFFFFF;%7D .st1%7Bfill:%23DFDFDF;%7D .st2%7Bfill:%23FF1C1C;%7D .st3%7Bfill:%23DF1818;%7D%0A%3C/style%3E%3Cg id='Pokéball_1_'%3E%3Cg id='Colours'%3E%3Cpath id='Down' class='st0' d='M297.6,380.9c-40.4,0-74.1-28.6-82.1-66.6H81.1c9.5,110.5,102.2,197.2,215.1,197.2 s205.7-86.7,215.1-197.2H379.7C371.7,352.4,338,380.9,297.6,380.9z'/%3E%3Cpath id='Shadow_Down' class='st1' d='M345.6,505.9c89.6-21,157.7-97.7,165.7-191.6h-53C453,399.5,408.3,471.7,345.6,505.9z'/%3E%3Cpath id='Center' class='st0' d='M347.1,297L347.1,297C347,297,347,297,347.1,297c-0.1-6.1-1.2-11.9-3.2-17.3 c-7-18.8-25.1-32.1-46.3-32.1s-39.3,13.4-46.3,32.1c-2,5.4-3.1,11.2-3.1,17.3c0,0,0,0,0,0h0.1c0,0,0,0,0,0 c0,6.1,1.1,11.9,3.1,17.3c7,18.8,25.1,32.1,46.3,32.1c21.2,0,39.3-13.4,46.3-32.1C346,309,347.1,303.1,347.1,297 C347.1,297,347.1,297,347.1,297z'/%3E%3Cpath id='Up' class='st2' d='M297.7,213.2c40.4,0,74.1,28.6,82.1,66.6h134.4C504.7,169.2,412,82.5,299,82.5S93.4,169.2,83.9,279.7 h131.7C223.6,241.7,257.3,213.2,297.7,213.2z'/%3E%3Cpath id='Shadow_Up' class='st3' d='M458.3,279.7h55.8c-8.2-95.5-78.6-173.3-170.5-192.6C407.4,120.8,452.9,193.7,458.3,279.7z'/%3E%3C/g%3E%3Cpath id='Line' d='M299,82.5c113,0,205.7,86.7,215.1,197.2H379.7c-8-38-41.7-66.6-82.1-66.6c-40.4,0-74.1,28.6-82.1,66.6H83.9 C93.4,169.2,186.1,82.5,299,82.5z M343.9,279.7c2,5.4,3.1,11.2,3.1,17.3c0,0,0,0,0,0h0.1c0,0,0,0,0,0c0,6.1-1.1,11.9-3.1,17.3 c-7,18.8-25.1,32.1-46.3,32.1c-21.2,0-39.3-13.4-46.3-32.1c-2-5.4-3.1-11.2-3.1-17.3c0,0,0,0,0,0h-0.1c0,0,0,0,0,0 c0-6.1,1.1-11.9,3.1-17.3c7-18.8,25.1-32.1,46.3-32.1S336.9,261,343.9,279.7z M296.2,511.6c-113,0-205.7-86.7-215.1-197.2h134.4 c8,38,41.7,66.6,82.1,66.6s74.1-28.6,82.1-66.6h131.7C501.9,424.8,409.2,511.6,296.2,511.6z M297.6,41.3 C156.4,41.3,41.9,155.8,41.9,297s114.5,255.7,255.7,255.7S553.4,438.3,553.4,297S438.9,41.3,297.6,41.3z'/%3E%3C/g%3E%3Cscript xmlns=''/%3E%3C/svg%3E");
+		  background-repeat: no-repeat;
+		  background-position: center;
+		  background-blend-mode: screen;
+		  filter: saturate(0) opacity(0.1);
+      }
     }
 
     .tcg-display {
@@ -128,6 +142,7 @@ class TCGCard extends HTMLElement {
 
 		this.card = this._shadowRoot.querySelector(".tcg-display");
 		this.proxy = this._shadowRoot.querySelector(".tcg-proxy");
+		this.wrapper = this._shadowRoot.querySelector(".tcg-wrapper");
 
 		this.addEventListener("mouseenter", this.handleMouseEnter);
 		this.addEventListener("mouseleave", this.handleMouseLeave);
@@ -177,10 +192,12 @@ class TCGCard extends HTMLElement {
 				img.style.transition = "";
 			}, fadeInDuration)
 		} else {
+			this.wrapper.style.overflow = "hidden";
 			img.onload = () => {
 				this.resetCardPosition(true);
 				img.style.opacity = "";
 				this.ready = true;
+				this.wrapper.style.overflow = "";
 				setTimeout(() => {
 					img.style.transition = "";
 				}, fadeInDuration)
@@ -223,7 +240,6 @@ class TCGCard extends HTMLElement {
 	}
 
 	handleTouchEnd() {
-		this.isTouching = false;
 		this.endInteraction();
 	}
 
@@ -302,6 +318,7 @@ class TCGCard extends HTMLElement {
 				this.style.setProperty("--z-index", "");
 			}
 			this.card.style.transition = "";
+			this.isTouching = false;
 		}, transitionTime);
 	}
 
@@ -319,7 +336,7 @@ class TCGCard extends HTMLElement {
 		if (skipTransition) {
 			this.card.style.setProperty("transition", "none");
 		}
-		this.style.setProperty("--z-index", "10");
+		this.style.setProperty("--z-index", "20");
 		this.style.setProperty("--display-rz", "0deg");
 		const screenX = window.innerWidth / 2;
 		const screenY = window.innerHeight / 2;
@@ -336,7 +353,7 @@ class TCGCard extends HTMLElement {
 
 		this.card.style.setProperty("--display-tx", `${tx}px`);
 		this.card.style.setProperty("--display-ty", `${ty}px`);
-		this.card.style.setProperty("--display-scale", scale);
+		this.card.style.setProperty("--display-scale", Math.min(scale, 1));
 		setTimeout(() => {
 			this.card.style.setProperty("transition", "");
 		}, EXPAND_TRANSITION_TIME);
@@ -345,7 +362,6 @@ class TCGCard extends HTMLElement {
 	resetCardPosition(skipTransition = false) {
 		const scale =
 			this.proxy.getBoundingClientRect().height / this.card.clientHeight;
-		const originalTrasnsition = this.card.style.transition;
 		if (skipTransition) {
 			this.card.style.setProperty("transition", "none");
 		}
