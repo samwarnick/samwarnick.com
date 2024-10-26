@@ -9,7 +9,7 @@ package = "netlify-plugin-cache"
 paths = [".cache"]
 
 [images]
-remote_images = ["https://blog.warnick.me/.*"]
+remote_images = ["https://blog.warnick.me/.*", "https://images.pokemontcg.io/*"]
 
 [build.environment]
 TZ = 'America/New_York'
