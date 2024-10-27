@@ -1,4 +1,4 @@
-const EXPAND_TRANSITION_TIME = 400;
+const EXPAND_TRANSITION_TIME = 600;
 
 class TCGCard extends HTMLElement {
 	constructor() {
@@ -64,6 +64,9 @@ class TCGCard extends HTMLElement {
 }
 
 .tcg-display {
+	--ease-spring-1: linear( 0, .006, .025 2.8%, .101 6.1%, .539 18.9%, .721 25.3%, .849 31.5%, .937 38.1%, .968 41.8%, .991 45.7%, 1.006 50.1%, 1.015 55%, 1.017 63.9%, 1.001 );
+	--ease-spring-2: linear( 0, .007, .029 2.2%, .118 4.7%, .625 14.4%, .826 19%, .902, .962, 1.008 26.1%, 1.041 28.7%, 1.064 32.1%, 1.07 36%, 1.061 40.5%, 1.015 53.4%, .999 61.6%, .995 71.2%, 1 );
+
 	pointer-events: auto;
 	border: none;
 	position: absolute;
@@ -79,7 +82,7 @@ class TCGCard extends HTMLElement {
 	filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 
-	transition: scale ${EXPAND_TRANSITION_TIME}ms ease-in, translate ${EXPAND_TRANSITION_TIME}ms ease-out, rotate 250ms ease-in;
+	transition: scale ${EXPAND_TRANSITION_TIME}ms var(--ease-spring-1), translate ${EXPAND_TRANSITION_TIME}ms var(--ease-spring-2), rotate 250ms ease-in;
 
 	&:focus-visible {
 		outline: none;
