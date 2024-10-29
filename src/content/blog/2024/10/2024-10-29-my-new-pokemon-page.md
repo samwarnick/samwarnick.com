@@ -1,11 +1,10 @@
 ---
 title: My New Pokemon Page
-date: '2024-10-29T18:04'
-summary: >-
-  I made a web component to showcase my Pokémon card collection and I'm pretty
-  excited about it.
-tags: []
-published: false
+date: 2024-10-29T18:04
+ogImage: og-image/eevee.jpg
+summary: I made a web component to showcase my Pokémon card collection and I'm
+  pretty excited about it.
+published: true
 ---
 My newborn was taking an unusually long nap the other day. One thing led to another and I made a web component to help showcase some of the Pokemon cards I have been collecting.
 
