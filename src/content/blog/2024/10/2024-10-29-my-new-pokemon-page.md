@@ -10,7 +10,10 @@ My newborn was taking an unusually long nap the other day. One thing led to anot
 
 Here's an example:
 
-<tcg-card src="https://images.pokemontcg.io/sv3/202_hires.png" alt="Cleffa, Obsidian Flames number 202"></tcg-card>
+<tcg-card src="https://images.pokemontcg.io/sv3/202_hires.png" alt="Cleffa, Obsidian Flames number 202" style="width: 300px">
+<img src="https://images.pokemontcg.io/sv3/202_hires.png" alt="Cleffa, Obsidian Flames number 202" width="300">
+<p>(You're viewing this post somewhere that does not support JS, like RSS. So this is not the actual component, just an image.)</p>
+</tcg-card>
 
 I'm really proud of this component. You can use the mouse or your finger to move the card around. Tapping or clicking will expand it. I've spent so much time just playing with it. But it didn't start out this nice.
 
@@ -46,4 +49,4 @@ It's not perfect, but I'm really happy with it. I tried a rainbow shine effect, 
 
 Anyway, you can take a look at my bad code on [CodePen](https://codepen.io/samwarnick/pen/GRVOQVp). I'm new to web components, so let me know if I'm doing anything dumb.
 
-<tcg-card src="https://images.pokemontcg.io/sv6/188_hires.png" alt="Eevee, Twilight Masquerade number 188"></tcg-card>
+<tcg-card src="https://images.pokemontcg.io/sv6/188_hires.png" alt="Eevee, Twilight Masquerade number 188" style="width: 300px"></tcg-card>
