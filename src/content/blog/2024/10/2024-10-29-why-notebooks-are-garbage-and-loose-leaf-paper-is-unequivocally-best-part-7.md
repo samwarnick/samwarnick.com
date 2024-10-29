@@ -1,11 +1,8 @@
 ---
 title: Why Notebooks Are Garbage and Loose Leaf Paper Is Unequivocally Best—Part 7
-date: '2024-10-29T13:10'
-summary: >-
-  I explain why I think loose leaf paper is superior to notebooks and share my
-  custom paper holder solution.
-tags: []
-published: false
+date: 2024-10-29T13:10
+summary: Just use a sheet a paper. It's better than a notebook.
+published: true
 ---
 # Why notebooks are garbage and loose leaf paper is unequivocally best—Part 7
 
@@ -27,6 +24,6 @@ A step up is a paper pad. My favorite is the [Midori MD](https://www.jetpens.com
 
 To be extra, like me, make your own paper holder/writing pad. Mine is A5 sized with a leather cover. The leather does a decent job imitating the experience you get writing in a bound notebook. It opens like a book to store and protect extra paper.
 
-![My custom made paper holder](loose-leaf-paper.mov)
+![My custom made paper holder](https://blog.warnick.me/loose-leaf-paper.mov)
 
 If all else fails, I'd suggest a wire bound notebook so it can be opened all the way. This way it can still take up a minimal amount of space on a desk. Just make sure the pages are perforated so you can easily remove them as needed.
