@@ -4,7 +4,6 @@ date: 2024-10-29T13:10
 summary: Just use a sheet a paper. It's better than a notebook.
 published: true
 ---
-# Why notebooks are garbage and loose leaf paper is unequivocally best—Part 7
 
 A new, blank notebook is an obligation of something that needs to be filled. It's daunting. An underutilized notebook serves as a constant reminder of your failure to have thoughts worthy of putting in it. It sits on your desk or shelf, taunting you. It's kind of a jerk.
 
