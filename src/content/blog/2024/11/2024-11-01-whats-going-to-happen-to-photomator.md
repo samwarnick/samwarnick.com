@@ -1,9 +1,9 @@
 ---
-title: What's Going to Happen to Photomator
-date: '2024-11-01T15:23'
-summary: I'm worried about Photomator's future now that Apple is buying Pixelmator.
-tags: []
-published: false
+title: What's Going to Happen to Photomator?
+date: 2024-11-01T15:23
+summary: I'm worried about Photomator's future now that Apple is buying
+  Pixelmator. I mostly like Photomator and don't want to go back to Lightroom.
+published: true
 ---
 So Apple is buying [Pixelmator](https://www.pixelmator.com/blog/2024/11/01/a-new-home-for-pixelmator/). Some of the internet is excited, and some not so much. I fall in the not-so-much camp.
 
