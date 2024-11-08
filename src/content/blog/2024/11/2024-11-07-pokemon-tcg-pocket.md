@@ -1,5 +1,5 @@
 ---
-title: Pokemon TCG Pocket
+title: The Cost of Pokemon TCG Pocket Cards
 date: 2024-11-07T20:04
 summary: Digital Pokémon cards are kinda expensive.
 tags:
