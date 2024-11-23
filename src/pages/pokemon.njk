@@ -5,13 +5,13 @@ layout: layouts/page
 ogImage: og-image/eevee.jpg
 ---
 
-<tcg-card-wrapper>
-	<sl-tab-group>
-		<sl-tab slot="nav" panel="myCollection">My Collection</sl-tab>
-		<sl-tab slot="nav" panel="eeveelutions">Eeveelutions</sl-tab>
-		<sl-tab slot="nav" panel="wishlist">Wishlist</sl-tab>
+<sl-tab-group>
+	<sl-tab slot="nav" panel="myCollection">My Collection</sl-tab>
+	<sl-tab slot="nav" panel="eeveelutions">Eeveelutions</sl-tab>
+	<sl-tab slot="nav" panel="wishlist">Wishlist</sl-tab>
 
-		<sl-tab-panel name="myCollection">
+	<sl-tab-panel name="myCollection">
+		<tcg-card-wrapper>
 			<p>Here's some cards from my collection. They are all cards where the market price is at least $1—otherwise there would be too many.</p>
 			<section class="set">
 				<div class="cards">
@@ -22,9 +22,11 @@ ogImage: og-image/eevee.jpg
 					{%- endfor -%}
 				</div>
 			</section>
-		</sl-tab-panel>
-		<sl-tab-panel name="eeveelutions">
-			<p>Eevee is my favorite and the focus of my collection.</p>
+		</tcg-card-wrapper>
+	</sl-tab-panel>
+	<sl-tab-panel name="eeveelutions">
+		<tcg-card-wrapper>
+			<p>Eevee and the Eeveelutions are my favorite and the focus of my collection.</p>
 			<section class="set">
 				<div class="cards">
 					{%- for set in pokemon.eeveelutions -%}
@@ -34,8 +36,10 @@ ogImage: og-image/eevee.jpg
 					{%- endfor -%}
 				</div>
 			</section>
-		</sl-tab-panel>
-		<sl-tab-panel name="wishlist">
+		</tcg-card-wrapper>
+	</sl-tab-panel>
+	<sl-tab-panel name="wishlist">
+		<tcg-card-wrapper>
 			<p>Some cards I want. I like illustrations and especially sets where illustrations match.</p>
 			<section class="set">
 				<div class="cards">
@@ -46,9 +50,9 @@ ogImage: og-image/eevee.jpg
 					{%- endfor -%}
 				</div>
 			</section>
-		</sl-tab-panel>
-	</sl-tab-group>
-</tcg-card-wrapper>
+		</tcg-card-wrapper>
+	</sl-tab-panel>
+</sl-tab-group>
 
 <p>Data and images provided through <a href="https://pokemontcg.io">The Pokémon TCG API</a>.</p>
 <p>This page was heavily inspired by <a href="https://poke-holo.simey.me">https://poke-holo.simey.me</a>, one of the most incredible sites I have ever seen.</p>
