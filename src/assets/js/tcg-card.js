@@ -138,6 +138,8 @@ class TCGCard extends HTMLElement {
 		this.handleClick = this.handleClick.bind(this);
 		this.handleResize = this.handleResize.bind(this);
 		this.resetCardPosition = this.resetCardPosition.bind(this);
+		this.handleDocumentClick = this.handleDocumentClick.bind(this);
+		this.handleDocumentKeydown = this.handleDocumentKeydown.bind(this);
 	}
 
 	connectedCallback() {
@@ -258,8 +260,11 @@ class TCGCard extends HTMLElement {
 				}),
 			);
 			this.centerCard();
+			document.addEventListener("click", this.handleDocumentClick);
+			document.addEventListener("keydown", this.handleDocumentKeydown);
 		}
 	}
+
 
 	handleResize() {
 		if (this.expanded) {
@@ -335,6 +340,8 @@ class TCGCard extends HTMLElement {
 			}),
 		);
 		this.resetCardPosition();
+		document.removeEventListener("click", this.handleDocumentClick);
+		document.removeEventListener("keydown", this.handleDocumentKeydown);
 	}
 
 	centerCard(skipTransition = false) {
@@ -377,6 +384,17 @@ class TCGCard extends HTMLElement {
 			this.card.style.setProperty("transition", "");
 			this.style.setProperty("--z-index", "");
 		}, EXPAND_TRANSITION_TIME);
+	}
+
+
+	handleDocumentClick(e) {
+		if (this.expanded && e.target !== this) {
+			this.close();
+		}
+	}
+
+	handleDocumentKeydown(e) {
+		this.close();
 	}
 }
 
