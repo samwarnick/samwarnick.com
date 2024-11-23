@@ -14,6 +14,7 @@
 @import "_rss-feed.css";
 @import "_shiki.css";
 @import "_pokemon.css";
+@import "_tabs.css";
 
 *:focus-visible {
 	outline: 2px solid var(--accent-color);

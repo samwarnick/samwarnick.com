@@ -1,0 +1,13 @@
+sl-tab {
+    font-family: var(--font-serif);
+    padding-inline: var(--spacing-more);
+    padding-block: var(--spacing);
+    border-radius: var(--border-radius);
+    border: 2px solid var(--accent-color);
+    margin-inline-end: var(--spacing);
+
+    &[aria-selected="true"] {
+        background-color: var(--accent-color);
+        color: var(--background-color)
+    }
+}
