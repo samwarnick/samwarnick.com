@@ -24,9 +24,9 @@ ogImage: og-image/eevee.jpg
 	<section class="set">
 		<div class="cards">
 			{%- for set in pokemon.eeveelutions -%}
-			{%- for card in set.cards -%}
-				<tcg-card src="{{card.images.large}}" alt="{{card.name}}, {{set.name}} number {{card.number}}"></tcg-card>
-			{%- endfor -%}
+				{%- for card in set.cards -%}
+					<tcg-card src="{{card.images.large}}" alt="{{card.name}}, {{set.name}} number {{card.number}}"></tcg-card>
+				{%- endfor -%}
 			{%- endfor -%}
 		</div>
 	</section>
