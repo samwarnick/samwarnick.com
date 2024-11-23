@@ -97,10 +97,28 @@ const myCollection = csvData.filter((card) => {
 const wishlist = csvData.filter((card) => {
 	return card.Category === "Wishlist";
 });
+const EEVEELUTIONS = [
+	'Eevee',
+	'Vaporeon',
+	'Jolteon',
+	'Flareon',
+	'Espeon',
+	'Umbreon',
+	'Leafeon',
+	'Glaceon',
+	'Sylveon',
+];
+const eeveelutions = csvData.filter((card) => {
+	return (
+		card.Category === "My Collection" &&
+		EEVEELUTIONS.some((name) => name.includes(card.Name))
+	)
+})
 
 pokemon.configure({ apiKey: process.env.POKEMON_TCG_TOKEN });
 await getCollectionData(myCollection, "myCollection");
 await getCollectionData(wishlist, "wishlist");
+await getCollectionData(eeveelutions, "eeveelutions");
 await writeFile(
 	`src/_data/pokemon/lastUpdated.json`,
 	JSON.stringify({ date: Date.now() }, null, 2),
