@@ -11,6 +11,7 @@ ogImage: og-image/eevee.jpg
 		<li><a href="#wishlist">Wishlist</a></li>
 	</ul>
 </nav>
+
 <h2 id="myCollection">My Collection</h2>
 <p>Here's some cards from my collection. They are all cards where the market price is at least $1—otherwise there would be too many.</p>
 <p><small>Last updated {{ pokemon.lastUpdated.date | toDate | formattedDate }}</small></p>
@@ -22,6 +23,7 @@ ogImage: og-image/eevee.jpg
 			{%- endfor -%}
 		{%- endfor -%}
 	</div>
+	<a href="#collectionNav" class="back-to-top">Back to Top</a>
 </section>
 
 <h2 id="eeveelutions">Eeveelutions</h2>
@@ -34,6 +36,7 @@ ogImage: og-image/eevee.jpg
 			{%- endfor -%}
 		{%- endfor -%}
 	</div>
+	<a href="#collectionNav" class="back-to-top">Back to Top</a>
 </section>
 
 <h2 id="wishlist">Wishlist</h2>
@@ -46,6 +49,7 @@ ogImage: og-image/eevee.jpg
 			{%- endfor -%}
 		{%- endfor -%}
 	</div>
+	<a href="#collectionNav" class="back-to-top">Back to Top</a>
 </section>
 
 <p>Data and images provided through <a href="https://pokemontcg.io">The Pokémon TCG API</a>.</p>

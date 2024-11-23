@@ -25,3 +25,9 @@ section.set {
 		--focus-outline: var(--primary-text);
 	}
 }
+
+.back-to-top {
+	display: block;
+	margin-block-start: calc(var(--spacing-more) * 2);
+	text-align: end;
+}
