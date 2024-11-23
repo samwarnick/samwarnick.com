@@ -4,8 +4,15 @@ permalink: /pokemon.html
 layout: layouts/page
 ogImage: og-image/eevee.jpg
 ---
+<nav id="collectionNav">
+	<ul>
+		<li><a href="#myCollection">My Collection</a></li>
+		<li><a href="#eeveelutions">Eeveelutions</a></li>
+		<li><a href="#wishlist">Wishlist</a></li>
+	</ul>
+</nav>
 <tcg-card-wrapper>
-	<h2>My Collection</h2>
+	<h2 id="myCollection">My Collection</h2>
 	<p>Here's some cards from my collection. They are all cards where the market price is at least $1—otherwise there would be too many.</p>
 	<p><small>Last updated {{ pokemon.lastUpdated.date | toDate | formattedDate }}</small></p>
 	<section class="set">
@@ -18,7 +25,7 @@ ogImage: og-image/eevee.jpg
 		</div>
 	</section>
 
-	<h2>Eeveelutions</h2>
+	<h2 id="eeveelutions">Eeveelutions</h2>
 	<p>Eevee and the Eeveelutions are my favorite and the focus of my collection.</p>
 	<section class="set">
 		<div class="cards">
@@ -30,7 +37,7 @@ ogImage: og-image/eevee.jpg
 		</div>
 	</section>
 
-	<h2>Wishlist</h2>
+	<h2 id="wishlist">Wishlist</h2>
 	<p>Some cards I want. I like illustrations and especially sets where illustrations match.</p>
 	<section class="set">
 		<div class="cards">

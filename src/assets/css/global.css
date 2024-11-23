@@ -25,6 +25,7 @@ html {
 	background-color: var(--background-color);
 	font-size: clamp(1rem, 0.8696rem + 0.6522vi, 1.375rem);
 	scroll-padding-top: 7rem; /* roughly header height */
+	scroll-behavior: smooth;
 }
 
 body {
