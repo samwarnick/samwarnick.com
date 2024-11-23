@@ -399,35 +399,3 @@ class TCGCard extends HTMLElement {
 }
 
 customElements.define("tcg-card", TCGCard);
-
-class TCGCardWrapper extends HTMLElement {
-	constructor() {
-		super();
-
-		this.handleExpanded = this.handleExpanded.bind(this);
-		this.handleClosed = this.handleClosed.bind(this);
-	}
-
-	connectedCallback() {
-		this.cards = this.querySelectorAll("tcg-card");
-		this.addEventListener("tcg-card-expanded", this.handleExpanded);
-		this.addEventListener("tcg-card-closed", this.handleClosed);
-	}
-
-	disconnectedCallback() {
-		this.removeEventListener("tcg-card-expanded", this.handleExpanded);
-		this.removeEventListener("tcg-card-closed", this.handleClosed);
-	}
-
-	handleExpanded(e) {
-		for (const card of this.cards) {
-			if (card != e.target) {
-				card.close();
-			}
-		}
-	}
-
-	handleClosed() {}
-}
-
-customElements.define("tcg-card-wrapper", TCGCardWrapper);
