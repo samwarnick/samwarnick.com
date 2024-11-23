@@ -143,8 +143,6 @@ class TCGCard extends HTMLElement {
 	}
 
 	connectedCallback() {
-		this.id = (Math.random() + 1).toString(36).substring(7);
-
 		this.card = this._shadowRoot.querySelector(".tcg-display");
 		this.proxy = this._shadowRoot.querySelector(".tcg-proxy");
 		this.wrapper = this._shadowRoot.querySelector(".tcg-wrapper");
@@ -253,12 +251,6 @@ class TCGCard extends HTMLElement {
 			this.close();
 		} else {
 			this.expanded = true;
-			this.dispatchEvent(
-				new CustomEvent("tcg-card-expanded", {
-					bubbles: true,
-					details: this.id,
-				}),
-			);
 			this.centerCard();
 			document.addEventListener("click", this.handleDocumentClick);
 			document.addEventListener("keydown", this.handleDocumentKeydown);
@@ -334,11 +326,6 @@ class TCGCard extends HTMLElement {
 
 	close() {
 		this.expanded = false;
-		this.dispatchEvent(
-			new CustomEvent("tcg-card-closed", {
-				bubbles: true,
-			}),
-		);
 		this.resetCardPosition();
 		document.removeEventListener("click", this.handleDocumentClick);
 		document.removeEventListener("keydown", this.handleDocumentKeydown);
@@ -383,7 +370,7 @@ class TCGCard extends HTMLElement {
 		setTimeout(() => {
 			this.card.style.setProperty("transition", "");
 			this.style.setProperty("--z-index", "");
-		}, EXPAND_TRANSITION_TIME);
+		}, EXPAND_TRANSITION_TIME * 0.25);
 	}
 
 
