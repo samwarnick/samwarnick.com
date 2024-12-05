@@ -1,6 +1,6 @@
 ---
 title: It's Okay to Throw Something Away
-date: 2024-12-05T20:07
+date: 2024-12-05T15:07
 summary: I built a little Eevee Pokemon card tracker app, only to discover a
   better solution already exists.
 published: true
