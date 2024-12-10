@@ -1,9 +1,9 @@
 ---
 title: How Do You Bring Software Into the World?
-date: 2024-12-09T21:25
+date: 2024-12-10T02:25
 summary: I've been feeling a bit envious of artists and designers and their cool
   studios and the stuff they create.
-published: true
+published: false
 ---
 I've been watching a lot of studio tours lately. Designers and artists showing off their incredible and inspiring workspaces doesn't exactly make me depressed, but they do give me the sense that I'm missing out on something. Something tangible.
 
