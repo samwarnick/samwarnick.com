@@ -18,7 +18,6 @@ content:
         type: date
         options:
           time: true
-          format: yyyy-MM-dd'T'HH:mmxxx
       - name: ogImage
         label: OG Image
         type: string
