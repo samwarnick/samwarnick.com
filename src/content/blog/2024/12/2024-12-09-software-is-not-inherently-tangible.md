@@ -1,6 +1,6 @@
 ---
 title: How Do You Bring Software Into the World?
-date: 2024-12-09T21:25
+date: 2024-12-09T21:25-05:00
 summary: I've been feeling a bit envious of artists and designers and their cool
   studios and the stuff they create.
 published: true

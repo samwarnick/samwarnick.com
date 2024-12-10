@@ -95,7 +95,7 @@ export default async function (eleventyConfig) {
 		return new Date(value);
 	});
 	eleventyConfig.addFilter("formattedDate", function (date) {
-		return DateTime.fromJSDate(date, { zone: "utc" }).toLocaleString(
+		return DateTime.fromJSDate(date).toLocaleString(
 			DateTime.DATE_MED,
 		);
 	});
