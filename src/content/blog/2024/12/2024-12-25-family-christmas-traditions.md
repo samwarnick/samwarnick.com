@@ -2,10 +2,10 @@
 title: Family Christmas Traditions
 date: '2024-12-25T17:23'
 summary: >-
-  I share my family's Christmas traditions, from decorating the tree on
-  Christmas Eve to marching around the house before opening presents.
+  Christmas wasn't always easy as a kid, but I now love and appreciate a lot of the traditions my
+  family had growing up.
 tags: []
-published: false
+published: true
 ---
 ## Christmas Eve
 
