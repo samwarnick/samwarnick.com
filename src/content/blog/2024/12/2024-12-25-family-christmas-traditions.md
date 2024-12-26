@@ -2,8 +2,8 @@
 title: Family Christmas Traditions
 date: '2024-12-25T17:23'
 summary: >-
-  Christmas wasn't always easy as a kid, but I now love and appreciate a lot of the traditions my
-  family had growing up.
+  It wasn't always easy waiting to open presents, but I now love
+  and appreciate a lot of the traditions my family had growing up.
 tags: []
 published: true
 ---
