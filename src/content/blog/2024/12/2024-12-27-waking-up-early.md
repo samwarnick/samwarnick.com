@@ -3,9 +3,9 @@ title: Waking up Early
 date: '2024-12-27T17:42'
 summary: >-
   I'm experimenting with waking up early to do something for myself before my
-  kids get up, and it's been great when I can manage it.
+  kids get up, and it's been great...when I can manage it.
 tags: []
-published: false
+published: true
 ---
 Like a lot of people, my day is pretty much foot on the gas pedal from the time my kids wake up until they go to bed. For us, it's about 7 a.m. to 10 p.m. It's exhausting, and at the end of the day, I don't want to do anything.
 
