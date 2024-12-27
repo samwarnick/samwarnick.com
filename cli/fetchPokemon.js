@@ -39,7 +39,7 @@ async function chunkedMap(array, asyncCallback, chunkSize = 3) {
 }
 
 async function getCardData(card) {
-	const id = card.Id.replace(/([0-9])(5)-/, "$1pt$2-");
+	const id = card.Id.replace(/(sv[0-9])(5)-/, "$1pt$2-");
 	return await pokemon.card.find(id);
 }
 
@@ -48,9 +48,6 @@ async function getCollectionData(collection, name) {
 	const sets = [];
 	data.forEach((card) => {
 		let setId = card.set.id;
-		if (setId === "swsh12pt5gg") {
-			setId = "swsh12pt5";
-		}
 		const set = sets.find((s) => s.id === setId);
 		if (set) {
 			const existing = set.cards.find((c) => c.id === card.id);
