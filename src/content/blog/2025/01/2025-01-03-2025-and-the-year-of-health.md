@@ -2,10 +2,10 @@
 title: 2025 and the Year of Health
 date: '2025-01-03T09:45'
 summary: >-
-  I'm focusing on my health and starting with a new morning routine to reduce
+  In 2025, I'm focusing on my health, starting with a new morning routine to reduce
   stress and create space for myself.
-tags: []
-published: false
+tags: ["2025—Year of Health"]
+published: true
 ---
 ## TL;DR
 
