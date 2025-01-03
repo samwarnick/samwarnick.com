@@ -9,7 +9,7 @@ published: true
 ---
 ## TL;DR
 
-Adding a 3rd child to our family really threw me for a loop. I've been feeling stressed and frustrated. In 2025, I'm going to focus on my health, in all of its forms. Start with waking up earlier to have time to work on things I enjoy without taking time from my family.
+Adding a 3rd child to our family really threw me for a loop. I've been feeling stressed and frustrated. In 2025, I'm going to focus on my health, in all of its forms. I'm going to start with waking up earlier to have time to work on things I enjoy without taking time from my family.
 
 ## 2024
 
