@@ -4,7 +4,7 @@ date: 2025-01-08T14:51
 summary: I built a simple Micropub server to create blog post drafts from iA Writer.
 tags:
   - Micropub
-published: false
+published: true
 ---
 I enjoy using iA Writer to draft blog posts. It's simple and beautiful. Another cool thing is that it can integrate with [Micropub](https://indieweb.org/Micropub) to create drafts! In the past, I used Netlify functions act as my Micropub server. There is a [great project](https://github.com/benjifs/micropub) for this.
 
@@ -111,7 +111,7 @@ Again, since my server is only meant to work with iA Writer, I only ran pertinen
 
 On the blog, in the `head` we need to add `<link rel="micropub" href="https://micropub.example.com">`, where the `href` is the domain of your server. During development, I used an ngrok URL again.
 
-![](https://samwarnick.com/media/iA%20Writer%20Micropub.png)
+![Screenshot of iA Writer add account dialog on macOS](https://samwarnick.com/media/iA%20Writer%20Micropub.png)
 
 In iA Writer, when you go to add a new Micropub account, select "Enter Token Manually", enter the domain, like [example.com](https://example.com) and the access token. And then iA Writer will use that `link` to know where the Micropub server is.
 
