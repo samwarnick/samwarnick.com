@@ -1,15 +1,16 @@
 ---
 title: Making a Micropub Server That Works With iA Writer
-date: '2025-01-08T09:51'
-summary: I built my own Micropub server to create blog post drafts from iA Writer.
-tags: []
+date: 2025-01-08T14:51
+summary: I built a simple Micropub server to create blog post drafts from iA Writer.
+tags:
+  - Micropub
 published: false
 ---
 I enjoy using iA Writer to draft blog posts. It's simple and beautiful. Another cool thing is that it can integrate with [Micropub](https://indieweb.org/Micropub) to create drafts! In the past, I used Netlify functions act as my Micropub server. There is a [great project](https://github.com/benjifs/micropub) for this.
 
 For various reasons, I wanted to make my own server and self-host it. My server is made with Bun, Hono, and TypeScript. Images are stored locally and I use the GitHub API to create new Markdown files.
 
-Some of what I will talk about is specific to iA Writer and my blog,  but the concepts could easily be adapted to fit whatever your workflow requires.
+Some of what I will talk about is specific to iA Writer and my blog, but the concepts could easily be adapted to fit whatever your workflow requires.
 
 iA Writer is a pretty good client to start with because it's quite limited in its Micropub implementation. The spec includes quite a few features that iA Writer does not implement. iA Writer is basically add a draft and upload media. So I'll talk about what is needed to get a server working with iA Writer. From there, the sky is the limit.
 
@@ -25,9 +26,9 @@ This is simple—return JSON your media endpoint:
 
 ```ts
 app.get('/', auth, async (c) => {
-	return c.json({
-		'media-endpoint': `${Bun.env.MICROPUB_URL}/media`,
-	});
+    return c.json({
+        'media-endpoint': `${Bun.env.MICROPUB_URL}/media`,
+    });
 });
 ```
 
@@ -39,12 +40,12 @@ This is the endpoint used to create a new draft. iA Writer will send JSON:
 
 ```json
 {
-	"type": ["h-entry"],
-	"properties": {
-		"name": "Blog post title",
-		"content": "Markdown of post",
-		"post-status": "draft"
-	}
+    "type": ["h-entry"],
+    "properties": {
+        "name": "Blog post title",
+        "content": "Markdown of post",
+        "post-status": "draft"
+    }
 }
 ```
 
@@ -54,16 +55,16 @@ My server handles that request, creates the contents of a Markdown file with the
 
 ```ts
 app.post('/', auth, zValidator('json', micropubSchema), async (c) => {
-	const { properties } = c.req.valid('json');
-	const fileContent = await generateMarkdown(properties, altTextCache);
-	const filename = generateFilename(properties);
-	const response = await addFile(filename, fileContent);
-	if (response.status === 201) {
-		altTextCache = {};
-		c.res.headers.set('Location', generateEditUrl(filename));
-		return c.json({}, 202);
-	}
-	throw new HTTPException(500);
+    const { properties } = c.req.valid('json');
+    const fileContent = await generateMarkdown(properties, altTextCache);
+    const filename = generateFilename(properties);
+    const response = await addFile(filename, fileContent);
+    if (response.status === 201) {
+        altTextCache = {};
+        c.res.headers.set('Location', generateEditUrl(filename));
+        return c.json({}, 202);
+    }
+    throw new HTTPException(500);
 });
 ```
 
@@ -79,12 +80,12 @@ Media is added with a form request, not JSON. You get the `file` and a `purpose`
 
 ```ts
 app.post('/media', auth, zValidator('form', mediaSchema), async (c) => {
-	const { file } = c.req.valid('form');
-	await Bun.write(`./media/${file.name}`, file);
-	// Other less important stuff
-	// ...
-	c.res.headers.set('Location', `https://samwarnick.com/media/${file.name}`);
-	return c.json({}, 202);
+    const { file } = c.req.valid('form');
+    await Bun.write(`./media/${file.name}`, file);
+    // Other less important stuff
+    // ...
+    c.res.headers.set('Location', `https://samwarnick.com/media/${file.name}`);
+    return c.json({}, 202);
 });
 ```
 
@@ -109,7 +110,7 @@ Again, since my server is only meant to work with iA Writer, I only ran pertinen
 ## Connecting with your website
 
 On the blog, in the `head` we need to add `<link rel="micropub" href="https://micropub.example.com">`, where the `href` is the domain of your server. During development, I used an ngrok URL again.
- 
+
 ![](https://samwarnick.com/media/iA%20Writer%20Micropub.png)
 
 In iA Writer, when you go to add a new Micropub account, select "Enter Token Manually", enter the domain, like [example.com](https://example.com) and the access token. And then iA Writer will use that `link` to know where the Micropub server is.
