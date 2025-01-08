@@ -1,6 +1,6 @@
 ---
 title: Making a Micropub Server That Works With iA Writer
-date: 2025-01-08T14:51
+date: '2025-01-08T09:51'
 summary: I built a simple Micropub server to create blog post drafts from iA Writer.
 tags:
   - Micropub
