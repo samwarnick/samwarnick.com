@@ -2,10 +2,9 @@
 title: To Be Native or Not
 date: '2025-01-11T11:18'
 summary: >-
-  I share my thoughts on whether apps should be websites or native, reflecting
-  on the nuances and trade-offs involved.
+    I wish we could just say build a web app. But it's not always that simple.
 tags: []
-published: false
+published: true
 ---
 A couple of weeks ago, [a blog post](https://rogueengine.io/blog/your-app-should-have-been-a-website) started circulating about how your app should be a website. I think there are a lot of good points in there, and I agree with most of it. The problem I have is the word _should_.  I would prefer _could_. 
 
@@ -19,4 +18,4 @@ I have an idea for a new app, and I keep flip-flopping on if I should build it a
 
 But yeah, maybe I do agree that apps _should_ be web apps, but not everything is in place that they _could_ be, and I don't think it ever will be. I don't think we should tell people how to build their ideas. We can suggest, educate, and offer help, but in general, I think you should just pick the technology you are most familiar and comfortable with.
 
-![The image is a flowchart that guides the user through the decision-making process of building an app. It presents three options: build a web app, build a native app, or move on with your life. The flowchart uses simple shapes and text to illustrate the decision points and outcomes.](https://samwarnick.com/media/app-decision-flow-chart.png)
+![The image is a flowchart that guides the user through the decision-making process of building an app. It presents three options: build a web app, build a native app, or move on with your life.](https://samwarnick.com/media/app-decision-flow-chart.png)
