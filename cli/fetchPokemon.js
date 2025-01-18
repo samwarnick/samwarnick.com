@@ -39,12 +39,18 @@ async function chunkedMap(array, asyncCallback, chunkSize = 3) {
 }
 
 async function getCardData(card) {
-	const id = card.Id.replace(/(sv[0-9])(5)-/, "$1pt$2-");
-	return await pokemon.card.find(id);
+	console.log("getCardData:", card.Id);
+	try {
+		const id = card.Id.replace(/(sv[0-9])(5)-/, "$1pt$2-");
+		return await pokemon.card.find(id);
+	} catch (error) {
+		console.log(`failed to get card data for ${card.Id}`);
+		return null;
+	}
 }
 
 async function getCollectionData(collection, name) {
-	const data = await chunkedMap(collection, getCardData);
+	const data = (await chunkedMap(collection, getCardData)).filter(element => element !== null);
 	const sets = [];
 	data.forEach((card) => {
 		let setId = card.set.id;
