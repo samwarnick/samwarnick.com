@@ -10,3 +10,5 @@ Publishing from iA Writer is a huge plus for me, but the server also does some t
 It's built with [Bun](https://bun.sh) and [Hono](https://hono.dev) and self-hosted on a Synology in my closet.
 
 You can look at the code on [GitHub](https://github.com/samwarnick/perfect-cms).
+
+For more information, I wrote [a bit about it](/blog/making-a-micropub-server-that-works-with-ia-writer/).
