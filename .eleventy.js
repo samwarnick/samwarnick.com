@@ -142,6 +142,7 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/assets/fonts");
 	eleventyConfig.addPassthroughCopy("src/assets/favicon");
 	eleventyConfig.addPassthroughCopy("src/assets/js");
+	eleventyConfig.addPassthroughCopy("src/assets/img");
 
 	eleventyConfig.addCollection("posts", function (collectionApi) {
 		return collectionApi.getFilteredByGlob("src/content/blog/**/*.md");

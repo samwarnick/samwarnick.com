@@ -6,6 +6,11 @@ My 3-year-old likes to watch me play Wordle. She asked me to make her a word gam
 
 I went a bit off the rails and made a decently polished iOS app. At least _I_ think it's pretty good. Some friends made me put it on the App Store.
 
+
+<a href="https://apps.apple.com/us/app/hannah-s-game/id6740501286">
+    <img src="/assets/img/app_store_badge.svg" width="180">
+</a>
+
 ![iPhone screenshot of a word game showing the word 'lemon' spelled out in green tiles, with a colorful cartoon fish above it and 'Good Job!' displayed below. A keyboard is visible at the bottom of the screen.](/media/hannahs-game-ios.png)
 
 If iOS isn't your thing, there is also a [web version!](https://hannahsgame.samwarnick.com)
