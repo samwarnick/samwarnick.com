@@ -1,11 +1,9 @@
 ---
 title: To Native or Not Part II
-date: '2025-01-23T19:43'
-summary: >-
-  I'm torn between building a native app or a web app for my new task management
-  project after a frustrating experience with App Store rejection.
-tags: []
-published: false
+date: 2025-01-24T00:43
+summary: I'm torn between building a native app or a web app for my new task
+  management project after a frustrating experience with App Store rejection.
+published: true
 ---
 I was getting real close to starting a new task app. I was pretty set on just doing it SwiftUI on iOS and macOS with CloudKit. Then Apple rejected a [little game](https://hannahsgame.samwarnick.com) I made for my daughter.
 
@@ -22,41 +20,45 @@ So I'm trying to decide, native or not?
 When possible, I mostly use native apps on iOS and macOS. I like them. I've built a couple myself. I would mostly want to use this app on macOS, but would want it available on iOS as well.
 
 ### Pros
-- iOS and macOS apps just feel cool and are fun to make (IMO)
-- System features like widgets, shortcuts, focus modes, menu bar app, etc.
-- They come with some amount of legitimacy
-- Less infrastructure to manage
-- CloudKit is basically free and doesn't require users to make an additional account
-- Easier to do offline/local first
-- I like the community
-- Might have an easier time getting people to pay
+
+*   iOS and macOS apps just feel cool and are fun to make (IMO)
+*   System features like widgets, shortcuts, focus modes, menu bar app, etc.
+*   They come with some amount of legitimacy
+*   Less infrastructure to manage
+*   CloudKit is basically free and doesn't require users to make an additional account
+*   Easier to do offline/local first
+*   I like the community
+*   Might have an easier time getting people to pay
 
 ### Cons
-- App Review
-- CloudKit is mostly a walled garden
-- SwiftUI is nice to get going, but I know there are places where it will not be sufficient for what I want
-	- If I do macOS, that would mean learning some AppKit, which I am 0% familiar
+
+*   App Review
+*   CloudKit is mostly a walled garden
+*   SwiftUI is nice to get going, but I know there are places where it will not be sufficient for what I want
+    *   If I do macOS, that would mean learning some AppKit, which I am 0% familiar
 
 ## Web
 
 I would probably use my [perfect stack](https://samwarnick.com/blog/the-perfect-stack/) to build this. I enjoy it. Buts, some of the equation would change if I used something like SvelteKit and Supabase or PocketBase. I may look into those options.
 
 ### Pros
-- I control it all
-- Can build once and use on mobile and desktop
-- Can easily add an API
-	- Could be used by shortcuts and apps to make widgets
-- Would be nice building for the web, making it accessible to more people
-- No App Review
+
+*   I control it all
+*   Can build once and use on mobile and desktop
+*   Can easily add an API
+    *   Could be used by shortcuts and apps to make widgets
+*   Would be nice building for the web, making it accessible to more people
+*   No App Review
 
 ### Cons
-- Saving web apps to iOS Home Screen or macOS Dock is still not great
-- Have to manage and pay for a lot more infrastructure (again, if I use services, this changes a bit)
-	- Servers
-	- Databases
-	- User management
-	- Payments if I decide to do that
-- Probably harder to get people to pay
+
+*   Saving web apps to iOS Home Screen or macOS Dock is still not great
+*   Have to manage and pay for a lot more infrastructure (again, if I use services, this changes a bit)
+    *   Servers
+    *   Databases
+    *   User management
+    *   Payments if I decide to do that
+*   Probably harder to get people to pay
 
 So, I don't know. I've really good at making decisions. I think I could make a pretty compelling app for iOS and macOS, but at what cost? There is also a hybrid approach, make 3 apps—iOS, macOS, and web with my own backend. The most expensive and ambitious option of all. I would have fun building either. Both would be a lot of work. I'm sure this is an easy decision for a lot of people. But it's not for me.
 
