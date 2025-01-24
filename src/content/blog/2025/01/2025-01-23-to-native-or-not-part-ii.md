@@ -1,6 +1,6 @@
 ---
 title: To Native or Not Part II
-date: 2025-01-24T00:43
+date: 2025-01-23T19:43
 summary: I'm torn between building a native app or a web app for my new task
   management project after a frustrating experience with App Store rejection.
 published: true
