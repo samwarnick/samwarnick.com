@@ -12,6 +12,8 @@ layout: layouts/page
 - Apple Watch Series 8 45mm
 
 ## Stuff On My Desk
+- [Pilot Hi-Tec-C Coleto 1000](https://www.jetpens.com/Pilot-Hi-Tec-C-Coleto-1000-4-Color-Multi-Pen-Body-Component-Black/pd/24119)
+  	- Newest addition. I got one for Dave for Christmas and had to get myself one. All the colors is like writing code on paper. I love it. 
 - [Blackwing Pencils](https://www.jetpens.com/Blackwing-Matte-Pencils-Soft-Lead-Pack-of-12/pd/8115)
 - [Midori MD A5 blank loose leaf paper](https://www.jetpens.com/Midori-MD-Loose-Leaf-Paper-A5-100-Sheets-Limited-Edition/pd/37428)
 	- I’m concerned this is never coming back...
@@ -22,8 +24,10 @@ layout: layouts/page
 - Various other [Midori MD notebooks](https://www.jetpens.com/MD-Series/ct/4317)
 
 ## Software Stuff
-- [Codelia](https://tosche.net/fonts/codelia) for my code editing
+- [Input](https://input.djr.com) for my code editing. I use the proportional font, _gasp_. Makes reading code easier for me.
+- [Codelia](https://tosche.net/fonts/codelia) for my terminal and other places proportional fonts don't work well.
 - [Dawnfox and Terafox themes](https://github.com/EdenEast/nightfox.nvim)
+- [WebStorm](https://www.jetbrains.com/webstorm/) is my editor. It just (mostly) works without fiddling with it (looking at you neovim.) I was about to buy it, and then it went free for non-commercial use.
 
 ## Picture Taking
 - [Sony A7C](https://www.bhphotovideo.com/c/product/1592776-REG/sony_alpha_a7c_mirrorless_digital.html)
