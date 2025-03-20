@@ -1,17 +1,17 @@
 ---
 title: Season of Nutrition
-date: '2025-03-20T07:26'
-summary: >-
-  I'm working on improving my nutrition and habits this spring, building on the
-  progress I made during winter.
-tags: []
-published: false
+date: 2025-03-20T07:26
+summary: I'm working on improving my nutrition and habits this spring, building
+  on the progress I made during winter.
+tags:
+  - 2025—Year of Health
+published: true
 ---
-It's spring now. The Season of Waking Up is coming to an end, and the Season of Nutrition is beginning. 
+It's spring now. The Season of Waking Up is coming to an end, and the Season of Nutrition is beginning.
 
 ## Season of Waking up
 
-Waking up early has gotten really hard. I'm just exhausted. Lately, instead of waking up at 5:30, I sometimes sleep through until my second alarm at 6:30, or even my third alarm at 7:00. Exercise is usually what gets cut first. I just find exercise that is not running outside so boring. But I still feel so much better when I stick to my plan and wake up at 5:30, work on a project or whatever, and exercise. 
+Waking up early has gotten really hard. I'm just exhausted. Lately, instead of waking up at 5:30, I sometimes sleep through until my second alarm at 6:30, or even my third alarm at 7:00. Exercise is usually what gets cut first. I just find exercise that is not running outside so boring. But I still feel so much better when I stick to my plan and wake up at 5:30, work on a project or whatever, and exercise.
 
 I'm not perfect at keeping track, but here are some HabitKit charts:
 
@@ -29,10 +29,10 @@ Like I said in my [first post](/blog/2025-and-the-year-of-health/), my hope is t
 
 TL;DR, I need to be more conscious about what I put into my body and mind. So I'm going to reinstate some rules/guidelines I had a couple of years ago. The idea is simple—take in less bad stuff and more good stuff. Easier said than done.
 
-- Intermittent fasting.
-- Eat better foods.
-- Drink more water.
-- Use my phone less.
+*   Intermittent fasting.
+*   Eat better foods.
+*   Drink more water.
+*   Use my phone less.
 
 I've already started on a few of these for about a month.
 
