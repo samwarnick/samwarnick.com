@@ -19,7 +19,7 @@ export default {
 			return data.published === false || isScheduled(data);
 		},
 		tags: function ({ title, tags }) {
-			if (title.toLowerCase().includes("devlog")) {
+			if (title.toLowerCase().includes("devlog") && !tags.includes("Devlog")) {
 				return [...tags, "Devlog"];
 			}
 			return tags || [];
