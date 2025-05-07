@@ -1,13 +1,15 @@
 ---
-title: Adding Random to My Blog
-date: '2025-05-07T19:47'
-summary: >-
-  I created a simple Netlify function to redirect visitors to a random post on
-  my blog.
-tags: []
-published: false
+title: Adding /random to My Blog
+date: 2025-05-07T19:47
+summary: I created a simple Netlify function to redirect visitors to a random
+  post on my blog.
+tags:
+  - Blog
+  - Netlify
+  - Eleventy
+published: true
 ---
-Dave mentioned in the Discord™️ that he wanted a link to take you to a random post on his blog. I thought, I'll [steal](https://austinkleon.com/steal/) that idea.
+Dave mentioned in the Discord™ that he wanted a link to take you to a random post on his blog. I thought, I'll [steal](https://austinkleon.com/steal/) that idea.
 
 I use Netlify and Eleventy. My first thought was parse the sitemap in a Netlify function, pick a random post, and redirect. Then I remembered that I don't have a sitemap. (Take that SEO!) But, I do have a feed.json for some reason. The feed.json already has just my published posts. No additional filtering for published posts, pages, etc. Also, it's JSON, so I can just use `JSON.parse` on the file. Pretty simple.
 
