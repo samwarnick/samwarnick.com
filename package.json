@@ -27,5 +27,10 @@
 		"markdown-it-html5-media": "^0.7.1",
 		"netlify-plugin-cache": "^1.0.3",
 		"pokemontcgsdk": "^2.0.0"
+	},
+	"dependencies": {
+		"@netlify/functions": "^3.1.5",
+		"@types/node": "^14.18.63",
+		"typescript": "^4.9.5"
 	}
 }

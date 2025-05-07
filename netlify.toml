@@ -23,3 +23,12 @@ status = 200
 from = "/media/*"
 to = "/.netlify/images?url=https://blog.warnick.me/:splat&fm=webp&q=90"
 status = 200
+
+[[redirects]]
+from = "/random"
+to = "/.netlify/functions/random-post"
+status = 200
+
+[functions]
+directory = "functions"
+included_files = ["./_site/feed.json"]
