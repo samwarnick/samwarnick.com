@@ -15,6 +15,7 @@ permalink: index.html
 		<li><a href="/ideas">/ideas</a></li>
 		<li><a href="/now">/now</a></li>
 		<li><a href="/pokemon">/pokemon</a></li>
+		<li><a href="/random">/random</a></li>
 		<li><a href="/site">/site</a></li>
 		<li><a href="/uses">/uses</a></li>
 		<li>
@@ -46,6 +47,10 @@ permalink: index.html
 	{% set postslist = latestPosts.slice(0, 5) | reverse %} {% include
 	"components/postlist.njk" %}
 	<div class="links">
+		<a href="/random" class="icon-link"
+		><span>Random Post</span>
+			<span class="icon">{% include "icons/chevron-right.njk" %}</span></a
+		>
 		<a href="/archive" class="icon-link"
 			><span>All Posts</span>
 			<span class="icon">{% include "icons/chevron-right.njk" %}</span></a
