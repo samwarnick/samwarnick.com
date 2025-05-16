@@ -32,19 +32,9 @@ ul.pages-list {
                 height: var(--size);
                 width: var(--size);
                 border-radius: 50%;
-                background: var(--background-color);
-                right: var(--offset);
-                top: var(--offset);
-            }
-
-            &::after {
-                content: "";
-                position: absolute;
-                height: var(--size);
-                width: var(--size);
-                border-radius: 50%;
                 border: 2px solid var(--accent-color);
-                background: color-mix(in srgb, var(--accent-color), transparent 50% );
+                background: var(--background-color);
+                background: color-mix(in srgb, var(--accent-color), var(--background-color) 60% );
                 right: var(--offset);
                 top: var(--offset);
             }
