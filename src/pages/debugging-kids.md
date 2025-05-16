@@ -55,3 +55,12 @@ willEatFood(food) {
   return getRandomInt(2) === 0;
 }
 ```
+
+```js
+/**
+ * @deprecated will be removed in version 0.7
+ */
+canRollOverInDirection(direction) {
+  return direction === DIRECTIONS.clockwise;
+}
+```

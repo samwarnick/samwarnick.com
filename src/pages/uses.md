@@ -35,3 +35,5 @@ layout: layouts/page
 
 ## Favorite Food Things
 - [Lillie’s No. 40 Carolina Barbecue Sauce](https://lilliesq.com/products/carolina)
+- [Peanut Butter Snickers](https://www.snickers.com/products/chocolate/snickers-peanut-butter-squared-singles-size-chocolate-candy-bar-178-oz-bars)
+  - The pinnacle of Snickers technology
