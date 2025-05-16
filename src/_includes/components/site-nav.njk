@@ -1,19 +1,18 @@
 <header class="site-header">
 	<a href="/" data-link="Sam Warnick">Sam Warnick</a>
-{#	<nav>#}
-{#		<ul role="list">#}
-{#			<li>#}
-{#				<a href="/" data-link="Home">Home</a>#}
-{#			</li>#}
-{#			<li>#}
-{#				<a href="/archive" data-link="Archive">Archive</a>#}
-{#			</li>#}
-{#			<li>#}
-{#				<a href="/search" data-link="Search">Search</a>#}
-{#			</li>#}
-{#			<li>#}
-{#				<a href="/feed.rss" data-link="RSS">RSS</a>#}
-{#			</li>#}
-{#		</ul>#}
-{#	</nav>#}
+	{% if not hideHeaderLinks %}
+	<nav>
+		<ul role="list" class="pages-list">
+			<li>
+				<a href="/">/home</a>
+			</li>
+			<li>
+				<a href="/archive">/archive</a>
+			</li>
+			<li>
+				<a href="/search">/search</a>
+			</li>
+		</ul>
+	</nav>
+	{% endif %}
 </header>

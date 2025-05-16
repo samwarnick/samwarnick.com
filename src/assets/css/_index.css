@@ -2,7 +2,7 @@ ul.pages-list {
     list-style: none;
     padding: 0;
     display: flex;
-    gap: .5em;
+    gap: var(--spacing);
     flex-wrap: wrap;
 
     li {
