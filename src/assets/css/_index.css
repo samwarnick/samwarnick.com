@@ -1,0 +1,53 @@
+ul.pages-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: .5em;
+    flex-wrap: wrap;
+
+    li {
+        a {
+            padding: 0.1em 0.5em;
+            border-radius: var(--border-radius);
+            border: 2px solid transparent;
+            transition: background 0.2s ease-in-out;
+            display: flex;
+            background: color-mix(in srgb, var(--accent-color), transparent 85% );
+            position: relative;
+
+            &:focus-visible {
+                outline: 2px solid var(--accent-color);
+                outline-offset: 2px;
+            }
+        }
+
+        &.highlight a {
+            border-color: var(--accent-color);
+            --size: 14px;
+            --offset: calc(var(--size) / 2 * -1);
+
+            &::before {
+                content: "";
+                position: absolute;
+                height: var(--size);
+                width: var(--size);
+                border-radius: 50%;
+                background: var(--background-color);
+                right: var(--offset);
+                top: var(--offset);
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                height: var(--size);
+                width: var(--size);
+                border-radius: 50%;
+                border: 2px solid var(--accent-color);
+                background: color-mix(in srgb, var(--accent-color), transparent 50% );
+                right: var(--offset);
+                top: var(--offset);
+            }
+        }
+    }
+}
