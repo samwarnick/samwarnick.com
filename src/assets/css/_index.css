@@ -11,7 +11,7 @@ ul.pages-list {
             border-radius: var(--border-radius);
             border: 2px solid transparent;
             transition: background 0.2s ease-in-out;
-            display: flex;
+            display: block;
             background: color-mix(in srgb, var(--accent-color), transparent 85% );
             position: relative;
 
