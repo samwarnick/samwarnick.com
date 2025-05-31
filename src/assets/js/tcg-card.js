@@ -21,6 +21,7 @@ class TCGCard extends HTMLElement {
 
 	--glare-opacity: 0;
 	--z-index: 1;
+	--border-radius: var(--card-border-radius, 5%);
 
 	z-index: var(--z-index);
 	pointer-events: none;
@@ -35,7 +36,7 @@ class TCGCard extends HTMLElement {
 	align-items: center;
 	perspective: 30cm;
 	pointer-events: none;
-	border-radius: 4%;
+	border-radius: var(--border-radius);
 
 	&:has(:focus-visible) {
 		outline: 3px solid var(--focus-outline, black);
@@ -52,10 +53,10 @@ class TCGCard extends HTMLElement {
 		content: "";
 		position: absolute;
 		inset: 10px;
-		border-radius: 4%;
+		border-radius: var(--border-radius);
 		background-color: rgba(0,0,0,0.4);
 		border: 2px solid rgba(0,0,0,0.5) ;
-		background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg enable-background='new 0 0 595.3 594.1' version='1.1' viewBox='0 0 595.3 594.1' xml:space='preserve' xmlns='http://www.w3.org/2000/svg'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23FFFFFF;%7D .st1%7Bfill:%23DFDFDF;%7D .st2%7Bfill:%23FF1C1C;%7D .st3%7Bfill:%23DF1818;%7D%0A%3C/style%3E%3Cpath class='st0' d='m297.6 380.9c-40.4 0-74.1-28.6-82.1-66.6h-134.4c9.5 110.5 102.2 197.2 215.1 197.2s205.7-86.7 215.1-197.2h-131.6c-8 38.1-41.7 66.6-82.1 66.6z'/%3E%3Cpath class='st1' d='m345.6 505.9c89.6-21 157.7-97.7 165.7-191.6h-53c-5.3 85.2-50 157.4-112.7 191.6z'/%3E%3Cpath class='st0' d='m347.1 297c-0.1 0-0.1 0 0 0-0.1-6.1-1.2-11.9-3.2-17.3-7-18.8-25.1-32.1-46.3-32.1s-39.3 13.4-46.3 32.1c-2 5.4-3.1 11.2-3.1 17.3h0.1c0 6.1 1.1 11.9 3.1 17.3 7 18.8 25.1 32.1 46.3 32.1s39.3-13.4 46.3-32.1c2-5.3 3.1-11.2 3.1-17.3z'/%3E%3Cpath class='st2' d='m297.7 213.2c40.4 0 74.1 28.6 82.1 66.6h134.4c-9.5-110.6-102.2-197.3-215.2-197.3s-205.6 86.7-215.1 197.2h131.7c8-38 41.7-66.5 82.1-66.5z'/%3E%3Cpath class='st3' d='m458.3 279.7h55.8c-8.2-95.5-78.6-173.3-170.5-192.6 63.8 33.7 109.3 106.6 114.7 192.6z'/%3E%3Cpath d='m299 82.5c113 0 205.7 86.7 215.1 197.2h-134.4c-8-38-41.7-66.6-82.1-66.6s-74.1 28.6-82.1 66.6h-131.6c9.5-110.5 102.2-197.2 215.1-197.2zm44.9 197.2c2 5.4 3.1 11.2 3.1 17.3h0.1c0 6.1-1.1 11.9-3.1 17.3-7 18.8-25.1 32.1-46.3 32.1s-39.3-13.4-46.3-32.1c-2-5.4-3.1-11.2-3.1-17.3h-0.1c0-6.1 1.1-11.9 3.1-17.3 7-18.8 25.1-32.1 46.3-32.1s39.3 13.4 46.3 32.1zm-47.7 231.9c-113 0-205.7-86.7-215.1-197.2h134.4c8 38 41.7 66.6 82.1 66.6s74.1-28.6 82.1-66.6h131.7c-9.5 110.4-102.2 197.2-215.2 197.2zm1.4-470.3c-141.2 0-255.7 114.5-255.7 255.7s114.5 255.7 255.7 255.7 255.8-114.4 255.8-255.7-114.5-255.7-255.8-255.7z'/%3E%3C/svg%3E");
+		background-image: var(--bg-image);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-blend-mode: screen;
@@ -78,7 +79,7 @@ class TCGCard extends HTMLElement {
 	background: none;
 	margin: 0;
 	padding: 0;
-	border-radius: 4%;
+	border-radius: var(--border-radius);
 	filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 
@@ -110,7 +111,7 @@ class TCGCard extends HTMLElement {
 	mix-blend-mode: overlay;
 	opacity: var(--glare-opacity);
 	transition: opacity 500ms ease-out;
-	border-radius: 4%;
+	border-radius: var(--border-radius);
 }
 </style>
 <div class="tcg-wrapper">
@@ -291,8 +292,8 @@ class TCGCard extends HTMLElement {
 			const yPercent = (y / rect.height) * 100;
 			const xFromCenter = x - rect.width / 2;
 			const yFromCenter = y - rect.height / 2;
-			const tiltX = (yFromCenter / rect.height) * 10;
-			const tiltY = -(xFromCenter / rect.width) * 10;
+			const tiltX = -(yFromCenter / rect.height) * 10;
+			const tiltY = (xFromCenter / rect.width) * 10;
 			this.pendingAnimationFrame = requestAnimationFrame(() => {
 				this.style.setProperty("--pointer-x", `${xPercent}%`);
 				this.style.setProperty("--pointer-y", `${yPercent}%`);

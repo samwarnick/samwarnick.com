@@ -1,4 +1,9 @@
 {
 	"title": "Sam Warnick",
-	"description": "Web developer by day and tired dad all the time."
+	"description": "Web developer by day and tired dad all the time.",
+	"url": "https://samwarnick.com",
+	"author": {
+		"name": "Sam Warnick",
+		"url": "https://samwarnick.com"
+	}
 }
