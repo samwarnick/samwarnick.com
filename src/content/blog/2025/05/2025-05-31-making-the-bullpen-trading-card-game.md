@@ -41,7 +41,7 @@ The last little detail is to crimp the ends of the pack. Most videos you find wi
 
 ![Two round lego bricks attached to a piece of wood. Configured as a tool to create a crimping texture on paper.](https://samwarnick.com/media/IMG_1172.jpeg)
 
-![Assembly of a homemade trading card booster pack. A man places 10 cards on a sheet of paper, folds it, glues it, and then crimps both ends with a roller.](/media/bulpen-tcg/assembly.mp4)
+![Assembly of a homemade trading card booster pack. A man places 10 cards on a sheet of paper, folds it, glues it, and then crimps both ends with a roller.](/media/bullpen-tcg/assembly.mp4)
 
 ## Cost
 
