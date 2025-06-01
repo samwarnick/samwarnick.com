@@ -47,6 +47,6 @@ The last little detail is to crimp the ends of the pack. Most videos you find wi
 
 I got 126 cards from [makeplayingcards.com](https://makeplayingcards.com): 90 regular cards and 36 holographic cards. Though for 10 booster packs. With shipping, taxes, and tariffs, it came to $97.60, or about $0.77 per card. Honestly, not too bad for a small project like this. Obviously, the economics get better the more you produce. It took about a month to get to me from the time I ordered them.
 
-Shipping to my friends was about $4.50 each. So in total, I spent about $11 per pack. It was worth every penny. This kind of felt like a once-in-a-lifetime surprise, and I would've spent more if I needed to.
+Shipping to my friends was about $4.50 each. So in total, I spent about $12 per pack. It was worth every penny. This kind of felt like a once-in-a-lifetime surprise, and I would've spent more if I needed to.
 
 I would do this all again.
