@@ -11,7 +11,7 @@ I made some trading cards for my friends in a Discord server we are all in toget
 
 ## The Origin
 
-It kind of all started when Carter posted an article about middle-aged man trading cards in Japan([https://www.tokyoweekender.com/entertainment/middle-aged-man-trading-cards-go-viral-in-japan/](https://www.tokyoweekender.com/entertainment/middle-aged-man-trading-cards-go-viral-in-japan/)). Dave and I were chatting, and one of us said in passing that we should have Bullpen trading cards. This idea stuck in my head. One Google search later, I found [makeplayingcards.com](https://makeplayingcards.com). It seemed affordable enough. So I decided to do it.
+It kind of all started when Carter posted an article about [middle-aged man trading cards in Japan](https://www.tokyoweekender.com/entertainment/middle-aged-man-trading-cards-go-viral-in-japan/). Dave and I were chatting, and one of us said in passing that we should have Bullpen trading cards. This idea stuck in my head. One Google search later, I found [makeplayingcards.com](https://makeplayingcards.com). It seemed affordable enough. So I decided to do it.
 
 ## Designing
 
