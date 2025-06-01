@@ -7,7 +7,7 @@ published: true
 ---
 I made some trading cards for my friends in a Discord server we are all in together. Our server is called The Bullpen, so I named it the Bullpen Trading Card Game. Real original.
 
-<tcg-card src="https://samwarnick.com/media/bullpen-tcg/Back.png" alt="The back of a Bullpen Trading card with a gold art deco style border and the word Bullpen"></tcg-card>
+<tcg-card src="https://samwarnick.com/media/bullpen-tcg/Back.png" alt="The back of a Bullpen Trading card with a gold art deco style border and the word Bullpen" style="width: 300px"></tcg-card>
 
 ## The Origin
 
@@ -23,7 +23,7 @@ I use Affinity Designer these days for my design needs. I was able to find someo
 
 To showcase the art, I went with a more full-art look instead of a more traditional art-in-a-box design. The boxes float on top of the art with shadows.
 
-<tcg-card src="https://samwarnick.com/media/bullpen-tcg/Sam.png" alt="A custom trading card featuring a LEGO minifigure with glasses and dark hair wearing a jacket with a Pokéball logo. The card is titled 'Sam - @hugemanatee', and shows two abilities: 'Devil's Avocado' (place one message in another conversation, you're fun) and 'Burnout' (get 2 projects 80% done, lose next turn)."></tcg-card>
+<tcg-card src="https://samwarnick.com/media/bullpen-tcg/Sam.png" alt="A custom trading card featuring a LEGO minifigure with glasses and dark hair wearing a jacket with a Pokéball logo. The card is titled 'Sam - @hugemanatee', and shows two abilities: 'Devil's Avocado' (place one message in another conversation, you're fun) and 'Burnout' (get 2 projects 80% done, lose next turn)." style="width: 300px"></tcg-card>
 
 All the art is based off of my friends' Discord profile pictures. I drew them all in Procreate on my iPad Mini. I'm not a very good artist, so it was nice having existing artwork to work with.
 
