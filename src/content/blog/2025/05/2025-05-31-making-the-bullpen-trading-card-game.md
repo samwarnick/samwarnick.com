@@ -7,6 +7,8 @@ published: true
 ---
 I made some trading cards for my friends in a Discord server we are all in together. Our server is called The Bullpen, so I named it the Bullpen Trading Card Game. Real original.
 
+<tcg-card src="https://samwarnick.com/media/bullpen-tcg/Back.png" alt="The back of a Bullpen Trading card with a gold art deco style border and the word Bullpen"></tcg-card>
+
 ## The Origin
 
 It kind of all started when Carter posted an article about middle-aged man trading cards in Japan([https://www.tokyoweekender.com/entertainment/middle-aged-man-trading-cards-go-viral-in-japan/](https://www.tokyoweekender.com/entertainment/middle-aged-man-trading-cards-go-viral-in-japan/)). Dave and I were chatting, and one of us said in passing that we should have Bullpen trading cards. This idea stuck in my head. One Google search later, I found [makeplayingcards.com](https://makeplayingcards.com). It seemed affordable enough. So I decided to do it.
@@ -20,6 +22,8 @@ I tried a couple of ideas for designs. I started with some futuristic-looking pa
 I use Affinity Designer these days for my design needs. I was able to find someone’sgold metal styles([https://forum.affinity.serif.com/index.php?/topic/35866-some-metal-styles/](https://forum.affinity.serif.com/index.php?/topic/35866-some-metal-styles/)) that worked perfectly. I used the Pirata One and Atkinson Hyperlegible Next fonts. Pirata is maybe not the most legible at small sizes, but I think it worked decently.
 
 To showcase the art, I went with a more full-art look instead of a more traditional art-in-a-box design. The boxes float on top of the art with shadows.
+
+<tcg-card src="https://samwarnick.com/media/bullpen-tcg/Sam.png" alt="A custom trading card featuring a LEGO minifigure with glasses and dark hair wearing a jacket with a Pokéball logo. The card is titled 'Sam - @hugemanatee', and shows two abilities: 'Devil's Avocado' (place one message in another conversation, you're fun) and 'Burnout' (get 2 projects 80% done, lose next turn)."></tcg-card>
 
 All the art is based off of my friends' Discord profile pictures. I drew them all in Procreate on my iPad Mini. I'm not a very good artist, so it was nice having existing artwork to work with.
 
