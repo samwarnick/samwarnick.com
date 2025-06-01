@@ -19,7 +19,7 @@ I am not a designer, so this was a challenge. But overall, I am very proud of wh
 
 I tried a couple of ideas for designs. I started with some futuristic-looking patterns with hexagons and stuff. Then I tried some more simple hand-drawn black-and-white stuff. I ultimately landed on the art deco-inspired gold metal look.
 
-I use Affinity Designer these days for my design needs. I was able to find someone’sgold metal styles([https://forum.affinity.serif.com/index.php?/topic/35866-some-metal-styles/](https://forum.affinity.serif.com/index.php?/topic/35866-some-metal-styles/)) that worked perfectly. I used the Pirata One and Atkinson Hyperlegible Next fonts. Pirata is maybe not the most legible at small sizes, but I think it worked decently.
+I use Affinity Designer these days for my design needs. I was able to find [someone’s gold metal styles](https://forum.affinity.serif.com/index.php?/topic/35866-some-metal-styles/) that worked perfectly. I used the Pirata One and Atkinson Hyperlegible Next fonts. Pirata is maybe not the most legible at small sizes, but I think it worked decently.
 
 To showcase the art, I went with a more full-art look instead of a more traditional art-in-a-box design. The boxes float on top of the art with shadows.
 
@@ -39,9 +39,9 @@ My sheets are 12 x 16.5cm. This is roughly the same as Pokémon booster packs. I
 
 The last little detail is to crimp the ends of the pack. Most videos you find will use this [quilling crimper](https://www.amazon.com/Quilling-Crimper-Crimping-Handmade-Decoration/dp/B07V6YT89X/r). I bought it and tried it. If it's all you have access to, it's okay. But in my opinion, it makes the crimps too big. I wanted something more subtle and more similar to actual booster packs. So I made my own with Lego bricks and wood. Part [92947](https://www.bricklink.com/v2/catalog/catalogitem.page?P=92947#T=C) is perfect. The holes on a Technic brick are too far apart, so I drilled a couple of holes in a piece of wood to get the spacing right.
 
-![Two round lego bricks attached to a piece of wood. Configured as a tool to create a crimping texture on paper.](https://samwarnick.com/media/IMG_1172.jpeg)
+![Two round lego bricks attached to a piece of wood. Configured as a tool to create a crimping texture on paper.](https://samwarnick.com/media/IMG_1172_2.jpeg)
 
-![Assembly of a homemade trading card booster pack. A man places 10 cards on a sheet of paper, folds it, glues it, and then crimps both ends with a roller.](/media/bullpen-tcg/assembly.mp4)
+![Assembly of a homemade trading card booster pack. A man places 10 cards on a sheet of paper, folds it, glues it, and then crimps both ends with a roller.](https://samwarnick.com/media/bullpen-tcg/assembly.mp4)
 
 ## Cost
 
