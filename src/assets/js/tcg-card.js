@@ -69,6 +69,7 @@ class TCGCard extends HTMLElement {
 	--ease-spring-2: linear( 0, .007, .029 2.2%, .118 4.7%, .625 14.4%, .826 19%, .902, .962, 1.008 26.1%, 1.041 28.7%, 1.064 32.1%, 1.07 36%, 1.061 40.5%, 1.015 53.4%, .999 61.6%, .995 71.2%, 1 );
 
 	pointer-events: auto;
+	cursor: pointer;
 	border: none;
 	position: absolute;
 	scale: var(--display-scale);
