@@ -102,7 +102,7 @@
 		}
 	}
 
-	iframe {
+	iframe, lite-youtube {
 		width: 100%;
 		aspect-ratio: 16/9;
 		border-radius: var(--border-radius);
