@@ -27,7 +27,7 @@ I've got a lot of the cards to build this deck physically, and I think I will.
 
 ## Deck List
 
-![This image appears to be a collection of various Pokemon trading cards. The cards feature colorful illustrations of different Pokemon characters and their corresponding stats and attributes. The cards are arranged in a grid-like pattern, showcasing the diversity of the Pokemon universe.](https://samwarnick.com/media/pnggen.png)
+![Card images from the Flareon/Noctowl decklist with a number badge indicating how many of that card are in the deck](https://samwarnick.com/media/pnggen.png)
 
 [🔗 limitlesstcg](https://limitlesstcg.com/decks/list/18507)
 
