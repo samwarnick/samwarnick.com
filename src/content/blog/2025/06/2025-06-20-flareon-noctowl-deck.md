@@ -10,7 +10,7 @@ When my daughter and I went to the Destined Rivals prerelease event, we got talk
 
 A couple weeks ago, I saw a video by [six tcg](https://www.youtube.com/@sixpokemanstcg) about some popular meta decks right now. Turns out, The Flareon deck is one of the harder decks to play. But I decided to try it out anyway.
 
-<iframe src="https://www.youtube-nocookie.com/embed/hrHpyE72DZU&t=1303" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/hrHpyE72DZU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 I copied the [Nathan Ginsburg decklist from NAIC 2025](https://limitlesstcg.com/decks/list/18507) into TCG Live. I've played (and won) 2 games with this deck in Pokemon TCG Live, so I'm basically an expert. This deck feels like pure chaos and I love it. I feel like you have to be so precise. At any moment, I'm worried I will make the wrong play and not be able to recover. That's how you should feel right? There is like _just_ enough energy, but so much draw power. Getting the energy in the right place at the right time is what I'm struggling with. I'm still learning which Pokemon I should be powering up and what energy they take. I'll get there.
 
