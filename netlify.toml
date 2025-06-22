@@ -6,7 +6,7 @@ Cache-Control = "public, max-age=31526000"
 [[plugins]]
 package = "netlify-plugin-cache"
 [plugins.inputs]
-paths = [".cache"]
+paths = [".cache", "_site/og-images"]
 
 [images]
 remote_images = ["https://blog.warnick.me/.*", "https://images.pokemontcg.io/.*"]

@@ -1,7 +1,9 @@
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import eleventyPluginOgImage from "eleventy-plugin-og-image";
+import { OgImage } from 'eleventy-plugin-og-image/og-image';
 import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
-import fs from "fs";
+import fs from "node:fs";
+import crypto from 'node:crypto';
 import { execSync } from "child_process";
 import { DateTime } from "luxon";
 
@@ -15,6 +17,14 @@ import {
 	transformerNotationFocus,
 	transformerNotationHighlight,
 } from "@shikijs/transformers";
+
+export class CustomOgImage extends OgImage {
+	async hash() {
+		const hash = crypto.createHash('sha256');
+		hash.update(this.data.title);
+		return hash.digest('hex').substring(0, this.options.hashLength);
+	}
+}
 
 /** @param {import('@11ty/eleventy/src/UserConfig').default} eleventyConfig */
 export default async function (eleventyConfig) {
@@ -65,6 +75,7 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPlugin(lightningCSS);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(eleventyPluginOgImage, {
+		OgImage: CustomOgImage,
 		satoriOptions: {
 			fonts: [
 				{
@@ -115,7 +126,7 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addFilter("dateToRfc822WithCorrectTz", function (date) {
 		return DateTime.fromJSDate(date).toRFC2822();
 	});
-	eleventyConfig.addFilter("defaultImage", function (image) {
+	eleventyConfig.addFilter("defaultImage", function ({title, image}) {
 		const defaultImages = [
 			"og-image/1.jpg",
 			"og-image/2.jpg",
