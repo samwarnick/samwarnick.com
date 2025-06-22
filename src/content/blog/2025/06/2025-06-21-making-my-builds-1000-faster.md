@@ -1,26 +1,24 @@
 ---
-title: Making My Builds 1000% Faster
-date: '2025-06-21T22:01'
-summary: >-
-  I made two simple changes to speed up my Netlify builds, cutting the time from
-  2-3 minutes to under 1 minute.
-tags: []
-published: false
+title: Making My Builds 300% Faster
+date: 2025-06-21T22:01
+summary: I made two simple changes to speed up my Netlify builds, cutting the
+  time from 2-3 minutes to under 1 minute.
+published: true
 ---
-The builds for this site on Netlify took about 2 to 3 minutes. Now it takes less than 1 minute. Magic. 
+The builds for this site on Netlify took about 2 to 3 minutes. Now it takes less than 1 minute. Magic.
 
 2 changes:
 
-1. I overrode the [`eleventy-plugin-og-image`](https://github.com/KiwiKilian/eleventy-plugin-og-image?tab=readme-ov-file#extending-ogimage-class) hash function to only care about the page title.
-2. Added my OG image directory to Netlify cache.
+1.  I overrode the [`eleventy-plugin-og-image`](https://github.com/KiwiKilian/eleventy-plugin-og-image?tab=readme-ov-file#extending-ogimage-class) hash function to only care about the page title.
+2.  Added my OG image directory to Netlify cache.
 
 ```js
 export class CustomOgImage extends OgImage {
-	async hash() {
-		const hash = crypto.createHash('sha256');
-		hash.update(this.data.title);
-		return hash.digest('hex').substring(0, this.options.hashLength);
-	}
+    async hash() {
+        const hash = crypto.createHash('sha256');
+        hash.update(this.data.title);
+        return hash.digest('hex').substring(0, this.options.hashLength);
+    }
 }
 ```
 
