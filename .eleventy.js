@@ -126,7 +126,7 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addFilter("dateToRfc822WithCorrectTz", function (date) {
 		return DateTime.fromJSDate(date).toRFC2822();
 	});
-	eleventyConfig.addFilter("defaultImage", function ({title, image}) {
+	eleventyConfig.addFilter("defaultImage", function (image) {
 		const defaultImages = [
 			"og-image/1.jpg",
 			"og-image/2.jpg",
@@ -146,7 +146,6 @@ export default async function (eleventyConfig) {
 		);
 	});
 	eleventyConfig.addFilter("something", function (value) {
-		console.log(value);
 		return value.replace("&#39;", ",");
 	});
 
