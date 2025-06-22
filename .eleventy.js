@@ -15,7 +15,6 @@ import { html5Media } from "markdown-it-html5-media";
 import Shiki from "@shikijs/markdown-it";
 import {
 	transformerNotationFocus,
-	transformerNotationHighlight,
 } from "@shikijs/transformers";
 
 export class CustomOgImage extends OgImage {
