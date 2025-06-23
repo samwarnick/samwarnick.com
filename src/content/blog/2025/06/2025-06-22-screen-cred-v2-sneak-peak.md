@@ -21,3 +21,5 @@ With ScreenCred, I've always struggled to utilize all the space effectively. I t
 I still like a lot from the existing designs. My goal was to do something different. But I think that goal distracted me from getting other fundamentals right. So I'm having fun stripping things back and rethinking it all. Like bringing the recents/history right onto the main view instead of hidden behind a menu. I'm utilizing more navigation stacks which I think feel more familiar. But I like the chunky black outlines and I might keep those.
 
 There is still _a lot_ to figure out, but I'm liking this direction quite a bit. I was especially inspired by a session from this year called "Design foundations from idea to interface". If you watch it, I think you'll see where a lot of my ideas come from lol.
+
+<lite-youtube videoid="dGcqqA3Sl-o" posterquality="maxresdefault"></lite-youtube>
