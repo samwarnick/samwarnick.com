@@ -6,7 +6,7 @@ published: true
 ---
 This will probably start sounding pretty negative, but I'm hoping it will turn around by the end.
 
-After Apple [rejected Hannah's Game](https://samwarnick.com/blog/to-native-or-not-part-ii/), I was feeling pretty grumpy\[^1\]. Soon after, I kinda just stopped posting on and using Mastodon, becoming a bit of a digital recluse. WWDC came around and I logged in to see what the scuttlebutt was. Whether true or not, things just felt negative to me. Not just about WWDC, but kinda everything? I'm a pessimist and grump by nature, but it's pretty exhausting when everyone else is too. I need some balance.
+After Apple [rejected Hannah's Game](https://samwarnick.com/blog/to-native-or-not-part-ii/), I was feeling pretty grumpy[^1]. Soon after, I kinda just stopped posting on and using Mastodon, becoming a bit of a digital recluse. WWDC came around and I logged in to see what the scuttlebutt was. Whether true or not, things just felt negative to me. Not just about WWDC, but kinda everything? I'm a pessimist and grump by nature, but it's pretty exhausting when everyone else is too. I need some balance.
 
 I need to be better. I want to be better. Maybe I've naturally gravitated towards following other grumps. I need to be better at finding people less grumpy than me and stop following the others.
 
@@ -22,4 +22,4 @@ I like that sentiment. We can still be enthusiastic and positive while pushing a
 
 How did this end up?
 
-\[^1\]: It me [https://youtu.be/bewKPi9gdT4](https://youtu.be/bewKPi9gdT4)
+[^1]: It me [https://youtu.be/bewKPi9gdT4](https://youtu.be/bewKPi9gdT4)
