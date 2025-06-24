@@ -83,15 +83,26 @@
 	}
 }
 
-.me {
-	margin-inline: auto;
+#meWrapper {
 	margin-top: -50px;
 	height: 150px;
 	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.me {
+	height: 100%;
 	background-image: url("https://samwarnick.com/media/profile-2.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
+	translate: 0 150px;
+	transition: opacity 0.4s, scale 0.4s, translate 0.4s;
+
+	&.show {
+		translate: 0;
+	}
 }
 
 @keyframes slideUp {

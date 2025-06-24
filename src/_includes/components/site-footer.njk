@@ -14,6 +14,23 @@
 		</nav>
 	</div>
 </footer>
-<div class="me">
-{#	<img src="https://samwarnick.com/media/profile-2.png" alt="A headshot of Sam Warnick smiling" width="100" />#}
+<div id="meWrapper">
+	<div class="me">
+	</div>
 </div>
+<script>
+	const wrapper = document.getElementById('meWrapper');
+	const observer = new IntersectionObserver((entries) => {
+		entries.forEach(entry => {
+			const me = wrapper.querySelector(".me");
+			if (entry.intersectionRatio > 0.5) {
+				me.classList.add("show");
+			} else {
+				me.classList.remove("show");
+			}
+		})
+	}, {
+		threshold: [0.4, 0.75],
+	});
+	observer.observe(wrapper);
+</script>
