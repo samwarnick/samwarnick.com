@@ -67,11 +67,40 @@
 .site-footer {
 	margin-block: 4em;
 
+	ul {
+		display: flex;
+		list-style: none;
+		padding: 0;
+		gap: var(--spacing-more);
+	}
+
 	.footer-links {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		font-size: 0.8em;
 		color: var(--secondary-text);
+	}
+}
+
+.me {
+	margin-inline: auto;
+	margin-top: -50px;
+	height: 150px;
+	width: 100%;
+	background-image: url("https://samwarnick.com/media/profile-2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+@keyframes slideUp {
+	from {
+		/*transform: translateY(0);*/
+		opacity: 0;
+	}
+	to {
+		/*transform: translateY(-150px);*/
+		opacity: 1;
 	}
 }

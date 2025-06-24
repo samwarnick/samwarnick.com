@@ -1,5 +1,5 @@
 ---
-title: Résumé
+title: /résumé
 permalink: resume/index.html
 layout: layouts/page
 ---
