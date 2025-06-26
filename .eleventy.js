@@ -101,6 +101,16 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addShortcode("year", function () {
 		return new Date().getFullYear();
 	});
+	eleventyConfig.addShortcode("youtube", function (url) {
+		const youtubeRegex = /https?:\/\/(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)(?<id>[a-zA-Z0-9_-]{11})(?:.*[?&]t=(?<timestamp>\d+))?/;
+		const match = url.match(youtubeRegex)
+		if (match) {
+			console.log(match)
+			const { id, timestamp } = match.groups;
+			return `<lite-youtube videoid="${id}" videoStartAt="${timestamp ?? 0}" posterquality="maxresdefault">
+			</lite-youtube>`;
+		}
+	});
 	eleventyConfig.addFilter("toDate", function (value) {
 		return new Date(value);
 	});

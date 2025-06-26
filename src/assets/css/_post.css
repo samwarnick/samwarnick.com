@@ -22,7 +22,7 @@
 		height: auto;
 	}
 
-	p:has(> img) {
+	p:has(> img), p:has(> lite-youtube) {
 		grid-column: bump;
 	}
 

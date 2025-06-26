@@ -22,4 +22,4 @@ I still like a lot from the existing designs. My goal was to do something differ
 
 There is still _a lot_ to figure out, but I'm liking this direction quite a bit. I was especially inspired by a session from this year called "Design foundations from idea to interface". If you watch it, I think you'll see where a lot of my ideas come from lol.
 
-<lite-youtube videoid="dGcqqA3Sl-o" posterquality="maxresdefault"></lite-youtube>
+{% youtube "https://youtu.be/dGcqqA3Sl-o" %}
