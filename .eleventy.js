@@ -106,7 +106,7 @@ export default async function (eleventyConfig) {
 		const match = url.match(youtubeRegex)
 		if (match) {
 			const { id, timestamp } = match.groups;
-			return `<lite-youtube videoid="${id}" videoStartAt="${timestamp ?? 0}" posterquality="maxresdefault"></lite-youtube>`;
+			return `<lite-youtube videoId="${id}" videoStartAt="${timestamp ?? 0}" posterquality="maxresdefault"></lite-youtube>`;
 		}
 	});
 	eleventyConfig.addShortcode("tcg-card", function (src, alt, style) {
@@ -114,12 +114,12 @@ export default async function (eleventyConfig) {
 				<img src="${src}" alt="${alt}" style="${style ?? 'width: 300px; margin-inline: auto;'}"></img>
 				<p>(You're viewing this post somewhere that does not support JS, like RSS. Load this page with JS to interact.)</p>
 			</tcg-card>`;
-	})
+	});
 	eleventyConfig.addFilter("replaceWebComponents", function(content) {
 		return content
 			// Replace lite-youtube with iframe
 			.replace(
-				/<lite-youtube[^>]*videoid="([^"]+)"[^>]*(?:videostarttime="([^"]+)")?[^>]*>.*?<\/lite-youtube>/gs,
+				/<lite-youtube\s+videoId="([^"]+)"(?:\s+videoStartAt="([^"]+)")?[^>]*><\/lite-youtube>/gs,
 				(match, videoId, startTime) => {
 					const startParam = startTime ? `&start=${startTime}` : '';
 					return `<iframe src="https://www.youtube-nocookie.com/embed/${videoId}?${startParam}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
