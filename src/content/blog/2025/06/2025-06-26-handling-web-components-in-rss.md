@@ -1,6 +1,6 @@
 ---
 title: Handling Web Components in RSS and Eleventy
-date: 2025-06-26T16:41
+date: 2025-06-26T20:41
 summary: Turns out web components don't work in RSS. Whoops.
 tags:
   - Blog
@@ -42,7 +42,7 @@ return content
         /<lite-youtube\s+videoId="([^"]+)"(?:\s+videoStartAt="([^"]+)")?[^>]*><\/lite-youtube>/gs,
         (match, videoId, startTime) => {
             const startParam = startTime ? `&start=${startTime}` : '';
-            return `<iframe src="https://www.youtube-nocookie.com/embed/${videoId}?${startParam}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+            return `<iframe src="https://www.youtube.com/embed/${videoId}?${startParam}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
         }
     );
 });
