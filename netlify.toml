@@ -32,6 +32,11 @@ from = "/random"
 to = "/.netlify/functions/random-post"
 status = 200
 
+[[redirects]]
+from = "/feed.rss"
+to = "/rss.xml"
+status = 301
+
 [functions]
 directory = "functions"
 included_files = ["./_site/feed.json"]
