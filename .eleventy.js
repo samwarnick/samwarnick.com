@@ -105,11 +105,27 @@ export default async function (eleventyConfig) {
 		const youtubeRegex = /https?:\/\/(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)(?<id>[a-zA-Z0-9_-]{11})(?:.*[?&]t=(?<timestamp>\d+))?/;
 		const match = url.match(youtubeRegex)
 		if (match) {
-			console.log(match)
 			const { id, timestamp } = match.groups;
-			return `<lite-youtube videoid="${id}" videoStartAt="${timestamp ?? 0}" posterquality="maxresdefault">
-			</lite-youtube>`;
+			return `<lite-youtube videoid="${id}" videoStartAt="${timestamp ?? 0}" posterquality="maxresdefault"></lite-youtube>`;
 		}
+	});
+	eleventyConfig.addFilter("replaceWebComponents", function(content) {
+		return content
+			// Replace lite-youtube with iframe
+			.replace(
+				/<lite-youtube[^>]*videoid="([^"]+)"[^>]*(?:videostarttime="([^"]+)")?[^>]*>.*?<\/lite-youtube>/gs,
+				(match, videoId, startTime) => {
+					const startParam = startTime ? `&start=${startTime}` : '';
+					return `<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/${videoId}?${startParam}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+				}
+			)
+			// Replace tcg-card with img
+			.replace(
+				/<tcg-card([^>]*)>.*?<\/tcg-card>/gs,
+				(match, attributes) => {
+					return `<img${attributes}>`;
+				}
+			);
 	});
 	eleventyConfig.addFilter("toDate", function (value) {
 		return new Date(value);
