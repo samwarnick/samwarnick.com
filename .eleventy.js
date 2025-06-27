@@ -106,7 +106,9 @@ export default async function (eleventyConfig) {
 		const match = url.match(youtubeRegex)
 		if (match) {
 			const { id, timestamp } = match.groups;
-			return `<lite-youtube videoId="${id}" videoStartAt="${timestamp ?? 0}" posterquality="maxresdefault"></lite-youtube>`;
+			return `<lite-youtube videoId="${id}" videoStartAt="${timestamp ?? 0}" posterquality="maxresdefault">
+				<a href="${url}" rel="noopener noreferrer">Watch this video on YouTube</a>
+			</lite-youtube>`;
 		}
 	});
 	eleventyConfig.addShortcode("tcg-card", function (src, alt, style) {
@@ -119,7 +121,7 @@ export default async function (eleventyConfig) {
 		return content
 			// Replace lite-youtube with iframe
 			.replace(
-				/<lite-youtube\s+videoId="([^"]+)"(?:\s+videoStartAt="([^"]+)")?[^>]*><\/lite-youtube>/gs,
+				/<lite-youtube\s+videoId="([^"]+)"(?:\s+videoStartAt="([^"]+)")?[^>]*>.*<\/lite-youtube>/gs,
 				(match, videoId, startTime) => {
 					const startParam = startTime ? `&start=${startTime}` : '';
 					return `<iframe src="https://www.youtube.com/embed/${videoId}?feature=oembed${startParam}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
