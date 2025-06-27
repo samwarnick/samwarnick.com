@@ -13,13 +13,13 @@ To make things easier for myself, I made a couple shortcodes with Eleventy. I ma
 ```md
 <!-- Shortcode in my markdown -->
 {%- raw %}
-{% youtube "https://youtu.be/bewKPi9gdT4" %}
+{% youtube "https://youtu.be/hrHpyE72DZU?t=1303" %}
 {% endraw %}
 ```
 
 ```html
 <!-- Will be replaced with this web component -->
-<lite-youtube videoId="bewKPi9gdT4" videoStartAt="0" posterquality="maxresdefault"></lite-youtube>
+<lite-youtube videoId="hrHpyE72DZU" videoStartAt="1303" posterquality="maxresdefault"></lite-youtube>
 ```
 
 Pretty handy!
@@ -56,6 +56,6 @@ I hope this will make a better experience for anyone who reads this, and I think
 
 Just to test it out (fingers crossed):
 
-{% youtube "https://youtu.be/bewKPi9gdT4" %}
+{% youtube "https://youtu.be/hrHpyE72DZU?t=1303" %}
 
 {% tcg-card "https://samwarnick.com/media/bullpen-tcg/Sam.png" "A custom trading card featuring a LEGO minifigure with glasses and dark hair wearing a jacket with a Pokéball logo. The card is titled 'Sam - @hugemanatee', and shows two abilities: 'Devil's Avocado' (place one message in another conversation, you're fun) and 'Burnout' (get 2 projects 80% done, lose next turn)." %}
