@@ -9,7 +9,7 @@ published: true
 > [!NOTE]
 > This post originally appeared on lemonpointbricks.com
 
-<iframe src="https://www.youtube-nocookie.com/embed/8Jgsi0rAnqQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% youtube "https://youtu.be/8Jgsi0rAnqQ" %}
 
 A lot of us were taught the 3 R's as kids—reduce, reuse, recycle. When it comes to LEGO, we're definitely not going to reduce. But what about reuse? Many of us reuse pieces from sets to build new things. That's kinda small scale though.
 

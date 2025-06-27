@@ -26,4 +26,4 @@ Hit me up on [Twitter](https://twitter/com/samwarnick) if you have and comments 
 
 ## The Video
 
-<iframe src="https://www.youtube-nocookie.com/embed/56mETnrByBM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% youtube "https://youtu.be/56mETnrByBM" %}

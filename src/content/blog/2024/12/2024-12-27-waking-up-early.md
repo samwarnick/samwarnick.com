@@ -13,7 +13,7 @@ The last couple of weeks, I've been doing an unscientific experiment. Waking up 
 
 As I was experimenting, [DevDuck](https://www.youtube.com/@DevDuck) came out with a video about the topic. It's a good watch.
 
-<iframe src="https://www.youtube-nocookie.com/embed/CiiwYELT2uU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% youtube "https://youtu.be/CiiwYELT2uU" %}
 
 The days I've been able to actually get up and do something have been great. I feel like 1,000% better when I get up early and do something outside of my "normal responsibilities." When my kids get up, I'm already awake and somewhat alert. It makes the morning routine much easier to handle. The problem is, with a new baby in the house, I'm so sleep-deprived that I just can't regularly get up when I want to. It is easier to get up when I'm excited to work on something—projects are more exciting than exercise for me—but right now, most days it just doesn't feel reasonable. But maybe it's possible if I just do it™ and have lots of Coke.
 

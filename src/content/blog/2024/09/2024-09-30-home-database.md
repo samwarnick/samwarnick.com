@@ -7,7 +7,7 @@ published: true
 ---
 I was reading [Dave's post on index card journaling](https://catskull.net/index-card-journaling.html)  the other day. In it is a YouTube video.
 
-<iframe src="https://www.youtube-nocookie.com/embed/B1QqAZeEfes" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% youtube "https://youtu.be/B1QqAZeEfes" %}
 
 The TL;DR of this video is put labels on things. But, also in it, are labels with QR codes. This got my brain excited.
 
