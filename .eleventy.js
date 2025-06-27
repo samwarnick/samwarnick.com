@@ -121,7 +121,7 @@ export default async function (eleventyConfig) {
 		return content
 			// Replace lite-youtube with iframe
 			.replace(
-				/<lite-youtube\s+videoId="([^"]+)"(?:\s+videoStartAt="([^"]+)")?[^>]*>.*<\/lite-youtube>/gs,
+				/<lite-youtube\s+videoId="([^"]+)"(?:\s+videoStartAt="([^"]+)")?[^>]*>.*?<\/lite-youtube>/gs,
 				(match, videoId, startTime) => {
 					const startParam = startTime ? `&start=${startTime}` : '';
 					return `<iframe src="https://www.youtube.com/embed/${videoId}?feature=oembed${startParam}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
