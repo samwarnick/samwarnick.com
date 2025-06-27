@@ -109,6 +109,12 @@ export default async function (eleventyConfig) {
 			return `<lite-youtube videoid="${id}" videoStartAt="${timestamp ?? 0}" posterquality="maxresdefault"></lite-youtube>`;
 		}
 	});
+	eleventyConfig.addShortcode("tcg-card", function (src, alt, style) {
+		return `<tcg-card src="${src}" alt="${alt}" style="${style ?? 'width: 300px; margin-inline: auto;'}">
+				<img src="${src}" alt="${alt}" style="${style ?? 'width: 300px; margin-inline: auto;'}"></img>
+				<p>(You're viewing this post somewhere that does not support JS, like RSS. Load this page with JS to interact.)</p>
+			</tcg-card>`;
+	})
 	eleventyConfig.addFilter("replaceWebComponents", function(content) {
 		return content
 			// Replace lite-youtube with iframe
@@ -116,14 +122,7 @@ export default async function (eleventyConfig) {
 				/<lite-youtube[^>]*videoid="([^"]+)"[^>]*(?:videostarttime="([^"]+)")?[^>]*>.*?<\/lite-youtube>/gs,
 				(match, videoId, startTime) => {
 					const startParam = startTime ? `&start=${startTime}` : '';
-					return `<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/${videoId}?${startParam}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
-				}
-			)
-			// Replace tcg-card with img
-			.replace(
-				/<tcg-card([^>]*)>.*?<\/tcg-card>/gs,
-				(match, attributes) => {
-					return `<img${attributes}>`;
+					return `<iframe src="https://www.youtube-nocookie.com/embed/${videoId}?${startParam}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
 				}
 			);
 	});
