@@ -37,6 +37,11 @@ from = "/feed.rss"
 to = "/rss.xml"
 status = 301
 
+[[redirects]]
+from = "/styleguide"
+to = "/site/#styleguide"
+status = 302
+
 [functions]
 directory = "functions"
 included_files = ["./_site/feed.json"]
