@@ -33,6 +33,8 @@ Last updated: Jun 26, 2025
 - Ignore all these if it feels right.
   - Except for the Oxford comma you monster.
 
+Disagree with these? You can attempt to politely tell me why I should change something. Or keep quiet and do whatever you want on your own blog.
+
 ## //TODO:
 <ul>
 	{%- for issue in githubIssues -%}
