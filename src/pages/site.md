@@ -13,7 +13,7 @@ layout: layouts/page
 - Icons from [Hericons](https://heroicons.com)
 
 ## Styleguide{id=styleguide}
-
+Last updated: Jun 26, 2025
 *subject to change without notice. I probably will not go back to old posts to update.
 
 - Oxford comma must be used.
@@ -24,10 +24,10 @@ layout: layouts/page
   - frontend (not front end or front-end)
   - email (not e-mail)
 - Do not use hyphens for em dashes or en dashes.
+- Spell out numbers under 10.
 - When using multiple exclamation points or question marks, use at least 12.
   - Adds emphasis!!!!!!!!!!!!
   - Just kidding. I like using two to show I'm a fun, casual dude!!
-- Spell out numbers under 10.
 - Made-up words are okay. All words are just made up to trick children anyway.
 - I know it's "right" to put the punctuation inside the quotation marks, but I'm not sold. So for now, only do that for dialog, not scare quote "stuff".
 - Ignore all these if it feels right.
