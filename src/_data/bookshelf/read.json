@@ -1,0 +1,1473 @@
+[
+  {
+    "year": 2025,
+    "books": [
+      {
+        "id": "58BEEA31-D04C-498F-AC4A-88D7AF7B9D57",
+        "isbn": "9780593820285",
+        "title": "The Dungeon Anarchist's Cookbook",
+        "author": "Dinniman, Matt",
+        "startedReading": "2025-04-13",
+        "finishedReading": "2025-05-04",
+        "didNotFinish": ""
+      },
+      {
+        "id": "47B62F2B-8141-49C1-B790-C2E61354CBA6",
+        "isbn": "9780593820261",
+        "title": "Carl's Doomsday Scenario",
+        "author": "Dinniman, Matt",
+        "startedReading": "2025-04-05",
+        "finishedReading": "2025-04-13",
+        "didNotFinish": ""
+      },
+      {
+        "id": "F6683318-1498-4731-91E4-A2C5811E2E5C",
+        "isbn": "9780593820247",
+        "title": "Dungeon Crawler Carl",
+        "author": "Dinniman, Matt",
+        "startedReading": "2025-03-30",
+        "finishedReading": "2025-04-04",
+        "didNotFinish": ""
+      },
+      {
+        "id": "6CFB8705-B782-47CC-B43B-DB428269514B",
+        "isbn": "9781250217325",
+        "title": "The House in the Cerulean Sea",
+        "author": "Klune, TJ",
+        "startedReading": "2025-03-22",
+        "finishedReading": "2025-03-27",
+        "didNotFinish": ""
+      },
+      {
+        "id": "E5C02FE7-17B9-4214-929E-A29C32017DC1",
+        "isbn": "9780593296370",
+        "title": "Table for Two",
+        "author": "Towles, Amor",
+        "startedReading": "2025-02-16",
+        "finishedReading": "2025-03-12",
+        "didNotFinish": ""
+      },
+      {
+        "id": "9D47A881-F3E2-487D-8C95-DEE7C2AB3BB6",
+        "isbn": "9781250290298",
+        "title": "Service Model",
+        "author": "Tchaikovsky, Adrian",
+        "startedReading": "2025-02-01",
+        "finishedReading": "2025-02-15",
+        "didNotFinish": ""
+      },
+      {
+        "id": "E5F6CEBF-9FF1-4B16-9F94-583145E4688E",
+        "isbn": "9781250319180",
+        "title": "Wind and Truth",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2024-12-06",
+        "finishedReading": "2025-01-26",
+        "didNotFinish": ""
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "books": [
+      {
+        "id": "28F4A738-5276-484E-9A81-150C6AA7D6C5",
+        "isbn": "9781618241214",
+        "title": "On Basilisk Station",
+        "author": "Weber, David",
+        "startedReading": "2024-10-03",
+        "finishedReading": "2024-12-01",
+        "didNotFinish": ""
+      },
+      {
+        "id": "4C099A30-B169-4C87-BDE7-67F58A3682AE",
+        "isbn": "9780316418553",
+        "title": "Humankind",
+        "author": "Bregman, Rutger",
+        "startedReading": "2024-08-01",
+        "finishedReading": "2024-09-14",
+        "didNotFinish": ""
+      },
+      {
+        "id": "047A09DD-FA49-496C-B6DB-79FB073E7601",
+        "isbn": "9780316202275",
+        "title": "Caliban's War",
+        "author": "Corey, James S. A.",
+        "startedReading": "2024-06-25",
+        "finishedReading": "2024-07-25",
+        "didNotFinish": ""
+      },
+      {
+        "id": "7D7F9F9E-804D-4E2E-9CDE-0B951FF29E9F",
+        "isbn": "9780316134675",
+        "title": "Leviathan Wakes",
+        "author": "Corey, James S. A.",
+        "startedReading": "2024-06-14",
+        "finishedReading": "2024-06-24",
+        "didNotFinish": ""
+      },
+      {
+        "id": "69E2A6D5-24F1-4358-AA34-E0ADA3277A2C",
+        "isbn": "9780062444127",
+        "title": "The Long Way to a Small, Angry Planet",
+        "author": "Chambers, Becky",
+        "startedReading": "2024-05-05",
+        "finishedReading": "2024-05-12",
+        "didNotFinish": ""
+      },
+      {
+        "id": "3A8EE997-60FF-481D-84D2-F2FC8CBD8C37",
+        "isbn": "9781250886095",
+        "title": "Legends & Lattes",
+        "author": "Baldree, Travis",
+        "startedReading": "2024-05-02",
+        "finishedReading": "2024-05-04",
+        "didNotFinish": ""
+      },
+      {
+        "id": "7CE0BF8A-DE0B-4891-B817-2A54EA31CBAE",
+        "isbn": "9781680682267",
+        "title": "Heaven's River",
+        "author": "Taylor, Dennis E.",
+        "startedReading": "2024-04-27",
+        "finishedReading": "2024-05-03",
+        "didNotFinish": ""
+      },
+      {
+        "id": "E8E0DF39-6ABC-4501-96A5-7568186F0803",
+        "isbn": "9781680680607",
+        "title": "All These Worlds",
+        "author": "Taylor, Dennis E.",
+        "startedReading": "2024-04-25",
+        "finishedReading": "2024-04-27",
+        "didNotFinish": ""
+      },
+      {
+        "id": "8C94BA0D-6962-4B75-AACD-360A4FEAD6AD",
+        "isbn": "9781680680591",
+        "title": "For We Are Many",
+        "author": "Taylor, Dennis E.",
+        "startedReading": "2024-04-20",
+        "finishedReading": "2024-04-25",
+        "didNotFinish": ""
+      },
+      {
+        "id": "F3F39FFA-E29E-4FA1-A1A3-7CA4F6B0EAF8",
+        "isbn": "9781250236241",
+        "title": "A Prayer for the Crown-Shy",
+        "author": "Chambers, Becky",
+        "startedReading": "2024-04-17",
+        "finishedReading": "2024-04-19",
+        "didNotFinish": ""
+      },
+      {
+        "id": "D6063DBF-804F-4FF3-8C39-4BDCF34292E1",
+        "isbn": "9781680680584",
+        "title": "We Are Legion (We Are Bob)",
+        "author": "Taylor, Dennis E.",
+        "startedReading": "2024-04-14",
+        "finishedReading": "2024-04-17",
+        "didNotFinish": ""
+      },
+      {
+        "id": "99174733-97D7-4B3C-AB70-49C18FEE02F4",
+        "isbn": "9780718184148",
+        "title": "The Eve Illusion",
+        "author": "Fletcher, Giovanna; Fletcher, Tom",
+        "startedReading": "2024-03-31",
+        "finishedReading": "2024-04-13",
+        "didNotFinish": ""
+      },
+      {
+        "id": "93286786-A18E-4D67-B1D4-ABE541B3342D",
+        "isbn": "9781250236227",
+        "title": "A Psalm for the Wild-Built",
+        "author": "Chambers, Becky",
+        "startedReading": "2024-03-24",
+        "finishedReading": "2024-03-31",
+        "didNotFinish": ""
+      },
+      {
+        "id": "59784848-0F89-4B74-98B3-816001E97D6A",
+        "isbn": "9780593544853",
+        "title": "Slow Productivity",
+        "author": "Newport, Cal",
+        "startedReading": "2024-03-16",
+        "finishedReading": "2024-03-21",
+        "didNotFinish": ""
+      },
+      {
+        "id": "F3CFC23C-52B5-49CE-8017-03CC57CEFFD9",
+        "isbn": "9780857669469",
+        "title": "The Nova Incident",
+        "author": "Moren, Dan",
+        "startedReading": "2024-03-16",
+        "finishedReading": "2024-03-16",
+        "didNotFinish": ""
+      },
+      {
+        "id": "EFD257F7-E0D1-4998-8C6D-BD94EC301EDD",
+        "isbn": "9780593309711",
+        "title": "Defiant",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-12-31",
+        "finishedReading": "2024-01-21",
+        "didNotFinish": ""
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "books": [
+      {
+        "id": "083B309F-8948-415A-B3BD-0E19B97B188D",
+        "isbn": "9780857668486",
+        "title": "The Aleph Extraction",
+        "author": "Moren, Dan",
+        "startedReading": "2023-10-21",
+        "finishedReading": "2023-12-27",
+        "didNotFinish": ""
+      },
+      {
+        "id": "6FEF14C2-BA97-482A-A800-396F8D7DC9FB",
+        "isbn": "9781250826978",
+        "title": "System Collapse",
+        "author": "Wells, Martha",
+        "startedReading": "2023-12-10",
+        "finishedReading": "2023-12-16",
+        "didNotFinish": ""
+      },
+      {
+        "id": "DC013E46-EB3F-4612-8C25-A7B52CA7C4C4",
+        "isbn": "9780316552745",
+        "title": "The Shadow of What Was Lost",
+        "author": "Islington, James",
+        "startedReading": "2023-11-12",
+        "finishedReading": "2023-12-10",
+        "didNotFinish": ""
+      },
+      {
+        "id": "37895FF3-E600-4AE1-95C3-C7A4D9BD4C9A",
+        "isbn": "9781982141196",
+        "title": "The Will of the Many",
+        "author": "Islington, James",
+        "startedReading": "2023-11-03",
+        "finishedReading": "2023-11-12",
+        "didNotFinish": ""
+      },
+      {
+        "id": "BB612B04-8484-48F8-9DCD-EE90B43BD4E3",
+        "isbn": "9781541701571",
+        "title": "The Future Is Analog",
+        "author": "Sax, David",
+        "startedReading": "2023-10-16",
+        "finishedReading": "2023-10-31",
+        "didNotFinish": ""
+      },
+      {
+        "id": "F148DC3B-0F65-4A3D-A7BF-78324A9FCBFF",
+        "isbn": "9781610395717",
+        "title": "The Revenge of Analog",
+        "author": "Sax, David",
+        "startedReading": "2023-10-18",
+        "finishedReading": "2023-10-26",
+        "didNotFinish": ""
+      },
+      {
+        "id": "7E17C565-A0C7-432F-AA32-81C4A2468D45",
+        "isbn": "9781524759780",
+        "title": "Recursion",
+        "author": "Crouch, Blake",
+        "startedReading": "2023-10-12",
+        "finishedReading": "2023-10-15",
+        "didNotFinish": ""
+      },
+      {
+        "id": "06349696-A87A-4CEB-BACB-567F89277567",
+        "isbn": "9781982140113",
+        "title": "Laziness Does Not Exist",
+        "author": "Price, Devon",
+        "startedReading": "2023-10-08",
+        "finishedReading": "2023-10-11",
+        "didNotFinish": ""
+      },
+      {
+        "id": "6A886706-A5BA-4E9B-8CC6-08775A250E56",
+        "isbn": "9781250765376",
+        "title": "Fugitive Telemetry",
+        "author": "Wells, Martha",
+        "startedReading": "2023-10-07",
+        "finishedReading": "2023-10-08",
+        "didNotFinish": ""
+      },
+      {
+        "id": "5361B41A-94BC-48F6-B4BF-214731C58D4D",
+        "isbn": "9781938570025",
+        "title": "The Emperor's Soul",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-10-04",
+        "finishedReading": "2023-10-07",
+        "didNotFinish": ""
+      },
+      {
+        "id": "CEE908D3-E6C1-430D-9A7A-C39F55147F09",
+        "isbn": "9780399592072",
+        "title": "Everything Happens for a Reason",
+        "author": "Bowler, Kate",
+        "startedReading": "2023-10-04",
+        "finishedReading": "2023-10-05",
+        "didNotFinish": ""
+      },
+      {
+        "id": "8AB28F63-2A95-484B-A6BE-9A0FE1052FA1",
+        "isbn": "9781938570414",
+        "title": "The Sunlit Man",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-10-01",
+        "finishedReading": "2023-10-03",
+        "didNotFinish": ""
+      },
+      {
+        "id": "412C6D07-D58E-4CE4-A416-A25417FDB065",
+        "isbn": "9781938570087",
+        "title": "Shadows for Silence in the Forests of Hell",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-10-01",
+        "finishedReading": "2023-10-01",
+        "didNotFinish": ""
+      },
+      {
+        "id": "33735444-6047-4CFC-9CC1-9FE4FCA900E0",
+        "isbn": "9781938570261",
+        "title": "Dawnshard",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-09-30",
+        "finishedReading": "2023-10-01",
+        "didNotFinish": ""
+      },
+      {
+        "id": "49C970A5-7E41-438B-B8C0-65A464FAF113",
+        "isbn": "9780718186340",
+        "title": "Eve of Man",
+        "author": "Fletcher, Giovanna; Fletcher, Tom",
+        "startedReading": "2023-09-27",
+        "finishedReading": "2023-09-30",
+        "didNotFinish": ""
+      },
+      {
+        "id": "42F42810-9326-4A3A-BB5B-1DED547E4CEF",
+        "isbn": "9781523506644",
+        "title": "Keep Going",
+        "author": "Kleon, Austin",
+        "startedReading": "2023-09-23",
+        "finishedReading": "2023-09-27",
+        "didNotFinish": ""
+      },
+      {
+        "id": "12585044-D856-4E84-B06E-4FCDE47E9937",
+        "isbn": "9781938570070",
+        "title": "Sixth of the Dusk",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-09-23",
+        "finishedReading": "2023-09-26",
+        "didNotFinish": ""
+      },
+      {
+        "id": "0EF51A5B-2344-4724-9199-1EE2C4293AF7",
+        "isbn": "9781429952040",
+        "title": "Rhythm of War",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-08-10",
+        "finishedReading": "2023-09-22",
+        "didNotFinish": ""
+      },
+      {
+        "id": "2087886A-AA34-4717-9062-B73FB854F62D",
+        "isbn": "",
+        "title": "Hypermedia Systems",
+        "author": "Gross, Carson; Stepinski, Adam; Akşimşk, Deniz",
+        "startedReading": "2023-08-31",
+        "finishedReading": "2023-09-07",
+        "didNotFinish": ""
+      },
+      {
+        "id": "E52A08BD-3D59-414E-B8EF-E2162438E88D",
+        "isbn": "9781328869333",
+        "title": "1984",
+        "author": "Orwell, George",
+        "startedReading": "2023-08-01",
+        "finishedReading": "2023-08-09",
+        "didNotFinish": ""
+      },
+      {
+        "id": "76DE701F-7A6A-4701-8ADB-BE5F742B9BC7",
+        "isbn": "9781607747314",
+        "title": "The Life-Changing Magic of Tidying Up",
+        "author": "Kondo, Marie",
+        "startedReading": "2023-07-30",
+        "finishedReading": "2023-07-31",
+        "didNotFinish": ""
+      },
+      {
+        "id": "EEBE91E0-3454-4F49-A6B8-EE18FA35E7D0",
+        "isbn": "9780307352149",
+        "title": "Quiet",
+        "author": "Cain, Susan",
+        "startedReading": "2023-07-19",
+        "finishedReading": "2023-07-30",
+        "didNotFinish": ""
+      },
+      {
+        "id": "7881B625-7A22-456D-BE05-20D4D4AF37B2",
+        "isbn": "9781476766812",
+        "title": "Make Your Kid A Money Genius (Even If You're Not)",
+        "author": "Kobliner, Beth",
+        "startedReading": "2023-06-30",
+        "finishedReading": "2023-07-19",
+        "didNotFinish": ""
+      },
+      {
+        "id": "EFB348B7-CBC6-4749-8F0C-BD8A03D4B314",
+        "isbn": "9781938570407",
+        "title": "Yumi and the Nightmare Painter",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-07-03",
+        "finishedReading": "2023-07-17",
+        "didNotFinish": ""
+      },
+      {
+        "id": "29C19EEF-88EA-4F86-ABD5-FFD562146D02",
+        "isbn": "9780765399830",
+        "title": "Oathbringer",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-05-16",
+        "finishedReading": "2023-06-30",
+        "didNotFinish": ""
+      },
+      {
+        "id": "63175AB4-A92B-460F-8E94-2C2829E5406A",
+        "isbn": "9781250166609",
+        "title": "Edgedancer",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-05-13",
+        "finishedReading": "2023-05-16",
+        "didNotFinish": ""
+      },
+      {
+        "id": "C651C023-7B55-4389-BF82-AC59782DFD5C",
+        "isbn": "9781429949620",
+        "title": "Words of Radiance",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-04-29",
+        "finishedReading": "2023-05-12",
+        "didNotFinish": ""
+      },
+      {
+        "id": "9CA2E96F-1B09-40AC-B9CB-10E73D1C1640",
+        "isbn": "9780765376671",
+        "title": "The Way of Kings",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-04-06",
+        "finishedReading": "2023-04-29",
+        "didNotFinish": ""
+      },
+      {
+        "id": "58628251-DD16-455C-A566-302FDC11BB10",
+        "isbn": "9780385546140",
+        "title": "How to Avoid a Climate Disaster",
+        "author": "Gates, Bill",
+        "startedReading": "2023-04-05",
+        "finishedReading": "2023-04-17",
+        "didNotFinish": ""
+      },
+      {
+        "id": "52DFB072-304A-48DD-B1EC-A88494602D41",
+        "isbn": "9781938570384",
+        "title": "The Frugal Wizard’s Handbook for Surviving Medieval England",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-04-02",
+        "finishedReading": "2023-04-05",
+        "didNotFinish": ""
+      },
+      {
+        "id": "D2799EC7-26F4-4888-A108-89D6E17A9DFF",
+        "isbn": "9780857668202",
+        "title": "The Bayern Agenda",
+        "author": "Moren, Dan",
+        "startedReading": "2023-03-26",
+        "finishedReading": "2023-04-02",
+        "didNotFinish": ""
+      },
+      {
+        "id": "1D4A5596-8177-4CB4-A4A8-25EA1C057B29",
+        "isbn": "9780984358106",
+        "title": "The Millionaire Fastlane",
+        "author": "DeMarco, MJ",
+        "startedReading": "2023-03-26",
+        "finishedReading": "2023-03-31",
+        "didNotFinish": ""
+      },
+      {
+        "id": "09373CAA-B01F-4052-B3D4-99288A6FD40B",
+        "isbn": "9781548171704",
+        "title": "The Long March",
+        "author": "Fox, Richard",
+        "startedReading": "2023-03-04",
+        "finishedReading": "2023-03-26",
+        "didNotFinish": ""
+      },
+      {
+        "id": "4E4DEA9F-F493-4BF2-B4B6-1CBC612CAE44",
+        "isbn": "9781524763169",
+        "title": "A Promised Land",
+        "author": "Obama, Barack",
+        "startedReading": "2023-03-12",
+        "finishedReading": "2023-03-26",
+        "didNotFinish": ""
+      },
+      {
+        "id": "4AC72E91-4CD1-4C07-8F65-DC0772A759A6",
+        "isbn": "9781542917698",
+        "title": "Albion Lost",
+        "author": "Fox, Richard",
+        "startedReading": "2023-02-12",
+        "finishedReading": "2023-02-25",
+        "didNotFinish": ""
+      },
+      {
+        "id": "3D711EB8-076D-408E-A3B7-788EC415EBD9",
+        "isbn": "9780765329042",
+        "title": "Earth Unaware",
+        "author": "Card, Orson Scott; Johnston, Aaron",
+        "startedReading": "2023-02-05",
+        "finishedReading": "2023-02-08",
+        "didNotFinish": ""
+      },
+      {
+        "id": "E43D34BB-6E27-4E30-B30D-9850F9AE4C5D",
+        "isbn": "9781501135934",
+        "title": "Shoe Dog",
+        "author": "Knight, Phil",
+        "startedReading": "2023-01-29",
+        "finishedReading": "2023-02-04",
+        "didNotFinish": ""
+      },
+      {
+        "id": "FD35AE87-B5CC-47AD-9D1E-C9457A2A0462",
+        "isbn": "9781250229847",
+        "title": "Network Effect",
+        "author": "Wells, Martha",
+        "startedReading": "2023-01-18",
+        "finishedReading": "2023-01-29",
+        "didNotFinish": ""
+      },
+      {
+        "id": "60C0C75E-883F-4B3D-B868-9A5A85DC6F3C",
+        "isbn": "9781250185464",
+        "title": "Exit Strategy",
+        "author": "Wells, Martha",
+        "startedReading": "2023-01-15",
+        "finishedReading": "2023-01-17",
+        "didNotFinish": ""
+      },
+      {
+        "id": "321BF861-4E14-4D08-BBF1-597C263B880D",
+        "isbn": "9781250191786",
+        "title": "Rogue Protocol",
+        "author": "Wells, Martha",
+        "startedReading": "2023-01-15",
+        "finishedReading": "2023-01-15",
+        "didNotFinish": ""
+      },
+      {
+        "id": "3105458B-7A96-4A88-B011-A65137D7EA40",
+        "isbn": "9781250186928",
+        "title": "Artificial Condition",
+        "author": "Wells, Martha",
+        "startedReading": "2023-01-13",
+        "finishedReading": "2023-01-14",
+        "didNotFinish": ""
+      },
+      {
+        "id": "4B41EA16-7413-49BA-AB7F-856B09829FE1",
+        "isbn": "9780765397539",
+        "title": "All Systems Red",
+        "author": "Wells, Martha",
+        "startedReading": "2023-01-11",
+        "finishedReading": "2023-01-12",
+        "didNotFinish": ""
+      },
+      {
+        "id": "0243AD9B-9637-475D-A9AD-8DA0DA12A812",
+        "isbn": "9780765381026",
+        "title": "Elantris",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-01-06",
+        "finishedReading": "2023-01-08",
+        "didNotFinish": ""
+      },
+      {
+        "id": "35DCDD2E-101A-437E-894C-DC32E8ECC0C2",
+        "isbn": "9781938570346",
+        "title": "Tress Of The Emerald Sea",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2023-01-01",
+        "finishedReading": "2023-01-06",
+        "didNotFinish": ""
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "books": [
+      {
+        "id": "7AAFED43-D0EA-41D5-92E5-78D96C469C4A",
+        "isbn": "9780765391209",
+        "title": "The Lost Metal",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2022-11-27",
+        "finishedReading": "2022-12-31",
+        "didNotFinish": ""
+      },
+      {
+        "id": "427EF278-D5DC-4D36-876F-8B5A17AD2667",
+        "isbn": "9781455566389",
+        "title": "Tribe",
+        "author": "Junger, Sebastian",
+        "startedReading": "2022-12-02",
+        "finishedReading": "2022-12-05",
+        "didNotFinish": ""
+      },
+      {
+        "id": "43B23ED8-A746-435B-A734-3CA2658F51E7",
+        "isbn": "9780063046078",
+        "title": "Build",
+        "author": "Fadell, Tony",
+        "startedReading": "2022-10-30",
+        "finishedReading": "2022-11-27",
+        "didNotFinish": ""
+      },
+      {
+        "id": "C8E5DAFB-4C8D-47ED-863C-ABE1575B1B67",
+        "isbn": "9781982167400",
+        "title": "Building a Second Brain",
+        "author": "Forte, Tiago",
+        "startedReading": "2022-10-23",
+        "finishedReading": "2022-10-29",
+        "didNotFinish": ""
+      },
+      {
+        "id": "C890307C-EB08-4411-872C-AAB76422D0A8",
+        "isbn": "9781429967945",
+        "title": "Warbreaker",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2022-08-09",
+        "finishedReading": "2022-10-13",
+        "didNotFinish": ""
+      },
+      {
+        "id": "34DAEA49-EF17-4D66-9977-D1E175A30BAD",
+        "isbn": "9780735214149",
+        "title": "Profit First",
+        "author": "Michalowicz, Mike",
+        "startedReading": "2022-09-07",
+        "finishedReading": "2022-09-12",
+        "didNotFinish": ""
+      },
+      {
+        "id": "A1A923CC-33AF-47DC-911E-01E3F1AFDDCB",
+        "isbn": "9781785780233",
+        "title": "The Year of Living Danishly",
+        "author": "Russell, Helen",
+        "startedReading": "2022-09-03",
+        "finishedReading": "2022-09-06",
+        "didNotFinish": ""
+      },
+      {
+        "id": "1069AE16-7402-4FB4-BB1E-CF27CC3CC72C",
+        "isbn": "9780593358610",
+        "title": "Star Wars: Shadow of the Sith",
+        "author": "Christopher, Adam",
+        "startedReading": "2022-07-02",
+        "finishedReading": "2022-08-05",
+        "didNotFinish": ""
+      },
+      {
+        "id": "53C5D9CF-F142-4D2F-A1B4-C0040F9F7C13",
+        "isbn": "9781938570124",
+        "title": "Mistborn: Secret History",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2022-05-24",
+        "finishedReading": "2022-06-25",
+        "didNotFinish": ""
+      },
+      {
+        "id": "B3C79A9A-A533-4E95-9950-806A4759A2D2",
+        "isbn": "9780316705820",
+        "title": "Shards of Earth",
+        "author": "Tchaikovsky, Adrian",
+        "startedReading": "2022-04-16",
+        "finishedReading": "2022-05-22",
+        "didNotFinish": ""
+      },
+      {
+        "id": "FF17FBDE-F37E-4FEA-8C0E-EDE530C3E19D",
+        "isbn": "9781466862678",
+        "title": "The Bands of Mourning",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2022-03-26",
+        "finishedReading": "2022-04-16",
+        "didNotFinish": ""
+      },
+      {
+        "id": "2E0E5B4E-AB0D-427A-878F-B93E0170D352",
+        "isbn": "9780763660208",
+        "title": "The Tail of Emily Windsnap",
+        "author": "Kessler, Liz",
+        "startedReading": "2022-03-27",
+        "finishedReading": "2022-03-27",
+        "didNotFinish": ""
+      },
+      {
+        "id": "B5101CD5-E785-4B01-8F03-CAA87D5B3FFE",
+        "isbn": "9781529101393",
+        "title": "Star Wars: Victory's Price",
+        "author": "Freed, Alexander",
+        "startedReading": "2022-03-14",
+        "finishedReading": "2022-03-25",
+        "didNotFinish": ""
+      },
+      {
+        "id": "E7E07120-7D5D-47B8-9CC1-4746B1993B4D",
+        "isbn": "9780140443486",
+        "title": "Lun Yü",
+        "author": "Confucius",
+        "startedReading": "2021-10-17",
+        "finishedReading": "2022-03-13",
+        "didNotFinish": ""
+      },
+      {
+        "id": "DB25DEEB-F2A5-46CC-B919-9FF55232C4B2",
+        "isbn": "9781982159337",
+        "title": "How to Be Perfect",
+        "author": "Schur, Michael",
+        "startedReading": "2022-01-30",
+        "finishedReading": "2022-03-13",
+        "didNotFinish": ""
+      },
+      {
+        "id": "3805A616-3B2F-43DD-AE32-4CACC45CD18D",
+        "isbn": "9780399555855",
+        "title": "Cytonic",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2022-02-26",
+        "finishedReading": "2022-03-10",
+        "didNotFinish": ""
+      },
+      {
+        "id": "767E8C93-3FB6-447E-AB3C-FE95686BA26D",
+        "isbn": "9780316518185",
+        "title": "The Fall of Babel",
+        "author": "Bancroft, Josiah",
+        "startedReading": "2021-12-15",
+        "finishedReading": "2022-01-30",
+        "didNotFinish": ""
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "books": [
+      {
+        "id": "584D2D6A-4814-4241-BC1D-D356B83FB89F",
+        "isbn": "9780765378552",
+        "title": "Shadows of Self",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2021-09-20",
+        "finishedReading": "2021-10-18",
+        "didNotFinish": ""
+      },
+      {
+        "id": "B3ECD95B-3885-4C81-B9BB-E22600C286D4",
+        "isbn": "9780765368546",
+        "title": "The Alloy of Law",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2021-08-29",
+        "finishedReading": "2021-09-12",
+        "didNotFinish": ""
+      },
+      {
+        "id": "85000077-97FD-4A70-BFB3-A1F76619AA59",
+        "isbn": "9780593135204",
+        "title": "Project Hail Mary",
+        "author": "Weir, Andy",
+        "startedReading": "2021-08-21",
+        "finishedReading": "2021-08-27",
+        "didNotFinish": ""
+      },
+      {
+        "id": "A3B0A4FC-4C72-4C65-9F62-87E8E9CF89A7",
+        "isbn": "9780761178972",
+        "title": "Show Your Work!",
+        "author": "Kleon, Austin",
+        "startedReading": "2021-08-14",
+        "finishedReading": "2021-08-17",
+        "didNotFinish": ""
+      },
+      {
+        "id": "D00EBC76-516C-4B45-801B-DFCEBE59A06B",
+        "isbn": "9781984820051",
+        "title": "Shadow Fall (Star Wars)",
+        "author": "Freed, Alexander",
+        "startedReading": "2021-05-09",
+        "finishedReading": "2021-08-09",
+        "didNotFinish": ""
+      },
+      {
+        "id": "A03401F3-293B-4C14-9D65-407B92DD9EE9",
+        "isbn": "9780307465351",
+        "title": "The 4-hour Workweek",
+        "author": "Ferriss, Timothy",
+        "startedReading": "2021-05-05",
+        "finishedReading": "2021-05-16",
+        "didNotFinish": ""
+      },
+      {
+        "id": "9FE609FD-775E-41C1-B96B-1EB9C6E8A7B4",
+        "isbn": "9781501123627",
+        "title": "Into the Black",
+        "author": "White, Rowland",
+        "startedReading": "2021-03-31",
+        "finishedReading": "2021-05-04",
+        "didNotFinish": ""
+      },
+      {
+        "id": "8A8F8FDC-617B-4BB1-88CE-473D5EF42CDC",
+        "isbn": "9780761169253",
+        "title": "Steal Like an Artist",
+        "author": "Kleon, Austin",
+        "startedReading": "2021-04-30",
+        "finishedReading": "2021-05-02",
+        "didNotFinish": ""
+      },
+      {
+        "id": "008D81F1-73A7-484D-A91F-AF9D8B4F9B04",
+        "isbn": "9780593157725",
+        "title": "Star Wars: Light of the Jedi (The High Republic)",
+        "author": "Soule, Charles",
+        "startedReading": "2021-02-02",
+        "finishedReading": "2021-03-28",
+        "didNotFinish": ""
+      },
+      {
+        "id": "37DD133F-F5EF-400F-AF97-CEBDB2492FEF",
+        "isbn": "9780765356147",
+        "title": "The Hero of Ages",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2021-01-02",
+        "finishedReading": "2021-02-01",
+        "didNotFinish": ""
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "books": [
+      {
+        "id": "564AC7C5-C28A-432A-A5B6-E62C16F4332C",
+        "isbn": "9781473539754",
+        "title": "Ready Player Two",
+        "author": "Cline, Ernest",
+        "startedReading": "2020-12-27",
+        "finishedReading": "2021-01-01",
+        "didNotFinish": ""
+      },
+      {
+        "id": "8FAD2622-64D8-494C-A16A-1B08344A3A0D",
+        "isbn": "9780525558620",
+        "title": "Human Compatible",
+        "author": "Russell, Stuart",
+        "startedReading": "2020-11-29",
+        "finishedReading": "2020-12-24",
+        "didNotFinish": ""
+      },
+      {
+        "id": "59BAAC4C-CB50-4535-849D-4B098C2BBF22",
+        "isbn": "9780399592102",
+        "title": "The Ride of a Lifetime",
+        "author": "Iger, Robert",
+        "startedReading": "2020-11-28",
+        "finishedReading": "2020-11-29",
+        "didNotFinish": ""
+      },
+      {
+        "id": "220FB59C-E1A6-48E6-B876-6D047EAFFACE",
+        "isbn": "9781940456850",
+        "title": "The Caledonian Gambit",
+        "author": "Moren, Dan",
+        "startedReading": "2020-11-14",
+        "finishedReading": "2020-11-27",
+        "didNotFinish": ""
+      },
+      {
+        "id": "B4556781-EA7F-4AD2-ABAD-01616BD31FB6",
+        "isbn": "9780525536512",
+        "title": "Digital Minimalism",
+        "author": "Newport, Cal",
+        "startedReading": "2020-11-01",
+        "finishedReading": "2020-11-13",
+        "didNotFinish": ""
+      },
+      {
+        "id": "0719BD1F-64F2-4A12-87F5-84D27A1079F6",
+        "isbn": "9780593201732",
+        "title": "Dune Messiah",
+        "author": "Herbert, Frank",
+        "startedReading": "2020-10-12",
+        "finishedReading": "2020-11-01",
+        "didNotFinish": ""
+      },
+      {
+        "id": "3B55843E-AA7A-4C9C-9FCB-21322770F0BF",
+        "isbn": "9780735211308",
+        "title": "Atomic Habits",
+        "author": "Clear, James",
+        "startedReading": "2020-10-02",
+        "finishedReading": "2020-10-10",
+        "didNotFinish": ""
+      },
+      {
+        "id": "CD672212-9E9B-49B6-9242-CB32F186AAE4",
+        "isbn": "9781466853454",
+        "title": "Death's End",
+        "author": "Liu, Cixin",
+        "startedReading": "2020-09-12",
+        "finishedReading": "2020-10-01",
+        "didNotFinish": ""
+      },
+      {
+        "id": "57AE8826-22F0-4DA2-BB80-29EE742EB696",
+        "isbn": "9781466853430",
+        "title": "The Dark Forest",
+        "author": "Liu, Cixin",
+        "startedReading": "2020-09-03",
+        "finishedReading": "2020-09-09",
+        "didNotFinish": ""
+      },
+      {
+        "id": "FD26F593-3EF4-47DD-9A00-BE55E51AF080",
+        "isbn": "9781466853447",
+        "title": "The Three-Body Problem",
+        "author": "Liu, Cixin",
+        "startedReading": "2020-08-26",
+        "finishedReading": "2020-09-02",
+        "didNotFinish": ""
+      },
+      {
+        "id": "506C4BE8-DCBA-419D-BB29-10AF613323EC",
+        "isbn": "9781984821997",
+        "title": "Alphabet Squadron (Star Wars)",
+        "author": "Freed, Alexander",
+        "startedReading": "2020-08-10",
+        "finishedReading": "2020-08-24",
+        "didNotFinish": ""
+      },
+      {
+        "id": "C8A1338A-B0D2-413A-ADCA-59850CFF7A1D",
+        "isbn": "9781451690132",
+        "title": "The Magic of Reality",
+        "author": "Dawkins, Richard",
+        "startedReading": "2020-07-06",
+        "finishedReading": "2020-07-20",
+        "didNotFinish": ""
+      },
+      {
+        "id": "0E05891A-DE0C-4E5A-9805-61A3EEA644C7",
+        "isbn": "9781538751046",
+        "title": "When Life Gives You Pears",
+        "author": "Gaffigan, Jeannie",
+        "startedReading": "2020-07-04",
+        "finishedReading": "2020-07-05",
+        "didNotFinish": ""
+      },
+      {
+        "id": "2F447A30-0A37-41CC-B06A-CC376D7F11EC",
+        "isbn": "9781451648539",
+        "title": "Steve Jobs",
+        "author": "Isaacson, Walter; JOBS, STEVE",
+        "startedReading": "2020-06-01",
+        "finishedReading": "2020-06-25",
+        "didNotFinish": ""
+      },
+      {
+        "id": "40B61277-CAF5-4803-B89D-8B083CC1DEAA",
+        "isbn": "9780399590511",
+        "title": "Educated",
+        "author": "Westover, Tara",
+        "startedReading": "2020-05-28",
+        "finishedReading": "2020-05-31",
+        "didNotFinish": ""
+      },
+      {
+        "id": "AA3E9D47-3570-4987-9257-778714C7284D",
+        "isbn": "9780441013593",
+        "title": "Dune",
+        "author": "Herbert, Frank",
+        "startedReading": "2020-04-18",
+        "finishedReading": "2020-05-24",
+        "didNotFinish": ""
+      },
+      {
+        "id": "9550E777-1BFD-46AA-85B9-A83E02D455ED",
+        "isbn": "9780345490728",
+        "title": "His Majesty's Dragon",
+        "author": "Novik, Naomi",
+        "startedReading": "2020-03-07",
+        "finishedReading": "2020-04-17",
+        "didNotFinish": ""
+      },
+      {
+        "id": "9F3B1560-F20D-4506-A4DE-F4DEF7E65ECA",
+        "isbn": "9781073741113",
+        "title": "The Lazy Dungeon Master",
+        "author": "Shea, Michael E.",
+        "startedReading": "2020-03-14",
+        "finishedReading": "2020-03-22",
+        "didNotFinish": ""
+      },
+      {
+        "id": "1488559F-5A80-48CC-BFC8-2E3BC7F500E3",
+        "isbn": "9780307887894",
+        "title": "The Lean Startup",
+        "author": "Ries, Eric",
+        "startedReading": "2020-01-09",
+        "finishedReading": "2020-03-01",
+        "didNotFinish": ""
+      },
+      {
+        "id": "7FA5446A-72A0-46DC-8FCE-49C70ED6CBED",
+        "isbn": "9780399555831",
+        "title": "Starsight",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2020-02-03",
+        "finishedReading": "2020-02-12",
+        "didNotFinish": ""
+      },
+      {
+        "id": "8F6E9E96-BCE4-4875-9FE2-C17022502EAD",
+        "isbn": "9780316518055",
+        "title": "The Hod King",
+        "author": "Bancroft, Josiah",
+        "startedReading": "2020-01-12",
+        "finishedReading": "2020-01-26",
+        "didNotFinish": ""
+      },
+      {
+        "id": "C9CC4E70-9830-4DB3-9300-F1699F3C9A99",
+        "isbn": "9789814338189",
+        "title": "Beyond The Moon: A Conversational, Common Sense Guide To Understanding The Tides",
+        "author": "Greig, Mccully James",
+        "startedReading": "2020-01-06",
+        "finishedReading": "2020-01-08",
+        "didNotFinish": ""
+      },
+      {
+        "id": "6CF554C2-EEAF-4972-9DC8-3518F34778D9",
+        "isbn": "9780425285954",
+        "title": "Dark Age",
+        "author": "Brown, Pierce",
+        "startedReading": "2019-12-25",
+        "finishedReading": "2020-01-05",
+        "didNotFinish": ""
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "books": [
+      {
+        "id": "3B5E00FF-1B06-4C9D-9FFA-0DAD5C93D4A5",
+        "isbn": "9781770859180",
+        "title": "5-Minute Sketching -- Landscapes",
+        "author": "Hein, Virginia",
+        "startedReading": "2019-12-25",
+        "finishedReading": "2019-12-27",
+        "didNotFinish": ""
+      },
+      {
+        "id": "CB50B07B-0D44-4077-A18E-D0DF2C94832F",
+        "isbn": "9780316517973",
+        "title": "Arm of the Sphinx",
+        "author": "Bancroft, Josiah",
+        "startedReading": "2019-12-19",
+        "finishedReading": "2019-12-24",
+        "didNotFinish": ""
+      },
+      {
+        "id": "B078C381-1155-4CF6-83FB-6DF2DB1958EA",
+        "isbn": "9780525572435",
+        "title": "Make Time",
+        "author": "Knapp, Jake; Zeratsky, John",
+        "startedReading": "2019-12-16",
+        "finishedReading": "2019-12-18",
+        "didNotFinish": ""
+      },
+      {
+        "id": "6FF37B16-5169-4B66-83CB-6228B44614AE",
+        "isbn": "9781250313560",
+        "title": "The Moment of Lift",
+        "author": "Gates, Melinda",
+        "startedReading": "2019-12-12",
+        "finishedReading": "2019-12-15",
+        "didNotFinish": ""
+      },
+      {
+        "id": "D7FD0E9E-DEF6-43AB-A7EE-6C15B60F689D",
+        "isbn": "9781524731663",
+        "title": "Bad Blood",
+        "author": "Carreyrou, John",
+        "startedReading": "2019-12-07",
+        "finishedReading": "2019-12-11",
+        "didNotFinish": ""
+      },
+      {
+        "id": "59CFD9A7-087A-48C4-9107-3673B5C54824",
+        "isbn": "9781429961813",
+        "title": "The Well of Ascension",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2019-11-28",
+        "finishedReading": "2019-12-07",
+        "didNotFinish": ""
+      },
+      {
+        "id": "2BFC2EBE-421C-4015-A351-15B3A98D6D0C",
+        "isbn": "9780316517904",
+        "title": "Senlin Ascends",
+        "author": "Bancroft, Josiah",
+        "startedReading": "2019-11-22",
+        "finishedReading": "2019-11-28",
+        "didNotFinish": ""
+      },
+      {
+        "id": "E62B5274-D1EB-4849-AF37-4DD31F69A5CF",
+        "isbn": "9780399555794",
+        "title": "Skyward",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2019-11-14",
+        "finishedReading": "2019-11-19",
+        "didNotFinish": ""
+      },
+      {
+        "id": "6BEE28E6-F794-4626-B9E2-80CD28E699BD",
+        "isbn": "",
+        "title": "Jill Warnick",
+        "author": "Warnick, Jill",
+        "startedReading": "2019-10-27",
+        "finishedReading": "2019-11-07",
+        "didNotFinish": ""
+      },
+      {
+        "id": "D83AB792-3A26-4217-9A0F-5D78A454F4A3",
+        "isbn": "9780345542847",
+        "title": "Thrawn (Star Wars)",
+        "author": "Zahn, Timothy",
+        "startedReading": "2019-10-27",
+        "finishedReading": "2019-11-03",
+        "didNotFinish": ""
+      },
+      {
+        "id": "5792CA9B-EEB0-49D8-A904-91897F5A7512",
+        "isbn": "9780143109259",
+        "title": "Modern Romance",
+        "author": "Ansari, Aziz; Klinenberg, Eric",
+        "startedReading": "2019-10-25",
+        "finishedReading": "2019-10-27",
+        "didNotFinish": ""
+      },
+      {
+        "id": "8BAD740C-3279-44F1-B5AB-0413954688F9",
+        "isbn": "9780307361141",
+        "title": "Decisive",
+        "author": "Heath, Chip; Heath, Dan",
+        "startedReading": "2019-10-22",
+        "finishedReading": "2019-10-25",
+        "didNotFinish": ""
+      },
+      {
+        "id": "E7EBE676-61B3-43EA-BBB0-BDD3A2212090",
+        "isbn": "9780393609400",
+        "title": "Astrophysics for People in a Hurry",
+        "author": "Tyson, Neil deGrasse",
+        "startedReading": "2019-10-20",
+        "finishedReading": "2019-10-21",
+        "didNotFinish": ""
+      },
+      {
+        "id": "C413A148-1AAC-4406-BD71-A8B853372035",
+        "isbn": "9780393353167",
+        "title": "The Big Short: Inside the Doomsday Machine (Movie Tie-in Edition)",
+        "author": "Lewis, Michael",
+        "startedReading": "2019-10-16",
+        "finishedReading": "2019-10-20",
+        "didNotFinish": ""
+      },
+      {
+        "id": "53426E35-33FB-4C4B-AA55-AE8A285B2250",
+        "isbn": "9780385349079",
+        "title": "Dad Is Fat",
+        "author": "Gaffigan, Jim",
+        "startedReading": "2019-10-13",
+        "finishedReading": "2019-10-16",
+        "didNotFinish": ""
+      },
+      {
+        "id": "DAA1A0BB-50AF-4C0C-B5D9-39A4C3D5DEA1",
+        "isbn": "9780807047422",
+        "title": "White Fragility",
+        "author": "DiAngelo, Robin",
+        "startedReading": "2019-10-11",
+        "finishedReading": "2019-10-13",
+        "didNotFinish": ""
+      },
+      {
+        "id": "BFCD5997-F165-4517-80A7-6EC2BF872372",
+        "isbn": "9781429914567",
+        "title": "Mistborn",
+        "author": "Sanderson, Brandon",
+        "startedReading": "2019-10-03",
+        "finishedReading": "2019-10-10",
+        "didNotFinish": ""
+      },
+      {
+        "id": "EC308F19-1D34-4532-A250-F50E91574E7D",
+        "isbn": "9780553392906",
+        "title": "Tarkin: Star Wars",
+        "author": "Luceno, James",
+        "startedReading": "2019-09-13",
+        "finishedReading": "2019-09-30",
+        "didNotFinish": ""
+      },
+      {
+        "id": "FDE08617-840E-4C17-B90C-7AD83899A09E",
+        "isbn": "9780425285916",
+        "title": "Iron Gold",
+        "author": "Brown, Pierce",
+        "startedReading": "2019-08-20",
+        "finishedReading": "2019-09-09",
+        "didNotFinish": ""
+      },
+      {
+        "id": "089A0533-E4EE-406D-86E0-A4036335AC95",
+        "isbn": "9780345539854",
+        "title": "Morning Star",
+        "author": "Brown, Pierce",
+        "startedReading": "2019-06-10",
+        "finishedReading": "2019-07-01",
+        "didNotFinish": ""
+      },
+      {
+        "id": "10C52500-B5D8-4CC1-9043-5A0AF65F7A04",
+        "isbn": "9780345539823",
+        "title": "Golden Son",
+        "author": "Brown, Pierce",
+        "startedReading": "2019-03-17",
+        "finishedReading": "2019-03-31",
+        "didNotFinish": ""
+      },
+      {
+        "id": "582471A0-F55B-43EA-89F3-D33229D3FC54",
+        "isbn": "9780345539793",
+        "title": "Red Rising",
+        "author": "Brown, Pierce",
+        "startedReading": "2019-02-23",
+        "finishedReading": "2019-02-27",
+        "didNotFinish": ""
+      },
+      {
+        "id": "742AF3A1-D168-4C59-BD7E-11AB8FC70354",
+        "isbn": "9781524763138",
+        "title": "Becoming",
+        "author": "Obama, Michelle",
+        "startedReading": "2019-01-17",
+        "finishedReading": "2019-02-01",
+        "didNotFinish": ""
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "books": [
+      {
+        "id": "E83F7BD7-2A7B-49D9-B337-506081FCEE76",
+        "isbn": "9780785216247",
+        "title": "Capital Gaines",
+        "author": "Gaines, Chip",
+        "startedReading": "2018-11-05",
+        "finishedReading": "2018-11-16",
+        "didNotFinish": ""
+      },
+      {
+        "id": "EC366054-DEDF-4466-85B1-AC443A91FF1E",
+        "isbn": "9781501188992",
+        "title": "Handcrafted",
+        "author": "Harp, Clint",
+        "startedReading": "2018-10-01",
+        "finishedReading": "2018-10-15",
+        "didNotFinish": ""
+      },
+      {
+        "id": "439D01CD-5F26-476B-A0A5-283F9033EA0D",
+        "isbn": "9781101966976",
+        "title": "Empire's End: Aftermath (Star Wars)",
+        "author": "Wendig, Chuck",
+        "startedReading": "2018-08-19",
+        "finishedReading": "2018-09-02",
+        "didNotFinish": ""
+      },
+      {
+        "id": "BA8AA8FA-FA96-4768-ABDA-C1F73122FA82",
+        "isbn": "9780062473370",
+        "title": "Dragon Teeth",
+        "author": "Crichton, Michael",
+        "startedReading": "2018-07-27",
+        "finishedReading": "2018-08-10",
+        "didNotFinish": ""
+      },
+      {
+        "id": "6A6BA014-FE49-4F99-A246-3ADA0A607AEE",
+        "isbn": "9781101966945",
+        "title": "Life Debt: Aftermath (Star Wars)",
+        "author": "Wendig, Chuck",
+        "startedReading": "2018-07-12",
+        "finishedReading": "2018-07-27",
+        "didNotFinish": ""
+      },
+      {
+        "id": "4AFB552F-17BA-409E-837B-C0ABE18B44DF",
+        "isbn": "9781784750039",
+        "title": "Aftermath",
+        "author": "Wendig, Chuck",
+        "startedReading": "2018-07-05",
+        "finishedReading": "2018-07-12",
+        "didNotFinish": ""
+      },
+      {
+        "id": "077231AC-E9FB-4BD6-9A44-AAE21E671B66",
+        "isbn": "9781982112387",
+        "title": "Principles",
+        "author": "Dalio, Ray",
+        "startedReading": "2018-06-09",
+        "finishedReading": "2018-06-30",
+        "didNotFinish": ""
+      },
+      {
+        "id": "EA1EACA6-16A7-46CC-8FE0-6FB9164DD516",
+        "isbn": "9781788296717",
+        "title": "Full-Stack Vue.js 2 and Laravel 5",
+        "author": "Gore, Anthony",
+        "startedReading": "2018-06-01",
+        "finishedReading": "2018-06-08",
+        "didNotFinish": ""
+      },
+      {
+        "id": "32198CDD-E891-4584-8379-E6766296B5B0",
+        "isbn": "9780307887436",
+        "title": "Ready Player One",
+        "author": "Cline, Ernest",
+        "startedReading": "2018-05-16",
+        "finishedReading": "2018-05-31",
+        "didNotFinish": ""
+      },
+      {
+        "id": "7A4D15C3-94E6-44CF-8FDA-5CE36E2F0CC3",
+        "isbn": "9781455586660",
+        "title": "Deep Work",
+        "author": "Newport, Cal",
+        "startedReading": "2018-05-01",
+        "finishedReading": "2018-05-15",
+        "didNotFinish": ""
+      },
+      {
+        "id": "7CD4595B-0D48-4623-980C-1B0A822BD23F",
+        "isbn": "9780062124142",
+        "title": "Mud, Sweat, and Tears",
+        "author": "Grylls, Bear",
+        "startedReading": "2018-04-19",
+        "finishedReading": "2018-04-30",
+        "didNotFinish": ""
+      },
+      {
+        "id": "FFEB9ECF-ECC2-46F5-8974-65C642381996",
+        "isbn": "9781101984659",
+        "title": "Good Clean Fun",
+        "author": "Offerman, Nick",
+        "startedReading": "2018-04-08",
+        "finishedReading": "2018-04-18",
+        "didNotFinish": ""
+      },
+      {
+        "id": "B8E8AAF9-7C7F-4A4D-B127-67C2CDE4F4A0",
+        "isbn": "9781940611358",
+        "title": "The Minimalist Woodworker",
+        "author": "Tesolin, Vic",
+        "startedReading": "2018-04-01",
+        "finishedReading": "2018-04-07",
+        "didNotFinish": ""
+      },
+      {
+        "id": "47293C95-4841-43CF-8D3A-F6FDBCF457B1",
+        "isbn": "9780061846915",
+        "title": "The Scientist In The Crib",
+        "author": "Gopnik, Alison; Meltzoff, Andrew N.; Kuhl, Patricia K.",
+        "startedReading": "2018-03-16",
+        "finishedReading": "2018-03-16",
+        "didNotFinish": ""
+      },
+      {
+        "id": "CBE2F1E5-3499-455E-A0D7-999B10E3C6C5",
+        "isbn": "9781484705674",
+        "title": "Star Wars: Ahsoka",
+        "author": "Johnston, E. K.",
+        "startedReading": "2018-03-01",
+        "finishedReading": "2018-03-15",
+        "didNotFinish": ""
+      },
+      {
+        "id": "9115B43D-3382-4CDD-80CD-7317393F3DCF",
+        "isbn": "9781591846444",
+        "title": "Start with why",
+        "author": "Sinek, Simon",
+        "startedReading": "2018-02-16",
+        "finishedReading": "2018-02-28",
+        "didNotFinish": ""
+      },
+      {
+        "id": "1C9CA270-9162-43D5-915B-54526802074F",
+        "isbn": "9780262034548",
+        "title": "Turing's Vision",
+        "author": "Bernhardt, Chris",
+        "startedReading": "2018-02-01",
+        "finishedReading": "2018-02-15",
+        "didNotFinish": ""
+      },
+      {
+        "id": "970BCEEF-1C03-4E76-B88C-E84C25E14C11",
+        "isbn": "9780553448122",
+        "title": "Artemis",
+        "author": "Weir, Andy",
+        "startedReading": "2018-01-16",
+        "finishedReading": "2018-01-31",
+        "didNotFinish": ""
+      },
+      {
+        "id": "362D16F3-4000-41FD-87A2-4AEF01C4186C",
+        "isbn": "9780143110439",
+        "title": "A Gentleman in Moscow",
+        "author": "Towles, Amor",
+        "startedReading": "2017-12-26",
+        "finishedReading": "2018-01-15",
+        "didNotFinish": ""
+      }
+    ]
+  }
+]

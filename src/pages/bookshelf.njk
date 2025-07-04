@@ -1,0 +1,42 @@
+---
+title: "/bookshelf"
+layout: layouts/page
+ogImage: og-image/bookshelf.jpg
+---
+
+<div>
+    <p><small>Last updated {{ pokemon.lastUpdated.date | toDate | formattedDate }}</small></p>
+    <h2>Currently Reading</h2>
+    <div class="books">
+        {%- for book in bookshelf.inProgress %}
+            <div class="book">
+                <a href="https://bookshop.org/book/{{ book.isbn }}">
+                    <img src="https://samwarnick.com/media/bookshelf/{{ book.id }}.jpeg" alt="{{ book.title }}">
+                </a>
+                <div>
+                    <h3>{{ book.title }}</h3>
+                    <p>{{ book.author }}</p>
+                </div>
+            </div>
+        {% endfor %}
+        <div></div>
+    </div>
+</div>
+{%- for group in bookshelf.read %}
+    <div>
+        <h2>{{group.year}}</h2>
+        <div class="books">
+        {%- for book in group.books %}
+            <div class="book">
+                <a href="https://bookshop.org/book/{{ book.isbn }}">
+                    <img src="https://samwarnick.com/media/bookshelf/{{ book.id }}.jpeg" alt="{{ book.title }}">
+                </a>
+                <div>
+                    <h3>{{ book.title }}</h3>
+                    <p>{{ book.author }}</p>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+{% endfor %}

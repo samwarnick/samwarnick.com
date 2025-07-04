@@ -1,0 +1,25 @@
+.books {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1em;
+    margin-block: var(--spacing-more);
+
+    &.pack {
+        grid-template-columns: repeat(auto-fit, 240px);
+    }
+}
+
+.book {
+    justify-self: center;
+    width: 240px;
+    a {
+        display: flex;
+    }
+    img {
+        width: 120px;
+        margin: 0;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+}

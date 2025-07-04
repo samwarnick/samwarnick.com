@@ -6,7 +6,8 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "npx @11ty/eleventy --serve --incremental",
-		"pokemon": "node --env-file .env cli/fetchPokemon.js"
+		"pokemon": "node --env-file .env cli/fetchPokemon.js",
+		"bookshelf": "node cli/bookshelf.js"
 	},
 	"keywords": [],
 	"author": "",

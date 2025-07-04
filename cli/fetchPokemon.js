@@ -1,32 +1,11 @@
-import { createReadStream } from "fs";
 import { writeFile } from "fs/promises";
-import { parse } from "csv-parse";
+
 import pokemon from "pokemontcgsdk";
+import {parseCSV} from "./parseCsv.js";
 
 const PROMO_SETS = {
 	svp: "2023/02/01",
 };
-
-async function parseCSV(filePath) {
-	const records = [];
-
-	// Create a read stream
-	const parser = createReadStream(filePath, "utf-16le").pipe(
-		parse({
-			columns: true,
-			skip_empty_lines: true,
-			trim: true,
-			delimiter: ";",
-			bom: true,
-		}),
-	);
-
-	for await (const record of parser) {
-		records.push(record);
-	}
-
-	return records;
-}
 
 async function chunkedMap(array, asyncCallback, chunkSize = 3) {
 	const results = [];
@@ -89,7 +68,13 @@ async function getCollectionData(collection, name) {
 	);
 }
 
-const csvData = await parseCSV("./cli/dexcollection.csv.txt");
+const csvData = await parseCSV("./cli/dexcollection.csv.txt", "utf-16le", {
+	columns: true,
+	skip_empty_lines: true,
+	trim: true,
+	delimiter: ";",
+	bom: true,
+});
 const myCollection = csvData.filter((card) => {
 	return (
 		card.Category === "My Collection" &&

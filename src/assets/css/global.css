@@ -15,6 +15,7 @@
 @import "_rss-feed.css";
 @import "_shiki.css";
 @import "_pokemon.css";
+@import "_bookshelf.css";
 
 @view-transition {
 	navigation: auto;
