@@ -1,6 +1,6 @@
 .books {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 1em;
     margin-block: var(--spacing-more);
 }
@@ -42,15 +42,10 @@
                 0 4px 6px -1px rgb(0 0 0 / 0.1),
                 0 2px 4px -2px rgb(0 0 0 / 0.1);
         border-radius: 4px;
-        width: 128px;
+        max-width: 100%;
+        max-height: 100%;
     }
     h3 {
         font-size: 1rem;
-    }
-}
-
-@media (max-width: 540px) {
-    .book {
-        width: 240px;
     }
 }

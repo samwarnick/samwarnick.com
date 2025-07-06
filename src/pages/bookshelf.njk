@@ -25,7 +25,12 @@ ogImage: og-image/bookshelf.jpg
                 </div>
             </div>
         {% endfor %}
-        <div></div>
+        {%- set emptyCount = 4 - bookshelf.inProgress.length %}
+        {%- if emptyCount > 0 %}
+            {%- for i in range(emptyCount) %}
+                <div class="book empty"></div>
+            {%- endfor %}
+        {%- endif %}
     </div>
 </div>
 {%- for group in bookshelf.read %}
