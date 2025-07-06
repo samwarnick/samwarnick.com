@@ -12,8 +12,11 @@ const csvData = await parseCSV("./cli/bookshelf.csv", "utf8", {
 const books = csvData.map((book) => ({
 	id: book["Reading List ID"],
 	isbn: book["ISBN-13"],
+	googleId: book["Google Books ID"],
 	title: book["Title"],
-	author: book["Authors"],
+	author: book["Authors"].split(";").map((author) => {
+		return author.split(",").reverse().join(" ").trim()
+	}).join("; "),
 	startedReading: book["Started Reading"],
 	finishedReading: book["Finished Reading"],
 	didNotFinish: book["Did Not Finish"],

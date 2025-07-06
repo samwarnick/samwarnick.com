@@ -12,7 +12,7 @@ paths = [".cache", "_site/og-images"]
 package = "netlify-plugin-debug-cache"
 
 [images]
-remote_images = ["https://blog.warnick.me/.*", "https://images.pokemontcg.io/.*"]
+remote_images = ["https://blog.warnick.me/.*", "https://images.pokemontcg.io/.*", "https://books.google.com/.*"]
 
 [build.environment]
 TZ = 'America/New_York'

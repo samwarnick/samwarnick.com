@@ -12,7 +12,12 @@ ogImage: og-image/bookshelf.jpg
         {%- for book in bookshelf.inProgress %}
             <div class="book">
                 <a href="https://bookshop.org/book/{{ book.isbn }}">
-                    <img src="https://samwarnick.com/media/bookshelf/{{ book.id }}.jpeg" alt="{{ book.title }}">
+                    <span class="wrapper">
+                        <img class="background" src="https://books.google.com/books/content?id={{ book.googleId }}&printsec=frontcover&img=1&zoom=1" alt="" aria-hidden="true">
+                    </span>
+                    <span class="cover-wrapper">
+                        <img class="cover" src="https://books.google.com/books/content?id={{ book.googleId }}&printsec=frontcover&img=1&zoom=1" alt="{{ book.title }}">
+                    </span>
                 </a>
                 <div>
                     <h3>{{ book.title }}</h3>
@@ -30,7 +35,12 @@ ogImage: og-image/bookshelf.jpg
         {%- for book in group.books %}
             <div class="book">
                 <a href="https://bookshop.org/book/{{ book.isbn }}">
-                    <img src="https://samwarnick.com/media/bookshelf/{{ book.id }}.jpeg" alt="{{ book.title }}">
+                    <span class="wrapper">
+                        <img class="background" src="https://books.google.com/books/content?id={{ book.googleId }}&printsec=frontcover&img=1&zoom=1" alt="" aria-hidden="true">
+                    </span>
+                    <span class="cover-wrapper">
+                        <img class="cover" src="https://books.google.com/books/content?id={{ book.googleId }}&printsec=frontcover&img=1&zoom=1" alt="{{ book.title }}">
+                    </span>
                 </a>
                 <div>
                     <h3>{{ book.title }}</h3>

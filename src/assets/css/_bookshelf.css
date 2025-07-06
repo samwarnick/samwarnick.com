@@ -3,23 +3,54 @@
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1em;
     margin-block: var(--spacing-more);
-
-    &.pack {
-        grid-template-columns: repeat(auto-fit, 240px);
-    }
 }
 
 .book {
     justify-self: center;
-    width: 240px;
+    width: 100%;
     a {
-        display: flex;
+        isolation: isolate;
+        display: block;
+        position: relative;
+        aspect-ratio: 1/1;
+        overflow: hidden;
+        border-radius: var(--border-radius);
     }
-    img {
-        width: 120px;
-        margin: 0;
+    .wrapper::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        backdrop-filter: blur(20px) saturate(130%);
+    }
+    img.background {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .cover-wrapper {
+        z-index: 1;
+        position: absolute;
+        inset: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: var(--spacing-more)
+    }
+    img.cover {
+        box-shadow:
+                0 4px 6px -1px rgb(0 0 0 / 0.1),
+                0 2px 4px -2px rgb(0 0 0 / 0.1);
+        border-radius: 4px;
+        width: 128px;
     }
     h3 {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .book {
+        width: 240px;
     }
 }
