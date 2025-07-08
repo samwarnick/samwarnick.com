@@ -1,0 +1,14 @@
+<div class="book">
+    <a href="https://bookshop.org/book/{{ book.isbn }}">
+        <div class="wrapper">
+            <img class="background" src="https://books.google.com/books/content?id={{ book.googleId }}&printsec=frontcover&img=1&zoom=1" alt="" aria-hidden="true" loading="lazy">
+        </div>
+        <div class="cover-wrapper">
+            <img class="cover" src="https://books.google.com/books/content?id={{ book.googleId }}&printsec=frontcover&img=1&zoom=1" alt="{{ book.title }}" loading="lazy">
+        </div>
+    </a>
+    <div>
+        <h3>{{ book.title }}</h3>
+        <p>{{ book.author }}</p>
+    </div>
+</div>

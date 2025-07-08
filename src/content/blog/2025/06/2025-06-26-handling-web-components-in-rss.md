@@ -5,7 +5,7 @@ summary: Turns out web components don't work in RSS. Whoops.
 tags:
   - Blog
   - Eleventy
-  - Web Component
+  - Web Components
 published: true
 ---
 To make things easier for myself, I made a couple shortcodes with Eleventy. I made one for YouTube links and one for my `tcg-card` web component. They are nice so it can handle the boilerplate for me. Like the following:
