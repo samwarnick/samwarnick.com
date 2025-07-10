@@ -3,6 +3,26 @@
     "year": 2025,
     "books": [
       {
+        "id": "9D1A5F09-9A47-4E13-82FC-3CA0384ADEB3",
+        "isbn": "9780870714993",
+        "googleId": "Wcg50WcWJT4C",
+        "title": "Gathering Moss",
+        "author": "Robin Wall Kimmerer",
+        "startedReading": "2025-07-05",
+        "finishedReading": "2025-07-09",
+        "didNotFinish": ""
+      },
+      {
+        "id": "2292B558-423B-4607-95F0-C6D1BB8C29E5",
+        "isbn": "9780988262584",
+        "googleId": "qaRODgAAQBAJ",
+        "title": "The Phoenix Project",
+        "author": "Gene Kim; Kevin  Behr; Kim  Spafford",
+        "startedReading": "2025-04-11",
+        "finishedReading": "2025-07-08",
+        "didNotFinish": ""
+      },
+      {
         "id": "B02384CD-AD2F-4765-99E1-E9D933438120",
         "isbn": "9781668223451",
         "googleId": "AaRaEQAAQBAJ",
