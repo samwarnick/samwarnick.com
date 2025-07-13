@@ -7,8 +7,13 @@ function isScheduled(data) {
 export default {
 	layout: "layouts/post.njk",
 	permalink: function (data) {
-		if (data.published === false || isScheduled(data)) {
+		if (data.site.production && (data.published === false || isScheduled(data))) {
 			return false;
+		}
+		if (data.page.inputPath.includes("_draft")) {
+			return `/blog/${this.slugify(`${data.title}-${data.date}`, {
+				customReplacements: [["'", ""]],
+			})}/index.html`;
 		}
 		return `/blog/${this.slugify(data.title, {
 			customReplacements: [["'", ""]],
@@ -16,7 +21,7 @@ export default {
 	},
 	eleventyComputed: {
 		eleventyExcludeFromCollections: function (data) {
-			return data.published === false || isScheduled(data);
+			return data.site.production && (data.published === false || isScheduled(data));
 		},
 		tags: function ({ title, tags }) {
 			if (title.toLowerCase().includes("devlog") && !tags.includes("Devlog")) {

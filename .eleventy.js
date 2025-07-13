@@ -27,7 +27,7 @@ export class CustomOgImage extends OgImage {
 
 /** @param {import('@11ty/eleventy/src/UserConfig').default} eleventyConfig */
 export default async function (eleventyConfig) {
-	eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
 	eleventyConfig.addDateParsing(function (dateValue) {
 		if (dateValue) {
@@ -171,14 +171,18 @@ export default async function (eleventyConfig) {
 			image || defaultImages[Math.floor(Math.random() * defaultImages.length)]
 		);
 	});
-	eleventyConfig.addFilter("something", function (value) {
-		return value.replace("&#39;", ",");
-	});
 
 	eleventyConfig.addPassthroughCopy("src/assets/fonts");
 	eleventyConfig.addPassthroughCopy("src/assets/favicon");
 	eleventyConfig.addPassthroughCopy("src/assets/js");
 	eleventyConfig.addPassthroughCopy("src/assets/img");
+
+	// Copy media to preview drafts correctly
+	if (process.env.ELEVENTY_RUN_MODE !== "build") {
+		eleventyConfig.addPassthroughCopy({
+			"src/content/blog/_drafts/media": "media"
+		});
+	}
 
 	eleventyConfig.addCollection("posts", function (collectionApi) {
 		return collectionApi.getFilteredByGlob("src/content/blog/**/*.md");

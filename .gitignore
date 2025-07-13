@@ -5,7 +5,7 @@ _site
 .zed
 .cache
 .cms
-src/content/blog/_drafts
+src/content/blog/_drafts/media
 
 # Local Netlify folder
 .netlify
