@@ -27,7 +27,7 @@ export class CustomOgImage extends OgImage {
 
 /** @param {import('@11ty/eleventy/src/UserConfig').default} eleventyConfig */
 export default async function (eleventyConfig) {
-	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+	eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
 	eleventyConfig.addDateParsing(function (dateValue) {
 		if (dateValue) {
