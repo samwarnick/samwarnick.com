@@ -1,7 +1,7 @@
 ---
 title: Random Friday Evening Thoughts
 date: 2025-07-11T19:28
-summary: Turns out web components don't work in RSS. Whoops.
+summary: Just a few random thoughts. You're welcome.
 published: true
 ---
 I just felt like posting something. So here are some random thoughts for this Friday evening.
