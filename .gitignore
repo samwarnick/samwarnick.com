@@ -4,6 +4,8 @@ _site
 .env
 .zed
 .cache
+.cms
+src/content/blog/_drafts
 
 # Local Netlify folder
 .netlify
