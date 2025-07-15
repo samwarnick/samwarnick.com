@@ -3,8 +3,7 @@ title: Hobbies vs Projects
 date: '2025-07-14T20:27'
 published: true
 summary: >-
-  I'm realizing that my hobby might actually be projects, not hobbies, and maybe
-  that's an important distinction for understanding what I enjoy.
+ No, you're being pedantic.
 ---
 I've long considered my hobby to be hobbies. The other day, I wondered, do I like hobbies or do I like projects? Maybe it's semantics, but maybe also an important distinction?
 
