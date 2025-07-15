@@ -3,7 +3,7 @@ title: Hobbies vs Projects
 date: '2025-07-14T20:27'
 published: true
 summary: >-
- No, you're being pedantic.
+  No, you're being pedantic.
 ---
 I've long considered my hobby to be hobbies. The other day, I wondered, do I like hobbies or do I like projects? Maybe it's semantics, but maybe also an important distinction?
 
