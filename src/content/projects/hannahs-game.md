@@ -8,6 +8,6 @@ It originally started as an iOS app. Then I got shamed by [that article](https:/
 
 For this simple app, the only things I'm missing are spring animations and haptics. Other than that, it works pretty well!
 
-![iPhone screenshot of a word game showing the word 'truck' spelled out in green tiles, with the iOS truck emoji above it and 'Good Job!' displayed below. A keyboard is visible at the bottom of the screen.](/media/hannahs-game.png){width=300}
+![iPhone screenshot of a word game showing the word 'truck' spelled out in green tiles, with the iOS truck emoji above it and 'Good Job!' displayed below. A keyboard is visible at the bottom of the screen.](https://samwarnick.com/media/hannahs-game.png){width=300}
 
 [Check it out!](https://hannahsgame.samwarnick.com)

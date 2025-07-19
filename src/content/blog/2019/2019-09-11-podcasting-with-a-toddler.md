@@ -52,7 +52,7 @@ I tried so hard at the beginning to remove all of my daughter's mic bumps and th
 
 One of the hardest parts of editing has been adjusting levels. Because my daughter moves around so much, sometimes she's too quiet and sometimes she's too loud. So I have to go through and a bunch of volume automation points all over to help it sound a bit better.
 
-![Screenshot of audio levels in GarageBand](/media/2019-09-11-garageband-levels.png)
+![Screenshot of audio levels in GarageBand](https://samwarnick.com/media/2019-09-11-garageband-levels.png)
 
 As she has gotten older and her language skills have improved, the editing process as gotten easier and easier. So the future is bright.
 

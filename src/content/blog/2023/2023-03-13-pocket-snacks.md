@@ -17,8 +17,8 @@ Time to take things into my own hands.
 
 I decided to prototype my ideal snack. My wife came up with the best name for it. Introducing the Pocket Square.
 
-![An index card sized granola bar sitting on top of a small pocket notebook next to a Pentel EnerGel pen](/media/2023-03-13-pocket-square-top.jpeg){width=450}
-![An index card sized granola bar sitting on top of a small pocket notebook next to a Pentel EnerGel pen](/media/2023-03-13-pocket-square-side.jpeg){height=450}
+![An index card sized granola bar sitting on top of a small pocket notebook next to a Pentel EnerGel pen](https://samwarnick.com/media/2023-03-13-pocket-square-top.jpeg){width=450}
+![An index card sized granola bar sitting on top of a small pocket notebook next to a Pentel EnerGel pen](https://samwarnick.com/media/2023-03-13-pocket-square-side.jpeg){height=450}
 
 It's a basic peanut butter chocolate chip granola bar, but rolled out as thin as I could get it. It ended up being about 4mm. Since it's so thin, it fits very nicely into my shirt pocket. Success.
 

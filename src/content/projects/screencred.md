@@ -10,4 +10,4 @@ As far as I'm concerned, it's pretty feature complete. So I haven't touched it n
 
 {% include "components/screencred-download.njk" %}
 
-![Screenshot of ScreenCred showing some of the crew of Severance and The Secret Life of Walter Mitty](/media/screencred-severance-walter-mitty.png){width=350}
+![Screenshot of ScreenCred showing some of the crew of Severance and The Secret Life of Walter Mitty](https://samwarnick.com/media/screencred-severance-walter-mitty.png){width=350}

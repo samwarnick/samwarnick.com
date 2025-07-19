@@ -8,7 +8,7 @@ A little bit ago, I finished my first project for a client, [totalpowerandfoam.c
 
 Here's what it looks like:
 
-![totalpowerandfoam.com screenshot](/media/2018-06-02-totalpowerandfoam.png)
+![totalpowerandfoam.com screenshot](https://samwarnick.com/media/2018-06-02-totalpowerandfoam.png)
 
 I really tried to give it a clean professional look without being too boring. Early drafts of the site were way too boring. But by adding shadows and a hero image, I think it came out looking real nice.
 

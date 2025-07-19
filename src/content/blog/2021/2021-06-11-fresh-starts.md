@@ -5,7 +5,7 @@ oldUrl: 'https://samwarnick.com/2021/6/fresh-starts'
 published: true
 ---
 
-![June calendar](/media/2021-06-11-calendar.png){width=200 .dark-invert}
+![June calendar](https://samwarnick.com/media/2021-06-11-calendar.png){width=200 .dark-invert}
 
 With years, months, weeks, days, our calendar continually gives us chances to reset, restart, adjust, or whatever else we need to do. As silly as it is, even WWDC feels like a chance for me to start fresh. As WWDC comes and goes each year, I'm always left feeling excited and aspirational about building new apps. I've especially needed that feeling this year.
 

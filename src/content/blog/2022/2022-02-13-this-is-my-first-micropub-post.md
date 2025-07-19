@@ -7,4 +7,4 @@ published: true
 
 I'm sure there are lots of bugs I need to work out.
 
-![Kid thumbs up and nodding head](/media/1644791037_thumbsup.gif)
+![Kid thumbs up and nodding head](https://samwarnick.com/media/1644791037_thumbsup.gif)

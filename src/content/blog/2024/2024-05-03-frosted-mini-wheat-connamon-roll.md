@@ -8,7 +8,7 @@ oldUrl: 'https://samwarnick.com/2024/5/kelloggs-frosted-mini-wheats-cinnamon-rol
 published: true
 ---
 
-![The box of Kellogg's Frosted Mini Wheats Cinnamon Roll](/media/2024-05-03-fmw.webp "I'm glad the wheat is wholesome")
+![The box of Kellogg's Frosted Mini Wheats Cinnamon Roll](https://samwarnick.com/media/2024-05-03-fmw.webp "I'm glad the wheat is wholesome")
 
 I love cinnamon rolls. Despite always being disappointed by cinnamon roll flavored things, I decided to give these a shot. Yet again, another miss.
 

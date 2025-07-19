@@ -130,4 +130,4 @@ If you want to see more or give it a try, check out the [repo](https://github.co
 If this doesn't sound perfect to you, you're wrong, but just use Astro. Less perfect, but probably good enough for what you're doing.
 
 P.S. Why is GitHub's default tab spacing eight spaces!?
-![Screenshot of GitHub appearance preferences showing default tab width of 8 spaces](/media/2024-04-05-github-tab-width.png)
+![Screenshot of GitHub appearance preferences showing default tab width of 8 spaces](https://samwarnick.com/media/2024-04-05-github-tab-width.png)

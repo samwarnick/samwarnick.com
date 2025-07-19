@@ -5,7 +5,7 @@ oldUrl: 'https://samwarnick.com/2021/6/shut-your-brain-down'
 published: true
 ---
 
-![Sleeping brain](/media/2021-06-07-brain.png){width=200 .dark-invert}
+![Sleeping brain](https://samwarnick.com/media/2021-06-07-brain.png){width=200 .dark-invert}
 
 Last night, I finished building the new [LEGO World Map](https://www.lego.com/en-us/product/world-map-31203) set. With over 11,000 pieces, it took me around 12 hours to complete. Some of that time was while holding my 3 month-old or building with my 4 year-old. Still, it was a lot of time to simply shut my brain down and build. It reminded me of how important it is to give your brain a break every once in a while.
 
