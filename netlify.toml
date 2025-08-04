@@ -23,8 +23,8 @@ to = "/.netlify/images?url=https://blog.warnick.me/:splat&fm=jpg&w=1200&h=630&fi
 status = 200
 
 [[redirects]]
-from = "/media/*.mp4"
-to = "https://blog.warnick.me/:splat"
+from = "/media/:file.mp4"
+to = "https://blog.warnick.me/:file.mp4"
 status = 200
 
 [[redirects]]
