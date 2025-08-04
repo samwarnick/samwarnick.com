@@ -42,7 +42,7 @@ Beyond that, there's a bunch of code to handle screen resizing, portrait vs land
 
 It's not perfect, but I'm really happy with it. I tried a rainbow shine effect, but without the texture, I think the simple glare looks better. I might try again in the future and see if I've changed my mind. There are some accessibility improvements I need to make—like aria attributes to indicate if it's expanded or not. And I'm sure there are a bunch of ways to improve performance. I made another component to handle listening to expand events and close any other cards that might be expanded. I'm not sure if it's possible, but I'd like to be able to handle this without another component.
 
-![](https://blog.warnick.me/tcg-card-demo.mp4)
+![](https://samwarnick.com/media/video/tcg-card-demo.mp4)
 
 Anyway, you can take a look at my bad code on [CodePen](https://codepen.io/samwarnick/pen/GRVOQVp). I'm new to web components, so let me know if I'm doing anything dumb.
 
