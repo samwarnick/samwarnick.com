@@ -24,7 +24,7 @@ status = 200
 
 [[redirects]]
 from = "/media/*.mp4"
-to = "https://blog.warnick.me/media/:splat"
+to = "https://blog.warnick.me/:splat"
 status = 200
 
 [[redirects]]
