@@ -3,6 +3,16 @@
     "year": 2025,
     "books": [
       {
+        "id": "A678C1D7-9507-4C4E-9406-AB9A2F3F7DD5",
+        "isbn": "9781943363339",
+        "googleId": "R7eOzwEACAAJ",
+        "title": "Unsouled",
+        "author": "Will Wight",
+        "startedReading": "2025-07-16",
+        "finishedReading": "2025-07-28",
+        "didNotFinish": ""
+      },
+      {
         "id": "072F8CEA-413D-4598-B958-262D61883B4F",
         "isbn": "9781938570513",
         "googleId": "39xUEQAAQBAJ",
