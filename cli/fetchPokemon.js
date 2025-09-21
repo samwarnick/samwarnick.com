@@ -1,35 +1,38 @@
-import { writeFile } from "fs/promises";
-
-import pokemon from "pokemontcgsdk";
 import {parseCSV} from "./parseCsv.js";
+import {readdir, writeFile} from "node:fs/promises";
+import {join} from "node:path";
+import {readFileSync} from "fs";
 
 const PROMO_SETS = {
 	svp: "2023/02/01",
 };
 
-async function chunkedMap(array, asyncCallback, chunkSize = 3) {
-	const results = [];
-	for (let i = 0; i < array.length; i += chunkSize) {
-		const chunk = array.slice(i, i + chunkSize);
-		const chunkPromises = chunk.map(asyncCallback);
-		results.push(...(await Promise.all(chunkPromises)));
-	}
-	return results;
-}
-
-async function getCardData(card) {
-	console.log("getCardData:", card.Id);
+function getCardData({Id}) {
 	try {
-		const id = card.Id.replace(/(sv[0-9])(5)-/, "$1pt$2-");
-		return await pokemon.card.find(id);
+		const id = Id
+			.replace("sv105b", "zsv10pt5")
+			.replace("sv105w", "rsv10pt5")
+			.replace(/(sv[0-9])(5)-/, "$1pt$2-");
+		const card = cards.get(id);
+		const setId = id.split("-")[0];
+		const set = sets.get(setId);
+		if (card && set) {
+			return {
+				...card,
+				set
+			}
+		}
+		console.log(`failed to get card data for ${Id}`);
+		return null;
 	} catch (error) {
-		console.log(`failed to get card data for ${card.Id}`);
+		console.log(error);
+		console.log(`failed to get card data for ${Id}`);
 		return null;
 	}
 }
 
 async function getCollectionData(collection, name) {
-	const data = (await chunkedMap(collection, getCardData)).filter(element => element !== null);
+	const data = collection.map(getCardData).filter(element => element !== null);
 	const sets = [];
 	data.forEach((card) => {
 		let setId = card.set.id;
@@ -103,7 +106,31 @@ const eeveelutions = csvData.filter((card) => {
 	)
 })
 
-pokemon.configure({ apiKey: process.env.POKEMON_TCG_TOKEN });
+const cards = new Map();
+const sets = new Map();
+
+async function loadData() {
+	const cardsDir = "./cli/pokemon_tcg_data/cards/en";
+	const files = await readdir(cardsDir);
+	for (const file of files) {
+		if (file.endsWith('.json')) {
+			const filePath = join(cardsDir, file)
+			const cardData = JSON.parse(readFileSync(filePath, 'utf-8'))
+			for (const card of cardData) {
+				cards.set(card.id, card)
+			}
+		}
+	}
+	const setsData = JSON.parse(readFileSync("./cli/pokemon_tcg_data/sets/en.json"));
+	for (const set of setsData) {
+		sets.set(set.id, set)
+	}
+}
+
+await loadData();
+
+console.log(getCardData({Id: "svp-171"}));
+
 await getCollectionData(myCollection, "myCollection");
 await getCollectionData(wishlist, "wishlist");
 await getCollectionData(eeveelutions, "eeveelutions");

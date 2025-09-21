@@ -26,8 +26,7 @@
 		"markdown-it-footnote": "^4.0.0",
 		"markdown-it-github-alerts": "^0.3.0",
 		"markdown-it-html5-media": "^0.7.1",
-		"netlify-plugin-cache": "^1.0.3",
-		"pokemontcgsdk": "^2.0.0"
+		"netlify-plugin-cache": "^1.0.3"
 	},
 	"dependencies": {
 		"@netlify/functions": "^3.1.5",

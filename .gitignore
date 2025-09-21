@@ -11,3 +11,4 @@ src/content/blog/_drafts/media
 .netlify
 
 cli/dexcollection.csv.txt
+/cli/pokemon_tcg_data/

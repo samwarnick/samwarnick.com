@@ -1,4 +1,4 @@
-import { createReadStream } from "fs";
+import { createReadStream } from "node:fs";
 import { parse } from "csv-parse";
 
 export async function parseCSV(filePath, encoding = "utf8", options = {}) {
