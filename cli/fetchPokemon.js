@@ -4,18 +4,25 @@ import {join} from "node:path";
 import {readFileSync} from "fs";
 
 const PROMO_SETS = {
-	svp: "2023/02/01",
+	svp: {
+		releaseDate: "2023/02/01",
+	},
+	mcd24: {
+		id: "mcd24",
+		releaseDate: "2025/01/21",
+	}
 };
 
-function getCardData({Id}) {
+function getCardData({Id, Name}) {
 	try {
 		const id = Id
 			.replace("sv105b", "zsv10pt5")
 			.replace("sv105w", "rsv10pt5")
 			.replace(/(sv[0-9])(5)-/, "$1pt$2-");
-		const card = cards.get(id);
+		const card = cards.get(id) || {name: Name, number: id.split("-")[1], images: {}};
+		card.images.large = `https://images.scrydex.com/pokemon/${id}/large`;
 		const setId = id.split("-")[0];
-		const set = sets.get(setId);
+		const set = sets.get(setId) || PROMO_SETS[setId];
 		if (card && set) {
 			return {
 				...card,
@@ -25,7 +32,6 @@ function getCardData({Id}) {
 		console.log(`failed to get card data for ${Id}`);
 		return null;
 	} catch (error) {
-		console.log(error);
 		console.log(`failed to get card data for ${Id}`);
 		return null;
 	}
@@ -46,7 +52,7 @@ async function getCollectionData(collection, name) {
 			sets.push({
 				...card.set,
 				id: setId,
-				releaseDate: PROMO_SETS[card.set.id] ?? card.set.releaseDate,
+				releaseDate: PROMO_SETS[card.set.id]?.releaseDate ?? card.set.releaseDate,
 				cards: [card],
 			});
 		}
@@ -128,8 +134,6 @@ async function loadData() {
 }
 
 await loadData();
-
-console.log(getCardData({Id: "svp-171"}));
 
 await getCollectionData(myCollection, "myCollection");
 await getCollectionData(wishlist, "wishlist");

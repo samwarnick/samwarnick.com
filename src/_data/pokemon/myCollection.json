@@ -74,7 +74,7 @@
         },
         "images": {
           "small": "https://images.pokemontcg.io/xy3/19.png",
-          "large": "https://images.pokemontcg.io/xy3/19_hires.png"
+          "large": "https://images.scrydex.com/pokemon/xy3-19/large"
         },
         "set": {
           "id": "xy3",
@@ -158,7 +158,7 @@
         },
         "images": {
           "small": "https://images.pokemontcg.io/xy3/80.png",
-          "large": "https://images.pokemontcg.io/xy3/80_hires.png"
+          "large": "https://images.scrydex.com/pokemon/xy3-80/large"
         },
         "set": {
           "id": "xy3",
@@ -264,7 +264,7 @@
         },
         "images": {
           "small": "https://images.pokemontcg.io/xy7/63.png",
-          "large": "https://images.pokemontcg.io/xy7/63_hires.png"
+          "large": "https://images.scrydex.com/pokemon/xy7-63/large"
         },
         "set": {
           "id": "xy7",
@@ -366,7 +366,7 @@
         },
         "images": {
           "small": "https://images.pokemontcg.io/xy10/20.png",
-          "large": "https://images.pokemontcg.io/xy10/20_hires.png"
+          "large": "https://images.scrydex.com/pokemon/xy10-20/large"
         },
         "set": {
           "id": "xy10",
@@ -477,7 +477,7 @@
         },
         "images": {
           "small": "https://images.pokemontcg.io/smp/SM147.png",
-          "large": "https://images.pokemontcg.io/smp/SM147_hires.png"
+          "large": "https://images.scrydex.com/pokemon/smp-SM147/large"
         },
         "set": {
           "id": "smp",
@@ -595,7 +595,7 @@
         },
         "images": {
           "small": "https://images.pokemontcg.io/sm1/80.png",
-          "large": "https://images.pokemontcg.io/sm1/80_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sm1-80/large"
         },
         "set": {
           "id": "sm1",
@@ -703,7 +703,7 @@
         "regulationMark": "D",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH118.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH118_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH118/large"
         },
         "set": {
           "id": "swshp",
@@ -783,7 +783,7 @@
         "regulationMark": "E",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH129.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH129_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH129/large"
         },
         "set": {
           "id": "swshp",
@@ -868,7 +868,7 @@
         "regulationMark": "E",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH174.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH174_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH174/large"
         },
         "set": {
           "id": "swshp",
@@ -957,7 +957,7 @@
         "regulationMark": "E",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH175.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH175_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH175/large"
         },
         "set": {
           "id": "swshp",
@@ -1036,7 +1036,7 @@
         "regulationMark": "E",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH191.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH191_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH191/large"
         },
         "set": {
           "id": "swshp",
@@ -1116,7 +1116,7 @@
         "regulationMark": "E",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH192.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH192_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH192/large"
         },
         "set": {
           "id": "swshp",
@@ -1200,7 +1200,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH194.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH194_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH194/large"
         },
         "set": {
           "id": "swshp",
@@ -1282,7 +1282,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH195.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH195_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH195/large"
         },
         "set": {
           "id": "swshp",
@@ -1366,7 +1366,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH196.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH196_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH196/large"
         },
         "set": {
           "id": "swshp",
@@ -1452,7 +1452,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH197.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH197_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH197/large"
         },
         "set": {
           "id": "swshp",
@@ -1540,7 +1540,7 @@
         "regulationMark": "E",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH201.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH201_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH201/large"
         },
         "set": {
           "id": "swshp",
@@ -1620,7 +1620,7 @@
         "regulationMark": "E",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH202.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH202_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH202/large"
         },
         "set": {
           "id": "swshp",
@@ -1704,7 +1704,7 @@
         "regulationMark": "E",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH203.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH203_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH203/large"
         },
         "set": {
           "id": "swshp",
@@ -1784,7 +1784,7 @@
         "regulationMark": "E",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH211.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH211_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH211/large"
         },
         "set": {
           "id": "swshp",
@@ -1873,7 +1873,7 @@
         "regulationMark": "E",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH212.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH212_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH212/large"
         },
         "set": {
           "id": "swshp",
@@ -1967,7 +1967,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swshp/SWSH230.png",
-          "large": "https://images.pokemontcg.io/swshp/SWSH230_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swshp-SWSH230/large"
         },
         "set": {
           "id": "swshp",
@@ -2070,7 +2070,7 @@
         "regulationMark": "E",
         "images": {
           "small": "https://images.pokemontcg.io/swsh7/174.png",
-          "large": "https://images.pokemontcg.io/swsh7/174_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh7-174/large"
         },
         "set": {
           "id": "swsh7",
@@ -2169,7 +2169,7 @@
         "regulationMark": "D",
         "images": {
           "small": "https://images.pokemontcg.io/swsh9tg/TG01.png",
-          "large": "https://images.pokemontcg.io/swsh9tg/TG01_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh9tg-TG01/large"
         },
         "set": {
           "id": "swsh9tg",
@@ -2247,7 +2247,7 @@
         "regulationMark": "D",
         "images": {
           "small": "https://images.pokemontcg.io/swsh9tg/TG02.png",
-          "large": "https://images.pokemontcg.io/swsh9tg/TG02_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh9tg-TG02/large"
         },
         "set": {
           "id": "swsh9tg",
@@ -2325,7 +2325,7 @@
         "regulationMark": "D",
         "images": {
           "small": "https://images.pokemontcg.io/swsh9tg/TG04.png",
-          "large": "https://images.pokemontcg.io/swsh9tg/TG04_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh9tg-TG04/large"
         },
         "set": {
           "id": "swsh9tg",
@@ -2413,7 +2413,7 @@
         "regulationMark": "E",
         "images": {
           "small": "https://images.pokemontcg.io/swsh9tg/TG11.png",
-          "large": "https://images.pokemontcg.io/swsh9tg/TG11_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh9tg-TG11/large"
         },
         "set": {
           "id": "swsh9tg",
@@ -2516,7 +2516,7 @@
         "regulationMark": "E",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5gg/GG10.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5gg/GG10_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5gg-GG10/large"
         },
         "set": {
           "id": "swsh12pt5gg",
@@ -2592,7 +2592,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5gg/GG13.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5gg/GG13_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5gg-GG13/large"
         },
         "set": {
           "id": "swsh12pt5gg",
@@ -2670,7 +2670,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5gg/GG24.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5gg/GG24_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5gg-GG24/large"
         },
         "set": {
           "id": "swsh12pt5gg",
@@ -2747,7 +2747,7 @@
         "regulationMark": "E",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5gg/GG27.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5gg/GG27_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5gg-GG27/large"
         },
         "set": {
           "id": "swsh12pt5gg",
@@ -2827,7 +2827,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5gg/GG29.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5gg/GG29_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5gg-GG29/large"
         },
         "set": {
           "id": "swsh12pt5gg",
@@ -2909,7 +2909,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5gg/GG36.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5gg/GG36_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5gg-GG36/large"
         },
         "set": {
           "id": "swsh12pt5gg",
@@ -2989,7 +2989,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5gg/GG41.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5gg/GG41_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5gg-GG41/large"
         },
         "set": {
           "id": "swsh12pt5gg",
@@ -3071,7 +3071,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5gg/GG43.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5gg/GG43_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5gg-GG43/large"
         },
         "set": {
           "id": "swsh12pt5gg",
@@ -3161,7 +3161,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5gg/GG44.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5gg/GG44_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5gg-GG44/large"
         },
         "set": {
           "id": "swsh12pt5gg",
@@ -3250,7 +3250,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5gg/GG45.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5gg/GG45_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5gg-GG45/large"
         },
         "set": {
           "id": "swsh12pt5gg",
@@ -3294,7 +3294,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5gg/GG59.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5gg/GG59_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5gg-GG59/large"
         },
         "set": {
           "id": "swsh12pt5gg",
@@ -3373,7 +3373,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5gg/GG69.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5gg/GG69_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5gg-GG69/large"
         },
         "set": {
           "id": "swsh12pt5gg",
@@ -3478,7 +3478,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5/13.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5/13_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5-13/large"
         },
         "set": {
           "id": "swsh12pt5",
@@ -3565,7 +3565,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5/18.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5/18_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5-18/large"
         },
         "set": {
           "id": "swsh12pt5",
@@ -3651,7 +3651,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5/20.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5/20_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5-20/large"
         },
         "set": {
           "id": "swsh12pt5",
@@ -3735,7 +3735,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5/38.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5/38_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5-38/large"
         },
         "set": {
           "id": "swsh12pt5",
@@ -3823,7 +3823,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5/99.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5/99_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5-99/large"
         },
         "set": {
           "id": "swsh12pt5",
@@ -3916,7 +3916,7 @@
         "regulationMark": "F",
         "images": {
           "small": "https://images.pokemontcg.io/swsh12pt5/108.png",
-          "large": "https://images.pokemontcg.io/swsh12pt5/108_hires.png"
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5-108/large"
         },
         "set": {
           "id": "swsh12pt5",
@@ -4027,7 +4027,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/svp/43.png",
-          "large": "https://images.pokemontcg.io/svp/43_hires.png"
+          "large": "https://images.scrydex.com/pokemon/svp-43/large"
         },
         "set": {
           "id": "svp",
@@ -4099,7 +4099,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/svp/44.png",
-          "large": "https://images.pokemontcg.io/svp/44_hires.png"
+          "large": "https://images.scrydex.com/pokemon/svp-44/large"
         },
         "set": {
           "id": "svp",
@@ -4177,7 +4177,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/svp/117.png",
-          "large": "https://images.pokemontcg.io/svp/117_hires.png"
+          "large": "https://images.scrydex.com/pokemon/svp-117/large"
         },
         "set": {
           "id": "svp",
@@ -4256,7 +4256,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/svp/123.png",
-          "large": "https://images.pokemontcg.io/svp/123_hires.png"
+          "large": "https://images.scrydex.com/pokemon/svp-123/large"
         },
         "set": {
           "id": "svp",
@@ -4333,7 +4333,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/svp/129.png",
-          "large": "https://images.pokemontcg.io/svp/129_hires.png"
+          "large": "https://images.scrydex.com/pokemon/svp-129/large"
         },
         "set": {
           "id": "svp",
@@ -4416,7 +4416,33 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/svp/131.png",
-          "large": "https://images.pokemontcg.io/svp/131_hires.png"
+          "large": "https://images.scrydex.com/pokemon/svp-131/large"
+        },
+        "set": {
+          "id": "svp",
+          "name": "Scarlet & Violet Black Star Promos",
+          "series": "Scarlet & Violet",
+          "printedTotal": 102,
+          "total": 75,
+          "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+          },
+          "ptcgoCode": "PR-SV",
+          "releaseDate": "2023/01/01",
+          "updatedAt": "2024/11/07 22:00:00",
+          "images": {
+            "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+            "logo": "https://images.pokemontcg.io/svp/logo.png"
+          }
+        }
+      },
+      {
+        "name": "Leafeon",
+        "number": "170",
+        "images": {
+          "large": "https://images.scrydex.com/pokemon/svp-170/large"
         },
         "set": {
           "id": "svp",
@@ -4526,7 +4552,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv1/245.png",
-          "large": "https://images.pokemontcg.io/sv1/245_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv1-245/large"
         },
         "set": {
           "id": "sv1",
@@ -4570,7 +4596,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv1/251.png",
-          "large": "https://images.pokemontcg.io/sv1/251_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv1-251/large"
         },
         "set": {
           "id": "sv1",
@@ -4666,7 +4692,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv2/199.png",
-          "large": "https://images.pokemontcg.io/sv2/199_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv2-199/large"
         },
         "flavorText": "Fletchinder scatters embers in tall grass where bug Pokémon might be hiding and then catches them as they come leaping out.",
         "set": {
@@ -4736,7 +4762,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv2/208.png",
-          "large": "https://images.pokemontcg.io/sv2/208_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv2-208/large"
         },
         "flavorText": "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
         "set": {
@@ -4844,7 +4870,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3/86.png",
-          "large": "https://images.pokemontcg.io/sv3/86_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3-86/large"
         },
         "set": {
           "id": "sv3",
@@ -4925,7 +4951,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3/130.png",
-          "large": "https://images.pokemontcg.io/sv3/130_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3-130/large"
         },
         "set": {
           "id": "sv3",
@@ -4991,7 +5017,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3/202.png",
-          "large": "https://images.pokemontcg.io/sv3/202_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3-202/large"
         },
         "set": {
           "id": "sv3",
@@ -5075,7 +5101,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3/215.png",
-          "large": "https://images.pokemontcg.io/sv3/215_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3-215/large"
         },
         "set": {
           "id": "sv3",
@@ -5119,7 +5145,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3/227.png",
-          "large": "https://images.pokemontcg.io/sv3/227_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3-227/large"
         },
         "set": {
           "id": "sv3",
@@ -5222,7 +5248,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/4.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/4_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-4/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -5304,7 +5330,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/7.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/7_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-7/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -5387,7 +5413,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/14.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/14_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-14/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -5460,7 +5486,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/29.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/29_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-29/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -5544,7 +5570,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/61.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/61_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-61/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -5628,7 +5654,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/70.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/70_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-70/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -5716,7 +5742,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/95.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/95_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-95/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -5800,7 +5826,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/103.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/103_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-103/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -5882,7 +5908,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/134.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/134_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-134/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -5959,7 +5985,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/135.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/135_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-135/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -6041,7 +6067,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/136.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/136_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-136/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -6116,7 +6142,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/140.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/140_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-140/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -6197,7 +6223,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/143.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/143_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-143/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -6285,7 +6311,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/145.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/145_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-145/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -6363,7 +6389,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/148.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/148_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-148/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -6451,7 +6477,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/150.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/150_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-150/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -6495,7 +6521,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/165.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/165_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-165/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -6577,7 +6603,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/168.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/168_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-168/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -6662,7 +6688,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/169.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/169_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-169/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -6745,7 +6771,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/173.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/173_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-173/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -6827,7 +6853,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/174.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/174_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-174/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -6871,7 +6897,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/194.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/194_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-194/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -6957,7 +6983,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv3pt5/199.png",
-          "large": "https://images.pokemontcg.io/sv3pt5/199_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv3pt5-199/large"
         },
         "set": {
           "id": "sv3pt5",
@@ -7022,7 +7048,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv4/160.png",
-          "large": "https://images.pokemontcg.io/sv4/160_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv4-160/large"
         },
         "set": {
           "id": "sv4",
@@ -7125,7 +7151,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv5/104.png",
-          "large": "https://images.pokemontcg.io/sv5/104_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv5-104/large"
         },
         "set": {
           "id": "sv5",
@@ -7201,7 +7227,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv5/121.png",
-          "large": "https://images.pokemontcg.io/sv5/121_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv5-121/large"
         },
         "set": {
           "id": "sv5",
@@ -7280,7 +7306,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv5/123.png",
-          "large": "https://images.pokemontcg.io/sv5/123_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv5-123/large"
         },
         "set": {
           "id": "sv5",
@@ -7326,7 +7352,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv5/154.png",
-          "large": "https://images.pokemontcg.io/sv5/154_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv5-154/large"
         },
         "set": {
           "id": "sv5",
@@ -7409,7 +7435,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv5/165.png",
-          "large": "https://images.pokemontcg.io/sv5/165_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv5-165/large"
         },
         "set": {
           "id": "sv5",
@@ -7489,7 +7515,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv5/166.png",
-          "large": "https://images.pokemontcg.io/sv5/166_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv5-166/large"
         },
         "set": {
           "id": "sv5",
@@ -7562,7 +7588,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv5/168.png",
-          "large": "https://images.pokemontcg.io/sv5/168_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv5-168/large"
         },
         "set": {
           "id": "sv5",
@@ -7642,7 +7668,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv5/170.png",
-          "large": "https://images.pokemontcg.io/sv5/170_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv5-170/large"
         },
         "set": {
           "id": "sv5",
@@ -7721,7 +7747,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv5/196.png",
-          "large": "https://images.pokemontcg.io/sv5/196_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv5-196/large"
         },
         "set": {
           "id": "sv5",
@@ -7803,7 +7829,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv5/205.png",
-          "large": "https://images.pokemontcg.io/sv5/205_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv5-205/large"
         },
         "set": {
           "id": "sv5",
@@ -7908,7 +7934,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6/25.png",
-          "large": "https://images.pokemontcg.io/sv6/25_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6-25/large"
         },
         "set": {
           "id": "sv6",
@@ -7991,7 +8017,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6/95.png",
-          "large": "https://images.pokemontcg.io/sv6/95_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6-95/large"
         },
         "set": {
           "id": "sv6",
@@ -8076,7 +8102,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6/141.png",
-          "large": "https://images.pokemontcg.io/sv6/141_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6-141/large"
         },
         "set": {
           "id": "sv6",
@@ -8156,7 +8182,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6/169.png",
-          "large": "https://images.pokemontcg.io/sv6/169_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6-169/large"
         },
         "set": {
           "id": "sv6",
@@ -8231,7 +8257,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6/178.png",
-          "large": "https://images.pokemontcg.io/sv6/178_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6-178/large"
         },
         "set": {
           "id": "sv6",
@@ -8302,7 +8328,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6/186.png",
-          "large": "https://images.pokemontcg.io/sv6/186_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6-186/large"
         },
         "set": {
           "id": "sv6",
@@ -8392,7 +8418,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6/188.png",
-          "large": "https://images.pokemontcg.io/sv6/188_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6-188/large"
         },
         "set": {
           "id": "sv6",
@@ -8476,7 +8502,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6/199.png",
-          "large": "https://images.pokemontcg.io/sv6/199_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6-199/large"
         },
         "set": {
           "id": "sv6",
@@ -8556,7 +8582,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6/200.png",
-          "large": "https://images.pokemontcg.io/sv6/200_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6-200/large"
         },
         "set": {
           "id": "sv6",
@@ -8600,7 +8626,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6/205.png",
-          "large": "https://images.pokemontcg.io/sv6/205_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6-205/large"
         },
         "set": {
           "id": "sv6",
@@ -8683,7 +8709,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6/210.png",
-          "large": "https://images.pokemontcg.io/sv6/210_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6-210/large"
         },
         "set": {
           "id": "sv6",
@@ -8785,7 +8811,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6pt5/67.png",
-          "large": "https://images.pokemontcg.io/sv6pt5/67_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6pt5-67/large"
         },
         "set": {
           "id": "sv6pt5",
@@ -8872,7 +8898,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6pt5/69.png",
-          "large": "https://images.pokemontcg.io/sv6pt5/69_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6pt5-69/large"
         },
         "set": {
           "id": "sv6pt5",
@@ -8954,7 +8980,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6pt5/72.png",
-          "large": "https://images.pokemontcg.io/sv6pt5/72_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6pt5-72/large"
         },
         "set": {
           "id": "sv6pt5",
@@ -9039,7 +9065,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv6pt5/90.png",
-          "large": "https://images.pokemontcg.io/sv6pt5/90_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv6pt5-90/large"
         },
         "set": {
           "id": "sv6pt5",
@@ -9142,7 +9168,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv7/30.png",
-          "large": "https://images.pokemontcg.io/sv7/30_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv7-30/large"
         },
         "set": {
           "id": "sv7",
@@ -9228,7 +9254,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv7/128.png",
-          "large": "https://images.pokemontcg.io/sv7/128_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv7-128/large"
         },
         "set": {
           "id": "sv7",
@@ -9300,7 +9326,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv7/144.png",
-          "large": "https://images.pokemontcg.io/sv7/144_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv7-144/large"
         },
         "set": {
           "id": "sv7",
@@ -9372,7 +9398,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv7/145.png",
-          "large": "https://images.pokemontcg.io/sv7/145_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv7-145/large"
         },
         "set": {
           "id": "sv7",
@@ -9442,7 +9468,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv7/150.png",
-          "large": "https://images.pokemontcg.io/sv7/150_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv7-150/large"
         },
         "set": {
           "id": "sv7",
@@ -9524,7 +9550,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv7/154.png",
-          "large": "https://images.pokemontcg.io/sv7/154_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv7-154/large"
         },
         "set": {
           "id": "sv7",
@@ -9567,7 +9593,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv7/164.png",
-          "large": "https://images.pokemontcg.io/sv7/164_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv7-164/large"
         },
         "set": {
           "id": "sv7",
@@ -9610,7 +9636,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv7/165.png",
-          "large": "https://images.pokemontcg.io/sv7/165_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv7-165/large"
         },
         "set": {
           "id": "sv7",
@@ -9692,7 +9718,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv7/167.png",
-          "large": "https://images.pokemontcg.io/sv7/167_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv7-167/large"
         },
         "set": {
           "id": "sv7",
@@ -9801,7 +9827,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8/86.png",
-          "large": "https://images.pokemontcg.io/sv8/86_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8-86/large"
         },
         "set": {
           "id": "sv8",
@@ -9871,7 +9897,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8/192.png",
-          "large": "https://images.pokemontcg.io/sv8/192_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8-192/large"
         },
         "set": {
           "id": "sv8",
@@ -9957,7 +9983,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8/203.png",
-          "large": "https://images.pokemontcg.io/sv8/203_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8-203/large"
         },
         "set": {
           "id": "sv8",
@@ -10028,7 +10054,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8/205.png",
-          "large": "https://images.pokemontcg.io/sv8/205_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8-205/large"
         },
         "set": {
           "id": "sv8",
@@ -10127,7 +10153,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/5.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/5_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-5/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -10214,7 +10240,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/6.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/6_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-6/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -10294,7 +10320,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/13.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/13_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-13/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -10381,7 +10407,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/14.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/14_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-14/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -10461,7 +10487,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/22.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/22_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-22/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -10548,7 +10574,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/23.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/23_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-23/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -10626,7 +10652,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/25.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/25_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-25/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -10712,7 +10738,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/26.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/26_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-26/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -10787,7 +10813,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/29.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/29_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-29/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -10869,7 +10895,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/30.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/30_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-30/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -10953,7 +10979,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/33.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/33_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-33/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -11046,7 +11072,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/34.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/34_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-34/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -11123,7 +11149,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/40.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/40_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-40/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -11211,7 +11237,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/41.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/41_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-41/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -11281,7 +11307,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/47.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/47_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-47/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -11360,7 +11386,7 @@
         "regulationMark": "G",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/59.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/59_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-59/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -11448,7 +11474,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/60.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/60_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-60/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -11533,7 +11559,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/74.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/74_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-74/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -11625,7 +11651,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv8pt5/75.png",
-          "large": "https://images.pokemontcg.io/sv8pt5/75_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv8pt5-75/large"
         },
         "set": {
           "id": "sv8pt5",
@@ -11727,7 +11753,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/sv9/98.png",
-          "large": "https://images.pokemontcg.io/sv9/98_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv9-98/large"
         },
         "set": {
           "id": "sv9",
@@ -11810,7 +11836,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/sv9/163.png",
-          "large": "https://images.pokemontcg.io/sv9/163_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv9-163/large"
         },
         "set": {
           "id": "sv9",
@@ -11892,7 +11918,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/sv9/171.png",
-          "large": "https://images.pokemontcg.io/sv9/171_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv9-171/large"
         },
         "set": {
           "id": "sv9",
@@ -11973,7 +11999,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/sv9/177.png",
-          "large": "https://images.pokemontcg.io/sv9/177_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv9-177/large"
         },
         "set": {
           "id": "sv9",
@@ -12074,7 +12100,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/sv10/190.png",
-          "large": "https://images.pokemontcg.io/sv10/190_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv10-190/large"
         },
         "set": {
           "id": "sv10",
@@ -12117,7 +12143,7 @@
         "regulationMark": "H",
         "images": {
           "small": "https://images.pokemontcg.io/sv10/243.png",
-          "large": "https://images.pokemontcg.io/sv10/243_hires.png"
+          "large": "https://images.scrydex.com/pokemon/sv10-243/large"
         },
         "set": {
           "id": "sv10",
@@ -12210,7 +12236,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/zsv10pt5/75.png",
-          "large": "https://images.pokemontcg.io/zsv10pt5/75_hires.png"
+          "large": "https://images.scrydex.com/pokemon/zsv10pt5-75/large"
         },
         "set": {
           "id": "zsv10pt5",
@@ -12280,7 +12306,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/zsv10pt5/76.png",
-          "large": "https://images.pokemontcg.io/zsv10pt5/76_hires.png"
+          "large": "https://images.scrydex.com/pokemon/zsv10pt5-76/large"
         },
         "set": {
           "id": "zsv10pt5",
@@ -12325,7 +12351,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/zsv10pt5/79.png",
-          "large": "https://images.pokemontcg.io/zsv10pt5/79_hires.png"
+          "large": "https://images.scrydex.com/pokemon/zsv10pt5-79/large"
         },
         "set": {
           "id": "zsv10pt5",
@@ -12409,7 +12435,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/zsv10pt5/88.png",
-          "large": "https://images.pokemontcg.io/zsv10pt5/88_hires.png"
+          "large": "https://images.scrydex.com/pokemon/zsv10pt5-88/large"
         },
         "set": {
           "id": "zsv10pt5",
@@ -12480,7 +12506,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/zsv10pt5/102.png",
-          "large": "https://images.pokemontcg.io/zsv10pt5/102_hires.png"
+          "large": "https://images.scrydex.com/pokemon/zsv10pt5-102/large"
         },
         "set": {
           "id": "zsv10pt5",
@@ -12553,7 +12579,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/zsv10pt5/103.png",
-          "large": "https://images.pokemontcg.io/zsv10pt5/103_hires.png"
+          "large": "https://images.scrydex.com/pokemon/zsv10pt5-103/large"
         },
         "set": {
           "id": "zsv10pt5",
@@ -12628,7 +12654,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/zsv10pt5/136.png",
-          "large": "https://images.pokemontcg.io/zsv10pt5/136_hires.png"
+          "large": "https://images.scrydex.com/pokemon/zsv10pt5-136/large"
         },
         "set": {
           "id": "zsv10pt5",
@@ -12713,7 +12739,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/zsv10pt5/158.png",
-          "large": "https://images.pokemontcg.io/zsv10pt5/158_hires.png"
+          "large": "https://images.scrydex.com/pokemon/zsv10pt5-158/large"
         },
         "set": {
           "id": "zsv10pt5",
@@ -12806,7 +12832,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/rsv10pt5/33.png",
-          "large": "https://images.pokemontcg.io/rsv10pt5/33_hires.png"
+          "large": "https://images.scrydex.com/pokemon/rsv10pt5-33/large"
         },
         "set": {
           "id": "rsv10pt5",
@@ -12876,7 +12902,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/rsv10pt5/34.png",
-          "large": "https://images.pokemontcg.io/rsv10pt5/34_hires.png"
+          "large": "https://images.scrydex.com/pokemon/rsv10pt5-34/large"
         },
         "set": {
           "id": "rsv10pt5",
@@ -12958,7 +12984,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/rsv10pt5/57.png",
-          "large": "https://images.pokemontcg.io/rsv10pt5/57_hires.png"
+          "large": "https://images.scrydex.com/pokemon/rsv10pt5-57/large"
         },
         "set": {
           "id": "rsv10pt5",
@@ -13030,7 +13056,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/rsv10pt5/58.png",
-          "large": "https://images.pokemontcg.io/rsv10pt5/58_hires.png"
+          "large": "https://images.scrydex.com/pokemon/rsv10pt5-58/large"
         },
         "set": {
           "id": "rsv10pt5",
@@ -13112,7 +13138,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/rsv10pt5/96.png",
-          "large": "https://images.pokemontcg.io/rsv10pt5/96_hires.png"
+          "large": "https://images.scrydex.com/pokemon/rsv10pt5-96/large"
         },
         "set": {
           "id": "rsv10pt5",
@@ -13185,7 +13211,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/rsv10pt5/106.png",
-          "large": "https://images.pokemontcg.io/rsv10pt5/106_hires.png"
+          "large": "https://images.scrydex.com/pokemon/rsv10pt5-106/large"
         },
         "set": {
           "id": "rsv10pt5",
@@ -13271,7 +13297,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/rsv10pt5/120.png",
-          "large": "https://images.pokemontcg.io/rsv10pt5/120_hires.png"
+          "large": "https://images.scrydex.com/pokemon/rsv10pt5-120/large"
         },
         "set": {
           "id": "rsv10pt5",
@@ -13356,7 +13382,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/rsv10pt5/158.png",
-          "large": "https://images.pokemontcg.io/rsv10pt5/158_hires.png"
+          "large": "https://images.scrydex.com/pokemon/rsv10pt5-158/large"
         },
         "set": {
           "id": "rsv10pt5",
@@ -13445,7 +13471,7 @@
         "regulationMark": "I",
         "images": {
           "small": "https://images.pokemontcg.io/rsv10pt5/160.png",
-          "large": "https://images.pokemontcg.io/rsv10pt5/160_hires.png"
+          "large": "https://images.scrydex.com/pokemon/rsv10pt5-160/large"
         },
         "set": {
           "id": "rsv10pt5",
