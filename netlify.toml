@@ -12,24 +12,24 @@ paths = [".cache", "_site/og-images"]
 package = "netlify-plugin-debug-cache"
 
 [images]
-remote_images = ["https://blog.warnick.me/.*", "https://images.pokemontcg.io/.*", "https://books.google.com/.*"]
+remote_images = ["https://media.samwarnick.com/.*", "https://images.pokemontcg.io/.*", "https://books.google.com/.*"]
 
 [build.environment]
 TZ = 'America/New_York'
 
 [[redirects]]
 from = "/media/og/*"
-to = "/.netlify/images?url=https://blog.warnick.me/:splat&fm=jpg&w=1200&h=630&fit=cover"
+to = "/.netlify/images?url=https://media.samwarnick.com/:splat&fm=jpg&w=1200&h=630&fit=cover"
 status = 200
 
 [[redirects]]
 from = "/media/video/*"
-to = "https://blog.warnick.me/:splat"
+to = "https://media.samwarnick.com/:splat"
 status = 200
 
 [[redirects]]
 from = "/media/*"
-to = "/.netlify/images?url=https://blog.warnick.me/:splat&fm=webp&q=90"
+to = "/.netlify/images?url=https://media.samwarnick.com/:splat&fm=webp&q=90"
 status = 200
 
 [[redirects]]
