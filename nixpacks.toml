@@ -1,7 +1,6 @@
+[phases.install]
+cmds = ["npm i"]
+
 [phases.build]
-cmds = [
-    "mkdir -p _site/og-images",
-    "if [ -d /cache/og-images ] && [ \"$(ls -A /cache/og-images 2>/dev/null)\" ]; then cp -rn /cache/og-images/* _site/og-images/ 2>/dev/null || true; fi",
-    "npx @11ty/eleventy",
-    "if [ -d /cache/og-images ]; then cp -r _site/og-images/* /cache/og-images/ 2>/dev/null || true; fi"
-]
+cacheDirectories = ["_site/og-images"]
+cmds = ["npx @11ty/eleventy"]
