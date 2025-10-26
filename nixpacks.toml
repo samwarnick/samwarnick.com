@@ -1,5 +1,5 @@
 [phases.install]
-cmds = ["npm i"]
+cmds = ["npm ci"]
 
 [phases.build]
 cacheDirectories = ["_site/og-images"]
