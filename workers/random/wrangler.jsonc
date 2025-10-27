@@ -9,5 +9,11 @@
 	"compatibility_date": "2025-10-24",
 	"observability": {
 		"enabled": true
-	}
+	},
+    "routes": [
+      {
+        "pattern": "samwarnick.com/random",
+        "zone_name": "samwarnick.com"
+      }
+    ]
 }
