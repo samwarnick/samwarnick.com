@@ -1,0 +1,14 @@
+---
+permalink: /redirects-map.conf
+layout: false
+eleventyExcludeFromCollections: true
+---
+{%- for post in collections.posts -%}
+    {%- if post.data.oldUrl -%}
+        {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) -%}
+        {{post.data.oldUrl | removeSite }} {{absolutePostUrl | removeSite}};
+        {%- if not loop.last -%}
+            {{ '\n' }}
+        {%- endif -%}
+    {%- endif -%}
+{%- endfor -%}
