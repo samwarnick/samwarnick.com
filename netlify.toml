@@ -33,11 +33,6 @@ to = "/.netlify/images?url=https://media.samwarnick.com/:splat&fm=webp&q=90"
 status = 200
 
 [[redirects]]
-from = "/random"
-to = "/.netlify/functions/random-post"
-status = 200
-
-[[redirects]]
 from = "/feed.rss"
 to = "/rss.xml"
 status = 301
@@ -46,7 +41,3 @@ status = 301
 from = "/styleguide"
 to = "/site/#styleguide"
 status = 302
-
-[functions]
-directory = "functions"
-included_files = ["./_site/feed.json"]
