@@ -12,3 +12,5 @@ src/content/blog/_drafts/media
 
 cli/dexcollection.csv.txt
 /cli/pokemon_tcg_data/
+
+.wrangler

@@ -7,8 +7,10 @@
 	"scripts": {
 		"dev": "npx @11ty/eleventy --serve --incremental",
 		"pokemon": "node --env-file .env cli/fetchPokemon.js",
-		"bookshelf": "node cli/bookshelf.js"
-	},
+		"bookshelf": "node cli/bookshelf.js",
+        "workers:deploy": "wrangler deploy -c ./workers/random/wrangler.jsonc",
+        "workers:dev": "wrangler dev -c ./workers/random/wrangler.jsonc"
+    },
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
@@ -26,7 +28,8 @@
 		"markdown-it-footnote": "^4.0.0",
 		"markdown-it-github-alerts": "^0.3.0",
 		"markdown-it-html5-media": "^0.7.1",
-		"netlify-plugin-cache": "^1.0.3"
+		"netlify-plugin-cache": "^1.0.3",
+        "wrangler": "^4.45.0"
 	},
 	"dependencies": {
 		"@netlify/functions": "^3.1.5",
