@@ -34,14 +34,20 @@ package = "netlify-plugin-cache"
 paths = [".cache", "_site/og-images"]
 ```
 
-With Coolify, I'm using the magical Nixpacks to build and serve the blog. I went down a few rabbit holes of trying to write the og-images to the host server and copying them back and stuff. Wasn't looking pretty. Turns out, [Nixpacks has an option for this](https://nixpacks.com/docs/configuration/file#cache-directories)! I added a `nixpacks.toml` and added _two_ lines (take that Netlify and your _four_ lines.)
+With Coolify, I'm using the magical Nixpacks to build and serve the blog. I went down a few rabbit holes of trying to write the og-images to the host server and copying them back and stuff. Wasn't looking pretty. Turns out, [Nixpacks has an option for this](https://nixpacks.com/docs/configuration/file#cache-directories)! I added a `nixpacks.toml` and added some stuff. 
 
 ```toml
 [phases.build]
-cacheDirectories = ["_site/og-images"]
+cacheDirectories = ["/cache/og-images"]
+cmds = [
+    "mkdir -p /cache/og-images _site/og-images",
+    "cp -r /cache/og-images/* _site/og-images/ 2>/dev/null || true",
+    "npx @11ty/eleventy",
+    "cp -r _site/og-images/* /cache/og-images/"
+]
 ```
 
-My friend Claude was skeptical that this would work, but so far, it's been working great. I'm not sure how long that cache sticks around, or where it actually caches it, but I won't question the magic.
+My friend Claude was skeptical that this would work, but so far, it's been working great. I'm not sure how long that cache sticks around, or where it actually caches it, but I won't question the magic. I was running into issues where Nixpacks was unmounting the cache directory, which removed it from `_sites`, so it wasn't being copied to the final Docker image. My workaround was to make a different directory for the cache and copy it to `_site`.
 
 ## Scheduled redeploys
 
