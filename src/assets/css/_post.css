@@ -47,8 +47,11 @@
 	ol {
 		margin-block: var(--spacing-more);
 		padding-inline: 2em;
-		list-style-type: disc;
 	}
+
+    ul {
+        list-style-type: disc;
+    }
 
 	li > ul,
 	li > ol {
