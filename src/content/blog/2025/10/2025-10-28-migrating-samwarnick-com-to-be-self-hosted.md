@@ -178,7 +178,7 @@ As of October 27, 2024, samwarnick.com is self-hosted. Is this worth it? That's 
 
 It just feels cool to have _my_ blog on _my_ server in _my_ closet (with a little help from Cloudflare.) 
 
-My blog does not get much traffic, so I'm not too worried about it bringing my house down[^5]. I am a little worried about if my internet or power goes out. For now, I will keep Netlify going, and I can switch over some DNS records to point back at Netlify if I need to. 
+My blog does not get much traffic, so I'm not too worried about it bringing my house down[^5]. I am a little worried about if my internet or power goes out. For now, I will keep Netlify going, and I can switch over some DNS records to point back at Netlify if I need to. Builds are slower too. Netlify builds take like one minute. On Coolify, they take anywhere between two and three minutes. More if Nixpacks decides it no longer has the cache. Probably something better hardware can fix.
 
 I don't know if I will do this permanently or not. But it's been an exciting adventure.
 
