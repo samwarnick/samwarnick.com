@@ -174,7 +174,7 @@ But, now images are being optimized on my server!
 
 ## Is this worth it?
 
-As of October 27, 2024, samwarnick.com is self-hosted. Is this worth it? That's the big question. Probably not. But it's fun! Dave said, "instead of asking 'is it worth it?' ask yourself 'what did I learn?'" So what did I learn? A lot. Like, it's possible! That is a really cool feeling. We don't need these huge corporations to host our stuff. Are they the right solution a lot of the time? Yeah. Are there alternatives? Definitely. I still have the Beelink Mini PC I ordered sitting on my desk, unopened. It was neat figuring out how to do this on the hardware I already have. I will probably return it unless Carter convinces me otherwise. It may not be exactly simple or easy, but it's possible, even for a n00b like me.
+As of October 27, 2025, samwarnick.com is self-hosted. Is this worth it? That's the big question. Probably not. But it's fun! Dave said, "instead of asking 'is it worth it?' ask yourself 'what did I learn?'" So what did I learn? A lot. Like, it's possible! That is a really cool feeling. We don't need these huge corporations to host our stuff. Are they the right solution a lot of the time? Yeah. Are there alternatives? Definitely. I still have the Beelink Mini PC I ordered sitting on my desk, unopened. It was neat figuring out how to do this on the hardware I already have. I will probably return it unless Carter convinces me otherwise. It may not be exactly simple or easy, but it's possible, even for a n00b like me.
 
 It just feels cool to have _my_ blog on _my_ server in _my_ closet (with a little help from Cloudflare.) 
 
