@@ -3,6 +3,36 @@
     "year": 2025,
     "books": [
       {
+        "id": "06A1E840-6440-4638-97E4-101991A1936E",
+        "isbn": "9781959001010",
+        "googleId": "LMW5zwEACAAJ",
+        "title": "Skysworn",
+        "author": "Will Wight",
+        "startedReading": "2025-10-09",
+        "finishedReading": "2025-10-26",
+        "didNotFinish": ""
+      },
+      {
+        "id": "6FE658A9-8276-40AE-8DE3-44C5C2F3EF26",
+        "isbn": "9781943363414",
+        "googleId": "Lq-MzwEACAAJ",
+        "title": "Blackflame",
+        "author": "Will Wight",
+        "startedReading": "2025-08-25",
+        "finishedReading": "2025-10-09",
+        "didNotFinish": ""
+      },
+      {
+        "id": "D5F7521C-C67C-427D-977D-CBA62E5122C5",
+        "isbn": "9781943363353",
+        "googleId": "5BOQzwEACAAJ",
+        "title": "Soulsmith",
+        "author": "Will Wight",
+        "startedReading": "2025-07-29",
+        "finishedReading": "2025-08-23",
+        "didNotFinish": ""
+      },
+      {
         "id": "A678C1D7-9507-4C4E-9406-AB9A2F3F7DD5",
         "isbn": "9781943363339",
         "googleId": "R7eOzwEACAAJ",
