@@ -710,47 +710,42 @@
         }
       },
       {
-        "id": "swsh12pt5gg-GG40",
-        "name": "Glaceon VSTAR",
+        "id": "swsh12pt5gg-GG38",
+        "name": "Suicune V",
         "supertype": "Pokémon",
         "subtypes": [
-          "VSTAR"
+          "Basic",
+          "V"
         ],
-        "hp": "260",
+        "hp": "210",
         "types": [
           "Water"
         ],
-        "evolvesFrom": "Glaceon V",
         "rules": [
-          "VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards."
+          "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "abilities": [
+          {
+            "name": "Fleet-Footed",
+            "text": "Once during your turn, if this Pokémon is in the Active Spot, you may draw a card.",
+            "type": "Ability"
+          }
         ],
         "attacks": [
           {
-            "name": "Icicle Shot",
+            "name": "Blizzard Rondo",
             "cost": [
-              "Water",
               "Water",
               "Colorless"
             ],
-            "convertedEnergyCost": 3,
-            "damage": "180",
-            "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
-          },
-          {
-            "name": "Crystal Star",
-            "cost": [
-              "Water",
-              "Water",
-              "Colorless"
-            ],
-            "convertedEnergyCost": 3,
-            "damage": "220",
-            "text": "During your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon. (You can't use more than 1 VSTAR Power in a game.)"
+            "convertedEnergyCost": 2,
+            "damage": "20+",
+            "text": "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's)."
           }
         ],
         "weaknesses": [
           {
-            "type": "Metal",
+            "type": "Lightning",
             "value": "×2"
           }
         ],
@@ -759,21 +754,20 @@
           "Colorless"
         ],
         "convertedRetreatCost": 2,
-        "number": "GG40",
-        "artist": "Gemi",
-        "rarity": "Rare Holo VSTAR",
+        "number": "GG38",
+        "artist": "Atsushi Furusawa",
+        "rarity": "Rare Holo V",
         "nationalPokedexNumbers": [
-          471
+          245
         ],
         "legalities": {
           "unlimited": "Legal",
-          "standard": "Legal",
           "expanded": "Legal"
         },
-        "regulationMark": "F",
+        "regulationMark": "E",
         "images": {
-          "small": "https://images.pokemontcg.io/swsh12pt5gg/GG40.png",
-          "large": "https://images.scrydex.com/pokemon/swsh12pt5gg-GG40/large"
+          "small": "https://images.pokemontcg.io/swsh12pt5gg/GG38.png",
+          "large": "https://images.scrydex.com/pokemon/swsh12pt5gg-GG38/large"
         },
         "set": {
           "id": "swsh12pt5gg",
@@ -4209,90 +4203,101 @@
             "logo": "https://images.pokemontcg.io/sv7/logo.png"
           }
         }
-      },
+      }
+    ]
+  },
+  {
+    "id": "me1",
+    "name": "Mega Evolution",
+    "series": "Mega Evolution",
+    "printedTotal": 132,
+    "total": 188,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "MEG",
+    "releaseDate": "2025/09/26",
+    "updatedAt": "2025/09/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/me1/symbol.png",
+      "logo": "https://images.pokemontcg.io/me1/logo.png"
+    },
+    "cards": [
       {
-        "id": "sv7-170",
-        "name": "Terapagos ex",
+        "id": "me1-151",
+        "name": "Spearow",
         "supertype": "Pokémon",
         "subtypes": [
-          "Basic",
-          "Tera",
-          "ex"
+          "Basic"
         ],
-        "hp": "230",
+        "hp": "60",
         "types": [
           "Colorless"
         ],
-        "rules": [
-          "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
-          "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+        "evolvesTo": [
+          "Fearow"
         ],
         "attacks": [
           {
-            "name": "Unified Beatdown",
+            "name": "Pluck",
             "cost": [
-              "Colorless",
               "Colorless"
             ],
-            "convertedEnergyCost": 2,
-            "damage": "30×",
-            "text": "If you go second, you can't use this attack during your first turn. This attack does 30 damage for each of your Benched Pokémon."
-          },
-          {
-            "name": "Crown Opal",
-            "cost": [
-              "Grass",
-              "Water",
-              "Lightning"
-            ],
-            "convertedEnergyCost": 3,
-            "damage": "180",
-            "text": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic non-Colorless Pokémon."
+            "convertedEnergyCost": 1,
+            "damage": "10",
+            "text": "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon."
           }
         ],
         "weaknesses": [
           {
-            "type": "Fighting",
+            "type": "Lightning",
             "value": "×2"
           }
         ],
+        "resistances": [
+          {
+            "type": "Fighting",
+            "value": "-30"
+          }
+        ],
         "retreatCost": [
-          "Colorless",
           "Colorless"
         ],
-        "convertedRetreatCost": 2,
-        "number": "170",
-        "rarity": "Special Illustration Rare",
+        "convertedRetreatCost": 1,
+        "number": "151",
+        "rarity": "Illustration Rare",
         "nationalPokedexNumbers": [
-          1024
+          21
         ],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
           "expanded": "Legal"
         },
-        "regulationMark": "H",
+        "regulationMark": "I",
         "images": {
-          "small": "https://images.pokemontcg.io/sv7/170.png",
-          "large": "https://images.scrydex.com/pokemon/sv7-170/large"
+          "small": "https://images.pokemontcg.io/me1/151.png",
+          "large": "https://images.scrydex.com/pokemon/me1-151/large"
         },
         "set": {
-          "id": "sv7",
-          "name": "Stellar Crown",
-          "series": "Scarlet & Violet",
-          "printedTotal": 142,
-          "total": 175,
+          "id": "me1",
+          "name": "Mega Evolution",
+          "series": "Mega Evolution",
+          "printedTotal": 132,
+          "total": 188,
           "legalities": {
             "unlimited": "Legal",
             "standard": "Legal",
             "expanded": "Legal"
           },
-          "ptcgoCode": "SCR",
-          "releaseDate": "2024/09/13",
-          "updatedAt": "2024/08/02 15:00:00",
+          "ptcgoCode": "MEG",
+          "releaseDate": "2025/09/26",
+          "updatedAt": "2025/09/25 15:00:00",
           "images": {
-            "symbol": "https://images.pokemontcg.io/sv7/symbol.png",
-            "logo": "https://images.pokemontcg.io/sv7/logo.png"
+            "symbol": "https://images.pokemontcg.io/me1/symbol.png",
+            "logo": "https://images.pokemontcg.io/me1/logo.png"
           }
         }
       }
