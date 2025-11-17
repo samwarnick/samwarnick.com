@@ -49,6 +49,7 @@ ul.pages-list {
 
         input {
             appearance: none;
+            width: 0;
 
             &:focus-visible {
                 outline: none;
