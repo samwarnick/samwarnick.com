@@ -14,7 +14,7 @@ class FallingParticles extends HTMLElement {
 	static style = `
       :host {
           display: block;
-          position: absolute;
+          position: fixed;
           inset: 0;
           pointer-events: none;
       }
