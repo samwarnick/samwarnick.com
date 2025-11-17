@@ -6,7 +6,7 @@ ul.pages-list {
     flex-wrap: wrap;
 
     li {
-        a, label {
+        a, label, button {
             padding: 0.1em 0.5em;
             border-radius: var(--border-radius);
             border: 2px solid transparent;
@@ -21,6 +21,10 @@ ul.pages-list {
             }
         }
 
+        button {
+            height: 100%;
+        }
+
         label {
             cursor: pointer;
             height: 100%;
@@ -28,13 +32,6 @@ ul.pages-list {
             justify-content: center;
             align-items: center;
             text-shadow: 0 0 2px var(--background-color);
-
-            a[aria-hidden="true"] {
-                opacity: 0;
-                width: 0;
-                padding-inline: 0;
-                border-inline: none;
-            }
 
             &:has(input:checked) {
                 border-color: var(--accent-color);
@@ -45,6 +42,13 @@ ul.pages-list {
                 outline: 2px solid var(--accent-color);
                 outline-offset: 2px;
             }
+        }
+
+        a[aria-hidden="true"] {
+            opacity: 0;
+            width: 0;
+            padding-inline: 0;
+            border-inline: none;
         }
 
         input {

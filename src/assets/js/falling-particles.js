@@ -14,8 +14,7 @@ class FallingParticles extends HTMLElement {
 	static style = `
       :host {
           display: block;
-          position: fixed;
-          inset: 0;
+          position: absolute;
           pointer-events: none;
       }
 
@@ -35,14 +34,15 @@ class FallingParticles extends HTMLElement {
           rotate: var(--_full-rotation);
           animation:
                   rotate calc(var(--_rotation-speed) * 1s) linear infinite,
-                  translate calc(var(--_fall-speed) * 1s) cubic-bezier(0, 0.19, 0.3, 0.45);
+                  translate calc(var(--_fall-speed) * 1s) cubic-bezier(0, 0.19, 0.3, 0.45),
+									fade-out calc(var(--_fall-speed) * 1s) ease-out;
           position: absolute;
           color: var(--_color);
           font-size: calc(var(--_particle-size) + 10px);
           font-weight: 900;
           line-height: 0.8;
           user-select: none;
-          will-change: translate, rotate;
+          will-change: translate, rotate, opacity;
           transform-style: preserve-3d;
           isolation: isolate;
       }
@@ -56,6 +56,15 @@ class FallingParticles extends HTMLElement {
           .particle {
               animation: none;
           }
+      }
+			
+			@keyframes fade-out {
+					0%, 90% {
+							opacity: 1;
+					}
+					100% {
+							opacity: 0;
+					}
       }
 
       @keyframes rotate {
@@ -197,7 +206,8 @@ class FallingParticles extends HTMLElement {
 
 		this.lastUpdated = currentTime;
 		let birthRateModifier = this.inBurstMode ? 10 : this.particleMap.size < 30 ? 2 : 1;
-		this.outstandingParticles += (this.birthRate * delta * birthRateModifier) / 1000;
+		let birthRate = this.inBurstMode ? 8 : this.birthRate;
+		this.outstandingParticles += (birthRate * delta * birthRateModifier) / 1000;
 
 		if (this.outstandingParticles >= 1) {
 			const particlesToCreate = Math.floor(this.outstandingParticles);
@@ -311,6 +321,11 @@ class FallingParticles extends HTMLElement {
 			this.shouldResume = !!this.rid;
 			this.stop();
 		}
+	}
+
+	_updateViewportHeight() {
+		console.log(window.innerHeight);
+		this.style.setProperty('--vh', `${window.innerHeight}px`);
 	}
 }
 
