@@ -88,28 +88,35 @@ class FallingParticles extends HTMLElement {
           }
       }`
 
-	birthRate = 8;
-	speed = 5;
-	shapes = [];
-	colors = [];
-	defaultDuration;
+	#birthRate = 8;
+	#speed = 5;
+	#shapes = [];
+	#colors = [];
+	#defaultDuration;
 
-	particleMap = new Map();
-	particlePool = [];
-	maxPoolSize = 100;
-	outstandingParticles = 0;
+	#particleMap = new Map();
+	#particlePool = [];
+	#maxPoolSize = 100;
+	#outstandingParticles = 0;
 
-	inBurstMode = false;
-	burstTimeout;
-	rid;
-	lastUpdated;
+	#inBurstMode = false;
+	#burstTimeout;
+	#rid;
+	#lastUpdated;
+	#boundVisibilityChange;
+	#boundCreateParticles;
+	#particlesContainer;
+	#cleanupObserver;
+	#shouldResume = false;
+
+	get isRunning() { return !!this.#rid }
 
 	connectedCallback() {
-		this.speed = Number(this.getAttribute(FallingParticles.attrs.speed)) || 5;
-		this.birthRate = Number(this.getAttribute(FallingParticles.attrs.birthRate)) || 16;
-		this.shapes = this.getAttribute(FallingParticles.attrs.shapes)?.split(",") || [];
-		this.colors = this.getAttribute(FallingParticles.attrs.colors)?.split(",") || [];
-		this.defaultDuration = this.getAttribute(FallingParticles.attrs.duration);
+		this.#speed = Number(this.getAttribute(FallingParticles.attrs.speed)) || 5;
+		this.#birthRate = Number(this.getAttribute(FallingParticles.attrs.birthRate)) || 16;
+		this.#shapes = this.getAttribute(FallingParticles.attrs.shapes)?.split(",") || [];
+		this.#colors = this.getAttribute(FallingParticles.attrs.colors)?.split(",") || [];
+		this.#defaultDuration = this.getAttribute(FallingParticles.attrs.duration);
 
 		const shadowRoot = this.attachShadow({ mode: "open" });
 
@@ -124,25 +131,25 @@ class FallingParticles extends HTMLElement {
 
 		shadowRoot.appendChild(template.content.cloneNode(true));
 
-		this.particlesContainer = this.shadowRoot.querySelector(".particles");
+		this.#particlesContainer = this.shadowRoot.querySelector(".particles");
 
-		this._boundVisibilityChange = this._visibilityChange.bind(this);
-		this._boundCreateParticles = this._createParticles.bind(this);
+		this.#boundVisibilityChange = this.#visibilityChange.bind(this);
+		this.#boundCreateParticles = this.#createParticles.bind(this);
 
 		if (this.getAttribute(FallingParticles.attrs.autostart) !== "false") {
 			this.start();
 		}
 
-		this.cleanupObserver = new IntersectionObserver(
+		this.#cleanupObserver = new IntersectionObserver(
 			(entries) => {
 				entries.forEach(entry => {
 					if (!entry.isIntersecting && entry.boundingClientRect.top > 0) {
 						const particleId = entry.target.id;
-						const particleData = this.particleMap.get(particleId);
+						const particleData = this.#particleMap.get(particleId);
 
 						if (particleData) {
-							this._returnParticleToPool(entry.target);
-							this.particleMap.delete(particleId);
+							this.#returnParticleToPool(entry.target);
+							this.#particleMap.delete(particleId);
 						}
 					}
 				});
@@ -153,87 +160,87 @@ class FallingParticles extends HTMLElement {
 			}
 		);
 
-		document.addEventListener("visibilitychange", this._boundVisibilityChange);
+		document.addEventListener("visibilitychange", this.#boundVisibilityChange);
 	}
 
 	disconnectedCallback() {
-		document.removeEventListener("visibilitychange", this._boundVisibilityChange);
-		this.cleanupObserver?.disconnect();
+		document.removeEventListener("visibilitychange", this.#boundVisibilityChange);
+		this.#cleanupObserver?.disconnect();
 		this.stop();
 	}
 
 	start(forDuration) {
-		if (this.rid) { return }
+		if (this.#rid) { return }
 
-		this.lastUpdated = performance.now();
-		this.rid = requestAnimationFrame(this._boundCreateParticles);
+		this.#lastUpdated = performance.now();
+		this.#rid = requestAnimationFrame(this.#boundCreateParticles);
 
-		if (forDuration || this.defaultDuration) {
-			setTimeout(() => this.stop(), forDuration || this.defaultDuration);
+		if (forDuration || this.#defaultDuration) {
+			setTimeout(() => this.stop(), forDuration || this.#defaultDuration);
 		}
 	}
 
 	stop() {
-		if (this.rid) {
-			cancelAnimationFrame(this.rid);
-			this.rid = null;
+		if (this.isRunning) {
+			cancelAnimationFrame(this.#rid);
+			this.#rid = null;
 		}
 	}
 
 	burst() {
-		const shouldStartAndStop = !this.rid;
+		const shouldStartAndStop = !this.isRunning;
 		if (shouldStartAndStop) {
 			this.start();
 		}
-		this.inBurstMode = true;
-		if (this.burstTimeout) {
-			clearTimeout(this.burstTimeout);
+		this.#inBurstMode = true;
+		if (this.#burstTimeout) {
+			clearTimeout(this.#burstTimeout);
 		}
-		this.burstTimeout = window.setTimeout(() => {
-			this.inBurstMode = false;
+		this.#burstTimeout = setTimeout(() => {
+			this.#inBurstMode = false;
 			if (shouldStartAndStop) {
 				this.stop();
 			}
 		}, 200);
 	}
 
-	_createParticles() {
+	#createParticles() {
 		const currentTime = performance.now();
-		const delta = currentTime - this.lastUpdated;
+		const delta = currentTime - this.#lastUpdated;
 
 		if (delta < 16) {
-			this.rid = requestAnimationFrame(this._boundCreateParticles);
+			this.#rid = requestAnimationFrame(this.#boundCreateParticles);
 			return;
 		}
 
-		this.lastUpdated = currentTime;
-		let birthRateModifier = this.inBurstMode ? 10 : this.particleMap.size < 30 ? 2 : 1;
-		let birthRate = this.inBurstMode ? 8 : this.birthRate;
-		this.outstandingParticles += (birthRate * delta * birthRateModifier) / 1000;
+		this.#lastUpdated = currentTime;
+		let birthRateModifier = this.#inBurstMode ? 10 : this.#particleMap.size < 30 ? 2 : 1;
+		let birthRate = this.#inBurstMode ? 8 : this.#birthRate;
+		this.#outstandingParticles += (birthRate * delta * birthRateModifier) / 1000;
 
-		if (this.outstandingParticles >= 1) {
-			const particlesToCreate = Math.floor(this.outstandingParticles);
+		if (this.#outstandingParticles >= 1) {
+			const particlesToCreate = Math.floor(this.#outstandingParticles);
 			const fragment = document.createDocumentFragment();
 
 			for (let i = 0; i < particlesToCreate; i++) {
-				const p = this._createParticle(this.inBurstMode);
-				this.particleMap.set(p.id, p);
+				const p = this.#createParticle(this.#inBurstMode);
+				this.#particleMap.set(p.id, p);
 
-				this._attachParticle(p, fragment);
+				this.#attachParticle(p, fragment);
 			}
 
-			this.particlesContainer.appendChild(fragment);
-			this.outstandingParticles -= Math.floor(particlesToCreate);
+			this.#particlesContainer.appendChild(fragment);
+			this.#outstandingParticles -= Math.floor(particlesToCreate);
 		}
 
-		this.rid = requestAnimationFrame(this._boundCreateParticles);
+		this.#rid = requestAnimationFrame(this.#boundCreateParticles);
 	}
 
-	_createParticle(burst) {
+	#createParticle(burst) {
 		const x = burst ? randomBetween(40, 60) : randomBetween(0, 100)
 		const birthTime = performance.now();
 		return {
-			type: this._getRandomShape(),
+			type: this.#getRandomShape(),
 			id: generateId(birthTime),
 			birthTime,
 			rotX: randomBetween(0, 1),
@@ -241,25 +248,25 @@ class FallingParticles extends HTMLElement {
 			rotZ: randomBetween(0, 1),
 			rotDeg: randomBetween(0, 360),
 			rotSpeed: randomBetween(1, 3),
-			fallSpeed: burst ? randomBetween(2, 4) : randomBetween(this.speed - 2, this.speed),
+			fallSpeed: burst ? randomBetween(2, 4) : randomBetween(this.#speed - 2, this.#speed),
 			x,
 			xDrift: burst ? (x - 50) * 2 : randomBetween(-5, 5),
-			color: this._getRandomColor(),
+			color: this.#getRandomColor(),
 			scale: randomBetween(0.8, 1.2)
 		}
 	}
 
-	_getRandomShape() {
-		return this.shapes[Math.floor(Math.random() * this.shapes.length)];
+	#getRandomShape() {
+		return this.#shapes[Math.floor(Math.random() * this.#shapes.length)];
 	}
 
-	_getRandomColor() {
-		return this.colors[Math.floor(Math.random() * this.colors.length)];
+	#getRandomColor() {
+		return this.#colors[Math.floor(Math.random() * this.#colors.length)];
 	}
 
-	_getParticleFromPool() {
-		if (this.particlePool.length > 0) {
-			const particle = this.particlePool.pop();
+	#getParticleFromPool() {
+		if (this.#particlePool.length > 0) {
+			const particle = this.#particlePool.pop();
 			particle.style.display = 'block';
 			return particle;
 		}
@@ -269,21 +276,21 @@ class FallingParticles extends HTMLElement {
 		return particle;
 	}
 
-	_returnParticleToPool(particleElement) {
-		this.cleanupObserver.unobserve(particleElement);
+	#returnParticleToPool(particleElement) {
+		this.#cleanupObserver.unobserve(particleElement);
 
-		if (this.particlePool.length < this.maxPoolSize) {
+		if (this.#particlePool.length < this.#maxPoolSize) {
 			particleElement.style.display = 'none';
 			particleElement.textContent = '';
 			particleElement.classList.remove('square');
-			this.particlePool.push(particleElement);
+			this.#particlePool.push(particleElement);
 		} else {
 			particleElement.remove();
 		}
 	}
 
-	_attachParticle(p, container) {
-		const particle = this._getParticleFromPool();
+	#attachParticle(p, container) {
+		const particle = this.#getParticleFromPool();
 
 		particle.style.setProperty("--_rotation-xyz", `${p.rotX} ${p.rotY} ${p.rotZ}`);
 		particle.style.setProperty("--_rotation-deg", `${p.rotDeg}deg`);
@@ -309,25 +316,20 @@ class FallingParticles extends HTMLElement {
 		}
 
 		container.appendChild(particle);
-		this.cleanupObserver.observe(particle);
+		this.#cleanupObserver.observe(particle);
 	}
 
-	_visibilityChange() {
+	#visibilityChange() {
 		if (document.visibilityState === "visible") {
-			this.lastUpdated = performance.now();
-			if (this.shouldResume) {
+			this.#lastUpdated = performance.now();
+			if (this.#shouldResume) {
 				this.start();
-				this.shouldResume = false;
+				this.#shouldResume = false;
 			}
 		} else if (document.visibilityState === "hidden") {
-			this.shouldResume = !!this.rid;
+			this.#shouldResume = !!this.rid;
 			this.stop();
 		}
-	}
-
-	_updateViewportHeight() {
-		console.log(window.innerHeight);
-		this.style.setProperty('--vh', `${window.innerHeight}px`);
 	}
 }
 
