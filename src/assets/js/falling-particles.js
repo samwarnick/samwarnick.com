@@ -15,6 +15,7 @@ class FallingParticles extends HTMLElement {
       :host {
           display: block;
           position: absolute;
+					inset: 0;
           pointer-events: none;
       }
 
@@ -54,6 +55,7 @@ class FallingParticles extends HTMLElement {
 
       @media (prefers-reduced-motion: reduce) {
           .particle {
+							display: none;
               animation: none;
           }
       }
