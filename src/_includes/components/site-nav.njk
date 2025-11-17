@@ -1,8 +1,8 @@
 <header class="site-header">
 	<a href="/" data-link="Sam Warnick">Sam Warnick</a>
-	{% if not hideHeaderLinks %}
 	<nav>
 		<ul role="list" class="pages-list">
+            {% if not hideHeaderLinks %}
 			<li>
 				<a href="/">/home</a>
 			</li>
@@ -12,7 +12,41 @@
 			<li>
 				<a href="/search">/search</a>
 			</li>
+            {% endif %}
+            <li class="fall-toggle">
+                <label for="fall-toggle" aria-label="Enable fall animation">
+                    <input type="checkbox" id="fall-toggle" onclick="toggleFall()">
+                    🍁<a aria-hidden="true">S</a>
+                </label>
+            </li>
 		</ul>
 	</nav>
-	{% endif %}
 </header>
+
+<script>
+	const stopped = localStorage.getItem("falling-particles-stopped") === "true";
+    const toggle = document.getElementById("fall-toggle");
+    customElements.whenDefined('falling-particles').then(() => {
+        const fall = document.getElementById("fall");
+        if (stopped) {
+            fall.stop();
+            toggle.checked = false;
+        } else {
+            fall.start();
+            toggle.checked = true;
+        }
+    })
+
+    function toggleFall() {
+        const fall = document.getElementById("fall");
+        if(fall.rid) {
+            fall.stop();
+            localStorage.setItem("falling-particles-stopped", "true");
+            toggle.checked = false;
+        } else {
+            fall.start();
+            localStorage.setItem("falling-particles-stopped", "false");
+            toggle.checked = true;
+        }
+    }
+</script>
