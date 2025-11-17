@@ -15,14 +15,15 @@ class FallingParticles extends HTMLElement {
       :host {
           display: block;
           position: absolute;
-					inset: 0;
+          inset: 0;
           pointer-events: none;
       }
 
       .particles {
           position: relative;
           width: 100%;
-          height: 100%;
+          height: calc(100% + 250px);
+          overflow: hidden;
           perspective: 500px;
       }
 
@@ -33,10 +34,9 @@ class FallingParticles extends HTMLElement {
           width: var(--_particle-size);
           translate: var(--_translate-x) -50px 0;
           rotate: var(--_full-rotation);
-          animation:
-                  rotate calc(var(--_rotation-speed) * 1s) linear infinite,
-                  translate calc(var(--_fall-speed) * 1s) cubic-bezier(0, 0.19, 0.3, 0.45),
-									fade-out calc(var(--_fall-speed) * 1s) ease-out;
+          animation: rotate calc(var(--_rotation-speed) * 1s) linear infinite,
+          translate calc(var(--_fall-speed) * 1s) cubic-bezier(0, 0.19, 0.3, 0.45),
+          fade-out calc(var(--_fall-speed) * 1s) ease-out;
           position: absolute;
           color: var(--_color);
           font-size: calc(var(--_particle-size) + 10px);
@@ -55,18 +55,18 @@ class FallingParticles extends HTMLElement {
 
       @media (prefers-reduced-motion: reduce) {
           .particle {
-							display: none;
+              display: none;
               animation: none;
           }
       }
-			
-			@keyframes fade-out {
-					0%, 90% {
-							opacity: 1;
-					}
-					100% {
-							opacity: 0;
-					}
+
+      @keyframes fade-out {
+          0%, 90% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 0;
+          }
       }
 
       @keyframes rotate {
