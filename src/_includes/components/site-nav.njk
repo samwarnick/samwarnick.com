@@ -33,7 +33,7 @@
 		const stopped = localStorage.getItem("falling-particles-stopped") === "true";
 		const toggle = document.getElementById("fall-toggle");
 
-		customElements.whenDefined('falling-particles').then(() => {
+		customElements.whenDefined('confetti-drop').then(() => {
 			const fall = document.getElementById("fall");
 
 			if (stopped) {

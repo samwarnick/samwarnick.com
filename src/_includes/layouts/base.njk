@@ -93,7 +93,8 @@
 		<link rel="pingback" href="https://webmention.io/samwarnick.com/xmlrpc" />
 		<script type="module" src="/assets/js/rss-feed.js"></script>
 		<script type="module" src="/assets/js/tcg-card.js"></script>
-        <script type="module" src="/assets/js/falling-particles.js"></script>
+        <script type="module" src="/assets/js/confetti-drop.js"></script>
+        <script type="module" src="/assets/js/browser-window.js"></script>
 		{%- if site.production -%}
 		<script
 			src="https://tinylytics.app/embed/MnkDUgWxDsEzVjdiiTLL.js"
@@ -105,6 +106,6 @@
 		{% include "components/site-nav.njk" %}
 		<main>{{ content | safe }}</main>
 		{% include "components/site-footer.njk" %}
-        <falling-particles autostart="false" shapes="🍁" rate="1" speed="16" id="fall"></falling-particles>
+        <confetti-drop shapes="🍁" spawn-rate="1" fall-time="16" id="fall"></confetti-drop>
 	</body>
 </html>
