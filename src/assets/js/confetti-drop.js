@@ -34,6 +34,7 @@ class ConfettiDrop extends HTMLElement {
           height: calc(100% + 250px);
           overflow: hidden;
           perspective: 500px;
+					container-type: inline-size;
       }
 
       .particle {
@@ -360,8 +361,8 @@ class ConfettiDrop extends HTMLElement {
 		particle.style.setProperty("--_rotation-deg", `${p.rotDeg}deg`);
 		particle.style.setProperty("--_rotation-speed", `${p.rotSpeed}`);
 		particle.style.setProperty("--_fall-time", `${p.fallTime}`);
-		particle.style.setProperty("--_translate-x", `${p.x}vw`);
-		particle.style.setProperty("--_x-drift", `${p.xDrift}vw`);
+		particle.style.setProperty("--_translate-x", `${p.x}cqw`);
+		particle.style.setProperty("--_x-drift", `${p.xDrift}cqw`);
 		particle.style.setProperty("--_color", p.color);
 		particle.style.setProperty("--_scale", p.scale);
 
