@@ -1,10 +1,14 @@
 ---
 title: 'confetti-drop: A Web Component'
-date: '2025-11-19'
-published: false
+date: '2025-11-19T14:55'
+published: true
+summary: >-
+  I turned my Svelte confetti component into a web component and published my
+  first npm package.
+tags:
+  - Web Components
 ---
-
-While making [Hannah's Game](https://hannahsgame.samwarnick.com), I made a Svelte confetti component. I wanted something similar in another project that was not Svelte. So decided to turn it into a web component.
+While making [Hannah's Game](https://hannahsgame.samwarnick.com), I made a Svelte confetti component. I wanted something similar in another project that was not Svelte. So I decided to turn it into a web component.
 
 I was hanging out on Mastodon when I saw [a post from Zach Leatherman](https://fediverse.zachleat.com/@zachleat/115548578306298427) about an update to a web component of his. I opened up the GitHub repo and I was inspired by its simplicity—a single JS file and a super simple npm package. I did not know npm packages could be just a file lol. I've never published an npm package before. I decided to give it a shot.
 
@@ -14,7 +18,7 @@ I migrated the component from Svelte to a vanilla web component. I spent some ti
 npm install @samwarnick/confetti-drop
 ```
 
-For my projects, I generally just copy the JS file an use a script tag:
+For my projects, I generally just copy the JS file and use a script tag:
 
 ```html
 <script type="module" src="/assets/js/confetti-drop.js"></script>
@@ -36,4 +40,4 @@ Here's a small demo using Zach Leatherman's [`browser-window`](https://github.co
   });
 </script>
 
-Checkout [the code on GitHub](https://github.com/samwarnick/confetti-drop).
+Check out [the code on GitHub](https://github.com/samwarnick/confetti-drop).
