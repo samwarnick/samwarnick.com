@@ -104,7 +104,7 @@ class ConfettiDrop extends HTMLElement {
 	#shouldResume = false;
 
 	get isRunning() {
-		return !!this.#rid;
+		return this.#rid !== null;
 	}
 
 	connectedCallback() {
@@ -251,6 +251,10 @@ class ConfettiDrop extends HTMLElement {
 	}
 
 	#createParticles() {
+		if (!this.isRunning) {
+			return;
+		}
+
 		const currentTime = performance.now();
 		const delta = currentTime - this.#lastUpdated;
 
@@ -287,9 +291,19 @@ class ConfettiDrop extends HTMLElement {
 		this.#rid = requestAnimationFrame(this.#boundCreateParticles);
 	}
 
+	#calculateFallTime(baseFallTime) {
+		const containerHeight = this.#particlesContainer.offsetHeight;
+		const baseHeight = 1000;
+		return (containerHeight / baseHeight) * baseFallTime;
+	}
+
 	#createParticle(burst) {
 		const x = burst ? randomBetween(40, 60) : randomBetween(0, 100);
 		const spawnTime = performance.now();
+		const baseFallTime = burst
+			? randomBetween(2, 4)
+			: randomBetween(this.#fallTime - 2, this.#fallTime);
+
 		return {
 			type: this.#getRandomShape(),
 			id: generateId(spawnTime),
@@ -299,9 +313,7 @@ class ConfettiDrop extends HTMLElement {
 			rotZ: randomBetween(0, 1),
 			rotDeg: randomBetween(0, 360),
 			rotSpeed: randomBetween(1, 3),
-			fallTime: burst
-				? randomBetween(2, 4)
-				: randomBetween(this.#fallTime - 2, this.#fallTime),
+			fallTime: this.#calculateFallTime(baseFallTime),
 			x,
 			xDrift: burst ? (x - 50) * 2 : randomBetween(-5, 5),
 			color: this.#getRandomColor(),
