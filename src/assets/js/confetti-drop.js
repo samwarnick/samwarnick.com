@@ -104,7 +104,7 @@ class ConfettiDrop extends HTMLElement {
 	#shouldResume = false;
 
 	get isRunning() {
-		return this.#rid !== null;
+		return this.#rid !== null && this.#rid !== undefined;
 	}
 
 	connectedCallback() {
