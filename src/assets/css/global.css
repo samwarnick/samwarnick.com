@@ -39,6 +39,7 @@ body {
 	color: var(--primary-text);
 	display: flex;
 	flex-direction: column;
+    position: relative;
 }
 
 main {

@@ -26,15 +26,15 @@ class ConfettiDrop extends HTMLElement {
           position: absolute;
           inset: 0;
           pointer-events: none;
+					overflow: hidden;
       }
 
       .particles {
           position: relative;
           width: 100%;
-          height: calc(100% + 250px);
-          overflow: hidden;
+          height: 100%;
           perspective: 500px;
-					container-type: inline-size;
+					container-type: size;
       }
 
       .particle {
@@ -44,9 +44,9 @@ class ConfettiDrop extends HTMLElement {
           width: var(--_particle-size);
           translate: var(--_translate-x) -50px 0;
           rotate: var(--_full-rotation);
-          animation: rotate calc(var(--_rotation-speed) * 1s) linear infinite,
-          translate calc(var(--_fall-time) * 1s) cubic-bezier(0, 0.19, 0.3, 0.45),
-          fade-out calc(var(--_fall-time) * 1s) ease-out;
+          animation: 
+									rotate calc(var(--_rotation-speed) * 1s) linear infinite,
+          				translate calc(var(--_fall-time) * 1s) cubic-bezier(0, 0.19, 0.3, 0.45);
           position: absolute;
           color: var(--_color);
           font-size: calc(var(--_particle-size) + 10px);
@@ -61,15 +61,6 @@ class ConfettiDrop extends HTMLElement {
       .square {
           background-color: var(--_color);
           scale: 0.8;
-      }
-
-      @keyframes fade-out {
-          0%, 90% {
-              opacity: 1;
-          }
-          100% {
-              opacity: 0;
-          }
       }
 
       @keyframes rotate {
@@ -87,7 +78,7 @@ class ConfettiDrop extends HTMLElement {
               translate: var(--_translate-x) -50px;
           }
           100% {
-              translate: calc(var(--_translate-x) + var(--_x-drift)) calc(100vh + 150px);
+              translate: calc(var(--_translate-x) + var(--_x-drift)) calc(100cqh + 50px);
           }
       }`;
 
@@ -170,7 +161,7 @@ class ConfettiDrop extends HTMLElement {
 			},
 			{
 				root: this.#particlesContainer,
-				rootMargin: "100px",
+				rootMargin: "200px",
 			},
 		);
 

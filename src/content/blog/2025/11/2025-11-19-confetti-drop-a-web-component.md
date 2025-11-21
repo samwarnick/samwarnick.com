@@ -28,7 +28,7 @@ Here's a small demo using Zach Leatherman's [`browser-window`](https://github.co
 
 <browser-window flush style="width: 100%; max-width: 400px; margin-inline: auto">
   <div style="position: relative; width: 100%; aspect-ratio: 1; background: white;">
-    <confetti-drop autostart fall-time="10"></confetti-drop>
+    <confetti-drop autostart></confetti-drop>
   </div>
 </browser-window>
 <script>
