@@ -15,7 +15,7 @@ If you've never heard of ScreenCred, it's an app that takes two movies, TV shows
 
 A web version of ScreenCred has always been on my list. In fact, I started on it a few different times:
 
-![Blue folder icons labeled ScreenCred-Web, ScreenCred-Web-2, ScreenCred-Web-3, and ScreenCred-Web-4, arranged vertically.](/media/img.png)
+![Blue folder icons labeled ScreenCred-Web, ScreenCred-Web-2, ScreenCred-Web-3, and ScreenCred-Web-4, arranged vertically.](https://samwarnick.com/media/2025-11-25-a-new-era-for-screen-cred1.png)
 
 I tried out a few different stacks. Astro, [Perfect Stack](https://samwarnick.com/blog/the-perfect-stack/), and SvelteKit. I ended up going with SvelteKit[^1] because it had the best developer experience out of the three and I was initially planning on hosting it on Cloudflare workers. [Cloudflare got derailed](https://samwarnick.com/blog/i-just-want-to-generate-an-og-image/). I'm now self-hosting it with the [node adapter](https://svelte.dev/docs/kit/adapter-node). It took a while to gain momentum on the project, but after making the decision to just use the node adapter instead of Cloudflare, I made a lot of progress. Views and state management had to be written from scratch, but a lot of the other business logic was easily ported from the iOS app.
 
@@ -23,17 +23,17 @@ It's now at a point where I'm happy with it. At least happy enough that I switch
 
 <div class="side-by-side">
   
-![ScreenCred app interface on an iPhone, showing two search bars at the top, followed by "Recents" and "Suggestions" sections with movie and TV show posters in a dark-themed layout.](/media/ios2.png)
+![ScreenCred app interface on an iPhone, showing two search bars at the top, followed by "Recents" and "Suggestions" sections with movie and TV show posters in a dark-themed layout.](https://samwarnick.com/media/2025-11-25-a-new-era-for-screen-cred2.png)
 
-![ScreenCred app interface on an iPhone with movie posters for Spider-Man and K-pop Demon Hunters, displaying cast information for Claudia Choi and Wendell Dalit with their roles and profile pictures.](/media/ios1.png)
+![ScreenCred app interface on an iPhone with movie posters for Spider-Man and K-pop Demon Hunters, displaying cast information for Claudia Choi and Wendell Dalit with their roles and profile pictures.](https://samwarnick.com/media/2025-11-25-a-new-era-for-screen-cred4.png)
 
 </div>
 
-![ScreenCred app interface in Safari with search bars at top, showing two search bars at the top, followed by "Recents" and "Suggestions" sections with movie and TV show posters in a dark-themed layout.](/media/img_1.png)
+![ScreenCred app interface in Safari with search bars at top, showing two search bars at the top, followed by "Recents" and "Suggestions" sections with movie and TV show posters in a dark-themed layout.](https://samwarnick.com/media/2025-11-25-a-new-era-for-screen-cred4.png)
 
 I'm especially proud of the OG images:
 
-![Thumbnail showing movie posters for Spider-Man: Into the Spider-Verse and KPop Demon Hunters against a blurred blue and pink gradient background.](/media/share1.png)
+![Thumbnail showing movie posters for Spider-Man: Into the Spider-Verse and KPop Demon Hunters against a blurred blue and pink gradient background.](https://samwarnick.com/media/2025-11-25-a-new-era-for-screen-cred5.png)
 
 I think they are a nice touch. And, honestly, like 50% of the development time was spent on these images, hence the whole dropping Cloudflare workers and using node.
 
