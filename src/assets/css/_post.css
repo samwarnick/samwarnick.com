@@ -123,6 +123,15 @@
 	.footnotes {
 		font-size: 0.8em;
 	}
+
+    .side-by-side {
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+
+        p {
+            grid-column: unset;
+        }
+    }
 }
 
 @media (prefers-color-scheme: dark) {
