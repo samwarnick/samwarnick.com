@@ -25,7 +25,7 @@ It's now at a point where I'm happy with it. At least happy enough that I switch
   
 ![ScreenCred app interface on an iPhone, showing two search bars at the top, followed by "Recents" and "Suggestions" sections with movie and TV show posters in a dark-themed layout.](https://samwarnick.com/media/2025/11/2025-11-25-a-new-era-for-screen-cred2.png)
 
-![ScreenCred app interface on an iPhone with movie posters for Spider-Man and K-pop Demon Hunters, displaying cast information for Claudia Choi and Wendell Dalit with their roles and profile pictures.](https://samwarnick.com/media/2025/11/2025-11-25-a-new-era-for-screen-cred4.png)
+![ScreenCred app interface on an iPhone with movie posters for Spider-Man and K-pop Demon Hunters, displaying cast information for Claudia Choi and Wendell Dalit with their roles and profile pictures.](https://samwarnick.com/media/2025/11/2025-11-25-a-new-era-for-screen-cred3.png)
 
 </div>
 
