@@ -9,7 +9,7 @@ mkdir -p /app/_site/og-images
 
 cp -r /cache/og-images/* /app/_site/og-images/ 2>/dev/null || true
 
-npm run eleventy
+node_modules/.bin/eleventy
 
 cp -r /app/_site/og-images/* /cache/og-images/ 2>/dev/null || true
 
