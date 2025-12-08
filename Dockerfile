@@ -1,25 +1,21 @@
-FROM node:24-alpine AS builder
+FROM node:24-alpine AS runtime
 
 WORKDIR /app
 
 COPY package*.json ./
-
 RUN npm ci
 
 COPY . .
 
-RUN --mount=type=cache,target=/cache/og-images \
-    mkdir -p _site/og-images && \
-    cp -r /cache/og-images/* _site/og-images/ 2>/dev/null || true && \
-    node_modules/.bin/eleventy && \
-    cp -r _site/og-images/* /cache/og-images/ 2>/dev/null || true
+RUN apk add --no-cache nginx
 
-FROM nginx:alpine
+RUN mkdir -p /run/nginx
+RUN mkdir -p /usr/share/nginx/html
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-COPY --from=builder /app/_site /usr/share/nginx/html
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
 EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
+ENTRYPOINT ["/entrypoint.sh"]
