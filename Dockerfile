@@ -16,7 +16,7 @@ RUN --mount=type=cache,target=/cache/og-images \
 
 FROM nginx:alpine
 
-COPY nginx.conf /etc/nginx/conf.d/deafult.conf
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 COPY --from=builder /app/_site /usr/share/nginx/html
 
