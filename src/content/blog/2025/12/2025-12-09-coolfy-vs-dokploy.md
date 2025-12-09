@@ -1,5 +1,5 @@
 ---
-title: Coolfy vs Dokploy
+title: Coolify vs Dokploy
 date: '2025-12-09T11:50'
 published: true
 summary: >-
