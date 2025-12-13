@@ -23,6 +23,6 @@ A step up is a paper pad. My favorite is the [Midori MD](https://www.jetpens.com
 
 To be extra, like me, make your own paper holder/writing pad. Mine is A5 sized with a leather cover. The leather does a decent job imitating the experience you get writing in a bound notebook. It opens like a book to store and protect extra paper.
 
-![My custom made paper holder](https://samwarnick.com/media/video/loose-leaf-paper.mp4)
+![My custom made paper holder](https://samwarnick.com/media/loose-leaf-paper.mp4)
 
 If all else fails, I'd suggest a wire bound notebook so it can be opened all the way. This way it can still take up a minimal amount of space on a desk. Just make sure the pages are perforated so you can easily remove them as needed.
