@@ -1,9 +1,5 @@
 import pluginRss from "@11ty/eleventy-plugin-rss";
-import eleventyPluginOgImage from "eleventy-plugin-og-image";
-import { OgImage } from 'eleventy-plugin-og-image/og-image';
 import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
-import fs from "node:fs";
-import crypto from 'node:crypto';
 import { execSync } from "child_process";
 import { DateTime } from "luxon";
 
@@ -16,14 +12,6 @@ import Shiki from "@shikijs/markdown-it";
 import {
 	transformerNotationFocus,
 } from "@shikijs/transformers";
-
-export class CustomOgImage extends OgImage {
-	async hash() {
-		const hash = crypto.createHash('sha256');
-		hash.update(this.data.title);
-		return hash.digest('hex').substring(0, this.options.hashLength);
-	}
-}
 
 /** @param {import('@11ty/eleventy/src/UserConfig').default} eleventyConfig */
 export default async function (eleventyConfig) {
@@ -73,27 +61,6 @@ export default async function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(lightningCSS);
 	eleventyConfig.addPlugin(pluginRss);
-	eleventyConfig.addPlugin(eleventyPluginOgImage, {
-		OgImage: CustomOgImage,
-		satoriOptions: {
-			fonts: [
-				{
-					name: "Atkinson",
-					data: fs.readFileSync(
-						"./src/assets/fonts/Atkinson-Hyperlegible-Bold-102.woff",
-					),
-					weight: 700,
-					style: "normal",
-				},
-				{
-					name: "Calistoga",
-					data: fs.readFileSync("./src/assets/fonts/Calistoga-Regular.ttf"),
-					weight: 400,
-					style: "normal",
-				},
-			],
-		},
-	});
 
 	eleventyConfig.addShortcode("timestamp", function () {
 		return Date.now();
@@ -151,25 +118,6 @@ export default async function (eleventyConfig) {
 	});
 	eleventyConfig.addFilter("dateToRfc822WithCorrectTz", function (date) {
 		return DateTime.fromJSDate(date).toRFC2822();
-	});
-	eleventyConfig.addFilter("defaultImage", function (image) {
-		const defaultImages = [
-			"og-image/1.jpg",
-			"og-image/2.jpg",
-			"og-image/3.jpg",
-			"og-image/4.jpg",
-			"og-image/5.jpg",
-			"og-image/6.jpg",
-			"og-image/7.jpg",
-			"og-image/8.jpg",
-			"og-image/9.jpg",
-			"og-image/10.jpg",
-			"og-image/11.jpg",
-			"og-image/12.jpg",
-		];
-		return (
-			image || defaultImages[Math.floor(Math.random() * defaultImages.length)]
-		);
 	});
 
 	eleventyConfig.addPassthroughCopy("src/assets/fonts");

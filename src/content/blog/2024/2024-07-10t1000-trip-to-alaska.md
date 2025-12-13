@@ -5,7 +5,7 @@ summary: Some pictures from my 2023 trip to Alaska
 tags:
   - Photography
 published: true
-ogImage: og-image/6.jpg
+ogImage: og-img-bg/6.jpg
 ---
 A year ago, I had the incredible opportunity to spend a little over a week in Alaska with some family. We spent a couple days in Denali and then the rest of the time on a boat traveling around the Prince William Sound. I brought my Sony A7C with me and rented a 200–600mm lens from a local camera shop. Here's some of the pictures I got.
 

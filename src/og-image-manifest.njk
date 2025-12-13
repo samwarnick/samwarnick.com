@@ -1,0 +1,13 @@
+---
+permalink: /_meta/og-image-manifest.json
+layout: false
+eleventyExcludeFromCollections: true
+---
+[
+{%- for page in collections.all %}
+    {
+    "title": "{{ page.data.title }}",
+    "backgroundImage": "{{ page.data.ogImage }}"
+    }{%- if not loop.last %},{%- endif -%}
+{%- endfor -%}
+]

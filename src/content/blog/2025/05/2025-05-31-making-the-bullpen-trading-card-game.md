@@ -1,7 +1,7 @@
 ---
 title: Making the Bullpen Trading Card Game
 date: 2025-05-31T21:39
-ogImage: og-image/bullpen-tcg.png
+ogImage: og-img-bg/bullpen-tcg.png
 summary: I went a little extra and made some trading cards for my friends. No regrets.
 published: true
 ---

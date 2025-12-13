@@ -5,7 +5,7 @@ summary: Some pictures from a recent trip to Oregon and California
 tags:
   - Photography
 published: true
-ogImage: og-image/8.jpg
+ogImage: og-img-bg/8.jpg
 ---
 My wife and I recently went on a trip to Oregon and northern California to see the Redwoods. I rented a Ricoh Gr IIIx. Here's a few pictures from the trip I like.
 

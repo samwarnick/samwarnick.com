@@ -5,7 +5,7 @@ summary: Just wanted to show off the books I have read.
 tags:
   - Blog
 published: true
-ogImage: og-image/bookshelf.jpg
+ogImage: og-img-bg/bookshelf.jpg
 ---
 
 I added a new [/bookshelf](https://samwarnick.com/bookshelf) page. It is pretty simple, just a list of books grouped by year. I don't review or even rate the books I read—who has time for that? If it is on the list, I liked it enough to finish it. That's what you get.

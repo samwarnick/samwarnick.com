@@ -1,18 +1,12 @@
 #!/bin/sh
 set -e
 
-echo "=== Starting Eleventy build with cache ==="
+# Start nginx in background
+nginx -g 'daemon off;' &
 
-# Ensure folders exist
-mkdir -p /cache/og-images
-mkdir -p /app/_site/og-images
+# Generate OG images (logs will show in container logs)
+cd /app
+node scripts/generate-og-images.js
 
-cp -r /cache/og-images/* /app/_site/og-images/ 2>/dev/null || true
-
-node_modules/.bin/eleventy
-
-cp -r /app/_site/og-images/* /cache/og-images/ 2>/dev/null || true
-
-echo "=== Eleventy build complete ==="
-
-nginx -g 'daemon off;'
+# Wait for nginx to keep container running
+wait

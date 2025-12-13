@@ -8,9 +8,9 @@
 		"dev": "npx @11ty/eleventy --serve --incremental",
 		"pokemon": "node --env-file .env cli/fetchPokemon.js",
 		"bookshelf": "node cli/bookshelf.js",
-        "workers:deploy": "wrangler deploy -c ./workers/random/wrangler.jsonc",
-        "workers:dev": "wrangler dev -c ./workers/random/wrangler.jsonc"
-    },
+		"workers:deploy": "wrangler deploy -c ./workers/random/wrangler.jsonc",
+		"workers:dev": "wrangler dev -c ./workers/random/wrangler.jsonc"
+	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
@@ -23,16 +23,16 @@
 		"@shikijs/markdown-it": "^1.9.1",
 		"@shikijs/transformers": "^1.16.2",
 		"csv-parse": "^5.5.6",
-		"eleventy-plugin-og-image": "^4.0.0",
 		"markdown-it-attrs": "^4.1.6",
 		"markdown-it-footnote": "^4.0.0",
 		"markdown-it-github-alerts": "^0.3.0",
 		"markdown-it-html5-media": "^0.7.1",
 		"netlify-plugin-cache": "^1.0.3",
-        "wrangler": "^4.45.0"
+		"wrangler": "^4.45.0"
 	},
 	"dependencies": {
 		"@netlify/functions": "^3.1.5",
+		"@resvg/resvg-js": "^2.6.2",
 		"@types/node": "^14.18.63",
 		"typescript": "^4.9.5"
 	}

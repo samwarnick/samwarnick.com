@@ -1,7 +1,7 @@
 ---
 title: My New Pokemon Page
 date: 2024-10-29T18:04
-ogImage: og-image/eevee.jpg
+ogImage: og-img-bg/eevee.jpg
 summary: I made a web component to showcase my Pokémon card collection and I'm
   pretty excited about it.
 published: true
