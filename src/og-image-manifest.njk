@@ -7,7 +7,8 @@ eleventyExcludeFromCollections: true
 {%- for page in collections.all %}
     {
     "title": "{{ page.data.title }}",
-    "backgroundImage": "{{ page.data.ogImage }}"
+    "backgroundImage": "{{ page.data.ogImage }}",
+    "hash": "{{ page.data.hash }}"
     }{%- if not loop.last %},{%- endif -%}
 {%- endfor -%}
 ]

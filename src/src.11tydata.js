@@ -9,6 +9,8 @@ function hash(title, backgroundImage) {
 export default {
   layout: "layouts/base.njk",
   eleventyComputed: {
-    hash: (data) => hash(data.title, data.ogImage),
+    hash: (data) => {
+      return hash(data.title, data.ogImage)
+    },
   }
 };

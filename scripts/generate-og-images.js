@@ -27,12 +27,6 @@ const DEFAULT_BACKGROUNDS = [
 ];
 const FONT = join(FONTS_PATH, 'Calistoga-Regular.ttf');
 
-function hash(title, backgroundImage) {
-	const hash = crypto.createHash('sha256');
-	hash.update(`${title}-${backgroundImage}`);
-	return hash.digest('hex').substring(0, 8);
-}
-
 function wrapText(text, maxWidth = 1040, fontSize = 100) {
 	const words = text.split(' ');
 	const lines = [];
@@ -167,7 +161,7 @@ async function generateOgImages() {
 	const manifest = JSON.parse(manifestData);
 
 	for (const page of manifest) {
-		const pageHash = hash(page.title, page.backgroundImage);
+		const pageHash = page.hash;
 
 		if (!existsSync(join(OUTPUT, `${pageHash}.png`))) {
 			try {
