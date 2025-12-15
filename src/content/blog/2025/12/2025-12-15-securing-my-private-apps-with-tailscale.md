@@ -1,12 +1,17 @@
 ---
 title: Securing My Private Apps With Tailscale
-date: '2025-12-15'
-published: false
+date: '2025-12-15T12:54'
+published: true
+summary: >-
+  I finally got Tailscale working with my homelab to secure my personal apps
+  behind a VPN.
+tags:
+  - Self-hosting
+  - Synology
 ---
+I'm making some upgrades to my homelab. In preparation, I've been doing some spring cleaning and getting things in order. One item on my list was putting some apps behind a VPN. TBH, I don't totally understand VPNs. Like a year ago, I tried installing Tailscale on my Synology and using it to have all my DNS go through my AdGuard instance. I don't totally remember why, but it didn't go well. I decided to take another crack at it.
 
-I'm making some upgrades to my homelab. In preparation, I'm been doing to some spring cleaning and getting things in order. One item on my list was putting some apps behind a VPN. TBH, I don't totally understand VPNs. Like a year ago, I tried installing Tailscale on my Synology and using it to have all my DNS go through my AdGuard instance. I don't totally remember why, but it didn't go well. I decided to take another crack at it.
-
-I made a budget app for my wife and I. It was accessible to the Internet at `budget.mydomain.com` through a Cloudflare tunnel. It has authentication, but I'm not 100% confident in it. So always made me a little nervous having it exposed like that. With Coolify and Cloudflare, I had all subdomains pointed at my Coolify instance. First step was removing that. Now it was inaccessible. Then, I added `*.mydomain.com` to AdGuard with a DNS rewrite to point to my Coolify IP. Now, on my local network—which uses AdGuard for DNS—`budget.mydomain.com` would work! But, we actually use this app most when we are out and about. This is where Tailscale comes in.
+I made a budget app for my wife and I. It was accessible to the Internet at `budget.mydomain.com` through a Cloudflare tunnel. It has authentication, but I'm not 100% confident in it. So it always made me a little nervous having it exposed like that. With Coolify and Cloudflare, I had all subdomains pointed at my Coolify instance. First step was removing that. Now it was inaccessible. Then, I added `*.mydomain.com` to AdGuard with a DNS rewrite to point to my Coolify IP. Now, on my local network—which uses AdGuard for DNS—`budget.mydomain.com` would work! But, we actually use this app most when we are out and about. This is where Tailscale comes in.
 
 I didn't want all traffic to go through Tailscale, just `mydomain.com` addresses. With Tailscale—and I'm sure most VPNs—I added a split DNS. Basically, I told it, if it's a `mydomain.com` address, use my Synology for DNS. Since AdGuard is already setup to rewrite to the Coolify IP, it should work.
 
@@ -25,9 +30,8 @@ curl -fsSL https://cdn.coollabs.io/coolify/install.sh | sudo bash
 
 Now, it was using the correct URL for the realtime service. I don't know if this is the best way to handle this, but it worked.
 
-The other oddity was that `budget.mydomain.com` worked in Safari, but not Chrome or Firefox. On or off Tailscale. I thought I was hallucinating it working in Safari or something. You know what it was? I had not given Chrome of Firefox permission in macOS to access the local network. Since AdGuard was redirecting to a local IP, it needed that permission.
+The other oddity was that `budget.mydomain.com` worked in Safari, but not Chrome or Firefox. On or off Tailscale. I thought I was hallucinating it working in Safari or something. You know what it was? I had not given Chrome or Firefox permission in macOS to access the local network. Since AdGuard was redirecting to a local IP, it needed that permission.
 
 Phew. Got it all worked out. I hope. I think.
 
-Anyway, I got my wife setup on Tailscale in like 2 mins. It was surprisingly simple. But I told her that if it caused issues at all, I'll figure something else out. But this feels like a big step in my homelab journey.
-
+Anyway, I got my wife setup on Tailscale in like two minutes. It was surprisingly simple. But I told her that if it caused issues at all, I'll figure something else out. But this feels like a big step in my homelab journey.
