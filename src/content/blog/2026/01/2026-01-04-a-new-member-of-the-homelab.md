@@ -1,14 +1,19 @@
 ---
 title: A New Member of the Homelab
-date: '2026-01-04'
-published: false
+date: '2026-01-04T19:56'
+published: true
+summary: >-
+  I bought an HP EliteDesk to expand my homelab and went down a rabbit hole with
+  Proxmox, Terraform, and Ansible to automate my infrastructure.
+tags:
+  - Self-hosting
+  - Synology
 ---
+For the last five years, my Synology DS920+ was the only machine I had for self-hosting stuff. Most recently, I had a mix of Docker containers and a VM with Ubuntu server and Coolify to host stuff. No longer! I wanted to separate out some apps and services from my Synology to something else. I bought an HP EliteDesk 800 G6 on eBay. And boy, am I going crazy[^1].
 
-For the last 5 years, my Synology DS920+ was the only machine I had for self-hosting stuff. Most recently, I had a mix of Docker containers and a VM with Ubuntu server and Coolify to host stuff. No longer! I wanted to separate out some apps and services from my Synology to something else. I bought an HP EliteDesk 800 G6 on eBay. And boy, am I going crazy[^1].
+!["An HP EliteDesk 800 G6 sitting on top of a Synology DS920+"](/media/2026/01/2026-01-04-a-new-member-of-the-homelab1.jpg "A very handsome computer if you ask me")
 
-!["An HP EliteDesk 800 G6 sitting on top of a Synology DS920+"](/media/IMG_3062.jpg "A very handsome computer if you ask me")
-
-A normal person might have just installed Ubuntu server on the HP[^2], moved over Coolify and called it a day. Not me. For some reason[^3]. I wanted 2 Ubuntu server VMs. One for my internal apps like my home cooked budget app, and one for my public facing apps and sites like [ScreenCred](https://screencred.app) and this blog. The Synology would keep running things like AdGuard, Plex, and HomeBridge. With 2 new VMs, that meant I'd be doing a lot of the same setup work twice. I decided this would be a good time to not only try out Proxmox—a somewhat normal and reasonable idea—but also Terraform and Ansible.
+A normal person might have just installed Ubuntu server on the HP[^2], moved over Coolify and called it a day. Not me. For some reason[^3]. I wanted two Ubuntu server VMs. One for my internal apps like my home cooked budget app, and one for my public facing apps and sites like [ScreenCred](https://screencred.app) and this blog. The Synology would keep running things like AdGuard, Plex, and HomeBridge. With two new VMs, that meant I'd be doing a lot of the same setup work twice. I decided this would be a good time to not only try out Proxmox—a somewhat normal and reasonable idea—but also Terraform and Ansible.
 
 Proxmox is an OS based on Debian that lets you easily run VMs and containers. Terraform lets you write your infrastructure as code. So in my case, instead of going through the Proxmox UI to create VMs, I wrote some code that creates the VMs for me. Then, with Ansible, the VMs get setup automatically. I created a couple Ansible playbooks that do things like update Ubuntu, install Cloudflare tunnels, and setup directories I need for my apps. What does this mean? I can run `./deploy` and Terraform will make sure I have the VMs I need with the defined amount of RAM and storage using the Proxmox API, and Ansible will make sure they are all setup correctly by using SSH to access the VMs.
 
@@ -95,7 +100,7 @@ And some Ansible:
         create_home: yes
 ```
 
-TL;DR the code does stuff for me instead of me doing it. Magic. I keep (hopefully) keep all my secrets out of the repo.
+TL;DR the code does stuff for me instead of me doing it. Magic. I keep (hopefully) all my secrets out of the repo.
 
 This all feels safer to me. I will sometimes fiddle directly on a VM, but I make sure to add any changes to an Ansible playbook to run later. Other times, I make the change directly with Ansible. But I'm much more confident in how my servers are actually setup. If you have any suggestions to improve things, I'd love to hear them.
 
@@ -109,13 +114,13 @@ I also had an LXC with Uptime Kuma, but realized that would be better on my Syno
 
 ## e1000e NIC
 
-Had this weird thing happen. All the sudden, I couldn't access HP/PVE or the VMs or LXCs. Not sure what was going on, I rebooted the server. After a reboot, I was able to get back in. I dug through some logs and found this:
+Had this weird thing happen. All of a sudden, I couldn't access HP/PVE or the VMs or LXCs. Not sure what was going on, I rebooted the server. After a reboot, I was able to get back in. I dug through some logs and found this:
 
 ```
 pve kernel: e1000e 0000:00:1f.6 nic0: Detected Hardware Unit Hang:
 ```
 
-Apparently, [this is a thing](https://www.reddit.com/r/Proxmox/comments/1drs89s/intel_nic_e1000e_hardware_unit_hang/). There is even a [community script](https://community-scripts.github.io/ProxmoxVE/scripts?id=nic-offloading-fix) to hopefully fix it. I installed it and fingers crossed, hasn't happened again…that I know of.
+Apparently, [this is a thing](https://www.reddit.com/r/Proxmox/comments/1drs89s/intel_nic_e1000e_hardware_unit_hang/). There is even a [community script](https://community-scripts.github.io/ProxmoxVE/scripts?id=nic-offloading-fix) to hopefully fix it. I installed it and fingers crossed, it hasn't happened again…that I know of.
 
 One bummer was that all my monitoring was on the inaccessible server, so I couldn't get any idea of what was going on. I checked Uptime Kuma after, and it had detected the outage, but since the NIC was not working, it could not notify me. I still think it makes sense to have Grafana and Prometheus on the LXC, but I did move Uptime Kuma to my Synology. This way, if my Proxmox host goes down again, _something_ will be able to alert me.
 
@@ -137,7 +142,7 @@ Drop Coolify? I came across [a post from someone moving off Coolify](https://ham
 
 Dedicated router hardware. I've been running into issues with running AdGuard on my Synology[^5]. Maybe a justification, but I think I could clean things up by having a new machine dedicated to routing, firewall, and DNS. I think I'd like Ubiquiti, but also looking at something that could run OPNSense. "Need" more control. And a managed switch to make some VLANs.
 
-Cluster. If you have 3—2 if you're crafty—Proxmox machines, you can put them in an high availability cluster. My understanding is that if one machine fails, it will move all the VMs and LXCs to other available machines automatically. Overkill, but awesome.
+Cluster. If you have three—two if you're crafty—Proxmox machines, you can put them in a high availability cluster. My understanding is that if one machine fails, it will move all the VMs and LXCs to other available machines automatically. Overkill, but awesome.
 
 [^1]: Maybe in a good way?
 [^2]: I have no idea what to call this machine. HP? G6? PVE for Proxmox? Something more clever?
