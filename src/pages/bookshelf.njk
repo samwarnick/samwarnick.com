@@ -7,6 +7,7 @@ ogImage: og-img-bg/bookshelf.jpg
 <div>
     <p>Here's the books I have read starting in about 2018. If it's on this list, I liked it enough to finish it, but I don't necessarily recommend it.</p>
     <p><small>Last updated {{ bookshelf.lastUpdated.date | toDate | formattedDate }}</small></p>
+    {% if bookshelf.inProgress.length %}
     <h2>Currently Reading</h2>
     <div class="books">
         {%- for book in bookshelf.inProgress %}
@@ -19,6 +20,7 @@ ogImage: og-img-bg/bookshelf.jpg
             {%- endfor %}
         {%- endif %}
     </div>
+    {% endif %}
 </div>
 {%- for group in bookshelf.read %}
     <div>
@@ -27,6 +29,12 @@ ogImage: og-img-bg/bookshelf.jpg
         {%- for book in group.books %}
             {%  include "components/book.njk" %}
         {% endfor %}
+        {%- set emptyCount = 4 - group.books.length %}
+        {%- if emptyCount > 0 %}
+            {%- for i in range(emptyCount) %}
+                <div class="book empty"></div>
+            {%- endfor %}
+        {%- endif %}
         </div>
     </div>
 {% endfor %}
