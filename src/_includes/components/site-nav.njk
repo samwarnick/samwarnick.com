@@ -13,55 +13,55 @@
 				<a href="/search">/search</a>
 			</li>
             {% endif %}
-            <li class="hide-for-reduced-motion">
-                <label for="fall-toggle" aria-label="Enable fall animation">
-                    <input type="checkbox" id="fall-toggle" onclick="toggleFall()">
-                    ❄️<a aria-hidden="true">S</a>
-                </label>
-            </li>
-            <li class="hide-for-reduced-motion">
-                <button onclick="burst()" aria-label="More leaves!">🎉</button>
-            </li>
+{#            <li class="hide-for-reduced-motion">#}
+{#                <label for="fall-toggle" aria-label="Enable fall animation">#}
+{#                    <input type="checkbox" id="fall-toggle" onclick="toggleFall()">#}
+{#                    ❄️<a aria-hidden="true">S</a>#}
+{#                </label>#}
+{#            </li>#}
+{#            <li class="hide-for-reduced-motion">#}
+{#                <button onclick="burst()" aria-label="More leaves!">🎉</button>#}
+{#            </li>#}
 		</ul>
 	</nav>
 </header>
 
-<script>
-	const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+{#<script>#}
+{#	const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;#}
 
-	if (!prefersReducedMotion) {
-		const stopped = localStorage.getItem("falling-particles-stopped") === "true";
-		const toggle = document.getElementById("fall-toggle");
+{#	if (!prefersReducedMotion) {#}
+{#		const stopped = localStorage.getItem("falling-particles-stopped") === "true";#}
+{#		const toggle = document.getElementById("fall-toggle");#}
 
-		customElements.whenDefined('confetti-drop').then(() => {
-			const fall = document.getElementById("fall");
+{#		customElements.whenDefined('confetti-drop').then(() => {#}
+{#			const fall = document.getElementById("fall");#}
 
-			if (stopped) {
-				fall.stop();
-				toggle.checked = false;
-			} else {
-				fall.start();
-				toggle.checked = true;
-			}
-		});
-	}
+{#			if (stopped) {#}
+{#				fall.stop();#}
+{#				toggle.checked = false;#}
+{#			} else {#}
+{#				fall.start();#}
+{#				toggle.checked = true;#}
+{#			}#}
+{#		});#}
+{#	}#}
 
-    function toggleFall() {
-        const fall = document.getElementById("fall");
-        const toggle = document.getElementById("fall-toggle");
+{#    function toggleFall() {#}
+{#        const fall = document.getElementById("fall");#}
+{#        const toggle = document.getElementById("fall-toggle");#}
 
-        if (fall && fall.isRunning) {
-            fall.stop();
-            localStorage.setItem("falling-particles-stopped", "true");
-            toggle.checked = false;
-        } else if (fall) {
-            fall.start();
-            localStorage.setItem("falling-particles-stopped", "false");
-            toggle.checked = true;
-        }
-    }
+{#        if (fall && fall.isRunning) {#}
+{#            fall.stop();#}
+{#            localStorage.setItem("falling-particles-stopped", "true");#}
+{#            toggle.checked = false;#}
+{#        } else if (fall) {#}
+{#            fall.start();#}
+{#            localStorage.setItem("falling-particles-stopped", "false");#}
+{#            toggle.checked = true;#}
+{#        }#}
+{#    }#}
 
-	function burst() {
-        document.getElementById("fall").burst();
-    }
-</script>
+{#	function burst() {#}
+{#        document.getElementById("fall").burst();#}
+{#    }#}
+{#</script>#}
