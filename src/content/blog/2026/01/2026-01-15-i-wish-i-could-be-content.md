@@ -1,10 +1,13 @@
 ---
 title: I Wish I Could Be Content
-date: '2026-01-15'
-published: false
+date: '2026-01-15T19:55'
+published: true
+summary: Why do I keep trying to build everything myself?
+tags:
+  - Self-hosting
+  - TMI
 ---
-
-I've been using Coolify the last few months to self-host some apps. Despite it doing the job, I've spent the last week building my own deployment process to replace it. I won't get into it too much now, but with Terraform and Ansible, I've setup a builder VM and an app runner VM. The builder has a cron that checks repos for changes and builds Docker images of the apps. It then uses Ansible to update the Docker container on the app runner VM. Handles stuff like rollbacks if health checks fail and backups. Notifies Discord too. It's cool. But it's driving me crazy. It works, but that's not enough. I've got a hundred ideas on how to make it better. A dozen different paths I could take. Should I keep using Ansible? Just bash scripts? What about a Bun app? Should the build and app runner be combined? How should my files be structured? I've been dreaming about this stuff the last few nights.
+I've been using Coolify the last few months to self-host some apps. Despite it doing the job, I've spent the last week building my own deployment process to replace it. I won't get into it too much now, but with Terraform and Ansible, I've set up a builder VM and an app runner VM. The builder has a cron that checks repos for changes and builds Docker images of the apps. It then uses Ansible to update the Docker container on the app runner VM. Handles stuff like rollbacks if health checks fail and backups. Notifies Discord too. It's cool. But it's driving me crazy. It works, but that's not enough. I've got a hundred ideas on how to make it better. A dozen different paths I could take. Should I keep using Ansible? Just bash scripts? What about a Bun app? Should the build and app runner be combined? How should my files be structured? I've been dreaming about this stuff the last few nights.
 
 I'm sitting here thinking, why am I doing this? _Why can't I just be content with what's out there?_ Instead of adjusting my workflow to the tools available, I am building and bending everything around me to fit me. When I look back on things, all of this stems from me trying to find the best way to manage images with my blog posts and not wanting them to be in my git repo. Like I think my life would be about 200% better if I just used some hosted blog. But I have it in my head that _no_, that is not how it should be done. I'm a Developer. I have to own it. All of it. And since I own all of it, I can do whatever I want. And if I can do whatever I want, it _needs_ to be perfect. Whatever the current state is, I can promise you it's not good enough. Anything less is a waste of my abilities.
 
