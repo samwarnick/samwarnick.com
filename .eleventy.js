@@ -12,7 +12,6 @@ import Shiki from "@shikijs/markdown-it";
 import {
 	transformerNotationFocus,
 } from "@shikijs/transformers";
-import {generateOgImages} from "./scripts/generate-og-images.js";
 
 /** @param {import('@11ty/eleventy/src/UserConfig').default} eleventyConfig */
 export default async function (eleventyConfig) {
@@ -125,6 +124,7 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/assets/favicon");
 	eleventyConfig.addPassthroughCopy("src/assets/js");
 	eleventyConfig.addPassthroughCopy("src/assets/img");
+	eleventyConfig.addPassthroughCopy("Caddyfile");
 
 	// Copy media to preview drafts correctly
 	if (process.env.ELEVENTY_RUN_MODE !== "build") {
@@ -161,7 +161,6 @@ export default async function (eleventyConfig) {
 	});
 
 	eleventyConfig.on("eleventy.after", async () => {
-		await generateOgImages();
 		execSync(`npx pagefind --site _site`, { encoding: "utf-8" });
 	});
 
