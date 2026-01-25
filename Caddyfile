@@ -12,12 +12,23 @@ redir /styleguide /site/#styleguide
 @media {
     path /media/*
 }
-handle @media {
-    file_server {
-        precompressed avif webp
-    }
+  handle @media {
+      # Try avif if client supports it and file exists
+      @acceptsAvif {
+          header Accept *image/avif*
+          file {path}.avif
+      }
+      rewrite @acceptsAvif {path}.avif
 
-    header Cache-Control "public, max-age=2592000, immutable"
-}
+      # Try webp if client supports it and file exists
+      @acceptsWebp {
+          header Accept *image/webp*
+          file {path}.webp
+      }
+      rewrite @acceptsWebp {path}.webp
+
+      header Cache-Control "public, max-age=2592000, immutable"
+      file_server
+  }
 
 import _meta/redirects.caddy
