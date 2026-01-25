@@ -12,6 +12,7 @@ import Shiki from "@shikijs/markdown-it";
 import {
 	transformerNotationFocus,
 } from "@shikijs/transformers";
+import {generateOgImages} from "./scripts/generate-og-images.js";
 
 /** @param {import('@11ty/eleventy/src/UserConfig').default} eleventyConfig */
 export default async function (eleventyConfig) {
@@ -159,7 +160,8 @@ export default async function (eleventyConfig) {
 		return posts.filter((post) => post.data.tags.includes("Devlog"));
 	});
 
-	eleventyConfig.on("eleventy.after", () => {
+	eleventyConfig.on("eleventy.after", async () => {
+		await generateOgImages();
 		execSync(`npx pagefind --site _site`, { encoding: "utf-8" });
 	});
 

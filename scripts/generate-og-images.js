@@ -1,4 +1,3 @@
-import crypto from "node:crypto";
 import {readFile, writeFile} from "node:fs/promises";
 import {Resvg} from "@resvg/resvg-js";
 import {extname, join} from "node:path";

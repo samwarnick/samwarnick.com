@@ -1,0 +1,11 @@
+---
+permalink: /_meta/redirects.caddy
+layout: false
+eleventyExcludeFromCollections: true
+---
+{%- for post in collections.posts -%}
+    {%- if post.data.oldUrl -%}
+        {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) -%}
+        redir {{post.data.oldUrl | removeSite }} {{absolutePostUrl | removeSite}} permanent
+    {%- endif -%}
+{%- endfor -%}

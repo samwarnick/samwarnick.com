@@ -1,0 +1,28 @@
+# Block direct access to _meta
+@meta {
+    path /_meta/*
+}
+respond @meta 404
+
+# Feed redirects
+redir /feed.rss /rss.xml permanent
+redir /styleguide /site/#styleguide
+
+# Media - serve optimized formats via content negotiation
+@media {
+    path /media/*
+}
+handle @media {
+    file_server {
+        precompressed avif webp
+    }
+
+    header Cache-Control "public, max-age=2592000, immutable"
+}
+
+import _meta/redirects.caddy
+
+handle {
+    try_files {path} {path}.html {path}/index.html {path}/index.htm {path}/ /404.html
+    file_server
+}
