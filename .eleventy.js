@@ -128,14 +128,13 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/assets/js");
 	eleventyConfig.addPassthroughCopy("src/assets/img");
 	eleventyConfig.addPassthroughCopy("Caddyfile");
+	eleventyConfig.addPassthroughCopy("src/media/og-img-bg");
 
 	// Copy media to preview drafts correctly
 	if (process.env.ELEVENTY_RUN_MODE !== "build") {
 		eleventyConfig.addPassthroughCopy({
 			"src/content/blog/_drafts/media": "media"
 		});
-	} else {
-		eleventyConfig.addPassthroughCopy("media");
 	}
 
 	eleventyConfig.addCollection("posts", function (collectionApi) {
