@@ -1,13 +1,11 @@
 import {readFile, writeFile} from "node:fs/promises";
 import {Resvg} from "@resvg/resvg-js";
 import {extname, join} from "node:path";
-import {existsSync} from "node:fs";
+import {existsSync, mkdirSync} from "node:fs";
 
-const BASE_PATH = process.env.BASE_PATH || process.cwd();
-const SITE_BASE_PATH = process.env.BASE_PATH || join(process.cwd(), "_site");
-const MANIFEST_PATH =  join(SITE_BASE_PATH, "_meta/og-image-manifest.json");
+const SITE_BASE_PATH = join(process.cwd(), "_site");
 const FONTS_PATH =  join(SITE_BASE_PATH, "assets/fonts");
-const MEDIA_PATH =  join(BASE_PATH, "media");
+const MEDIA_PATH =  join(SITE_BASE_PATH, "media");
 const OUTPUT = join(MEDIA_PATH, "og-img");
 
 const DEFAULT_BACKGROUNDS = [
@@ -155,9 +153,8 @@ async function generatePng(title, backgroundImage) {
 	return pngData.asPng();
 }
 
-async function generateOgImages() {
-	const manifestData = await readFile(MANIFEST_PATH, "utf8");
-	const manifest = JSON.parse(manifestData);
+export async function generateOgImages(manifest) {
+	mkdirSync(OUTPUT, {recursive: true});
 
 	for (const page of manifest) {
 		const pageHash = page.hash;
@@ -174,5 +171,3 @@ async function generateOgImages() {
 	}
 	console.log("Done generating images!");
 }
-
-await generateOgImages();

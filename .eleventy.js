@@ -12,9 +12,12 @@ import Shiki from "@shikijs/markdown-it";
 import {
 	transformerNotationFocus,
 } from "@shikijs/transformers";
+import {generateOgImages} from "./scripts/generate-og-images.js";
 
 /** @param {import('@11ty/eleventy/src/UserConfig').default} eleventyConfig */
 export default async function (eleventyConfig) {
+	const collectionData = {};
+
 	eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
 	eleventyConfig.addDateParsing(function (dateValue) {
@@ -131,6 +134,8 @@ export default async function (eleventyConfig) {
 		eleventyConfig.addPassthroughCopy({
 			"src/content/blog/_drafts/media": "media"
 		});
+	} else {
+		eleventyConfig.addPassthroughCopy("media");
 	}
 
 	eleventyConfig.addCollection("posts", function (collectionApi) {
@@ -160,8 +165,18 @@ export default async function (eleventyConfig) {
 		return posts.filter((post) => post.data.tags.includes("Devlog"));
 	});
 
-	eleventyConfig.on("eleventy.after", async () => {
+	eleventyConfig.addCollection("ogImageData", function (collectionApi) {
+		collectionData.ogImageData = collectionApi.getAll().map(({data}) => ({
+			title: data.title,
+			ogImage: data.ogImage,
+			hash: data.hash,
+		}));
+		return [];
+	})
+
+	eleventyConfig.on("eleventy.after", async ({directories}) => {
 		execSync(`npx pagefind --site _site`, { encoding: "utf-8" });
+		await generateOgImages(collectionData.ogImageData);
 	});
 
 	eleventyConfig.watchIgnores.add("./cli/**");

@@ -1,0 +1,40 @@
+---
+permalink: site.caddy
+layout: false
+eleventyExcludeFromCollections: true
+---
+@samwarnick host samwarnick.com
+handle @samwarnick {
+    @media path /media/*
+    handle @media {
+        # Try avif if client supports it and file exists
+        @acceptsAvif {
+        header Accept *image/avif*
+        file {path}.avif
+        }
+        rewrite @acceptsAvif {path}.avif
+
+        # Try webp if client supports it and file exists
+        @acceptsWebp {
+        header Accept *image/webp*
+        file {path}.webp
+        }
+        rewrite @acceptsWebp {path}.webp
+
+        header Cache-Control "public, max-age=2592000, immutable"
+        file_server
+    }
+
+    redir /feed.rss /rss.xml permanent
+    redir /styleguide /site/#styleguide permanent
+{{ '\n' }}
+{%- for post in collections.posts -%}
+    {%- if post.data.oldUrl -%}
+        {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) -%}
+    redir {{post.data.oldUrl | removeSite }} {{absolutePostUrl | removeSite}} permanent
+        {%- if not loop.last -%}
+            {{ '\n' }}
+        {%- endif -%}
+    {%- endif -%}
+{%- endfor -%}
+}
