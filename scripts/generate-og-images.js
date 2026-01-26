@@ -4,6 +4,10 @@ import {extname, join} from "node:path";
 import {existsSync, mkdirSync} from "node:fs";
 
 const SITE_BASE_PATH = join(process.cwd(), "_site");
+const SITE_CACHE = join(SITE_BASE_PATH, ".cache");
+const MEDIA_CACHE = join(SITE_CACHE, "media");
+const OG_IMAGE_CACHE = join(MEDIA_CACHE, "og-img");
+
 const FONTS_PATH =  join(SITE_BASE_PATH, "assets/fonts");
 const MEDIA_PATH =  join(SITE_BASE_PATH, "media");
 const OUTPUT = join(MEDIA_PATH, "og-img");
@@ -138,7 +142,7 @@ async function fileToDataURL(filePath, fallbackImagePath) {
 async function generatePng(title, backgroundImage) {
 	const defaultBackgroundImageName = DEFAULT_BACKGROUNDS[Math.floor(Math.random() * DEFAULT_BACKGROUNDS.length)];
 	const backgroundImageName = backgroundImage || defaultBackgroundImageName;
-	const backgroundImagePath = join(MEDIA_PATH, backgroundImageName);
+	const backgroundImagePath = join(MEDIA_CACHE, backgroundImageName);
 	const fallbackImagePath = join(MEDIA_PATH, defaultBackgroundImageName);
 	const dataUrl = await fileToDataURL(backgroundImagePath, fallbackImagePath);
 
@@ -159,7 +163,7 @@ export async function generateOgImages(manifest) {
 	for (const page of manifest) {
 		const pageHash = page.hash;
 
-		if (!existsSync(join(OUTPUT, `${pageHash}.png`))) {
+		if (!existsSync(join(OG_IMAGE_CACHE, `${pageHash}.png`))) {
 			try {
 				console.log(`Generating image for "${page.title}"...`);
 				const png = await generatePng(page.title, page.backgroundImage, pageHash);
