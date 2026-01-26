@@ -2,7 +2,7 @@
 title: I Built My Own Coolify Replacement That I Might Not Use
 date: '2026-01-26T15:38'
 published: true
-summary: 'I built called deploybot-3000 to replace Coolify, but is it worth my sanity.'
+summary: 'I built Deploybot-3000 to replace Coolify, but is it worth my sanity.'
 tags:
   - Projects
   - Self-hosting
