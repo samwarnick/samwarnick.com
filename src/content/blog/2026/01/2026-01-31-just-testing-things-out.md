@@ -5,7 +5,6 @@ published: true
 summary: 'Just fiddling with my blog. '
 tags:
   - Blog
-  - Devlog
 ---
 I definitely spend more time fiddling with my blog than actually writing for it. I'm fine with that.
 
