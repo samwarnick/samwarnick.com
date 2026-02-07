@@ -22,7 +22,7 @@ const DEFAULT_BACKGROUNDS = [
 	"og-img-bg/11.jpg",
 	"og-img-bg/12.jpg",
 ];
-const FONT = join(FONTS_PATH, 'Calistoga-Regular.ttf');
+const FONT = join(FONTS_PATH, 'LeagueSpartan-ExtraBold.ttf');
 
 function wrapText(text, maxWidth = 1040, fontSize = 100) {
 	const words = text.split(' ');
@@ -61,7 +61,7 @@ function escapeXml(text) {
 }
 
 function generateSvg(title, dataUrl) {
-	let fontSize = 100;
+	let fontSize = 90;
 	let lines = wrapText(title, 1040, fontSize);
 
 	while (lines.length > 2 && fontSize > 60) {
