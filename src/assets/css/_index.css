@@ -13,6 +13,7 @@ ul.pages-list {
             transition: background 0.2s ease-in-out;
             display: block;
             background: color-mix(in srgb, color-mix(in srgb, var(--accent-color), white 85%), transparent 15%);
+            backdrop-filter: blur(10px);
             position: relative;
 
             &:focus-visible {
