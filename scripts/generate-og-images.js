@@ -9,18 +9,20 @@ const MEDIA_PATH =  join(SITE_BASE_PATH, "media");
 const OUTPUT = join(MEDIA_PATH, "og-img");
 
 const DEFAULT_BACKGROUNDS = [
-	"og-img-bg/1.jpg",
-	"og-img-bg/2.jpg",
-	"og-img-bg/3.jpg",
-	"og-img-bg/4.jpg",
-	"og-img-bg/5.jpg",
-	"og-img-bg/6.jpg",
-	"og-img-bg/7.jpg",
-	"og-img-bg/8.jpg",
-	"og-img-bg/9.jpg",
-	"og-img-bg/10.jpg",
-	"og-img-bg/11.jpg",
-	"og-img-bg/12.jpg",
+	"og-img-bg/1-half.jpg",
+	"og-img-bg/2-half.jpg",
+	"og-img-bg/3-half.jpg",
+	"og-img-bg/4-half.jpg",
+	"og-img-bg/5-half.jpg",
+	"og-img-bg/6-half.jpg",
+	"og-img-bg/7-half.jpg",
+	"og-img-bg/8-half.jpg",
+	"og-img-bg/9-half.jpg",
+	"og-img-bg/10-half.jpg",
+	"og-img-bg/11-half.jpg",
+	"og-img-bg/12-half.jpg",
+	"og-img-bg/13-half.jpg",
+	"og-img-bg/14-half.jpg",
 ];
 const FONT = join(FONTS_PATH, 'LeagueSpartan-ExtraBold.ttf');
 
