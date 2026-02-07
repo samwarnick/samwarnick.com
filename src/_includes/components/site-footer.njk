@@ -1,17 +1,18 @@
 <footer class="content-grid site-footer">
-	{% if showEdit %}
-	<a href="{{page.inputPath | toGitHub}}"><small>Feel like fixing a typo? Edit on GitHub.</small></a>
-	{% endif %}
-	<hr class="content-wide" />
-	<div class="footer-links">
-		<p>&copy; {% year %} Sam Warnick</p>
-		<nav>
-			<ul>
-				<li><a href="/feed.rss">/rss</a></li>
-				<li><a href="/search">/search</a></li>
-				<li><a href="/site">/site</a></li>
-			</ul>
-		</nav>
+	<div class="colored-card small">
+		{% if showEdit %}
+			<a href="{{page.inputPath | toGitHub}}"><small>Feel like fixing a typo? Edit on GitHub.</small></a>
+		{% endif %}
+		<div class="footer-links">
+			<p>&copy; {% year %} Sam Warnick</p>
+			<nav>
+				<ul>
+					<li><a href="/feed.rss">/rss</a></li>
+					<li><a href="/search">/search</a></li>
+					<li><a href="/site">/site</a></li>
+				</ul>
+			</nav>
+		</div>
 	</div>
 </footer>
 <div id="meWrapper">

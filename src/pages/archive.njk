@@ -4,7 +4,7 @@ layout: layouts/page
 ---
 
 {%- for group in collections.postsByYear | reverse %}
-<div class="archive-year">
+<div class="archive-year colored-card">
 	<h2>{{group.year}}</h2>
 	{% set postslist = group.posts %}
 	{% include "components/postlist.njk" %}

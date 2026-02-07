@@ -15,7 +15,7 @@
 		position: absolute;
 		inset: 0;
 		bottom: -50%;
-		background: var(--background-color);
+		background: #FFFEFA;
 		mask-image: var(--_mask);
 		z-index: -1;
 		opacity: 0.96;
@@ -32,8 +32,20 @@
 		opacity: 0.95;
 	}
 
+	.site-title {
+		font-weight: 800;
+		animation: fadeIn linear both;
+		animation-duration: auto;
+		animation-timeline: scroll(root);
+		animation-range: 100px 200px;
+
+		&.show {
+			animation: none;
+		}
+	}
+
 	a[data-link] {
-		font-family: var(--font-serif);
+		font-family: var(--font-display);
 		color: var(--primary-text);
 		text-decoration: none;
 		font-size: 1.2rem;
@@ -79,7 +91,7 @@
 		justify-content: space-between;
 		align-items: center;
 		font-size: 0.8em;
-		color: var(--secondary-text);
+		color: var(--primary-text);
 	}
 }
 
@@ -112,6 +124,79 @@
 	}
 	to {
 		/*transform: translateY(-150px);*/
+		opacity: 1;
+	}
+}
+
+.colored-card {
+	padding-block: var(--spacing-more);
+	position: relative;
+	isolation: isolate;
+	margin-block: var(--spacing-more);
+	--_border-thickness: 4px;
+	display: grid;
+	grid-column: wide;
+	grid-template-columns: subgrid;
+
+	> * {
+		grid-column: main;
+	}
+
+	&.small {
+		--offset: 4px;
+	}
+
+	&.content-bump {
+		display: block;
+		padding-block: var(--spacing-more);
+	}
+
+	&::before {
+		content: "";
+		inset: 0;
+		position: absolute;
+		background-color: var(--background-color);
+		border: var(--_border-thickness) solid var(--primary-text);
+		border-radius: var(--_border-thickness);
+		z-index: -1;
+	}
+
+	&::after {
+		--_offset: calc(var(--_border-thickness) + var(--offset, 10px));
+		--_offset-left: var(--offset-left, var(--_offset));
+		content: "";
+		display: block;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: var(--_offset);
+		left: var(--_offset-left);
+		/*background-color: color-mix(var(--secondary-text), transparent 30%);*/
+		border: var(--_border-thickness) solid var(--primary-text);
+		border-radius: var(--_border-thickness);
+		backdrop-filter: blur(10px) brightness(0.7);
+		z-index: -2;
+	}
+}
+
+@container (width < 60ch) {
+	.colored-card {
+		grid-column: full;
+
+		&::before, &::after {
+			border-left: none;
+			border-right: none;
+			border-radius: 0;
+			--offset-left: 0;
+		}
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
 		opacity: 1;
 	}
 }

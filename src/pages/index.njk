@@ -44,35 +44,41 @@ hideHeaderLinks: true
 </div>
 
 <section class="content-grid post-content">
-	<h2>Previously on the blog</h2>
-	{% set postslist = latestPosts.slice(0, 5) | reverse %} {% include
-	"components/postlist.njk" %}
-	<div class="links">
-		<a href="/random" class="icon-link"
-		><span>Random Post</span>
-			<span class="icon">{% include "icons/chevron-right.njk" %}</span></a
-		>
-		<a href="/archive" class="icon-link"
+	<div class="colored-card">
+		<h2>Previously on the blog</h2>
+		{% set postslist = latestPosts.slice(0, 5) | reverse %} {% include
+			"components/postlist.njk" %}
+		<div class="links">
+			<a href="/random" class="icon-link"
+			><span>Random Post</span>
+				<span class="icon">{% include "icons/chevron-right.njk" %}</span></a
+			>
+			<a href="/archive" class="icon-link"
 			><span>All Posts</span>
-			<span class="icon">{% include "icons/chevron-right.njk" %}</span></a
-		>
-		<a href="/tags" class="icon-link"
+				<span class="icon">{% include "icons/chevron-right.njk" %}</span></a
+			>
+			<a href="/tags" class="icon-link"
 			><span>All Tags</span>
-			<span class="icon">{% include "icons/chevron-right.njk" %}</span></a
-		>
+				<span class="icon">{% include "icons/chevron-right.njk" %}</span></a
+			>
+		</div>
 	</div>
 </section>
 
 <section class="content-grid post-content">
-	<h2>Projects</h2>
-	<ul>
-		{%- for project in collections.currentProjects -%}
-		<li><a href="{{project.url}}">{{project.data.title}}</a></li>
-		{%- endfor -%}
-	</ul>
+	<div class="colored-card">
+		<h2>Projects</h2>
+		<ul>
+			{%- for project in collections.currentProjects -%}
+			<li><a href="{{project.url}}">{{project.data.title}}</a></li>
+			{%- endfor -%}
+		</ul>
+	</div>
 </section>
 
 <section class="content-grid post-content">
-	<h2>Recent Mastodon Musings</h2>
-	<rss-feed url="https://mastodon.social/@samwarnick.rss" count="3"></rss-feed>
+	<div class="colored-card">
+		<h2>Recent Mastodon Musings</h2>
+		<rss-feed url="https://mastodon.social/@samwarnick.rss" count="3"></rss-feed>
+	</div>
 </section>

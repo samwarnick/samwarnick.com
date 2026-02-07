@@ -1,6 +1,6 @@
 ---
 title: /now
-layout: layouts/page
+layout: layouts/page-card
 ---
 
 - LEGO stuff

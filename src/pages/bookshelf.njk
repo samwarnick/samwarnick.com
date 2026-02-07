@@ -4,7 +4,7 @@ layout: layouts/page
 ogImage: og-img-bg/bookshelf.jpg
 ---
 
-<div>
+<div class="colored-card">
     <p>Here's the books I have read starting in about 2018. If it's on this list, I liked it enough to finish it, but I don't necessarily recommend it.</p>
     <p><small>Last updated {{ bookshelf.lastUpdated.date | toDate | formattedDate }}</small></p>
     {% if bookshelf.inProgress.length %}
@@ -23,7 +23,7 @@ ogImage: og-img-bg/bookshelf.jpg
     {% endif %}
 </div>
 {%- for group in bookshelf.read %}
-    <div>
+    <div class="colored-card">
         <h2>{{group.year}}</h2>
         <div class="books">
         {%- for book in group.books %}

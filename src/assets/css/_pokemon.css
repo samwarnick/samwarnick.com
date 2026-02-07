@@ -1,5 +1,5 @@
 section.set {
-	margin-bottom: calc(var(--spacing-more) * 2);
+	margin-block: calc(var(--spacing-more) * 2);
 	margin-inline: calc(var(--spacing-more) * 3);
 
 	h3 {

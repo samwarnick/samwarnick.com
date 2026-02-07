@@ -1,7 +1,7 @@
 ---
 title: /résumé
 permalink: resume/index.html
-layout: layouts/page
+layout: layouts/page-card
 ---
 
 ## Experience

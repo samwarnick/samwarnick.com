@@ -12,7 +12,7 @@ ul.pages-list {
             border: 2px solid transparent;
             transition: background 0.2s ease-in-out;
             display: block;
-            background: color-mix(in srgb, var(--accent-color), transparent 85% );
+            background: color-mix(in srgb, color-mix(in srgb, var(--accent-color), white 85%), transparent 15%);
             position: relative;
 
             &:focus-visible {

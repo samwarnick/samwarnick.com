@@ -23,16 +23,20 @@ showEdit: true
 		{% endfor %}
 	</div>
 	{% endif %}
-	<hr class="content-wide" />
 </header>
 
-<article class="content-grid post-content" data-pagefind-body>{{content | safe}}</article>
-{% if (not author) and (not hideSignature) %}
-<div class="content-grid">{% include "components/signature.njk" %}</div>
-{% endif %}
+<article class="content-grid post-content" data-pagefind-body>
+	<div class="colored-card">
+		{{content | safe}}
+		{% if (not author) and (not hideSignature) %}
+			<div class="content-grid">{% include "components/signature.njk" %}</div>
+		{% endif %}
+	</div>
+</article>
 <div class="content-grid">
-	<hr />
-	<p>
-		Want to read something else? How about a <a href="/random">random</a> post?
-	</p>
+	<div class="colored-card small">
+		<p>
+			Want to read something else? How about a <a href="/random">random</a> post?
+		</p>
+	</div>
 </div>

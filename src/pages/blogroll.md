@@ -1,6 +1,6 @@
 ---
 title: /blogroll
-layout: layouts/page
+layout: layouts/page-card
 ---
 
 ## Friends

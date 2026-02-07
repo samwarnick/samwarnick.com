@@ -32,6 +32,7 @@ html {
 	font-size: clamp(1rem, 0.8696rem + 0.6522vi, 1.375rem);
 	scroll-padding-top: 7rem; /* roughly header height */
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 body {
@@ -39,7 +40,23 @@ body {
 	color: var(--primary-text);
 	display: flex;
 	flex-direction: column;
-    position: relative;
+	position: relative;
+}
+
+body::before {
+	content: "";
+	position: fixed;
+	inset: 0;
+	background-image: url("/media/backgrounds/bg.jpg");
+	background-image: image-set(
+			url("/media/backgrounds/bg.avif") type("image/avif"),
+			url("/media/backgrounds/bg.webp") type("image/webp"),
+			url("/media/backgrounds/bg.jpg") type("image/jpeg")
+	);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: var(--background-color);
+	z-index: -1;
 }
 
 main {
@@ -50,10 +67,10 @@ h1,
 h2,
 h3,
 h4 {
-	font-family: var(--font-serif);
+	font-family: var(--font-display);
 	text-wrap: balance;
-	font-weight: 400;
-	color: var(--secondary-text);
+	font-weight: 800;
+	color: var(--primary-text);
 }
 
 p {
@@ -127,7 +144,12 @@ hr {
 }
 
 .serif {
-	font-family: var(--font-serif);
+	font-family: var(--font-display);
+}
+
+.display {
+	font-family: var(--font-display);
+	font-weight: 800;
 }
 
 .mono {

@@ -1,6 +1,6 @@
 ---
 title: /ideas
-layout: layouts/page
+layout: layouts/page-card
 ---
 
 - As much as I love iOS and native apps, maybe start looking into moving my focus to the web. The web is cool and open.

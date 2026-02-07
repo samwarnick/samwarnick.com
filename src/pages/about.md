@@ -1,6 +1,6 @@
 ---
 title: /about
-layout: layouts/page
+layout: layouts/page-card
 ---
 
 ![A headshot of Sam Warnick smiling with a glacier in the background](https://samwarnick.com/media/profile-2.jpeg "Me!"){width=200 height=200}

@@ -3,14 +3,20 @@ title: /site
 layout: layouts/page
 ---
 
+<div class="colored-card">
+
 - Built with [Eleventy](https://www.11ty.dev)
-- Hosted on [Netlify](https://www.netlify.com)
+- Hosted on in my closet
 - Fonts
 	- [Atkinson Hyperlegible](https://brailleinstitute.org/freefont)
-	- [Calistoga](https://fonts.google.com/specimen/Calistoga){.serif}
+	- [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan){.display}
 	- [Comic Mono](https://dtinth.github.io/comic-mono-font/){.mono}
 - Colors based on [Dawnfox and Terafox Neovim themes](https://github.com/EdenEast/nightfox.nvim)
 - Icons from [Hericons](https://heroicons.com)
+
+</div>
+
+<div class="colored-card">
 
 ## Styleguide{id=styleguide}
 Last updated: Jun 26, 2025
@@ -35,6 +41,10 @@ Last updated: Jun 26, 2025
 
 Disagree with these? You can attempt to politely tell me why I should change something. Or keep quiet and do whatever you want on your own blog.
 
+</div>
+
+<div class="colored-card">
+
 ## //TODO:
 <ul>
 	{%- for issue in githubIssues -%}
@@ -48,3 +58,5 @@ Disagree with these? You can attempt to politely tell me why I should change som
 		>new issue on GitHub</a
 	>.
 </p>
+
+</div>

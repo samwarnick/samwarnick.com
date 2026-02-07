@@ -1,7 +1,8 @@
 .content-grid {
-	--_wide: 240px;
+	--_wide: 40px;
 	--_bump: 40px;
 
+	container-type: inline-size;
 	display: grid;
 	grid-template-columns:
 		[full-start] minmax(var(--site-padding), 1fr) [wide-start] minmax(
