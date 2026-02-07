@@ -1,6 +1,6 @@
 ---
 title: "/debugging-kids"
-layout: layouts/page
+layout: layouts/page-card
 ---
 
 I started to dig in and start debugging some of the strange behavior in my kids. I don't know who wrote this code, but it's not very good. It's full of bugs, TODOs, and unimplemented methods.
