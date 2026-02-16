@@ -1,10 +1,10 @@
 ---
 title: AI Is Complicated
-date: '2026-02-16'
-published: false
+date: '2026-02-16T13:40'
+published: true
 summary: >-
-  I'm conflicted about AI in software development—I hate a lot about it but find
-  it useful, and I'm worried about losing the satisfaction of handcrafting code.
+  Things are moving fast and I'm trying to understand it's role in my life and
+  work.
 tags: []
 ---
 I'm writing this as a snapshot of my current feelings. I'm a human capable of learning and adapting, so who knows what I will think even six months from now.
@@ -15,7 +15,7 @@ As I've started using agents in my day job, things have started to feel differen
 
 For most of my career, my official job title has been some variation of Software Engineer. I usually refer to myself as a Software Developer though. I've never really felt like engineer was appropriate. As I've moved into senior and staff positions, engineer might have become more accurate. But with AI agents, I might be more of an engineer than ever? I'm focusing more on the design and less on the implementation.
 
-In 2020, my wife and I built a house. I think most of you know what that means. We came up with some ideas of what we wanted in a house, got an engineer to draw up some plans, another engineer to make sure it would be structurally sound, and then had a general contractor gather materials and organize subcontractors to actually construct the house. We did not literally build the house ourselves. I did some of the work, but not even close to all of it. 200 years ago, if I said I built my house, that might have meant that I cut down the trees, framed it, stacked stones, and all that. Most people do not build a house like that today.
+In 2020, my wife and I built a house. I think most of you know what that means. We came up with some ideas of what we wanted in a house, got an engineer to draw up some plans, another engineer to make sure it would be structurally sound, and then had a general contractor gather materials and organize subcontractors to actually construct the house. We did not literally build the house ourselves. I did some of the work, but not even close to all of it. Two hundred years ago, if I said I built my house, that might have meant that I cut down the trees, framed it, stacked stones, and all that. Most people do not build a house like that today.
 
 What does it mean to build software anymore? To me it used to mean that I handcrafted every line of code. But that was always a lie. I _never_ wrote 100% of the code. I'm a web developer. My `node_modules` are full of other people's code that I use without batting an eye, let alone reading it to understand what it is actually doing. Today, I am describing what I want to AI agents and approving their plans. The agents are generating the actual code. For the most part, what it produces is adequate. The cost of iteration and getting things right is relatively cheap. The more I design and architect the solution, the better the outcome.
 
