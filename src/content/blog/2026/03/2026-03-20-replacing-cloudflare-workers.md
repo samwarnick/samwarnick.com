@@ -1,11 +1,16 @@
 ---
 title: Replacing Cloudflare Workers
-date: '2026-03-20'
-published: false
+date: '2026-03-20T09:53'
+published: true
+summary: >-
+  I stayed up too late adding Netlify Functions support to my Deploybot 3000
+  because I couldn't help myself.
+tags:
+  - Self-hosting
+  - Projects
 ---
-
 > Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they _should_.
-> — Dr. Ian Malcom
+> — Dr. Ian Malcolm
 
 I stayed up way too late last night. I had this idea I just had to do. I wanted to replicate [Netlify Functions](https://docs.netlify.com/build/functions/overview/) inside Deploybot 3000[^1].
 
@@ -17,7 +22,7 @@ With Deploybot 3000, I realized I could make my dreams come true.
 
 The idea is somewhat straightforward. If one of my static sites—like this blog—has a functions directory, it starts a server that dynamically imports those functions. My Caddyfile is updated to automatically proxy requests to this new server. In an advantage over Netlify, it uses the function name for the route, so you don't have to add a custom redirect. I might change this in the future, but works exactly how I want now. I am using Bun to spawn these subprocesses for some isolation. They are not truly isolated from the main Deploybot, but if they crash or have issues, they won't bring down Deploybot. But nothing is stopping them from accessing the main server. If I wanted true isolation, I could spin up a Docker container for each function runner. I thought about this, but it felt a little heavy for literally a single function.
 
-Here's a slimed down version of the function runner server:
+Here's a slimmed down version of the function runner server:
 
 ```ts
 Bun.serve({
