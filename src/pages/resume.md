@@ -43,8 +43,7 @@ December 2022 – Current
 
 December 2019 – August 2022
 
-- Focuses was a clean and flexible native iOS app to help track effort towards habits
-- Independently designed, developed
+- Independently designed, developed a clean and flexible native iOS app to help track effort towards habits 
 - Literally, _dozens_ of sales on the Apple App Store
 
 ## Education
