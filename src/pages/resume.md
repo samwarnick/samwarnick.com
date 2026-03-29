@@ -10,41 +10,41 @@ layout: layouts/page-card
 **Staff Engineer**, July 2024 – Current
 **Software Engineer III**, May 2023 – July 2024
 
+- Lead migration of monolithic notification system to a microservice architecture
+- Drive adoption and implementation of new technologies and best practices across teams
 - Architect and implement new features in web and mobile applications using Angular and Ionic
-- Coordinate adoption and implementation of new technologies and best practices across teams
-- Lead migration of monolithic notification system to microservices architecture
-- Adapt quickly to changing requirements in a fast paced start-up environment
+- Adapt quickly to changing requirements in a fast-paced start-up environment
 
-### **[ScreenCred](https://screencred.app)**, iOS & Web App
+### [ScreenCred](https://screencred.app), iOS & Web App
 
 December 2022 – Current
 
-- Migrated from a native iOS app to a web app using SvelteKit
-- Independently designed, developed, and released ScreenCred, an iOS app written using SwiftUI
+- Independently designed and developed a full-stack web app using SvelteKit, including dynamically generated share images and polished UX
+- Migrated from a native iOS app to a web app to make it more accessible to users
 
-### [Simplifile](https://simplifile.com) _(acquired by [Intercontinental Exchange](https://www.ice.com))_
+### [Simplifile](https://simplifile.com)
 **Staff Software Engineer**, May 2021 – May 2023
 **Software Engineer**, May 2017 – May 2021
 **Software Engineering Intern**, May 2016 – May 2017
 
-- Ensured over 30 other front-end developers have the tools and expertise they need to be successful by creating and maintaining commonly used components, training, and pair-programming
-- 1 of 3 developers on team in charge of front-end architecture, leading multi-year migration from AngularJS to Angular 
-- Lead re-architecture of critical component used by thousands of users each day to be more performant, reusable, and maintainable—reducing JavaScript loaded by user by 60%
+- 1 of 3 developers leading frontend architecture strategy, including a multi-year migration from AngularJS to Angular
+- Re-architected critical component used by thousands of users daily, improving performance and reducing JavaScript payload by 60%
+- Enabled over 30 other developers by creating and maintaining shared components, training, and pair programming
 
 ### [Benefit Sculptor](https://www.benefitsculptor.com)
 **Software Developer (Freelance)**, October 2020 – October 2021
-- Worked with a small team of the product owner and 1 to 2 additional developers to get product ready for first paying customers 
-- Implemented features and fixed bugs across the Angular and Django stack
+- Delivered features across an Angular and Django stack, working directly with stakeholders to prepare the product for its first paying customers
 
-### **[Simple Embeds](https://github.com/samwarnick/obsidian-simple-embeds)**, Obsidian Plugin
+### [Simple Embeds](https://github.com/samwarnick/obsidian-simple-embeds), Obsidian Plugin
 
 - Created and maintain an open source plugin for [Obsidian](https://obsidian.md) with over 10,000 downloads and 150 stars on GitHub
 
-### **[Focuses](https://apps.apple.com/us/app/focuses/id1492385864?ls=1)**, iOS App
+### [Focuses](https://apps.apple.com/us/app/focuses/id1492385864?ls=1), iOS App
 
 December 2019 – August 2022
 
-- Independently designed, developed, and released Focuses, an iOS app written using SwiftUI and UIKit 
+- Focuses was a clean and flexible native iOS app to help track effort towards habits
+- Independently designed, developed
 - Literally, _dozens_ of sales on the Apple App Store
 
 ## Education
