@@ -37,7 +37,7 @@ December 2022 – Current
 
 ### [Simple Embeds](https://github.com/samwarnick/obsidian-simple-embeds), Obsidian Plugin
 
-- Created and maintain an open source plugin for [Obsidian](https://obsidian.md) with over 10,000 downloads and 150 stars on GitHub
+- Created and maintained an open source plugin for [Obsidian](https://obsidian.md) with over 10,000 downloads and 150 stars on GitHub
 
 ### [Focuses](https://apps.apple.com/us/app/focuses/id1492385864?ls=1), iOS App
 
