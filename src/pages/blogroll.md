@@ -7,6 +7,7 @@ layout: layouts/page-card
 
 - https://carter.works
 - https://catskull.net
+- https://jaredezz.tech
 
 ## Who I Follow
 
