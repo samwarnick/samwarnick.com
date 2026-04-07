@@ -29,4 +29,4 @@ For week 1, I chose the prompt:
 My friends' posts this week:
 - [Carter](https://carter.works/)
 - [Dave](https://catskull.net/)
-- [Jared](https://jaredezz.tech/)
+- [Jared](https://jaredezz.tech/posts/the-nature-of-prototyping)
