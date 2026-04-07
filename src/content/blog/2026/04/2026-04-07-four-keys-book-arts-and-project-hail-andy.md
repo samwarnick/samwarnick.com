@@ -28,5 +28,5 @@ For week 1, I chose the prompt:
 
 My friends' posts this week:
 - [Carter](https://carter.works/)
-- [Dave](https://catskull.net/)
+- [Dave](https://catskull.net/nintendo-announces-3ds-successor-3ds-plus.html)
 - [Jared](https://jaredezz.tech/posts/the-nature-of-prototyping)
