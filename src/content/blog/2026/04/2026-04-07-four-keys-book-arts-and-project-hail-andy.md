@@ -27,6 +27,6 @@ For week 1, I chose the prompt:
 **"What's something cool I'm caring about or into recently?"**
 
 My friends' posts this week:
-- [Carter](https://carter.works/)
+- [Carter](https://carter.works/blog/2026-04-07-im-enjoying-having-opinions/)
 - [Dave](https://catskull.net/nintendo-announces-3ds-successor-3ds-plus.html)
 - [Jared](https://jaredezz.tech/posts/the-nature-of-prototyping)
