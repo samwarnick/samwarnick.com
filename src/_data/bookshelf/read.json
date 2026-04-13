@@ -3,6 +3,36 @@
     "year": 2026,
     "books": [
       {
+        "id": "278335F7-8E20-4812-AD48-A85AB61096A9",
+        "isbn": "9781959001270",
+        "googleId": "AbsY0AEACAAJ",
+        "title": "Ghostwater (6x9 Trade Hardcover)",
+        "author": "Will Wight",
+        "startedReading": "2026-02-01",
+        "finishedReading": "2026-04-09",
+        "didNotFinish": ""
+      },
+      {
+        "id": "85000077-97FD-4A70-BFB3-A1F76619AA59",
+        "isbn": "9780593135204",
+        "googleId": "GrYsEAAAQBAJ",
+        "title": "Project Hail Mary",
+        "author": "Andy Weir",
+        "startedReading": "2026-03-14",
+        "finishedReading": "2026-03-16",
+        "didNotFinish": ""
+      },
+      {
+        "id": "66A6A25B-7E2F-434F-9FE7-8D380FF9DDFC",
+        "isbn": "9781250886118",
+        "googleId": "u8-iEAAAQBAJ",
+        "title": "Bookshops & Bonedust",
+        "author": "Travis Baldree",
+        "startedReading": "2026-01-10",
+        "finishedReading": "2026-01-29",
+        "didNotFinish": ""
+      },
+      {
         "id": "6A72EC08-54A9-40AF-B984-64B0AFFE9885",
         "isbn": "9781982141257",
         "googleId": "jvRQEQAAQBAJ",
