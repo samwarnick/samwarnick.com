@@ -64,6 +64,6 @@ For week 2, Jared chose the prompt:
 **"What are your favorite places on the internet or favorite things about the internet and why? How do they differ from the parts of the internet that you dislike"**
 
 My friends' posts this week:
-- [Carter](https://carter.works/)
+- [Carter](https://carter.works/blog/2026-04-14-my-favorite-places-on-the-internet/)
 - [Dave](https://catskull.net/)
 - [Jared](https://jaredezz.tech/)
