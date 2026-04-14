@@ -1,9 +1,11 @@
 ---
 title: Internet Driven Memories
-date: '2026-04-09'
-published: false
+date: '2026-04-14T09:12'
+published: true
+summary: The Internet made a lot of my core memories possible.
+tags:
+  - April 2026 Blog Challenge
 ---
-
 ## 1990s
 
 I don't think we always had the Internet at home, but I don't remember not having it.
@@ -12,7 +14,7 @@ My first email was hosted on a server my uncle kept in my grandma's basement. I 
 
 In 2nd grade, we were doing research on space. Back then, Yahoo had a search engine for kids called [Yahooligans!](https://en.wikipedia.org/wiki/Yahoo_Kids). I don't think it worked very well because I searched something like "big asteroids" and that was the first time I heard my mom swear.
 
-My 3rd grade class was doing a research project on Africa and I happened to have a cousin doing some work in Senegal at the time. I was able to email her and show off her response to my class. Even with the our incredibly fast 56kbps modem, I was able to watch a webcam of a wildlife preserve in Africa. It would refresh like every 30 seconds or something. Sometimes you'd see a giraffe or an elephant.
+My 3rd grade class was doing a research project on Africa and I happened to have a cousin doing some work in Senegal at the time. I was able to email her and show off her response to my class. Even with our incredibly fast 56kbps modem, I was able to watch a webcam of a wildlife preserve in Africa. It would refresh like every 30 seconds or something. Sometimes you'd see a giraffe or an elephant.
 
 ## 2000s
 
@@ -30,7 +32,7 @@ I found a book on HTML and CSS in a classroom. My teacher was chill and let me t
 
 I somehow got a prototype Chromebook. The Cr-48. I just filled out a form and it showed up. A free computer that looked and felt great. One of the cool things is that the computer came with like 200 MB of Verizon 3G data every month. Still had dial-up at home.
 
-Also around this time, I bought my first domain. I used Godaddy. Put up some blog that I never updated. That's a trend in my life.
+Also around this time, I bought my first domain. I used GoDaddy. Put up some blog that I never updated. That's a trend in my life.
 
 In 2013, my family finally got rid of dial-up. Still not able to get cable, my parents got some sort of service that was like permanent 4G. Finally had internet in the megabits per second speeds instead of kilobits.
 
