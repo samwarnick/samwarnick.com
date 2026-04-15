@@ -65,5 +65,5 @@ For week 2, Jared chose the prompt:
 
 My friends' posts this week:
 - [Carter](https://carter.works/blog/2026-04-14-my-favorite-places-on-the-internet/)
-- [Dave](https://catskull.net/)
-- [Jared](https://jaredezz.tech/)
+- [Dave](https://catskull.net/the-internet-is-a-vast-place.html)
+- [Jared](https://jaredezz.tech/posts/preferred-corners-of-the-internet/)
