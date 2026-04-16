@@ -1,7 +1,7 @@
 ---
 title: Father's Day
-date: '2021-06-20T10:00'
-oldUrl: 'https://samwarnick.com/2021/6/fathers-day'
+date: "2021-06-20T10:00"
+oldUrl: "https://samwarnick.com/2021/6/fathers-day"
 published: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Do Nothing
-date: '2023-05-21T15:00'
-oldUrl: 'https://samwarnick.com/2023/5/do-nothing'
+date: "2023-05-21T15:00"
+oldUrl: "https://samwarnick.com/2023/5/do-nothing"
 published: true
 ---
 

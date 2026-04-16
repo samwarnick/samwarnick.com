@@ -7,6 +7,7 @@ tags:
   - 2025—Year of Health
 published: true
 ---
+
 It's been a little more than 4 weeks since I've been waking up earlier. Thought I'd check in and see how it's going.
 
 I'm tired. But it's been really great.

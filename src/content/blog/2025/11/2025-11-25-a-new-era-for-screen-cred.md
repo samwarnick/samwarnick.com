@@ -1,12 +1,13 @@
 ---
 title: A New Era for ScreenCred
-date: '2025-11-25T10:31'
+date: "2025-11-25T10:31"
 published: true
 summary: I turned my iOS app ScreenCred into a web app.
 tags:
   - ScreenCred
   - Web Development
 ---
+
 I won't bury the lede. ScreenCred is now a web app. Find it at [screencred.app](https://screencred.app).
 
 If you've never heard of ScreenCred, it's an app that takes two movies, TV shows, or people, and shows you all the common cast, crew, and projects between them. A slightly nerdy and niche tool that I made for myself. I started ScreenCred [about three years ago](https://samwarnick.com/blog/devlog-december-8-2022/) as an iOS app. It was a fun little project and I learned a lot about Swift and iOS development along the way. After an [initial rejection](https://samwarnick.com/blog/screencred-in-app-review/), I released it on [July 21, 2023](https://samwarnick.com/blog/devlog-july-21-2023/). I was proud of it! A couple people even used it and left tips. That was pretty neat.

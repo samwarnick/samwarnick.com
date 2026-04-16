@@ -4,9 +4,11 @@ date: 2024-07-07T14:45
 summary: After a year and half, I'm shutting down my self-hosted Mastodon server.
 published: true
 ---
+
 Like a lot of nerds during the Twitter turmoil of 2022, I started my own single-user Mastodon instance. Places like [Masto.host](https://masto.host) were overrun and not taking new customers, so I started up a Linode. Today, I'm shutting that Linode down and switching over to (mastodon.social)[https://mastodon.social/@samwarnick].
 
 2 main reasons why:
+
 1. Cost. I was having issues uploading images and videos, so I upgrade my Linode to beefier 2 GB of memory. This, with backups enabled, was costing me like $17/mo.
 2. Updates. Every time I did a security update, I was nervous I was going to lose everything. Got close once.
 

@@ -1,11 +1,12 @@
 ---
 title: Exploring Coolify
-date: '2025-10-27T10:53'
+date: "2025-10-27T10:53"
 published: true
 summary: Down the self-hosting rabbit hole we go!
 tags:
   - Self-hosting
 ---
+
 Like so many of my sudden deep dives, this is Carter's fault.
 
 One of the [frustrations I recently expressed](https://samwarnick.com/blog/i-almost-feel-like-doing-something/) is the difficulty I have in choosing how to host projects. I think I over-index on free. Carter said "you should learn Coolify with me."

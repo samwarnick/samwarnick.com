@@ -7,6 +7,7 @@ tags:
   - Eleventy
 published: true
 ---
+
 If you're seeing this on July 5th and not July 4th, it means that my scheduled post implementation works!
 
 I found a [great post](https://localghost.dev/blog/how-to-schedule-posts-in-eleventy/) on how to implement it with Eleventy and GitHub Actions.
@@ -17,31 +18,31 @@ Step on was to set the permalink of any post with a date in the future to `false
 const now = new Date();
 
 function isScheduled(data) {
-	return data.page.date > now;
+  return data.page.date > now;
 }
 
 export default {
-	layout: "layouts/post.njk",
-	permalink: function (data) {
-		if (data.published === false || isScheduled(data)) {
-			return false;
-		}
-	},
-	eleventyComputed: {
-		eleventyExcludeFromCollections: function (data) {
-			return data.published === false || isScheduled(data);
-		},
-	},
+  layout: "layouts/post.njk",
+  permalink: function (data) {
+    if (data.published === false || isScheduled(data)) {
+      return false;
+    }
+  },
+  eleventyComputed: {
+    eleventyExcludeFromCollections: function (data) {
+      return data.published === false || isScheduled(data);
+    },
+  },
 };
 ```
 
-Then, I added a GitHub action. I'm a GitHub Actions noob, so I did not know you could trigger it on a cron. That's pretty awesome.  
+Then, I added a GitHub action. I'm a GitHub Actions noob, so I did not know you could trigger it on a cron. That's pretty awesome.
 
 ```yml
 name: "Publish"
 on:
   schedule:
-    - cron: '30 2,14 * * *'
+    - cron: "30 2,14 * * *"
 
 jobs:
   build:

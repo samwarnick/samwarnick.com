@@ -1,7 +1,7 @@
 ---
-title: 'Re: Demo to Demo Loop'
-date: '2022-06-23T10:00'
-oldUrl: 'https://samwarnick.com/2022/6/re-demo-to-demo-loop'
+title: "Re: Demo to Demo Loop"
+date: "2022-06-23T10:00"
+oldUrl: "https://samwarnick.com/2022/6/re-demo-to-demo-loop"
 published: true
 ---
 

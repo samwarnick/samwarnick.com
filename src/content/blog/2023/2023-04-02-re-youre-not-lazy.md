@@ -1,7 +1,7 @@
 ---
-title: 'Re: You''re Not Lazy'
-date: '2023-04-02T11:00'
-oldUrl: 'https://samwarnick.com/2023/4/re-youre-not-lazy'
+title: "Re: You're Not Lazy"
+date: "2023-04-02T11:00"
+oldUrl: "https://samwarnick.com/2023/4/re-youre-not-lazy"
 published: true
 ---
 

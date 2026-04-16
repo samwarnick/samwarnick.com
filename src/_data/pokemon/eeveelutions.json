@@ -21,30 +21,21 @@
         "id": "bwp-BW90",
         "name": "Glaceon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "90",
-        "types": [
-          "Water"
-        ],
+        "types": ["Water"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Quick Attack",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "10+",
             "text": "Flip a coin. If heads, this attack does 30 more damage."
           },
           {
             "name": "Reflect Energy",
-            "cost": [
-              "Water",
-              "Colorless"
-            ],
+            "cost": ["Water", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "40",
             "text": "Move an Energy from this Pokémon to 1 of your Benched Pokémon."
@@ -56,17 +47,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "BW90",
         "artist": "The Pokémon Company Art Team",
         "rarity": "Promo",
         "flavorText": "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
-        "nationalPokedexNumbers": [
-          471
-        ],
+        "nationalPokedexNumbers": [471],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -118,31 +105,21 @@
         "id": "xy3-19",
         "name": "Glaceon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "90",
-        "types": [
-          "Water"
-        ],
+        "types": ["Water"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Blizzard",
-            "cost": [
-              "Water"
-            ],
+            "cost": ["Water"],
             "convertedEnergyCost": 1,
             "damage": "30",
             "text": "This Pokémon does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
           },
           {
             "name": "Ice Edge",
-            "cost": [
-              "Water",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Water", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "60+",
             "text": "Flip a coin. If heads, this attack does 30 more damage."
@@ -154,17 +131,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "19",
         "artist": "Kagemaru Himeno",
         "rarity": "Rare",
         "flavorText": "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
-        "nationalPokedexNumbers": [
-          471
-        ],
+        "nationalPokedexNumbers": [471],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -196,13 +169,9 @@
         "id": "xy3-80",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "50",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -223,10 +192,7 @@
         "attacks": [
           {
             "name": "Gnaw",
-            "cost": [
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "10",
             "text": ""
@@ -238,17 +204,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "80",
         "artist": "sui",
         "rarity": "Common",
         "flavorText": "A rare Pokémon that adapts to harsh environments by taking on different evolutionary forms.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -300,13 +262,9 @@
         "id": "xy7-63",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "60",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -320,19 +278,14 @@
         "attacks": [
           {
             "name": "Tackle",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "10",
             "text": ""
           },
           {
             "name": "Lunge",
-            "cost": [
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "30",
             "text": "Flip a coin. If tails, this attack does nothing."
@@ -344,17 +297,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "63",
         "artist": "Kouki Saitou",
         "rarity": "Common",
         "flavorText": "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -406,31 +355,21 @@
         "id": "smp-SM238",
         "name": "Glaceon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Water"
-        ],
+        "types": ["Water"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Snow Cloak",
-            "cost": [
-              "Water"
-            ],
+            "cost": ["Water"],
             "convertedEnergyCost": 1,
             "damage": "30",
             "text": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn."
           },
           {
             "name": "Hypnotic Blizzard",
-            "cost": [
-              "Water",
-              "Water",
-              "Colorless"
-            ],
+            "cost": ["Water", "Water", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "90",
             "text": "Your opponent's Active Pokémon is now Asleep. This attack does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
@@ -442,18 +381,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless",
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless", "Colorless"],
         "convertedRetreatCost": 2,
         "number": "SM238",
         "artist": "Mizue",
         "rarity": "Promo",
         "flavorText": "It protects itself by freezing its fur into sharp needles. It can drop its body temperature below –75 degrees Fahrenheit.",
-        "nationalPokedexNumbers": [
-          471
-        ],
+        "nationalPokedexNumbers": [471],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -505,13 +439,9 @@
         "id": "sm115-49",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "60",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -525,9 +455,7 @@
         "attacks": [
           {
             "name": "Gnaw",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "20",
             "text": ""
@@ -539,17 +467,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "49",
         "artist": "Hitoshi Ariga",
         "rarity": "Common",
         "flavorText": "Current studies show it can evolve into an incredible eight different species of Pokémon.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -602,13 +526,9 @@
         "id": "swshp-SWSH118",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "60",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -622,19 +542,14 @@
         "attacks": [
           {
             "name": "Signs of Evolution",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Search your deck for a card that evolves from Eevee, reveal it, and put it into your hand. Then, shuffle your deck."
           },
           {
             "name": "Wild Kick",
-            "cost": [
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "30",
             "text": "Flip a coin. If tails, this attack does nothing."
@@ -646,17 +561,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "SWSH118",
         "artist": "Yuu Nishida",
         "rarity": "Promo",
         "flavorText": "It has the ability to alter the composition of its body to suit its surrounding environment.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -690,31 +601,21 @@
         "id": "swshp-SWSH129",
         "name": "Umbreon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Darkness"
-        ],
+        "types": ["Darkness"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Blindside",
-            "cost": [
-              "Darkness"
-            ],
+            "cost": ["Darkness"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "This attack does 60 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
           },
           {
             "name": "Moon Mirage",
-            "cost": [
-              "Darkness",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Darkness", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "80",
             "text": "Your opponent's Active Pokémon is now Confused."
@@ -726,17 +627,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "SWSH129",
         "artist": "Souichirou Gunjima",
         "rarity": "Promo",
         "flavorText": "On the night of a full moon, or when it gets excited, the ring patterns on its body glow yellow.",
-        "nationalPokedexNumbers": [
-          197
-        ],
+        "nationalPokedexNumbers": [197],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -770,30 +667,21 @@
         "id": "swshp-SWSH174",
         "name": "Espeon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Psychic"
-        ],
+        "types": ["Psychic"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Psy Bolt",
-            "cost": [
-              "Psychic"
-            ],
+            "cost": ["Psychic"],
             "convertedEnergyCost": 1,
             "damage": "20",
             "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
           },
           {
             "name": "Psychic",
-            "cost": [
-              "Psychic",
-              "Colorless"
-            ],
+            "cost": ["Psychic", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "10+",
             "text": "This attack does 40 more damage for each Energy attached to your opponent's Active Pokémon."
@@ -811,17 +699,13 @@
             "value": "-30"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "SWSH174",
         "artist": "Tika Matsuno",
         "rarity": "Promo",
         "flavorText": "It unleashes psychic power from the orb on its forehead. When its power is exhausted, the orb grows dull and dark.",
-        "nationalPokedexNumbers": [
-          196
-        ],
+        "nationalPokedexNumbers": [196],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -855,13 +739,9 @@
         "id": "swshp-SWSH175",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "60",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -875,20 +755,14 @@
         "attacks": [
           {
             "name": "Be Prepared",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Attach a basic Energy card from your hand to this Pokémon."
           },
           {
             "name": "Bite",
-            "cost": [
-              "Colorless",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "30",
             "text": ""
@@ -900,17 +774,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "SWSH175",
         "artist": "Tika Matsuno",
         "rarity": "Promo",
         "flavorText": "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -944,30 +814,21 @@
         "id": "swshp-SWSH191",
         "name": "Leafeon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Grass"
-        ],
+        "types": ["Grass"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Leaf Guard",
-            "cost": [
-              "Grass"
-            ],
+            "cost": ["Grass"],
             "convertedEnergyCost": 1,
             "damage": "30",
             "text": "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
           },
           {
             "name": "Grass Knot",
-            "cost": [
-              "Grass",
-              "Colorless"
-            ],
+            "cost": ["Grass", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "50+",
             "text": "This attack does 30 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost."
@@ -979,17 +840,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "SWSH191",
         "artist": "OKACHEKE",
         "rarity": "Promo",
         "flavorText": "This Pokémon's tail is blade sharp, with a fantastic cutting edge that can slice right though large trees.",
-        "nationalPokedexNumbers": [
-          470
-        ],
+        "nationalPokedexNumbers": [470],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -1023,31 +880,21 @@
         "id": "swshp-SWSH192",
         "name": "Glaceon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Water"
-        ],
+        "types": ["Water"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Hail",
-            "cost": [
-              "Water"
-            ],
+            "cost": ["Water"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
           },
           {
             "name": "Frosty Typhoon",
-            "cost": [
-              "Water",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Water", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "120",
             "text": "During your next turn, this Pokémon can't use Frosty Typhoon."
@@ -1059,17 +906,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "SWSH192",
         "artist": "OKACHEKE",
         "rarity": "Promo",
         "flavorText": "The coldness emanating from Glaceon causes powdery snow to form, making it quite a popular Pokémon at ski resorts.",
-        "nationalPokedexNumbers": [
-          471
-        ],
+        "nationalPokedexNumbers": [471],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -1103,31 +946,21 @@
         "id": "swshp-SWSH211",
         "name": "Sylveon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Psychic"
-        ],
+        "types": ["Psychic"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Time Out Kick",
-            "cost": [
-              "Psychic"
-            ],
+            "cost": ["Psychic"],
             "convertedEnergyCost": 1,
             "damage": "30",
             "text": "You may put an Energy attached to your opponent's Active Pokémon into their hand."
           },
           {
             "name": "Symphony Whip",
-            "cost": [
-              "Psychic",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Psychic", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "70+",
             "text": "If you played a Supporter card from your hand during this turn, this attack does 70 more damage."
@@ -1139,17 +972,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "SWSH211",
         "artist": "Mizue",
         "rarity": "Promo",
         "flavorText": "There's a Galarian fairy tale that describes a beautiful Sylveon vanquishing a dreadful dragon Pokémon.",
-        "nationalPokedexNumbers": [
-          700
-        ],
+        "nationalPokedexNumbers": [700],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -1183,13 +1012,9 @@
         "id": "swshp-SWSH212",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "60",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -1203,20 +1028,14 @@
         "attacks": [
           {
             "name": "Be Prepared",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Attach a basic Energy card from your hand to this Pokémon."
           },
           {
             "name": "Bite",
-            "cost": [
-              "Colorless",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "30",
             "text": ""
@@ -1228,17 +1047,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "SWSH212",
         "artist": "Mizue",
         "rarity": "Promo",
         "flavorText": "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -1292,13 +1107,9 @@
         "id": "swsh4-30",
         "name": "Vaporeon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Water"
-        ],
+        "types": ["Water"],
         "evolvesFrom": "Eevee",
         "abilities": [
           {
@@ -1310,10 +1121,7 @@
         "attacks": [
           {
             "name": "Aurora Beam",
-            "cost": [
-              "Water",
-              "Colorless"
-            ],
+            "cost": ["Water", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "70",
             "text": ""
@@ -1325,18 +1133,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless",
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless", "Colorless"],
         "convertedRetreatCost": 2,
         "number": "30",
         "artist": "kodama",
         "rarity": "Rare",
         "flavorText": "When Vaporeon's fins begin to vibrate, it is a sign that rain will come within a few hours.",
-        "nationalPokedexNumbers": [
-          134
-        ],
+        "nationalPokedexNumbers": [134],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -1369,13 +1172,9 @@
         "id": "swsh4-130",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "70",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -1389,19 +1188,14 @@
         "attacks": [
           {
             "name": "Gnaw",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "10",
             "text": ""
           },
           {
             "name": "Tail Whap",
-            "cost": [
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "20",
             "text": ""
@@ -1413,17 +1207,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "130",
         "artist": "Lee HyunJung",
         "rarity": "Common",
         "flavorText": "It has the ability to alter the composition of its body to suit its surrounding environment.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -1476,13 +1266,9 @@
         "id": "swsh45-52",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "60",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -1496,19 +1282,14 @@
         "attacks": [
           {
             "name": "Signs of Evolution",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Search your deck for a card that evolves from Eevee, reveal it, and put it into your hand. Then, shuffle your deck."
           },
           {
             "name": "Wild Kick",
-            "cost": [
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "30",
             "text": "Flip a coin. If tails, this attack does nothing."
@@ -1520,17 +1301,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "52",
         "artist": "so-taro",
         "rarity": "Common",
         "flavorText": "It has the ability to alter the composition of its body to suit its surrounding environment.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -1583,13 +1360,9 @@
         "id": "swsh7-125",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "70",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -1603,19 +1376,14 @@
         "attacks": [
           {
             "name": "Vee-Search",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Search your deck for up to 3 Pokémon V, reveal them, and put them into your hand. Then, shuffle your deck."
           },
           {
             "name": "Stampede",
-            "cost": [
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "20",
             "text": ""
@@ -1627,17 +1395,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "125",
         "artist": "Atsushi Furusawa",
         "rarity": "Common",
         "flavorText": "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -1690,13 +1454,9 @@
         "id": "swsh8-205",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "50",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -1710,9 +1470,7 @@
         "attacks": [
           {
             "name": "Continuous Steps",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "30×",
             "text": "Flip a coin until you get tails. This attack does 30 damage for each heads."
@@ -1724,17 +1482,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "205",
         "artist": "0313",
         "rarity": "Common",
         "flavorText": "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -1788,13 +1542,9 @@
         "id": "swsh9tg-TG01",
         "name": "Flareon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Fire"
-        ],
+        "types": ["Fire"],
         "evolvesFrom": "Eevee",
         "abilities": [
           {
@@ -1806,11 +1556,7 @@
         "attacks": [
           {
             "name": "Fire Mane",
-            "cost": [
-              "Fire",
-              "Fire",
-              "Colorless"
-            ],
+            "cost": ["Fire", "Fire", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "100",
             "text": ""
@@ -1822,18 +1568,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless",
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless", "Colorless"],
         "convertedRetreatCost": 2,
         "number": "TG01",
         "artist": "You Iribi",
         "rarity": "Trainer Gallery Rare Holo",
         "flavorText": "Once it has stored up enough heat, this Pokémon's body temperature can reach up to 1,700 degrees Fahrenheit.",
-        "nationalPokedexNumbers": [
-          136
-        ],
+        "nationalPokedexNumbers": [136],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -1867,13 +1608,9 @@
         "id": "swsh9tg-TG02",
         "name": "Vaporeon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Water"
-        ],
+        "types": ["Water"],
         "evolvesFrom": "Eevee",
         "abilities": [
           {
@@ -1885,10 +1622,7 @@
         "attacks": [
           {
             "name": "Aurora Beam",
-            "cost": [
-              "Water",
-              "Colorless"
-            ],
+            "cost": ["Water", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "70",
             "text": ""
@@ -1900,18 +1634,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless",
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless", "Colorless"],
         "convertedRetreatCost": 2,
         "number": "TG02",
         "artist": "Jiro Sasumo",
         "rarity": "Trainer Gallery Rare Holo",
         "flavorText": "When Vaporeon's fins begin to vibrate, it is a sign that rain will come within a few hours.",
-        "nationalPokedexNumbers": [
-          134
-        ],
+        "nationalPokedexNumbers": [134],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -1945,13 +1674,9 @@
         "id": "swsh9tg-TG04",
         "name": "Jolteon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "100",
-        "types": [
-          "Lightning"
-        ],
+        "types": ["Lightning"],
         "evolvesFrom": "Eevee",
         "abilities": [
           {
@@ -1963,11 +1688,7 @@
         "attacks": [
           {
             "name": "Electric Ball",
-            "cost": [
-              "Lightning",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Lightning", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "90",
             "text": ""
@@ -1979,17 +1700,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "TG04",
         "artist": "DOM",
         "rarity": "Trainer Gallery Rare Holo",
         "flavorText": "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes.",
-        "nationalPokedexNumbers": [
-          135
-        ],
+        "nationalPokedexNumbers": [135],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -2023,13 +1740,9 @@
         "id": "swsh9tg-TG11",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "70",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -2043,19 +1756,14 @@
         "attacks": [
           {
             "name": "Vee-Search",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Search your deck for up to 3 Pokémon V, reveal them, and put them into your hand. Then, shuffle your deck."
           },
           {
             "name": "Stampede",
-            "cost": [
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "20",
             "text": ""
@@ -2067,17 +1775,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "TG11",
         "artist": "Souichirou Gunjima",
         "rarity": "Trainer Gallery Rare Holo",
         "flavorText": "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "expanded": "Legal"
@@ -2132,31 +1836,21 @@
         "id": "swsh10-13",
         "name": "Leafeon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Grass"
-        ],
+        "types": ["Grass"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Energy Garden",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Search your deck for up to 3 basic Energy cards of different types and attach them to your Pokémon in any way you like. Then, shuffle your deck."
           },
           {
             "name": "Leafy Cyclone",
-            "cost": [
-              "Grass",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Grass", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "120",
             "text": "During your next turn, this Pokémon can't attack."
@@ -2168,18 +1862,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless",
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless", "Colorless"],
         "convertedRetreatCost": 2,
         "number": "13",
         "artist": "Atsushi Furusawa",
         "rarity": "Rare",
         "flavorText": "Cells similar to those of plants have been found in its fur. Its hard tail can fell a large tree with one stroke, and the tail's sharpness exceeds even that of a sword crafted by a master.",
-        "nationalPokedexNumbers": [
-          470
-        ],
+        "nationalPokedexNumbers": [470],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -2214,31 +1903,21 @@
         "id": "swsh10-38",
         "name": "Glaceon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Water"
-        ],
+        "types": ["Water"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Frost Wall",
-            "cost": [
-              "Water"
-            ],
+            "cost": ["Water"],
             "convertedEnergyCost": 1,
             "damage": "30",
             "text": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Evolution Pokémon."
           },
           {
             "name": "Ice Blast",
-            "cost": [
-              "Water",
-              "Water",
-              "Colorless"
-            ],
+            "cost": ["Water", "Water", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "120",
             "text": ""
@@ -2250,17 +1929,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "38",
         "artist": "saino misaki",
         "rarity": "Rare",
         "flavorText": "Glaceon is able to lower its body temperature very quickly. It freezes the atmosphere, creating diamond dust that glitters like gems while it flutters and dances around.",
-        "nationalPokedexNumbers": [
-          471
-        ],
+        "nationalPokedexNumbers": [471],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -2295,13 +1970,9 @@
         "id": "swsh10-119",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "50",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -2322,10 +1993,7 @@
         "attacks": [
           {
             "name": "Tackle",
-            "cost": [
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "20",
             "text": ""
@@ -2337,17 +2005,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "119",
         "artist": "sowsow",
         "rarity": "Common",
         "flavorText": "It has the ability to alter the composition of its body to suit its surrounding environment.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -2403,31 +2067,21 @@
         "id": "pgo-35",
         "name": "Sylveon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "120",
-        "types": [
-          "Psychic"
-        ],
+        "types": ["Psychic"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Souvenir",
-            "cost": [
-              "Psychic"
-            ],
+            "cost": ["Psychic"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck."
           },
           {
             "name": "Wonder Flash",
-            "cost": [
-              "Colorless",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "90+",
             "text": "If your opponent's Active Pokémon is a Dragon Pokémon, this attack does 90 more damage."
@@ -2439,17 +2093,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "35",
         "artist": "Atsushi Furusawa",
         "rarity": "Rare Holo",
         "flavorText": "By releasing enmity-erasing waves from its ribbonlike feelers, Sylveon stops any conflict.",
-        "nationalPokedexNumbers": [
-          700
-        ],
+        "nationalPokedexNumbers": [700],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -2505,13 +2155,9 @@
         "id": "svp-43",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "60",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -2525,20 +2171,14 @@
         "attacks": [
           {
             "name": "Call for Family",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck."
           },
           {
             "name": "Tackle",
-            "cost": [
-              "Colorless",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "30",
             "text": ""
@@ -2550,17 +2190,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "43",
         "artist": "saino misaki",
         "rarity": "Promo",
         "flavorText": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -2642,30 +2278,21 @@
         "id": "sv3-86",
         "name": "Espeon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Psychic"
-        ],
+        "types": ["Psychic"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Psychic Assault",
-            "cost": [
-              "Psychic"
-            ],
+            "cost": ["Psychic"],
             "convertedEnergyCost": 1,
             "damage": "30+",
             "text": "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon."
           },
           {
             "name": "Psy Bolt",
-            "cost": [
-              "Psychic",
-              "Colorless"
-            ],
+            "cost": ["Psychic", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "60",
             "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
@@ -2683,17 +2310,13 @@
             "value": "-30"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "86",
         "artist": "Cona Nitanda",
         "rarity": "Uncommon",
         "flavorText": "The tip of its forked tail quivers when it is predicting its opponent's next move.",
-        "nationalPokedexNumbers": [
-          196
-        ],
+        "nationalPokedexNumbers": [196],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -2728,31 +2351,21 @@
         "id": "sv3-130",
         "name": "Umbreon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Darkness"
-        ],
+        "types": ["Darkness"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Feint Attack",
-            "cost": [
-              "Darkness"
-            ],
+            "cost": ["Darkness"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "This attack does 50 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance, or by any effects on that Pokémon."
           },
           {
             "name": "Pitch-Black Blade",
-            "cost": [
-              "Darkness",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Darkness", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "140",
             "text": "During your next turn, this Pokémon can't attack."
@@ -2764,17 +2377,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "130",
         "artist": "rika",
         "rarity": "Uncommon",
         "flavorText": "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.",
-        "nationalPokedexNumbers": [
-          197
-        ],
+        "nationalPokedexNumbers": [197],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -2830,13 +2439,9 @@
         "id": "sv3pt5-133",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "70",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -2850,18 +2455,14 @@
         "attacks": [
           {
             "name": "Colorful Friends",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Search your deck for up to 3 Pokémon of different types, reveal them, and put them into your hand. Then, shuffle your deck."
           },
           {
             "name": "Skip",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "10",
             "text": ""
@@ -2873,17 +2474,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "133",
         "artist": "Narumi Sato",
         "rarity": "Common",
         "flavorText": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -2918,31 +2515,21 @@
         "id": "sv3pt5-134",
         "name": "Vaporeon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "130",
-        "types": [
-          "Water"
-        ],
+        "types": ["Water"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Spiral Drain",
-            "cost": [
-              "Water"
-            ],
+            "cost": ["Water"],
             "convertedEnergyCost": 1,
             "damage": "30",
             "text": "Heal 30 damage from this Pokémon."
           },
           {
             "name": "Fighting Whirlpool",
-            "cost": [
-              "Water",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Water", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "90+",
             "text": "If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage."
@@ -2954,18 +2541,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless",
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless", "Colorless"],
         "convertedRetreatCost": 2,
         "number": "134",
         "artist": "kirisAki",
         "rarity": "Rare",
         "flavorText": "It lives close to water. Its long tail is ridged with a fin, which is often mistaken for a mermaid's.",
-        "nationalPokedexNumbers": [
-          134
-        ],
+        "nationalPokedexNumbers": [134],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -3000,31 +2582,21 @@
         "id": "sv3pt5-135",
         "name": "Jolteon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Lightning"
-        ],
+        "types": ["Lightning"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Linear Attack",
-            "cost": [
-              "Lightning"
-            ],
+            "cost": ["Lightning"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
           },
           {
             "name": "Fighting Lightning",
-            "cost": [
-              "Lightning",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Lightning", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "90+",
             "text": "If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage."
@@ -3040,9 +2612,7 @@
         "artist": "sui",
         "rarity": "Rare",
         "flavorText": "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts.",
-        "nationalPokedexNumbers": [
-          135
-        ],
+        "nationalPokedexNumbers": [135],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -3077,31 +2647,21 @@
         "id": "sv3pt5-136",
         "name": "Flareon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "130",
-        "types": [
-          "Fire"
-        ],
+        "types": ["Fire"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Destructive Flame",
-            "cost": [
-              "Fire"
-            ],
+            "cost": ["Fire"],
             "convertedEnergyCost": 1,
             "damage": "30",
             "text": "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
           },
           {
             "name": "Fighting Blaze",
-            "cost": [
-              "Fire",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Fire", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "90+",
             "text": "If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage."
@@ -3113,18 +2673,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless",
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless", "Colorless"],
         "convertedRetreatCost": 2,
         "number": "136",
         "artist": "Ryota Murayama",
         "rarity": "Rare",
         "flavorText": "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees Fahrenheit.",
-        "nationalPokedexNumbers": [
-          136
-        ],
+        "nationalPokedexNumbers": [136],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -3180,30 +2735,21 @@
         "id": "sv6-11",
         "name": "Leafeon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "120",
-        "types": [
-          "Grass"
-        ],
+        "types": ["Grass"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Leaflet Blessings",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Attach a Basic Grass Energy card from your hand to 1 of your Benched Pokémon. If you do, heal all damage from that Pokémon."
           },
           {
             "name": "Solar Beam",
-            "cost": [
-              "Grass",
-              "Colorless"
-            ],
+            "cost": ["Grass", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "70",
             "text": ""
@@ -3215,17 +2761,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "11",
         "artist": "Kuroimori",
         "rarity": "Uncommon",
         "flavorText": "The younger they are, the more they smell like fresh grass. With age, their fragrance takes on the odor of fallen leaves.",
-        "nationalPokedexNumbers": [
-          470
-        ],
+        "nationalPokedexNumbers": [470],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -3260,30 +2802,21 @@
         "id": "sv6-54",
         "name": "Glaceon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "120",
-        "types": [
-          "Water"
-        ],
+        "types": ["Water"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Permeating Chill",
-            "cost": [
-              "Water"
-            ],
+            "cost": ["Water"],
             "convertedEnergyCost": 1,
             "damage": "30",
             "text": "At the end of your opponent's next turn, put 9 damage counters on the Defending Pokémon."
           },
           {
             "name": "Icicle Missile",
-            "cost": [
-              "Water",
-              "Colorless"
-            ],
+            "cost": ["Water", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "70",
             "text": ""
@@ -3295,17 +2828,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "54",
         "artist": "rika",
         "rarity": "Uncommon",
         "flavorText": "It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.",
-        "nationalPokedexNumbers": [
-          471
-        ],
+        "nationalPokedexNumbers": [471],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -3340,13 +2869,9 @@
         "id": "sv6-135",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "50",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -3360,20 +2885,14 @@
         "attacks": [
           {
             "name": "Ascension",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck."
           },
           {
             "name": "Quick Attack",
-            "cost": [
-              "Colorless",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "20+",
             "text": "Flip a coin. If heads, this attack does 20 more damage."
@@ -3385,17 +2904,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "135",
         "artist": "satoma",
         "rarity": "Common",
         "flavorText": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element stones.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -3430,13 +2945,9 @@
         "id": "sv6-188",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "50",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -3450,20 +2961,14 @@
         "attacks": [
           {
             "name": "Ascension",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck."
           },
           {
             "name": "Quick Attack",
-            "cost": [
-              "Colorless",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "20+",
             "text": "Flip a coin. If heads, this attack does 20 more damage."
@@ -3475,17 +2980,13 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "188",
         "artist": "Narumi Sato",
         "rarity": "Illustration Rare",
         "flavorText": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element stones.",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -3541,31 +3042,21 @@
         "id": "sv6pt5-22",
         "name": "Sylveon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "120",
-        "types": [
-          "Psychic"
-        ],
+        "types": ["Psychic"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Mystical Return",
-            "cost": [
-              "Psychic"
-            ],
+            "cost": ["Psychic"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon. Shuffle that Pokémon and all attached cards into their deck."
           },
           {
             "name": "Disarming Voice",
-            "cost": [
-              "Psychic",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Psychic", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "90",
             "text": "Your opponent's Active Pokémon is now Confused."
@@ -3577,16 +3068,12 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "22",
         "artist": "Kuroimori",
         "rarity": "Uncommon",
-        "nationalPokedexNumbers": [
-          700
-        ],
+        "nationalPokedexNumbers": [700],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -3621,13 +3108,9 @@
         "id": "sv6pt5-50",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "70",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -3641,19 +3124,14 @@
         "attacks": [
           {
             "name": "Colorful Catch",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Search your deck for up to 3 Basic Energy cards of different types, reveal them, and put them into your hand. Then, shuffle your deck."
           },
           {
             "name": "Headbutt",
-            "cost": [
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "20",
             "text": ""
@@ -3665,16 +3143,12 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "50",
         "artist": "Susumu Maeya",
         "rarity": "Common",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -3730,13 +3204,9 @@
         "id": "sv7-113",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "60",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -3750,19 +3220,14 @@
         "attacks": [
           {
             "name": "Call for Family",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck."
           },
           {
             "name": "Gnaw",
-            "cost": [
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "20",
             "text": ""
@@ -3774,15 +3239,11 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "113",
         "rarity": "Common",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -3838,13 +3299,9 @@
         "id": "sv8-143",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "50",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -3865,10 +3322,7 @@
         "attacks": [
           {
             "name": "Reckless Charge",
-            "cost": [
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "30",
             "text": "This Pokémon also does 10 damage to itself."
@@ -3880,15 +3334,11 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "143",
         "rarity": "Common",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -3944,30 +3394,21 @@
         "id": "sv8pt5-5",
         "name": "Leafeon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "120",
-        "types": [
-          "Grass"
-        ],
+        "types": ["Grass"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Leaflet Blessings",
-            "cost": [
-              "Colorless"
-            ],
+            "cost": ["Colorless"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "Attach a Basic Grass Energy card from your hand to 1 of your Benched Pokémon. If you do, heal all damage from that Pokémon."
           },
           {
             "name": "Solar Beam",
-            "cost": [
-              "Grass",
-              "Colorless"
-            ],
+            "cost": ["Grass", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "70",
             "text": ""
@@ -3979,15 +3420,11 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "5",
         "rarity": "Rare",
-        "nationalPokedexNumbers": [
-          470
-        ],
+        "nationalPokedexNumbers": [470],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -4022,31 +3459,21 @@
         "id": "sv8pt5-13",
         "name": "Flareon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "130",
-        "types": [
-          "Fire"
-        ],
+        "types": ["Fire"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Destructive Flame",
-            "cost": [
-              "Fire"
-            ],
+            "cost": ["Fire"],
             "convertedEnergyCost": 1,
             "damage": "30",
             "text": "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
           },
           {
             "name": "Fighting Blaze",
-            "cost": [
-              "Fire",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Fire", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "90+",
             "text": "If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage."
@@ -4058,16 +3485,11 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless",
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless", "Colorless"],
         "convertedRetreatCost": 2,
         "number": "13",
         "rarity": "Rare",
-        "nationalPokedexNumbers": [
-          136
-        ],
+        "nationalPokedexNumbers": [136],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -4102,31 +3524,21 @@
         "id": "sv8pt5-22",
         "name": "Vaporeon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "130",
-        "types": [
-          "Water"
-        ],
+        "types": ["Water"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Spiral Drain",
-            "cost": [
-              "Water"
-            ],
+            "cost": ["Water"],
             "convertedEnergyCost": 1,
             "damage": "30",
             "text": "Heal 30 damage from this Pokémon."
           },
           {
             "name": "Fighting Whirlpool",
-            "cost": [
-              "Water",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Water", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "90+",
             "text": "If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage."
@@ -4138,16 +3550,11 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless",
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless", "Colorless"],
         "convertedRetreatCost": 2,
         "number": "22",
         "rarity": "Rare",
-        "nationalPokedexNumbers": [
-          134
-        ],
+        "nationalPokedexNumbers": [134],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -4182,30 +3589,21 @@
         "id": "sv8pt5-25",
         "name": "Glaceon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "120",
-        "types": [
-          "Water"
-        ],
+        "types": ["Water"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Permeating Chill",
-            "cost": [
-              "Water"
-            ],
+            "cost": ["Water"],
             "convertedEnergyCost": 1,
             "damage": "30",
             "text": "At the end of your opponent's next turn, put 9 damage counters on the Defending Pokémon."
           },
           {
             "name": "Icicle Missile",
-            "cost": [
-              "Water",
-              "Colorless"
-            ],
+            "cost": ["Water", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "70",
             "text": ""
@@ -4217,15 +3615,11 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "25",
         "rarity": "Rare",
-        "nationalPokedexNumbers": [
-          471
-        ],
+        "nationalPokedexNumbers": [471],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -4260,31 +3654,21 @@
         "id": "sv8pt5-29",
         "name": "Jolteon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Lightning"
-        ],
+        "types": ["Lightning"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Linear Attack",
-            "cost": [
-              "Lightning"
-            ],
+            "cost": ["Lightning"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
           },
           {
             "name": "Fighting Lightning",
-            "cost": [
-              "Lightning",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Lightning", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "90+",
             "text": "If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage."
@@ -4298,9 +3682,7 @@
         ],
         "number": "29",
         "rarity": "Rare",
-        "nationalPokedexNumbers": [
-          135
-        ],
+        "nationalPokedexNumbers": [135],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -4335,30 +3717,21 @@
         "id": "sv8pt5-33",
         "name": "Espeon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Psychic"
-        ],
+        "types": ["Psychic"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Psychic Assault",
-            "cost": [
-              "Psychic"
-            ],
+            "cost": ["Psychic"],
             "convertedEnergyCost": 1,
             "damage": "30+",
             "text": "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon."
           },
           {
             "name": "Psy Bolt",
-            "cost": [
-              "Psychic",
-              "Colorless"
-            ],
+            "cost": ["Psychic", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "60",
             "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
@@ -4376,15 +3749,11 @@
             "value": "-30"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "33",
         "rarity": "Rare",
-        "nationalPokedexNumbers": [
-          196
-        ],
+        "nationalPokedexNumbers": [196],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -4419,13 +3788,9 @@
         "id": "sv8pt5-40",
         "name": "Sylveon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "120",
-        "types": [
-          "Psychic"
-        ],
+        "types": ["Psychic"],
         "evolvesFrom": "Eevee",
         "abilities": [
           {
@@ -4437,11 +3802,7 @@
         "attacks": [
           {
             "name": "Magical Shot",
-            "cost": [
-              "Psychic",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Psychic", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "100",
             "text": ""
@@ -4453,15 +3814,11 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "40",
         "rarity": "Rare",
-        "nationalPokedexNumbers": [
-          700
-        ],
+        "nationalPokedexNumbers": [700],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -4496,31 +3853,21 @@
         "id": "sv8pt5-59",
         "name": "Umbreon",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Stage 1"
-        ],
+        "subtypes": ["Stage 1"],
         "hp": "110",
-        "types": [
-          "Darkness"
-        ],
+        "types": ["Darkness"],
         "evolvesFrom": "Eevee",
         "attacks": [
           {
             "name": "Feint Attack",
-            "cost": [
-              "Darkness"
-            ],
+            "cost": ["Darkness"],
             "convertedEnergyCost": 1,
             "damage": "",
             "text": "This attack does 50 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance, or by any effects on that Pokémon."
           },
           {
             "name": "Pitch-Black Blade",
-            "cost": [
-              "Darkness",
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Darkness", "Colorless", "Colorless"],
             "convertedEnergyCost": 3,
             "damage": "140",
             "text": "During your next turn, this Pokémon can't attack."
@@ -4532,15 +3879,11 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "59",
         "rarity": "Rare",
-        "nationalPokedexNumbers": [
-          197
-        ],
+        "nationalPokedexNumbers": [197],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",
@@ -4575,13 +3918,9 @@
         "id": "sv8pt5-74",
         "name": "Eevee",
         "supertype": "Pokémon",
-        "subtypes": [
-          "Basic"
-        ],
+        "subtypes": ["Basic"],
         "hp": "50",
-        "types": [
-          "Colorless"
-        ],
+        "types": ["Colorless"],
         "evolvesTo": [
           "Vaporeon",
           "Jolteon",
@@ -4602,10 +3941,7 @@
         "attacks": [
           {
             "name": "Reckless Charge",
-            "cost": [
-              "Colorless",
-              "Colorless"
-            ],
+            "cost": ["Colorless", "Colorless"],
             "convertedEnergyCost": 2,
             "damage": "30",
             "text": "This Pokémon also does 10 damage to itself."
@@ -4617,15 +3953,11 @@
             "value": "×2"
           }
         ],
-        "retreatCost": [
-          "Colorless"
-        ],
+        "retreatCost": ["Colorless"],
         "convertedRetreatCost": 1,
         "number": "74",
         "rarity": "Common",
-        "nationalPokedexNumbers": [
-          133
-        ],
+        "nationalPokedexNumbers": [133],
         "legalities": {
           "unlimited": "Legal",
           "standard": "Legal",

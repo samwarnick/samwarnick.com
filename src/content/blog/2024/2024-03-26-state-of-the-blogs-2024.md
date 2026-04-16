@@ -1,10 +1,10 @@
 ---
 title: State of the Blogs 2024
-date: '2024-03-26T15:00'
+date: "2024-03-26T15:00"
 summary: It’s been a while. Let’s catch up.
 tags:
   - Blog
-oldUrl: 'https://samwarnick.com/2024/3/state-of-the-blogs-2024'
+oldUrl: "https://samwarnick.com/2024/3/state-of-the-blogs-2024"
 published: true
 ---
 

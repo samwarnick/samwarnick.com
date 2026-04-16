@@ -1,7 +1,7 @@
 ---
 title: Living Software
-date: '2022-03-29T10:00'
-oldUrl: 'https://samwarnick.com/2022/3/living-software'
+date: "2022-03-29T10:00"
+oldUrl: "https://samwarnick.com/2022/3/living-software"
 published: true
 ---
 

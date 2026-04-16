@@ -8,9 +8,9 @@ layout: layouts/page
 - Built with [Eleventy](https://www.11ty.dev)
 - Hosted on in my closet
 - Fonts
-	- [Atkinson Hyperlegible](https://brailleinstitute.org/freefont)
-	- [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan){.display}
-	- [Comic Mono](https://dtinth.github.io/comic-mono-font/){.mono}
+  - [Atkinson Hyperlegible](https://brailleinstitute.org/freefont)
+  - [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan){.display}
+  - [Comic Mono](https://dtinth.github.io/comic-mono-font/){.mono}
 - Colors based on [Dawnfox and Terafox Neovim themes](https://github.com/EdenEast/nightfox.nvim)
 - Icons from [Hericons](https://heroicons.com)
 
@@ -19,8 +19,9 @@ layout: layouts/page
 <div class="colored-card">
 
 ## Styleguide{id=styleguide}
+
 Last updated: Jun 26, 2025
-*subject to change without notice. I probably will not go back to old posts to update.
+\*subject to change without notice. I probably will not go back to old posts to update.
 
 - Oxford comma must be used.
   - TIL it's also called the [serial comma](https://en.wikipedia.org/wiki/Serial_comma).
@@ -46,6 +47,7 @@ Disagree with these? You can attempt to politely tell me why I should change som
 <div class="colored-card">
 
 ## //TODO:
+
 <ul>
 	{%- for issue in githubIssues -%}
 	<li><a href="{{issue.html_url}}">{{issue.title}}</a></li>

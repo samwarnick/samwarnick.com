@@ -1,10 +1,10 @@
 ---
 title: What I use to blog in 2024
-date: '2024-03-26T16:00'
+date: "2024-03-26T16:00"
 summary: A quick overview of what I use to blog in 2024
 tags:
   - Blog
-oldUrl: 'https://samwarnick.com/2024/3/what-i-use-to-blog-in-2024'
+oldUrl: "https://samwarnick.com/2024/3/what-i-use-to-blog-in-2024"
 published: true
 ---
 

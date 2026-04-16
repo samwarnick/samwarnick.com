@@ -10,20 +10,20 @@ published: true
 > [!NOTE]
 > This post originally appeared on lemonpointbricks.com
 
-My [BrickLink store](https://store.bricklink.com/samwarnick&amp;utm_content=globalnav#/shop) has been open for a little more than a month now. It's been exciting times.
+My [BrickLink store](https://store.bricklink.com/samwarnick&utm_content=globalnav#/shop) has been open for a little more than a month now. It's been exciting times.
 
 ## Some Numbers
 
 - Parts in store: 15,710
 - Lots in store: 1,032
-- Orders: 4 (1 was from my brother. So doesn't *really* count. Thanks brother!)
+- Orders: 4 (1 was from my brother. So doesn't _really_ count. Thanks brother!)
 - Feedback received: 0
 - Days to first (non-brother) order: 3
 - Days since last order: 26
 - Order totals: $53.91
-- Profit*: $27.69
+- Profit\*: $27.69
 
-*I don't have a great way of keep track of how much I paid for the pieces in each order, so profit is just total minus fees, shipping, and packaging costs.
+\*I don't have a great way of keep track of how much I paid for the pieces in each order, so profit is just total minus fees, shipping, and packaging costs.
 
 ## Moving Forward
 

@@ -1,7 +1,7 @@
 ---
 title: Push Notifications with Go
-date: '2023-01-18T17:55'
-oldUrl: 'https://samwarnick.com/2023/1/push-notifications-with-go'
+date: "2023-01-18T17:55"
+oldUrl: "https://samwarnick.com/2023/1/push-notifications-with-go"
 published: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Is CloudKit good for the ecosystem?
-date: '2023-01-06T11:00'
-oldUrl: 'https://samwarnick.com/2023/1/is-cloudkit-good-for-the-ecosystem'
+date: "2023-01-06T11:00"
+oldUrl: "https://samwarnick.com/2023/1/is-cloudkit-good-for-the-ecosystem"
 published: true
 ---
 

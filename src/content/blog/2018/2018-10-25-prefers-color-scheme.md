@@ -1,8 +1,8 @@
 ---
 title: prefers-color-scheme Media Query
 htmlTitle: <code>prefers-color-scheme</code> Media Query
-date: '2018-04-22T10:00'
-oldUrl: 'https://samwarnick.com/2018/10/prefers-color-scheme-media-query'
+date: "2018-04-22T10:00"
+oldUrl: "https://samwarnick.com/2018/10/prefers-color-scheme-media-query"
 published: true
 ---
 
@@ -10,7 +10,7 @@ With [Safari Technology Preview 68](https://developer.apple.com/safari/technolog
 
 ```css
 @media (prefers-color-scheme: dark) {
-    background-color: #000000;
+  background-color: #000000;
 }
 ```
 
@@ -27,28 +27,28 @@ Here is a Tailwind CSS plugin to add a dark and light variants. Just add this to
 // const postcss = require("postcss");
 
 ({ addVariant }) => {
-    addVariant("dark", ({ container, separator }) => {
-        const mediaRule = postcss.atRule({
-            name: "media",
-            params: "(prefers-color-scheme: dark)",
-        });
-        mediaRule.nodes = container.nodes;
-        container.nodes = [mediaRule];
-        mediaRule.walkRules((rule) => {
-            rule.selector = `.dark${separator}${rule.selector.slice(1)}`;
-        });
+  addVariant("dark", ({ container, separator }) => {
+    const mediaRule = postcss.atRule({
+      name: "media",
+      params: "(prefers-color-scheme: dark)",
     });
-    addVariant("light", ({ container, separator }) => {
-        const mediaRule = postcss.atRule({
-            name: "media",
-            params: "(prefers-color-scheme: light)",
-        });
-        mediaRule.nodes = container.nodes;
-        container.nodes = [mediaRule];
-        mediaRule.walkRules((rule) => {
-            rule.selector = `.light${separator}${rule.selector.slice(1)}`;
-        });
+    mediaRule.nodes = container.nodes;
+    container.nodes = [mediaRule];
+    mediaRule.walkRules((rule) => {
+      rule.selector = `.dark${separator}${rule.selector.slice(1)}`;
     });
+  });
+  addVariant("light", ({ container, separator }) => {
+    const mediaRule = postcss.atRule({
+      name: "media",
+      params: "(prefers-color-scheme: light)",
+    });
+    mediaRule.nodes = container.nodes;
+    container.nodes = [mediaRule];
+    mediaRule.walkRules((rule) => {
+      rule.selector = `.light${separator}${rule.selector.slice(1)}`;
+    });
+  });
 };
 ```
 

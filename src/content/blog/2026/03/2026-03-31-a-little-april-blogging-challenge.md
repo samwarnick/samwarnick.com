@@ -1,6 +1,6 @@
 ---
 title: A Little April Blogging Challenge
-date: '2026-03-31T14:18'
+date: "2026-03-31T14:18"
 published: true
 summary: >-
   Blogging with friends.

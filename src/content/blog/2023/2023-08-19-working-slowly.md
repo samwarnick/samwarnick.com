@@ -1,7 +1,7 @@
 ---
 title: Working Slowly
-date: '2023-08-19T12:00'
-oldUrl: 'https://samwarnick.com/2023/8/working-slowly'
+date: "2023-08-19T12:00"
+oldUrl: "https://samwarnick.com/2023/8/working-slowly"
 published: true
 ---
 

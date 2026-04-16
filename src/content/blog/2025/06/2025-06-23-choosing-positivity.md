@@ -4,6 +4,7 @@ date: 2025-06-23T14:24
 summary: I'm a grump.
 published: true
 ---
+
 This will probably start sounding pretty negative, but I'm hoping it will turn around by the end.
 
 After Apple [rejected Hannah's Game](https://samwarnick.com/blog/to-native-or-not-part-ii/), I was feeling pretty grumpy[^1]. Soon after, I kinda just stopped posting on and using Mastodon, becoming a bit of a digital recluse. WWDC came around and I logged in to see what the scuttlebutt was. Whether true or not, things just felt negative to me. Not just about WWDC, but kinda everything? I'm a pessimist and grump by nature, but it's pretty exhausting when everyone else is too. I need some balance.

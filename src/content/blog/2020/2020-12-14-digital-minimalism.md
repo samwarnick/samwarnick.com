@@ -1,10 +1,10 @@
 ---
-title: 'Digital Minimalism, by Cal Newport'
-date: '2020-12-14T10:00'
+title: "Digital Minimalism, by Cal Newport"
+date: "2020-12-14T10:00"
 summary: >-
   I read Digital Minimalism, by Cal Newport. Using your phone less seems like a
   good idea.
-oldUrl: 'https://samwarnick.com/2020/12/digital-minimalism-by-cal-newport'
+oldUrl: "https://samwarnick.com/2020/12/digital-minimalism-by-cal-newport"
 published: true
 ---
 
@@ -18,12 +18,12 @@ I don’t think there is anything revolutionary in this book. But it was full of
 
 I didn’t feel like going through the 30 day purge like Newport suggests. But I took some time to evaluate what I could do anyway. Here’s what I came up with:
 
--   I deleted Twitter, Reddit, and Hulu from my phone. These are my biggest time-wasters. I also blocked Twitter through Screen Time on iOS. I still have these on my iPad so that I can use them when I make a deliberate decision to.
--   I only watch whatever I’m binging at the moment while I’m riding the exercise bike.
--   I removed high volume RSS feeds like The Verge. Now I don’t feel the need to open my RSS reader often to check the latest news.
--   I cut down the number of podcasts I’m subscribed to—admittedly, I have more work to do here since I’m still subscribed to 25…
--   When I move into my new house, I would like to have a local newspaper delivered.
--   Switch to the iPhone 12 Mini. I was planning on upgrading to the Max, but I thought that maybe having a smaller screen would make me less likely to use my phone for things like watching videos and reading. I’m not certain this is _actually_ the case, but I do love the size of the Mini.
+- I deleted Twitter, Reddit, and Hulu from my phone. These are my biggest time-wasters. I also blocked Twitter through Screen Time on iOS. I still have these on my iPad so that I can use them when I make a deliberate decision to.
+- I only watch whatever I’m binging at the moment while I’m riding the exercise bike.
+- I removed high volume RSS feeds like The Verge. Now I don’t feel the need to open my RSS reader often to check the latest news.
+- I cut down the number of podcasts I’m subscribed to—admittedly, I have more work to do here since I’m still subscribed to 25…
+- When I move into my new house, I would like to have a local newspaper delivered.
+- Switch to the iPhone 12 Mini. I was planning on upgrading to the Max, but I thought that maybe having a smaller screen would make me less likely to use my phone for things like watching videos and reading. I’m not certain this is _actually_ the case, but I do love the size of the Mini.
 
 I’m also experimenting with a pocket notebook. So far I’ve been using it to plan my weeks and sometimes days. I also use it to record ideas and other thoughts. I’m still figuring out how exactly I want to use this, but it has already reduced my dependence on my phone.
 

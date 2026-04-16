@@ -7,6 +7,7 @@ layout: layouts/page-card
 ## Experience
 
 ### [Breeze Airways](https://flybreeze.com)
+
 **Staff Engineer**, July 2024 – Current
 **Software Engineer III**, May 2023 – July 2024
 
@@ -23,6 +24,7 @@ December 2022 – Current
 - Migrated from a native iOS app to a web app to make it more accessible to users
 
 ### [Simplifile](https://simplifile.com)
+
 **Staff Software Engineer**, May 2021 – May 2023
 **Software Engineer**, May 2017 – May 2021
 **Software Engineering Intern**, May 2016 – May 2017
@@ -32,7 +34,9 @@ December 2022 – Current
 - Enabled over 30 other developers by creating and maintaining shared components, training, and pair programming
 
 ### [Benefit Sculptor](https://www.benefitsculptor.com)
+
 **Software Developer (Freelance)**, October 2020 – October 2021
+
 - Delivered features across an Angular and Django stack, working directly with stakeholders to prepare the product for its first paying customers
 
 ### [Simple Embeds](https://github.com/samwarnick/obsidian-simple-embeds), Obsidian Plugin
@@ -43,7 +47,7 @@ December 2022 – Current
 
 December 2019 – August 2022
 
-- Independently designed, developed a clean and flexible native iOS app to help track effort towards habits 
+- Independently designed, developed a clean and flexible native iOS app to help track effort towards habits
 - Literally, _dozens_ of sales on the Apple App Store
 
 ## Education

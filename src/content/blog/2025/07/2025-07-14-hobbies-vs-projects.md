@@ -1,10 +1,11 @@
 ---
 title: Hobbies vs Projects
-date: '2025-07-14T20:27'
+date: "2025-07-14T20:27"
 published: true
 summary: >-
   No, you're being pedantic.
 ---
+
 I've long considered my hobby to be hobbies. The other day, I wondered, do I like hobbies or do I like projects? Maybe it's semantics, but maybe also an important distinction?
 
 [Wikipedia defines a hobby](https://en.wikipedia.org/wiki/Hobby#:~:text=a%20regular%20activity%20that%20is%20done%20for%20enjoyment%2C%20typically%20during%20one's%20leisure%20time) as "a regular activity that is done for enjoyment, typically during one's leisure time." And [defines a project](https://en.wikipedia.org/wiki/Project#:~:text=a%20type%20of%20assignment%2C%20typically%20involving%20research%20or%20design%2C%20that%20is%20carefully%20planned%20to%20achieve%20a%20specific%20objective) as "a type of assignment, typically involving research or design, that is carefully planned to achieve a specific objective."

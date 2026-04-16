@@ -1,11 +1,12 @@
 ---
 title: Just Testing Things Out
-date: '2026-01-31T14:33'
+date: "2026-01-31T14:33"
 published: true
-summary: 'Just fiddling with my blog. '
+summary: "Just fiddling with my blog. "
 tags:
   - Blog
 ---
+
 I definitely spend more time fiddling with my blog than actually writing for it. I'm fine with that.
 
 I recently saw a post of [Ashur Cabrera's blog 2026 setup](https://multiline.co/mment/2026/01/my-blogging-setup/). I really liked their CLI for adding media—just drag from Finder to the terminal. I decided to implement something similar in my own CLI.

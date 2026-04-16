@@ -1,7 +1,7 @@
 ---
 title: Creating a file from Raycast
-date: '2023-03-03T17:15'
-oldUrl: 'https://samwarnick.com/2023/3/creating-a-file-from-raycast'
+date: "2023-03-03T17:15"
+oldUrl: "https://samwarnick.com/2023/3/creating-a-file-from-raycast"
 published: true
 ---
 

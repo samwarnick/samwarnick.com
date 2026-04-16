@@ -4,6 +4,7 @@ date: 2025-04-30T07:24
 summary: The moment I try and make a project "legit" is the moment I stop enjoying it.
 published: true
 ---
+
 I had a small epiphany the other day. I think premature project management is a large contributor to me burning out while working on side projects.
 
 When I first start a project, it's fun. I'm just throwing down code for whatever pops into my head whenever I feel like it. It can be a bit chaotic. Then, I start to think, “I should try to organize the chaos a bit.” There's a part of my brain that craves the process and organization. But, I think this is where the descent into burnout begins. I start looking into systems and apps and _that_ becomes the project. It takes over my brain and does not leave space for much else. By the time I land on something—if I ever do—the original project is not fun anymore. It no longer sparks joy.

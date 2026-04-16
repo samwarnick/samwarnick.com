@@ -1,6 +1,6 @@
 ---
 title: Is Routine Bad?
-date: '2025-10-16T10:10'
+date: "2025-10-16T10:10"
 published: true
 summary: >-
   I'm feeling burnt out and wondering if my comfortable daily routine is putting
@@ -8,6 +8,7 @@ summary: >-
 tags:
   - TMI
 ---
+
 Buckle up for a ramble.
 
 Here's something you'd never expect from me: I feel burnt out. I know, shocking. I'm never burnt out. I just don't feel like doing anything.
@@ -34,6 +35,7 @@ There are very few breaks. Weekends are often tougher than the week because it's
 I don't know if my daily life routine causes me to burn out, but it definitely does not help. So maybe it is not the routine, but the lack of true rest.
 
 So some things I am considering:
+
 - Is my routine actually part of the problem?
 - What can I do to add variety to each day so they don't all feel the same?
 - What activities are really restorative to me?

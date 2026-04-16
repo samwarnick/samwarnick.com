@@ -1,7 +1,7 @@
 ---
 title: Adventures with Templater for Obsidian
-date: '2022-02-24T10:00'
-oldUrl: 'https://samwarnick.com/2022/2/adventures-with-templater-for-obsidian'
+date: "2022-02-24T10:00"
+oldUrl: "https://samwarnick.com/2022/2/adventures-with-templater-for-obsidian"
 published: true
 ---
 
@@ -27,12 +27,13 @@ Here's the final script in my template file:
 ```
 
 Here's how it works:
+
 1. I run the `Templater: Create new note from template` command and select my new project template.
 1. New note created.
-2. Asks for project name.
-3. Creates necessary folders.
-4. Moves new note to `/Projects/Project Name`, and renames it.
-5. Creates a new tasks note in `/Projects/Project Name/Tasks`.
+1. Asks for project name.
+1. Creates necessary folders.
+1. Moves new note to `/Projects/Project Name`, and renames it.
+1. Creates a new tasks note in `/Projects/Project Name/Tasks`.
 
 In short, the newly created note creates a new home for itself and moves itself in.
 

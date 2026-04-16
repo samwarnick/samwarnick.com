@@ -1,6 +1,6 @@
 ---
 title: My Apple Developer Membership Has Expired
-date: '2025-07-23T14:59'
+date: "2025-07-23T14:59"
 published: true
 summary: >-
   My Apple Developer membership expired and I'm debating whether to renew it or
@@ -8,6 +8,7 @@ summary: >-
 tags:
   - ScreenCred
 ---
+
 My Apple Developer membership has expired. I didn't have auto renew enabled and I just kept putting it off and now it's expired. I don't know if I'm going to renew it or not.
 
 I started updating ScreenCred for iOS 18 and Liquid Glass. I liked the direction things were headed. But Liquid Glass seems in flux and not fully thought through. It works great in some situations and terribly in others—maybe even most. Honestly, I think it looks good in my app, and I was (am?) excited about the changes in ScreenCred.

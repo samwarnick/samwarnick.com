@@ -1,7 +1,7 @@
 ---
 title: Go One Level Deeper
-date: '2022-05-03T10:00'
-oldUrl: 'https://samwarnick.com/2022/5/go-one-level-deeper'
+date: "2022-05-03T10:00"
+oldUrl: "https://samwarnick.com/2022/5/go-one-level-deeper"
 published: true
 ---
 

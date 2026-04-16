@@ -1,12 +1,13 @@
 ---
 title: 2025 and the Year of Health
-date: '2025-01-03T09:45'
+date: "2025-01-03T09:45"
 summary: >-
   In 2025, I'm focusing on my health, starting with a new morning routine to reduce
   stress and create space for myself.
 tags: ["2025—Year of Health"]
 published: true
 ---
+
 ## TL;DR
 
 Adding a 3rd child to our family really threw me for a loop. I've been feeling stressed and frustrated. In 2025, I'm going to focus on my health, in all of its forms. I'm going to start with waking up earlier to have time to work on things I enjoy without taking time from my family.

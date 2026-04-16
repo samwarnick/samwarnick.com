@@ -7,9 +7,10 @@ tags:
   - Blog
 published: true
 ---
+
 About 2 and a half years ago, I found [a repo](https://github.com/benjifs/micropub) to add [Micropub](https://indieweb.org/Micropub) support to my blog with Netlify functions. Since then, my blogging setup has changed maybe a dozen times or so.
 
-Today, I'm back at it. I've deployed a _new_ Micropub server so that I can publish drafts from iA Writer—my favorite editor. 
+Today, I'm back at it. I've deployed a _new_ Micropub server so that I can publish drafts from iA Writer—my favorite editor.
 
 Here's the process now:
 

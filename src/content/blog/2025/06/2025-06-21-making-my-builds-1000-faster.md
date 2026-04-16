@@ -5,6 +5,7 @@ summary: I made two simple changes to speed up my Netlify builds, cutting the
   time from 2-3 minutes to under 1 minute.
 published: true
 ---
+
 The builds for this site on Netlify took about 2 to 3 minutes. Now it takes less than 1 minute. Magic.
 
 2 changes:
@@ -14,11 +15,11 @@ The builds for this site on Netlify took about 2 to 3 minutes. Now it takes less
 
 ```js
 export class CustomOgImage extends OgImage {
-    async hash() {
-        const hash = crypto.createHash('sha256');
-        hash.update(this.data.title);
-        return hash.digest('hex').substring(0, this.options.hashLength);
-    }
+  async hash() {
+    const hash = crypto.createHash("sha256");
+    hash.update(this.data.title);
+    return hash.digest("hex").substring(0, this.options.hashLength);
+  }
 }
 ```
 

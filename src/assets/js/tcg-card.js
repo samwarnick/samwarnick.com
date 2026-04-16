@@ -25,10 +25,10 @@
 const EXPAND_TRANSITION_TIME = 600;
 
 class TCGCard extends HTMLElement {
-	constructor() {
-		super();
-		const template = document.createElement("template");
-		template.innerHTML = `
+  constructor() {
+    super();
+    const template = document.createElement("template");
+    template.innerHTML = `
 <style>
 :host {
 	display: block;
@@ -144,271 +144,269 @@ class TCGCard extends HTMLElement {
 	</div>
 	<button class="tcg-display">
 		<img class="tcg-card" src="${this.getAttribute(
-			"src",
-		)}" alt="${this.getAttribute("alt")}" loading="lazy">
+      "src",
+    )}" alt="${this.getAttribute("alt")}" loading="lazy">
 		<div class="tcg-shine"></div>
 		<div class="tcg-glare"></div>
 	</button>
 </div>
     `;
 
-		this._shadowRoot = this.attachShadow({ mode: "closed" });
-		this._shadowRoot.appendChild(template.content.cloneNode(true));
+    this._shadowRoot = this.attachShadow({ mode: "closed" });
+    this._shadowRoot.appendChild(template.content.cloneNode(true));
 
-		this.handleMouseEnter = this.handleMouseEnter.bind(this);
-		this.handleMouseMove = this.handleMouseMove.bind(this);
-		this.handleMouseLeave = this.handleMouseLeave.bind(this);
-		this.handleTouchStart = this.handleTouchStart.bind(this);
-		this.handleTouchMove = this.handleTouchMove.bind(this);
-		this.handleTouchEnd = this.handleTouchEnd.bind(this);
-		this.handleClick = this.handleClick.bind(this);
-		this.handleResize = this.handleResize.bind(this);
-		this.resetCardPosition = this.resetCardPosition.bind(this);
-		this.handleDocumentClick = this.handleDocumentClick.bind(this);
-		this.handleDocumentKeydown = this.handleDocumentKeydown.bind(this);
-	}
+    this.handleMouseEnter = this.handleMouseEnter.bind(this);
+    this.handleMouseMove = this.handleMouseMove.bind(this);
+    this.handleMouseLeave = this.handleMouseLeave.bind(this);
+    this.handleTouchStart = this.handleTouchStart.bind(this);
+    this.handleTouchMove = this.handleTouchMove.bind(this);
+    this.handleTouchEnd = this.handleTouchEnd.bind(this);
+    this.handleClick = this.handleClick.bind(this);
+    this.handleResize = this.handleResize.bind(this);
+    this.resetCardPosition = this.resetCardPosition.bind(this);
+    this.handleDocumentClick = this.handleDocumentClick.bind(this);
+    this.handleDocumentKeydown = this.handleDocumentKeydown.bind(this);
+  }
 
-	connectedCallback() {
-		this.card = this._shadowRoot.querySelector(".tcg-display");
-		this.proxy = this._shadowRoot.querySelector(".tcg-proxy");
-		this.wrapper = this._shadowRoot.querySelector(".tcg-wrapper");
+  connectedCallback() {
+    this.card = this._shadowRoot.querySelector(".tcg-display");
+    this.proxy = this._shadowRoot.querySelector(".tcg-proxy");
+    this.wrapper = this._shadowRoot.querySelector(".tcg-wrapper");
 
-		this.addEventListener("mouseenter", this.handleMouseEnter);
-		this.addEventListener("mouseleave", this.handleMouseLeave);
-		this.addEventListener("mousemove", this.handleMouseMove);
+    this.addEventListener("mouseenter", this.handleMouseEnter);
+    this.addEventListener("mouseleave", this.handleMouseLeave);
+    this.addEventListener("mousemove", this.handleMouseMove);
 
-		this.addEventListener("touchstart", this.handleTouchStart);
-		this.addEventListener("touchmove", this.handleTouchMove);
-		this.addEventListener("touchend", this.handleTouchEnd);
-		this.addEventListener("touchcancel", this.handleTouchEnd);
+    this.addEventListener("touchstart", this.handleTouchStart);
+    this.addEventListener("touchmove", this.handleTouchMove);
+    this.addEventListener("touchend", this.handleTouchEnd);
+    this.addEventListener("touchcancel", this.handleTouchEnd);
 
-		this.card.addEventListener("click", this.handleClick);
+    this.card.addEventListener("click", this.handleClick);
 
-		window.addEventListener("resize", this.handleResize);
+    window.addEventListener("resize", this.handleResize);
 
-		this.initImage();
+    this.initImage();
 
-		this.resizeObserver = new ResizeObserver(this.resetCardPosition);
-		this.resizeObserver.observe(this.proxy);
-	}
+    this.resizeObserver = new ResizeObserver(this.resetCardPosition);
+    this.resizeObserver.observe(this.proxy);
+  }
 
-	disconnectedCallback() {
-		this.removeEventListener("mouseenter", this.handleMouseEnter);
-		this.removeEventListener("mouseleave", this.handleMouseLeave);
-		this.removeEventListener("mousemove", this.handleMouseMove);
+  disconnectedCallback() {
+    this.removeEventListener("mouseenter", this.handleMouseEnter);
+    this.removeEventListener("mouseleave", this.handleMouseLeave);
+    this.removeEventListener("mousemove", this.handleMouseMove);
 
-		this.removeEventListener("touchstart", this.handleTouchStart);
-		this.removeEventListener("touchmove", this.handleTouchMove);
-		this.removeEventListener("touchend", this.handleTouchEnd);
-		this.removeEventListener("touchcancel", this.handleTouchEnd);
+    this.removeEventListener("touchstart", this.handleTouchStart);
+    this.removeEventListener("touchmove", this.handleTouchMove);
+    this.removeEventListener("touchend", this.handleTouchEnd);
+    this.removeEventListener("touchcancel", this.handleTouchEnd);
 
-		this.card.removeEventListener("click", this.handleClick);
-		this.resizeObserver.disconnect();
-	}
+    this.card.removeEventListener("click", this.handleClick);
+    this.resizeObserver.disconnect();
+  }
 
-	initImage() {
-		const img = this._shadowRoot.querySelector(".tcg-card");
-		const fadeInDuration = 500;
-		img.style.opacity = 0;
-		img.style.transition = `opacity ${fadeInDuration}ms ease-in`;
-		this.ready = false;
-		if (img.complete) {
-			this.resetCardPosition(true);
-			img.style.opacity = "";
-			this.ready = true;
-			img.style.display = "block";
-			setTimeout(() => {
-				img.style.transition = "";
-			}, fadeInDuration)
-		} else {
-			this.wrapper.style.overflow = "hidden";
-			img.onload = () => {
-				this.resetCardPosition(true);
-				this.wrapper.style.overflow = "";
-				img.style.opacity = "";
-				this.ready = true;
-				setTimeout(() => {
-					img.style.transition = "";
-				}, fadeInDuration)
-			};
-		}
-	}
+  initImage() {
+    const img = this._shadowRoot.querySelector(".tcg-card");
+    const fadeInDuration = 500;
+    img.style.opacity = 0;
+    img.style.transition = `opacity ${fadeInDuration}ms ease-in`;
+    this.ready = false;
+    if (img.complete) {
+      this.resetCardPosition(true);
+      img.style.opacity = "";
+      this.ready = true;
+      img.style.display = "block";
+      setTimeout(() => {
+        img.style.transition = "";
+      }, fadeInDuration);
+    } else {
+      this.wrapper.style.overflow = "hidden";
+      img.onload = () => {
+        this.resetCardPosition(true);
+        this.wrapper.style.overflow = "";
+        img.style.opacity = "";
+        this.ready = true;
+        setTimeout(() => {
+          img.style.transition = "";
+        }, fadeInDuration);
+      };
+    }
+  }
 
-	// Event Handlers
-	handleMouseEnter(e) {
-		if (this.isTouching) {
-			return;
-		}
-		this.startInteraction(e.clientX, e.clientY);
-	}
+  // Event Handlers
+  handleMouseEnter(e) {
+    if (this.isTouching) {
+      return;
+    }
+    this.startInteraction(e.clientX, e.clientY);
+  }
 
-	handleMouseMove(e) {
-		if (this.isTouching) {
-			return;
-		}
-		this.updateTransform(e.clientX, e.clientY);
-	}
+  handleMouseMove(e) {
+    if (this.isTouching) {
+      return;
+    }
+    this.updateTransform(e.clientX, e.clientY);
+  }
 
-	handleMouseLeave() {
-		if (this.isTouching) {
-			return;
-		}
-		this.endInteraction();
-	}
+  handleMouseLeave() {
+    if (this.isTouching) {
+      return;
+    }
+    this.endInteraction();
+  }
 
-	handleTouchStart(e) {
-		this.isTouching = true;
-		const touch = e.touches[0];
-		this.startInteraction(touch.clientX, touch.clientY);
-	}
+  handleTouchStart(e) {
+    this.isTouching = true;
+    const touch = e.touches[0];
+    this.startInteraction(touch.clientX, touch.clientY);
+  }
 
-	handleTouchMove(e) {
-		e.preventDefault();
-		const touch = e.touches[0];
-		this.updateTransform(touch.clientX, touch.clientY);
-	}
+  handleTouchMove(e) {
+    e.preventDefault();
+    const touch = e.touches[0];
+    this.updateTransform(touch.clientX, touch.clientY);
+  }
 
-	handleTouchEnd() {
-		this.endInteraction();
-	}
+  handleTouchEnd() {
+    this.endInteraction();
+  }
 
-	handleClick() {
-		if (this.expanded) {
-			this.close();
-		} else {
-			this.expanded = true;
-			this.centerCard();
-			document.addEventListener("click", this.handleDocumentClick);
-			document.addEventListener("keydown", this.handleDocumentKeydown);
-		}
-	}
+  handleClick() {
+    if (this.expanded) {
+      this.close();
+    } else {
+      this.expanded = true;
+      this.centerCard();
+      document.addEventListener("click", this.handleDocumentClick);
+      document.addEventListener("keydown", this.handleDocumentKeydown);
+    }
+  }
 
+  handleResize() {
+    if (this.expanded) {
+      this.centerCard(true);
+    }
+  }
 
-	handleResize() {
-		if (this.expanded) {
-			this.centerCard(true);
-		}
-	}
+  startInteraction(clientX, clientY) {
+    if (!this.ready) {
+      return;
+    }
+    const transitionTime = 300;
+    this.card.style.transition = `all ${transitionTime}ms ease-out`;
+    if (!this.expanded) {
+      this.style.setProperty("--z-index", "2");
+    }
+    this.style.setProperty("--glare-opacity", "0.75");
+    const r = (Math.random() * 0.5 + 0.5) * (Math.random() < 0.5 ? -1 : 1);
+    this.style.setProperty("--display-rz", `${r}deg`);
+    this.updateTransform(clientX, clientY);
+    setTimeout(() => {
+      this.card.style.transition = "";
+    }, transitionTime);
+  }
 
-	startInteraction(clientX, clientY) {
-		if (!this.ready) {
-			return;
-		}
-		const transitionTime = 300;
-		this.card.style.transition = `all ${transitionTime}ms ease-out`;
-		if (!this.expanded) {
-			this.style.setProperty("--z-index", "2");
-		}
-		this.style.setProperty("--glare-opacity", "0.75");
-		const r = (Math.random() * 0.5 + 0.5) * (Math.random() < 0.5 ? -1 : 1);
-		this.style.setProperty("--display-rz", `${r}deg`);
-		this.updateTransform(clientX, clientY);
-		setTimeout(() => {
-			this.card.style.transition = "";
-		}, transitionTime);
-	}
+  updateTransform(clientX, clientY) {
+    if (!this.transforming) {
+      const rect = this.card.getBoundingClientRect();
+      const x = clientX - rect.left;
+      const y = clientY - rect.top;
+      const xPercent = (x / rect.width) * 100;
+      const yPercent = (y / rect.height) * 100;
+      const xFromCenter = x - rect.width / 2;
+      const yFromCenter = y - rect.height / 2;
+      const tiltX = -(yFromCenter / rect.height) * 10;
+      const tiltY = (xFromCenter / rect.width) * 10;
+      this.pendingAnimationFrame = requestAnimationFrame(() => {
+        this.style.setProperty("--pointer-x", `${xPercent}%`);
+        this.style.setProperty("--pointer-y", `${yPercent}%`);
+        this.style.setProperty("--display-rx", `${tiltX}deg`);
+        this.style.setProperty("--display-ry", `${tiltY}deg`);
+        this.transforming = false;
+      });
+      this.transforming = true;
+    }
+  }
 
-	updateTransform(clientX, clientY) {
-		if (!this.transforming) {
-			const rect = this.card.getBoundingClientRect();
-			const x = clientX - rect.left;
-			const y = clientY - rect.top;
-			const xPercent = (x / rect.width) * 100;
-			const yPercent = (y / rect.height) * 100;
-			const xFromCenter = x - rect.width / 2;
-			const yFromCenter = y - rect.height / 2;
-			const tiltX = -(yFromCenter / rect.height) * 10;
-			const tiltY = (xFromCenter / rect.width) * 10;
-			this.pendingAnimationFrame = requestAnimationFrame(() => {
-				this.style.setProperty("--pointer-x", `${xPercent}%`);
-				this.style.setProperty("--pointer-y", `${yPercent}%`);
-				this.style.setProperty("--display-rx", `${tiltX}deg`);
-				this.style.setProperty("--display-ry", `${tiltY}deg`);
-				this.transforming = false;
-			});
-			this.transforming = true;
-		}
-	}
+  endInteraction() {
+    if (this.pendingAnimationFrame) {
+      cancelAnimationFrame(this.pendingAnimationFrame);
+      this.transforming = false;
+    }
+    const transitionTime = 300;
+    this.card.style.transition = `all ${transitionTime}ms ease-out`;
+    this.style.setProperty("--glare-opacity", "0");
+    this.style.setProperty("--display-rz", "0deg");
+    this.style.setProperty("--display-rx", "0deg");
+    this.style.setProperty("--display-ry", "0deg");
+    setTimeout(() => {
+      if (!this.expanded) {
+        this.style.setProperty("--z-index", "");
+      }
+      this.card.style.transition = "";
+      this.isTouching = false;
+    }, transitionTime);
+  }
 
-	endInteraction() {
-		if (this.pendingAnimationFrame) {
-			cancelAnimationFrame(this.pendingAnimationFrame);
-			this.transforming = false;
-		}
-		const transitionTime = 300;
-		this.card.style.transition = `all ${transitionTime}ms ease-out`;
-		this.style.setProperty("--glare-opacity", "0");
-		this.style.setProperty("--display-rz", "0deg");
-		this.style.setProperty("--display-rx", "0deg");
-		this.style.setProperty("--display-ry", "0deg");
-		setTimeout(() => {
-			if (!this.expanded) {
-				this.style.setProperty("--z-index", "");
-			}
-			this.card.style.transition = "";
-			this.isTouching = false;
-		}, transitionTime);
-	}
+  close() {
+    this.expanded = false;
+    this.resetCardPosition();
+    document.removeEventListener("click", this.handleDocumentClick);
+    document.removeEventListener("keydown", this.handleDocumentKeydown);
+  }
 
-	close() {
-		this.expanded = false;
-		this.resetCardPosition();
-		document.removeEventListener("click", this.handleDocumentClick);
-		document.removeEventListener("keydown", this.handleDocumentKeydown);
-	}
+  centerCard(skipTransition = false) {
+    if (skipTransition) {
+      this.card.style.setProperty("transition", "none");
+    }
+    this.style.setProperty("--z-index", "20");
+    this.style.setProperty("--display-rz", "0deg");
+    const screenX = window.innerWidth / 2;
+    const screenY = window.innerHeight / 2;
+    const rect = this.proxy.getBoundingClientRect();
+    const isPortrait = window.innerHeight > window.innerWidth;
+    const scaleX = (window.innerWidth / this.card.clientWidth) * 0.9;
+    const scaleY = (window.innerHeight / this.card.clientHeight) * 0.9;
+    let scale = isPortrait ? scaleX : scaleY;
+    if (isPortrait && this.card.clientHeight * scale > window.innerHeight) {
+      scale = scaleY;
+    }
+    const tx = screenX - rect.left - rect.width / 2;
+    const ty = screenY - rect.top - rect.height / 2;
 
-	centerCard(skipTransition = false) {
-		if (skipTransition) {
-			this.card.style.setProperty("transition", "none");
-		}
-		this.style.setProperty("--z-index", "20");
-		this.style.setProperty("--display-rz", "0deg");
-		const screenX = window.innerWidth / 2;
-		const screenY = window.innerHeight / 2;
-		const rect = this.proxy.getBoundingClientRect();
-		const isPortrait = window.innerHeight > window.innerWidth;
-		const scaleX = (window.innerWidth / this.card.clientWidth) * 0.9;
-		const scaleY = (window.innerHeight / this.card.clientHeight) * 0.9;
-		let scale = isPortrait ? scaleX : scaleY;
-		if (isPortrait && this.card.clientHeight * scale > window.innerHeight) {
-			scale = scaleY;
-		}
-		const tx = screenX - rect.left - rect.width / 2;
-		const ty = screenY - rect.top - rect.height / 2;
+    this.card.style.setProperty("--display-tx", `${tx}px`);
+    this.card.style.setProperty("--display-ty", `${ty}px`);
+    this.card.style.setProperty("--display-scale", Math.min(scale, 1));
+    setTimeout(() => {
+      this.card.style.setProperty("transition", "");
+    }, EXPAND_TRANSITION_TIME);
+  }
 
-		this.card.style.setProperty("--display-tx", `${tx}px`);
-		this.card.style.setProperty("--display-ty", `${ty}px`);
-		this.card.style.setProperty("--display-scale", Math.min(scale, 1));
-		setTimeout(() => {
-			this.card.style.setProperty("transition", "");
-		}, EXPAND_TRANSITION_TIME);
-	}
+  resetCardPosition(skipTransition = false) {
+    const scale =
+      this.proxy.getBoundingClientRect().height / this.card.clientHeight;
+    if (skipTransition) {
+      this.card.style.setProperty("transition", "none");
+    }
+    this.card.style.setProperty("--display-tx", "0px");
+    this.card.style.setProperty("--display-ty", "0px");
+    this.card.style.setProperty("--display-scale", scale);
+    setTimeout(() => {
+      this.card.style.setProperty("transition", "");
+      this.style.setProperty("--z-index", "");
+    }, EXPAND_TRANSITION_TIME * 0.25);
+  }
 
-	resetCardPosition(skipTransition = false) {
-		const scale =
-			this.proxy.getBoundingClientRect().height / this.card.clientHeight;
-		if (skipTransition) {
-			this.card.style.setProperty("transition", "none");
-		}
-		this.card.style.setProperty("--display-tx", "0px");
-		this.card.style.setProperty("--display-ty", "0px");
-		this.card.style.setProperty("--display-scale", scale);
-		setTimeout(() => {
-			this.card.style.setProperty("transition", "");
-			this.style.setProperty("--z-index", "");
-		}, EXPAND_TRANSITION_TIME * 0.25);
-	}
+  handleDocumentClick(e) {
+    if (this.expanded && e.target !== this) {
+      this.close();
+    }
+  }
 
-
-	handleDocumentClick(e) {
-		if (this.expanded && e.target !== this) {
-			this.close();
-		}
-	}
-
-	handleDocumentKeydown(e) {
-		this.close();
-	}
+  handleDocumentKeydown(e) {
+    this.close();
+  }
 }
 
 customElements.define("tcg-card", TCGCard);

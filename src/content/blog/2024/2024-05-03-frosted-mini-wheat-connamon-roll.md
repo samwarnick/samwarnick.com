@@ -1,10 +1,10 @@
 ---
 title: Kellogg's Frosted Mini Wheats Cinnamon Roll
-date: '2024-05-03T10:00'
+date: "2024-05-03T10:00"
 summary: Not cinnamon roll flavored.
 tags:
   - Review
-oldUrl: 'https://samwarnick.com/2024/5/kelloggs-frosted-mini-wheats-cinnamon-roll'
+oldUrl: "https://samwarnick.com/2024/5/kelloggs-frosted-mini-wheats-cinnamon-roll"
 published: true
 ---
 
@@ -12,7 +12,7 @@ published: true
 
 I love cinnamon rolls. Despite always being disappointed by cinnamon roll flavored things, I decided to give these a shot. Yet again, another miss.
 
-These are just cinnamon flavored. A cinnamon  roll is more than cinnamon. It's a perfect blend of brown sugar, vanilla, cream cheese, and cinnamon. I think they assumed the existing frosting on the mini wheat would cover their bases. They were wrong.
+These are just cinnamon flavored. A cinnamon roll is more than cinnamon. It's a perfect blend of brown sugar, vanilla, cream cheese, and cinnamon. I think they assumed the existing frosting on the mini wheat would cover their bases. They were wrong.
 
 Though not close to a cinnamon roll flavor, they still tasted fine. Too much cinnamon for my taste, but not the end of the world.
 

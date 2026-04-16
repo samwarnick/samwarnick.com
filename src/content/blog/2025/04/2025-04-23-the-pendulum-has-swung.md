@@ -6,6 +6,7 @@ tags:
   - TMI
 published: true
 ---
+
 This is just for me. Don't read it. Or do. I don't care _that_ much—I did put it on my blog after all. But it's going to ramble and it's nothing new.
 
 For a few months, I've been working on programming side projects. Then, all of a sudden it started feeling like a chore and I couldn't bring myself to do it. I've pretty much stopped posting on social media, or even looking at it. I started seeing in myself that I was pretty much doing things so that I could post about it so that I could get validation from others. I was making things just to show off. I didn't like that. But then I started thinking, why even do it? So I stopped. Burnout.

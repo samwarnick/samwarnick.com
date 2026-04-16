@@ -1,8 +1,8 @@
 ---
 title: Podcasting With A Toddler
-date: '2019-09-11T10:00'
+date: "2019-09-11T10:00"
 thumbnail: /media/2019-09-11-podcasting-with-a-toddler.jpg
-oldUrl: 'https://samwarnick.com/2019/9/podcasting-with-a-toddler'
+oldUrl: "https://samwarnick.com/2019/9/podcasting-with-a-toddler"
 published: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: First Client Website
 published: false
-date: '2018-06-02T10:00'
+date: "2018-06-02T10:00"
 ---
 
 A little bit ago, I finished my first project for a client, [totalpowerandfoam.com](https://totalpowerandfoam.com). It’s a simple single page landing page.

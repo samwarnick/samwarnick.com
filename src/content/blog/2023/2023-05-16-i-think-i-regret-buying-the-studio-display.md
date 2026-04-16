@@ -1,7 +1,7 @@
 ---
 title: I think I regret buying the Studio Display
-date: '2023-05-16T10:00'
-oldUrl: 'https://samwarnick.com/2023/5/i-think-i-regret-buying-the-studio-display'
+date: "2023-05-16T10:00"
+oldUrl: "https://samwarnick.com/2023/5/i-think-i-regret-buying-the-studio-display"
 published: true
 ---
 

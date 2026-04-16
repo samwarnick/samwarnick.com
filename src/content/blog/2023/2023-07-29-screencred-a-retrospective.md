@@ -1,10 +1,10 @@
 ---
-title: 'ScreenCred: A Retrospective'
-date: '2023-07-29T13:00'
+title: "ScreenCred: A Retrospective"
+date: "2023-07-29T13:00"
 tags:
   - Projects
   - ScreenCred
-oldUrl: 'https://samwarnick.com/2023/7/screencred-a-retrospective'
+oldUrl: "https://samwarnick.com/2023/7/screencred-a-retrospective"
 published: true
 ---
 
@@ -135,15 +135,16 @@ That's a great question. ScreenCred works for me as-is. So far, I've gotten pret
 But I've got ideas for other projects too. Right now, my options are:
 
 1. Keep working on ScreenCred.
-	* There are still plenty of things I can try and learn from with ScreenCred. Like how do I actually get people to use it.
-	* I kinda want to make a web version.
+   - There are still plenty of things I can try and learn from with ScreenCred. Like how do I actually get people to use it.
+   - I kinda want to make a web version.
 2. Start a new project.
-	* My wife and I had an idea for an app for our kids.
-	* Would also have a lot of new things to try and learn.
+   - My wife and I had an idea for an app for our kids.
+   - Would also have a lot of new things to try and learn.
 3. Finish the book I started for my daughter.
-	* I started book for my daughter's fifth birthday. I gave her the first half and promised I'd finish it.
+   - I started book for my daughter's fifth birthday. I gave her the first half and promised I'd finish it.
 
 As I write that I promised my daughter I'd finish the book, I think it's pretty clear to me which thing I need to work on next. I realized that I pretty much have room for one project in my life at a time. As much as I'd like to work on everything, I just can't.
 
 [^1]: A little awkward, as I write that, I'm wondering did I actually handle any of those cases well...🤔 I probably actually have a lot of work to do here.
+
 [^2]: This has been processing in the back of my mind since. It think there is an app opportunity here.

@@ -5,6 +5,7 @@ ogImage: og-img-bg/bullpen-tcg.png
 summary: I went a little extra and made some trading cards for my friends. No regrets.
 published: true
 ---
+
 I made some trading cards for my friends in a Discord server we are all in together. Our server is called The Bullpen, so I named it the Bullpen Trading Card Game. Real original.
 
 {% tcg-card "https://samwarnick.com/media/bullpen-tcg/Back.png" "The back of a Bullpen Trading card with a gold art deco style border and the word Bullpen" %}

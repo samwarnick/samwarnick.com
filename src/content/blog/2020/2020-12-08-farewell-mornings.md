@@ -1,7 +1,7 @@
 ---
-title: 'Farewell, Mornings'
-date: '2020-12-08T10:00'
-oldUrl: 'https://samwarnick.com/2020/12/farewell-mornings'
+title: "Farewell, Mornings"
+date: "2020-12-08T10:00"
+oldUrl: "https://samwarnick.com/2020/12/farewell-mornings"
 published: true
 ---
 

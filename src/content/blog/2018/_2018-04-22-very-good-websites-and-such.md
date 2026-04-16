@@ -1,7 +1,7 @@
 ---
 title: Very Good Websites & Such
 published: false
-date: '2018-04-22T10:00'
+date: "2018-04-22T10:00"
 ---
 
 I setup a little business. A couple people wanted me to make websites for them. I’ve never built a website for someone else before before, and definitely not for money. While I’m proficient in HTML, CSS, and JS, I still feel like there is a steep learning curve for me. The first site is basically just a landing page, but there are things I haven’t had to worry so much about before, like SEO. There is definitely a lot I need to learn and understand.

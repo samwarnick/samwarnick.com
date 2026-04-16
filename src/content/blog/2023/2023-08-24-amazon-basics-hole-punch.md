@@ -2,10 +2,10 @@
 title: >-
   Review of Amazon Basics 3 Hole Punch, Semi-Adjustable, 30 Sheet Capacity,
   Black
-date: '2023-08-24T13:00'
+date: "2023-08-24T13:00"
 tags:
   - Review
-oldUrl: 'https://samwarnick.com/2023/8/review-of-amazon-basics-3-hole-punch-semi-adjustable-30-sheet-capacity-black'
+oldUrl: "https://samwarnick.com/2023/8/review-of-amazon-basics-3-hole-punch-semi-adjustable-30-sheet-capacity-black"
 published: true
 ---
 

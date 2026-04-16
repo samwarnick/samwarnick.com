@@ -1,7 +1,7 @@
 ---
 title: Thoughts On Writing Good Code
-date: '2018-05-24T10:00'
-oldUrl: 'https://samwarnick.com/2018/5/thoughts-on-writing-good-code'
+date: "2018-05-24T10:00"
+oldUrl: "https://samwarnick.com/2018/5/thoughts-on-writing-good-code"
 published: true
 ---
 

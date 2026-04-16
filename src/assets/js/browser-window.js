@@ -1,18 +1,18 @@
 class BrowserWindow extends HTMLElement {
-	static tagName = "browser-window";
+  static tagName = "browser-window";
 
-	static attrs = {
-		url: "url",
-		urlMode: "url-mode",
-		icon: "icon",
-		flush: "flush",
-		shadow: "shadow",
-		grayscale: "grayscale",
-		os: "os",
-		mode: "mode", // values: "dark", "light"
-	};
+  static attrs = {
+    url: "url",
+    urlMode: "url-mode",
+    icon: "icon",
+    flush: "flush",
+    shadow: "shadow",
+    grayscale: "grayscale",
+    os: "os",
+    mode: "mode", // values: "dark", "light"
+  };
 
-	static style = `
+  static style = `
 :host {
 	--bw-internal-bg: var(--bw-background, transparent);
 	--bw-internal-fg: var(--bw-foreground, inherit);
@@ -143,91 +143,94 @@ class BrowserWindow extends HTMLElement {
 }
 `;
 
-	static isValidUrl(url) {
-		try {
-			new URL(url);
-			return true;
-		} catch(e) {
-			return false;
-		}
-	}
+  static isValidUrl(url) {
+    try {
+      new URL(url);
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
 
-	setMode(isDarkMode) {
-		this.setAttribute(BrowserWindow.attrs.mode, isDarkMode ? "dark" : "light");
-	}
+  setMode(isDarkMode) {
+    this.setAttribute(BrowserWindow.attrs.mode, isDarkMode ? "dark" : "light");
+  }
 
-	static getDisplayUrl(urlObj, mode) {
-		if(mode === "hostname-only") {
-			return urlObj.hostname; // previous behavior
-		}
-		if(urlObj?.href?.endsWith(urlObj.hostname + "/")) {
-			return urlObj.hostname;
-		}
-		if(urlObj?.href?.startsWith("https://")) {
-			return urlObj.href.slice("https://".length);
-		}
-		return urlObj.href || urlObj.hostname || "";
-	}
+  static getDisplayUrl(urlObj, mode) {
+    if (mode === "hostname-only") {
+      return urlObj.hostname; // previous behavior
+    }
+    if (urlObj?.href?.endsWith(urlObj.hostname + "/")) {
+      return urlObj.hostname;
+    }
+    if (urlObj?.href?.startsWith("https://")) {
+      return urlObj.href.slice("https://".length);
+    }
+    return urlObj.href || urlObj.hostname || "";
+  }
 
-	connectedCallback() {
-		if (!("replaceSync" in CSSStyleSheet.prototype) || this.shadowRoot) {
-			return;
-		}
+  connectedCallback() {
+    if (!("replaceSync" in CSSStyleSheet.prototype) || this.shadowRoot) {
+      return;
+    }
 
-		let shadowroot = this.attachShadow({ mode: "open" });
+    let shadowroot = this.attachShadow({ mode: "open" });
 
-		let sheet = new CSSStyleSheet();
-		sheet.replaceSync(BrowserWindow.style);
-		shadowroot.adoptedStyleSheets = [sheet];
+    let sheet = new CSSStyleSheet();
+    sheet.replaceSync(BrowserWindow.style);
+    shadowroot.adoptedStyleSheets = [sheet];
 
-		let url = this.getAttribute(BrowserWindow.attrs.url) || "";
-		let urlObj = url && BrowserWindow.isValidUrl(url) ? new URL(url) : {};
-		let displayUrl = BrowserWindow.getDisplayUrl(urlObj, this.getAttribute(BrowserWindow.attrs.urlMode));
+    let url = this.getAttribute(BrowserWindow.attrs.url) || "";
+    let urlObj = url && BrowserWindow.isValidUrl(url) ? new URL(url) : {};
+    let displayUrl = BrowserWindow.getDisplayUrl(
+      urlObj,
+      this.getAttribute(BrowserWindow.attrs.urlMode),
+    );
 
-		let template = document.createElement("template");
+    let template = document.createElement("template");
 
-		let iconHtml = "";
-		if (this.hasAttribute(BrowserWindow.attrs.icon)) {
-			let iconUrl = `https://v1.indieweb-avatar.11ty.dev/${encodeURIComponent(urlObj.origin || "")}/`;
-			let iconAlt = `Favicon for ${urlObj.origin}`;
+    let iconHtml = "";
+    if (this.hasAttribute(BrowserWindow.attrs.icon)) {
+      let iconUrl = `https://v1.indieweb-avatar.11ty.dev/${encodeURIComponent(urlObj.origin || "")}/`;
+      let iconAlt = `Favicon for ${urlObj.origin}`;
 
-			iconHtml = `<img src="${iconUrl}" alt="${iconAlt}" width="32" height="32" loading="lazy" decoding="async" class="title-icon">`;
-		}
+      iconHtml = `<img src="${iconUrl}" alt="${iconAlt}" width="32" height="32" loading="lazy" decoding="async" class="title-icon">`;
+    }
 
-		let prefersDarkMode = matchMedia("(prefers-color-scheme: dark)");
-		if(!this.hasAttribute(BrowserWindow.attrs.mode)) {
-			this.setMode(prefersDarkMode.matches);
+    let prefersDarkMode = matchMedia("(prefers-color-scheme: dark)");
+    if (!this.hasAttribute(BrowserWindow.attrs.mode)) {
+      this.setMode(prefersDarkMode.matches);
 
-			prefersDarkMode.addEventListener("change", e => {
-				this.setMode(e.matches);
-			});
-		}
+      prefersDarkMode.addEventListener("change", (e) => {
+        this.setMode(e.matches);
+      });
+    }
 
-		let os = this.getAttribute(BrowserWindow.attrs.os) || "osx";
-		let windowsIcons = `<svg width="58" height="14" viewBox="0 0 58 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7H11" stroke="#878787" stroke-linecap="round" stroke-linejoin="round"></path><path d="M35 1H25C24.4477 1 24 1.44772 24 2V12C24 12.5523 24.4477 13 25 13H35C35.5523 13 36 12.5523 36 12V2C36 1.44772 35.5523 1 35 1Z" stroke="#878787"></path><path d="M47 2L57 12" stroke="#878787" stroke-linecap="round" stroke-linejoin="round"></path><path d="M47 12L57 2" stroke="#878787" stroke-linecap="round" stroke-linejoin="round"></path></svg>`;
+    let os = this.getAttribute(BrowserWindow.attrs.os) || "osx";
+    let windowsIcons = `<svg width="58" height="14" viewBox="0 0 58 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7H11" stroke="#878787" stroke-linecap="round" stroke-linejoin="round"></path><path d="M35 1H25C24.4477 1 24 1.44772 24 2V12C24 12.5523 24.4477 13 25 13H35C35.5523 13 36 12.5523 36 12V2C36 1.44772 35.5523 1 35 1Z" stroke="#878787"></path><path d="M47 2L57 12" stroke="#878787" stroke-linecap="round" stroke-linejoin="round"></path><path d="M47 12L57 2" stroke="#878787" stroke-linecap="round" stroke-linejoin="round"></path></svg>`;
 
-		template.innerHTML = `<div class="window">
+    template.innerHTML = `<div class="window">
 		<div class="hed ${os}">
 			${
-			os === "windows"
-				? `<div class="controls">${windowsIcons}</div>`
-				: `<div class="circle"></div>
+        os === "windows"
+          ? `<div class="controls">${windowsIcons}</div>`
+          : `<div class="circle"></div>
 						<div class="circle"></div>
 						<div class="circle"></div>`
-		}
+      }
 			${
-			url
-				? `<a href="${url}" class="title"><slot name="icon">${iconHtml}</slot><span class="title-text">${displayUrl}</span></a>`
-				: ""
-		}
+        url
+          ? `<a href="${url}" class="title"><slot name="icon">${iconHtml}</slot><span class="title-text">${displayUrl}</span></a>`
+          : ""
+      }
 		</div>
 		<div class="main"><slot></slot></div>
 	</div>`;
 
-		shadowroot.appendChild(template.content.cloneNode(true));
-	}
+    shadowroot.appendChild(template.content.cloneNode(true));
+  }
 }
 
 if ("customElements" in window) {
-	customElements.define(BrowserWindow.tagName, BrowserWindow);
+  customElements.define(BrowserWindow.tagName, BrowserWindow);
 }

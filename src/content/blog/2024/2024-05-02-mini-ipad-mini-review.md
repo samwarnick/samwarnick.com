@@ -1,10 +1,10 @@
 ---
 title: Mini iPad mini review
-date: '2024-05-02T10:00'
-summary: 'For what I''m using it for, it''s pretty good.'
+date: "2024-05-02T10:00"
+summary: "For what I'm using it for, it's pretty good."
 tags:
   - Review
-oldUrl: 'https://samwarnick.com/2024/5/mini-ipad-mini-review'
+oldUrl: "https://samwarnick.com/2024/5/mini-ipad-mini-review"
 published: true
 ---
 

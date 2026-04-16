@@ -1,7 +1,7 @@
 ---
 title: Giving up on notes apps
-date: '2022-06-30T10:00'
-oldUrl: 'https://samwarnick.com/2022/6/giving-up-on-notes-apps'
+date: "2022-06-30T10:00"
+oldUrl: "https://samwarnick.com/2022/6/giving-up-on-notes-apps"
 published: true
 ---
 

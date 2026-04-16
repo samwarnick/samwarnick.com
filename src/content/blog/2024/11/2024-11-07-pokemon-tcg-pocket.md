@@ -6,6 +6,7 @@ tags:
   - Pokemon
 published: true
 ---
+
 Pokemon Pocket is the newest mobile Pokemon game. I've been enjoying it. It's fun to collect cards—yes, even though they are just pixels on a screen and entries in a database—and the quick battles fit well into my life. As I was looking through which cards I still needed to complete the initial Genetic Apex expansion, I got thinking, how much would it cost to just buy a missing card?
 
 In the physical Pokemon TCG, you can get cards by opening booster packs or buying singles from sellers online. Opening packs is fun, but buying singles is typically far more economical.

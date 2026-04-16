@@ -1,11 +1,11 @@
 ---
 title: Using SwiftUI for Focuses
-date: '2020-03-25T10:00'
+date: "2020-03-25T10:00"
 thumbnail: 2020-03-23-focuses.jpg
 tags:
   - Projects
   - Focuses
-oldUrl: 'https://samwarnick.com/2020/3/using-swiftui-for-focuses'
+oldUrl: "https://samwarnick.com/2020/3/using-swiftui-for-focuses"
 published: true
 ---
 

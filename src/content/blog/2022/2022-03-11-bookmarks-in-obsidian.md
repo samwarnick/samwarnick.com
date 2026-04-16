@@ -1,7 +1,7 @@
 ---
 title: Bookmarks in Obsidian
-date: '2022-03-11T10:00'
-oldUrl: 'https://samwarnick.com/2022/3/bookmarks-in-obsidian'
+date: "2022-03-11T10:00"
+oldUrl: "https://samwarnick.com/2022/3/bookmarks-in-obsidian"
 published: true
 ---
 

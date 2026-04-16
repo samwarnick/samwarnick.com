@@ -6,6 +6,7 @@ summary: I made a web component to showcase my Pokémon card collection and I'm
   pretty excited about it.
 published: true
 ---
+
 My newborn was taking an unusually long nap the other day. One thing led to another and I made a web component to help showcase some of the Pokemon cards I have been collecting.
 
 Here's an example:
@@ -14,7 +15,7 @@ Here's an example:
 
 I'm really proud of this component. You can use the mouse or your finger to move the card around. Tapping or clicking will expand it. I've spent so much time just playing with it. But it didn't start out this nice.
 
-My first iteration of my [/pokemon](/pokemon) page was just a grid of images. I was first focused on getting the data. 
+My first iteration of my [/pokemon](/pokemon) page was just a grid of images. I was first focused on getting the data.
 
 I export the data from [Dex](https://dextcg.com)—the iOS app I use to keep track of my collection—and then use the great [Pokémon TCG API](https://pokemontcg.io) to get more data and images.
 

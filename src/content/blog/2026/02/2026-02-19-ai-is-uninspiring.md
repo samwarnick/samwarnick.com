@@ -1,12 +1,13 @@
 ---
 title: AI Is Uninspiring
-date: '2026-02-19T09:48'
+date: "2026-02-19T09:48"
 published: true
 summary: >-
   When AI can do pretty much anything, I'm struggling to find the fun in
   building things.
 tags: []
 ---
+
 Programming has always been a sort of creative outlet for me. Recently, I've hit a wall. With AI tools at my fingertips, I don't feel like building anything. Everything is within reach now. I could literally build whatever I want.
 
 That is boring.

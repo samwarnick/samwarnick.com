@@ -1,7 +1,7 @@
 ---
 title: Is Vanilla JavaScript better?
-date: '2023-06-05T10:00'
-oldUrl: 'https://samwarnick.com/2023/6/is-vanilla-javascript-better'
+date: "2023-06-05T10:00"
+oldUrl: "https://samwarnick.com/2023/6/is-vanilla-javascript-better"
 published: true
 ---
 
@@ -43,29 +43,29 @@ const body = document.createElement("tbody");
 body.id = "costsBody";
 
 costs.forEach(({ label, cost, id, icon }) => {
-	const iconEl = document.createElement("img");
-	iconEl.src = `/assets/img/${icon ?? id}.png`;
-	iconEl.alt = `Frosthaven icon for ${label}`;
-	iconEl.setAttribute("aria-hidden", true);
-	iconEl.classList.add("enhancementIcon");
+  const iconEl = document.createElement("img");
+  iconEl.src = `/assets/img/${icon ?? id}.png`;
+  iconEl.alt = `Frosthaven icon for ${label}`;
+  iconEl.setAttribute("aria-hidden", true);
+  iconEl.classList.add("enhancementIcon");
 
-	const labelEl = document.createElement("span");
-	labelEl.textContent = label;
+  const labelEl = document.createElement("span");
+  labelEl.textContent = label;
 
-	const enhancementCell = document.createElement("th");
-	enhancementCell.setAttribute("scope", "row");
-	enhancementCell.appendChild(iconEl);
-	enhancementCell.appendChild(labelEl);
+  const enhancementCell = document.createElement("th");
+  enhancementCell.setAttribute("scope", "row");
+  enhancementCell.appendChild(iconEl);
+  enhancementCell.appendChild(labelEl);
 
-	const costCell = document.createElement("td");
-	costCell.textContent = `${cost} gold`;
-	costCell.classList.add("costCell");
+  const costCell = document.createElement("td");
+  costCell.textContent = `${cost} gold`;
+  costCell.classList.add("costCell");
 
-	const row = document.createElement("tr");
-	row.appendChild(enhancementCell);
-	row.appendChild(costCell);
+  const row = document.createElement("tr");
+  row.appendChild(enhancementCell);
+  row.appendChild(costCell);
 
-	body.appendChild(row);
+  body.appendChild(row);
 });
 
 table.appendChild(body);

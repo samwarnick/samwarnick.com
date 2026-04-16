@@ -1,39 +1,39 @@
 {
-	"name": "samwarnick.com",
-	"version": "1.0.0",
-	"description": "",
-	"type": "module",
-	"main": "index.js",
-	"scripts": {
-		"dev": "npx @11ty/eleventy --serve --incremental",
-		"pokemon": "node --env-file .env cli/fetchPokemon.js",
-		"bookshelf": "node cli/bookshelf.js",
-		"workers:deploy": "wrangler deploy -c ./workers/random/wrangler.jsonc",
-		"workers:dev": "wrangler dev -c ./workers/random/wrangler.jsonc"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"devDependencies": {
-		"@11ty/eleventy": "^3.0.0",
-		"@11ty/eleventy-fetch": "^4.0.1",
-		"@11ty/eleventy-plugin-rss": "^1.2.0",
-		"@11tyrocks/eleventy-plugin-lightningcss": "^1.4.0",
-		"@octokit/core": "^6.1.2",
-		"@shikijs/markdown-it": "^1.9.1",
-		"@shikijs/transformers": "^1.16.2",
-		"csv-parse": "^5.5.6",
-		"markdown-it-attrs": "^4.1.6",
-		"markdown-it-footnote": "^4.0.0",
-		"markdown-it-github-alerts": "^0.3.0",
-		"markdown-it-html5-media": "^0.7.1",
-		"netlify-plugin-cache": "^1.0.3",
-		"wrangler": "^4.45.0"
-	},
-	"dependencies": {
-		"@netlify/functions": "^3.1.5",
-		"@resvg/resvg-js": "^2.6.2",
-		"@types/node": "^14.18.63",
-		"typescript": "^4.9.5"
-	}
+  "name": "samwarnick.com",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve --incremental",
+    "pokemon": "node --env-file .env cli/fetchPokemon.js",
+    "bookshelf": "node cli/bookshelf.js",
+    "workers:deploy": "wrangler deploy -c ./workers/random/wrangler.jsonc",
+    "workers:dev": "wrangler dev -c ./workers/random/wrangler.jsonc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-fetch": "^4.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11tyrocks/eleventy-plugin-lightningcss": "^1.4.0",
+    "@octokit/core": "^6.1.2",
+    "@shikijs/markdown-it": "^1.9.1",
+    "@shikijs/transformers": "^1.16.2",
+    "csv-parse": "^5.5.6",
+    "markdown-it-attrs": "^4.1.6",
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-github-alerts": "^0.3.0",
+    "markdown-it-html5-media": "^0.7.1",
+    "netlify-plugin-cache": "^1.0.3",
+    "wrangler": "^4.45.0"
+  },
+  "dependencies": {
+    "@netlify/functions": "^3.1.5",
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/node": "^14.18.63",
+    "typescript": "^4.9.5"
+  }
 }

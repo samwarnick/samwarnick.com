@@ -1,11 +1,11 @@
 ---
 title: Introducing Focuses
-date: '2020-03-23T10:00'
+date: "2020-03-23T10:00"
 thumbnail: 2020-03-23-focuses.jpg
 tags:
   - Projects
   - Focuses
-oldUrl: 'https://samwarnick.com/2020/3/introducing-focuses'
+oldUrl: "https://samwarnick.com/2020/3/introducing-focuses"
 published: true
 ---
 

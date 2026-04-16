@@ -1,6 +1,6 @@
 ---
 title: Securing My Private Apps With Tailscale
-date: '2025-12-15T12:54'
+date: "2025-12-15T12:54"
 published: true
 summary: >-
   I finally got Tailscale working with my homelab to secure my personal apps
@@ -9,6 +9,7 @@ tags:
   - Self-hosting
   - Synology
 ---
+
 I'm making some upgrades to my homelab. In preparation, I've been doing some spring cleaning and getting things in order. One item on my list was putting some apps behind a VPN. TBH, I don't totally understand VPNs. Like a year ago, I tried installing Tailscale on my Synology and using it to have all my DNS go through my AdGuard instance. I don't totally remember why, but it didn't go well. I decided to take another crack at it.
 
 I made a budget app for my wife and I. It was accessible to the Internet at `budget.mydomain.com` through a Cloudflare tunnel. It has authentication, but I'm not 100% confident in it. So it always made me a little nervous having it exposed like that. With Coolify and Cloudflare, I had all subdomains pointed at my Coolify instance. First step was removing that. Now it was inaccessible. Then, I added `*.mydomain.com` to AdGuard with a DNS rewrite to point to my Coolify IP. Now, on my local network—which uses AdGuard for DNS—`budget.mydomain.com` would work! But, we actually use this app most when we are out and about. This is where Tailscale comes in.

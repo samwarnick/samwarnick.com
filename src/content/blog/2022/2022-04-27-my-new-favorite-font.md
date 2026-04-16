@@ -1,7 +1,7 @@
 ---
 title: My new favorite font
-date: '2022-04-27T10:00'
-oldUrl: 'https://samwarnick.com/2022/4/my-new-favorite-font'
+date: "2022-04-27T10:00"
+oldUrl: "https://samwarnick.com/2022/4/my-new-favorite-font"
 published: true
 ---
 

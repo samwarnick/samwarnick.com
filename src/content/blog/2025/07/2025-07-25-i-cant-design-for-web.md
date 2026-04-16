@@ -1,12 +1,13 @@
 ---
 title: I Can't Design for Web
-date: '2025-07-25T14:12'
+date: "2025-07-25T14:12"
 published: true
 summary: I have no idea how to design ScreenCred for the web.
 tags:
   - ScreenCred
   - Web Development
 ---
+
 Since letting [my Apple Developer membership expire](https://samwarnick.com/blog/my-apple-developer-membership-has-expired/), I've been giving more thought to moving ScreenCred to the web. It's a technically simple app. But I have run into one big problem—design.
 
 Whatever web design skills I may have ever had, they have definitely atrophied. I'm stuck.

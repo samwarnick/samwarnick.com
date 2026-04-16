@@ -6,6 +6,7 @@ tags:
   - Pokemon
 published: true
 ---
+
 When my daughter and I went to the Destined Rivals prerelease event, we got talking with some people. I mentioned that I collect Eevee and they mentioned that there was an Eevee deck doing pretty well in tournaments. I am a Pokemon noob, but I love Eevee. So it sounded like a cool deck to me.
 
 A couple of weeks ago, I saw a video by [six tcg](https://www.youtube.com/@sixpokemanstcg) about some popular meta decks right now. Turns out, The Flareon deck is one of the harder decks to play. But I decided to try it out anyway.
@@ -32,6 +33,7 @@ I've got a lot of the cards to build this deck physically, and I think I will.
 [🔗 limitlesstcg](https://limitlesstcg.com/decks/list/18507)
 
 ### Pokémon: 22
+
 4 Hoothoot SCR 114
 4 Noctowl SCR 115
 1 Eevee SSP 143
@@ -48,6 +50,7 @@ I've got a lot of the cards to build this deck physically, and I think I will.
 1 Terapagos ex SCR 128
 
 ### Trainer: 29
+
 3 Crispin SCR 133
 2 Iono PAL 185
 2 Boss's Orders PAL 172
@@ -67,6 +70,7 @@ I've got a lot of the cards to build this deck physically, and I think I will.
 1 Gravity Mountain SSP 177
 
 ### Energy: 9
+
 2 Fire Energy SVE 10
 2 Water Energy SVE 11
 2 Lightning Energy SVE 12

@@ -1,7 +1,7 @@
 ---
 title: Why do we scroll to the top?
-date: '2023-01-03T09:30'
-oldUrl: 'https://samwarnick.com/2023/1/why-do-we-scroll-to-the-top'
+date: "2023-01-03T09:30"
+oldUrl: "https://samwarnick.com/2023/1/why-do-we-scroll-to-the-top"
 published: true
 ---
 

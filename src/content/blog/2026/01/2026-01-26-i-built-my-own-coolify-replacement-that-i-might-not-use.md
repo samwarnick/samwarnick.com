@@ -1,12 +1,13 @@
 ---
 title: I Built My Own Coolify Replacement That I Might Not Use
-date: '2026-01-26T15:38'
+date: "2026-01-26T15:38"
 published: true
-summary: 'I built Deploybot-3000 to replace Coolify, but is it worth my sanity.'
+summary: "I built Deploybot-3000 to replace Coolify, but is it worth my sanity."
 tags:
   - Projects
   - Self-hosting
 ---
+
 If everything goes well, you will be able to read this post shortly after I commit it. If it doesn't, well, you probably won't know it didn't work.
 
 I replaced Coolify.
@@ -58,5 +59,7 @@ I can do this. I've proved it to myself. It's kinda neat even. But this fixation
 I need to take a few moments to take some deep breaths and figure this out. It's dumb and doesn't really matter but my brain disagrees.
 
 [^1]: Mostly.
+
 [^2]: I also have a new shiny internal proxy that Terraform and Ansible also configure that handles domains for all my internal apps. It uses DNS-01 for certificates since the domains are not publicly accessible.
+
 [^3]: By magic, I mean predefined processes. I told it what to do.

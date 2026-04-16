@@ -1,7 +1,7 @@
 ---
-title: 'Steve Jobs, by Walter Issacson'
-date: '2020-07-04T10:00'
-oldUrl: 'https://samwarnick.com/2020/7/steve-jobs-by-walter-issacson'
+title: "Steve Jobs, by Walter Issacson"
+date: "2020-07-04T10:00"
+oldUrl: "https://samwarnick.com/2020/7/steve-jobs-by-walter-issacson"
 published: true
 ---
 

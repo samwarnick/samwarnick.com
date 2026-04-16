@@ -1,7 +1,7 @@
 ---
 title: A Disappointing Training
-date: '2023-08-02T21:00'
-oldUrl: 'https://samwarnick.com/2023/8/a-disappointing-training'
+date: "2023-08-02T21:00"
+oldUrl: "https://samwarnick.com/2023/8/a-disappointing-training"
 published: true
 ---
 

@@ -7,6 +7,7 @@ tags:
 published: true
 ogImage: og-img-bg/IMG_8674.jpg
 ---
+
 ![A look down the Main Street of a LEGO city with buildings on the left. An azure bus sits at a bus stop in the right lane of the street](https://samwarnick.com/media/IMG_8673.jpg)
 
 Over the past few months, I've been putting together a LEGO city. I've made a couple additions lately, so I thought I'd show it off a bit.

@@ -1,7 +1,7 @@
 ---
 title: Why I like iOS development
-date: '2023-08-09T09:00'
-oldUrl: 'https://samwarnick.com/2023/8/why-i-like-ios-development'
+date: "2023-08-09T09:00"
+oldUrl: "https://samwarnick.com/2023/8/why-i-like-ios-development"
 published: true
 ---
 

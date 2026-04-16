@@ -4,6 +4,7 @@ date: 2025-06-22T20:00
 summary: It's summer. WWDC is over. Time to get to work.
 published: true
 ---
+
 It's summer. WWDC is over. Time to get to work.
 
 While I still have [mixed](https://samwarnick.com/blog/to-be-native-or-not/) [feelings](https://samwarnick.com/blog/to-native-or-not-part-ii/) about developing for Apple platforms, I enjoy it. After WWDC I feel invigorated and excited to work on things. I guess that's part of the point? This year, [Liquid Glass](https://en.wikipedia.org/wiki/Liquid_Glass) was announced. A fantastic opportunity for me to rethink the design of my app [ScreenCred](https://screencred.app).

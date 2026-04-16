@@ -1,10 +1,10 @@
 ---
 title: Thoughts on Steal Like an Artist
-date: '2021-05-28T10:00'
+date: "2021-05-28T10:00"
 summary: >-
   In a world where no idea is original, what's the point of trying to create
   something new?
-oldUrl: 'https://samwarnick.com/2021/5/thoughts-on-steal-like-an-artist'
+oldUrl: "https://samwarnick.com/2021/5/thoughts-on-steal-like-an-artist"
 published: true
 ---
 

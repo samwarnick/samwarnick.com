@@ -1,6 +1,6 @@
 ---
 title: A New Member of the Homelab
-date: '2026-01-04T19:56'
+date: "2026-01-04T19:56"
 published: true
 summary: >-
   I bought an HP EliteDesk to expand my homelab and went down a rabbit hole with
@@ -9,6 +9,7 @@ tags:
   - Self-hosting
   - Synology
 ---
+
 For the last five years, my Synology DS920+ was the only machine I had for self-hosting stuff. Most recently, I had a mix of Docker containers and a VM with Ubuntu server and Coolify to host stuff. No longer! I wanted to separate out some apps and services from my Synology to something else. I bought an HP EliteDesk 800 G6 on eBay. And boy, am I going crazy[^1].
 
 !["An HP EliteDesk 800 G6 sitting on top of a Synology DS920+"](/media/2026/01/2026-01-04-a-new-member-of-the-homelab1.jpg "A very handsome computer if you ask me")
@@ -130,7 +131,7 @@ Things are seemingly working right now and I only broke the DNS for my home netw
 
 ### Soon
 
-Better/more backups. Right now, Proxmox will backup the VMs to my Synology, which will then backup to Backblaze[^4]. I would also like to setup restic or borg to backup my app data more explicitly. 
+Better/more backups. Right now, Proxmox will backup the VMs to my Synology, which will then backup to Backblaze[^4]. I would also like to setup restic or borg to backup my app data more explicitly.
 
 NUT client. My UPS has a single USB port and that is going to my Synology. I found [this guide on Reddit](https://www.reddit.com/r/synology/comments/gtkjam/use_synology_nas_as_ups_server_to_safely_power/?rdt=38567) on how to setup Synology to notify other machines on the network to turn off when it gets a signal from the UPS to turn off. That seems cool/useful/cheaper than buying another UPS.
 
@@ -145,7 +146,11 @@ Dedicated router hardware. I've been running into issues with running AdGuard on
 Cluster. If you have three—two if you're crafty—Proxmox machines, you can put them in a high availability cluster. My understanding is that if one machine fails, it will move all the VMs and LXCs to other available machines automatically. Overkill, but awesome.
 
 [^1]: Maybe in a good way?
+
 [^2]: I have no idea what to call this machine. HP? G6? PVE for Proxmox? Something more clever?
+
 [^3]: Jared says "Because _it's fun_"
+
 [^4]: Actually, I need to check that the VM backups are actually being sent to Backblaze...
+
 [^5]: Perhaps a story for another day, but long story short, my AdGuard was not receiving IPv4 DNS requests and I had to change some Docker stuff to fix that.

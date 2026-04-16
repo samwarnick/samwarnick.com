@@ -5,6 +5,7 @@ summary: I've been feeling a bit envious of artists and designers and their cool
   studios and the stuff they create.
 published: true
 ---
+
 I've been watching a lot of studio tours lately. Designers and artists showing off their incredible and inspiring workspaces doesn't exactly make me depressed, but they do give me the sense that I'm missing out on something. Something tangible.
 
 I mostly make websites and apps. I don't write software for robots or machines or anything you would actually interact with. I make stuff to look at on your phone. You can't exactly hold a website. They don't take up space in the real world. Sometimes it gets old just sitting at my computer writing code all day, especially when nothing physical comes from it. It's neat seeing it on your phone or the App Store. But then it's gone.

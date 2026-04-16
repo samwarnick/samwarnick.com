@@ -4,6 +4,7 @@ date: 2025-06-04T14:58
 summary: My favorite data structure is a trie.
 published: true
 ---
+
 I was helping interview a candidate at work today. They asked me what my favorite data structure was. Perhaps surprisingly, I had an answer. A [trie](https://en.wikipedia.org/wiki/Trie).
 
 ![A trie for keys "A", "to", "tea", "ted", "ten", "i", "in", and "inn". Each complete English word has an arbitrary integer value associated with it.](https://samwarnick.com/media/Trie_example.svg.png)

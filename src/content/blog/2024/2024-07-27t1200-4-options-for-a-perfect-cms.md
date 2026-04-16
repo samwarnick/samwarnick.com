@@ -6,13 +6,14 @@ tags:
   - Blog
 published: true
 ---
+
 For the past few months, I've been thinking about my [Fantasy/Dream/Perfect CMS](https://shoptalkshow.com/612/). I'm almost to the point that I want to start tinkering with it and see if I can make anything of my ideas. Most of my ideas are not ground breaking, but quality of life improvements for myself. A few examples:
 
-* Automatically fix title casing of titles.
-* Suggest alt text for images.
-* Suggest a summary for post.
-* Micropub support so I can publish from iA Writer.
-* Upload images to CDN.
+- Automatically fix title casing of titles.
+- Suggest alt text for images.
+- Suggest a summary for post.
+- Micropub support so I can publish from iA Writer.
+- Upload images to CDN.
 
 There are a couple ways I could approach it, and I'm not totally sure what to do.
 

@@ -1,17 +1,18 @@
 ---
 title: Family Christmas Traditions
-date: '2024-12-25T17:23'
+date: "2024-12-25T17:23"
 summary: >-
   It wasn't always easy waiting to open presents, but I now love
   and appreciate a lot of the traditions my family had growing up.
 tags: []
 published: true
 ---
+
 ## Christmas Eve
 
 Christmas Eve was usually the day we decorated the Christmas tree. Some years, it was also the day we brought the tree into the house. For many years, my parents would get a live tree. By live tree, I mean a tree that still had a big, heavy root ball. We'd later dig a hole somewhere in the yard and plant it.
 
-As long as I can remember, my dad has always been in charge of Christmas Eve dinner. He lived in Germany for a couple of years, and one of the things he brought back with him is _Abendbrot_.  In Germany, this is just a light evening meal. For us, it meant getting meats, cheeses, and bread from the German deli (when possible). We'd also have rosehip tea, chocolates, and other sides.
+As long as I can remember, my dad has always been in charge of Christmas Eve dinner. He lived in Germany for a couple of years, and one of the things he brought back with him is _Abendbrot_. In Germany, this is just a light evening meal. For us, it meant getting meats, cheeses, and bread from the German deli (when possible). We'd also have rosehip tea, chocolates, and other sides.
 
 After dinner, we'd have a family talent show. After about age 6, my go-to talent was standing on my head. We'd read Christmas stories too.
 

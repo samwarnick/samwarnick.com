@@ -1,7 +1,7 @@
 ---
 title: Finding what sticks
-date: '2022-11-02T10:00'
-oldUrl: 'https://samwarnick.com/2022/11/finding-what-sticks'
+date: "2022-11-02T10:00"
+oldUrl: "https://samwarnick.com/2022/11/finding-what-sticks"
 published: true
 ---
 

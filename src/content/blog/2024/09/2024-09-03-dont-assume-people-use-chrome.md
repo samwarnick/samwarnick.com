@@ -5,6 +5,7 @@ summary: In 2024, I'm surprised at how many sites apps there are that only work
   in Chrome.
 published: true
 ---
+
 IMO, all browsers have one or more fatal flaws that make them bad. I've yet to find a browser that I'd call excellent. Safari is my browser of choice. I like that it's not owned by Google and it mostly works. Things are pretty good, but I'm still surprised at how often I come across a site that doesn't really work in Safari.
 
 As my daughter and I have been getting more into Pokémon, I've used a couple tools that don't download or print images correctly in Safari. Open them in Chrome, and they magically work.

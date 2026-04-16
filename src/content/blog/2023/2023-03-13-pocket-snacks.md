@@ -1,7 +1,7 @@
 ---
 title: Pocket Snacks
-date: '2023-03-13T17:00'
-oldUrl: 'https://samwarnick.com/2023/3/pocket-snacks'
+date: "2023-03-13T17:00"
+oldUrl: "https://samwarnick.com/2023/3/pocket-snacks"
 published: true
 ---
 

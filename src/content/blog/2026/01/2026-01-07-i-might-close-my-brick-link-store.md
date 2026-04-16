@@ -1,12 +1,13 @@
 ---
 title: I Might Close My BrickLink Store
-date: '2026-01-07T11:15'
+date: "2026-01-07T11:15"
 published: true
 summary: I'm trying to decide what to do with my BrickLink store.
 tags:
   - LEGO
   - BrickLink
 ---
+
 I opened my BrickLink store—[Lemon Point Bricks](https://store.bricklink.com/samwarnick#/shop)—about two years ago. I've had 32 orders in that time. Overall, it's been a pretty fun, money losing endeavor. Each order makes a small amount of money, but I'm still in the hole from initial inventory and supplies. I've got about 17,000 parts in my inventory. Pretty small in the grand scheme of things. But, that's a lot of pieces locked up in store inventory, that _could_ be in personal inventory.
 
 I've got a couple options.

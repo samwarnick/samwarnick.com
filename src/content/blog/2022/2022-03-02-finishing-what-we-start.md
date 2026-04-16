@@ -1,7 +1,7 @@
 ---
 title: Finishing What We Start
-date: '2022-03-02T10:00'
-oldUrl: 'https://samwarnick.com/2022/3/finishing-what-we-start'
+date: "2022-03-02T10:00"
+oldUrl: "https://samwarnick.com/2022/3/finishing-what-we-start"
 published: true
 ---
 
@@ -18,6 +18,9 @@ It is unhelpful to expect ourselves to "finish" every project we start. Experime
 Now go start a bunch of stuff and see what sticks.
 
 [^1]: I've been thinking about all this in the context of personal projects. Things change when other people are involved. If you're driving your friend to the airport, you should probably finish that and drop them off. If you started building a bench and you promised your spouse that you would finish it, you probably should. Unless abandoning the project and just buying a bench would make everyone happier. But that gets into a whole area of morals and ethics I don't want to dive into right now.
+
 [^2]: This sentence originally read: "I don't think anything can ever be finished." Then I thought about running. If you complete a race, that is done, finished. You cannot go back and change that race after it is complete. So I guess I'm talking about things we make, and not really things we do. If that makes sense...
+
 [^3]: Who hasn't?
+
 [^4]: Sure would be nice though!

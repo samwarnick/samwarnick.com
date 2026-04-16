@@ -5,7 +5,8 @@ summary: I'm creating an app to generate QR codes for easy access to manuals and
   notes for household items.
 published: true
 ---
-I was reading [Dave's post on index card journaling](https://catskull.net/index-card-journaling.html)  the other day. In it is a YouTube video.
+
+I was reading [Dave's post on index card journaling](https://catskull.net/index-card-journaling.html) the other day. In it is a YouTube video.
 
 {% youtube "https://youtu.be/B1QqAZeEfes" %}
 

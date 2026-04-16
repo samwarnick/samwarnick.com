@@ -1,6 +1,6 @@
 ---
 title: Winning The Fight Against OG Images
-date: '2025-12-13T20:03'
+date: "2025-12-13T20:03"
 published: true
 summary: >-
   I finally figured out a nearly somewhat solid solution for generating Open
@@ -11,6 +11,7 @@ tags:
   - Blog
   - Web Development
 ---
+
 Open Graph images have been the bane of my existence. I love them. Seeing a beautiful one in a link preview on Mastodon or iMessage is just chef's kiss. But for whatever reason, [generating them](https://samwarnick.com/blog/i-just-want-to-generate-an-og-image/), [caching them](https://samwarnick.com/blog/coolify-vs-dokploy/), etc. has nearly destroyed me. But I think I may have got an almost solid solution.
 
 On this blog, I have used [eleventy-plugin-og-image](https://github.com/KiwiKilian/eleventy-plugin-og-image) for a long time. Pretty simple to use, but build times take a long time if you have a lot of pages with OG images. With the Netlify cache plugin and a custom hash function, I was able to get my builds down [from a few minutes to like 1](https://samwarnick.com/blog/making-my-builds-300-faster/). No need to regenerate these images every time. But caching these images with Coolify seemed to be impossible.
@@ -26,4 +27,5 @@ My Coolify builds have gone down from about 10–12 minutes to 2–3. A huge win
 I think it's a somewhat simple solution that took me a lot of learning and time to get to. Yeah, ideally I would do it as part of the build. But I think this is about as good as I'm going to get[^2].
 
 [^1]: I create the hash from the page title and which image to use for the background. If either of those change, the hash will change, and a new image will be generated.
+
 [^2]: Until Coolify has a good option for caching between builds reliably.

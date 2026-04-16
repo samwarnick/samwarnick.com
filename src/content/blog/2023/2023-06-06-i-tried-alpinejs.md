@@ -1,7 +1,7 @@
 ---
 title: I tried Alpine
-date: '2023-06-06T08:00'
-oldUrl: 'https://samwarnick.com/2023/6/i-tried-alpine'
+date: "2023-06-06T08:00"
+oldUrl: "https://samwarnick.com/2023/6/i-tried-alpine"
 published: true
 ---
 

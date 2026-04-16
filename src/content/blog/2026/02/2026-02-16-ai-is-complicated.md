@@ -1,12 +1,13 @@
 ---
 title: AI Is Complicated
-date: '2026-02-16T13:40'
+date: "2026-02-16T13:40"
 published: true
 summary: >-
   Things are moving fast and I'm trying to understand it's role in my life and
   work.
 tags: []
 ---
+
 I'm writing this as a snapshot of my current feelings. I'm a human capable of learning and adapting, so who knows what I will think even six months from now.
 
 I use AI. I hate that it is called AI. I hate that they are trained on content without the creators' permission. I hate that people are talking about not hiring junior developers. I hate a lot about it. But I still use it. I still find value in it in my work. Compared to many, I am an unprincipled hypocrite. No excuse, but it's complicated. If I wanted to, I could probably take a hardline stance against AI and find another job if needed. But to be honest, I've grown to somewhat enjoy working with AIs. It's almost addicting. I am able to implement a side project in a weekend instead of months. I can try multiple iterations of an implementation at the same time and compare them. An AI will take a pass at spelling, grammar, and style guide on this post. I use it as a jumping off point for research and ideating. As an introvert, it is great having a thing I can bounce ideas off of at any time. Having an agent write code does let me expand my view and focus on the larger context. I find it to be a useful tool.

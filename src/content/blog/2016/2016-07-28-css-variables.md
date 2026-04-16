@@ -1,7 +1,7 @@
 ---
 title: CSS Variables?
-date: '2016-07-28T10:00'
-oldUrl: 'https://samwarnick.com/2016/7/css-variables'
+date: "2016-07-28T10:00"
+oldUrl: "https://samwarnick.com/2016/7/css-variables"
 published: true
 ---
 

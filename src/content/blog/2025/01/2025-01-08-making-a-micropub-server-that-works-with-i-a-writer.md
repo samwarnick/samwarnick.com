@@ -1,11 +1,12 @@
 ---
 title: Making a Micropub Server That Works With iA Writer
-date: '2025-01-08T09:51'
+date: "2025-01-08T09:51"
 summary: I built a simple Micropub server to create blog post drafts from iA Writer.
 tags:
   - Micropub
 published: true
 ---
+
 I enjoy using iA Writer to draft blog posts. It's simple and beautiful. Another cool thing is that it can integrate with [Micropub](https://indieweb.org/Micropub) to create drafts! In the past, I used Netlify functions act as my Micropub server. There is a [great project](https://github.com/benjifs/micropub) for this.
 
 For various reasons, I wanted to make my own server and self-host it. My server is made with Bun, Hono, and TypeScript. Images are stored locally and I use the GitHub API to create new Markdown files.
@@ -25,10 +26,10 @@ There are really only 3 endpoints that need to be implemented.
 This is simple—return JSON your media endpoint:
 
 ```ts
-app.get('/', auth, async (c) => {
-    return c.json({
-        'media-endpoint': `${Bun.env.MICROPUB_URL}/media`,
-    });
+app.get("/", auth, async (c) => {
+  return c.json({
+    "media-endpoint": `${Bun.env.MICROPUB_URL}/media`,
+  });
 });
 ```
 
@@ -40,12 +41,12 @@ This is the endpoint used to create a new draft. iA Writer will send JSON:
 
 ```json
 {
-    "type": ["h-entry"],
-    "properties": {
-        "name": "Blog post title",
-        "content": "Markdown of post",
-        "post-status": "draft"
-    }
+  "type": ["h-entry"],
+  "properties": {
+    "name": "Blog post title",
+    "content": "Markdown of post",
+    "post-status": "draft"
+  }
 }
 ```
 
@@ -54,17 +55,17 @@ You can read more about the spec and what could be sent on [w3](https://www.w3.o
 My server handles that request, creates the contents of a Markdown file with the frontmatter I want, and creates a new file in my GitHub repo using the GitHub API.
 
 ```ts
-app.post('/', auth, zValidator('json', micropubSchema), async (c) => {
-    const { properties } = c.req.valid('json');
-    const fileContent = await generateMarkdown(properties, altTextCache);
-    const filename = generateFilename(properties);
-    const response = await addFile(filename, fileContent);
-    if (response.status === 201) {
-        altTextCache = {};
-        c.res.headers.set('Location', generateEditUrl(filename));
-        return c.json({}, 202);
-    }
-    throw new HTTPException(500);
+app.post("/", auth, zValidator("json", micropubSchema), async (c) => {
+  const { properties } = c.req.valid("json");
+  const fileContent = await generateMarkdown(properties, altTextCache);
+  const filename = generateFilename(properties);
+  const response = await addFile(filename, fileContent);
+  if (response.status === 201) {
+    altTextCache = {};
+    c.res.headers.set("Location", generateEditUrl(filename));
+    return c.json({}, 202);
+  }
+  throw new HTTPException(500);
 });
 ```
 
@@ -79,13 +80,13 @@ You might notice that I am setting the `Location` header on the response. One ne
 Media is added with a form request, not JSON. You get the `file` and a `purpose` of `"image"`.
 
 ```ts
-app.post('/media', auth, zValidator('form', mediaSchema), async (c) => {
-    const { file } = c.req.valid('form');
-    await Bun.write(`./media/${file.name}`, file);
-    // Other less important stuff
-    // ...
-    c.res.headers.set('Location', `https://samwarnick.com/media/${file.name}`);
-    return c.json({}, 202);
+app.post("/media", auth, zValidator("form", mediaSchema), async (c) => {
+  const { file } = c.req.valid("form");
+  await Bun.write(`./media/${file.name}`, file);
+  // Other less important stuff
+  // ...
+  c.res.headers.set("Location", `https://samwarnick.com/media/${file.name}`);
+  return c.json({}, 202);
 });
 ```
 

@@ -1,8 +1,8 @@
 ---
 title: I Almost Feel Like Doing Something
-date: '2025-10-22T19:41'
+date: "2025-10-22T19:41"
 published: true
-summary: 'Watch out, I might start doing stuff again.'
+summary: "Watch out, I might start doing stuff again."
 tags:
   - TMI
 ---

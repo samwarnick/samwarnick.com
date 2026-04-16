@@ -1,10 +1,10 @@
 ---
 title: The Perfect Stack
-date: '2024-04-05T15:00'
+date: "2024-04-05T15:00"
 summary: I have finally found the perfect stack for web development. You're welcome.
 tags:
   - Web Development
-oldUrl: 'https://samwarnick.com/2024/4/the-perfect-stack'
+oldUrl: "https://samwarnick.com/2024/4/the-perfect-stack"
 published: true
 ---
 
@@ -13,6 +13,7 @@ Dear Dave,
 I will preface this by saying this is unequivocally the perfect stack for every project in every situation. No nuance or qualifications. It can't be perfect if you have to think about it.
 
 Without further ado, here's the perfect stack:
+
 - Bun
 - Hono
 - HTMX
@@ -43,14 +44,14 @@ But, can we make it more perfect? Yes. Add [Drizzle ORM](https://orm.drizzle.tea
 
 ```ts
 export const favoriteMovies = sqliteTable("favorite_movies", {
-	id: integer("id").notNull().unique(),
-	title: text("title").notNull(),
-	release_date: text("release_date").notNull(),
-	poster_path: text("poster_path").notNull(),
+  id: integer("id").notNull().unique(),
+  title: text("title").notNull(),
+  release_date: text("release_date").notNull(),
+  poster_path: text("poster_path").notNull(),
 });
 export type Movie = InferSelectModel<typeof favoriteMovies>;
 export const insertMovieSchema = createInsertSchema(favoriteMovies, {
-	id: z.coerce.number(),
+  id: z.coerce.number(),
 });
 ```
 
@@ -115,12 +116,13 @@ What about styles? Add [PicoCSS](https://picocss.com) and never look back. Never
 So there we have it—the perfect stack. Never thought I'd live to see the day, but sure am glad I did before the AIs took over. I've been using it for well over 2 days now and have had zero problems, because it's perfect.
 
 To summarize:
+
 - Bun
-	- SQLite
+  - SQLite
 - Hono
-	- JSX
-	- Drizzle ORM
-	- Zod
+  - JSX
+  - Drizzle ORM
+  - Zod
 - HTMX
 - Alpine.js
 - PicoCSS

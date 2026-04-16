@@ -1,11 +1,11 @@
 ---
 title: Focuses by the Numbers
-date: '2020-03-24T10:00'
+date: "2020-03-24T10:00"
 thumbnail: 2020-03-23-focuses.jpg
 tags:
   - Projects
   - Focuses
-oldUrl: 'https://samwarnick.com/2020/3/focuses-by-the-numbers'
+oldUrl: "https://samwarnick.com/2020/3/focuses-by-the-numbers"
 published: true
 ---
 

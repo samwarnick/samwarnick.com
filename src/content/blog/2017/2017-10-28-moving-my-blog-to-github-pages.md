@@ -1,7 +1,7 @@
 ---
 title: Moving My Blog To GitHub Pages
-date: '2017-10-28T10:00'
-oldUrl: 'https://samwarnick.com/2017/10/moving-my-blog-to-github-pages'
+date: "2017-10-28T10:00"
+oldUrl: "https://samwarnick.com/2017/10/moving-my-blog-to-github-pages"
 published: true
 ---
 

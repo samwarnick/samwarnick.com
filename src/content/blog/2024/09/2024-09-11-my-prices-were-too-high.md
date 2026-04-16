@@ -6,6 +6,7 @@ tags:
   - BrickLink
 published: true
 ---
+
 I opened my BrickLink store earlier this year. Between March and September, I had 7 orders. Not that many. In the last week and a half, I've had 10 orders. The difference? A 30% sale.
 
 I'm a real small store. Currently around 18,000 pieces. So I'm not expecting a lot of orders. But after a couple months of no orders, I felt the need to experiment. I updated all my prices to the current 6-month average selling price, and then put everything on a 30% sale.

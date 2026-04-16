@@ -1,7 +1,7 @@
 ---
 title: I'm not ready for visionOS and Spatial Computing
-date: '2023-06-12T08:00'
-oldUrl: 'https://samwarnick.com/2023/6/im-not-ready-for-visionos-and-spatial-computing'
+date: "2023-06-12T08:00"
+oldUrl: "https://samwarnick.com/2023/6/im-not-ready-for-visionos-and-spatial-computing"
 published: true
 ---
 

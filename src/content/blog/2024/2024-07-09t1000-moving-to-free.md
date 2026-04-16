@@ -4,6 +4,7 @@ date: 2024-07-09T10:00
 summary: If you can, help support the software you use.
 published: true
 ---
+
 I have written about moving my blog from [Blot.im](http://Blot.im) to Eleventy and Netlify (free), shutting down my Mastodon server to just use [mastodon.social](http://mastodon.social) (free), and shutting down my other Ghost blog and bringing it into this blog (free). This change frees up about $30/month. Not an insignificant amount of money. But not paying for things made me feel kinda weird?
 
 Cost was a reason, but not the only reason I made these changes. I'm not one of those people who refuses to pay for apps and services. I want to support high quality software and software developers, especially if they are the right solution for me and saves me time and effort. I pay for a lot of services—too many really—but I want to be more mindful of who I'm supporting with my money and why. I realized that I should do more to make sure the right people are getting my money.

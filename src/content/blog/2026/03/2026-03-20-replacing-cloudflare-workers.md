@@ -1,6 +1,6 @@
 ---
 title: Replacing Cloudflare Workers
-date: '2026-03-20T09:53'
+date: "2026-03-20T09:53"
 published: true
 summary: >-
   I stayed up too late adding Netlify Functions support to my Deploybot 3000
@@ -9,6 +9,7 @@ tags:
   - Self-hosting
   - Projects
 ---
+
 > Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they _should_.
 > — Dr. Ian Malcolm
 
@@ -26,13 +27,13 @@ Here's a slimmed down version of the function runner server:
 
 ```ts
 Bun.serve({
-    port: 3000,
-    async fetch(req) {
-        const path = new URL(req.url).pathname;
-        const module = await import(`./functions${path}.js`).catch(() => null);
-        if (!module) return new Response("Not found", { status: 404 });
-        return module.default(req);
-    },
+  port: 3000,
+  async fetch(req) {
+    const path = new URL(req.url).pathname;
+    const module = await import(`./functions${path}.js`).catch(() => null);
+    if (!module) return new Response("Not found", { status: 404 });
+    return module.default(req);
+  },
 });
 ```
 

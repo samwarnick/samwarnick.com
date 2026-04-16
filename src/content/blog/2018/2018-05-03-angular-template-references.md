@@ -1,7 +1,7 @@
 ---
 title: Angular Template References
-date: '2018-05-03T10:00'
-oldUrl: 'https://samwarnick.com/2018/5/angular-template-references'
+date: "2018-05-03T10:00"
+oldUrl: "https://samwarnick.com/2018/5/angular-template-references"
 published: true
 ---
 
@@ -52,7 +52,7 @@ You might be asking yourself right about now, "Can I only put template refs on r
 
 ```angular-html
 <hello #hello></hello>
-<p>{{hello.howManyTimesHasHelloWorldBeenDoneBefore}}</p>
+<p>{{ hello.howManyTimesHasHelloWorldBeenDoneBefore }}</p>
 ```
 
 So there's probably some cool things you can do with that. I haven't messed with it much.
@@ -106,14 +106,14 @@ I've tried doing something like
 
 ```angular-html
 <input type="text" #input />
-<p>{{input.value}}</p>
+<p>{{ input.value }}</p>
 ```
 
 In hopes of it printing out the value of the input as you type. It doesn't seem to work. You can add `change` to the input and that will show the value, not as you type, but on blur.
 
 ```angular-html
-<input type="text" (change)="true" #input />
-<p>{{input.value}}</p>
+<input type="text" (change)="(true)" #input />
+<p>{{ input.value }}</p>
 ```
 
 Won't lie, don't really understand what's going on here. But adding `(change)="true"` triggers change detection.

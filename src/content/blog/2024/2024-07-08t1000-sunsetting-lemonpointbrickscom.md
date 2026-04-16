@@ -8,6 +8,7 @@ tags:
   - Blog
 published: true
 ---
+
 [2024 is the year of LEGO for me](/blog/the-year-of-lego/). As part of that I started an Instagram to show off some of the things I was working on. I hadn't used Instagram in years and I don't like it anymore. So I started a new blog. I like that better. As a self-hosted Ghost instance, I owned it all.
 
 But in a story as old as time, I lost steam. I wasn't posting as regularly as I had hoped to. I just got excited and got ahead of myself. It started to seem like a waste of resources to have a whole separate blog for something I was sporadically posting to.

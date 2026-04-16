@@ -1,6 +1,6 @@
 ---
 title: What I'm Eating Right Now
-date: '2026-04-12T20:10'
+date: "2026-04-12T20:10"
 published: true
 summary: >-
   My eating habits got a bit out of control, so I created some simple rules to
@@ -8,6 +8,7 @@ summary: >-
 tags:
   - TMI
 ---
+
 I always need a project. I get pretty depressed if I don't have one. I don't always choose them. Sometimes they find me. That's what happened here. I noticed that my eating habits have become quite bad. Before I knew it, fixing my diet was my project.
 
 Without any structure or rules, my natural diet is eating an entire package of Oreos in a single sitting. A couple decades ago, this was sustainable. Not any longer. Over the last 18 months or so, my diet had become increasingly lax. Snuck up on me. I started filling any and all downtime with snacking. Just something to do when I'm bored. And because of my work schedule, I had been eating my biggest meals, lunch and dinner, quite close together. I would be so hungry for lunch, I'd overeat. I just eat a lot in general. I needed new rules.

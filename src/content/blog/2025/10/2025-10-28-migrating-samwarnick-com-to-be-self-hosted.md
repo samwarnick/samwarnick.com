@@ -1,12 +1,13 @@
 ---
 title: Migrating samwarnick.com to Be Self-Hosted
-date: '2025-10-28T10:34'
+date: "2025-10-28T10:34"
 published: true
 summary: I moved my blog from Netlify to my self-hosted Coolify instance. Am I stupid?
 tags:
   - Self-hosting
   - Blog
 ---
+
 As an experiment, I wanted to explore what it would take to move samwarnick.com from Netlify to my self-hosted Coolify instance. I knew I could have it build and serve an Eleventy site. That was the easy part. But I actually use quite a few different features of Netlify for this blog.
 
 There were five challenges I needed to find solutions for:
@@ -34,7 +35,7 @@ package = "netlify-plugin-cache"
 paths = [".cache", "_site/og-images"]
 ```
 
-With Coolify, I'm using the magical Nixpacks to build and serve the blog. I went down a few rabbit holes of trying to write the og-images to the host server and copying them back and stuff. Wasn't looking pretty. Turns out, [Nixpacks has an option for this](https://nixpacks.com/docs/configuration/file#cache-directories)! I added a `nixpacks.toml` and added some stuff. 
+With Coolify, I'm using the magical Nixpacks to build and serve the blog. I went down a few rabbit holes of trying to write the og-images to the host server and copying them back and stuff. Wasn't looking pretty. Turns out, [Nixpacks has an option for this](https://nixpacks.com/docs/configuration/file#cache-directories)! I added a `nixpacks.toml` and added some stuff.
 
 ```toml
 [phases.build]
@@ -71,7 +72,7 @@ With Coolify, nginx is the web server. nginx is pretty capable right? Turns out,
 ...
 ```
 
-Coolify exposes the nginx config through the UI so it is easily editable. nginx has something called [maps](https://nginx.org/en/docs/http/ngx_http_map_module.html). Basically, if the request URI is in the map, use the redirect URI instead. I'm like in the bottom 10% of nginx users, so don't ask me how it works. 
+Coolify exposes the nginx config through the UI so it is easily editable. nginx has something called [maps](https://nginx.org/en/docs/http/ngx_http_map_module.html). Basically, if the request URI is in the map, use the redirect URI instead. I'm like in the bottom 10% of nginx users, so don't ask me how it works.
 
 ```
 map_hash_bucket_size 128;
@@ -121,6 +122,7 @@ export default async (req: Request, context: Context) => {
 ```
 
 The cool thing about the Netlify function is that I could configure it to include the feed file so the function has easy access to it:
+
 ```toml
 [functions]
 directory = "functions"
@@ -131,18 +133,18 @@ My cheat solution is to use a Cloudflare worker instead:
 
 ```js
 export default {
-	async fetch(request, env, ctx) {
-		const response = await fetch(`https://samwarnick.com/feed.json`);
-		const data = await response.json();
-		const randomIndex = Math.floor(Math.random() * data.items.length);
-		const randomUrl = data.items[randomIndex].url;
-		return new Response(`Redirecting to ${randomUrl}...`, {
-			status: 302,
-			headers: {
-				Location: randomUrl,
-			}
-		});
-	},
+  async fetch(request, env, ctx) {
+    const response = await fetch(`https://samwarnick.com/feed.json`);
+    const data = await response.json();
+    const randomIndex = Math.floor(Math.random() * data.items.length);
+    const randomUrl = data.items[randomIndex].url;
+    return new Response(`Redirecting to ${randomUrl}...`, {
+      status: 302,
+      headers: {
+        Location: randomUrl,
+      },
+    });
+  },
 };
 ```
 
@@ -176,14 +178,18 @@ But, now images are being optimized on my server!
 
 As of October 27, 2025, samwarnick.com is self-hosted. Is this worth it? That's the big question. Probably not. But it's fun! Dave said, "instead of asking 'is it worth it?' ask yourself 'what did I learn?'" So what did I learn? A lot. Like, it's possible! That is a really cool feeling. We don't need these huge corporations to host our stuff. Are they the right solution a lot of the time? Yeah. Are there alternatives? Definitely. I still have the Beelink Mini PC I ordered sitting on my desk, unopened. It was neat figuring out how to do this on the hardware I already have. I will probably return it unless Carter convinces me otherwise. It may not be exactly simple or easy, but it's possible, even for a n00b like me.
 
-It just feels cool to have _my_ blog on _my_ server in _my_ closet (with a little help from Cloudflare.) 
+It just feels cool to have _my_ blog on _my_ server in _my_ closet (with a little help from Cloudflare.)
 
 My blog does not get much traffic, so I'm not too worried about it bringing my house down[^5]. I am a little worried about if my internet or power goes out. For now, I will keep Netlify going, and I can switch over some DNS records to point back at Netlify if I need to. Builds are slower too. Netlify builds take like one minute. On Coolify, they take anywhere between two and three minutes. More if Nixpacks decides it no longer has the cache. Probably something better hardware can fix.
 
 I don't know if I will do this permanently or not. But it's been an exciting adventure.
 
 [^1]: [So do others.](https://github.com/coollabsio/coolify/discussions/2772)
+
 [^2]: Carter.
+
 [^3]: If there is, please tell me. I'm interested.
+
 [^4]: Not literally everything. I have some other stuff in the nginx config to handle videos, audio, etc.
+
 [^5]: Should I be?

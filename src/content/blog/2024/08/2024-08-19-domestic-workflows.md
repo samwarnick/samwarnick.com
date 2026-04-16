@@ -4,6 +4,7 @@ date: 2024-08-19T11:17
 summary: Sometimes owning one of a thing is just not enough.
 published: true
 ---
+
 [ATP recently had a member's special](https://atp.fm/atp-insider-domestic-workflows) where they talked about "domestic workflows", or things they do that make day-to-day life at home easier. Interesting to think about.
 
 Here's mine:

@@ -1,11 +1,12 @@
 ---
 title: Internet Driven Memories
-date: '2026-04-14T09:12'
+date: "2026-04-14T09:12"
 published: true
 summary: The Internet made a lot of my core memories possible.
 tags:
   - April 2026 Blog Challenge
 ---
+
 ## 1990s
 
 I don't think we always had the Internet at home, but I don't remember not having it.
@@ -52,11 +53,11 @@ I'm older, but I'm still a kid trying to figure stuff out. I'm building things f
 
 I have a server in my closet that hosts a couple websites and apps. But not my email.
 
-----
+---
 
 These are some of the first things I think of when I think about the Internet. I don't think my experience is especially novel for someone my age, but it is all core to who I am. The Internet made all these memories and experiences possible. Not everything about the Internet is positive, but these memories are. I hope everyone can experience that. The Internet is built for everyone.
 
-----
+---
 
 My friends and I decided to do a weekly blog challenge for the month of April, 2026! Each week, one of us chooses a prompt and we all write posts.
 
@@ -64,6 +65,7 @@ For week 2, Jared chose the prompt:
 **"What are your favorite places on the internet or favorite things about the internet and why? How do they differ from the parts of the internet that you dislike"**
 
 My friends' posts this week:
+
 - [Carter](https://carter.works/blog/2026-04-14-my-favorite-places-on-the-internet/)
 - [Dave](https://catskull.net/the-internet-is-a-vast-place.html)
 - [Jared](https://jaredezz.tech/posts/preferred-corners-of-the-internet/)

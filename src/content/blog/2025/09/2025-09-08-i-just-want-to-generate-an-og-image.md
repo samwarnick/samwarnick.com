@@ -1,6 +1,6 @@
 ---
 title: I Just Want to Generate an OG Image
-date: '2025-09-08T20:55'
+date: "2025-09-08T20:55"
 published: true
 summary: I'm trying to generate OG images for ScreenCred on Cloudflare Workers.
 tags:
@@ -10,7 +10,7 @@ tags:
 
 I'm migrating ScreenCred to be a web app. In a shocking move of abandoning the Perfect Stack, I'm giving SvelteKit a try. Aside from the mediocre WebStorm support, I'm liking it. But that is probably a story for another day.
 
-One feature of ScreenCred that only I care about is that when you share a link to a comparison, an OG Image is generated for it. Because of the vast number of possibilities, it's unfeasible to generate these beforehand, so it needs to be done dynamically. 
+One feature of ScreenCred that only I care about is that when you share a link to a comparison, an OG Image is generated for it. Because of the vast number of possibilities, it's unfeasible to generate these beforehand, so it needs to be done dynamically.
 
 ScreenCred is currently built with Astro and running on fly.io. OG Images are generated with puppeteer. This lets me style it with HTML and CSS, but is slow and memory intensive. Since I built that, I've learned about [`satori`](https://github.com/vercel/satori) and [`resvg-js`](https://github.com/thx/resvg-js). `satori` helps create SVGs using familiar HTML and CSS, and `resvg-js` converts the SVG to PNG. A much more straightforward pipeline than spinning up headless Chrome, rendering a webpage, and taking a screenshot.
 

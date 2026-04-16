@@ -1,9 +1,9 @@
 ---
-title: 'Uses: Mini Ring Notebook'
-date: '2024-04-29T17:00'
+title: "Uses: Mini Ring Notebook"
+date: "2024-04-29T17:00"
 tags:
   - Uses
-oldUrl: 'https://samwarnick.com/2024/4/uses-mini-ring-notebook'
+oldUrl: "https://samwarnick.com/2024/4/uses-mini-ring-notebook"
 published: true
 ---
 

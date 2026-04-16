@@ -1,10 +1,10 @@
 ---
 title: ScreenCred in App Review
-date: '2023-07-19T09:00'
+date: "2023-07-19T09:00"
 tags:
   - Projects
   - ScreenCred
-oldUrl: 'https://samwarnick.com/2023/7/screencred-in-app-review'
+oldUrl: "https://samwarnick.com/2023/7/screencred-in-app-review"
 published: true
 ---
 

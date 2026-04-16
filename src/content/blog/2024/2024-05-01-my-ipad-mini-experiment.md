@@ -1,8 +1,8 @@
 ---
 title: My iPad mini Experiment
-date: '2024-05-01T20:00'
+date: "2024-05-01T20:00"
 summary: An iPad mini has entered my life.
-oldUrl: 'https://samwarnick.com/2024/5/my-ipad-mini-experiment'
+oldUrl: "https://samwarnick.com/2024/5/my-ipad-mini-experiment"
 published: true
 ---
 

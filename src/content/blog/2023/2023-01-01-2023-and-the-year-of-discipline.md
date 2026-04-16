@@ -1,9 +1,9 @@
 ---
 title: 2023 and the Year of Discipline
-date: '2023-01-01T12:00'
+date: "2023-01-01T12:00"
 tags:
   - 2023—Year of Discipline
-oldUrl: 'https://samwarnick.com/2023/1/2023-and-the-year-of-discipline'
+oldUrl: "https://samwarnick.com/2023/1/2023-and-the-year-of-discipline"
 published: true
 ---
 

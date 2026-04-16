@@ -2,16 +2,14 @@ import { createReadStream } from "node:fs";
 import { parse } from "csv-parse";
 
 export async function parseCSV(filePath, encoding = "utf8", options = {}) {
-	const records = [];
+  const records = [];
 
-	// Create a read stream
-	const parser = createReadStream(filePath, encoding).pipe(
-		parse(options),
-	);
+  // Create a read stream
+  const parser = createReadStream(filePath, encoding).pipe(parse(options));
 
-	for await (const record of parser) {
-		records.push(record);
-	}
+  for await (const record of parser) {
+    records.push(record);
+  }
 
-	return records;
+  return records;
 }

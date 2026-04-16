@@ -1,7 +1,7 @@
 ---
 title: How I Journal
-date: '2022-03-21T10:00'
-oldUrl: 'https://samwarnick.com/2022/3/how-i-journal'
+date: "2022-03-21T10:00"
+oldUrl: "https://samwarnick.com/2022/3/how-i-journal"
 published: true
 ---
 

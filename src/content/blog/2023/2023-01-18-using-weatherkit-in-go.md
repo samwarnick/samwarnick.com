@@ -1,7 +1,7 @@
 ---
 title: Using WeatherKit in Go
-date: '2023-01-18T17:50'
-oldUrl: 'https://samwarnick.com/2023/1/using-weatherkit-in-go'
+date: "2023-01-18T17:50"
+oldUrl: "https://samwarnick.com/2023/1/using-weatherkit-in-go"
 published: true
 ---
 

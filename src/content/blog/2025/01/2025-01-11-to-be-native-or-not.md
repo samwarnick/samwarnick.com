@@ -1,12 +1,13 @@
 ---
 title: To Be Native or Not
-date: '2025-01-11T11:18'
+date: "2025-01-11T11:18"
 summary: >-
-    I wish we could just say build a web app. But it's not always that simple.
+  I wish we could just say build a web app. But it's not always that simple.
 tags: []
 published: true
 ---
-A couple of weeks ago, [a blog post](https://rogueengine.io/blog/your-app-should-have-been-a-website) started circulating about how your app should be a website. I think there are a lot of good points in there, and I agree with most of it. The problem I have is the word _should_.  I would prefer _could_. 
+
+A couple of weeks ago, [a blog post](https://rogueengine.io/blog/your-app-should-have-been-a-website) started circulating about how your app should be a website. I think there are a lot of good points in there, and I agree with most of it. The problem I have is the word _should_. I would prefer _could_.
 
 IMO, there are lots of reasons to still go native, at least on iOS—I know nothing about Android. You want system features like widgets, Shortcuts, CloudKit, haptics, etc. Or, and maybe most importantly, you just enjoy building native apps, and that's what you want to do.
 

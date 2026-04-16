@@ -1,7 +1,7 @@
 ---
 title: Vacation routines
-date: '2022-11-28T10:00'
-oldUrl: 'https://samwarnick.com/2022/11/vacation-routines'
+date: "2022-11-28T10:00"
+oldUrl: "https://samwarnick.com/2022/11/vacation-routines"
 published: true
 ---
 

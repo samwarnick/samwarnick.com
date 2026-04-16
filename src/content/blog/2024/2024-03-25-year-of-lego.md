@@ -16,7 +16,7 @@ I started my city with one modular building, the [Detective’s Office](https://
 
 ![LEGO Bookshop and Detective's Office modular buildings with brick-built roads alongside](https://samwarnick.com/media/IMG_7543.jpeg "LEGO did most of the heavy lifting, but I think it looks great!")
 
-Since I had already pretty much gone insane, and those cool Akro-Mils drawers would fit perfectly in my closet, I thought why not start a BrickLink store too? It’s the year of LEGO after all. Too much money later, [that’s exactly what I did](https://store.bricklink.com/samwarnick&amp;utm_content=globalnav#/shop). Opened up February 15, 2024.
+Since I had already pretty much gone insane, and those cool Akro-Mils drawers would fit perfectly in my closet, I thought why not start a BrickLink store too? It’s the year of LEGO after all. Too much money later, [that’s exactly what I did](https://store.bricklink.com/samwarnick&utm_content=globalnav#/shop). Opened up February 15, 2024.
 
 ![8 sets Akro-Mils drawers tightly fit into a closet](https://samwarnick.com/media/IMG_7526.jpeg "They fit so perfectly, I'd be stupid not to do it.")
 

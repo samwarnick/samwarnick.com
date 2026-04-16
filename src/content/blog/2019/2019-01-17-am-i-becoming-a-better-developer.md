@@ -1,7 +1,7 @@
 ---
 title: Am I Becoming A Better Developer?
-date: '2019-01-17T10:00'
-oldUrl: 'https://samwarnick.com/2019/1/am-i-becoming-a-better-developer'
+date: "2019-01-17T10:00"
+oldUrl: "https://samwarnick.com/2019/1/am-i-becoming-a-better-developer"
 published: true
 ---
 

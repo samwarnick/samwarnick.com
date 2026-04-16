@@ -1,7 +1,7 @@
 ---
 title: An Itch to Blog
-date: '2022-02-18T10:00'
-oldUrl: 'https://samwarnick.com/2022/2/an-itch-to-blog'
+date: "2022-02-18T10:00"
+oldUrl: "https://samwarnick.com/2022/2/an-itch-to-blog"
 published: true
 ---
 

@@ -1,83 +1,93 @@
 ul.pages-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: var(--spacing);
-    flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: var(--spacing);
+  flex-wrap: wrap;
 
-    li {
-        a, label, button {
-            padding: 0.1em 0.5em;
-            border-radius: var(--border-radius);
-            border: 2px solid transparent;
-            transition: background 0.2s ease-in-out;
-            display: block;
-            background: color-mix(in srgb, color-mix(in srgb, var(--accent-color), white 85%), transparent 15%);
-            backdrop-filter: blur(10px);
-            position: relative;
+  li {
+    a,
+    label,
+    button {
+      padding: 0.1em 0.5em;
+      border-radius: var(--border-radius);
+      border: 2px solid transparent;
+      transition: background 0.2s ease-in-out;
+      display: block;
+      background: color-mix(
+        in srgb,
+        color-mix(in srgb, var(--accent-color), white 85%),
+        transparent 15%
+      );
+      backdrop-filter: blur(10px);
+      position: relative;
 
-            &:focus-visible {
-                outline: 2px solid var(--accent-color);
-                outline-offset: 2px;
-            }
-        }
-
-        button {
-            height: 100%;
-        }
-
-        label {
-            cursor: pointer;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-shadow: 0 0 2px var(--background-color);
-
-            &:has(input:checked) {
-                border-color: var(--accent-color);
-                background: color-mix(in srgb, var(--accent-color), transparent 60% );
-            }
-
-            &:has(:focus-visible) {
-                outline: 2px solid var(--accent-color);
-                outline-offset: 2px;
-            }
-        }
-
-        a[aria-hidden="true"] {
-            opacity: 0;
-            width: 0;
-            padding-inline: 0;
-            border-inline: none;
-        }
-
-        input {
-            appearance: none;
-            width: 0;
-
-            &:focus-visible {
-                outline: none;
-            }
-        }
-
-        &.highlight a {
-            border-color: var(--accent-color);
-            --size: 14px;
-            --offset: calc(var(--size) / 2 * -1);
-
-            &::before {
-                content: "";
-                position: absolute;
-                height: var(--size);
-                width: var(--size);
-                border-radius: 50%;
-                border: 2px solid var(--accent-color);
-                background: var(--background-color);
-                background: color-mix(in srgb, var(--accent-color), var(--background-color) 60% );
-                right: var(--offset);
-                top: var(--offset);
-            }
-        }
+      &:focus-visible {
+        outline: 2px solid var(--accent-color);
+        outline-offset: 2px;
+      }
     }
+
+    button {
+      height: 100%;
+    }
+
+    label {
+      cursor: pointer;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-shadow: 0 0 2px var(--background-color);
+
+      &:has(input:checked) {
+        border-color: var(--accent-color);
+        background: color-mix(in srgb, var(--accent-color), transparent 60%);
+      }
+
+      &:has(:focus-visible) {
+        outline: 2px solid var(--accent-color);
+        outline-offset: 2px;
+      }
+    }
+
+    a[aria-hidden="true"] {
+      opacity: 0;
+      width: 0;
+      padding-inline: 0;
+      border-inline: none;
+    }
+
+    input {
+      appearance: none;
+      width: 0;
+
+      &:focus-visible {
+        outline: none;
+      }
+    }
+
+    &.highlight a {
+      border-color: var(--accent-color);
+      --size: 14px;
+      --offset: calc(var(--size) / 2 * -1);
+
+      &::before {
+        content: "";
+        position: absolute;
+        height: var(--size);
+        width: var(--size);
+        border-radius: 50%;
+        border: 2px solid var(--accent-color);
+        background: var(--background-color);
+        background: color-mix(
+          in srgb,
+          var(--accent-color),
+          var(--background-color) 60%
+        );
+        right: var(--offset);
+        top: var(--offset);
+      }
+    }
+  }
 }

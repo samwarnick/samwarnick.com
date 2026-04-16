@@ -1,7 +1,7 @@
 ---
 title: Making Send to Nowhere
-date: '2017-04-19T10:00'
-oldUrl: 'https://samwarnick.com/2017/4/making-send-to-nowhere'
+date: "2017-04-19T10:00"
+oldUrl: "https://samwarnick.com/2017/4/making-send-to-nowhere"
 published: true
 ---
 

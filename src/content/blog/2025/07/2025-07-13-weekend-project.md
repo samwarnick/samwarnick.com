@@ -1,6 +1,6 @@
 ---
 title: Weekend Project
-date: '2025-07-13T20:24'
+date: "2025-07-13T20:24"
 published: true
 summary: >-
   I built a CLI tool to "simplify" my blogging workflow and move away from my
@@ -9,6 +9,7 @@ tags:
   - Web Development
   - Blog
 ---
+
 If you're not familiar with the Rube Goldberg machine that powers this blog, here's the high level. I start a post in iA Writer. When that is done, I publish through iA Writer to a Micropub server I run on my Synology. That will upload images to my Synology, and use Claude to suggest descriptions and alt text for images. It then saves a new file with the GitHub API to my blog repo. Then it opens up PagesCMS for me to do some final checks and hit publish. That fires off a build on Netlify.
 
 Clear as mud?
@@ -19,7 +20,7 @@ So, my weekend project: `perfect-cms-cli`.
 
 My hope was to move to a more local first workflow. Using Bun, I made a little CLI to handle a lot of the most annoying things about blogging for me. When using a SSG like Eleventy, I find managing frontmatter and images to be the most annoying.
 
-It's built with Bun and then compiled as an executable CLI. 
+It's built with Bun and then compiled as an executable CLI.
 
 ```sh
 bun build ./index.ts --compile --outfile cms
@@ -29,7 +30,7 @@ mv cms /usr/local/bin/cms
 Some key packages I used are:
 
 - [@inquirer/prompts](https://github.com/SBoudrias/Inquirer.js) for nice command line prompts
-- [@sindresorhus/slugify](https://github.com/sindresorhus/slugify) for turning strings into nice file slugs 
+- [@sindresorhus/slugify](https://github.com/sindresorhus/slugify) for turning strings into nice file slugs
 - [commander](https://github.com/tj/commander.js) for easily adding commands to the CLI
 - [date-fns](https://github.com/date-fns/date-fns) for formatting dates
 - [gray-matter](https://github.com/jonschlinkert/gray-matter) for parsing and updating the frontmatter of markdown files
@@ -79,9 +80,9 @@ To make images work with Eleventy, I needed to make a small change:
 
 ```js
 if (process.env.ELEVENTY_RUN_MODE !== "build") {
-    eleventyConfig.addPassthroughCopy({
-        "src/content/blog/_drafts/media": "media"
-    });
+  eleventyConfig.addPassthroughCopy({
+    "src/content/blog/_drafts/media": "media",
+  });
 }
 ```
 

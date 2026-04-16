@@ -1,7 +1,7 @@
 ---
-title: 'The Millionaire Fastlane, by MJ DeMarco'
-date: '2023-04-03T11:00'
-oldUrl: 'https://samwarnick.com/2023/4/the-millionaire-fastlane-by-mj-demarco'
+title: "The Millionaire Fastlane, by MJ DeMarco"
+date: "2023-04-03T11:00"
+oldUrl: "https://samwarnick.com/2023/4/the-millionaire-fastlane-by-mj-demarco"
 published: true
 ---
 

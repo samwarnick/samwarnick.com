@@ -1,6 +1,6 @@
 ---
 title: Making My Own Pokemon Booster Packs
-date: '2025-08-04T09:29'
+date: "2025-08-04T09:29"
 published: true
 summary: >-
   I'm making custom Pokémon booster packs for a library club and learned a lot
@@ -9,6 +9,7 @@ tags:
   - Pokemon
   - Projects
 ---
+
 My wife is helping start a Pokémon club at our library. I thought it would be fun to make a new booster pack each month to give out to the kids. So I started working on September.
 
 ![Green Pokémon Trading Card Game booster pack for September 2025, sealed, containing 10 random cards from the Pokémon Club series.](https://samwarnick.com/media/2025/08/2025-08-04-making-my-own-pokemon-booster-packs1.jpeg)
