@@ -82,7 +82,7 @@ function generateSvg(title, dataUrl) {
     })
     .join("\n    ");
 
-  return `<?xml version="1.0" encoding="UTF-8"?>
+  return html`<?xml version="1.0" encoding="UTF-8"?>
 <svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -102,17 +102,17 @@ function generateSvg(title, dataUrl) {
       </feMerge>
     </filter>
   </defs>
-  
+
   <image href="${dataUrl}" width="1200" height="630" preserveAspectRatio="xMidYMid slice"/>
-  
+
   <rect width="1200" height="630" fill="#575279" opacity="0.5" style="mix-blend-mode: overlay"/>
-  
+
   <rect width="1200" height="630" fill="url(#gradient)"/>
-  
-  <text 
-    font-family="Calistoga" 
-    font-size="${fontSize}" 
-    fill="#faf4ed" 
+
+  <text
+    font-family="Calistoga"
+    font-size="${fontSize}"
+    fill="#faf4ed"
     filter="url(#textShadow)">
     ${tspans}
   </text>
