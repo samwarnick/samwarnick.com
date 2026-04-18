@@ -3,10 +3,30 @@
     "year": 2026,
     "books": [
       {
+        "id": "BFD9AAA5-7A16-4FAD-B789-CE70FF84317B",
+        "isbn": "9781959001409",
+        "googleId": "W_av0AEACAAJ",
+        "title": "Uncrowned",
+        "author": "Will Wight",
+        "startedReading": "2026-04-14",
+        "finishedReading": "2026-04-18",
+        "didNotFinish": ""
+      },
+      {
+        "id": "0333E7E2-E906-4C78-B023-6EFC59F4BE8E",
+        "isbn": "9781959001300",
+        "googleId": "imYa0AEACAAJ",
+        "title": "Underlord",
+        "author": "Will Wight",
+        "startedReading": "2026-04-10",
+        "finishedReading": "2026-04-14",
+        "didNotFinish": ""
+      },
+      {
         "id": "278335F7-8E20-4812-AD48-A85AB61096A9",
         "isbn": "9781959001270",
         "googleId": "AbsY0AEACAAJ",
-        "title": "Ghostwater (6x9 Trade Hardcover)",
+        "title": "Ghostwater",
         "author": "Will Wight",
         "startedReading": "2026-02-01",
         "finishedReading": "2026-04-09",
