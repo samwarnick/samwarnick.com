@@ -26,6 +26,8 @@ const DEFAULT_BACKGROUNDS = [
 ];
 const FONT = join(FONTS_PATH, "LeagueSpartan-ExtraBold.ttf");
 
+const html = (strings, ...values) => String.raw({ raw: strings }, ...values);
+
 function wrapText(text, maxWidth = 1040, fontSize = 100) {
   const words = text.split(" ");
   const lines = [];
