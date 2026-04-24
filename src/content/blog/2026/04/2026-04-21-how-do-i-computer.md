@@ -1,8 +1,8 @@
 ---
 title: How Do I Computer
-date: '2026-04-21T08:32'
+date: "2026-04-21T08:32"
 published: true
-summary: 'My setup, tools, and the way my brain works when I''m thinking about code.'
+summary: "My setup, tools, and the way my brain works when I'm thinking about code."
 tags:
   - April 2026 Blog Challenge
   - Uses
@@ -51,9 +51,9 @@ For week 2, Dave chose the prompt:
 
 My friends' posts this week:
 
-- [Carter](https://carter.works/)
-- [Dave](https://catskull.net/)
-- [Jared](https://jaredezz.tech/)
+- [Carter](https://carter.works/blog/2026-04-21-a-totally-objective-ranking-of-configuration-languages/)
+- [Dave](https://catskull.net/how-i-compute-2026.html)
+- [Jared](https://jaredezz.tech/posts/fantastic-computers-and-where-to-find-them/)
 
 [^1]: Time to switch to [Fossil](https://fossil-scm.org/home/doc/trunk/www/index.wiki)?
 
