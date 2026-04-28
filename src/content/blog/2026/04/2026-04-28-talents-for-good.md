@@ -25,6 +25,6 @@ For week 4, Carter chose the prompt:
 
 My friends' posts this week:
 
-- [Carter](https://carter.works/blog/)
-- [Dave](https://catskull.net/)
+- [Carter](https://carter.works/blog/2026-04-28-get-small-muchachos/)
+- [Dave](https://catskull.net/doing-the-most-good.html)
 - [Jared](https://jaredezz.tech/)
