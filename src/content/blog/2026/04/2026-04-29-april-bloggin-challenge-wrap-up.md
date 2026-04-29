@@ -1,5 +1,5 @@
 ---
-title: April Bloggin Challenge Wrap-Up
+title: April Blogging Challenge Wrap-Up
 date: '2026-04-29T10:09'
 published: true
 summary: Blogging with friends.
