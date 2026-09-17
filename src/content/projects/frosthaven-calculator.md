@@ -6,4 +6,4 @@ My brother's gaming group wanted a calculator for Frosthaven. Honestly, I'm not 
 
 Made with [Alpine.js](https://alpinejs.dev) and [PicoCSS](https://picocss.com) using the offical [Gloomhaven font](https://boardgamegeek.com/thread/1733586/files-for-creation).
 
-[Check it out!](https://frosthaven-calc.netlify.app)
+[Check it out!](https://frosthaven-calc.samwarnick.com)
