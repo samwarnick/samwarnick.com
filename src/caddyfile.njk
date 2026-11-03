@@ -24,6 +24,7 @@ header Cache-Control "public, max-age=2592000, immutable"
 
 redir /feed.rss /rss.xml permanent
 redir /styleguide /site/#styleguide permanent
+redir /random /functions/random
 {{ '\n' }}
 {%- for post in collections.posts -%}
     {%- if post.data.oldUrl -%}
